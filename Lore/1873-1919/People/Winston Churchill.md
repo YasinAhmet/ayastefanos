@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **16** sources on **85** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[ChurchillGeorge0001.jpg|320]]
-*ChurchillGeorge0001* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Sir Winston Churchill - 19086236948 (restored).jpg|320]]
+*The Roaring Lion, 1941* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -146,13 +149,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 9|9]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Winston_Churchill) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Winston_Churchill)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Sir Winston Churchill - 19086236948 (restored).jpg|480]]
+*The Roaring Lion, 1941*
+
+![[Winston Churchill C3519635.jpg|480]]
+*Winston Churchill C3519635*
+
 ![[ChurchillGeorge0001.jpg|480]]
 *ChurchillGeorge0001*
+
+![[Sir Winston Churchill - 19086236948.jpg|480]]
+*Sir Winston Churchill - 19086236948*
 
 ## Related
 

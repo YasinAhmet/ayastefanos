@@ -12,9 +12,12 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1876–1878 · Found in **26** sources on **214** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Kanun-i Esasi.jpg|320]]
-*Kanun-i Esasi* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Opening ceremony of the First Ottoman Parliament at the Dolmabahce Palace in 1876.jpg|320]]
+*Meclisin açılış töreni, Dolmabahçe Sarayı, 1876.* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -182,16 +185,28 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/First_Constitutional_Era) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Birinci_Me%C5%9Frutiyet)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Opening ceremony of the First Ottoman Parliament at the Dolmabahce Palace in 1876.jpg|480]]
+*Meclisin açılış töreni, Dolmabahçe Sarayı, 1876.*
 
 ![[Kanun-i Esasi.jpg|480]]
 *Kanun-i Esasi*
 
 ![[A Sitting of the New Turkish Parliament at Constantinople - ILN 1877.jpg|480]]
 *A Sitting of the New Turkish Parliament at Constantinople - ILN 1877*
+
+![[MehmedKani.jpg|480]]
+*Mehmed Kani Pasha, member of the first Ottoman Parliament.*
+
+![[Opening of the Turkish Parliament by the Sultan, at the Palace of Dolma-Bagtche, Constantinople - ILN 1877.jpg|480]]
+*Opening of the Turkish Parliament by the Sultan, at the Palace of Dolma-Bagtche, Constantinople - ILN 1877*
 
 ![[London news c1877 - scanned constantinopole(1996)-Opening of the first parlement.png|480]]
 *Meclis-i Mebusan'ın açılışı, 1876.*

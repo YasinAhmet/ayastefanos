@@ -10,6 +10,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **14** sources on **63** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Hans von Wangenheim.jpg|320]]
+*Baron Hans von Wangenheim* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Baron Hans von Wangenheim was the German ambassador in [[İstanbul]]. His telegram defined the purpose of the [[Liman von Sanders]] mission (Sanders). In August 1914 Halil Bey proposed that the Ottomans 'buy' the *Goeben* and *Breslau*, and after some hesitation Wangenheim agreed (Talat's memoir). He also said the ships could not be sold without the Kaiser's approval (Erdinç). Mantran (French view) says [[Berlin]]'s bargaining with the Porte went through him. [[Cemal Paşa]] believed Wangenheim knew of his own efforts for a Franco-Turkish alliance. The German army was, in his view, the decisive element in the empire (Durgun). Gürün says he regretted the orders against the Armenians as harmful to Germany, but still told his consuls not to interfere. The video transcripts quote him predicting that the Turks' morale would give out. Ortaylı notes that German diplomats like him supported Zionist immigration.
@@ -139,6 +146,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Balkan Savaşı Günlüğü (Gustav von Hochwächter)|Hochwächter, *Balkan Savaşı Günlüğü*]]** (German, 2 ps): [[Balkan Savaşı Günlüğü (Gustav von Hochwächter)#p. 134|134]] · [[Balkan Savaşı Günlüğü (Gustav von Hochwächter)#p. 142|142]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 2 ps): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 454|454]] · [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 500|500]]
 - **[[Balkan Harbi'nde Ulaştırma (Bülent Durgun)|Durgun, *Balkan Harbi'nde Ulaştırma*]]** (Turkish, 1 p): [[Balkan Harbi'nde Ulaştırma (Bülent Durgun)#p. 81|81]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Hans_von_Wangenheim) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Hans_Freiherr_von_Wangenheim)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Hans von Wangenheim.jpg|480]]
+*Baron Hans von Wangenheim*
 
 ## Related
 

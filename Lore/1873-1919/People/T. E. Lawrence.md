@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **13** sources on **218** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Lcamel.jpg|320]]
-*Lcamel* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Te lawrence.jpg|320]]
+*Lawrence in 1918* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -122,10 +125,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 387|387]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/T._E._Lawrence) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Thomas_Edward_Lawrence)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Te lawrence.jpg|480]]
+*Lawrence in 1918*
 
 ![[Lcamel.jpg|480]]
 *Lcamel*

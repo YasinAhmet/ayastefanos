@@ -19,6 +19,9 @@ tags: [faction, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The Young Turks (*Jön Türkler*) were the constitutionalist opposition to [[Abdülhamid II]]. Erdinç dates the 'second Young Turk movement' to 1889–1908. Their revolution of 1908 brought a wind of freedom (Akşin; see [[Young Turk Revolution (1908)]]). Decentralisation passed from Midhat to Young Turks such as Prince Sabahaddin (Ortaylı). Trotsky (Russian view) records how quickly discontent with them grew, and how the counter-revolution of April 1909 was crushed. Nicolle (British view) traces Ottoman entry into the World War back to 1908, which brought a group of mostly officers to power. Arab nationalism grew in reaction to them after 1908 (Murphy).
@@ -261,6 +264,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 1 p): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 52|52]]
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 98|98]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 10|10]]
+
+
+
 
 
 

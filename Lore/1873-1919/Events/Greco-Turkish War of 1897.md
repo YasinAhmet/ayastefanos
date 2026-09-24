@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The Greco-Turkish War of 1897 was an Ottoman victory under Ethem Paşa at Pharsala, Velestino and Domokos (Dömeke) (Hochwächter). Ethem's small army acted on Moltke's principles. Refik Bey married a daughter of 'Domokos hero' Gazi Ethem Paşa (Bardakçı). The Red Crescent ran hospitals for the wounded and refugees (Yalman). Durgun says that in the Balkan War the army could not even match its 1897 performance, and no reform was made in the eleven years after. The Kaiser's second visit came after it, in 1898 (video transcripts).
@@ -81,6 +84,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -91,6 +97,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Le petit journal 1897.jpg|480]]
 *The Greco-Turkish war of 1897 on the cover of Le Petit Journal*
+
+![[Timoleon Vassos and son, Crete 1897.jpg|480]]
+*Colonel Timoleon Vassos and his son at the Greek headquarters in Crete*
 
 ![[L'affaire de Melouna.jpg|480]]
 *The first skirmishes at the Melouna border post, Le Petit Journal*

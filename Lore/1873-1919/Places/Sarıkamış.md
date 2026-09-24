@@ -10,6 +10,13 @@ tags: [place, "1873-1919"]
 
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **21** sources on **130** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Sarikamish market (1916).png|320]]
+*Sarikamish market in March 1916* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Sarıkamış, near [[Kars]], was the scene of the disastrous [[Sarıkamış Operation (1914-1915)]]. The attack began on 18 December 1914 and ended in a fiasco on 10 January 1915 (Akşin). [[Cemal Paşa]] says it destroyed the Caucasus army. The public only learned the details seven years later, in 1922, from the articles of a staff officer (Hakkı Paşa). Neyzi lists it with Çanakkale and the Arab provinces as places where hundreds of thousands died. Later Atatürk was received at an official dinner there ([[Kılıç Ali]]).
@@ -162,6 +169,28 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Balkan Harbi'nde Ulaştırma (Bülent Durgun)|Durgun, *Balkan Harbi'nde Ulaştırma*]]** (Turkish, 1 p): [[Balkan Harbi'nde Ulaştırma (Bülent Durgun)#p. 200|200]]
 - **[[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)|Yalman, *Birinci Dünya Savaşı'nda Türkiye*]]** (Turkish, 1 p): [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 382|382]]
 - **[[Son Meşrutiyet (Sina Akşin)|Akşin, *Son Meşrutiyet*]]** (Turkish, 1 loc): [[Son Meşrutiyet (Sina Akşin)#loc. 150|150]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Sar%C4%B1kam%C4%B1%C5%9F) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Sar%C4%B1kam%C4%B1%C5%9F)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Sarikamish market (1916).png|480]]
+*Sarikamish market in March 1916*
+
+![[Upper Sarikamish (1916).png|480]]
+*Upper Sarikamish in March 1916*
+
+![[Turkey adm location map.png|480]]
+*Turkey adm location map*
+
+![[Sarikamish-Atatürk monument.jpg|480]]
+*Sarikamish-Atatürk monument*
+
+![[Latrans-Turkey location Kars.png|480]]
+*Latrans-Turkey location Kars*
 
 ## Related
 

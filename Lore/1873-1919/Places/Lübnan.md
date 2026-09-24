@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **30** sources on **319** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[BashirChehab.jpg|320]]
-*Painting of the Emir of Mount Lebanon Bashir II* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[General view, Mount Hermon, Holy Land (i.e., Lebanon and Syria)-LCCN2002725038.jpg|320]]
+*General view, Mount Hermon, Holy Land (i.e., Lebanon and Syria)-LCCN2002725038* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -233,19 +236,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 186|186]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mount_Lebanon_Mutasarrifate) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Cebel-i_L%C3%BCbnan_Sanca%C4%9F%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[General view, Mount Hermon, Holy Land (i.e., Lebanon and Syria)-LCCN2002725038.jpg|480]]
+*General view, Mount Hermon, Holy Land (i.e., Lebanon and Syria)-LCCN2002725038*
+
+![[Map of Mount Lebanon Sanjak Circa 1900.jpg|480]]
+*Map of Mount Lebanon Sanjak Circa 1900*
+
 ![[BashirChehab.jpg|480]]
 *Painting of the Emir of Mount Lebanon Bashir II*
 
+![[Mount Lebanon, Ottoman Syria 1914.png|480]]
+*Mount Lebanon, Ottoman Syria 1914*
+
+![[Muhammad Ali Paşa and Emir Bashir II.jpg|480]]
+*Muhammad Ali Pasha and Bashir II*
+
 ![[Bashir Shihab's last will.png|480]]
 *Bashir II Shihab's last will*
-
-![[Borsos Lebanon Emir 1843.jpg|480]]
-*Emir of Lebanon, by József Borsos, 1843*
 
 ## Related
 

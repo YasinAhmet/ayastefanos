@@ -18,6 +18,9 @@ tags: [concept, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 Refugees (*muhacir*) poured into Anatolia from lost lands. Mantran (French view) says their arrival changed Anatolia's human geography and economy. The state encouraged them to settle along the railway (Ortaylı, 1908). Balkan refugees helped create a more homogeneous population (Akşin). Emrence notes conflicts between newcomers and locals, such as Muslims settled near Ayvalık. Tonguç met a refugee from Narman who had left family in enemy hands. Western Thrace refugees were resettled after 1922 (Goloğlu). Reisman (American view) describes a different wave: German refugees from Nazism watched by the Nazi regime.
@@ -319,6 +322,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -329,6 +335,15 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Bulgaristan'dan göç eden Türkler (1912).jpg|480]]
 *Turkish immigrants from Bulgaria arriving in Anatolia in 1912*
+
+![[Muhajir.jpg|480]]
+*Muhacirs arriving in Istanbul crossing the Galata Bridge, Ottoman Empire, in 1912, with the New Mosque in the background*
+
+![[Türkiye’ye göç eden bir Kıbrıslı Türk ailesi (1930).jpg|480]]
+*A Turkish Cypriot family who migrated to Turkey in 1935*
+
+![[Mübadil GENCER Ailesi-(1923).jpg|480]]
+*A Muslim family from Crete who settled in Smyrna (currently Izmir), 1923*
 
 ![[Ada-Kaleh.jpg|480]]
 *An Ottoman exclave until 1923, the island of Ada Kaleh was flooded by the building of the Iron Gates Dam in 1971, forcing its inhabitants to migrate to different parts of Romania as well as Turkey.*

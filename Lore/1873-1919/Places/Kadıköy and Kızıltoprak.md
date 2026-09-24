@@ -16,6 +16,9 @@ tags: [place, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Kadıköy, Moda and Kızıltoprak are neighbourhoods on [[İstanbul]]'s Asian shore. In November 1918 [[Kara Kemal]] saw the CUP leaders off from the Moda shore (Erdinç). The Unionists had a Kızıltoprak branch (Neyzi). The [[English Friendship Society]]'s Kadıköy branch planned an English college in the old German school (Akşin). Sorguç was sent from the Kadıköy recruiting office in 1916.
@@ -219,6 +222,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 45|45]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -238,9 +244,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Barış Manço’nun Evi.jpg|480]]
 *Barış Manço’nun Evi*
-
-![[Kadıköy Belediyesi logo.png|480]]
-*Kadıköy Belediyesi logo*
 
 ## Related
 

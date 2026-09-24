@@ -13,9 +13,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1867–1915 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **10** sources on **24** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[1920 08 26 Serveti Funun Tevfik Fikret.jpg|320]]
-*1920 08 26 Serveti Funun Tevfik Fikret* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Tevfik Fikret.jpg|320]]
+*Tevfik Fikret* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -100,10 +103,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Mahşerin İki Gemisi - Part II (Video transcript)|Video, *Mahşerin İki Gemisi - Part II*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 1|1]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Tevfik_Fikret) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Tevfik_Fikret)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Tevfik Fikret.jpg|480]]
+*Tevfik Fikret*
+
+![[Tevfikfikret.jpg|480]]
+*Tevfikfikret*
 
 ![[1920 08 26 Serveti Funun Tevfik Fikret.jpg|480]]
 *1920 08 26 Serveti Funun Tevfik Fikret*

@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **33** sources on **216** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Al-Masjid An-Nabawi (Bird's Eye View).jpg|320]]
-*Al-Masjid An-Nabawi (Bird's Eye View)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[General view of Medina around 1880.jpg|320]]
+*General view of Medina around 1880* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -224,13 +227,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 40|40]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Medina) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Medine)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[General view of Medina around 1880.jpg|480]]
+*General view of Medina around 1880*
+
+![[Medina Güterbahnhof und Werkstätten. LCCN2002714727.jpg|480]]
+*Medina Güterbahnhof und Werkstätten. LCCN2002714727*
+
 ![[Al-Masjid An-Nabawi (Bird's Eye View).jpg|480]]
 *Al-Masjid An-Nabawi (Bird's Eye View)*
+
+![[Quba Mosque - panoramio.jpg|480]]
+*Quba Mosque - panoramio*
 
 ![[Al-Baqi Cemetery 2021.jpg|480]]
 *Al-Baqi Cemetery 2021*

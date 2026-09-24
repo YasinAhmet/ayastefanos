@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **53** sources on **553** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Istanbul and Bosporus big.jpg|320]]
-*Satellite image of the Bosphorus, taken from the International Space Station in April 2004. The body of water at the top is the Black Sea, the one at the bottom is the Sea of Marmara, and the Bosphorus is the winding ver* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[(Bosphorus (i.e., Bosporus), view from Kuleli, Constantinople, Turkey) LOC 4210447005.jpg|320]]
+*(Bosphorus (i.e., Bosporus), view from Kuleli, Constantinople, Turkey) LOC 4210447005* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -308,13 +311,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 164|164]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Turkish_Straits) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Bo%C4%9Fazlar_Sorunu)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[(Bosphorus (i.e., Bosporus), view from Kuleli, Constantinople, Turkey) LOC 4210447005.jpg|480]]
+*(Bosphorus (i.e., Bosporus), view from Kuleli, Constantinople, Turkey) LOC 4210447005*
+
 ![[Istanbul and Bosporus big.jpg|480]]
 *Satellite image of the Bosphorus, taken from the International Space Station in April 2004. The body of water at the top is the Black Sea, the one at the bottom is the Sea of Marmara, and the Bosphorus is the winding ver*
+
+![[Locator map of Turkey.png|480]]
+*Locator map of Turkey*
+
+![[Turkish Strait disambig.png|480]]
+*The Bosphorus (red), the Dardanelles (yellow), and the Sea of Marmara in between, are known collectively as the Turkish straits*
 
 ![[1915 Çanakkale Bridge1.jpg|480]]
 *The 1915 Çanakkale Bridge on the Dardanelles strait, connecting Europe and Asia, is the longest suspension bridge in the world.3*

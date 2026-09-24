@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **47** sources on **399** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Cathedral Saint Alexander Nevsky (23997180108).jpg|320]]
-*Cathedral Saint Alexander Nevsky (23997180108)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Sofia-Zlatarskata charshiya.jpg|320]]
+*Sofia-Zlatarskata charshiya* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -270,19 +273,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çariçe Katerina (Robert K. Massie)|Massie, *Çariçe Katerina*]]** (American, 1 p): [[Çariçe Katerina (Robert K. Massie)#p. 474|474]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Sofia) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Sofya)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Sofia-Zlatarskata charshiya.jpg|480]]
+*Sofia-Zlatarskata charshiya*
+
 ![[Cathedral Saint Alexander Nevsky (23997180108).jpg|480]]
 *Cathedral Saint Alexander Nevsky (23997180108)*
+
+![[Panoramic view over central Sofia and the Vitosha Mountain 2017-10-08.jpg|480]]
+*Panoramic view over central Sofia and the Vitosha Mountain 2017-10-08*
 
 ![[Ivan Vazov National Theatre, Sofia.jpg|480]]
 *Ivan Vazov National Theatre, Sofia*
 
 ![[Independence square, Sofia (2).jpg|480]]
 *Independence square, Sofia (2)*
+
+![[Royal Palace Sofia.jpg|480]]
+*Royal Palace Sofia*
 
 ## Related
 

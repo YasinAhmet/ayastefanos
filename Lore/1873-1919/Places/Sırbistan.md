@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **35** sources on **353** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Felix Romuliana 1.jpg|320]]
-*Ruins of the Felix Romuliana, imperial palace of the Emperor Galerius, 298 AD* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Landing Place and Cathedral, Belgrade, Servia WDL2607.png|320]]
+*Landing Place and Cathedral, Belgrade, Servia WDL2607* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -245,13 +248,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 119|119]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Serbia) · [TR Wikipedia](https://tr.wikipedia.org/wiki/S%C4%B1rbistan)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Landing Place and Cathedral, Belgrade, Servia WDL2607.png|480]]
+*Landing Place and Cathedral, Belgrade, Servia WDL2607*
+
 ![[Felix Romuliana 1.jpg|480]]
 *Ruins of the Felix Romuliana, imperial palace of the Emperor Galerius, 298 AD*
+
+![[Vinca clay figure 02.jpg|480]]
+*Vinča culture figurine, 4000–4500 BC*
+
+![[Stephan Dusan Coronation Paja Jovanovic.png|480]]
+*Coronation of Stefan Dušan as Emperor of the Serbs in 1346*
 
 ## Related
 

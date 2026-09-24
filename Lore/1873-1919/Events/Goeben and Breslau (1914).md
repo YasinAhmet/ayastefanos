@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The German warships *Goeben* and *Breslau* escaped into the Dardanelles in early August 1914 after bombarding French North Africa (Mantran). They entered Turkish waters on 11 August (Yalman). The Ottomans claimed to have 'bought' them to replace the ships Britain had seized, renaming them *Yavuz Sultan Selim* and *Midilli* (Mantran). [[Cemal Paşa]] describes the problem they posed for a state that had declared neutrality. Under [[Wilhelm Souchon]] they bombarded Russian ports on 29 October 1914, bringing the empire into the war (Hakkı Paşa).
@@ -189,6 +192,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -202,6 +208,12 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Inseguimento della Goeben e della Breslau.png|480]]
 *Routes taken by the combatants.*
+
+![[SMS Breslau 2.jpg|480]]
+*The German light cruiser SMS Breslau.*
+
+![[SMS Goeben.jpg|480]]
+*SMS Goeben*
 
 ![[AdmiralArchibaldMilne.jpg|480]]
 *Admiral Milne*

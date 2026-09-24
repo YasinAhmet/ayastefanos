@@ -13,9 +13,12 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** Dec 1915 – April 1916 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **6** sources on **15** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Kiazim Karabekir Bey at Kut in 1916.jpg|320]]
-*Kiazim Karabekir Bey at Kut in 1916* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Townshend, Khalil Pasha after Fall of Kut.jpg|320]]
+*Townshend, Khalil Pasha after Fall of Kut* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -91,10 +94,16 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Siege_of_Kut) · [TR Wikipedia](https://tr.wikipedia.org/wiki/K%C3%BBt%27%C3%BCl-Am%C3%A2re_Ku%C5%9Fatmas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Townshend, Khalil Pasha after Fall of Kut.jpg|480]]
+*Townshend, Khalil Pasha after Fall of Kut*
 
 ![[Kiazim Karabekir Bey at Kut in 1916.jpg|480]]
 *Kiazim Karabekir Bey at Kut in 1916*
@@ -104,6 +113,12 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Mesopotamian campaign 6th Army Siege of Kut.png|480]]
 *The siege by Ottoman 6th Army forces*
+
+![[Townshend, Khalil Pasha after Fall of Kut B.jpg|480]]
+*Townshend, Khalil Pasha after Fall of Kut B*
+
+![[Middle East location map2.png|480]]
+*Middle East location map2*
 
 ## Related
 

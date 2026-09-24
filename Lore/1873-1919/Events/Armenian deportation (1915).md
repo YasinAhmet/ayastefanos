@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The 1915 deportation (*tehcir*) of Armenians is the most sensitive subject in the vault. Bardakçı publishes [[Talat Paşa]]'s own records ('the black book') and argues that writers on both sides lacked access to the architect's papers. He prints the Interior Minister's orders of 24 April 1915 to provinces including [[Erzurum]], [[Adana]] and [[Ankara]]. Deportations in Syria took place in 1916 (Erdinç). After the war, tribunals tried officials: Kemal Bey of Boğazlıyan and Nusret Bey of Bayburt were executed (video transcripts; Akşin; see [[Unionist trials (1919-1920)]]).
@@ -217,6 +220,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -228,11 +234,17 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Marcharmenians.jpg|480]]
 *Osmanlı askerleri eşliğinde Harput'tan Mezire (günümüzde Elâzığ) yakınındaki bir hapishaneye götürülen Ermeni savaş esirleri ve iş birlikçi olduğundan şüphelenilen kişiler. Nisan 1915*
 
+![[Six Vilayets, Ottoman Empire (1900).png|480]]
+*The Six Vilayets: Bitlis, Diyarbekir, Erzerum, Harput, Sivas and Van. Most villages populated by Armenians were in these provinces.5*
+
 ![[Looting of an Armenian village by the Kurds.png|480]]
 *"Looting of an Armenian village by the Kurds", 1898 or 1899*
 
 ![[AdanaChristianQuarter.jpg|480]]
 *The Armenian quarter of Adana after the 1909 massacres*
+
+![[Phocaea massacre Sartiaux.jpg|480]]
+*Muslim bandits parading with loot in Phocaea (modern-day Foça, Turkey) on 13 June 1914. In the background are Greek refugees and burning buildings.*
 
 ## Related
 

@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **46** sources on **524** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Istanbul asv2020-02 img46 Galata Bridge and Tower.jpg|320]]
-*Istanbul asv2020-02 img46 Galata Bridge and Tower* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Galata Bridge tif.jpg|320]]
+*Galata Bridge tif* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -280,10 +283,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 226|226]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Beyo%C4%9Flu) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Beyo%C4%9Flu)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Galata Bridge tif.jpg|480]]
+*Galata Bridge tif*
+
+![[Occupation of Constantinople 3.jpg|480]]
+*Occupation of Constantinople 3*
 
 ![[Istanbul asv2020-02 img46 Galata Bridge and Tower.jpg|480]]
 *Istanbul asv2020-02 img46 Galata Bridge and Tower*
@@ -296,9 +308,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Beyoğlu City Hall, June 2021.jpg|480]]
 *Beyoğlu City Hall, June 2021*
-
-![[Istanbul asv2021-11 img71 StAnthony of Padua Church.jpg|480]]
-*Istanbul asv2021-11 img71 StAnthony of Padua Church*
 
 ## Related
 

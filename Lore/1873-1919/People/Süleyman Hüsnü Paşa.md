@@ -10,6 +10,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **12** sources on **21** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Suleymanpasa.jpg|320]]
+*Photograph c. 1870s* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Süleyman Hüsnü Paşa was a commander in the Russo-Turkish War (1877-1878) and an early Turkist. The video transcripts call him one of the first Turkists; he was later tried in court for the war. While shaping the programme of the military schools, he wrote *Tarih-i Âlem* to show the place of the ancient Turks in history. Toprak and Akşin name him with [[Ahmed Vefik Paşa]] as the first leaders of cultural Turkism. Hobart-Hampden (British view) recalls his 40,000 men being shipped from the Albanian coast to Salonika.
@@ -93,6 +100,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 241|241]]
 - **[[Son Meşrutiyet (Sina Akşin)|Akşin, *Son Meşrutiyet*]]** (Turkish, 1 loc): [[Son Meşrutiyet (Sina Akşin)#loc. 351|351]]
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 582|582]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/S%C3%BCleyman_H%C3%BCsn%C3%BC_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/S%C3%BCleyman_H%C3%BCsn%C3%BC_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Suleymanpasa.jpg|480]]
+*Photograph c. 1870s*
+
+![[Suleyman Husnu.jpg|480]]
+*Suleyman Husnu*
 
 ## Related
 

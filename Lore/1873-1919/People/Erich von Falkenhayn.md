@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Erich von Falkenhayn was Chief of the German General Staff until 1916, and then commander of the [[Yıldırım Army Group]] in Syria and Palestine. On 4 June 1916 he asked for a Turkish corps for the Galician front (Yazman). Earlier he had told the Ottomans that Turkish units needed rest after Gallipoli. Gold from Germany was sent for his army group (Erdinç). [[Cemal Paşa]] blamed him for losing the Gaza–Beersheba front, and he warned Hindenburg and Ludendorff against Falkenhayn's plans. Mustafa Kemal is said to have called him 'a plague created by God to torment us' (video transcripts). The Seventh Army was defeated near Nablus under him (Kansu).
@@ -111,6 +114,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 3 ps): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 303|303]] · [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 304|304]] · [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 356|356]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 2 locs): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 8|8]] · [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 16|16]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 2 ps): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 451|451]] · [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 453|453]]
+
+
+
 
 
 ## Images

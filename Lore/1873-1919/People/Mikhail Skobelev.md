@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **1** sources on **2** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[General Skobelev (Dimitriev-Orenburgsky).jpg|320]]
-*General Skobelev (Dimitriev-Orenburgsky)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Skobelev, Michel, par Serge Levitsky, BNF Gallica.jpg|320]]
+*Portrait by Sergey Lvovich Levitsky, 1881* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -45,10 +48,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Balkan Savaşları (Troçki) (Leon Trotsky)|Trotsky, *Balkan Savaşları (Troçki)*]]** (Russian, 2 locs): [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 235|235]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 385|385]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mikhail_Skobelev) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mihail_Skobelev)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Skobelev, Michel, par Serge Levitsky, BNF Gallica.jpg|480]]
+*Portrait by Sergey Lvovich Levitsky, 1881*
 
 ![[General Skobelev (Dimitriev-Orenburgsky).jpg|480]]
 *General Skobelev (Dimitriev-Orenburgsky)*

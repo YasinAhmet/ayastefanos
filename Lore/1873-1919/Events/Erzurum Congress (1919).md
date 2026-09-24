@@ -12,9 +12,12 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** from 23 July 1919 · Found in **12** sources on **174** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Erzurum Kongresi Beyannamesi.jpg|320]]
-*Kongre beyannamesinin orijinal metni.* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Mustafa Kemal Paşa, Erzurum, 5 Temmuz 1919.png|320]]
+*Mustafa Kemal Paşa, Erzurum, 5 Temmuz 1919* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -139,10 +142,16 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Erzurum_Congress) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Erzurum_Kongresi)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mustafa Kemal Paşa, Erzurum, 5 Temmuz 1919.png|480]]
+*Mustafa Kemal Paşa, Erzurum, 5 Temmuz 1919*
 
 ![[Erzurum Kongresi Beyannamesi.jpg|480]]
 *Kongre beyannamesinin orijinal metni.*

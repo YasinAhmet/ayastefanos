@@ -11,9 +11,12 @@ tags: [faction, "1873-1919"]
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **44** sources on **1270** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Bab-i Ali.jpg|320]]
-*Bâb-ı Âli* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Sadrazamlik-nisanlari.png|320]]
+*Osmanlı Sadaret Nişanı* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -285,10 +288,16 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Sublime_Porte) · [TR Wikipedia](https://tr.wikipedia.org/wiki/B%C3%A2b-%C4%B1_%C3%82li)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Sadrazamlik-nisanlari.png|480]]
+*Osmanlı Sadaret Nişanı*
 
 ![[Bab-i Ali.jpg|480]]
 *Bâb-ı Âli*

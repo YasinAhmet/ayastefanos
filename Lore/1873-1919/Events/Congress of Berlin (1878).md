@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The Congress of [[Berlin]] (1878) revised San Stefano. It created the Principality of Bulgaria and autonomous Eastern Rumelia (Ortaylı). Austria took Bosnia 'temporarily' and annexed it in 1908 (Ortaylı). It gave Europe control over the Macedonian question (video transcripts). Cox (American view) says it confirmed reforms. Salisbury returned claiming an 'honourable' treaty (Ryan). Italy came away empty-handed, which later fuelled its claim to Tripoli (Akşin).
@@ -182,6 +185,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -198,6 +204,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Constantinople conference.png|480]]
 *Bulgaria after the Conference of Constantinople, 1876*
+
+![[Sanstefanska Bulgaria.png|480]]
+*Bulgaria after the Treaty of San Stefano, 1878*
 
 ![[Ernst-Ravenstein-Balkans-Ethnic-Map-1880.jpg|480]]
 *Ethnic composition map of the Balkans by the German-English cartographer Ernst Georg Ravenstein of 1870*

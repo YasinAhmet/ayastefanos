@@ -16,6 +16,9 @@ tags: [place, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Kastamonu was a northern Anatolian city. In the 19th century Yezidi leaders were sent there (Ortaylı). In 1919 its acting governor and commander were in dispute over the national movement (Kansu). In the 1921 retreat, the army was said to be falling back on the Kastamonu–[[Ankara]] line (Bardakçı). Argun describes the lovely wooded approach to the town. Örnek records folk customs there.
@@ -225,6 +228,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 69|69]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -238,6 +244,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Kastamonu Belediyesi logo.png|480]]
 *Kastamonu Belediyesi logo*
+
+![[Turkey adm location map.png|480]]
+*Turkey adm location map*
 
 ![[Kaleden Cumhuriyet Meydanı ve Çevresi.jpg|480]]
 *Kaleden Cumhuriyet Meydanı ve Çevresi*

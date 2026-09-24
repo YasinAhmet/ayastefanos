@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The Russian Revolutions of 1917 changed the war in the east. Even the 1905 revolution had influenced the Ottoman border provinces (Akşin). The 1917 revolution threw the Turkic khanates into confusion (Bardakçı) and brought a new wave of refugees to Turkey (Reisman). Black Sea shipping became free again (Yalman). The Russian Church split between exiles in [[Paris]] and New York and the Moscow patriarchate (Ortaylı). [[Kılıç Ali]] visited Moscow for its fifteenth anniversary.
@@ -173,6 +176,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -183,6 +189,15 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[After the capture of the Winter Palace 26 October 1917.jpg|480]]
 *After the capture of the Winter Palace 26 October 1917*
+
+![[Митинг на Невском проспекте (1917).jpg|480]]
+*Митинг на Невском проспекте (1917)*
+
+![[Lavr Kornilov troops lay down their arms.jpg|480]]
+*Clockwise from top left: .mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0*
+
+![[U Narvskikh vorot.jpg|480]]
+*Soldiers blocking Narva Gate on Bloody Sunday*
 
 ![[Lenin in 1920 (cropped).jpg|480]]
 *Lenin in 1920 (cropped)*

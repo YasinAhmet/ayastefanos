@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **8** sources on **46** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Demyan Bedny and Leon Trotsky.jpg|320]]
-*Demyan Bedny and Leon Trotsky* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Leon Trotsky 1918 (3x4 rotated cropped b).jpg|320]]
+*Trotsky in 1918* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 ## Summary
 
@@ -107,10 +110,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 2 locs): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 21|21]] · [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 437|437]]
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 1 p): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 162|162]]
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Leon_Trotsky) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Lev_Tro%C3%A7ki)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Leon Trotsky 1918 (3x4 rotated cropped b).jpg|480]]
+*Trotsky in 1918*
+
+![[Лев Давидович Троцкий.jpg|480]]
+*Лев Давидович Троцкий*
 
 ![[Demyan Bedny and Leon Trotsky.jpg|480]]
 *Demyan Bedny and Leon Trotsky*

@@ -17,6 +17,9 @@ tags: [faction, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 The Hamidiye Regiments were Kurdish tribal cavalry units set up by [[Abdülhamid II]] (Mantran; Yalman). Mantran says they were part of his Kurdish policy to strengthen Muslim solidarity. Yalman says he tolerated tribal chiefs' local independence and organised some as Hamidiye Regiments. Their tribes used legal immunity to seize land (Emrence). Akşin says the policy increased hostility among peoples and led to Hamidiye massacres in the 1890s. Reform plans of 1895 and 1914 called for disarming or converting them to reserve cavalry ([[Cemal Paşa]]'s documents). A survivor, Şahan Natali, said his family was killed by them (Bardakçı).
@@ -88,6 +91,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 291|291]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -95,6 +101,21 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Group of Karapapakh Hamidiyeh Cavalry.jpg|480]]
 *Officers of the Karapapakh Hamidiye cavalry*
+
+![[Serveti funun-1896-09-17-1 Hamidiye Alayi.jpg|480]]
+*17 Eylül 1896 tarihli Servet-i Fünun dergisinde Hamidiye Alaylarından bir fotoğraf.*
+
+![[Lynch Armenia Hamidiye cavalry at village of Gumgum.png|480]]
+*Hamidiye Cavalry*
+
+![[Kurdish Hamidiye officer.png|480]]
+*Kurdish Hamidiye officer*
+
+![[Serveti funun-1897-11-25-1 Trablusgarp Hamidiye Alaylari.jpg|480]]
+*25 Kasım 1897 tarihli Servet-i Fünun dergisinde Trablusgarp Hamidiye Alayları*
+
+![[Serveti funun-1899-02-09-1 Hamidiye Alaylari.jpg|480]]
+*9 Şubat 1899 tarihli Servet-i Fünun dergisinde Hamidiye Alayları*
 
 ## Related
 

@@ -18,6 +18,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 İsmail Enver was the officer-hero of the 1908 revolution and war minister in the [[First World War]]. More than any other figure, he is the man the sources blame and admire for the empire's last war.
@@ -318,6 +321,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 32|32]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -326,8 +332,14 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Enver Pasha 1911.jpg|480]]
 *Enver Bey in 1911*
 
+![[Ismail Enver.jpg|480]]
+*Ismail Enver*
+
 ![[ENPER PASHA WARMINISTER.jpg|480]]
 *ENPER PASHA WARMINISTER*
+
+![[Ismail enver1.jpg|480]]
+*Ismail enver1*
 
 ## Related
 

@@ -12,9 +12,12 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1882 · Found in **5** sources on **28** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Carte d'Égypte, pour suivre les opérations militaires, éditée par l'Armée française et la Petite République française - .jpg|320]]
-*Carte d'Égypte, pour suivre les opérations militaires, éditée par "l'Armée française" et "la Petite République française" - btv1b8438932f* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[VOGT(1883) p245 BOMBARDEMENT OF ALEXANDRIA - JULY 1882.jpg|320]]
+*Bombardment of Alexandria* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -81,13 +84,25 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Anglo-Egyptian_War) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Anglo-M%C4%B1s%C4%B1r_Sava%C5%9F%C4%B1_%281882%29)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[VOGT(1883) p245 BOMBARDEMENT OF ALEXANDRIA - JULY 1882.jpg|480]]
+*Bombardment of Alexandria*
+
+![[VOGT(1883) p247 BATTLE OF TEL-EL-KEBIR (1882).jpg|480]]
+*Tell El Kebir*
+
 ![[Carte d'Égypte, pour suivre les opérations militaires, éditée par l'Armée française et la Petite République française - .jpg|480]]
 *Carte d'Égypte, pour suivre les opérations militaires, éditée par "l'Armée française" et "la Petite République française" - btv1b8438932f*
+
+![[VOGT(1883) ALEXANDRIA AND THE NILE-DELTA.jpg|480]]
+*The Seat of War – Alexandria and the Nile-Delta (1882)*
 
 ## Related
 

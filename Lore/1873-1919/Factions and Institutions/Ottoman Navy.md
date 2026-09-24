@@ -11,9 +11,12 @@ tags: [faction, "1873-1919"]
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **40** sources on **391** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Battlecruiser SMS Goeben transfered to the Ottoman Empire and renamed the Yavuz 1914 (49911053158).jpg|320]]
-*Battlecruiser SMS Goeben transfered to the Ottoman Empire and renamed the Yavuz 1914 (49911053158)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Naval standard of the Ottoman Sultan.png|320]]
+*Naval standard of the Ottoman Sultan* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -265,13 +268,28 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 6|6]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ottoman_Navy) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Osmanl%C4%B1_donanmas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Naval standard of the Ottoman Sultan.png|480]]
+*Naval standard of the Ottoman Sultan*
+
 ![[Battlecruiser SMS Goeben transfered to the Ottoman Empire and renamed the Yavuz 1914 (49911053158).jpg|480]]
 *Battlecruiser SMS Goeben transfered to the Ottoman Empire and renamed the Yavuz 1914 (49911053158)*
+
+![[Piri reis world map 01.jpg|480]]
+*Surviving fragment of the first world map of Ottoman admiral Piri Reis (1513) showing the Atlantic Ocean and the Americas.*
+
+![[Siége de la flotte turc.jpg|480]]
+*During the Siege of Nice in 1543, the combined forces of the Franco-Ottoman alliance managed to capture the city.*
+
+![[Matrakci toulon.jpg|480]]
+*Ottoman fleet wintering at the French port of Toulon in 1543. Miniature by Matrakçı Nasuh, who was travelling with the fleet.*
 
 ## Related
 

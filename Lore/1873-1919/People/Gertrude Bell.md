@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **2** sources on **39** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[BellK 218 Gertrude Bell in Iraq in 1909 age 41.jpg|320]]
-*Gertrude Bell in 1909, visiting archaeological excavations in Babylon* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Gertrude Bell circa 1910.png|320]]
+*Gertrude Bell circa 1910* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -64,13 +67,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Arap İsyanı 1916-1918 (David Murphy)|Murphy, *Arap İsyanı 1916-1918*]]** (Irish, 1 p): [[Arap İsyanı 1916-1918 (David Murphy)#p. 80|80]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Gertrude_Bell) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Gertrude_Bell)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Gertrude Bell circa 1910.png|480]]
+*Gertrude Bell circa 1910*
+
 ![[BellK 218 Gertrude Bell in Iraq in 1909 age 41.jpg|480]]
 *Gertrude Bell in 1909, visiting archaeological excavations in Babylon*
+
+![[Gertrude Bell - Al-Alam, V2, P 115.jpg|480]]
+*Gertrude Bell - Al-Alam, V2, P 115*
 
 ## Related
 

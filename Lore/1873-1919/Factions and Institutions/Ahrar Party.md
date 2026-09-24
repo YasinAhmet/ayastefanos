@@ -11,6 +11,13 @@ tags: [faction, "1873-1919"]
 
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1908– · Found in **12** sources on **41** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Osmanlı Ahrar Fırkası amblem.png|320]]
+*Osmanlı Ahrar Fırkası amblem* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 The Ahrar (Liberal) Party was founded after 1908 by men close to Prince Sabahaddin, who left its presidency empty (Akşin). It inherited his ideas of decentralisation, and minority deputies grouped around it (Mantran). It failed in the elections because the patriarchates and chief rabbinate spoke for their communities (Akşin). Some old Unionists and intellectuals opposed the CUP's one-party rule (Güneş). After 1918 a 'Milli Ahrar' society was reported to send Islamist missions against Britain (Akşin).
@@ -105,6 +112,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları III*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)#p. 829|829]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 461|461]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 250|250]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Liberty_Party_%28Ottoman_Empire%29) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Osmanl%C4%B1_Ahrar_F%C4%B1rkas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Osmanlı Ahrar Fırkası amblem.png|480]]
+*Osmanlı Ahrar Fırkası amblem*
+
+![[Nureddin ferruh.jpg|480]]
+*Nureddin Ferruh Bey, one of the founders*
+
+![[Sevket bey.jpg|480]]
+*Şevket Bey, member and co-founder*
 
 ## Related
 

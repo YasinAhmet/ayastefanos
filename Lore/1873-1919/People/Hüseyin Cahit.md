@@ -18,6 +18,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Hüseyin Cahit (Yalçın) was editor of *Tanin* and seen as the spokesman of the [[Committee of Union and Progress]] (Akşin). He was also a deputy for [[İstanbul]] and chairman of the National Credit Bank. Mantran (French view) shows him leading great rallies with [[Rıza Tevfik]] and [[Halide Edib]], for example to buy warships. He argued that no economic initiative could be protected without a truly national bank (Toprak).
@@ -171,6 +174,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 277|277]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -178,6 +184,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Huseyin cahid.jpg|480]]
 *Huseyin cahid*
+
+![[Serveti funun-1914-04-16-1 Huseyin Cahit.jpg|480]]
+*Serveti funun-1914-04-16-1 Huseyin Cahit*
 
 ![[Huseyincihatbey.jpg|480]]
 *Hüseyin Cahit Bey*

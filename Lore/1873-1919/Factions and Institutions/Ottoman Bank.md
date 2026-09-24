@@ -12,9 +12,12 @@ tags: [faction, "1873-1919"]
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1856– · Found in **27** sources on **145** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[7 Meyerbeer.jpg|320]]
-*7, rue Meyerbeer, the bank's Paris office from 1870 to 1975* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Ottoman Banks Archives and Research Centre.jpg|320]]
+*Bankalar Caddesi 11, the bank's headquarters in Constantinople (Istanbul) from 1892 to 1999* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -198,16 +201,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 429|429]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ottoman_Bank) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Osmanl%C4%B1_Bankas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Ottoman Banks Archives and Research Centre.jpg|480]]
+*Bankalar Caddesi 11, the bank's headquarters in Constantinople (Istanbul) from 1892 to 1999*
+
 ![[7 Meyerbeer.jpg|480]]
 *7, rue Meyerbeer, the bank's Paris office from 1870 to 1975*
 
+![[OttomanThrogmorton.jpg|480]]
+*26 Throgmorton Street (center), designed by architect William Burnet,1 the London seat of the Ottoman Bank from 1872 to 19472*
+
+![[OTTOMAN EMPIRE Banknotes, 20 Kurush ND(1852).jpg|480]]
+*Paper money of the Ottoman Empire (kaime), 1852*
+
 ![[Austen Henry Layard.jpg|480]]
 *Austen Henry Layard (1817–1894) was instrumental in the establishment of the Ottoman Bank in London*
+
+![[Mehmed fuad.jpg|480]]
+*Mehmed Fuad Pasha (1814–1869), a principal Ottoman promoter of the bank's creation*
 
 ## Related
 

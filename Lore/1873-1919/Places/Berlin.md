@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **56** sources on **941** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Berlin - 0266 - 16052015 - Brandenburger Tor.jpg|320]]
-*Berlin - 0266 - 16052015 - Brandenburger Tor* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Berlin Unter den Linden Victoria Hotel um 1900.jpg|320]]
+*Berlin Unter den Linden Victoria Hotel um 1900* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -313,13 +316,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 264|264]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Berlin) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Berlin)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Berlin Unter den Linden Victoria Hotel um 1900.jpg|480]]
+*Berlin Unter den Linden Victoria Hotel um 1900*
+
 ![[Berlin - 0266 - 16052015 - Brandenburger Tor.jpg|480]]
 *Berlin - 0266 - 16052015 - Brandenburger Tor*
+
+![[Museumsinsel Berlin Juli 2021 1 (cropped) b.jpg|480]]
+*Museumsinsel Berlin Juli 2021 1 (cropped) b*
 
 ![[Berlin - Schloss Charlottenburg Reiterstandbild & Schlossturm.jpg|480]]
 *Berlin - Schloss Charlottenburg Reiterstandbild & Schlossturm*
@@ -329,9 +341,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Berlin-Mitte, het Berliner Schloss Dm IMG 5754 2024-09-07 12.46.jpg|480]]
 *Berlin-Mitte, het Berliner Schloss Dm IMG 5754 2024-09-07 12.46*
-
-![[Berliner Dom vor Sonnenuntergang.jpg|480]]
-*Berliner Dom vor Sonnenuntergang*
 
 ## Related
 

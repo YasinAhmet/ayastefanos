@@ -17,6 +17,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Ahmed Vefik Paşa was a statesman, lexicographer and dramatist, born into a family of translators (Ortaylı). As a young official ('Ahmed Efendi') he read [[Abdülmecid I]]'s decree to the Hungarian and Polish refugees at Vidin in September 1849. His dictionary *Lehçe-i Osmanî* made him, with Süleyman Paşa, a founder of cultural Turkism (Toprak; Akşin). Mantran (French view) calls him one of the fathers of Ottoman playwriting; he adapted Molière. He collected proverbs, and [[Ziya Gökalp]] later criticised the insulting ethnic labels in his collection ([[Turkish proverbs]]). He also proposed that the word 'paşa' comes from 'başa' ('elder brother').
@@ -117,6 +120,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kırım Savaşı ve Osmanlılar (Candan Badem)|Badem, *Kırım Savaşı ve Osmanlılar*]]** (Turkish, 1 p): [[Kırım Savaşı ve Osmanlılar (Candan Badem)#p. 392|392]]
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 61|61]]
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 1 p): [[The Armenian File (Kâmuran Gürün)#p. 164|164]]
+
+
+
 
 
 ## Images

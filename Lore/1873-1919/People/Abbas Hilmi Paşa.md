@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Abbas Hilmi Paşa was the last Khedive of Egypt ('the last khedive', Bardakçı). The firman given to him in 1892 caused objections from Britain and Italy over Egypt's borders (Akyıldız). In the [[Italo-Turkish War (1911-1912)]], Mustafa Kemal met him privately in Cairo, won his moral support for the Tripoli struggle, and travelled to the border on his special train ([[Kılıç Ali]]). Allawi (Iraqi view) notes that Egypt's ruling house was among those eyeing the Syrian throne after the war. Note: other men of the same name appear, such as Colonel Abbas Hilmi of Yanbolu in 1920 (Akşin) and a later Prince Abbas Hilmi of the dynasty (Bardakçı).
@@ -94,6 +97,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 2 ps): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 43|43]] · [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 443|443]]
 - **[[Son Osmanlılar (Murat Bardakçı)|Bardakçı, *Son Osmanlılar*]]** (Turkish, 1 p): [[Son Osmanlılar (Murat Bardakçı)#p. 62|62]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 135|135]]
+
+
+
 
 
 ## Images

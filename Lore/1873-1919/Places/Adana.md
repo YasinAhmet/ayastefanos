@@ -16,6 +16,9 @@ tags: [place, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Adana was the chief city of Çukurova (Cilicia). See [[Adana events (1909)]]. After 1909 conditions were normalised and refugees returned home (Akşin). On 21 December 1918 French forces and the Armenian Legion entered Adana, followed by Armenian migration (Akşin). In 1918 Mustafa Kemal received a telegram about taking over the Yıldırım group from [[Liman von Sanders]] at Adana (video transcripts). In 1924 an exhibition was planned there to promote farmers and industry (Güneş).
@@ -273,6 +276,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 17|17]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -292,6 +298,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Adana, Reşatbey Mh., Seyhan-Adana, Turkey - panoramio (39).jpg|480]]
 *Adana, Reşatbey Mh., Seyhan-Adana, Turkey - panoramio (39)*
+
+![[Ulu Cami mosque in Adana9 (34360863926).jpg|480]]
+*Ulu Cami mosque in Adana9 (34360863926)*
 
 ## Related
 

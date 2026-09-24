@@ -12,6 +12,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1868–1926 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **16** sources on **273** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Kara Kemal Bey.jpg|320]]
+*Kara Kemal Bey* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Kemal Bey, called 'Kara' (Black) or 'Saçlı' Kemal, was the Unionists' boss of [[İstanbul]]'s guilds. Zafer Toprak describes him as steward of the porters' guild, the party's responsible secretary for İstanbul, and later minister of supplies. He organised the city's tradesmen into companies: according to Akşin, domestic capital in companies rose from 3% in 1908 to 38% in 1918 (see [[National economy (Milli İktisat)]]). Yalman notes he controlled bread, sugar and paraffin, and the Tradesmen's Society founded in 1913. In Talat's memoir his wartime methods brought 'many rumours of corruption'.
@@ -128,6 +135,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 119|119]]
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 1 p): [[The Armenian File (Kâmuran Gürün)#p. 317|317]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 96|96]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Kara_Kemal) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Kara_Kemal)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Kara Kemal Bey.jpg|480]]
+*Kara Kemal Bey*
 
 ## Related
 

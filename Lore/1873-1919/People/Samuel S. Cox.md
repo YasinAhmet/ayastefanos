@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **1** sources on **3** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Coxturkey.jpg|320]]
-*Coxturkey* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[SSCox.jpg|320]]
+*Cox c. 1870s* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -34,10 +37,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Bir Amerikan Diplomatının İstanbul Anıları (Samuel S. Cox)|Cox, *Bir Amerikan Diplomatının İstanbul Anıları*]]** (American, 3 ps): [[Bir Amerikan Diplomatının İstanbul Anıları (Samuel S. Cox)#p. 5|5]] · [[Bir Amerikan Diplomatının İstanbul Anıları (Samuel S. Cox)#p. 770|770]] · [[Bir Amerikan Diplomatının İstanbul Anıları (Samuel S. Cox)#p. 792|792]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Samuel_S._Cox)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[SSCox.jpg|480]]
+*Cox c. 1870s*
+
+![[Samuel S. Cox 35th Congress 1859.jpg|480]]
+*Samuel S. Cox 35th Congress 1859*
 
 ![[Coxturkey.jpg|480]]
 *Coxturkey*

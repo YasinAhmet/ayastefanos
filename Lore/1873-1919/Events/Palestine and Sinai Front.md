@@ -20,6 +20,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The Palestine and Sinai front ran from the Suez Canal to Gaza and Jerusalem. [[Cemal Paşa]] calls the first defence of Gaza a heroic episode in Ottoman history. Three battles followed at Gaza, the first on 26 March 1917 (Bardakçı). The [[Yıldırım Army Group]] took over the Sinai front and the Jerusalem sanjak (Sanders). Mustafa Kemal criticised German commanders' deals with Arab sheikhs (video transcripts). After defeat the front collapsed in 1918 (see [[Edmund Allenby]]). Sorguç's memoirs and others describe it.
@@ -218,6 +221,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -226,8 +232,20 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Israel in World War I - Ottomans soldiers with machine gun H OP 039.jpg|480]]
 *Israel in World War I - Ottomans soldiers with machine gun H OP 039*
 
+![[The camel corps at Beersheba2.jpg|480]]
+*The camel corps at Beersheba2*
+
+![[Turkish howitzer 10.5cm leFH 98 09 LOC 00121.jpg|480]]
+*Turkish howitzer 10.5cm leFH 98 09 LOC 00121*
+
 ![[1st Herts Yeomanry in the Suez Canal trenches 1915 IWM Q15566.jpg|480]]
 *1st Herts Yeomanry in the Suez Canal trenches 1915 IWM Q15566*
+
+![[Mysore and Bengal Lancers with Bikanir Camel Corps in the Sinai Desert 1915 IWM Q15568.jpg|480]]
+*Mysore and Bengal Lancers with Bikanir Camel Corps in the Sinai Desert 1915 IWM Q15568*
+
+![[Mysore Lancers Memorial (Closeup), Bangalore.jpg|480]]
+*Mysore Lancers Memorial (Closeup), Bangalore*
 
 ## Related
 

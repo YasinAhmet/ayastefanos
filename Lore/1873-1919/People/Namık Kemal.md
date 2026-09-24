@@ -11,6 +11,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1840–1888 · Found in **21** sources on **92** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Namık Kemal 1878-1.1R V01-1.2.jpg|320]]
+*Namık Kemal 1878-1.1R V01-1.2* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Namık Kemal was the poet of *vatan* (homeland) and *hürriyet* (liberty). Mantran (French view) calls him the most exemplary, talented and prolific writer of the [[Tanzimat]]. With [[Ziya Paşa]] he published *Hürriyet* in London, and he was a leader of the [[Young Ottomans]]. Akşin says their ideology was 'homeland and liberty, that is, the ideology of the French Revolution'. Ortaylı places him with Afghani and Rashid Rida among those who argued that the Islamic principle of consultation (*meşveret*) meant parliament.
@@ -168,6 +175,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi (Ali Akyıldız)|Akyıldız, *Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi*]]** (Turkish, 1 p): [[Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi (Ali Akyıldız)#p. 591|591]]
 - **[[Son Osmanlılar (Murat Bardakçı)|Bardakçı, *Son Osmanlılar*]]** (Turkish, 1 p): [[Son Osmanlılar (Murat Bardakçı)#p. 53|53]]
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 269|269]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Nam%C4%B1k_Kemal) · [TR Wikipedia](https://tr.wikipedia.org/wiki/N%C3%A2m%C4%B1k_Kemal)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Namık Kemal 1878-1.1R V01-1.2.jpg|480]]
+*Namık Kemal 1878-1.1R V01-1.2*
+
+![[Namık Kemal-2.jpg|480]]
+*Namık Kemal-2*
+
+![[Namik kemal2.jpg|480]]
+*Namik kemal2*
+
+![[Namık Kemal-3.2 a.jpg|480]]
+*Namık Kemal, Midilli, Ekim 1878.*
 
 ## Related
 

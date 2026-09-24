@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The Greek landing at [[İzmir]] on 15 May 1919 was received by public opinion as 'a slap in the face of Turkey', and caused intense emotion across the country (Mantran, French view). According to Allied sources 300–400 Turks were killed on 15 May, and as the Greek army advanced, Turks faced massacre, rape and destruction (video transcripts). Mustafa Kemal left [[İstanbul]] the day of the occupation and landed at [[Samsun]] on 19 May 1919 ([[Kılıç Ali]]). The occupation sped up the Defence of Rights movement (Akşin), and in the Aydın region soldiers and patriots formed fronts against the Greeks (Kansu). It was also a great shock that saw a pro-British society founded with the Sultan's support (Akşin).
@@ -120,6 +123,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -130,6 +136,18 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Ionia within Greece (1919).png|480]]
 *Ionia within Greece (1919)*
+
+![[State Flag of Greece (1863-1924 and 1935-1973).png|480]]
+*State Flag of Greece (1863-1924 and 1935-1973)*
+
+![[Royal Arms of Greece.png|480]]
+*Royal Arms of Greece*
+
+![[Occupation of Constantinople 3.jpg|480]]
+*Allied troops marching during the Occupation of Constantinople*
+
+![[Treaty of Sèvres 1920.png|480]]
+*Partition of the Ottoman Empire according to the Treaty of Sèvres*
 
 ## Related
 

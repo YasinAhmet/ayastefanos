@@ -10,6 +10,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **11** sources on **53** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Vonsouchonadmiral.jpg|320]]
+*Souchon probably before World War I* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Admiral Wilhelm Souchon commanded the German ships *Goeben* and *Breslau* (see [[Goeben and Breslau (1914)]]). He became commander of the Ottoman fleet on 9 September 1914 (Akşin). On 29 October 1914 he took the ships into the Black Sea and bombarded Odessa and Sevastopol, bringing the [[Ottoman Empire]] into the war ([[Kılıç Ali]]; Hakkı Paşa). Talat heard the news on the eve of the Bayram. His report claimed the Russians had fired first ([[Cemal Paşa]]). Bardakçı quotes a Unionist complaint that Souchon acted 'with a German head' and dragged them into an untimely war. Cavid proposed to dismiss him and tell the Russian ambassador (Erdinç). In 1914 he did not believe Britain and France would try to force the Dardanelles (video transcripts).
@@ -125,6 +132,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 2 ps): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 283|283]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 324|324]]
 - **[[Kılıç Ali'nin Anıları (Kılıç Ali)|Kılıç Ali, *Kılıç Ali'nin Anıları*]]** (Turkish, 1 p): [[Kılıç Ali'nin Anıları (Kılıç Ali)#p. 21|21]]
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 72|72]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Wilhelm_Souchon) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Wilhelm_Souchon)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Vonsouchonadmiral.jpg|480]]
+*Souchon probably before World War I*
+
+![[Wilhelm Anton Souchon.jpeg|480]]
+*Wilhelm Anton Souchon*
+
+![[Wilhelm Anton Souchon, 1917.jpg|480]]
+*Wilhelm Anton Souchon, 1917*
 
 ## Related
 

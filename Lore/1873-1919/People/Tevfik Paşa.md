@@ -13,9 +13,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1845–1936 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **29** sources on **236** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Ahmed Tevfik Pasha.jpg|320]]
-*Ahmed Tevfik Pasha* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Tevfik pasha.jpg|320]]
+*Ahmet Tevfik, c. 1906* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -219,10 +222,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Son Osmanlılar (Murat Bardakçı)|Bardakçı, *Son Osmanlılar*]]** (Turkish, 1 p): [[Son Osmanlılar (Murat Bardakçı)#p. 37|37]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ahmet_Tevfik_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Ahmet_Tevfik_Okday)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Tevfik pasha.jpg|480]]
+*Ahmet Tevfik, c. 1906*
 
 ![[Ahmed Tevfik Pasha.jpg|480]]
 *Ahmed Tevfik Pasha*

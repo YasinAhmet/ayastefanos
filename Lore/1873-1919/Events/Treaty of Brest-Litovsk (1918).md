@@ -17,6 +17,9 @@ tags: [event, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 The Brest-Litovsk peace between the Central Powers and Soviet Russia was signed on 3 March 1918 (Gürün), after an Ottoman–Russian armistice there in December 1917 (Nicolle). It returned [[Kars]], [[Batum]] and Ardahan, lost in 1878, to the Ottomans (Akşin), meeting a key Turkish demand, a return to the pre-1876 borders (Mantran). Talat met Trotsky there and disliked him (Talat's memoir). After Mudros the Ottoman army evacuated these areas in favour of Armenia and Georgia (Akşin).
@@ -125,6 +128,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 368|368]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -135,6 +141,15 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[At the Peace Conference in Brest-Litovsk (arrival of the Russian delegation).jpg|480]]
 *Trotsky being greeted by German officers*
+
+![[Traktat brzeski 1918.jpg|480]]
+*The first page of the treaty in (from left to right) German, Hungarian, Bulgarian, Ottoman Turkish, and Russian*
+
+![[Lev Kamenev arrives at Brest-Litovsk.jpg|480]]
+*Lev Kamenev arriving at Brest-Litovsk*
+
+![[LübA - Sonderdepesche.jpg|480]]
+*Special edition of the Lübeckischen Anzeigen, with the headline as: "Peace with Ukraine"*
 
 ![[German soldiers and Soviet troops gathering together (February 1918).jpg|480]]
 *German and Soviet troops gathering together, February 1918*

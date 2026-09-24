@@ -18,6 +18,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Kıbrıslı (the Cypriot) Mehmed Kâmil Paşa was an old Hamidian grand vizier known as 'pro-English' (Akşin). After the 1908 revolution the [[Committee of Union and Progress]] dropped [[Küçük Said Paşa]] and brought Kâmil in. Talat's memoir notes that Bulgaria's union with Eastern Rumelia and its declaration of independence happened in his time. He was ousted in 1909 and replaced by [[Hüseyin Hilmi Paşa]]. [[Faik Tonguç]], a schoolboy then, describes him visiting with Niyazi and Enver: 'a bag of bones, jaw forever moving, sunk in his armchair'.
@@ -187,6 +190,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 110|110]]
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 292|292]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 11|11]]
+
+
+
 
 
 ## Images

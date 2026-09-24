@@ -12,6 +12,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1884–1919 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **7** sources on **22** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Mehmed Kemal Bey.jpg|320]]
+*Mehmed Kemal Bey* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Mehmed Kemal Bey was the district governor (kaymakam) of Boğazlıyan in Yozgat during the [[Armenian deportation (1915)]]. According to the video transcripts, he was appointed on 15 May 1915 and took up office on 11 June 1915. After the armistice he was tried by the [[İstanbul]] court-martial for his conduct during the deportation and hanged on **10 April 1919** (Akşin). His funeral became a nationalist demonstration. The Grand National Assembly later declared him a 'national martyr'.
@@ -87,6 +94,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 2 ps): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 192|192]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 199|199]]
 - **[[Bir Yedek Subayın Anıları (Faik Tonguç)|Tonguç, *Bir Yedek Subayın Anıları*]]** (Turkish, 1 p): [[Bir Yedek Subayın Anıları (Faik Tonguç)#p. 335|335]]
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 90|90]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmed_Kemal_Bey) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mehmed_Kemal)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mehmed Kemal Bey.jpg|480]]
+*Mehmed Kemal Bey*
 
 ## Related
 

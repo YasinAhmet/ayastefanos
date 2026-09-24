@@ -13,9 +13,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1873–1913 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **14** sources on **37** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Ahmedniyazibey.jpg|320]]
-*Ahmedniyazibey* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Resneli Niyazi Bey.jpg|320]]
+*Resneli Niyazi Bey* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -116,10 +119,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 495|495]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ahmed_Niyazi) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Resneli_Niyazi_Bey)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Resneli Niyazi Bey.jpg|480]]
+*Resneli Niyazi Bey*
 
 ![[Ahmedniyazibey.jpg|480]]
 *Ahmedniyazibey*

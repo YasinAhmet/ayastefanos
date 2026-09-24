@@ -17,6 +17,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Şehzade Yusuf İzzeddin, a son of [[Abdülaziz]], was the first heir to the throne under [[Mehmed V Reşad]], ahead of Vahideddin (Zafer Toprak lists him at state ceremonies as 'Veliahd-ı Evvel', first heir). According to Bardakçı, he despised Sultan Reşad as weak and powerless, and he had been ill for years, a fact known only inside the palace. He moved in literary circles that included young Jewish intellectuals (Ortaylı). In 1916 he died after cutting the veins of his left wrist in his bedroom. That opened the way to the throne for [[Mehmed VI Vahdettin]], who 'never expected it'.
@@ -64,6 +67,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 67|67]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -71,6 +77,12 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[1908 10 01 Resimli Kitab Yusuf Izzeddin Efendi.jpg|480]]
 *1908 10 01 Resimli Kitab Yusuf Izzeddin Efendi*
+
+![[Z.K.H. Prins Yusuf Izzedidin van Turkije 1857-1916.jpg|480]]
+*At Windsor, 1911*
+
+![[Şehzade Yusuf Izzeddin.jpg|480]]
+*Şehzade Yusuf Izzeddin*
 
 ## Related
 

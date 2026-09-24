@@ -15,6 +15,9 @@ tags: [faction, "1873-1919"]
 *Enver Pasha - Turkish Military Academy, 1901* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
+
+
 ## Summary
 
 This note gathers the War Academy (*Harbiye*) and the related War Ministry (*Harbiye Nezareti*) and General Staff (*Erkan-ı Harbiye*), which share the word 'Harbiye' in the sources. Mustafa Kemal completed the War School in [[İstanbul]] in 1902 (Kemal), and many nationalists addressed each other as 'War School comrades' (Goloğlu). In the Balkan War a Transport Inspectorate was set up under the General Staff (Durgun). Enver became Chief of the General Staff on 8 January 1914 and then War Minister (Bardakçı). In 1919 Damat Ferit acted as War Minister for a time (Akşin). See [[Ottoman Navy]] for the naval academy.
@@ -295,6 +298,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 434|434]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 14|14]]
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -308,6 +314,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Ahmet fevzi2.jpg|480]]
 *Marshal Ahmet Fevzi Pasha, the co-founder of the Ottoman military academy*
+
+![[Turkish Military Academy-Mezuniyet 5.jpg|480]]
+*Ankara'daki Kara Harp Okulu'nda düzenlenen 167. dönem mezuniyet töreni etkinliklerinden bir görünüm.*
 
 ## Related
 

@@ -12,9 +12,12 @@ tags: [faction, "1873-1919"]
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1911– · Found in **17** sources on **68** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Ethnography Museum of Ankara, 1930s (16230092164).jpg|320]]
-*View of the Turkish Hearths Headquarters in the 1930s* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Türk Ocakları Merkez Binası Giriş Tabelası.jpg|320]]
+*Türk Ocakları Merkez Binası giriş levhası (2024)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -146,10 +149,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türk Halkbilimi (Sedat Veyis Örnek)|Örnek, *Türk Halkbilimi*]]** (Turkish, 1 p): [[Türk Halkbilimi (Sedat Veyis Örnek)#p. 123|123]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Turkish_Hearths) · [TR Wikipedia](https://tr.wikipedia.org/wiki/T%C3%BCrk_Ocaklar%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Türk Ocakları Merkez Binası Giriş Tabelası.jpg|480]]
+*Türk Ocakları Merkez Binası giriş levhası (2024)*
 
 ![[Ethnography Museum of Ankara, 1930s (16230092164).jpg|480]]
 *View of the Turkish Hearths Headquarters in the 1930s*

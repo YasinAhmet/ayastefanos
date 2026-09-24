@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Otto von Bismarck, the German Chancellor, presided over the [[Congress of Berlin (1878)]]. He was cautious towards Ottoman proposals (Mantran, French view). He once said the whole Balkan Peninsula was not worth the bones of a single Pomeranian grenadier, a line Trotsky (Russian view) turned around. On 1 June 1880 he advised the Kaiser to accept the Sultan's request for German advisers, to gain influence (video transcripts). His manoeuvres after [[Berlin]] pushed France towards Tunis (Akyıldız). Wilhelm II dismissed him in 1890 (Akşin). Toprak notes that [[Tekin Alp]] held him up, with List, as a model for Turkish nationalism.
@@ -160,6 +163,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 214|214]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -167,6 +173,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Bundesarchiv Bild 146-2005-0057, Otto von Bismarck.jpg|480]]
 *Bundesarchiv Bild 146-2005-0057, Otto von Bismarck*
+
+![[Otto von Bismarck portrait 1873.jpg|480]]
+*Otto von Bismarck portrait 1873*
 
 ![[BismarckArbeitszimmer1886.jpg|480]]
 *BismarckArbeitszimmer1886*

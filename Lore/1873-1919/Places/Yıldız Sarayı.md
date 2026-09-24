@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **29** sources on **134** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Istanbul Yildiz Palace and Park May 2014 8173.jpg|320]]
-*A view of the outer gardens at Yıldız Palace* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Yildiz palace 1909.jpg|320]]
+*Yıldız Palace, Büyük Mabeyn Köşkü, in 1909* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -203,13 +206,28 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 67|67]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Y%C4%B1ld%C4%B1z_Palace) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Y%C4%B1ld%C4%B1z_Saray%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Yildiz palace 1909.jpg|480]]
+*Yıldız Palace, Büyük Mabeyn Köşkü, in 1909*
+
+![[İstanbul 5717.jpg|480]]
+*İstanbul 5717*
+
 ![[Istanbul Yildiz Palace and Park May 2014 8173.jpg|480]]
 *A view of the outer gardens at Yıldız Palace*
+
+![[İstanbul 5716.jpg|480]]
+*Yıldız Palace, Yaveran ve Bendegân Dairesi, which housed the offices of the officials serving the Sultan*
+
+![[Yildiz Palace and Park 8162.jpg|480]]
+*Yıldız Palace, Şale Köşkü*
 
 ![[Istanbul Yildiz Palace and Park May 2014 8168.jpg|480]]
 *Yıldız Palace, Sedefli Salon (Mother-of-Pearl Hall) inside Şale Köşkü*

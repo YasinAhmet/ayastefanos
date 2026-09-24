@@ -13,9 +13,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1879–1948 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **22** sources on **90** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[1946 Prince Sabahaddin.jpg|320]]
-*1946 Prince Sabahaddin* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Sabâhaddin3.jpg|320]]
+*Sabâhaddin3* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -170,13 +173,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 691|691]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmed_Sabahaddin) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Prens_Sabahaddin)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Sabâhaddin3.jpg|480]]
+*Sabâhaddin3*
+
 ![[1946 Prince Sabahaddin.jpg|480]]
 *1946 Prince Sabahaddin*
+
+![[Lutfullah sabahattin.jpg|480]]
+*Lutfullah sabahattin*
 
 ## Related
 

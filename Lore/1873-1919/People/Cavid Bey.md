@@ -13,9 +13,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1875–1926 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **31** sources on **681** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Djavid Bey.png|320]]
-*Djavid Bey* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Mehmed Cavid Bey.jpg|320]]
+*Cavid Bey in 1918* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -229,13 +232,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 152|152]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmed_Cavid) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Cavid_Bey)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Mehmed Cavid Bey.jpg|480]]
+*Cavid Bey in 1918*
+
 ![[Djavid Bey.png|480]]
 *Djavid Bey*
+
+![[Maliye-Nazırı-Cavit-Bey.jpg|480]]
+*Maliye-Nazırı-Cavit-Bey*
 
 ![[1326 08 26 Serveti Funun.jpg|480]]
 *1326 08 26 Serveti Funun*

@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The First World War ('Harb-i Umumi', 'Cihan Harbi') brought the empire's end. After mobilisation, the Dardanelles were closed (Erdinç). Italy declared war on the Ottomans three months after joining the Allies (Akyıldız). The war opened a 'window of opportunity' for [[Şerif Hüseyin]] (Emrence). Turks in Russia were arrested as enemy aliens (Goloğlu). After the war the Assembly spoke of the 'Harb-i Umumi disasters' whose plaintiff was the whole nation (Erdinç). Toprak notes that since the 1980s its history has focused on social and cultural aspects. See the fronts: [[Gallipoli Campaign (1915)]], [[Caucasus Front]], [[Palestine and Sinai Front]], [[Mesopotamian Front]], [[Galician Front (1916-1917)]].
@@ -319,6 +322,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -333,8 +339,14 @@ Every page where this subject is named. Each number links to that page in the co
 ![[American troops going forward to the battle line in the Forest of Argonne. France, September 26, 1918. - NARA - 530748.jpg|480]]
 *American troops going forward to the battle line in the Forest of Argonne. France, September 26, 1918. - NARA - 530748*
 
+![[Sul Grappa cropped.jpg|480]]
+*Sul Grappa cropped*
+
 ![[ArabCamelCorps.jpg|480]]
 *ArabCamelCorps*
+
+![[Przemysl Fortress Bain LOC 19648.jpg|480]]
+*Przemysl Fortress Bain LOC 19648*
 
 ## Related
 

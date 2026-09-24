@@ -11,6 +11,13 @@ tags: [concept, "1873-1919"]
 
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1908–1918 · Found in **16** sources on **150** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[İtibar-ı Millî Bankası 50 liralık hisse senedi.jpg|320]]
+*İtibar-ı Millî Bankası 50 liralık hisse senedi* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 The 'national economy' (*Milli İktisat*) was the CUP policy of building a Muslim-Turkish bourgeoisie, studied by Zafer Toprak (*Türkiye'de Milli İktisat 1908–1918*). Mantran (French view) says [[Ziya Gökalp]] was its main advocate, drawing on Friedrich List. It grew strong in the war years (Akşin), with national banks and companies. Emrence notes it turned Westernising elites into anti-imperialist revolutionaries. Goloğlu quotes the later Republican aim of economic and financial independence.
@@ -121,6 +128,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 305|305]]
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 370|370]]
 - **[[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları III*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)#p. 659|659]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/National_economy_%28Turkey%29) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mill%C3%AE_%C4%B0ktisat)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[İtibar-ı Millî Bankası 50 liralık hisse senedi.jpg|480]]
+*İtibar-ı Millî Bankası 50 liralık hisse senedi*
+
+![[Serveti funun-1914-09-17-1 Kapitulasyonlarin Kaldirilmazi.jpg|480]]
+*Serveti funun-1914-09-17-1 Kapitulasyonlarin Kaldirilmazi*
 
 ## Related
 

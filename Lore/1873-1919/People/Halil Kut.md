@@ -13,9 +13,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1882–1957 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **20** sources on **167** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Halil Pasha.jpg|320]]
-*Halil Pasha* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Halil Kut.png|320]]
+*Kut before the end of WWI* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -170,13 +173,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 194|194]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Halil_Kut) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Halil_Kut)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Halil Kut.png|480]]
+*Kut before the end of WWI*
+
 ![[Halil Pasha.jpg|480]]
 *Halil Pasha*
+
+![[Townshend, Khalil Pasha after Fall of Kut B.jpg|480]]
+*Townshend, Khalil Pasha after Fall of Kut B*
 
 ## Related
 

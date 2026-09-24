@@ -10,6 +10,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **10** sources on **43** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Mehmet vehip.jpg|320]]
+*Mehmet vehip* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Vehip Paşa was the younger brother of [[Esat Paşa]] (Sanders). In 1908 he was studies director at the War Academy, as Binbaşı Vehib, in [[Manastır]] (Akşin). Before the war he commanded in the [[Hicaz]] and pressed for [[Şerif Hüseyin]] to be removed. [[Cemal Paşa]] says he insisted on it, but thought at least two divisions would be needed. Şerif Ali set out with his force from [[Mekke]] but stopped at Medina on his father's orders. Allawi (Iraqi view) says his rude manner offended, and he was replaced by the courteous Galip Paşa. At Gallipoli he took over the Southern Group facing Seddülbahir (Sanders). As commander in the Caucasus in 1918 he claimed that measures against Armenians were needed to stop Armenian atrocities against Turks (Talat's memoirs). Corruption charges against him were investigated after the war (Akşin).
@@ -112,6 +119,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Son Meşrutiyet (Sina Akşin)|Akşin, *Son Meşrutiyet*]]** (Turkish, 2 locs): [[Son Meşrutiyet (Sina Akşin)#loc. 398|398]] · [[Son Meşrutiyet (Sina Akşin)#loc. 402|402]]
 - **[[100. Yılında Jön Türk Devrimi (Sina Akşin)|Akşin, *100. Yılında Jön Türk Devrimi*]]** (Turkish, 1 p): [[100. Yılında Jön Türk Devrimi (Sina Akşin)#p. 331|331]]
 - **[[Hafız Hakkı Paşa'nın Sarıkamış Günlüğü (Hafız Hakkı Paşa)|Hakkı Paşa, *Hafız Hakkı Paşa'nın Sarıkamış Günlüğü*]]** (Turkish, 1 p): [[Hafız Hakkı Paşa'nın Sarıkamış Günlüğü (Hafız Hakkı Paşa)#p. 70|70]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Wehib_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mehmet_Vehip_Ka%C3%A7%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mehmet vehip.jpg|480]]
+*Mehmet vehip*
+
+![[Salim-Vehib-Husrev.jpg|480]]
+*Salim-Vehib-Husrev*
 
 ## Related
 

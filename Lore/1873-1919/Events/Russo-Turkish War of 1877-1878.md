@@ -12,9 +12,12 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1877–1878 · Found in **28** sources on **95** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[1878 Vereshchagin Schlachtfeld am Schipkapass anagoria.jpg|320]]
-*1878 Vereshchagin Schlachtfeld am Schipkapass anagoria* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[MixCollage-15-Jan-2024-08-56-PM-4371.jpg|320]]
+*MixCollage-15-Jan-2024-08-56-PM-4371* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -203,16 +206,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 269|269]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Russo-Turkish_War_%281877%E2%80%931878%29) · [TR Wikipedia](https://tr.wikipedia.org/wiki/93_Harbi)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[MixCollage-15-Jan-2024-08-56-PM-4371.jpg|480]]
+*MixCollage-15-Jan-2024-08-56-PM-4371*
+
+![[The defeat of Shipka Peak, Bulgarian War of Independence.jpg|480]]
+*The defeat of Shipka Peak, Bulgarian War of Independence*
 
 ![[1878 Vereshchagin Schlachtfeld am Schipkapass anagoria.jpg|480]]
 *1878 Vereshchagin Schlachtfeld am Schipkapass anagoria*
 
 ![[Grivita 1877.jpg|480]]
 *Grivita 1877*
+
+![[Zahvat grivickogo reduta.jpg|480]]
+*Zahvat grivickogo reduta*
+
+![[Territorial changes of the Ottoman Empire 1862.jpg|480]]
+*Ottoman Empire in 1862*
 
 ## Related
 

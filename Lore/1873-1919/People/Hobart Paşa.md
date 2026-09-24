@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **3** sources on **81** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Augustus Charles Hobart-Hampden - Project Gutenberg eText 16296.jpg|320]]
-*Hobart Pasha in civilian attire* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Hobartpasa.jpg|320]]
+*Hobart-Hampden in the 1870s* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -76,10 +79,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kırım Savaşı ve Osmanlılar (Candan Badem)|Badem, *Kırım Savaşı ve Osmanlılar*]]** (Turkish, 2 ps): [[Kırım Savaşı ve Osmanlılar (Candan Badem)#p. 39|39]] · [[Kırım Savaşı ve Osmanlılar (Candan Badem)#p. 461|461]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Augustus_Charles_Hobart-Hampden) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Hobart_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Hobartpasa.jpg|480]]
+*Hobart-Hampden in the 1870s*
 
 ![[Augustus Charles Hobart-Hampden - Project Gutenberg eText 16296.jpg|480]]
 *Hobart Pasha in civilian attire*

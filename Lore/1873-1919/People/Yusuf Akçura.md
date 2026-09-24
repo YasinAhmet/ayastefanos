@@ -12,6 +12,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1876–1935 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **11** sources on **54** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Yusuf akcura.jpg|320]]
+*Yusuf akcura* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 
 ## Summary
 
@@ -123,6 +130,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları III*]]** (Turkish, 2 ps): [[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)#p. 220|220]] · [[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)#p. 1034|1034]]
 - **[[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)|Aralov, *Bir Sovyet Diplomatının Türkiye Anıları*]]** (Russian, 1 loc): [[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)#loc. 75|75]]
 
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Yusuf_Ak%C3%A7ura) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Yusuf_Ak%C3%A7ura)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Yusuf akcura.jpg|480]]
+*Yusuf akcura*
+
+![[Yusuf akcuraa.jpg|480]]
+*Yusuf akcuraa*
+
+![[Yusuf akcura scan.jpg|480]]
+*Yusuf akcura scan*
 
 ## Related
 

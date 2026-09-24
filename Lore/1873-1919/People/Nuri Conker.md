@@ -11,6 +11,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** d. 11 Jan 1937 · Found in **4** sources on **45** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Nuri Conker (1935).jpg|320]]
+*Conker in 1935* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 
 ## Summary
 
@@ -87,6 +94,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)|İnan, *Atatürk Hakkında Hatıralar ve Belgeler*]]** (Turkish, 9 ps): [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 37|37]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 116|116]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 237|237]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 376|376]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 377|377]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 434|434]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 435|435]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 436|436]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 437|437]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 136|136]]
 
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Nuri_Conker) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Nuri_Conker)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Nuri Conker (1935).jpg|480]]
+*Conker in 1935*
+
+![[Nuri Bey Conker.jpg|480]]
+*Nuri Bey Conker*
+
+![[Nuri Bey and Gazi Mustafa Kemal in Istanbul in 1931.jpg|480]]
+*Nuri Bey and Gazi Mustafa Kemal in Istanbul in 1931*
 
 ## Related
 

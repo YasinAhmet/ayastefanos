@@ -16,6 +16,9 @@ tags: [place, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Makedonya (Macedonia) was the most contested Ottoman region before 1912. The 1903 revolt of the Internal Macedonian Revolutionary Organisation under Sandanski began on 29 April with attacks including the [[Ottoman Bank]] in Salonika (Trotsky's editor). From 1903 the 'Macedonian question' drew international attention again (Yalman). Russia and Austria agreed on two kinds of control there (video transcripts), and Bardakçı says Macedonia had come completely under European control. Emrence notes non-Muslim merchants pushed Muslim landowners to commercialise land. It was lost in the [[Balkan Wars (1912-1913)]].
@@ -275,6 +278,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 150|150]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -288,6 +294,12 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[ExpansionOfMacedon.jpg|480]]
 *Expansion of the kingdom of Macedon*
+
+![[Macedonian Kingdom.jpg|480]]
+*The kingdom of Macedon with its provinces*
+
+![[Macedonia and the Aegean World c.200.png|480]]
+*The Kingdom of Macedonia (orange) under Philip V (r. 221–179 BC), with Macedonian dependent states (dark yellow)*
 
 ![[Balkans 200AD.png|480]]
 *Roman provinces in the Balkans including Macedonia, c. 200 AD*

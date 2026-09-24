@@ -17,6 +17,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Ahmed Rıza was the positivist leader of the Young Turk exiles in [[Paris]]. His father had been a deputy in the 1877–78 parliament and was later exiled to [[Konya]] (Georgeon). In Paris, Ahmed Rıza joined Auguste Comte's positivist movement (Akşin). He accepted the young conspirators' request to lead them on condition that the society be renamed 'İttihad ve Terakki', Union and Progress (Güneş; see [[Committee of Union and Progress]]).
@@ -193,6 +196,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 374|374]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -203,6 +209,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Ahmed riza2.jpg|480]]
 *Ahmed riza2*
+
+![[Young Turk Revolution - First president of the Chamber of Deputies.png|480]]
+*Young Turk Revolution - First president of the Chamber of Deputies*
 
 ![[Ahmed Riza Bey.png|480]]
 *Ahmed Riza Bey*

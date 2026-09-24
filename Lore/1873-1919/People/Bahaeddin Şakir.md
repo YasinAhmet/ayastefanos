@@ -18,6 +18,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Doctor Bahaeddin Şakir was a member of the Unionist Central Committee and head of the [[Teşkilat-ı Mahsusa]] (Akşin). In December 1914, on the Caucasus front, he received orders from Hafız Hakkı: his bands were to cut the Sarıkamış–[[Kars]] railway telegraphs and the Oltu lines ([[Sarıkamış Operation (1914-1915)]]). [[Cemal Paşa]] records him beside Talat in pre-war talks with [[Prens Sabahaddin]] and the Armenian committees.
@@ -111,6 +114,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)|Yalman, *Birinci Dünya Savaşı'nda Türkiye*]]** (Turkish, 1 p): [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 136|136]]
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 89|89]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 15|15]]
+
+
+
 
 
 ## Images

@@ -11,9 +11,12 @@ tags: [concept, "1873-1919"]
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **48** sources on **261** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Bulgaristan'dan göç eden Türkler (1912).jpg|320]]
-*Bulgaristan'dan göç eden Türkler (1912)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Famine Victims in Mount Lebanon 1.png|320]]
+*Famine Victims in Mount Lebanon 1* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -278,10 +281,16 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Epidemic_typhus)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Famine Victims in Mount Lebanon 1.png|480]]
+*Famine Victims in Mount Lebanon 1*
 
 ![[Bulgaristan'dan göç eden Türkler (1912).jpg|480]]
 *Bulgaristan'dan göç eden Türkler (1912)*

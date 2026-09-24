@@ -11,9 +11,12 @@ tags: [concept, "1873-1919"]
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **19** sources on **103** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Hejaz railway.png|320]]
-*Hejaz railway* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[The Sheik-ul-Islam proclaiming the holy war in Constantinople - NYT - December 31 1914.jpg|320]]
+*The Sheik-ul-Islam proclaiming the holy war in Constantinople - NYT - December 31 1914* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -167,10 +170,19 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Pan-Islamism) · [TR Wikipedia](https://tr.wikipedia.org/wiki/%C3%9Cmmet%C3%A7ilik)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[The Sheik-ul-Islam proclaiming the holy war in Constantinople - NYT - December 31 1914.jpg|480]]
+*The Sheik-ul-Islam proclaiming the holy war in Constantinople - NYT - December 31 1914*
+
+![[Al-Dāʿīa Jamal Al-Din Al-Afghani.png|480]]
+*Al-Dāʿīa Jamal Al-Din Al-Afghani*
 
 ![[Hejaz railway.png|480]]
 *Hejaz railway*

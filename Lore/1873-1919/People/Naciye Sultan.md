@@ -11,6 +11,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1898–1957 · Found in **19** sources on **331** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Naciye Sultan ve Enver Paşa'nın düğünü(1).jpg|320]]
+*Naciye Sultan ve Enver Paşa'nın düğünü* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Naciye Sultan was the daughter of Şehzade Süleyman Efendi and a granddaughter of [[Abdülmecid I]]. She became the wife of [[Enver Paşa]]. After the 1908 revolution the [[Committee of Union and Progress]] decided that two of its members should marry into the palace in order to control it. Enver was one of them (Akşin). The engagement came in the days after the [[31 March Incident (1909)]], when Enver was 30 and Naciye 12. They married in 1914, once she came of age. According to the American view (Childs), the match was a political calculation on both sides: it strengthened Enver socially and bound him to the dynasty.
@@ -169,6 +176,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 2 ps): [[Sultanın Paşaları (Olivier Bouquet)#p. 474|474]] · [[Sultanın Paşaları (Olivier Bouquet)#p. 581|581]]
 - **[[Bu Defa Niçin Harp Edeceğimi Biliyorum (İbrahim Sorguç)|Sorguç, *Bu Defa Niçin Harp Edeceğimi Biliyorum*]]** (Turkish, 1 p): [[Bu Defa Niçin Harp Edeceğimi Biliyorum (İbrahim Sorguç)#p. 135|135]]
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 66|66]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Naciye_Sultan) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Naciye_Sultan)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Naciye Sultan ve Enver Paşa'nın düğünü(1).jpg|480]]
+*Naciye Sultan ve Enver Paşa'nın düğünü*
 
 ## Related
 

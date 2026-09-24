@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **64** sources on **2901** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Göbeklitepe Şanlıurfa.jpg|320]]
-*The henges in Göbekli Tepe were erected as far back as 9,600 BCE.* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Geological Map of Anatolia in Ottoman Turkish.jpg|320]]
+*Geological Map of Anatolia in Ottoman Turkish* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -341,13 +344,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 80|80]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Anatolia) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Anadolu)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Göbeklitepe Şanlıurfa.jpg|480]]
-*The henges in Göbekli Tepe were erected as far back as 9,600 BCE.*
+![[Geological Map of Anatolia in Ottoman Turkish.jpg|480]]
+*Geological Map of Anatolia in Ottoman Turkish*
+
+![[Map of the geographic region of Anatolia.png|480]]
+*Map of Anatolia (dark green), which according to one definition is delineated by an imprecise line from the Gulf of Alexandretta to the Black Sea.1 According to another definition, it is coterminous with the Asian part o*
+
+![[Modern-day Turkey and Europe NASA modified.png|480]]
+*NASA tarafından kaydedilmiş Avrupa Kıtası ve Anadolu (dikdörtgen içinde)*
+
+![[Weichsel-Würm-Glaciation.png|480]]
+*Europe during the Last Glacial Maximum, c. 20,000 years ago. Anatolia was connected to the European mainland until c. 5,600 BCE,8910 when the melting ice sheets caused the sea level in the Mediterranean to rise around 12*
 
 ## Related
 

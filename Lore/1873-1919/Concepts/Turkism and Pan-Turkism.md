@@ -11,9 +11,12 @@ tags: [concept, "1873-1919"]
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **38** sources on **197** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Map of Turkic languages.png|320]]
-*Herhangi bir Türk dilinin resmî dil olduğu ülke ve bölgeler* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Yeni Mecmua (1917) 1. sayfa.png|320]]
+*Yeni Mecmua (1917) 1. sayfa* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -232,19 +235,28 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Pan-Turkism) · [TR Wikipedia](https://tr.wikipedia.org/wiki/T%C3%BCrk%C3%A7%C3%BCl%C3%BCk)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Yeni Mecmua (1917) 1. sayfa.png|480]]
+*Yeni Mecmua (1917) 1. sayfa*
+
+![[Yeni Atilla.jpg|480]]
+*Yeni Atilla*
+
 ![[Map of Turkic languages.png|480]]
 *Herhangi bir Türk dilinin resmî dil olduğu ülke ve bölgeler*
 
+![[PanTurkishRally.jpg|480]]
+*Pan-Turkic rally in Istanbul, March 2009*
+
 ![[Map of Independent Turkic countries.png|480]]
 *Azerbaijan and Turkey promote their vision of a land corridor through Armenian territory as a means of "uniting the Turkic world"5253*
-
-![[5 Turkish Liras (1927).jpg|480]]
-*5 Aralık 1927’de dolaşıma giren 5 Türk Lirası. Banknot üzerinde bulunan Bozkurt, Türk ve Altay mitolojisinin ana kavramlarından biridir*
 
 ## Related
 

@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Kaiser Wilhelm II of Germany made an official visit to the [[Ottoman Empire]] in 1898 (Akşin). Grosser-Rilke describes him in the Sultan's purple velvet caique, and he admired Osman Hamdi's museum. Akşin notes he dismissed Bismarck in 1890 and wanted a bolder Middle East policy, but still resisted a formal alliance. Bardakçı says he had long dreamed of a *cihad* to raise the Islamic world against Britain, but the fetva did not work. Allawi (Iraqi view) says it was Enver who led the empire into close co-operation with his Germany. The video transcripts quote him telling Liman that it was no concern of his whether Young or Old Turks ruled. Talat recalls him exclaiming, 'If wanting peace is treason, then I too am a traitor.'
@@ -179,6 +182,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 4|4]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -186,6 +192,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Kaiser Wilhelm II of Germany - 1902 (3x4 cropped).jpg|480]]
 *Wilhelm in 1902*
+
+![[Kaiser Wilhelm II of Germany.jpg|480]]
+*Kaiser Wilhelm II of Germany*
 
 ![[Kaiser Wilhelm II of Germany - 1902.jpg|480]]
 *1902 yılında II. Wilhelm.*

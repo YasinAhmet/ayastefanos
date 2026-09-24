@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **29** sources on **199** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Baku Montage.jpg|320]]
-*Baku Montage* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[The Oil Gush Fire in Bibiheybat photochrome.jpg|320]]
+*The Oil Gush Fire in Bibiheybat photochrome* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -192,13 +195,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 313|313]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Baku) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Bak%C3%BC)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[The Oil Gush Fire in Bibiheybat photochrome.jpg|480]]
+*The Oil Gush Fire in Bibiheybat photochrome*
+
 ![[Baku Montage.jpg|480]]
 *Baku Montage*
+
+![[Reliefkarte Aserbaidschan 2023.png|480]]
+*Reliefkarte Aserbaidschan 2023*
 
 ![[Asia laea relief location map.jpg|480]]
 *Asia laea relief location map*

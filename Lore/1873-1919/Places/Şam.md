@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **51** sources on **747** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Damascus, Syria, Panoramic view of Damascus.jpg|320]]
-*Damascus, Syria, Panoramic view of Damascus* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[General view and Minaret of the Bride, Damascus, Holy Land, (i.e. Syria)-LCCN2002724978.jpg|320]]
+*General view and Minaret of the Bride, Damascus, Holy Land, (i.e. Syria)-LCCN2002724978* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -300,10 +303,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 476|476]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Damascus) · [TR Wikipedia](https://tr.wikipedia.org/wiki/%C5%9Eam)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[General view and Minaret of the Bride, Damascus, Holy Land, (i.e. Syria)-LCCN2002724978.jpg|480]]
+*General view and Minaret of the Bride, Damascus, Holy Land, (i.e. Syria)-LCCN2002724978*
 
 ![[Damascus, Syria, Panoramic view of Damascus.jpg|480]]
 *Damascus, Syria, Panoramic view of Damascus*
@@ -311,14 +320,14 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Damascus coll.jpg|480]]
 *Damascus coll*
 
+![[Umayyad Square, Damascus.jpg|480]]
+*Umayyad Square, Damascus*
+
 ![[Damaskus4.jpg|480]]
 *Damaskus4*
 
 ![[Al-Hamidiyah Souq 02.jpg|480]]
 *Al-Hamidiyah Souq 02*
-
-![[Azm Palace - Damascus.jpg|480]]
-*Azm Palace - Damascus*
 
 ## Related
 

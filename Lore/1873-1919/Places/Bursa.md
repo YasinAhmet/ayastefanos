@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **48** sources on **639** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Bursa image.jpg|320]]
-*Bursa image* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[View of Bursa and the Sultan Bayezid I Camii between 1880 and 1893.jpg|320]]
+*View of Bursa and the Sultan Bayezid I Camii between 1880 and 1893* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -288,22 +291,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Mahşerin İki Gemisi - Part I (Video transcript)|Video, *Mahşerin İki Gemisi - Part I*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part I (Video transcript)#loc. 18|18]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Bursa) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Bursa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[View of Bursa and the Sultan Bayezid I Camii between 1880 and 1893.jpg|480]]
+*View of Bursa and the Sultan Bayezid I Camii between 1880 and 1893*
+
 ![[Bursa image.jpg|480]]
 *Bursa image*
+
+![[Teleferik, Uludağ.jpg|480]]
+*Teleferik, Uludağ*
+
+![[Yeşil camii bursa - panoramio (14).jpg|480]]
+*Yeşil camii bursa - panoramio (14)*
 
 ![[Bursa, Turkey (4505709750).jpg|480]]
 *Bursa, Turkey (4505709750)*
 
 ![[Irgandı köprüsü bursa - panoramio.jpg|480]]
 *Irgandı köprüsü bursa - panoramio*
-
-![[Cumhuriyet cd.Bursa - panoramio (3).jpg|480]]
-*Cumhuriyet cd.Bursa - panoramio (3)*
 
 ## Related
 

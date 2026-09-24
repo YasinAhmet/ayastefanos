@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **44** sources on **672** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Historical boundaries of Palestine (plain).png|320]]
-*Historical boundaries of Palestine (plain)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Native of Palestine working with an ox and an ass, Holy Land-LCCN2002725074.jpg|320]]
+*Native of Palestine working with an ox and an ass, Holy Land-LCCN2002725074* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -279,10 +282,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 44|44]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Palestine_%28region%29) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Filistin_%28b%C3%B6lge%29)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Native of Palestine working with an ox and an ass, Holy Land-LCCN2002725074.jpg|480]]
+*Native of Palestine working with an ox and an ass, Holy Land-LCCN2002725074*
 
 ![[Historical boundaries of Palestine (plain).png|480]]
 *Historical boundaries of Palestine (plain)*
@@ -290,11 +299,14 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Karte Pomponius Mela.jpg|480]]
 *Karte Pomponius Mela*
 
+![[Notitia Dignitatum - Dux Palestinae.jpg|480]]
+*Notitia Dignitatum - Dux Palestinae*
+
+![[Tabula Rogeriana Muhammad al-Idrisi map of Syria, Palestine, Sinai.png|480]]
+*Tabula Rogeriana Muhammad al-Idrisi map of Syria, Palestine, Sinai*
+
 ![[Cedid Atlas (Syria) 1803.jpg|480]]
 *Cedid Atlas (Syria) 1803*
-
-![[Ancient Near East 1000BC.png|480]]
-*Philistia in the broader Ancient Near East context at around 1000 BCE*
 
 ## Related
 

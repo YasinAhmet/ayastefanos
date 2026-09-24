@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **29** sources on **121** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[EU-Cyprus.png|320]]
-*EU-Cyprus* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[A fortified arched gate, Nicosia, Cyprus Wellcome L0056833.jpg|320]]
+*A fortified arched gate, Nicosia, Cyprus Wellcome L0056833* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -207,10 +210,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türk Halkbilimi (Sedat Veyis Örnek)|Örnek, *Türk Halkbilimi*]]** (Turkish, 1 p): [[Türk Halkbilimi (Sedat Veyis Örnek)#p. 158|158]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Cyprus) · [TR Wikipedia](https://tr.wikipedia.org/wiki/K%C4%B1br%C4%B1s_Cumhuriyeti)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[A fortified arched gate, Nicosia, Cyprus Wellcome L0056833.jpg|480]]
+*A fortified arched gate, Nicosia, Cyprus Wellcome L0056833*
+
+![[Cyprus wrapper 1880.jpg|480]]
+*Cyprus wrapper 1880*
 
 ![[EU-Cyprus.png|480]]
 *EU-Cyprus*

@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Admiral Guido von Usedom, famous from the China expedition, came to [[İstanbul]] in late summer 1914. He was made inspector-general of coastal artillery and mines, and then commanded the forts of the Dardanelles and the Bosphorus (Sanders, German view). A special German naval unit under him served in the forts and batteries. The video transcripts describe the German quarrels: Usedom told Enver that Goltz's reports home misled other German leaders, while Liman complained to Enver of Usedom's ignorance of war.
@@ -63,6 +66,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 5 ps): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 59|59]] · [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 78|78]] · [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 89|89]] · [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 105|105]] · [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 487|487]]
 - **[[Hafız Hakkı Paşa'nın Sarıkamış Günlüğü (Hafız Hakkı Paşa)|Hakkı Paşa, *Hafız Hakkı Paşa'nın Sarıkamış Günlüğü*]]** (Turkish, 2 ps): [[Hafız Hakkı Paşa'nın Sarıkamış Günlüğü (Hafız Hakkı Paşa)#p. 82|82]] · [[Hafız Hakkı Paşa'nın Sarıkamış Günlüğü (Hafız Hakkı Paşa)#p. 153|153]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 2 locs): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 8|8]] · [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 10|10]]
+
+
+
 
 
 ## Images

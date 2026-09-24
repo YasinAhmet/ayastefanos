@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The [[Amasya]] Circular (*Amasya Tamimi*) of 22 June 1919 was signed by Mustafa Kemal, Refet and Rauf and sent across the country in secret (Goloğlu; Akşin). It called for a congress at [[Sivas]], 'the safest place in Anatolia' (Akşin), which was delayed until after [[Erzurum]]. Delegates were sent under its terms (Goloğlu). Atatürk was 38 at the time. The later [[Amasya]] Protocols (October 1919) with the Istanbul government centred on elections and parliament; the second protocol stated that the armistice borders were the minimum demand (Akşin).
@@ -69,6 +72,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -76,6 +82,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Amasya Genelgesi.jpg|480]]
 *Original text of the Amasya Circular*
+
+![[SarayduzuKislasi.jpg|480]]
+*Saraydüzü Casern in Amasya (currently undergoing reconstruction) where Amasya Circular was prepared and telegraphed across Turkey*
 
 ## Related
 

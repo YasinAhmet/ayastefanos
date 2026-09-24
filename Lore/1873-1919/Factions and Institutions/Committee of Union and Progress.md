@@ -12,9 +12,12 @@ tags: [faction, "1873-1919"]
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1889–1918 · Found in **46** sources on **1858** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Jon-turkler-1.jpg|320]]
-*Members of the Young Turks (from left to right): İshak Sükuti, Serâceddin Bey, Tunalı Hilmi, Âkil Muhtar, Mithat Şükrü, Emin Bey, Lutfi Bey, Doctor Şefik, Nûri Ahmed, Doctor Reshid and Celal Münif* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[İttihat ve Terakki amblemi.jpg|320]]
+*İttihat ve Terakki amblemi* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -289,10 +292,16 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Committee_of_Union_and_Progress) · [TR Wikipedia](https://tr.wikipedia.org/wiki/%C4%B0ttihat_ve_Terakki)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[İttihat ve Terakki amblemi.jpg|480]]
+*İttihat ve Terakki amblemi*
 
 ![[Jon-turkler-1.jpg|480]]
 *Members of the Young Turks (from left to right): İshak Sükuti, Serâceddin Bey, Tunalı Hilmi, Âkil Muhtar, Mithat Şükrü, Emin Bey, Lutfi Bey, Doctor Şefik, Nûri Ahmed, Doctor Reshid and Celal Münif*

@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **37** sources on **202** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Island of Crete, Greece.jpg|320]]
-*NASA photograph of Crete* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Canea, Crete - from the roof of the Greek church.jpg|320]]
+*Canea, Crete - from the roof of the Greek church* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -232,13 +235,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 98|98]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Crete) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Girit)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Canea, Crete - from the roof of the Greek church.jpg|480]]
+*Canea, Crete - from the roof of the Greek church*
+
+![[A street in Canea, Crete, and some of its Turkish possessors.jpg|480]]
+*A street in Canea, Crete, and some of its Turkish possessors*
+
 ![[Island of Crete, Greece.jpg|480]]
 *NASA photograph of Crete*
+
+![[Kriti in Greece.png|480]]
+*Kriti in Greece*
+
+![[Logo of the Crete Region.png|480]]
+*Logo of the Crete Region*
+
+![[Prefecture map of Crete (Greece).png|480]]
+*Prefecture map of Crete (Greece)*
 
 ## Related
 

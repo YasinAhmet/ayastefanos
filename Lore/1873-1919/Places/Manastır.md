@@ -16,6 +16,9 @@ tags: [place, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Manastır (Bitola) was a Macedonian provincial capital and a garrison city. Mustafa Kemal went to its military high school (Goloğlu; Kemal). It was a Unionist stronghold: [[Şemsi Paşa]] was shot there in July 1908 and [[Resneli Niyazi]] rose nearby (see [[Young Turk Revolution (1908)]]). Enver was a staff officer there (Bardakçı). In 1912 the Serbian army fought the battle of Manastır (Trotsky, Russian view). Akşin compares school numbers across the [[Rumeli]] provinces, including Manastır.
@@ -198,6 +201,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 20|20]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -206,11 +212,20 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Greek demonastration Bitola 1908.jpg|480]]
 *Greek demonastration Bitola 1908*
 
+![[Saat kula Bitola011.jpg|480]]
+*Saat kula Bitola011*
+
 ![[Ambientalna ulica Marsal Tito-Bitola (10).jpg|480]]
 *Ambientalna ulica Marsal Tito-Bitola (10)*
 
 ![[Bitola 019.jpg|480]]
 *Bitola 019*
+
+![[Седиште на Преспанско-пелагониската православна епархија се наоѓа во градот Битола.jpg|480]]
+*Седиште на Преспанско-пелагониската православна епархија се наоѓа во градот Битола*
+
+![[Магаза (Битола).jpg|480]]
+*Магаза (Битола)*
 
 ## Related
 

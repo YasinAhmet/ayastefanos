@@ -10,6 +10,13 @@ tags: [place, "1873-1919"]
 
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **57** sources on **612** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Royaume de Grece 1832-1921 Expansion (Kingdom of Greece Map Detail).jpg|320]]
+*Kingdom of Greece 1832-1921 expansion* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 
 ## Summary
 
@@ -310,6 +317,28 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türk Halkbilimi (Sedat Veyis Örnek)|Örnek, *Türk Halkbilimi*]]** (Turkish, 1 p): [[Türk Halkbilimi (Sedat Veyis Örnek)#p. 35|35]]
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 487|487]]
 
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Kingdom_of_Greece) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Yunanistan_Krall%C4%B1%C4%9F%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Royaume de Grece 1832-1921 Expansion (Kingdom of Greece Map Detail).jpg|480]]
+*Kingdom of Greece 1832-1921 expansion*
+
+![[State Flag of Greece (1863-1924 and 1935-1973).png|480]]
+*State Flag of Greece (1863-1924 and 1935-1973)*
+
+![[Map of Greece, Archipelago and part of Anadoli; Louis Stanislas d'Arcy Delarochette 1791.jpg|480]]
+*Map of Greece, Archipelago and part of Anadoli; Louis Stanislas d'Arcy Delarochette 1791*
+
+![[Otto of Greece II.jpg|480]]
+*Otto, the first king of modern Greece *
+
+![[The Hellenic Parliament by N. Orlof (1930) on November 3, 2022.jpg|480]]
+*The Hellenic Parliament in the 1880s, with PM Charilaos Trikoupis standing at the podium*
 
 ## Related
 

@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **13** sources on **45** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Gladstone's Cabinet of 1868 by Lowes Cato Dickinson.jpg|320]]
-*Gladstone's Cabinet of 1868 by Lowes Cato Dickinson* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[William Ewart Gladstone, 1892 (cropped).jpg|320]]
+*Gladstone in 1892* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -126,10 +129,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 535|535]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/William_Ewart_Gladstone) · [TR Wikipedia](https://tr.wikipedia.org/wiki/William_Ewart_Gladstone)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[William Ewart Gladstone, 1892 (cropped).jpg|480]]
+*Gladstone in 1892*
+
+![[William Ewart Gladstone CDV 1861 for infobox.jpg|480]]
+*William Ewart Gladstone CDV 1861 for infobox*
 
 ![[Gladstone's Cabinet of 1868 by Lowes Cato Dickinson.jpg|480]]
 *Gladstone's Cabinet of 1868 by Lowes Cato Dickinson*

@@ -12,6 +12,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1865–1921 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **23** sources on **252** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Großwezir Prinz Said Halim Pascha 1915 C. Pietzner.png|320]]
+*Großwezir Prinz Said Halim Pascha 1915 C. Pietzner* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 
 ## Summary
 
@@ -200,6 +207,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Son Osmanlılar (Murat Bardakçı)|Bardakçı, *Son Osmanlılar*]]** (Turkish, 1 p): [[Son Osmanlılar (Murat Bardakçı)#p. 71|71]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 61|61]]
 
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Said_Halim_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Said_Halim_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Großwezir Prinz Said Halim Pascha 1915 C. Pietzner.png|480]]
+*Großwezir Prinz Said Halim Pascha 1915 C. Pietzner*
+
+![[Said Halim.jpg|480]]
+*Said Halim*
+
+![[Saidhalim-1.jpg|480]]
+*Saidhalim-1*
 
 ## Related
 

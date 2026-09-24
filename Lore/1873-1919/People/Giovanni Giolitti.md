@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Giovanni Giolitti was Italian Prime Minister during the [[Italo-Turkish War (1911-1912)]]. Childs (American view) is the main source: Giolitti wrote that San Giuliano wanted to act before the Moroccan question was settled. He used the businessman Volpi, who had close Ottoman trade ties, to open secret contacts in [[İstanbul]] in June 1912. He did not shrink from concessions that might be unpopular at home. He directed the Ouchy talks. In his 1922 memoirs he insisted Italy's position never changed between July and October 1912. After 1918 he told Lloyd George that Mustafa Kemal was 'almost' finished (Akşin).
@@ -69,6 +72,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Enver (Murat Bardakçı)|Bardakçı, *Enver*]]** (Turkish, 1 p): [[Enver (Murat Bardakçı)#p. 536|536]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -76,6 +82,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Giolitti2.jpg|480]]
 *Giolitti2*
+
+![[Portrait of Giovanni Giolitti, 1920.jpg|480]]
+*Official portrait, 1920*
 
 ![[Giovanni Giolitti 1905.jpg|480]]
 *Giovanni Giolitti 1905*

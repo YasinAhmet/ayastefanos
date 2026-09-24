@@ -19,6 +19,9 @@ tags: [faction, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The Ottoman Parliament (*Meclis-i Mebusan* and *Meclis-i Âyan*) first sat in 1877 (see [[First Constitutional Era (1876-1878)]]). After 1908 elections speeded up and the chamber opened on 17 December 1908 (Güneş). In 1909 it made major constitutional changes (Akşin). In 1877 the Senate had non-Muslim members such as Musurus Paşa (Ortaylı). In November 1918 its Fifth Section investigated the wartime cabinets (Erdinç; Talat's memoir). The last chamber adopted the [[Misak-ı Milli (1920)]] (Goloğlu).
@@ -270,6 +273,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -278,8 +284,20 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Coat of arms of the Ottoman Empire (1882–1922).png|480]]
 *Coat of arms of the Ottoman Empire (1882–1922)*
 
+![[Postcard-from-1908-celebrating-the-new-parliament.png|480]]
+*Postcard-from-1908-celebrating-the-new-parliament*
+
 ![[Delegation to Abdul Hamid II.jpg|480]]
 *Delegation of the Ottoman Parliament to Abdul Hamid II.*
+
+![[Palacio de Dolmabahçe, Estambul, Turquía, 2024-09-28, DD 113.jpg|480]]
+*Palacio de Dolmabahçe, Estambul, Turquía, 2024-09-28, DD 113*
+
+![[Postcard parliament.jpg|480]]
+*Postcard parliament*
+
+![[SPRY(1895) p733 - THE OTTOMAN PARLIAMENT, 1877.jpg|480]]
+*SPRY(1895) p733 - THE OTTOMAN PARLIAMENT, 1877*
 
 ## Related
 

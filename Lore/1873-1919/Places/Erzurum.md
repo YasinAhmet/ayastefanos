@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **49** sources on **1246** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Erzurum Citadel - Erzurum Kalesi 01.jpg|320]]
-*Erzurum Citadel - Erzurum Kalesi 01* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Niva magazine, 1916. img 017.jpg|320]]
+*Niva magazine, 1916. img 017* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -296,10 +299,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Mahşerin İki Gemisi - Part II (Video transcript)|Video, *Mahşerin İki Gemisi - Part II*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 6|6]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Erzurum) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Erzurum)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Niva magazine, 1916. img 017.jpg|480]]
+*Niva magazine, 1916. img 017*
 
 ![[Erzurum Citadel - Erzurum Kalesi 01.jpg|480]]
 *Erzurum Citadel - Erzurum Kalesi 01*
@@ -309,6 +318,12 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Erzurum Cifte Minareli Sunrise.jpg|480]]
 *Erzurum Cifte Minareli Sunrise*
+
+![[View of the Ski Jump Towers- panoramio.jpg|480]]
+*View of the Ski Jump Towers- panoramio*
+
+![[Yakutiye Medresesi, Erzurum 02.jpg|480]]
+*Yakutiye Medresesi, Erzurum 02*
 
 ## Related
 

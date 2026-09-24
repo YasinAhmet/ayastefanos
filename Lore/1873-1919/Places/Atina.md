@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **46** sources on **181** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Athens Acropolis at Daybreak.jpg|320]]
-*Athens Acropolis at Daybreak* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Athènes. L' Acropole et le Temple de Thesée LCCN2017658103.jpg|320]]
+*Athènes. L' Acropole et le Temple de Thesée LCCN2017658103* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -263,16 +266,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çariçe Katerina (Robert K. Massie)|Massie, *Çariçe Katerina*]]** (American, 1 p): [[Çariçe Katerina (Robert K. Massie)#p. 3|3]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Athens) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Atina)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Athènes. L' Acropole et le Temple de Thesée LCCN2017658103.jpg|480]]
+*Athènes. L' Acropole et le Temple de Thesée LCCN2017658103*
+
+![[Acropolis, Parthenon, east side, Athens, Greece LCCN92518901.jpg|480]]
+*Acropolis, Parthenon, east side, Athens, Greece LCCN92518901*
+
 ![[Athens Acropolis at Daybreak.jpg|480]]
 *Athens Acropolis at Daybreak*
 
-![[Griechisches Parlament nachts (Zuschnitt).jpg|480]]
-*Griechisches Parlament nachts (Zuschnitt)*
+![[Zappeion Megaron on February 3, 2021.jpg|480]]
+*Zappeion Megaron on February 3, 2021*
+
+![[Πλατεία Μοναστηρακίου 3645.jpg|480]]
+*Πλατεία Μοναστηρακίου 3645*
+
+![[The Metropolitan Cathedral of Athens (Metropolis of Athens) in April 2019.jpg|480]]
+*The Metropolitan Cathedral of Athens (Metropolis of Athens) in April 2019*
 
 ## Related
 

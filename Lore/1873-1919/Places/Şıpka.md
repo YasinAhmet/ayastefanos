@@ -16,6 +16,9 @@ tags: [place, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 The Şıpka (Shipka) Pass in the Balkan mountains saw bloody fighting in 1877. It had been fortified, and the Ottomans could at first have held it (video transcripts). Ryan (Australian view) says the Turkish armies had fought very well despite losses at Shipka. Hakkı Paşa calls it an example of great Turkish heroism by reserve troops. Müşir Fuat Paşa was known as 'the hero of Şıpka' (Akşin). Cox (American view) compares the battles with older fights on the same ground.
@@ -99,6 +102,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 232|232]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -106,6 +112,21 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Cannons on Shipka pass.jpg|480]]
 *Cannons on Shipka pass*
+
+![[View from Shipka.jpg|480]]
+*View from Shipka*
+
+![[Snow Scene at Shipka Pass 1.jpg|480]]
+*Snow scene at Shipka Pass*
+
+![[Shipka Memorial.jpg|480]]
+*A close view of the Shipka Memorial*
+
+![[Shipka-monument-bg.jpg|480]]
+*Another view of the memorial*
+
+![[Shipka-01.jpg|480]]
+*Shipka-01*
 
 ## Related
 

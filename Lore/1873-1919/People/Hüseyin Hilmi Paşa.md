@@ -12,6 +12,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1855–1922 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **19** sources on **95** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Hussein Hilmi Pacha.jpg|320]]
+*Hussein Hilmi Pacha* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Hüseyin Hilmi Paşa was Inspector-General of the Macedonian provinces after the 1903 reform scheme that Abdülhamid was forced to sign on 24 August 1903 (Bardakçı). He was grand vizier twice after 1908, close to the [[Committee of Union and Progress]]. He was forced out during the [[31 March Incident (1909)]]. Güneş records that he regained the office 'in the shadow of the Action Army' on 6 May 1909. Mantran (French view) says that 'caught between two fires' he finally had to go.
@@ -155,6 +162,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 143|143]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 64|64]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 56|56]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/H%C3%BCseyin_Hilmi_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/H%C3%BCseyin_Hilmi_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Hussein Hilmi Pacha.jpg|480]]
+*Hussein Hilmi Pacha*
+
+![[Hussein Hilmi Pasha, Inspector-General of Macedonia, 1903-1908.jpg|480]]
+*Hüseyin Hilmi Pasha as Ottoman Inspector General of Macedonia, photograph taken between 1903 and 1908.*
 
 ## Related
 

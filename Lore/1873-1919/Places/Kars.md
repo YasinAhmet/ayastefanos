@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **40** sources on **398** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Kars Panorama.jpg|320]]
-*Kars Panorama* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[The castle of Kars.jpg|320]]
+*The castle of Kars* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -270,10 +273,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 30|30]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Kars) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Kars)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[The castle of Kars.jpg|480]]
+*The castle of Kars*
 
 ![[Kars Panorama.jpg|480]]
 *Kars Panorama*

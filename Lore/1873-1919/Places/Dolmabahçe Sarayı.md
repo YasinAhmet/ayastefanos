@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **24** sources on **124** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Dolmabahce Istanbul Turkey.jpg|320]]
-*A view of Dolmabahçe Palace from the BosporusInteractive map of the Dolmabahçe Palace area* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Dolmabahçe Palace, Constantinople, Turkey LOC 4210464767.jpg|320]]
+*Dolmabahçe Palace, Constantinople, Turkey LOC 4210464767* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -179,16 +182,28 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 151|151]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Dolmabah%C3%A7e_Palace) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Dolmabah%C3%A7e_Saray%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Dolmabahçe Palace, Constantinople, Turkey LOC 4210464767.jpg|480]]
+*Dolmabahçe Palace, Constantinople, Turkey LOC 4210464767*
 
 ![[Dolmabahce Istanbul Turkey.jpg|480]]
 *A view of Dolmabahçe Palace from the BosporusInteractive map of the Dolmabahçe Palace area*
 
 ![[Abdulmejid portrait.jpg|480]]
 *Abdülmecid I*
+
+![[Palacio de Dolmabahçe, Estambul, Turquía, 2024-09-28, DD 113.jpg|480]]
+*Façade of the Selamlık*
+
+![[Turkey (68739605).jpeg|480]]
+*The Ceremonial Hall with the world's largest crystal chandelier, previously believed to have been a gift from Queen Victoria.7*
 
 ![[Dolmabahce Palace plan.png|480]]
 *Floor plan of the palace*

@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 In the Balkan Wars (1912–13) the Balkan states took nearly all Ottoman [[Rumeli]]. Only three fortresses held out bravely (Bardakçı). The first war ended with the London peace of 30 May 1913 (Trotsky's editor). The Eastern Army fell back to Çatalca (see [[Gustav von Hochwächter]]), and the defeat led to the [[Raid on the Sublime Porte (1913)]]. Durgun studies transport and logistics. After the war the army was reorganised (Sanders). The defeat strengthened the 'national bank' idea (Toprak) and the economic imbalances (Akşin). Emigration from Rumeli followed (Ortaylı; see [[Refugees (muhacir)]]).
@@ -294,6 +297,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -313,6 +319,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Map-of-Ottoman-Empire-1900.png|480]]
 *Map of the Ottoman Empire in 1900, with the names of the Ottoman provinces.*
+
+![[Meurtre de Nazim Pacha illustration, 9 February 1913.jpg|480]]
+*Nazım Pasha, the chief of staff of the Ottoman army, was assassinated in January 1913 by Young Turks due to his failure.*
 
 ## Related
 

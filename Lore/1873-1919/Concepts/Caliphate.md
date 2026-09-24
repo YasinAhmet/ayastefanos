@@ -12,9 +12,12 @@ tags: [concept, "1873-1919"]
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** –1924 · Found in **54** sources on **897** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Map of expansion of Caliphate.png|320]]
-*The caliphate, 622–750 .mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-al* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Sultan Abdul Hamid II of the Ottoman Empire.jpg|320]]
+*Sultan Abdul Hamid II of the Ottoman Empire* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -321,13 +324,31 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Caliphate) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Hil%C3%A2fet)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Sultan Abdul Hamid II of the Ottoman Empire.jpg|480]]
+*Sultan Abdul Hamid II of the Ottoman Empire*
+
+![[The Sheik-ul-Islam proclaiming the holy war in Constantinople - NYT - December 31 1914.jpg|480]]
+*The Sheik-ul-Islam proclaiming the holy war in Constantinople - NYT - December 31 1914*
+
+![[Rashidun coin Pseudo-Byzantine types.jpg|480]]
+*Rashidun coin Pseudo-Byzantine types*
+
+![[Mohammad adil-Rashidun-empire-at-its-peak-close.png|480]]
+*Rashidun Caliphate at its greatest extent under Uthman*
+
 ![[Map of expansion of Caliphate.png|480]]
 *The caliphate, 622–750 .mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-al*
+
+![[Mustansiriya University CPT.jpg|480]]
+*Mustansiriya Madrasah in Baghdad*
 
 ## Related
 

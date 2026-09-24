@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 In 1916, at Falkenhayn's request, an Ottoman corps was sent to Galicia on the Russian front to support Austro-Hungarian and German forces (Nicolle; Yazman). It served under the German Southern Army of Count von Bothmer. Emperor Karl visited the Turkish unit (Ortaylı). [[Cemal Paşa]] argued the time had come to bring back divisions from Galicia, Romania and Bulgaria. A beggar Argun heard later said he lost 'a leg at Çanakkale, an arm in Galicia, my eyes in the Palestine deserts'. See [[Mehmet Şevki Yazman]].
@@ -173,6 +176,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -189,6 +195,12 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[EasternFront1916a2.jpg|480]]
 *Blue and red lines: Eastern Front in 1916. Brusilov offensive takes place in lower right corner.*
+
+![[В атаку! (1916).jpg|480]]
+*Attack of Russian cavalry (1916)*
+
+![[With bayonets!.jpg|480]]
+*Russian bayonet attack*
 
 ## Related
 

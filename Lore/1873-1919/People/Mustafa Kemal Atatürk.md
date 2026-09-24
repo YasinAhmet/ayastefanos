@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **51** sources on **3358** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Ataturk1930s.jpg|320]]
-*Atatürk in 1932* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Mustafa Kemal Ataturk 1919 Sivas Congress (cropped).jpg|320]]
+*Mustafa Kemal Ataturk 1919 Sivas Congress (cropped)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -320,10 +323,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 119|119]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mustafa Kemal Ataturk 1919 Sivas Congress (cropped).jpg|480]]
+*Mustafa Kemal Ataturk 1919 Sivas Congress (cropped)*
+
+![[Marshal Mustafa Kemal Pasha.jpg|480]]
+*Marshal Mustafa Kemal Pasha*
 
 ![[Ataturk1930s.jpg|480]]
 *Atatürk in 1932*

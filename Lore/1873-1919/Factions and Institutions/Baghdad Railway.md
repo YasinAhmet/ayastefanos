@@ -17,6 +17,9 @@ tags: [faction, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 The Baghdad Railway was the German-built line to extend the Anatolian Railway to Baghdad. Abdülhamid proposed extending the line from [[Ankara]] (Childs); in 1899 Germany won the first concession (Trotsky's chronology). A group of German businessmen under Deutsche Bank's von Siemens joined the Kaiser's visit (Mantran). Its financing was a pretext for long talks among the powers (Yalman). The Germans used it to deepen ties with the CUP (Allawi). Ortaylı notes its Swiss wartime director served German commanders.
@@ -211,6 +214,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 73|73]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -230,6 +236,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Bundesarchiv Bild 137-012595, Kleinasien-Adana, Bahnhof.jpg|480]]
 *Central Station in Adana, Turkey, 1913*
+
+![[صورة جانبية لمحطة القطار العالمية.jpg|480]]
+*Baghdad Central Station, 2012*
 
 ## Related
 

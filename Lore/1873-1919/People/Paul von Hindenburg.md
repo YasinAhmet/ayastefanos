@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **9** sources on **15** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Bundesarchiv Bild 183-C06886, Paul v. Hindenburg (cropped)(2).jpg|320]]
-*Bundesarchiv Bild 183-C06886, Paul v. Hindenburg (cropped)(2)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Paul von Hindenburg (1914) von Nicola Perscheid (cropped).jpg|320]]
+*Field Marshal Hindenburg in 1914* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -87,16 +90,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 399|399]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Paul_von_Hindenburg) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Paul_von_Hindenburg)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Paul von Hindenburg (1914) von Nicola Perscheid (cropped).jpg|480]]
+*Field Marshal Hindenburg in 1914*
 
 ![[Bundesarchiv Bild 183-C06886, Paul v. Hindenburg (cropped)(2).jpg|480]]
 *Bundesarchiv Bild 183-C06886, Paul v. Hindenburg (cropped)(2)*
 
 ![[Bundesarchiv Bild 183-C06886, Paul v. Hindenburg.jpg|480]]
 *Bundesarchiv Bild 183-C06886, Paul v. Hindenburg*
+
+![[Paul von Hindenburg in 1933.jpg|480]]
+*Paul von Hindenburg in 1933*
 
 ## Related
 

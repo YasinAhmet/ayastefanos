@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **9** sources on **28** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Horatio Herbert Kitchener, 1st Earl Kitchener of Khartoum, 1901.jpg|320]]
-*Horatio Herbert Kitchener, 1st Earl Kitchener of Khartoum, 1901* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Herbert Kitchener 1914.jpg|320]]
+*Herbert Kitchener 1914* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -109,13 +112,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 1 p): [[The Armenian File (Kâmuran Gürün)#p. 280|280]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Herbert_Kitchener%2C_1st_Earl_Kitchener) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Horatio_Herbert_Kitchener)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Herbert Kitchener 1914.jpg|480]]
+*Herbert Kitchener 1914*
+
 ![[Horatio Herbert Kitchener, 1st Earl Kitchener of Khartoum, 1901.jpg|480]]
 *Horatio Herbert Kitchener, 1st Earl Kitchener of Khartoum, 1901*
+
+![[Horatio Herbert Kitchener.jpg|480]]
+*Horatio Herbert Kitchener*
+
+![[YourCountryNeedsYou.jpg|480]]
+*YourCountryNeedsYou*
 
 ## Related
 

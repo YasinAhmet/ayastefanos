@@ -16,6 +16,9 @@ tags: [place, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Bitlis was an eastern province. On 3 December 1910 the Russian consul in Bitlis reported on the Dashnaktsutyun there (Talat's memoir). In 1915 gendarmes and militia were sent from Bitlis against armed bands (Gürün). Mazhar Müfit was governor in 1918, and on 3 May 1919 a successor was appointed as he faced trial over the deportations (Akşin). Istanbul reported that the former governor had joined the 'rebels' at [[Erzurum]] (Kansu).
@@ -219,6 +222,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 400|400]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -235,6 +241,12 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Bitlis Belediyesi logo.png|480]]
 *Bitlis Belediyesi logo*
+
+![[Turkey adm location map.png|480]]
+*Turkey adm location map*
+
+![[Museum of Anatolian Civilizations Urartu Columna caelata base from Kef Kalesi in 2014 01.jpg|480]]
+*Two winged gods standing on lions are facing each other. The figures are identified as Teişeba, the Storm God. 7th century BC. from Bitlis now in Museum of Anatolian Civilizations*
 
 ## Related
 

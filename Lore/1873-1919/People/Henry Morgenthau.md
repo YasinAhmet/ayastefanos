@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Henry Morgenthau was the US ambassador in [[İstanbul]] in the [[First World War]]. Colonel House suggested him to [[Woodrow Wilson]] (Gürün). His rank was raised to ambassador, a sign of America's rise (Ortaylı). On 16 September 1914 he conveyed the US objection to the abolition of the capitulations (Akşin). Talat told him that fear of Russia forced them to work with Germany (video transcripts). His book *Ambassador Morgenthau's Story* is disputed. Reisman (American view) stresses his lasting work on the Armenian catastrophe, while Talat's memoirs and [[Cemal Paşa]] reject his account. Ortaylı notes the Ottoman government did not block his and Wangenheim's support for Zionist immigration.
@@ -122,6 +125,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 480|480]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -129,6 +135,12 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Henry Morgenthau crop.jpg|480]]
 *Henry Morgenthau crop*
+
+![[Henry Morgenthau.jpg|480]]
+*Henry Morgenthau*
+
+![[MORGENTHAU, HENRY. HONORABLE LCCN2016858623 Trim.jpg|480]]
+*Portrait by Harris & Ewing c. 1920s*
 
 ## Related
 

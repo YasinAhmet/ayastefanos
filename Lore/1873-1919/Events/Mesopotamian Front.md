@@ -20,6 +20,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The Mesopotamian (Iraq) front saw the siege of Kut and the loss of Baghdad (see [[Siege of Kut (1916)]]). Goltz died of typhus in Baghdad on 6 April 1916 before seeing the reward of his success (Sanders). The British advanced up the Tigris, and the Ottomans prepared positions north of Tikrit (Bardakçı). In October 1918 the capture of Muslimiye station north of Aleppo cut the railway link to the Iraqi front (Murphy). Ali İhsan Sabis commanded there. Neyzi recalls a relative's coat pierced by a bullet on the Iraq front.
@@ -79,6 +82,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -93,8 +99,14 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Mesopotamian campaign 6th Army Siege of Kut.png|480]]
 *Mesopotamian campaign 6th Army Siege of Kut*
 
+![[The Sheik-ul-Islam proclaiming the holy war in Constantinople - NYT - December 31 1914.jpg|480]]
+*Fetva emini Ali Haydar Efendi declaring a jihad ("struggle") against enemies of Islam (the Allies).*
+
 ![[Meso-WW1-1.jpg|480]]
 *1914, Initial British offensive*
+
+![[Meso-WW1-2.jpg|480]]
+*Meso-WW1-2*
 
 ## Related
 

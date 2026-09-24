@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **55** sources on **634** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Edirne view Üç Şerefeli Mosque.jpg|320]]
-*Edirne view Üç Şerefeli Mosque* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Adrianople siege artillery.jpg|320]]
+*Adrianople siege artillery* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -310,10 +313,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 24|24]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Edirne) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Edirne)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Adrianople siege artillery.jpg|480]]
+*Adrianople siege artillery*
 
 ![[Edirne view Üç Şerefeli Mosque.jpg|480]]
 *Edirne view Üç Şerefeli Mosque*
@@ -321,8 +330,14 @@ Every page where this subject is named. Each number links to that page in the co
 ![[KaraağaçRailwayStation (cropped).jpg|480]]
 *KaraağaçRailwayStation (cropped)*
 
-![[Edirne city emblem.png|480]]
-*Edirne city emblem*
+![[Selimiye Mosque and The Statue of Architect Sinan - panoramio.jpg|480]]
+*Selimiye Mosque and The Statue of Architect Sinan - panoramio*
+
+![[Meriç Köprüsü-Edirne (7527370074).jpg|480]]
+*Meriç Köprüsü-Edirne (7527370074)*
+
+![[Nagymecset - Edirne, 2014.10.22 (1).jpg|480]]
+*Nagymecset - Edirne, 2014.10.22 (1)*
 
 ## Related
 

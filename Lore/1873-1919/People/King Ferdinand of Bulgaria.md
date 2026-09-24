@@ -17,6 +17,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Ferdinand of Saxe-Coburg (born 1861, Cox) was Prince and then King of Bulgaria. In 1908 he answered an Ottoman slight to Bulgaria's envoy by declaring independence (Hochwächter). In spring 1911 he appointed a coalition cabinet (Trotsky). In 1912 he met the King of Montenegro and Prime Minister Geshov in Vienna (Childs). Talat, visiting in 1918, describes him throwing up his arms in despair. He shared the 'sad fate' of the Kaiser and Emperor Karl at the end of the war (Akşin). (Kula's and Ortaylı's Ferdinands are Habsburgs.)
@@ -117,6 +120,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 202|202]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -124,6 +130,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[KingFerdinand I Portrait.jpg|480]]
 *KingFerdinand I Portrait*
+
+![[Zar Ferdinand Bulgarien.jpg|480]]
+*Ferdinand I in 1912*
 
 ## Related
 

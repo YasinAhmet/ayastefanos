@@ -11,6 +11,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1853–1938 · Found in **1** sources on **35** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Anna Grosser Rilke Teplitz.png|320]]
+*Anna Grosser Rilke Teplitz* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Anna Grosser-Rilke (1853–1938) was born in Melnik (now in the Czech Republic) and was a pianist from the age of five. She married the journalist Julius Grosser and moved to [[Berlin]], where he knew figures such as Freytag, Keller and Brahms. She later lived in [[İstanbul]], including Tarabya, when her husband was a correspondent for the *Kölnische Zeitung*. Her memoir, *İstanbul'da Hoş Bir Sada* (German view), is a source in this vault and gives a picture of [[İstanbul]] and the European musical world a century ago.
@@ -51,6 +58,16 @@ Anna Grosser-Rilke (1853–1938) was born in Melnik (now in the Czech Republic) 
 Every page where this subject is named. Each number links to that page in the converted book.
 
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 35 ps): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 1|1]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 5|5]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 52|52]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 56|56]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 78|78]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 79|79]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 101|101]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 102|102]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 103|103]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 104|104]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 105|105]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 106|106]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 107|107]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 108|108]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 110|110]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 115|115]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 118|118]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 121|121]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 124|124]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 125|125]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 126|126]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 128|128]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 129|129]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 137|137]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 146|146]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 148|148]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 155|155]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 175|175]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 178|178]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 183|183]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 210|210]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 219|219]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 243|243]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 319|319]] · [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 326|326]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons (). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Anna Grosser Rilke Teplitz.png|480]]
+*Anna Grosser Rilke Teplitz*
 
 ## Related
 

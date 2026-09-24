@@ -10,6 +10,13 @@ tags: [place, "1873-1919"]
 
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **45** sources on **371** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Thrace region.jpg|320]]
+*Thrace region* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Trakya (Thrace) is the European part of modern Turkey. In 1919 the Trakya–Paşaeli Defence of Rights Society organised there (Goloğlu), though Colonel Muhittin claimed in April 1920 it had no link with the [[Kuva-yı Milliye]] (Akşin). The Bulgarian treaty gave parts of Thrace to Bulgaria and Greece, provoking protests (Goloğlu). At Mudanya in 1922 Mustafa Kemal said he could not stop his advance until Thrace was freed (İnan). Kansu lists it among areas added to the occupation zone in 1920.
@@ -270,6 +277,28 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 15|15]]
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 279|279]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 237|237]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Thrace) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Trakya)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Thrace region.jpg|480]]
+*Thrace region*
+
+![[Post Roman Balkans.jpg|480]]
+*Alexander G. Findlay Classical Atlas to Illustrate Ancient Geography, New York, 1849*
+
+![[Thraciae-veteris-typvs.jpg|480]]
+*Map of Ancient Thrace made by Abraham Ortelius in 1585, stating both the names Thrace and Europe*
+
+![[Rhodopen Balkan topo de.jpg|480]]
+*The physical–geographical boundaries of Thrace: the Balkan Mountains to the north, the Rhodope Mountains (highlighted) to the southwest, the Aegean Sea to the south, the Bosporus to the southeast and the Black Sea to the*
+
+![[OdrysianKingdom.jpg|480]]
+*Thrace in the Odrysian Kingdom showing several Thracian tribes. Sapeia was Northern Thrace and Asteia was Southern Thrace*
 
 ## Related
 

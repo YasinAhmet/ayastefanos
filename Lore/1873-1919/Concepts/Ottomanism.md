@@ -18,6 +18,9 @@ tags: [concept, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 Ottomanism (*Osmanlıcılık*) was the idea of a common Ottoman identity for all peoples. Ortaylı says it appealed to Syrians such as Bustani because it promised unity in a divided Syria (see [[Âli Paşa]]). Educators like Satı Bey promoted it (Akşin). Mantran (French view) says it had been weakening for a long time, and was shaken in late 1908. Toprak calls the Balkan War its 'death sentence'. The Arab deputy Zahrawi still held to it (Allawi). Akşin notes the contradictions of the Unionists, who preached Ottomanism while promoting Turkism.
@@ -123,6 +126,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -136,6 +142,15 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[London news c1877 - scanned constantinopole(1996)-Opening of the first parlement.png|480]]
 *Opening of the first Ottoman Parliament after the proclamation of the Ottoman Constitution of 1876*
+
+![[Şinasi-1.2 V01-1.1 cropped and cleaned.jpg|480]]
+*Osmanlıcı şair, tiyatro yazarı, gazeteci İbrahim Şinasi Efendi*
+
+![[Ziya Paşa, 1907.jpg|480]]
+*Ziya Paşa*
+
+![[Namık Kemal 1878-1.1R V01-1.2.jpg|480]]
+*Şair, roman ve tiyatro yazarı, gazeteci Namık Kemal*
 
 ## Related
 

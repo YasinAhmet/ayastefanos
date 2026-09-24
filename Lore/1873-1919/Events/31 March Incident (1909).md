@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The 31 March Incident (April 1909 by the Western calendar) was a counter-revolutionary revolt in [[İstanbul]]. The Action Army (*Hareket Ordusu*) under [[Mahmud Şevket Paşa]] came from Salonika and [[Edirne]], gathered at Ayastefanos and put it down (Mantran; Akşin). Mustafa Kemal and Hafız Hakkı joined it (Kemal; Hakkı Paşa). [[Hüseyin Hilmi Paşa]] returned as grand vizier on 6 May 1909 'in the shadow of the Action Army' (Güneş). Those deemed reactionaries were exiled to Medina (Bardakçı). Later nationalists recalled that the nation had been deceived on 31 March and would not allow 'a second Action Army' (Akşin).
@@ -231,6 +234,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -239,11 +245,20 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Action Army marching on Makri Keuy.jpg|480]]
 *Action Army forces marching on Bakırköy*
 
+![[Selanik Army Enters Istanbu 1909l.jpg|480]]
+*Selanik Army Enters Istanbu 1909l*
+
+![[Tashkishla 1909.jpg|480]]
+*Taşkışla barracks at Taksim following the suppression of the uprising*
+
 ![[Jungtürkische Parlamentsmitglieder in Saloniki, 1909.jpg|480]]
 *Jungtürkische Parlamentsmitglieder in Saloniki, 1909*
 
 ![[Greek lithograph celebrating the Ottoman Constitution.png|480]]
 *A Greek lithograph celebrating "freedom, equality, brotherhood" among Ottoman subjects following the 1908 revolution*
+
+![[Hasan fehmi bey.jpg|480]]
+*The murder of Hasan Fehmi, editor-in-chief of the anti-CUP newspaper Serbestî, in the days preceding the mutiny acted as a catalyst for unrest.*
 
 ## Related
 

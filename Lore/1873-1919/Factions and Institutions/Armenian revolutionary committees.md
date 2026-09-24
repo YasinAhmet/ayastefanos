@@ -17,6 +17,9 @@ tags: [faction, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 The Armenian revolutionary committees were the Hunchak party (founded 1887) and the Dashnaktsutyun (1890) (Akşin). Akşin says they followed a 'Bulgarian model'. In August 1896 the Dashnaks seized the [[Ottoman Bank]] in [[İstanbul]] (Mantran). After 1908 the Dashnaks worked with the CUP (Trotsky's editor); [[Cemal Paşa]] quotes their offer of cooperation. Talat's memoir quotes the Hunchak congress of 17 September 1913. In 1915 Talat ordered the closure of Hunchak and Dashnak branches and seizure of their papers (Bardakçı). Aralov (Russian view) notes limits on the Dashnak government's army. See [[Armenian deportation (1915)]].
@@ -162,6 +165,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 338|338]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -175,6 +181,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Founders of the Armenian Revolutionary Federation Stepan Zorian, Christapor Mikaelian, Simon Zavarian.jpg|480]]
 *ARF Founders left to right: Stepan Zorian, Christapor Mikaelian, Simon Zavarian*
+
+![[Yeprem khan.jpg|480]]
+*Yeprem Khan was a revolutionary leader of Iran*
 
 ![[Armenian Fedayees 1890-1896.jpg|480]]
 *Fedayi group fighting under the ARF banner. Text in Armenian reads Azatutyun kam Mah (Liberty or Death)*

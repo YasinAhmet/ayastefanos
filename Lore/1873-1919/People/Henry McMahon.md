@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Sir Henry McMahon was the British High Commissioner in Egypt. From summer 1915 he corresponded with [[Şerif Hüseyin]] for six months, promising to accept a [[Hicaz]] kingdom (Bardakçı), and the correspondence continued until mid-January 1916 (Allawi). Mantran (French view) says London promised an Arab state up to northern Syria. [[Cemal Paşa]] points out that McMahon's reply dated 24 October (1916 in Cemal's text) said Lebanon and parts of coastal Syria could not be counted as Arab, and argues the Şerif should have been warned by it. Akşin says the Arab revolt was built on this correspondence.
@@ -90,6 +93,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Enver (Murat Bardakçı)|Bardakçı, *Enver*]]** (Turkish, 2 ps): [[Enver (Murat Bardakçı)#p. 136|136]] · [[Enver (Murat Bardakçı)#p. 770|770]]
 - **[[100. Yılında Jön Türk Devrimi (Sina Akşin)|Akşin, *100. Yılında Jön Türk Devrimi*]]** (Turkish, 1 p): [[100. Yılında Jön Türk Devrimi (Sina Akşin)#p. 449|449]]
 - **[[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)|Yalman, *Birinci Dünya Savaşı'nda Türkiye*]]** (Turkish, 1 p): [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 258|258]]
+
+
+
 
 
 ## Images

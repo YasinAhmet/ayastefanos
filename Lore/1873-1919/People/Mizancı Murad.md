@@ -12,6 +12,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1854–1917 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **5** sources on **19** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Mizanci murat2.jpg|320]]
+*Mizanci murat2* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Mehmed Murad, called 'Mizancı' after his newspaper *Mizan*, was born in Dagestan and educated in Russia. He came to Turkey in 1873 and taught history at the Mülkiye (civil service school), where he was extremely popular (Mantran; Akşin). An Islamist Young Turk, he replaced [[Ahmed Rıza]] as head of the [[Committee of Union and Progress]] in [[Paris]]. Then in 1897 he accepted Abdülhamid's offer of amnesty and returned to [[İstanbul]], which the exiles saw as betrayal (Mantran, Akşin).
@@ -77,6 +84,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı İmparatorluğu Tarihi (Robert Mantran)|Mantran, *Osmanlı İmparatorluğu Tarihi*]]** (French, 3 ps): [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 705|705]] · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 706|706]] · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 951|951]]
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 2 locs): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 32|32]] · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 66|66]]
 - **[[Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi (Ali Akyıldız)|Akyıldız, *Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi*]]** (Turkish, 1 p): [[Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi (Ali Akyıldız)#p. 596|596]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mizanc%C4%B1_Murat) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mizanc%C4%B1_Murad)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mizanci murat2.jpg|480]]
+*Mizanci murat2*
 
 ## Related
 

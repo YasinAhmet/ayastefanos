@@ -16,6 +16,9 @@ tags: [event, "1873-1919"]
 *1st Herts Yeomanry in the Suez Canal trenches 1915 IWM Q15566* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
+
+
 ## Summary
 
 The first Suez Canal expedition in February 1915 was led by [[Cemal Paşa]], commander of the Fourth Army in Syria (Allawi; Murphy). With about 80,000 men he crossed the Sinai to the canal, but could not cross it and turned back (Mantran). Syrian units were in the front line (Nicolle, British view). A larger operation was planned for February 1916 with German and Austrian support (Sanders), and a second expedition under Kress followed (see [[Kress von Kressenstein]]). Neyzi lists the canal campaign among the sufferings of that generation.
@@ -113,6 +116,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı İmparatorluğu Tarihi (Robert Mantran)|Mantran, *Osmanlı İmparatorluğu Tarihi*]]** (French, 1 p): [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 772|772]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 515|515]]
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -120,6 +126,21 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[1st Herts Yeomanry in the Suez Canal trenches 1915 IWM Q15566.jpg|480]]
 *1st Herts Yeomanry in the Suez Canal trenches 1915 IWM Q15566*
+
+![[Turkish military town of Hafir el Aujah, the principal desert base, 1916.jpg|480]]
+*Ottoman military town of Hafir el Aujah, the Principal Desert Base*
+
+![[Map3CanalAttacks.jpg|480]]
+*Attacks on the Suez Canal*
+
+![[The camel corps at Beersheba2.jpg|480]]
+*The camel corps at Beersheba2*
+
+![[MapSinaiWWI.jpg|480]]
+*Suez and Sinai region 1917*
+
+![[Map 3 Sinai detail Keogh p.26.jpeg|480]]
+*Map shows the 3 ways across the Sinai Peninsula from el Aujah*
 
 ## Related
 

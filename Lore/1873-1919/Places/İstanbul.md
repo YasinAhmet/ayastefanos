@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **66** sources on **7421** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Historical peninsula and modern skyline of Istanbul.jpg|320]]
-*Historical peninsula and modern skyline of Istanbul* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[The burnt column, Constantinople, Turkey LOC 4211214788.jpg|320]]
+*The burnt column, Constantinople, Turkey LOC 4211214788* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -354,10 +357,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Neden Biz (Video transcript)|Video, *Neden Biz*]]** (Turkish, 4 locs): [[Neden Biz (Video transcript)#loc. 3|3]] · [[Neden Biz (Video transcript)#loc. 7|7]] · [[Neden Biz (Video transcript)#loc. 11|11]] · [[Neden Biz (Video transcript)#loc. 12|12]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Istanbul) · [TR Wikipedia](https://tr.wikipedia.org/wiki/%C4%B0stanbul)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[The burnt column, Constantinople, Turkey LOC 4211214788.jpg|480]]
+*The burnt column, Constantinople, Turkey LOC 4211214788*
 
 ![[Historical peninsula and modern skyline of Istanbul.jpg|480]]
 *Historical peninsula and modern skyline of Istanbul*
@@ -367,6 +376,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Istanbul asv2020-02 img53 Maiden's Tower.jpg|480]]
 *Istanbul asv2020-02 img53 Maiden's Tower*
+
+![[Nostalgic tram on Istiklal Avenue in Istanbul.jpg|480]]
+*Nostalgic tram on Istiklal Avenue in Istanbul*
 
 ![[Galata tower 01 23.jpg|480]]
 *Galata tower 01 23*

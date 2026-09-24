@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **58** sources on **617** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Gallipoli peninsula from space.png|320]]
-*Satellite image of the Gallipoli peninsula and surrounding area* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Aerial view Dardanelles town 1915 1.jpg|320]]
+*Aerial view Dardanelles town 1915 1* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -325,19 +328,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 127|127]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Gallipoli) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Gelibolu_Yar%C4%B1madas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Aerial view Dardanelles town 1915 1.jpg|480]]
+*Aerial view Dardanelles town 1915 1*
+
+![[The Town of Gallipoli Art.IWMART3113.jpg|480]]
+*The Town of Gallipoli Art.IWMART3113*
+
+![[Port de Gallipoli.jpg|480]]
+*The port of Gallipoli, c. 1880*
+
 ![[Gallipoli peninsula from space.png|480]]
 *Satellite image of the Gallipoli peninsula and surrounding area*
 
+![[View of Anzac Cove - Gallipoli Peninsula - Dardanelles - Turkey - 01 (5734713946).jpg|480]]
+*ANZAC Cove in Gallipoli*
+
 ![[Gallipolimap2.png|480]]
 *Map of the peninsula and its surroundings*
-
-![[Gallipoli ANZAC Cove Sphinx 2.jpg|480]]
-*The Sphinx overlooking Anzac Cove*
 
 ## Related
 

@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Aziz Ali el-Mısri was an Egyptian Circassian Ottoman officer who founded the secret society al-Ahd in 1913 (Allawi). He fought in Libya, where he quarrelled with Enver and turned Arab officers against him ([[Cemal Paşa]]). His arrest in early 1914 showed the Arab question was far from solved (Mantran). The charge was that he stole money given for the defence. [[Cemal Paşa]], his close friend, argued it was illogical to amnesty all other rebels and condemn only him, and helped get him freed on condition he leave Turkey. Murphy (Irish view) lists him as one of the first ex-Ottoman officers to serve the Arab cause.
@@ -81,6 +84,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı İmparatorluğu Tarihi (Robert Mantran)|Mantran, *Osmanlı İmparatorluğu Tarihi*]]** (French, 2 ps): [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 764|764]] · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 941|941]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -88,6 +94,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[000-Aziz Ali al-Misry Father of the free officers.jpg|480]]
 *000-Aziz Ali al-Misry Father of the free officers*
+
+![[‘Aziz ‘Ali al-Misri.png|480]]
+*‘Aziz ‘Ali al-Misri*
 
 ## Related
 

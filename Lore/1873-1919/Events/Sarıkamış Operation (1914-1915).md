@@ -12,9 +12,12 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 18 Dec 1914 – 10 Jan 1915 · Found in **22** sources on **140** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Battle of Sarikamis Enver Feldmann inspection 1914.png|320]]
-*Ismail Enver and Otto von Feldmann inspecting the units* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Тела турок. Сарыкамыш.jpg|320]]
+*The bodies of the Turks* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -185,13 +188,28 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Battle_of_Sarikamish) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Sar%C4%B1kam%C4%B1%C5%9F_Harek%C3%A2t%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Тела турок. Сарыкамыш.jpg|480]]
+*The bodies of the Turks*
+
+![[Makinali Tüfek.jpg|480]]
+*Makinali Tüfek*
+
 ![[Battle of Sarikamis Enver Feldmann inspection 1914.png|480]]
 *Ismail Enver and Otto von Feldmann inspecting the units*
+
+![[Sarikam.jpg|480]]
+*Sarikam*
+
+![[Sarıkamış kardan heykelelr.jpg|480]]
+*Sarıkamış kardan heykelelr*
 
 ![[Battle Sarikamis winter gear.png|480]]
 *Ottoman Third Army winter gear*

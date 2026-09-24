@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **19** sources on **119** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Bundesarchiv Bild 183-R02991, Otto Liman von Sanders.jpg|320]]
-*Bundesarchiv Bild 183-R02991, Otto Liman von Sanders* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Otto Liman Von Sanders.jpg|320]]
+*Otto Liman Von Sanders* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -178,10 +181,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Bu Defa Niçin Harp Edeceğimi Biliyorum (İbrahim Sorguç)|Sorguç, *Bu Defa Niçin Harp Edeceğimi Biliyorum*]]** (Turkish, 1 p): [[Bu Defa Niçin Harp Edeceğimi Biliyorum (İbrahim Sorguç)#p. 14|14]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Otto_Liman_von_Sanders) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Otto_Liman_von_Sanders)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Otto Liman Von Sanders.jpg|480]]
+*Otto Liman Von Sanders*
 
 ![[Bundesarchiv Bild 183-R02991, Otto Liman von Sanders.jpg|480]]
 *Bundesarchiv Bild 183-R02991, Otto Liman von Sanders*

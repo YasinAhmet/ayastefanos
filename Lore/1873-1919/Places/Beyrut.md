@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **40** sources on **436** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Beyrouth vue aérienne.jpg|320]]
-*Beyrouth vue aérienne* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[General view, with Lebanon in the distance, Beyrout, Holy Land, (i.e., Beirut, Lebanon)-LCCN2002724972.jpg|320]]
+*General view, with Lebanon in the distance, Beyrout, Holy Land, (i.e., Beirut, Lebanon)-LCCN2002724972* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -269,10 +272,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 419|419]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Beirut) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Beyrut)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[General view, with Lebanon in the distance, Beyrout, Holy Land, (i.e., Beirut, Lebanon)-LCCN2002724972.jpg|480]]
+*General view, with Lebanon in the distance, Beyrout, Holy Land, (i.e., Beirut, Lebanon)-LCCN2002724972*
 
 ![[Beyrouth vue aérienne.jpg|480]]
 *Beyrouth vue aérienne*
@@ -283,8 +292,11 @@ Every page where this subject is named. Each number links to that page in the co
 ![[BeirutNejmehSq.jpg|480]]
 *BeirutNejmehSq*
 
-![[Beirut Zaituna Bay.jpg|480]]
-*Beirut Zaituna Bay*
+![[Saint George Maronite Cathedral and Mohammad Al-Amin Mosque by Lebnen18.jpg|480]]
+*Saint George Maronite Cathedral and Mohammad Al-Amin Mosque by Lebnen18*
+
+![[Sursock house.jpg|480]]
+*Sursock house*
 
 ## Related
 

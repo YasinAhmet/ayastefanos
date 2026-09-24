@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **33** sources on **346** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Danube basin.png|320]]
-*The Danube basin* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Silistra River Danube.jpg|320]]
+*Silistra River Danube* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -236,19 +239,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 85|85]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Danube) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Tuna)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Silistra River Danube.jpg|480]]
+*Silistra River Danube*
+
 ![[Danube basin.png|480]]
 *The Danube basin*
+
+![[View from Gellért Hill to the Danube, Hungary - Budapest (28493220635).jpg|480]]
+*View from Gellért Hill to the Danube, Hungary - Budapest (28493220635)*
 
 ![[Bregquelle 01.jpg|480]]
 *The hydrogeographical source of the Danube at St. Martin's Chapel in Furtwangen im Schwarzwald Germany: the Bregquelle, the source of the Danube's longest headstream, the Breg, where the Danube is symbolized by the Roman*
 
 ![[Donauquelle Donaueschingen im Sommer.jpg|480]]
 *The symbolical source of the Danube in Donaueschingen: the source of the Donaubach (Danube Brook), which flows into the Brigach.*
+
+![[Szeged-tisza3.jpg|480]]
+*The Tisza is the longest tributary of the Danube.*
 
 ## Related
 

@@ -31,7 +31,7 @@ ROOT = os.path.dirname(HERE)
 LORE = os.path.join(ROOT, "Lore")
 WIKI = os.path.join(HERE, "wiki")
 IMGDIR = os.path.join(LORE, "Attachments", "Images")
-UA = "AyastefanosLoreVault/1.0 (personal offline research notes; low-volume script using python-urllib)"
+UA = "AyastefanosLoreVault/1.1 (https://github.com/yasinahmet/ayastefanos; personal research notes; low-volume script) python-urllib"
 MAX_IMAGES = 6  # per note, lead image included
 
 
@@ -39,7 +39,7 @@ def api(lang, **params):
     params.update(format="json", formatversion="2")
     host = "commons.wikimedia.org" if lang == "commons" else f"{lang}.wikipedia.org"
     url = f"https://{host}/w/api.php?" + urllib.parse.urlencode(params)
-    for attempt in range(8):
+    for attempt in range(40):  # shared IPs get 429s: keep waiting as long as the server asks
         try:
             time.sleep(0.8)
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "identity"})
@@ -384,6 +384,8 @@ def _online():
                                      headers={"User-Agent": UA})
         urllib.request.urlopen(req, timeout=15).read()
         return True
+    except urllib.error.HTTPError:  # the server answered (e.g. 429 rate limit)
+        return True
     except Exception:  # noqa: BLE001
         return False
 
@@ -452,7 +454,8 @@ def stage_lead():
         key = lambda f: f.replace(" ", "_").lower()  # noqa: E731
         old = {key(it["file"]): it for it in e.get("images", [])}
         new = [dict(file=f, caption=old.get(key(f), {}).get("caption", ""), lang="lead", infobox=True) for f in picks]
-        rest = [it for it in e.get("images", []) if key(it["file"]) not in {key(p) for p in picks} | drop]
+        rest = [it for it in e.get("images", []) if key(it["file"]) not in {key(p) for p in picks} | drop
+                and it.get("lang") != "lead"]  # earlier hand-picks that are no longer listed go away
         e["images"] = (new + rest)[:max(MAX_IMAGES, len(new) + 1)]
     save("images.json", imgs)
     print(len(rows), "notes given lead images")
@@ -499,17 +502,30 @@ def safe_name(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def stage_download():
+def stage_download(folder=None):
+    """Download every image in images.json, or only those of the notes in one period folder
+    (lead candidates first, so a slow or interrupted run still gives each note its picture)."""
     imgs = load("images.json", {})
     meta = load("files.json", {})
     os.makedirs(IMGDIR, exist_ok=True)
-    allfiles = sorted({it["file"] for e in imgs.values() for it in e["images"]})
+    paths = {n["name"]: n["path"] for n in notes()}
+    chosen = [e for name, e in imgs.items()
+              if not folder or os.sep + folder + os.sep in paths.get(name, "")]
+    allfiles = list(dict.fromkeys(e["images"][i]["file"] for i in range(MAX_IMAGES + 20)
+                                  for e in chosen if i < len(e["images"])))
     todo = [f for f in allfiles if f not in meta]
     print(len(todo), "files to look up")
-    for i in range(0, len(todo), 40):
-        batch = todo[i:i + 40]
+    batches = [todo[i:i + 40] for i in range(0, len(todo), 40)]
+    while batches:
+        batch = batches.pop(0)
         r = api("en", action="query", prop="imageinfo", titles="|".join("File:" + f for f in batch),
                 iiprop="url|extmetadata|size|mime", iiurlwidth=500, redirects=1)
+        if "error" in r and len(batch) > 1:  # one bad file (e.g. a PDF without thumbnails) fails the batch
+            batches += [[f] for f in batch]  # so look them up one at a time
+            continue
+        if "error" in r:
+            print("  ! no image info for", batch[0], "-", r["error"].get("code"))
+            continue
         norm = {x["to"]: x["from"] for x in r.get("query", {}).get("normalized", [])}
         for p in r.get("query", {}).get("pages", []):
             title = p.get("title", "")
@@ -524,35 +540,36 @@ def stage_download():
                 artist=g("Artist")[:200], credit=g("Credit")[:200], description=g("ImageDescription")[:300])
         save("files.json", meta)
         time.sleep(0.3)
-    from concurrent.futures import ThreadPoolExecutor
-
-    def fetch_one(f):
+    # One file at a time. A 429 can ask for a long wait, but the next request may leave through another
+    # address of a shared proxy: requeue the file and move on instead of sleeping on it.
+    queue = [(f, 0) for f in allfiles]
+    done = 0
+    while queue:
+        f, tries = queue.pop(0)
         info = meta.get(f) or meta.get(f.replace(" ", "_"))
         if not info or not info.get("url"):
-            return
+            continue
         local = local_name(f, info)
         info["local"] = local
         dst = os.path.join(IMGDIR, local)
         if os.path.exists(dst):
-            return
-        for attempt in range(6):
-            try:
-                time.sleep(0.6)
-                req = urllib.request.Request(info["url"], headers={"User-Agent": UA})
-                with urllib.request.urlopen(req, timeout=60) as r:
-                    data = r.read()
-                open(dst, "wb").write(data)
-                return
-            except urllib.error.HTTPError as e:
-                wait = int(e.headers.get("Retry-After", "0") or 0) if e.code == 429 else 0
-                print(f"  {e.code} on {f}, waiting {max(wait, 10)}s", flush=True)
-                time.sleep(max(wait, 10))
-            except Exception as e:  # noqa: BLE001
-                time.sleep(5 + attempt * 5)
-        print("  ! download failed", f, flush=True)
-
-    with ThreadPoolExecutor(2) as ex:  # upload.wikimedia.org rate-limits per IP: stay gentle
-        list(ex.map(fetch_one, allfiles))
+            continue
+        try:
+            time.sleep(1.0)
+            req = urllib.request.Request(info["url"], headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                data = r.read()
+            open(dst, "wb").write(data)
+            done += 1
+            if done % 25 == 0:
+                print(f"  {done} downloaded, {len(queue)} left", flush=True)
+        except Exception as e:  # noqa: BLE001
+            code = getattr(e, "code", None)
+            if tries < 12 and code not in (403, 404):
+                time.sleep(min(int((getattr(e, "headers", None) or {}).get("Retry-After", "0") or 0), 20) or 5)
+                queue.append((f, tries + 1))
+            else:
+                print("  ! download failed", f, code, flush=True)
     save("files.json", meta)
     print("downloaded; files in", IMGDIR)
 

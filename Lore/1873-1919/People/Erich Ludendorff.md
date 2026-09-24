@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 General Erich Ludendorff was Germany's First Quartermaster-General. After reports from Sanders, he forbade sending Turkish troops to Europe (telegram of 28 November 1916, Yazman). [[Cemal Paşa]] took his objections to Falkenhayn's plan to him and Hindenburg. Bardakçı says he forced himself to give a positive answer to reassure the Turks, and Mustafa Kemal saw through his arguments. Toprak says he named the war the 'First' World War in the 1920s. After Talat's murder he called it 'a black stain on Germany' (Bardakçı).
@@ -92,6 +95,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Cemal Paşa Hatıralar (Cemal Paşa)|Cemal Paşa, *Cemal Paşa Hatıralar*]]** (Turkish, 1 p): [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 231|231]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 135|135]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 538|538]]
+
+
+
 
 
 ## Images

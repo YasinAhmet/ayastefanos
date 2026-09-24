@@ -12,9 +12,12 @@ tags: [faction, "1873-1919"]
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1881– · Found in **25** sources on **88** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[IELfrontgate.jpg|320]]
-*The Istanbul High School building was originally constructed as the Ottoman Public Debt Administration (OPDA) headquarters.* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[OPDA duty stamps.png|320]]
+*Duty stamps from the Ottoman Public Debt Administration* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -181,10 +184,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 79|79]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ottoman_Public_Debt_Administration) · [TR Wikipedia](https://tr.wikipedia.org/wiki/D%C3%BCy%C3%BBn-%C4%B1_Um%C3%BBmiye)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[OPDA duty stamps.png|480]]
+*Duty stamps from the Ottoman Public Debt Administration*
 
 ![[IELfrontgate.jpg|480]]
 *The Istanbul High School building was originally constructed as the Ottoman Public Debt Administration (OPDA) headquarters.*

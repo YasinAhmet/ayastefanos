@@ -12,9 +12,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1874–1921 · Found in **35** sources on **812** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[CUP leaders with Naum Tyufekchiev, 1915.jpg|320]]
-*CUP leaders with Naum Tyufekchiev, 1915* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Talat Pasha.jpg|320]]
+*Talat Pasha* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -276,16 +279,28 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kim Hain, Kim Kahraman (Video transcript)|Video, *Kim Hain, Kim Kahraman*]]** (Turkish, 1 loc): [[Kim Hain, Kim Kahraman (Video transcript)#loc. 10|10]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Talaat_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Talat_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Talat Pasha.jpg|480]]
+*Talat Pasha*
+
+![[Mehmed Talat Pasha.jpg|480]]
+*Mehmed Talat Pasha*
 
 ![[CUP leaders with Naum Tyufekchiev, 1915.jpg|480]]
 *CUP leaders with Naum Tyufekchiev, 1915*
 
 ![[17-member Unionists parliamentary delegation to Westminster in 1909.jpg|480]]
 *17-member Unionists parliamentary delegation to Westminster in 1909*
+
+![[Mehmed talat.jpg|480]]
+*Talaat in 1920*
 
 ## Related
 

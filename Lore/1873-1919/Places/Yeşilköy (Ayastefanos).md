@@ -16,6 +16,9 @@ tags: [place, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Yeşilköy (Ayastefanos, San Stefano), west of [[İstanbul]], gives this project its name. The Russo-Turkish War (1877-1878) ended there with the [[Treaty of San Stefano (1878)]]; the Armenian Patriarch went to the Russian headquarters when talks began (Gürün). The Russians built a monument there, which Kâzım Karabekir later faced with emotion (see [[Kâzım Karabekir]]). In April 1909 the Action Army gathered there before entering İstanbul (Akşin; [[Cemal Paşa]]; see [[31 March Incident (1909)]]). Later it had a sea-bathing company (Toprak).
@@ -225,6 +228,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 240|240]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -235,6 +241,18 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[HouseOfSanStefanoTreaty.jpg|480]]
 *HouseOfSanStefanoTreaty*
+
+![[Yesilkoy Haritasi.jpg|480]]
+*Yesilkoy Haritasi*
+
+![[TurkishAirlinesHQIstanbul.jpg|480]]
+*Türk Hava Yolları genel müdürlük binası*
+
+![[Yesilkoy Marina (Resim 079).jpg|480]]
+*Yesilkoy Marina*
+
+![[Yesilkoy Marina.jpg|480]]
+*Yesilkoy Marina*
 
 ## Related
 

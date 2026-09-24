@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Andranik was an Armenian partisan leader. His first armed action was in 1895–96, when he led a band protecting Armenian villages (Trotsky's editor). Trotsky (Russian view) heard Armenian volunteers in the Balkan War singing songs about him. In the [[First World War]] he led Armenian volunteers. Gürün calls him 'a bloodthirsty adventurer' and quotes a Russian officer's memoirs on the cruelties of the Armenian units. On 17 February 1918 he came to [[Erzurum]]. Talat's memoir says he promised to punish every killer, Armenian or Muslim, but also rode out to stop deserters fleeing the front.
@@ -80,6 +83,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Balkan Savaşları (Troçki) (Leon Trotsky)|Trotsky, *Balkan Savaşları (Troçki)*]]** (Russian, 13 locs): [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 219|219]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 220|220]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 221|221]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 222|222]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 223|223]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 224|224]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 225|225]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 226|226]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 350|350]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 356|356]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 364|364]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 378|378]] · [[Balkan Savaşları (Troçki) (Leon Trotsky)#loc. 384|384]]
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 13 ps): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 90|90]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 97|97]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 100|100]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 101|101]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 102|102]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 103|103]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 104|104]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 106|106]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 107|107]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 110|110]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 111|111]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 112|112]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 191|191]]
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 3 ps): [[The Armenian File (Kâmuran Gürün)#p. 298|298]] · [[The Armenian File (Kâmuran Gürün)#p. 311|311]] · [[The Armenian File (Kâmuran Gürün)#p. 370|370]]
+
+
+
 
 
 ## Images

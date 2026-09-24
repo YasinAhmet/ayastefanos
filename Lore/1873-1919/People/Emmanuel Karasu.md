@@ -18,6 +18,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Emmanuel Karasu (Carasso) was a Salonika Jewish lawyer and Unionist deputy for [[İstanbul]]. According to Akşin, citing Tunaya, he was master of the Veritas lodge in Salonika, and later a member of the [[Committee of Union and Progress]] Central Committee. Akşin also notes that other historians think the role of Freemasons in the Young Turk movement has been exaggerated. A Unionist officer recalls receiving handwritten instructions from [[Talat Paşa]] and Rahmi in 'lawyer Karasu Efendi's office' (Bardakçı).
@@ -79,6 +82,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 2 ps): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 369|369]] · [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 456|456]]
 - **[[Enver (Murat Bardakçı)|Bardakçı, *Enver*]]** (Turkish, 1 p): [[Enver (Murat Bardakçı)#p. 420|420]]
 - **[[Osmanlı İmparatorluğu Tarihi (Robert Mantran)|Mantran, *Osmanlı İmparatorluğu Tarihi*]]** (French, 1 p): [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 766|766]]
+
+
+
 
 
 ## Images

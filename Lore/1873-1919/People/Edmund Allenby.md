@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 General Edmund Allenby commanded the British forces in Egypt and Palestine from 1917. His offensive of November 1917 forced [[Kress von Kressenstein]] back (Bardakçı). [[Cemal Paşa]] says he would not attack again until he had four British soldiers for every Turk. [[Kılıç Ali]] notes the Ottomans had not even 20,000 men against his 80,000. His army was reinforced with Indian troops suited to the Jordan valley (Sanders). The Arab government in Damascus answered to his headquarters (Allawi). Bardakçı says Lloyd George called him a crusader commander, and Ali Şükrü repeated this in the Assembly (Akşin).
@@ -130,6 +133,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Cemal Paşa Hatıralar (Cemal Paşa)|Cemal Paşa, *Cemal Paşa Hatıralar*]]** (Turkish, 1 p): [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 217|217]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -137,6 +143,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Edmund Allenby.jpg|480]]
 *Allenby in 1917*
+
+![[Sir Edmund Allenby.jpg|480]]
+*Sir Edmund Allenby*
 
 ![[Ed-Allenby.jpg|480]]
 *Ed-Allenby*

@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **24** sources on **129** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Aerial view of city of Suez and Suez Canal.jpg|320]]
-*Aerial view of city of Suez and Suez Canal* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[SuezCanalKantara.jpg|320]]
+*Suez Canal, 1869* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -174,19 +177,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 310|310]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Suez_Canal) · [TR Wikipedia](https://tr.wikipedia.org/wiki/S%C3%BCvey%C5%9F_Kanal%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[SuezCanalKantara.jpg|480]]
+*Suez Canal, 1869*
+
 ![[Aerial view of city of Suez and Suez Canal.jpg|480]]
 *Aerial view of city of Suez and Suez Canal*
+
+![[Suez Canal, Egypt (31596166706).jpg|480]]
+*The Suez Canal from space, showingthe Great Bitter Lake at the centre (after the 2015 expansion)Interactive map of Suez Canal*
 
 ![[Iss016e019375.jpg|480]]
 *Iss016e019375*
 
 ![[Canal of the Pharaohs Map-en.png|480]]
 *Canal of the Pharaohs, which followed Wadi Tumilat*
+
+![[Suez1856.jpg|480]]
+*Bathymetric chart, northern Gulf of Suez, route to Cairo, 1856*
 
 ## Related
 

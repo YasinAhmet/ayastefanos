@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 In 1894 Armenians in Sasun suffered a massacre, after the Dashnaktsutyun set up an armed band in the Muş valley (Trotsky's editor, Russian view). Emrence notes peasant revolts in Sasun, the Druze mountains and southern Iraq. Gürün and Talat's memoir, from the Turkish side, stress Armenian armed actions, such as at Zeitun. [[Cemal Paşa]] calls the 1915 Zeitun and [[Urfa]] events 'an armed Armenian revolution'. See also [[Armenian revolutionary committees]]. (Several extracted quotes concern 'Sason Efendi', an Iraqi minister, and are unrelated.)
@@ -141,6 +144,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 38|38]]
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 1 p): [[The Armenian File (Kâmuran Gürün)#p. 76|76]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 462|462]]
+
+
+
 
 
 

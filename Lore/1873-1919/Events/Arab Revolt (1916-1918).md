@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The Arab Revolt was launched by [[Şerif Hüseyin]] in June 1916. It was built on the Hüseyin–McMahon correspondence, with Britain promising rewards to Arab units that rose against the Ottoman army (Akşin). With British money and military help, Emrence says, Hüseyin hoped to defeat the Ottomans and regional rivals and build a larger Arab kingdom. Members of Arab secret societies in the Ottoman army joined it (Bardakçı). The revolt cut off the VII Corps in the [[Hicaz]] and [[Yemen]] (Nicolle, British view). Murphy (Irish view) describes British air support. See [[Faysal]], [[T. E. Lawrence]] and [[Fahreddin Paşa]].
@@ -108,6 +111,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -118,6 +124,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Lcamel.jpg|480]]
 *Lawrence of Arabia after the Battle of Aqaba.*
+
+![[علم الثورة العربية الكبرى في متحف صرح الشهيد.jpg|480]]
+*The flag of the Arab Revolt in the Martyrs' Memorial, Amman, Jordan.*
 
 ![[HejOut.png|480]]
 *Outline map of Hejaz*

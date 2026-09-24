@@ -12,9 +12,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** reigned 1876–1909 · Found in **53** sources on **1034** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Abdülhamid II of Turkey.jpg|320]]
-*Abdülhamid II of Turkey* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Sultan Abdul Hamid II in 1899.jpg|320]]
+*Sultan Abdul Hamid II in 1899* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -328,13 +331,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Plevne'de Bir Avustralyalı (Charles S. Ryan)|Ryan, *Plevne'de Bir Avustralyalı*]]** (Australian, 1 p): [[Plevne'de Bir Avustralyalı (Charles S. Ryan)#p. 290|290]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Abdul_Hamid_II) · [TR Wikipedia](https://tr.wikipedia.org/wiki/II._Abd%C3%BClhamid)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Sultan Abdul Hamid II in 1899.jpg|480]]
+*Sultan Abdul Hamid II in 1899*
+
+![[Sultan Abdul Hamid II of the Ottoman Empire.jpg|480]]
+*Sultan Abdul Hamid II of the Ottoman Empire*
+
 ![[Abdülhamid II of Turkey.jpg|480]]
 *Abdülhamid II of Turkey*
+
+![[Sultan Gazi Abdül Hamid II - السلطان الغازي عبد الحميد الثاني.png|480]]
+*Portrait 1899*
 
 ## Related
 

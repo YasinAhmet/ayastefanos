@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Gazi Ahmed Muhtar Paşa was a marshal and grand vizier. In the Russo-Turkish War (1877-1878) he won several victories on the eastern front but could not stop the Russians, and [[Kars]] fell on 18 November 1877 (Hobart-Hampden, British view). He was later [[Abdülhamid II]]'s special commissioner in Egypt and resisted British proposals for the Sudan frontier in 1886 (Akyıldız; Cox, American view). Bouquet notes he was one of the few who kept the Sultan's trust long, until they fell out.
@@ -218,6 +221,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)|Aralov, *Bir Sovyet Diplomatının Türkiye Anıları*]]** (Russian, 1 loc): [[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)#loc. 24|24]]
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 130|130]]
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 391|391]]
+
+
+
 
 
 ## Images

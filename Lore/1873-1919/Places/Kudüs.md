@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **45** sources on **466** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[16-03-30-Klagemauer Jerusalem RalfR-DSCF7704.jpg|320]]
-*16-03-30-Klagemauer Jerusalem RalfR-DSCF7704* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[The Damascus Gate, Jerusalem, Holy Land-LCCN2002725014.jpg|320]]
+*The Damascus Gate, Jerusalem, Holy Land-LCCN2002725014* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -271,13 +274,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 685|685]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Jerusalem) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Kud%C3%BCs)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[The Damascus Gate, Jerusalem, Holy Land-LCCN2002725014.jpg|480]]
+*The Damascus Gate, Jerusalem, Holy Land-LCCN2002725014*
+
 ![[16-03-30-Klagemauer Jerusalem RalfR-DSCF7704.jpg|480]]
 *16-03-30-Klagemauer Jerusalem RalfR-DSCF7704*
+
+![[Temple Mount (Aerial view, 2007) 07.jpg|480]]
+*Temple Mount (Aerial view, 2007) 07*
+
+![[המצודה בלילה.jpg|480]]
+*המצודה בלילה*
+
+![[הרברט סמואל ירושלים.jpg|480]]
+*הרברט סמואל ירושלים*
+
+![[Jerusalem Chords Bridge 5 (cropped).jpg|480]]
+*Jerusalem Chords Bridge 5 (cropped)*
 
 ## Related
 

@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **32** sources on **335** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Great Mosque of Mecca1.jpg|320]]
-*Great Mosque of Mecca1* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Mecca prayer, 1889.png|320]]
+*Mecca prayer, 1889* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -231,13 +234,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Milli İktisat (Zafer Toprak)|Toprak, *Türkiye'de Milli İktisat*]]** (Turkish, 1 p): [[Türkiye'de Milli İktisat (Zafer Toprak)#p. 686|686]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mecca) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mekke)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Mecca prayer, 1889.png|480]]
+*Mecca prayer, 1889*
+
 ![[Great Mosque of Mecca1.jpg|480]]
 *Great Mosque of Mecca1*
+
+![[The Kabah in the Grand Mosque of Makkah, Saudi Arabia (52501405646).jpg|480]]
+*The Kabah in the Grand Mosque of Makkah, Saudi Arabia (52501405646)*
+
+![[Pilgrims cover Arafat's roads, plains and mountain - Flickr - Al Jazeera English.jpg|480]]
+*Pilgrims cover Arafat's roads, plains and mountain - Flickr - Al Jazeera English*
 
 ![[Jabbal An-Nour - Makkah (2241558560).jpg|480]]
 *Jabbal An-Nour - Makkah (2241558560)*

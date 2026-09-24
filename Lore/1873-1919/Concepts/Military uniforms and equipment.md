@@ -18,6 +18,9 @@ tags: [concept, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 Uniforms and equipment recur in the sources. A group refused to serve because blue uniforms offended their sect, and received separate uniforms (Ortaylı). Not all soldiers at Gallipoli had proper uniforms; Einstein remarked on how young they were (Nicolle, British view). In the Balkan War Martini rifles were being converted to a smaller calibre (Durgun). Menshikov's uniform in 1853 was debated (Badem). Enver's pursuers saw 'Turkish uniforms' in Central Asia (Bardakçı). Kemal quotes a biting passage on officers who wear the sword and uniform but are useless. Massie describes [[Peter the Great]]'s Guards' uniforms.
@@ -276,6 +279,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -284,8 +290,20 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Battle Sarikamis winter gear.png|480]]
 *Battle Sarikamis winter gear*
 
+![[Makinali Tüfek.jpg|480]]
+*Makinali Tüfek*
+
 ![[Israel in World War I - Ottomans soldiers with machine gun H OP 039.jpg|480]]
 *Israel in World War I - Ottomans soldiers with machine gun H OP 039*
+
+![[Turkey, 1850-96 (NYPL b14896507-435691).jpg|480]]
+*Turkey, 1850-96 (NYPL b14896507-435691)*
+
+![[Turkey, 1850-96 (NYPL b14896507-435690).jpg|480]]
+*Turkey, 1850-96 (NYPL b14896507-435690)*
+
+![[Paris- Ernest Bourdin, 1854 Raffet, Auguste (artist) image 4th in collection of 4 col. lith. pl. by Riffault after Raffe.jpg|480]]
+*Paris- Ernest Bourdin, 1854 Raffet, Auguste (artist) image 4th in collection of 4 col. lith. pl. by Riffault after Raffet; three uniform figures of Turkish infantrymen, standing, with more in background.*
 
 ## Related
 

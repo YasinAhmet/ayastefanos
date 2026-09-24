@@ -10,6 +10,13 @@ tags: [place, "1873-1919"]
 
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **49** sources on **576** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Destroyed artillery battery in Tripoli after Italian Navy bombardment (1911).jpg|320]]
+*Destroyed artillery battery in Tripoli after Italian Navy bombardment (1911)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Trablusgarp (Tripoli in Libya) was the last Ottoman province in North Africa. From 1835 the Ottomans ruled it directly after new external threats (Akyıldız). Italy attacked it in 1911 (see [[Italo-Turkish War (1911-1912)]]). Officers such as Enver, Mustafa Kemal and Fethi went to fight there; Mustafa Kemal served at Derne (Kemal). [[Aziz Ali el-Mısri]] clashed with Enver at Benghazi ([[Cemal Paşa]]). Hochwächter notes that wars in [[Yemen]], Tripoli, the Hauran and Albania had drained Ottoman manpower before the Balkan War. Childs (American view) studies the war's diplomacy.
@@ -281,6 +288,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 42|42]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 452|452]]
 - **[[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları III*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)#p. 321|321]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ottoman_Tripolitania) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Trablusgarp_%28eyalet%29)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Destroyed artillery battery in Tripoli after Italian Navy bombardment (1911).jpg|480]]
+*Destroyed artillery battery in Tripoli after Italian Navy bombardment (1911)*
+
+![[Tripolitania Vilayet, Ottoman Empire (1900).png|480]]
+*The Tripolitania Vilayet in 1900*
+
+![[Maritime flag of Regency of Tripoli (18th century).png|480]]
+*Maritime flag of Regency of Tripoli (18th century)*
+
+![[Tripolitania Eyalet, Ottoman Empire (1795).png|480]]
+*Tripolitania Eyalet, Ottoman Empire (1795)*
+
+![[Royaume de Tripoli 1707.jpg|480]]
+*Royaume de Tripoli 1707*
+
+![[Ottoman Empire Administrative Divisions.png|480]]
+*A map showing the administrative divisions of the Ottoman Empire in 1899, including the province of Tripoli.*
 
 ## Related
 

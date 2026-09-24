@@ -10,6 +10,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **13** sources on **110** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Mark Sykes00.jpg|320]]
+*Sykes, c. 1918* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 
 ## Summary
 
@@ -124,6 +131,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 98|98]]
 - **[[Osmanlı Piyadesi 1914-1918 (David Nicolle)|Nicolle, *Osmanlı Piyadesi 1914-1918*]]** (British, 1 p): [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 65|65]]
 
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mark_Sykes) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mark_Sykes)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mark Sykes00.jpg|480]]
+*Sykes, c. 1918*
+
+![[Mark Sykes, Vanity Fair, 1912-06-26.jpg|480]]
+*Mark Sykes, Vanity Fair, 1912-06-26*
 
 ## Related
 

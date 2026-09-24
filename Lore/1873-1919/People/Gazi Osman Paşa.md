@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **18** sources on **151** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[GhaziOsmanPasha.jpg|320]]
-*GhaziOsmanPasha* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Osman nuripasa.jpg|320]]
+*Marshal Gazi Osman Pasha, 1895. Photograph by Abdullah Frères.* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -168,10 +171,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 647|647]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Osman_Nuri_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Gazi_Osman_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Osman nuripasa.jpg|480]]
+*Marshal Gazi Osman Pasha, 1895. Photograph by Abdullah Frères.*
 
 ![[GhaziOsmanPasha.jpg|480]]
 *GhaziOsmanPasha*

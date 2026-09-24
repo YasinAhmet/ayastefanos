@@ -10,6 +10,13 @@ tags: [concept, "1873-1919"]
 
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **33** sources on **145** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Yildiz palace 1909.jpg|320]]
+*Yildiz palace 1909* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Under [[Abdülhamid II]], informers (*hafiye*) sent daily reports (*jurnal*) that the Sultan spent hours reading and sorting (Allawi). Bouquet says the 'secret sultan's' spies were everywhere; the capital was divided into twenty-one districts. The reports became one of the most important daily tasks of the palace (video transcripts), and many were absurd (see [[Yıldız Sarayı]]). One official boasted there were over a thousand political suspects under secret watch (Akşin). Victims of the secret police later received extra pensions (Akşin).
@@ -214,6 +221,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 113|113]]
 - **[[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)|Childs, *Trablusgarp Savaşı ve Türk-İtalyan İlişkileri*]]** (American, 1 p): [[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)#p. 39|39]]
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 37|37]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons (). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Yildiz palace 1909.jpg|480]]
+*Yildiz palace 1909*
+
+![[Punch magazine - Turkey Ltd - 1896.jpg|480]]
+*Punch magazine - Turkey Ltd - 1896*
 
 ## Related
 

@@ -12,9 +12,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1874–1948 · Found in **20** sources on **84** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[1336 12 20 Serveti Funun Halil Bey.jpg|320]]
-*1336 12 20 Serveti Funun Halil Bey* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Halil Mentese.jpg|320]]
+*Halil Mentese* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -150,10 +153,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 379|379]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Halil_Mente%C5%9Fe) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Halil_Mente%C5%9Fe)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Halil Mentese.jpg|480]]
+*Halil Mentese*
 
 ![[1336 12 20 Serveti Funun Halil Bey.jpg|480]]
 *1336 12 20 Serveti Funun Halil Bey*

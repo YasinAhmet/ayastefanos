@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **51** sources on **691** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Galerius Arch (Thessaloniki) (cropped).jpg|320]]
-*Galerius Arch (Thessaloniki) (cropped)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Salonica LCCN2014691076.jpg|320]]
+*Salonica LCCN2014691076* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -298,16 +301,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 576|576]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Thessaloniki) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Selanik)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Salonica LCCN2014691076.jpg|480]]
+*Salonica LCCN2014691076*
+
+![[Tower of Thessaloniki - panoramio.jpg|480]]
+*Tower of Thessaloniki - panoramio*
+
 ![[Galerius Arch (Thessaloniki) (cropped).jpg|480]]
 *Galerius Arch (Thessaloniki) (cropped)*
 
-![[Aristotelous Plateia 2006 (cropped).jpg|480]]
-*Aristotelous Plateia 2006 (cropped)*
+![[Tessaloniki BW 2017-10-05 18-22-47.jpg|480]]
+*Tessaloniki BW 2017-10-05 18-22-47*
+
+![[Thessaloniki Heptapyrgion northeastern wall from the inner yard.jpg|480]]
+*Thessaloniki Heptapyrgion northeastern wall from the inner yard*
+
+![[Базилика Святого Димитрия - panoramio.jpg|480]]
+*Базилика Святого Димитрия - panoramio*
 
 ## Related
 

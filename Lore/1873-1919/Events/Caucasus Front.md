@@ -11,9 +11,12 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **14** sources on **70** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Caucasus campaign.jpg|320]]
-*Caucasus campaign* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[WW1 TitlePicture For Caucasus Campaign.png|320]]
+*WW1 TitlePicture For Caucasus Campaign* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -131,16 +134,31 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Caucasus_campaign) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Kafkasya_Cephesi)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[WW1 TitlePicture For Caucasus Campaign.png|480]]
+*WW1 TitlePicture For Caucasus Campaign*
 
 ![[Caucasus campaign.jpg|480]]
 *Caucasus campaign*
 
 ![[Battle Sarikamis winter gear.png|480]]
 *Battle Sarikamis winter gear*
+
+![[Sarikam.jpg|480]]
+*Sarikam*
+
+![[Staff of armenian volunteers 1914.png|480]]
+*Staff of armenian volunteers 1914*
+
+![[World War I Caucasus Campaign -memory.loc.gov.png|480]]
+*World War I Caucasus Campaign -memory.loc.gov*
 
 ## Related
 

@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **9** sources on **45** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Ioannina liberation 1913.jpg|320]]
-*Ioannina liberation 1913* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Mehmed Esad Pasha.jpg|320]]
+*Mehmed Esad Pasha in 1915* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -109,10 +112,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Balkan Harbi'nde Ulaştırma (Bülent Durgun)|Durgun, *Balkan Harbi'nde Ulaştırma*]]** (Turkish, 1 p): [[Balkan Harbi'nde Ulaştırma (Bülent Durgun)#p. 183|183]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmet_Esat_B%C3%BClkat) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mehmet_Esat_B%C3%BClkat)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mehmed Esad Pasha.jpg|480]]
+*Mehmed Esad Pasha in 1915*
+
+![[Mehmed Esad Pasha (Bülkat).jpg|480]]
+*Mehmet Esat Bülkat*
+
+![[Mehmed Esad Pasha and his men.jpg|480]]
+*Mehmed Esad Pasha and his men*
 
 ![[Ioannina liberation 1913.jpg|480]]
 *Ioannina liberation 1913*

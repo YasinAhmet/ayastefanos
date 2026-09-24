@@ -11,9 +11,12 @@ tags: [concept, "1873-1919"]
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **32** sources on **375** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Crescent moon - Hilal.jpg|320]]
-*Crescent moon - Hilal* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Mahya Lights of Mimar Sinan Mosque in Istanbul 13.03.2025.jpg|320]]
+*Mahya Lights of Mimar Sinan Mosque in Istanbul 13.03.2025* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -220,10 +223,16 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ramadan) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Ramazan)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mahya Lights of Mimar Sinan Mosque in Istanbul 13.03.2025.jpg|480]]
+*Mahya Lights of Mimar Sinan Mosque in Istanbul 13.03.2025*
 
 ![[Crescent moon - Hilal.jpg|480]]
 *Crescent moon - Hilal*
@@ -231,8 +240,11 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Breaking the Fast (2) (27351979537).jpg|480]]
 *Breaking the Fast (2) (27351979537)*
 
-![[Iftar 2.jpg|480]]
-*Iftar 2*
+![[Ramadan Quran Reading, Bandar Torkaman (13950320163308600).jpg|480]]
+*Ramadan Quran Reading, Bandar Torkaman (13950320163308600)*
+
+![[Tarawih Ramadan di Masjid Raya Sumbar 2019 (2).jpg|480]]
+*Tarawih Ramadan di Masjid Raya Sumbar 2019 (2)*
 
 ## Related
 

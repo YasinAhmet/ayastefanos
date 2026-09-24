@@ -11,6 +11,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1870–1948 · Found in **9** sources on **47** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Kress von Kressenstein 1916.jpg|320]]
+*While in Ottoman military uniform as commander of the Sinai and Palestine campaign, 1916* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Baron Friedrich Kress von Kressenstein (1870–1948) was a Bavarian officer who served [[Cemal Paşa]] in Syria and Palestine (Bardakçı). He led raids against the British in Sinai and along the Suez Canal (Mantran). He led the second Canal expedition, from 23 April 1916 (Cemal), and a larger one in early August 1916, meant to ease German burdens in Europe (Akşin). Sanders notes he had no illusions about British strength, and refused an order from Enver without German instructions. Cemal says his objections were ignored when others wrecked the Gaza front defences. Mustafa Kemal criticised his deal with an Arab sheikh, since a deal with one tribe made enemies of others (video transcripts). He and Cemal made a last inspection of the troops in Jerusalem in 1917 (Murphy).
@@ -103,6 +110,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Arap İsyanı 1916-1918 (David Murphy)|Murphy, *Arap İsyanı 1916-1918*]]** (Irish, 1 p): [[Arap İsyanı 1916-1918 (David Murphy)#p. 64|64]]
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 78|78]]
 - **[[Osmanlı Piyadesi 1914-1918 (David Nicolle)|Nicolle, *Osmanlı Piyadesi 1914-1918*]]** (British, 1 p): [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 65|65]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Friedrich_Freiherr_Kress_von_Kressenstein) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Friedrich_Kre%C3%9F_von_Kressenstein)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Kress von Kressenstein 1916.jpg|480]]
+*While in Ottoman military uniform as commander of the Sinai and Palestine campaign, 1916*
+
+![[Kress von Kressenstein 1916 colorized.png|480]]
+*Friedrich Kreß von Kressenstein’in Suriye-Filistin Cephesi döneminde çekilmiş fotoğrafı, 1916*
 
 ## Related
 

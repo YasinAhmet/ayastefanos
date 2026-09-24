@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **55** sources on **1211** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Illustration from Views in the Ottoman Dominions by Luigi Mayer, digitally enhanced by rawpixel-com 46.jpg|320]]
-*Mosque at Latakia, from Views in the Ottoman Dominions, in Europe, in Asia, and some of the Mediterranean islands (1810) illustrated by Luigi Mayer (1755–1803).* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[From Sallah, Damascus, Holy Land, (i.e. Syria)-LCCN2002724977.jpg|320]]
+*From Sallah, Damascus, Holy Land, (i.e. Syria)-LCCN2002724977* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -314,22 +317,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)|Kemal, *Zabit ve Kumandan ile Hasbihal*]]** (Turkish, 1 p): [[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)#p. 12|12]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ottoman_Syria) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Osmanl%C4%B1_Suriyesi)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[From Sallah, Damascus, Holy Land, (i.e. Syria)-LCCN2002724977.jpg|480]]
+*From Sallah, Damascus, Holy Land, (i.e. Syria)-LCCN2002724977*
+
+![[Mount Lebanon, Ottoman Syria 1914.png|480]]
+*Mount Lebanon, Ottoman Syria 1914*
+
 ![[Illustration from Views in the Ottoman Dominions by Luigi Mayer, digitally enhanced by rawpixel-com 46.jpg|480]]
 *Mosque at Latakia, from Views in the Ottoman Dominions, in Europe, in Asia, and some of the Mediterranean islands (1810) illustrated by Luigi Mayer (1755–1803).*
+
+![[Ottoman Syria.png|480]]
+*Ottoman Syria*
 
 ![[Illustration from Views in the Ottoman Dominions by Luigi Mayer, digitally enhanced by rawpixel-com 68.jpg|480]]
 *Town of Bethlehem, Ottoman Syria from an 1810 illustration by Luigi Mayer.*
 
 ![[Illustration from Views in the Ottoman Dominions by Luigi Mayer, digitally enhanced by rawpixel-com 57.jpg|480]]
 *Tartus in Ottoman Syria, from an 1810 illustration by Luigi Mayer.*
-
-![[1851 Henry Warren Map of Syria (cropped).jpg|480]]
-*1851 map of Ottoman Syria, showing the Eyalets of Aleppo, Damascus, Tripoli, Acre and Gaza.*
 
 ## Related
 

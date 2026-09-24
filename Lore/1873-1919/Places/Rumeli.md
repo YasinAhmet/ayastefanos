@@ -10,6 +10,13 @@ tags: [place, "1873-1919"]
 
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **48** sources on **907** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Turkey in Europe and the Balkans, 1910.jpg|320]]
+*Turkey in Europe and the Balkans, 1910* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Rumeli was the Ottoman name for the Balkan provinces. Revenue ledgers were kept separately for Rumeli and Anatolia (Güran, 1849/50 budget). Ortaylı says the Turks withdrew from Rumeli slowly, and the 1912 Balkan rout was plainly the break-up of an empire. The Eastern Rumelia revolt of 1885 altered the [[Berlin]] settlement (Trotsky). After 1918 the name lived on in the '[[Anadolu]] ve Rumeli Müdafaa-i Hukuk Cemiyeti' (Goloğlu). Enver wanted to rouse Anatolia with bands to save it from Rumeli's fate.
@@ -279,6 +286,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Değişen İstanbul (Zeynep Çelik)|Çelik, *Değişen İstanbul*]]** (Turkish, 1 p): [[Değişen İstanbul (Zeynep Çelik)#p. 226|226]]
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 326|326]]
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 451|451]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Rumelia) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Rumeli)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Turkey in Europe and the Balkans, 1910.jpg|480]]
+*Turkey in Europe and the Balkans, 1910*
+
+![[Rumelia map.jpg|480]]
+*Map of the historical region of Rumelia in 1801*
+
+![[William Faden. European Dominions of the Ottomans or Turkey in Europe. 1795.jpg|480]]
+*Map of European Dominions of the Ottoman empire in 1795*
+
+![[Twierdza Rumeli Istambuł RB1.jpg|480]]
+*Rumeli Hisarı (Rumelian Fortress, 1452) on the European shore of the Bosphorus Strait in Istanbul*
 
 ## Related
 

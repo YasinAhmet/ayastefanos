@@ -11,9 +11,12 @@ tags: [concept, "1873-1919"]
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **37** sources on **296** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[16th century copy of the 1569 Capitulations between Charles IX and Selim II.jpg|320]]
-*16th century copy of the 1569 capitulations between Charles IX and Selim II* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Serveti funun-1914-09-17-1 Kapitulasyonlarin Kaldirilmazi.jpg|320]]
+*17 Eylül 1914 tarihli Servet-i Fünun dergisinde Kapitülasyonların kaldırılması mitinglerinden bir görüntü.* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -234,10 +237,16 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Capitulations_of_the_Ottoman_Empire) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Osmanl%C4%B1_%C4%B0mparatorlu%C4%9Fu_kapit%C3%BClasyonlar%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Serveti funun-1914-09-17-1 Kapitulasyonlarin Kaldirilmazi.jpg|480]]
+*17 Eylül 1914 tarihli Servet-i Fünun dergisinde Kapitülasyonların kaldırılması mitinglerinden bir görüntü.*
 
 ![[16th century copy of the 1569 Capitulations between Charles IX and Selim II.jpg|480]]
 *16th century copy of the 1569 capitulations between Charles IX and Selim II*
@@ -247,6 +256,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Capitulation between Venice and the Ottoman Empire signed 2 October 1540 following the Battle of Preveza.jpg|480]]
 *Capitulation reopening trade between Venice and the Ottoman Empire signed 2 October 1540, following the Battle of Preveza.*
+
+![[Stamp French PO Turkish 1885 1pi.jpg|480]]
+*1 piaster overprint on 25-centime Type Sage, used at the French Post Office, Beirut in December 1885*
 
 ## Related
 

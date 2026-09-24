@@ -11,6 +11,13 @@ tags: [event, "1873-1919"]
 
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1918–1920 · Found in **22** sources on **150** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Turkish courts-martial Courtroom.jpg|320]]
+*A session of the Turkish courts-martial on 3 April 1919* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 After 1918 the Unionist leaders were tried three times for their actions: for the World War, for the deportations and more (Toprak). The parliament's Fifth Section began an inquiry on 14 December 1918 into the Said Halim and Talat cabinets (Erdinç; Yalman). The first court martial (*Divan-ı Harp*) was set up in [[İstanbul]] on 16 December 1918 under Hayret Paşa, first trying Kemal Bey of Boğazlıyan for killing Armenian civilians (video transcripts). The government's first steps included a flood of court-martial appointments (Akşin). Some accused were later acquitted by Hurşid Paşa's court (Erdinç).
@@ -166,6 +173,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Son Osmanlılar (Murat Bardakçı)|Bardakçı, *Son Osmanlılar*]]** (Turkish, 1 p): [[Son Osmanlılar (Murat Bardakçı)#p. 74|74]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 114|114]]
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 471|471]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Istanbul_trials_of_1919%E2%80%931920) · [TR Wikipedia](https://tr.wikipedia.org/wiki/1919-1920_%C4%B0stanbul_yarg%C4%B1lamalar%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Turkish courts-martial Courtroom.jpg|480]]
+*A session of the Turkish courts-martial on 3 April 1919*
+
+![[Turkish courts-martial-Memleket-April-8-1919-Courtroom.png|480]]
+*A court session of the Turkish courts-martial of 1919–20. The CUP's leaders, Enver, Djemal, Talaat, among others, were ultimately sentenced to death under charges of wartime profiteering, and massacres of both Armenians *
+
+![[Operation Nemesis exhibition Tsitsernakaberd.jpg|480]]
+*An exhibition dedicated to Operation Nemesis at the genocide museum in Yerevan, Armenia*
+
+![[İkdam, 4 Kasım 1918.jpg|480]]
+*Osmanlı gazetesi İkdam'ın, Birinci Dünya Savaşı'nın ardından üç paşanın ülkeden kaçması sonrası 4 Kasım 1918'de çıkan manşetinde şöyle deniyor: "Üç Paşa Daha Kaçtı"17*
 
 ## Related
 

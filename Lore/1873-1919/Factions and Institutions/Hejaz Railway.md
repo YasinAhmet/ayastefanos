@@ -11,9 +11,12 @@ tags: [faction, "1873-1919"]
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **19** sources on **90** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Damascus Hejaz railway station 7615.jpg|320]]
-*Damascus Hejaz railway station 7615* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Turkse spoorwegmedaille in goud.jpg|320]]
+*Turkse spoorwegmedaille in goud* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -156,16 +159,31 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Hejaz_railway) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Hicaz_Demiryolu)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Turkse spoorwegmedaille in goud.jpg|480]]
+*Turkse spoorwegmedaille in goud*
 
 ![[Damascus Hejaz railway station 7615.jpg|480]]
 *Damascus Hejaz railway station 7615*
 
 ![[Hejaz railway.png|480]]
 *Hejaz railway*
+
+![[Madinah Museum.jpg|480]]
+*Madinah Museum*
+
+![[PalestineRailways-1946-ClassH-1.jpg|480]]
+*Swiss Locomotive and Machine Works (SLM) in Switzerland built a class of ten 2-8-0 locomotives for the Hejaz railway in 1912, numbered 87–96. They were later renumbered 150–159. Several were captured in 1918 by British i*
+
+![[SBB Historic - F SLM 2 435 A - Auslad des Lokkessels fuer Haifa (cropped).jpg|480]]
+*The boiler for an SLM locomotive being unloaded at the port of Haifa, c. 1913*
 
 ## Related
 

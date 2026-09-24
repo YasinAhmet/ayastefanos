@@ -12,9 +12,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1853–1931 · Found in **16** sources on **170** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Hussein bin Ali, Sharif of Mecca.jpg|320]]
-*Hussein bin Ali, Sharif of Mecca* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Sharif Husayn.jpg|320]]
+*King Hussein in 1916* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -150,13 +153,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 478|478]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Hussein%2C_King_of_Hejaz) · [TR Wikipedia](https://tr.wikipedia.org/wiki/H%C3%BCseyin_bin_Ali_%28Hicaz_kral%C4%B1%29)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Sharif Husayn.jpg|480]]
+*King Hussein in 1916*
+
 ![[Hussein bin Ali, Sharif of Mecca.jpg|480]]
 *Hussein bin Ali, Sharif of Mecca*
+
+![[The King of Hedjaz and Arab Independence (page 04).png|480]]
+*The King of Hedjaz and Arab Independence (page 04)*
+
+![[With Lawrence in Arabia (1924) page 064.png|480]]
+*With Lawrence in Arabia (1924) page 064*
 
 ## Related
 

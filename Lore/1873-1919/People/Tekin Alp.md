@@ -12,6 +12,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1883–1961 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **5** sources on **71** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Munis tekinalp.jpg|320]]
+*Munis tekinalp* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Tekin Alp (born Moiz Kohen) was one of the most prolific Unionist economic writers. He wrote for *İktisadiyat Mecmuası*, *Türk Yurdu*, *İslam Mecmuası* and *Yeni Mecmua*, and was deputy to the editor Fleck (Toprak). With [[Ziya Gökalp]] he championed the [[National economy (Milli İktisat)|national economy]] drawn from Friedrich List and the German historical school (Mantran, French view). He attacked the teaching of Adam Smith and Leroy-Beaulieu in Ottoman schools and condemned 'social Darwinism'.
@@ -76,6 +83,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 2 ps): [[İstanbul'da Ramazan (François Georgeon)#p. 284|284]] · [[İstanbul'da Ramazan (François Georgeon)#p. 286|286]]
 - **[[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)|Yalman, *Birinci Dünya Savaşı'nda Türkiye*]]** (Turkish, 1 p): [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 381|381]]
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 75|75]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Munis_Tekinalp) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Munis_Tekinalp)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Munis tekinalp.jpg|480]]
+*Munis tekinalp*
 
 ## Related
 

@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **59** sources on **1353** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Egypt under Muhammad Ali Dynasty map en.png|320]]
-*Egypt under Muhammad Ali Dynasty map en* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Sailboat on the Nile, Cairo, Egypt LCCN2003653101.jpg|320]]
+*Sailboat on the Nile, Cairo, Egypt LCCN2003653101* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -328,13 +331,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 179|179]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Khedivate_of_Egypt) · [TR Wikipedia](https://tr.wikipedia.org/wiki/M%C4%B1s%C4%B1r_Hidivli%C4%9Fi)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Sailboat on the Nile, Cairo, Egypt LCCN2003653101.jpg|480]]
+*Sailboat on the Nile, Cairo, Egypt LCCN2003653101*
+
 ![[Egypt under Muhammad Ali Dynasty map en.png|480]]
 *Egypt under Muhammad Ali Dynasty map en*
+
+![[Ottoman Egypt.png|480]]
+*Ottoman Egypt*
 
 ## Related
 

@@ -11,6 +11,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1861–1927 · Found in **5** sources on **36** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Sergei Dmitrievich Sazonov (cropped).jpg|320]]
+*Sergei Sazonov* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Sergey Sazonov (1861–1927) was Russian Foreign Minister in 1910–16 (Trotsky's editor). In the Italian war of 1912 he swung between favouring Italian naval action and warning of its risks, and he refused to ask Italy to keep away from the Dardanelles (Childs, American view). On 23 May 1914 he said the Turkish mission had given him the impression that the Ottomans sought peaceful ties with Russia (Yalman). Enver even told the Russian ambassador that Turkey might fight on Russia's side. In the war, the secret 'Sykes–Picot–Sazonov' agreement aimed to partition the empire (Badem).
@@ -77,6 +84,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)|Yalman, *Birinci Dünya Savaşı'nda Türkiye*]]** (Turkish, 2 ps): [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 86|86]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 100|100]]
 - **[[Enver (Murat Bardakçı)|Bardakçı, *Enver*]]** (Turkish, 1 p): [[Enver (Murat Bardakçı)#p. 649|649]]
 - **[[Kırım Savaşı ve Osmanlılar (Candan Badem)|Badem, *Kırım Savaşı ve Osmanlılar*]]** (Turkish, 1 p): [[Kırım Savaşı ve Osmanlılar (Candan Badem)#p. 408|408]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Sergey_Sazonov) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Sergey_Sazonov)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Sergei Dmitrievich Sazonov (cropped).jpg|480]]
+*Sergei Sazonov*
+
+![[Sergey Sazonov.jpg|480]]
+*Sergey Sazonov*
+
+![[Sergei Dmitrijewitsch Sasonow.jpg|480]]
+*Sergei Dmitrijewitsch Sasonow*
 
 ## Related
 

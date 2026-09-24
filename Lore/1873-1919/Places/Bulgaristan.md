@@ -16,6 +16,9 @@ tags: [place, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Bulgaristan (Bulgaria) became a principality after the 1878 Congress of [[Berlin]], with Eastern Rumelia as an autonomous province (Ortaylı). In 1908 Bulgaria declared independence after a slight to its envoy (Talat's memoir). In 1912 it fought the Ottomans in the [[Balkan Wars (1912-1913)]]; Trotsky (Russian view) says its later defeats were natural. In the World War it was an Ottoman ally; the Ottoman envoy in Sofia reported German supplies to Bulgaria (Erdinç). [[Talat Paşa]] was born in Hasköy, in what became Bulgaria (Bardakçı).
@@ -305,6 +308,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 210|210]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -312,6 +318,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Bulgaria-SanStefano -(1878)-byTodorBozhinov.png|480]]
 *Bulgaria-SanStefano -(1878)-byTodorBozhinov*
+
+![[Sofia - Odrysian Wreath from Golyamata Mogila.jpg|480]]
+*Odrysian golden wreath in the National History Museum*
 
 ![[Car Simeon Bulharsky - Alfons Mucha.jpg|480]]
 *Emperor Simeon I: The Morning Star of Slavonic Literature, The Slav Epic cycle by Alfons Mucha*
@@ -321,6 +330,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Battle of Nicopolis.jpg|480]]
 *The Battle of Nicopolis in 1396 marked the end of medieval Bulgarian statehood.*
+
+![[The defeat of Shipka Peak, Bulgarian War of Independence.jpg|480]]
+*The Russo-Bulgarian defence of Shipka Pass in 1877*
 
 ## Related
 

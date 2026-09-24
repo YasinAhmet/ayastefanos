@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **58** sources on **1193** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Cumhuriyet Square.jpg|320]]
-*Cumhuriyet Square* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Smyrna. Smyrna from the sea LOC matpc.15133.jpg|320]]
+*Smyrna. Smyrna from the sea LOC matpc.15133* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -321,10 +324,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Plevne'de Bir Avustralyalı (Charles S. Ryan)|Ryan, *Plevne'de Bir Avustralyalı*]]** (Australian, 1 p): [[Plevne'de Bir Avustralyalı (Charles S. Ryan)#p. 322|322]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/%C4%B0zmir) · [TR Wikipedia](https://tr.wikipedia.org/wiki/%C4%B0zmir)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Smyrna. Smyrna from the sea LOC matpc.15133.jpg|480]]
+*Smyrna. Smyrna from the sea LOC matpc.15133*
+
+![[SAINT STEPHEN ETIENNE ARMENIAN CHURCH SMYRNA Postcard c. 1907.jpg|480]]
+*SAINT STEPHEN ETIENNE ARMENIAN CHURCH SMYRNA Postcard c. 1907*
+
+![[TR Izmir asv2020-02 img30 Konak Clock Tower.jpg|480]]
+*TR Izmir asv2020-02 img30 Konak Clock Tower*
 
 ![[Cumhuriyet Square.jpg|480]]
 *Cumhuriyet Square*
@@ -334,9 +349,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Asansor From Ground Level Izmir Turkey.jpg|480]]
 *Asansor From Ground Level Izmir Turkey*
-
-![[Konak Pier 03.jpg|480]]
-*Konak Pier 03*
 
 ## Related
 

@@ -19,6 +19,9 @@ tags: [event, "1873-1919"]
 
 
 
+
+
+
 ## Summary
 
 The Gallipoli (Çanakkale) campaign of 1915 defended the Dardanelles. After the naval attack failed, the Allies landed on the peninsula (see [[Çanakkale and Gelibolu]]). By chance, the British forces met [[Mustafa Kemal Atatürk]]'s division at Anafartalar (Akşin). His division alone could reach both Arıburnu and Seddülbahir on the first day (video transcripts). On 10 August he counter-attacked and stopped the enemy on the Anafarta plain (Sanders). İnan quotes history: forcing the Straits was one of the great aims of the war. Kemal describes the friends who proved their writings at Anafartalar and Conk Bayırı. Talat's memoir says Çanakkale weighed heavily in Turkish memory.
@@ -205,6 +208,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -213,11 +219,17 @@ Every page where this subject is named. Each number links to that page in the co
 ![[HMS Irresistible abandoned 18 March 1915.jpg|480]]
 *HMS Irresistible abandoned 18 March 1915*
 
+![[OttomanBatteryAtGallipoli.jpg|480]]
+*OttomanBatteryAtGallipoli*
+
 ![[Dardanelles fleet-2.jpg|480]]
 *Panoramic view of the Entente fleet in the Dardanelles*
 
 ![[G.C. 18 March 1915 Gallipoli Campaign Article.jpg|480]]
 *G.C. 18 March 1915 Gallipoli Campaign Article*
+
+![[Winston Churchill between Talaat Bey and Cavid Bey.jpg|480]]
+*Winston Churchill between Talaat Bey and Cavid Bey (both wearing fezzes) during his private stay in Istanbul in July 1910*
 
 ![[Graphic map of the Dardanelles (cropped).jpg|480]]
 *Graphic map of the Dardanelles and Gallipoli, showing the Entente bridgeheads at Cape Helles and ANZAC Cove before the Suvla Bay landing*

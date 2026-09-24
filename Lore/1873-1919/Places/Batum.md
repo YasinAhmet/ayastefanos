@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **37** sources on **403** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Batumi Port.jpg|320]]
-*Batumi Port* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Batum. General view from the east (1900s).jpg|320]]
+*Batum. General view from the east (1900s)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -248,19 +251,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)|Kemal, *Zabit ve Kumandan ile Hasbihal*]]** (Turkish, 1 p): [[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)#p. 11|11]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Batumi) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Batum)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Batum. General view from the east (1900s).jpg|480]]
+*Batum. General view from the east (1900s)*
+
+![[Old Batumi.jpg|480]]
+*Old Batumi*
+
 ![[Batumi Port.jpg|480]]
 *Batumi Port*
 
+![[View of Batumi skyline from the Botanical Garden (cropped).jpg|480]]
+*View of Batumi skyline from the Botanical Garden (cropped)*
+
+![[USS Oak Hill, 26th MEU Marines Visit Batumi, Georgia (40817303032).jpg|480]]
+*USS Oak Hill, 26th MEU Marines Visit Batumi, Georgia (40817303032)*
+
 ![[Batumi Boulevard Colonnades (cropped).jpg|480]]
 *Batumi Boulevard Colonnades (cropped)*
-
-![[COA of Batumi.png|480]]
-*COA of Batumi*
 
 ## Related
 

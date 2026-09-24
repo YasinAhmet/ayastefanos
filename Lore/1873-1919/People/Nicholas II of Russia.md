@@ -10,6 +10,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **7** sources on **15** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Nicholas II by Boissonnas & Eggler c1909.jpg|320]]
+*II. Nikolay (1909)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Nicholas II, the last Tsar, appears in the vault's books mainly in passing: for example, the 1908 imperial meeting at Reval (Bardakçı), whose partition rumours helped set off the [[Young Turk Revolution (1908)]], and the 1903 Mürzsteg programme with Franz Joseph (Trotsky). No separate quotation passed extraction; see 'All mentions' for pages.
@@ -32,6 +39,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Büyük Petro (Robert K. Massie)|Massie, *Büyük Petro*]]** (American, 1 p): [[Büyük Petro (Robert K. Massie)#p. 900|900]]
 - **[[Mahşerin İki Gemisi - Part II (Video transcript)|Video, *Mahşerin İki Gemisi - Part II*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 19|19]]
 - **[[Osmanlı İmparatorluğu Tarihi (Robert Mantran)|Mantran, *Osmanlı İmparatorluğu Tarihi*]]** (French, 1 p): [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 952|952]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Nicholas_II) · [TR Wikipedia](https://tr.wikipedia.org/wiki/II._Nikolay)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Nicholas II by Boissonnas & Eggler c1909.jpg|480]]
+*II. Nikolay (1909)*
+
+![[Mikola II (cropped)-2.jpg|480]]
+*Nicholas in 1912*
+
+![[Nicolas II de russie.jpg|480]]
+*Nicolas II de russie*
 
 ## Related
 

@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **58** sources on **1368** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Canary Wharf.Reza 04.jpg|320]]
-*Canary Wharf.Reza 04* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Westminster Bridge and Houses of Parliament London England c. 1900.jpg|320]]
+*Westminster Bridge and Houses of Parliament London England c. 1900* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -325,13 +328,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Neden Biz (Video transcript)|Video, *Neden Biz*]]** (Turkish, 1 loc): [[Neden Biz (Video transcript)#loc. 11|11]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/London) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Londra)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Westminster Bridge and Houses of Parliament London England c. 1900.jpg|480]]
+*Westminster Bridge and Houses of Parliament London England c. 1900*
+
+![[Westminster Abbey St Peter.jpg|480]]
+*Westminster Abbey St Peter*
+
 ![[Canary Wharf.Reza 04.jpg|480]]
 *Canary Wharf.Reza 04*
+
+![[London Skyline (125508655).jpeg|480]]
+*London Skyline (125508655)*
+
+![[London Eye at sunset 2013-07-19.jpg|480]]
+*London Eye at sunset 2013-07-19*
+
+![[St Paul's Cathedral Dome from One New Change - Vertical Crop.jpg|480]]
+*St Paul's Cathedral Dome from One New Change - Vertical Crop*
 
 ## Related
 

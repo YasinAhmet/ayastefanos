@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **10** sources on **23** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Charles Townshend Mesopotamia.webp|320]]
-*Charles Townshend Mesopotamia* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Mesopotamian campaign General Townshend.png|320]]
+*Mesopotamian campaign General Townshend* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -94,10 +97,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 324|324]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Charles_Townshend_%28British_Army_officer%29) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Charles_Vere_Ferrers_Townshend)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mesopotamian campaign General Townshend.png|480]]
+*Mesopotamian campaign General Townshend*
+
+![[Townshend, Khalil Pasha after Fall of Kut B.jpg|480]]
+*Townshend, Khalil Pasha after Fall of Kut B*
 
 ![[Charles Townshend Mesopotamia.webp|480]]
 *Charles Townshend Mesopotamia*

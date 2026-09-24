@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **48** sources on **574** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Caucasus topographic map-en.png|320]]
-*Topography of the Caucasus* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[General view of Artvin from the small town of Svet, Prokudin-Gorsky.jpg|320]]
+*General view of Artvin from the small town of Svet, Prokudin-Gorsky* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -292,22 +295,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 4|4]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Caucasus) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Kafkasya)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[General view of Artvin from the small town of Svet, Prokudin-Gorsky.jpg|480]]
+*General view of Artvin from the small town of Svet, Prokudin-Gorsky*
+
 ![[Caucasus topographic map-en.png|480]]
 *Topography of the Caucasus*
+
+![[Mount Elbrus May 2008.jpg|480]]
+*Mount Elbrus*
+
+![[Zemo Svaneti, June, 2018-10.jpg|480]]
+*Caucasus mountains in Svaneti, Georgia*
 
 ![[Caucasus political.png|480]]
 *Contemporary political map of the Caucasus, including disputed territories of Georgia and federal regions of Russia.*
 
 ![[Caucasus-ethnic-1995.jpg|480]]
 *Ethno-linguistic groups of the Caucasus according to CIA estimates in 1995.29*
-
-![[Gobustan ancient Azerbaycan full.jpg|480]]
-*Petroglyphs in Gobustan, Azerbaijan, a UNESCO World Heritage Site, dating back to 10,000 BC*
 
 ## Related
 

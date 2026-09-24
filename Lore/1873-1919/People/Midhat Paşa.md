@@ -12,6 +12,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1822–1884 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **32** sources on **147** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Nadar - Portrait of Midhat Pasha.jpg|320]]
+*Nadar - Portrait of Midhat Pasha* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Midhat Paşa was the great reforming governor and 'father of the constitution'. Akşin says he was known for his work as governor of the Danube (Bulgaria) and Baghdad provinces. Toprak notes that his *memleket sandıkları* (local credit funds) began Ottoman cooperatives, meant to rescue peasants from usurers. Ortaylı credits him with the first provincial newspapers of the 1860s. Mantran (French view) sees in him a new kind of Ottoman reformer, rooted in the provinces, unlike [[Mustafa Reşid Paşa]].
@@ -206,6 +213,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 39|39]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 119|119]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 49|49]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Midhat_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Midhat_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Nadar - Portrait of Midhat Pasha.jpg|480]]
+*Nadar - Portrait of Midhat Pasha*
+
+![[Midhat pasha.jpg|480]]
+*Midhat pasha*
+
+![[Midhat Paşa 1877-1.1R V01-1.1 cleaned.jpg|480]]
+*Midhat Pasha in Vienna, July 1877*
 
 ## Related
 

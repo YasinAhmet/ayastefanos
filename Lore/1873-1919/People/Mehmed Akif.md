@@ -11,6 +11,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1873–1936 · Found in **9** sources on **29** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Mehmet akif.jpg|320]]
+*Ersoy in the 1930s* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 
 ## Summary
 
@@ -112,6 +119,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Avrupa ve Biz (İlber Ortaylı)|Ortaylı, *Avrupa ve Biz*]]** (Turkish, 2 ps): [[Avrupa ve Biz (İlber Ortaylı)#p. 60|60]] · [[Avrupa ve Biz (İlber Ortaylı)#p. 255|255]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 2 ps): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 13|13]] · [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 493|493]]
 
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmet_Akif_Ersoy) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mehmet_%C3%82kif_Ersoy)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mehmet akif.jpg|480]]
+*Ersoy in the 1930s*
+
+![[Mehmet Âkif Ersoy.png|480]]
+*Mehmet Âkif Ersoy*
 
 ## Related
 

@@ -16,6 +16,9 @@ tags: [faction, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 The Hilal-i Ahmer (Red Crescent) was the Ottoman relief society. It ran many field hospitals in the war (Nicolle), and doctors served alongside army surgeons (Durgun). In the World War it opened soup kitchens with the Food Ministry (Toprak), and its resources went to collecting food (Yalman). A women's branch was one of many new associations (Akşin). A branch in [[Kars]] supported Muslims under Russia (Ortaylı). In 1897 it had already run hospitals (see [[Greco-Turkish War of 1897]]).
@@ -129,6 +132,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 135|135]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -137,11 +143,20 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Hilal-i Ahmer Cemiyeti 1877 logo.png|480]]
 *Ottoman Red Crescent Society (Hilâl-i Ahmer Cemiyeti) emblem*
 
+![[Türk Kızılay logo.png|480]]
+*Logo of the Turkish Red Crescent*
+
 ![[A Turkish Red Crescent Staff.jpg|480]]
 *A Turkish Red Crescent staff conducting activities for refugee children*
 
 ![[21 nisan 2012 gazipaşa gezisi 074.jpg|480]]
 *21 nisan 2012 gazipaşa gezisi 074*
+
+![[Türk Kızılayı ambulansı.jpg|480]]
+*Türk Kızılayı ambulansı*
+
+![[Türk Kızılay Mobile Child Friendly Space.jpg|480]]
+*Türk Kızılay Mobile Child Friendly Space*
 
 ## Related
 

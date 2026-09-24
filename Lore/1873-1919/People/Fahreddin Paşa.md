@@ -11,9 +11,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **13** sources on **55** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Korgeneral Ömer Fahreddin Türkkan (1935~1936).jpg|320]]
-*Korgeneral Türkkan (y. 1935-1936)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Ömer Fahreddin Paşa.jpg|320]]
+*Ömer Fahreddin Paşa* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -142,10 +145,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 130|130]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Fakhri_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/%C3%96mer_Fahreddin_T%C3%BCrkkan)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Ömer Fahreddin Paşa.jpg|480]]
+*Ömer Fahreddin Paşa*
 
 ![[Korgeneral Ömer Fahreddin Türkkan (1935~1936).jpg|480]]
 *Korgeneral Türkkan (y. 1935-1936)*

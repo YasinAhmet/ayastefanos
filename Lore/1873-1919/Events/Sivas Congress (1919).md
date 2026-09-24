@@ -17,6 +17,9 @@ tags: [event, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 The [[Sivas]] Congress held its first session on 4 September 1919, and its first act was a telegram of loyalty to the Sultan (Goloğlu). The Damat Ferit government planned to break it up; Ali Galip was sent to do so (Akşin). Delegates such as [[Kara Vasıf]] for [[Antep]] swore against any occupation (Akşin). [[Kılıç Ali]] divides the period into [[Erzurum]]-to-Sivas and Sivas-to-23 April 1920. The Erzurum and Sivas demand for elections led to a parliament dominated by the Defence of Rights movement (Akşin).
@@ -145,6 +148,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 241|241]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -153,8 +159,20 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Bekir Sami Mustafa Kemal.jpg|480]]
 *Prominent nationalists at the Sivas Congress. Left to right: Muzaffer Kılıç, Rauf (Orbay), Bekir Sami (Kunduh), Mustafa Kemal (Atatürk), Ruşen Eşref Ünaydın, Cemil Cahit (Toydemir), Cevat Abbas (Gürer)*
 
+![[Sivas Congress September 1919.jpg|480]]
+*Sivas Kongresi Temsilciler Heyeti, Eylül 1919*
+
+![[Mustapha Kemal Pasha & members of his Nationalist Committee, Sivas, 1919.jpg|480]]
+*Kongreye katılanlar*
+
 ![[124 KongreMüzesi.07.2006 resize.jpg|480]]
 *Sivas Kongresi'nin toplandığı salon, Atatürk Kongre ve Etnografya Müzesi, Sivas.*
+
+![[Sivas Kongresi Beyannamesi.jpg|480]]
+*Kongre beyannamesinin orijinal metni.*
+
+![[Mustafa Kemal Ataturk 1919 Sivas Congress (cropped).jpg|480]]
+*Mustafa Kemal Ataturk 1919 Sivas Congress (cropped)*
 
 ## Related
 

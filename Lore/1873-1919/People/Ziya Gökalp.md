@@ -11,6 +11,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1876–1924 · Found in **22** sources on **136** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Ziya Gökalp-1.jpg|320]]
+*Ziya Gökalp-1* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Ziya Gökalp was the sociologist and poet of Turkism, the Unionists' leading thinker (see [[Turkism and Pan-Turkism]]). Ortaylı reports that Fuad Köprülü called him 'an encyclopedist of immense learning' and compared him to Fichte. Ortaylı himself finds Gökalp's split between *hars* (national culture) and *medeniyet* (civilisation) artificial.
@@ -171,6 +178,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 76|76]]
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 38|38]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 3|3]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ziya_G%C3%B6kalp) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Ziya_G%C3%B6kalp)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Ziya Gökalp-1.jpg|480]]
+*Ziya Gökalp-1*
+
+![[Ziya Gykalp Malta 1920 1921.jpg|480]]
+*Ziya Gykalp Malta 1920 1921*
 
 ## Related
 

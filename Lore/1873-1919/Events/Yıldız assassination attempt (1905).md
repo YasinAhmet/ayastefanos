@@ -12,9 +12,12 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1905 · Found in **1** sources on **1** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Bomb Misses Sultan.png|320]]
-*The headline of the New York Times from 22 July 1905* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Yildizmahaports.jpg|320]]
+*Yildizmahaports* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -41,16 +44,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Avrupa ve Biz (İlber Ortaylı)|Ortaylı, *Avrupa ve Biz*]]** (Turkish, 1 p): [[Avrupa ve Biz (İlber Ortaylı)#p. 147|147]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Attempted_assassination_of_Abdul_Hamid_II) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Y%C4%B1ld%C4%B1z_Suikast%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Yildizmahaports.jpg|480]]
+*Yildizmahaports*
 
 ![[Bomb Misses Sultan.png|480]]
 *The headline of the New York Times from 22 July 1905*
 
 ![[Istanbul - Abdullah brothers - Viçen (1820-1902), Hovsep (1830-1908), Kevork (1839-1918) pre 1895.jpg|480]]
 *Yıldız Hamidiye mosque during an Ottoman state ceremony in the late 19th century.*
+
+![[Nejuik Operation in front page of L'Illustrazione Italiana.jpg|480]]
+*Nejuik Operation in L'Illustrazione Italiana (30 July 1905)*
+
+![[Members of the plot 1904.jpg|480]]
+*Friends of Joris in 1904, photograph including many members of the Nejuik Operation, whose names are given by Gaidz Minassian and include Sophie Areshian, Edward Joris and Anna Nellens, among others18*
+
+![[Petit Journal Yildiz.png|480]]
+*Headline of the Petit Journal Illustré, 22 July 1905*
 
 ## Related
 

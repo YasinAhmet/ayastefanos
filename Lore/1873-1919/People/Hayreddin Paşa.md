@@ -18,6 +18,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Tunuslu (the Tunisian) Hayreddin Paşa was a reformer who had first headed the government of Tunis. He was grand vizier briefly under [[Abdülhamid II]] (1878–79). Olivier Bouquet (French view) notes he made administrative reform the basis of the Tunisian government, and in [[İstanbul]] tried to reform institutions on European, especially French, lines. In April 1879 he sounded out Britain and France about deposing Khedive İsmail of Egypt (Akyıldız).
@@ -111,6 +114,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)|İnan, *Atatürk Hakkında Hatıralar ve Belgeler*]]** (Turkish, 1 p): [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 534|534]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 94|94]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 48|48]]
+
+
+
 
 
 ## Images

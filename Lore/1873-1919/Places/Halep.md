@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **45** sources on **483** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Aleppo old city image.jpg|320]]
-*Aleppo old city image* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Aleppo and castle from southwest LCCN98506115.jpg|320]]
+*Aleppo and castle from southwest LCCN98506115* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -277,10 +280,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 16|16]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Aleppo) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Halep)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Aleppo and castle from southwest LCCN98506115.jpg|480]]
+*Aleppo and castle from southwest LCCN98506115*
 
 ![[Aleppo old city image.jpg|480]]
 *Aleppo old city image*
@@ -293,6 +302,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Aleppo Grand Seray.jpg|480]]
 *Aleppo Grand Seray*
+
+![[The great Umayyad mosque in Aleppo at night.jpg|480]]
+*The great Umayyad mosque in Aleppo at night*
 
 ## Related
 

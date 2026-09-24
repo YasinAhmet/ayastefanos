@@ -13,9 +13,12 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1889–1949 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **18** sources on **76** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Enver Bey, Hacı Ahmet Pasha, Nuri Bey 1909.jpg|320]]
-*Enver Bey, Hacı Ahmet Pasha, Nuri Bey 1909* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Nuri Paşa.jpg|320]]
+*Nuri Paşa* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 ## Summary
 
@@ -153,10 +156,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 86|86]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 495|495]]
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Nuri_Killigil) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Nuri_Killigil)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Nuri Paşa.jpg|480]]
+*Nuri Paşa*
+
+![[Nuri Paşa (Killigil).jpg|480]]
+*Nuri Paşa (Killigil)*
 
 ![[Enver Bey, Hacı Ahmet Pasha, Nuri Bey 1909.jpg|480]]
 *Enver Bey, Hacı Ahmet Pasha, Nuri Bey 1909*

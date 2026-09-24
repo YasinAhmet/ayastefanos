@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Zübeyde Hanım was the mother of [[Mustafa Kemal Atatürk]]. İnan describes his birth in 1881 in the three-storey pink house on the hill above the bay of Salonika; his father was Ali Rıza Efendi ([[Kılıç Ali]]). In June 1920, worried about her son's health, she came to Adapazarı (Goloğlu). Her letter of 15 August 1920 to him seems unaware of his political stand. Akşin suggests this may be because a stroke had affected her mind, and notes she sent greetings from Cemal, who visited 'always'. She later came to [[Ankara]], and the journey to [[İzmir]] tired her before her death (Kılıç Ali).
@@ -90,6 +93,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Değişim ve Anayasal Rejim Sorunu (İlber Ortaylı)|Ortaylı, *Osmanlı'da Değişim ve Anayasal Rejim Sorunu*]]** (Turkish, 1 p): [[Osmanlı'da Değişim ve Anayasal Rejim Sorunu (İlber Ortaylı)#p. 320|320]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -97,6 +103,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Atatürk'ün annesi Zübeyde Hanım.jpg|480]]
 *Zübeyde Hanım, 1922*
+
+![[Zübeyde Hanım.jpg|480]]
+*Zübeyde Hanım*
 
 ![[Annesi Zübeyde Hanım.jpg|480]]
 *Annesi Zübeyde Hanım*

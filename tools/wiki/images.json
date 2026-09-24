@@ -124,6 +124,12 @@
   "tr": null,
   "images": [
    {
+    "file": "Famine_Victims_in_Mount_Lebanon_1.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Bulgaristan'dan_göç_eden_Türkler_(1912).jpg",
     "caption": "",
     "lang": "lead",
@@ -273,6 +279,12 @@
   "en": "National economy (Turkey)",
   "tr": "Millî İktisat",
   "images": [
+   {
+    "file": "İtibar-ı_Millî_Bankası_50_liralık_hisse_senedi.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Serveti_funun-1914-09-17-1_Kapitulasyonlarin_Kaldirilmazi.jpg",
     "caption": "",
@@ -460,6 +472,12 @@
     "infobox": true
    },
    {
+    "file": "Al-Dāʿīa_Jamal_Al-Din_Al-Afghani.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Hejaz_railway.svg",
     "caption": "",
     "lang": "lead",
@@ -514,6 +532,12 @@
   "tr": "Ramazan",
   "images": [
    {
+    "file": "Mahya_Lights_of_Mimar_Sinan_Mosque_in_Istanbul_13.03.2025.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Crescent_moon_-_Hilal.jpg",
     "caption": "",
     "lang": "lead",
@@ -533,18 +557,6 @@
    },
    {
     "file": "Tarawih_Ramadan_di_Masjid_Raya_Sumbar_2019_(2).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Iftar_2.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "فوازير_رمضان_في_شوارع_واسواق_عدن.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -745,12 +757,6 @@
     "file": "Map_of_Independent_Turkic_countries.svg",
     "caption": "Azerbaijan and Turkey promote their vision of a land corridor through Armenian territory as a means of \"uniting the Turkic world\"[52][53]",
     "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "5_Turkish_Liras_(1927).jpg",
-    "caption": "5 Aralık 1927’de dolaşıma giren 5 Türk Lirası. Banknot üzerinde bulunan Bozkurt, Türk ve Altay mitolojisinin ana kavramlarından biridir",
-    "lang": "tr",
     "infobox": false
    }
   ]
@@ -3784,6 +3790,12 @@
   "tr": "Hürriyet ve İtilaf Fırkası",
   "images": [
    {
+    "file": "Hurriyet-ve-Itilaf-Firkasi.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Damad_Ferid_Pasha_1919.jpg",
     "caption": "",
     "lang": "lead",
@@ -3838,6 +3850,12 @@
   "tr": "Hicaz Demiryolu",
   "images": [
    {
+    "file": "Turkse_spoorwegmedaille_in_goud.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Damascus_Hejaz_railway_station_7615.jpg",
     "caption": "",
     "lang": "lead",
@@ -3864,12 +3882,6 @@
    {
     "file": "SBB_Historic_-_F_SLM_2_435_A_-_Auslad_des_Lokkessels_fuer_Haifa_(cropped).tif",
     "caption": "The boiler for an SLM locomotive being unloaded at the port of Haifa, c. 1913",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Ottoman_train_system_on_the_eve_of_WWI.jpg",
-    "caption": "Map showing the Ottoman railways on the eve of World War I",
     "lang": "en",
     "infobox": false
    }
@@ -5437,7 +5449,14 @@
  "Doktor Nazım": {
   "en": "Mehmet Nâzım Bey",
   "tr": "Mehmet Nâzım",
-  "images": []
+  "images": [
+   {
+    "file": "Doktor_Nazim.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   }
+  ]
  },
  "Ebüzziya Tevfik": {
   "en": "Ebüzziya Tevfik",
@@ -7213,13 +7232,13 @@
   "tr": "Nuri Killigil",
   "images": [
    {
-    "file": "Nuri_Paşa_(Killigil).jpg",
+    "file": "Nuri_Paşa.jpg",
     "caption": "",
     "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Nuri_Paşa.jpg",
+    "file": "Nuri_Paşa_(Killigil).jpg",
     "caption": "",
     "lang": "lead",
     "infobox": true
@@ -8313,7 +8332,14 @@
  "Anna Grosser-Rilke": {
   "en": null,
   "tr": null,
-  "images": []
+  "images": [
+   {
+    "file": "Anna_Grosser_Rilke_Teplitz.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   }
+  ]
  },
  "Faik Tonguç": {
   "en": null,
@@ -8489,6 +8515,12 @@
   "tr": "Anadolu",
   "images": [
    {
+    "file": "Geological_Map_of_Anatolia_in_Ottoman_Turkish.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Map_of_the_geographic_region_of_Anatolia.png",
     "caption": "Map of Anatolia (dark green), which according to one definition is delineated by an imprecise line from the Gulf of Alexandretta to the Black Sea.[1] According to another definition, it is coterminous with the Asian part of Turkey.[2]",
     "lang": "en",
@@ -8503,24 +8535,6 @@
    {
     "file": "Weichsel-Würm-Glaciation.png",
     "caption": "Europe during the Last Glacial Maximum, c. 20,000 years ago. Anatolia was connected to the European mainland until c. 5,600 BCE,[8][9][10] when the melting ice sheets caused the sea level in the Mediterranean to rise around 120 m (390 ft),[9][10] triggering the formation of the Turkish Straits.[8][9][10] As a result, two former lakes (the Sea of Marmara and the Black Sea)[8] were connected to the Mediterranean Sea, which separated Anatolia from Europe.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Göbeklitepe_Şanlıurfa.jpg",
-    "caption": "The henges in Göbekli Tepe were erected as far back as 9,600 BCE.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Sphinx_Gate,_Hattusa_01.jpg",
-    "caption": "The Sphinx Gate in Hattusa",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "The_theatre_of_ancient_Halicarnassus,_built_in_the_4th_century_BC_during_the_reign_of_King_Mausolos_and_enlarged_in_the_2nd_century_AD,_the_original_capacity_of_the_theatre_was_10,000,_Bodrum,_Turkey_(16456817694).jpg",
-    "caption": "",
     "lang": "en",
     "infobox": false
    }
@@ -8615,6 +8629,18 @@
   "tr": "Arnavutluk",
   "images": [
    {
+    "file": "15iulsah035.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Albanian_Revolt_1910-La_Tribuna_Illustrata_article_from_August_16,_1910.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Kamenicë_Tumulus,_Albania_2018_02.jpg",
     "caption": "The remains of the Kamenica Tumulus in the county of Korçë",
     "lang": "en",
@@ -8637,12 +8663,6 @@
     "caption": "The town of Krujë was the capital of the Principality of Arbanon in the Middle Ages.",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Venezia_-_Ex_Scola_degli_albanesi_(sec._XV)_-_Foto_Giovanni_Dall'Orto,_12-Aug-2007_-_11_-_Maometto_II_assedia_Scutari.jpg",
-    "caption": "A relief of the Scuola degli Albanesi commemorating the siege of Shkodra. It illustrates Sultan Mehmet II laying siege to the Albanian town of Scutari, then part of the Venetian Empire.",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -8650,6 +8670,18 @@
   "en": "Athens",
   "tr": "Atina",
   "images": [
+   {
+    "file": "Athènes._L'_Acropole_et_le_Temple_de_Thesée_LCCN2017658103.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Acropolis,_Parthenon,_east_side,_Athens,_Greece_LCCN92518901.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Athens_Acropolis_at_Daybreak.jpg",
     "caption": "",
@@ -8670,18 +8702,6 @@
    },
    {
     "file": "The_Metropolitan_Cathedral_of_Athens_(Metropolis_of_Athens)_in_April_2019.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Griechisches_Parlament_nachts_(Zuschnitt).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Stavros_Niarchos_Foundation_Cultural_Center_-_52036972429.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -8735,6 +8755,12 @@
   "tr": "Bakü",
   "images": [
    {
+    "file": "The_Oil_Gush_Fire_in_Bibiheybat_photochrome.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Baku_Montage.jpg",
     "caption": "",
     "lang": "lead",
@@ -8763,12 +8789,6 @@
     "caption": "",
     "lang": "tr",
     "infobox": true
-   },
-   {
-    "file": "Qobustan_inscription.jpg",
-    "caption": "Roman stone inscription in Gobustan dating back to AD 84–96",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -8776,6 +8796,12 @@
   "en": "Basra",
   "tr": "Basra",
   "images": [
+   {
+    "file": "In_Asha_Creek,_Basra_Art.IWMART2431.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "شناشيل_البصرة_القديمة.jpg",
     "caption": "",
@@ -8805,12 +8831,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "جامع_المقام.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -8818,6 +8838,18 @@
   "en": "Batumi",
   "tr": "Batum",
   "images": [
+   {
+    "file": "Batum._General_view_from_the_east_(1900s).jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Old_Batumi.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Batumi_Port.jpg",
     "caption": "",
@@ -8841,18 +8873,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Nino_and_Ali_Statues_in_Batumi,_2016.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "COA_of_Batumi.png",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -8860,6 +8880,12 @@
   "en": "Baghdad",
   "tr": "Bağdat",
   "images": [
+   {
+    "file": "Kuphar_Quffa_Baghdad_1914.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Bab_al-Wastani_northern_gate.jpg",
     "caption": "",
@@ -8889,12 +8915,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "نصب_الشهيد_2024.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -8902,6 +8922,18 @@
   "en": "Belgrade",
   "tr": "Belgrad",
   "images": [
+   {
+    "file": "Terazije_1890s_from_1943_Kolo.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Belgrade_Cathedral_&_Landing_Place_1.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Belgrad2006parlament.jpg",
     "caption": "",
@@ -8925,18 +8957,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Belgrade_Waterfront_2_(cropped).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Kula_Gardoš_(Kula_Sibinjanin_Janka).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -8944,6 +8964,12 @@
   "en": "Berlin",
   "tr": "Berlin",
   "images": [
+   {
+    "file": "Berlin_Unter_den_Linden_Victoria_Hotel_um_1900.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Berlin_-_0266_-_16052015_-_Brandenburger_Tor.jpg",
     "caption": "",
@@ -8973,12 +8999,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Berliner_Dom_vor_Sonnenuntergang.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -8986,6 +9006,12 @@
   "en": "Beyoğlu",
   "tr": "Beyoğlu",
   "images": [
+   {
+    "file": "Galata_Bridge_tif.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Occupation_of_Constantinople_3.jpg",
     "caption": "",
@@ -9015,12 +9041,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Istanbul_asv2021-11_img71_StAnthony_of_Padua_Church.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -9028,6 +9048,12 @@
   "en": "Beirut",
   "tr": "Beyrut",
   "images": [
+   {
+    "file": "General_view,_with_Lebanon_in_the_distance,_Beyrout,_Holy_Land,_(i.e.,_Beirut,_Lebanon)-LCCN2002724972.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Beyrouth_vue_aérienne.jpg",
     "caption": "",
@@ -9054,12 +9080,6 @@
    },
    {
     "file": "Sursock_house.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Beirut_Zaituna_Bay.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -9113,6 +9133,12 @@
   "tr": "Boğazlar Sorunu",
   "images": [
    {
+    "file": "(Bosphorus_(i.e.,_Bosporus),_view_from_Kuleli,_Constantinople,_Turkey)_LOC_4210447005.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Istanbul_and_Bosporus_big.jpg",
     "caption": "Satellite image of the Bosphorus, taken from the International Space Station in April 2004. The body of water at the top is the Black Sea, the one at the bottom is the Sea of Marmara, and the Bosphorus is the winding vertical waterway that connects the two. The western banks of the Bosphorus constitute the geographic starting point of the European continent, while the banks to the east are the geographic beginnings of the continent of Asia. The city of Istanbul is visible along both banks.",
     "lang": "lead",
@@ -9140,12 +9166,6 @@
     "file": "Dardanelles_landsat.jpg",
     "caption": "View of the Dardanelles, taken from the Landsat 7 satellite in September 2006. The body of water at the upper left is the Aegean Sea, while the one on the upper right is the Sea of Marmara. The long, narrow upper peninsula is Gallipoli (Turkish: Gelibolu), and constitutes the banks of the continent of Europe, while the lower peninsula is Troad (Turkish: Biga) and constitutes the banks of the continent of Asia. The Dardanelles is the tapered waterway running diagonally between the two peninsulas, from the northeast to the southwest. The city of Çanakkale is visible along the shores of the lower peninsula, centered at the only point where a sharp outcropping juts into the otherwise-linear Dardanelles.",
     "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Uluslararası_Boğazlar_Komisyonu_bayrağı.svg",
-    "caption": "Uluslararası Boğazlar Komisyonu tarafından Montrö Boğazlar Sözleşmesi’ne dek kullanılan bayrak.[1]",
-    "lang": "tr",
     "infobox": false
    }
   ]
@@ -9197,6 +9217,12 @@
   "tr": "Bursa",
   "images": [
    {
+    "file": "View_of_Bursa_and_the_Sultan_Bayezid_I_Camii_between_1880_and_1893.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Bursa_image.jpg",
     "caption": "",
     "lang": "lead",
@@ -9222,12 +9248,6 @@
    },
    {
     "file": "Irgandı_köprüsü_bursa_-_panoramio.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Cumhuriyet_cd.Bursa_-_panoramio_(3).jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -9281,6 +9301,12 @@
   "tr": "Diyarbakır",
   "images": [
    {
+    "file": "View_of_Diyarbekir,_late_19th_century.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Diyarbakr_Western_City_Wall.JPG",
     "caption": "",
     "lang": "lead",
@@ -9309,12 +9335,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Seyrangeha_Parkormanê_Amed_2010.JPG",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -9322,6 +9342,12 @@
   "en": "Dolmabahçe Palace",
   "tr": "Dolmabahçe Sarayı",
   "images": [
+   {
+    "file": "Dolmabahçe_Palace,_Constantinople,_Turkey_LOC_4210464767.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Dolmabahce_Istanbul_Turkey.jpg",
     "caption": "A view of Dolmabahçe Palace from the BosporusInteractive map of the Dolmabahçe Palace area",
@@ -9351,12 +9377,6 @@
     "caption": "Floor plan of the palace",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Turkey_(68739603).jpeg",
-    "caption": "Crystal Staircase with Baccarat crystal banisters and chandelier",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -9364,6 +9384,12 @@
   "en": "Edirne",
   "tr": "Edirne",
   "images": [
+   {
+    "file": "Adrianople_siege_artillery.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Edirne_view_Üç_Şerefeli_Mosque.jpg",
     "caption": "",
@@ -9393,12 +9419,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Edirne_city_emblem.png",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -9406,6 +9426,12 @@
   "en": "Erzurum",
   "tr": "Erzurum",
   "images": [
+   {
+    "file": "Niva_magazine,_1916._img_017.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Erzurum_Citadel_-_Erzurum_Kalesi_01.jpg",
     "caption": "",
@@ -9432,12 +9458,6 @@
    },
    {
     "file": "Yakutiye_Medresesi,_Erzurum_02.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Three_tombs_-_Üç_kümbetler_03.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -9491,6 +9511,12 @@
   "tr": "Filistin (bölge)",
   "images": [
    {
+    "file": "Native_of_Palestine_working_with_an_ox_and_an_ass,_Holy_Land-LCCN2002725074.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Historical_boundaries_of_Palestine_(plain).svg",
     "caption": "",
     "lang": "lead",
@@ -9519,12 +9545,6 @@
     "caption": "",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Ancient_Near_East_1000BC.svg",
-    "caption": "Philistia in the broader Ancient Near East context at around 1000 BCE",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -9532,6 +9552,18 @@
   "en": "Crete",
   "tr": "Girit",
   "images": [
+   {
+    "file": "Canea,_Crete_-_from_the_roof_of_the_Greek_church.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "A_street_in_Canea,_Crete,_and_some_of_its_Turkish_possessors.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Island_of_Crete,_Greece.JPG",
     "caption": "NASA photograph of Crete",
@@ -9555,18 +9587,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Mount_Ida_chain_Messara_plain_from_Phaistos_Crete_Greece.jpg",
-    "caption": "Messara Plain",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Vai_R02.jpg",
-    "caption": "The palm beach of Vai",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -9574,6 +9594,12 @@
   "en": "Aleppo",
   "tr": "Halep",
   "images": [
+   {
+    "file": "Aleppo_and_castle_from_southwest_LCCN98506115.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Aleppo_old_city_image.jpg",
     "caption": "",
@@ -9603,12 +9629,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Saint_Elijah_Maronite_Cathedral,_Aleppo_(4).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -9616,6 +9636,12 @@
   "en": "Hejaz",
   "tr": "Hicaz",
   "images": [
+   {
+    "file": "Carriage_of_Hussein_bin_Ali_-_1890.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Al_Ula_(6708283401).jpg",
     "caption": "The city of al-Ula in 2012. The city's archaeological district is in the foreground, with the Hejaz Mountains in the background.",
@@ -9653,6 +9679,12 @@
   "tr": "Britanya Hindistanı",
   "images": [
    {
+    "file": "Elephant_Procession_at_Delhi_Durbar_1903.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "British_Indian_Empire_1909_Imperial_Gazetteer_of_India.jpg",
     "caption": "",
     "lang": "lead",
@@ -9678,12 +9710,6 @@
    },
    {
     "file": "India-or-British-Raj-in-British-Empire-1909.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Rani_of_jhansi.jpg",
     "caption": "",
     "lang": "en",
     "infobox": false
@@ -9765,12 +9791,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Kadıköy_Belediyesi_logo.svg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -9778,6 +9798,12 @@
   "en": "Caucasus",
   "tr": "Kafkasya",
   "images": [
+   {
+    "file": "General_view_of_Artvin_from_the_small_town_of_Svet,_Prokudin-Gorsky.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Caucasus_topographic_map-en.svg",
     "caption": "Topography of the Caucasus",
@@ -9805,12 +9831,6 @@
    {
     "file": "Caucasus-ethnic-1995.jpg",
     "caption": "Ethno-linguistic groups of the Caucasus according to CIA estimates in 1995.[29]",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Gobustan_ancient_Azerbaycan_full.jpg",
-    "caption": "Petroglyphs in Gobustan, Azerbaijan, a UNESCO World Heritage Site, dating back to 10,000 BC",
     "lang": "en",
     "infobox": false
    }
@@ -9846,12 +9866,6 @@
    },
    {
     "file": "Kars_Belediyesi_logo.png",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Turkey_adm_location_map.svg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -9947,6 +9961,12 @@
   "tr": "Konya",
   "images": [
    {
+    "file": "Bundesarchiv_Bild_137-000487,_Türkei,_Konia,_Empfang_des_deutschen_Botschafters.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Aziziye_Mosque,_Konya_(cropped).JPG",
     "caption": "",
     "lang": "lead",
@@ -9975,12 +9995,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Konya_city_emblem.png",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -9988,6 +10002,12 @@
   "en": "Jerusalem",
   "tr": "Kudüs",
   "images": [
+   {
+    "file": "The_Damascus_Gate,_Jerusalem,_Holy_Land-LCCN2002725014.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "16-03-30-Klagemauer_Jerusalem_RalfR-DSCF7704.jpg",
     "caption": "",
@@ -10014,12 +10034,6 @@
    },
    {
     "file": "Jerusalem_Chords_Bridge_5_(cropped).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Old_city_walls_and_mamilla_ave._at_night_-_as_seen_from_\"Rooftop\"_restauran_-_Jerusalem,_Israel.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -10073,6 +10087,18 @@
   "tr": "Kıbrıs Cumhuriyeti",
   "images": [
    {
+    "file": "A_fortified_arched_gate,_Nicosia,_Cyprus_Wellcome_L0056833.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Cyprus_wrapper_1880.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "EU-Cyprus.svg",
     "caption": "",
     "lang": "lead",
@@ -10093,12 +10119,6 @@
    {
     "file": "Kition,_Zeus_Keraunios.jpg",
     "caption": "Zeus Keraunios, 500–480 BC, Nicosia museum",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Kyrenia_01-2017_img11_Castle_exterior.jpg",
-    "caption": "Kyrenia Castle was originally built by the Byzantines and enlarged by the Venetians.",
     "lang": "en",
     "infobox": false
    }
@@ -10151,6 +10171,12 @@
   "tr": "Londra",
   "images": [
    {
+    "file": "Westminster_Bridge_and_Houses_of_Parliament_London_England_c._1900.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Westminster_Abbey_St_Peter.jpg",
     "caption": "",
     "lang": "lead",
@@ -10179,12 +10205,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Open_Happiness_Piccadilly_Circus_Blue-Pink_Hour_120917-1126-jikatu.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -10192,6 +10212,12 @@
   "en": "Mount Lebanon Mutasarrifate",
   "tr": "Cebel-i Lübnan Sancağı",
   "images": [
+   {
+    "file": "General_view,_Mount_Hermon,_Holy_Land_(i.e.,_Lebanon_and_Syria)-LCCN2002725038.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Map_of_Mount_Lebanon_Sanjak_Circa_1900.jpg",
     "caption": "",
@@ -10219,12 +10245,6 @@
    {
     "file": "Bashir_Shihab's_last_will.png",
     "caption": "Bashir II Shihab's last will",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Borsos_Lebanon_Emir_1843.jpg",
-    "caption": "Emir of Lebanon, by József Borsos, 1843",
     "lang": "en",
     "infobox": false
    }
@@ -10403,6 +10423,18 @@
   "tr": "Medine",
   "images": [
    {
+    "file": "General_view_of_Medina_around_1880.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Medina_Güterbahnhof_und_Werkstätten._LCCN2002714727.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Al-Masjid_An-Nabawi_(Bird's_Eye_View).jpg",
     "caption": "",
     "lang": "lead",
@@ -10425,18 +10457,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Masjid_al-Qiblatain.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Visit_Madinah_Logo.svg",
-    "caption": "Interactive map of Madinah",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -10444,6 +10464,12 @@
   "en": "Mecca",
   "tr": "Mekke",
   "images": [
+   {
+    "file": "Mecca_prayer,_1889.tif",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Great_Mosque_of_Mecca1.jpg",
     "caption": "",
@@ -10470,12 +10496,6 @@
    },
    {
     "file": "Haji_pilgrimage_mina_tent_city.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Saudi_Arabia_relief_location_map.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -10571,6 +10591,12 @@
   "tr": "Mısır Hidivliği",
   "images": [
    {
+    "file": "Sailboat_on_the_Nile,_Cairo,_Egypt_LCCN2003653101.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Egypt_under_Muhammad_Ali_Dynasty_map_en.png",
     "caption": "",
     "lang": "lead",
@@ -10588,6 +10614,12 @@
   "en": "Paris",
   "tr": "Paris",
   "images": [
+   {
+    "file": "Exposition_universelle_de_Paris,_1900.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Arc_de_Triomphe_HDR_2007.jpg",
     "caption": "",
@@ -10614,12 +10646,6 @@
    },
    {
     "file": "Panthéon_-_Paris_V_(FR75)_-_2025-03-29_-_1.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Paris_Opera_full_frontal_architecture,_May_2009_sky.JPG",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -10739,6 +10765,12 @@
   "tr": "Selanik",
   "images": [
    {
+    "file": "Salonica_LCCN2014691076.tif",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Tower_of_Thessaloniki_-_panoramio.jpg",
     "caption": "",
     "lang": "lead",
@@ -10764,12 +10796,6 @@
    },
    {
     "file": "Базилика_Святого_Димитрия_-_panoramio.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Aristotelous_Plateia_2006_(cropped).jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -10865,6 +10891,12 @@
   "tr": "Sofya",
   "images": [
    {
+    "file": "Sofia-Zlatarskata_charshiya.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Cathedral_Saint_Alexander_Nevsky_(23997180108).jpg",
     "caption": "",
     "lang": "lead",
@@ -10890,12 +10922,6 @@
    },
    {
     "file": "Royal_Palace_Sofia.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Museum_of_Foreign_Artists_-_panoramio.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -10949,6 +10975,12 @@
   "tr": "Osmanlı Suriyesi",
   "images": [
    {
+    "file": "From_Sallah,_Damascus,_Holy_Land,_(i.e._Syria)-LCCN2002724977.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Mount_Lebanon,_Ottoman_Syria_1914.png",
     "caption": "",
     "lang": "lead",
@@ -10975,12 +11007,6 @@
    {
     "file": "Illustration_from_Views_in_the_Ottoman_Dominions_by_Luigi_Mayer,_digitally_enhanced_by_rawpixel-com_57.jpg",
     "caption": "Tartus in Ottoman Syria, from an 1810 illustration by Luigi Mayer.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "1851_Henry_Warren_Map_of_Syria_(cropped).jpg",
-    "caption": "1851 map of Ottoman Syria, showing the Eyalets of Aleppo, Damascus, Tripoli, Acre and Gaza.",
     "lang": "en",
     "infobox": false
    }
@@ -11033,6 +11059,12 @@
   "tr": "Sırbistan",
   "images": [
    {
+    "file": "Landing_Place_and_Cathedral,_Belgrade,_Servia_WDL2607.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Felix_Romuliana_1.jpg",
     "caption": "Ruins of the Felix Romuliana, imperial palace of the Emperor Galerius, 298 AD",
     "lang": "lead",
@@ -11056,6 +11088,12 @@
   "en": "Tbilisi",
   "tr": "Tiflis",
   "images": [
+   {
+    "file": "View_of_Havlabar_(Tbilisi),_in_the_early_1900s,_Sergei_Mikhailovich_Prokudin-Gorskii.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "2014_Tbilisi,_Widoki_z_Twierdzy_Narikala_(36).jpg",
     "caption": "",
@@ -11082,12 +11120,6 @@
    },
    {
     "file": "Seal_of_Tbilisi,_Georgia.svg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Tbilisi_in_Georgia.svg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -11141,6 +11173,12 @@
   "tr": "Trablusgarp (eyalet)",
   "images": [
    {
+    "file": "Destroyed_artillery_battery_in_Tripoli_after_Italian_Navy_bombardment_(1911).jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Tripolitania_Vilayet,_Ottoman_Empire_(1900).png",
     "caption": "The Tripolitania Vilayet in 1900",
     "lang": "lead",
@@ -11169,12 +11207,6 @@
     "caption": "A map showing the administrative divisions of the Ottoman Empire in 1899, including the province of Tripoli.",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Libya_in_The_west_part_of_Barbary_containing_Fez,_Marocco,_Algiers_and_Tunis_;_East_part_of_Barbary_containing_Tripoli,_Barca_and_the_north_part_of_Egypt_(5375430213)_(cropped).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -11182,6 +11214,12 @@
   "en": "Trabzon",
   "tr": "Trabzon",
   "images": [
+   {
+    "file": "Ivan_Aivazovsky_Trebizond_1887.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Hagia_Sophia_Trabzon.jpg",
     "caption": "",
@@ -11208,12 +11246,6 @@
    },
    {
     "file": "Uzungöl,_Trabzon.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Trabzon,AtatürkAlani.jpg",
     "caption": "",
     "lang": "en",
     "infobox": false
@@ -11251,12 +11283,6 @@
    {
     "file": "OdrysianKingdom.jpg",
     "caption": "Thrace in the Odrysian Kingdom showing several Thracian tribes. Sapeia was Northern Thrace and Asteia was Southern Thrace",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Xerxes_I_tomb_Skudrian_soldier_circa_470_BCE_cleaned_up.jpg",
-    "caption": "Skudrian (Thracian) soldier of the Achaemenid army, circa 480 BC. Xerxes I tomb relief.",
     "lang": "en",
     "infobox": false
    }
@@ -11308,6 +11334,12 @@
   "en": "Beylik of Tunis",
   "tr": "Tunus Beyliği",
   "images": [
+   {
+    "file": "La_Gare_du_Sud_-_Tunis_-_around_1900.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Guillaume_Delisle_Tunis_1707.jpg",
     "caption": "",
@@ -11388,12 +11420,6 @@
    },
    {
     "file": "Wan,Mizgefta_Hezretî_Omer.JPG",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Iskele_St._Van.JPG",
     "caption": "",
     "lang": "en",
     "infobox": false
@@ -11639,6 +11665,18 @@
   "tr": "Gelibolu Yarımadası",
   "images": [
    {
+    "file": "Aerial_view_Dardanelles_town_1915_1.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "The_Town_of_Gallipoli_Art.IWMART3113.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Port_de_Gallipoli.JPG",
     "caption": "The port of Gallipoli, c. 1880",
     "lang": "lead",
@@ -11661,18 +11699,6 @@
     "caption": "Map of the peninsula and its surroundings",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Landing_at_Gallipoli_(13901951593).jpg",
-    "caption": "Landing at Gallipoli in April 1915",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Gallipoli_ANZAC_Cove_Sphinx_2.JPG",
-    "caption": "The Sphinx overlooking Anzac Cove",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -11680,6 +11706,12 @@
   "en": "Üsküdar",
   "tr": "Üsküdar",
   "images": [
+   {
+    "file": "Scutari,_Constantinople,_Turkey_LOC_4211213938.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Beylerbeyi_Palace_in_October_2023.jpg",
     "caption": "",
@@ -11706,12 +11738,6 @@
    },
    {
     "file": "Sunset_and_Şemsi_Ahmed_Paşa_Mosque.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Istanbul_Üsküdar_Belediyesi_0513.jpg",
     "caption": "",
     "lang": "en",
     "infobox": false
@@ -11765,6 +11791,12 @@
   "tr": "Kaçar Devleti",
   "images": [
    {
+    "file": "Cheragh_Bargh_Street_c._1910.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Map_Iran_1900-en.png",
     "caption": "",
     "lang": "lead",
@@ -11801,6 +11833,12 @@
   "tr": "İstanbul",
   "images": [
    {
+    "file": "The_burnt_column,_Constantinople,_Turkey_LOC_4211214788.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
     "caption": "",
     "lang": "lead",
@@ -11829,12 +11867,6 @@
     "caption": "",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "View_of_Topkapı_Palace_from_the_Galata_Tower,_Istanbul,_Turkey_001_(cropped).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -11842,6 +11874,18 @@
   "en": "İzmir",
   "tr": "İzmir",
   "images": [
+   {
+    "file": "Smyrna._Smyrna_from_the_sea_LOC_matpc.15133.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "SAINT_STEPHEN_ETIENNE_ARMENIAN_CHURCH_SMYRNA_Postcard_c._1907.JPG",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "TR_Izmir_asv2020-02_img30_Konak_Clock_Tower.jpg",
     "caption": "",
@@ -11862,18 +11906,6 @@
    },
    {
     "file": "Asansor_From_Ground_Level_Izmir_Turkey.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Konak_Pier_03.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "TR_Izmir_asv2020-02_img26_Kültürpark.jpg",
     "caption": "",
     "lang": "en",
     "infobox": false
@@ -11927,6 +11959,12 @@
   "tr": "Şam",
   "images": [
    {
+    "file": "General_view_and_Minaret_of_the_Bride,_Damascus,_Holy_Land,_(i.e._Syria)-LCCN2002724978.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Damascus,_Syria,_Panoramic_view_of_Damascus.jpg",
     "caption": "",
     "lang": "lead",
@@ -11952,12 +11990,6 @@
    },
    {
     "file": "Al-Hamidiyah_Souq_02.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Azm_Palace_-_Damascus.jpg",
     "caption": "",
     "lang": "en",
     "infobox": false

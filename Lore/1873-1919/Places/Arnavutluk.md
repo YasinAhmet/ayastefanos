@@ -11,9 +11,12 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **39** sources on **249** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Kamenicë Tumulus, Albania 2018 02.jpg|320]]
-*The remains of the Kamenica Tumulus in the county of Korçë* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[15iulsah035.jpg|320]]
+*15iulsah035* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 ## Summary
@@ -241,13 +244,31 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 118|118]]
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Albania) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Arnavutluk)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[15iulsah035.jpg|480]]
+*15iulsah035*
+
+![[Albanian Revolt 1910-La Tribuna Illustrata article from August 16, 1910.jpg|480]]
+*Albanian Revolt 1910-La Tribuna Illustrata article from August 16, 1910*
+
 ![[Kamenicë Tumulus, Albania 2018 02.jpg|480]]
 *The remains of the Kamenica Tumulus in the county of Korçë*
+
+![[The City and the Prokletije from the castle.jpg|480]]
+*Founded in the 4th century BC, the city of Scodra was the capital of the Illyrian kingdom of Ardiaei and Labeatae.*
+
+![[Parku Arkeologjik i Apollonisë 04.jpg|480]]
+*Apollonia was an important Greek colony on the Illyrian coast along the Adriatic Sea and one of the western points of the Via Egnatia route, which connected Rome and Constantinople.*
+
+![[Krujë-KrujaAlbania 2016.jpg|480]]
+*The town of Krujë was the capital of the Principality of Arbanon in the Middle Ages.*
 
 ## Related
 

@@ -12,9 +12,12 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1911–1912 · Found in **18** sources on **52** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Italo-Turkish war collage.jpg|320]]
-*Italo-Turkish war collage* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Mustafa Kemal Pasha on the Tripoli Front (1911).jpg|320]]
+*A photograph of Mustafa Kemal Pasha, Enver Pasha, Nuri Conker and Fuat Bulca taken on the front line on December 19, 1911* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 
 
@@ -143,16 +146,25 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Italo-Turkish_War) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Trablusgarp_Sava%C5%9F%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mustafa Kemal Pasha on the Tripoli Front (1911).jpg|480]]
+*A photograph of Mustafa Kemal Pasha, Enver Pasha, Nuri Conker and Fuat Bulca taken on the front line on December 19, 1911*
 
 ![[Italo-Turkish war collage.jpg|480]]
 *Italo-Turkish war collage*
 
 ![[Ismail Enver Bey in Cyrenaica.jpg|480]]
 *Ismail Enver Bey in Cyrenaica, 1911*
+
+![[Zeplin orta.jpg|480]]
+*Italian dirigibles bomb Turkish positions on Libyan territory. The Italo-Turkish War was the first in history to feature aerial bombardment by airplanes and airships.30*
 
 ![[Giovanni Giolitti 1905.jpg|480]]
 *Italian Prime Minister Giovanni Giolitti, 1905*

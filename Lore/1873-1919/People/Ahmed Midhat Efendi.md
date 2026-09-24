@@ -18,6 +18,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Ahmed Midhat Efendi was the most prolific writer and journalist of the Hamidian era. He founded *Tercüman-ı Hakikat* and ran it until 1882 (Akşin). He wrote the first widely sold Turkish economics book, *Ekonomi Politik* (1880), which defended protectionism (Akşin; Toprak). In *Hallü'l-Ukad* he argued that Adam Smith's 'absolute freedom of exchange' was an empty principle for Turkey. Ortaylı notes his fiction is full of 'the Westerner is like this, the Easterner like that; Beyoğlu like this, [[İstanbul]] like that'. He collected and explained proverbs ([[Turkish proverbs]]). He was exiled with [[Namık Kemal]]'s circle in 1873 (see [[Soul of the Age]]).
@@ -107,6 +110,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 75|75]]
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 81|81]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 138|138]]
+
+
+
 
 
 ## Images

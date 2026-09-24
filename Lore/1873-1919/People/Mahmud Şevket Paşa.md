@@ -12,6 +12,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1856–1913 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **31** sources on **191** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Mahmut Schevket Pascha.jpg|320]]
+*Mahmut Schevket Pascha* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Mahmud Şevket Paşa was a German-trained officer. The video transcripts, quoting the Turkish view, say he began as [[Colmar von der Goltz]]'s assistant, and Durgun gives him as a model of an officer trained in Germany. He commanded the [[31 March Incident (1909)|Action Army (Hareket Ordusu)]] that crushed the counter-revolution of April 1909. For the French view (Mantran), he was 'the strong man of the day' but did not care to wield political power: he became inspector of three armies and enforced martial law in [[İstanbul]] until July 1912.
@@ -220,6 +227,22 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)|Kemal, *Zabit ve Kumandan ile Hasbihal*]]** (Turkish, 1 p): [[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)#p. 74|74]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 3|3]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 64|64]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mahmud_Shevket_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mahmud_%C5%9Eevket_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Mahmut Schevket Pascha.jpg|480]]
+*Mahmut Schevket Pascha*
+
+![[Shevket Pasha.jpg|480]]
+*Shevket Pasha*
+
+![[Mahmud Şevket (military uniform, full-sized portrait photograph).jpg|480]]
+*Mahmud Şevket (military uniform, full-sized portrait photograph)*
 
 ## Related
 

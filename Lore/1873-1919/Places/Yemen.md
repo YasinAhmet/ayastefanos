@@ -10,6 +10,13 @@ tags: [place, "1873-1919"]
 
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **41** sources on **219** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Turkish Yemeni soldiers.jpg|320]]
+*Turkish officers with Yemeni soldiers and militiamen prior to World War I* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 ## Summary
 
 Yemen was a remote and rebellious Ottoman province. Military operations in Yemen were part of the Ottoman push into Arabia (Emrence). İmam Yahya's rising against the Ottomans is listed among the troubles of 1909 (Akşin). A Unionist text lists 'the Yemen revolts' among the empire's disasters (Bardakçı). In the World War the Ottomans still held a division there (Murphy), and Hochwächter notes that the Yemen wars had drained men before 1912.
@@ -244,6 +251,25 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kırım Savaşı ve Osmanlılar (Candan Badem)|Badem, *Kırım Savaşı ve Osmanlılar*]]** (Turkish, 1 p): [[Kırım Savaşı ve Osmanlılar (Candan Badem)#p. 177|177]]
 - **[[Son Osmanlılar (Murat Bardakçı)|Bardakçı, *Son Osmanlılar*]]** (Turkish, 1 p): [[Son Osmanlılar (Murat Bardakçı)#p. 16|16]]
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 285|285]]
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Yemen_vilayet) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Yemen_Vilayeti)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Turkish Yemeni soldiers.jpg|480]]
+*Turkish officers with Yemeni soldiers and militiamen prior to World War I*
+
+![[Yemen Vilayet, Ottoman Empire (1900) v2.png|480]]
+*Yemen Vilayeti harita üzerinde*
+
+![[Map of vilayet of Yemen.png|480]]
+*Map of vilayet of Yemen*
+
+![[Hussein Hilmi Pacha.jpg|480]]
+*Huseyin Hilmi Pasha, Governor of Yemen Vilayet before Grand Viziers of the Ottoman Empire*
 
 ## Related
 

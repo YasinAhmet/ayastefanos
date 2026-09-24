@@ -12,9 +12,12 @@ tags: [faction, "1873-1919"]
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1911– · Found in **22** sources on **231** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Damad Ferid Pasha 1919.jpg|320]]
-*Damad Ferid Pasha 1919* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Hurriyet-ve-Itilaf-Firkasi.png|320]]
+*Hurriyet-ve-Itilaf-Firkasi* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
+
+
 
 ## Summary
 
@@ -186,10 +189,16 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 83|83]]
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 1 p): [[The Armenian File (Kâmuran Gürün)#p. 315|315]]
 
+
+
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Freedom_and_Accord_Party) · [TR Wikipedia](https://tr.wikipedia.org/wiki/H%C3%BCrriyet_ve_%C4%B0tilaf_F%C4%B1rkas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Hurriyet-ve-Itilaf-Firkasi.png|480]]
+*Hurriyet-ve-Itilaf-Firkasi*
 
 ![[Damad Ferid Pasha 1919.jpg|480]]
 *Damad Ferid Pasha 1919*

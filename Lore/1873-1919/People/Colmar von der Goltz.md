@@ -16,6 +16,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Colmar von der Goltz, 'Goltz Paşa', came to [[İstanbul]] in 1883 and later wrote *Das Volk in Waffen* ('the nation in arms', Akşin). He trained a generation of Ottoman officers; his adjutant Abdullah Bey later commanded the Thracian army in the Balkan War (video transcripts). In the 1910 manoeuvres he criticised Turkish officers' shortcomings (Hochwächter). Durgun notes the new Unionist rulers used him more than the old regime had. In 1911 he warned Italy that the Dardanelles were too well defended to be forced (Childs, American view). In the World War he was the Sultan's aide-de-camp, then went to the War Ministry (Sanders). He quarrelled with [[Liman von Sanders]] and Admiral Usedom, while Souchon liked him (video transcripts). Trotsky (Russian view) quotes opinions attributed to him on the Turkish army.
@@ -173,6 +176,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Cemal Paşa Hatıralar (Cemal Paşa)|Cemal Paşa, *Cemal Paşa Hatıralar*]]** (Turkish, 1 p): [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 203|203]]
 - **[[Kumandanım Galiçya Ne Yana Düşer (M. Şevki Yazman)|Yazman, *Kumandanım Galiçya Ne Yana Düşer*]]** (Turkish, 1 p): [[Kumandanım Galiçya Ne Yana Düşer (M. Şevki Yazman)#p. 171|171]]
 - **[[Mahşerin İki Gemisi - Part II (Video transcript)|Video, *Mahşerin İki Gemisi - Part II*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 14|14]]
+
+
+
 
 
 ## Images

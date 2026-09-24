@@ -10,6 +10,13 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **6** sources on **11** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Zar Alexander II (cropped) (cropped).jpg|320]]
+*Formal portrait, c. 1874* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
+
+
 
 ## Summary
 
@@ -55,6 +62,19 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kızıltoprak Anıları (Nezih H. Neyzi)|Neyzi, *Kızıltoprak Anıları*]]** (Turkish, 1 p): [[Kızıltoprak Anıları (Nezih H. Neyzi)#p. 91|91]]
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 165|165]]
 
+
+
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Alexander_II_of_Russia) · [TR Wikipedia](https://tr.wikipedia.org/wiki/II._Aleksandr)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Zar Alexander II (cropped) (cropped).jpg|480]]
+*Formal portrait, c. 1874*
+
+![[Zar Alexander II (cropped).jpg|480]]
+*Zar Alexander II (cropped)*
 
 ## Related
 

@@ -18,6 +18,9 @@ tags: [person, "1873-1919"]
 <!-- images:end -->
 
 
+
+
+
 ## Summary
 
 Ahmed İzzet Paşa (Furgaç) was a German-trained general and chief of staff, war minister after the Balkan War, and grand vizier in October 1918. His short cabinet signed the [[Armistice of Mudros (1918)]] and then resigned (Goloğlu). Vahdettin thought his government unsuitable for dealing with the Entente (Akşin). He later pressed Germany to hand back the fled Unionists (Bardakçı).
@@ -223,6 +226,9 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)|Aralov, *Bir Sovyet Diplomatının Türkiye Anıları*]]** (Russian, 1 loc): [[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)#loc. 11|11]]
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 88|88]]
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 307|307]]
+
+
+
 
 
 ## Images
