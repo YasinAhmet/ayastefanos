@@ -1,0 +1,2891 @@
+---
+title: "İstiklal Harbi ve Anadolu"
+author: "Mehmet Turgut Argun"
+side: Turkish
+protocol: historical
+written: "1921–23"
+covers: "1921 – 1923"
+source_file: "Raw/NormalTrust/İstiklal Harbi ve Anadolu (1921-1923)_ -- Argun, Mehmet Turgut, 1900-1982, author -- Genel yayın (Türkiye İş Bankası_ Kültür Yayınları), 1_ -- isbn13 9786053322214 -- 505a4cbd8db355f13b75611cf72ed1d6 -- Anna’s Archive.pdf"
+location_unit: "p."
+text_mode: turkish
+tags: [converted-book]
+---
+
+# İstiklal Harbi ve Anadolu
+
+**Author:** Mehmet Turgut Argun · **Side:** Turkish · **Protocol:** historical · **Written:** 1921–23 · **Covers:** 1921 – 1923
+
+> Page numbers (`p. N`) are the page index of the PDF file, not the printed page number.
+
+> [!info] Cleanup
+> Rebuilt on 2026-09-24 from the source PDF: paragraphs restored, page numbers and running headers removed, footnotes grouped under each page.
+> 8 page(s) were re-read with RapidOCR (PP-OCRv5 Latin model), which reads Turkish letters.
+> OCR slips were machine-corrected; every change is listed in `Raw/OCR corrections/İstiklal Harbi ve Anadolu (Mehmet Turgut Argun).tsv`. Check the PDF before quoting word for word.
+
+## Contents
+
+- [[#İstiklal Harbi Günlüğü]]
+- [[#Anadolu “Hatıra Defteri”]]
+- [[#Mehmet Turgut Argun'un Kaleminden Kısa Yaşamöyküsü]]
+- [[#Mehmet Turgut Argun'un Albümünden]]
+- [[#ERER EEE ez EEE]]
+- [[#0r pm S3 Eİİ ep]]
+
+### p. 1
+
+SEHADETNAMESI
+
+istiklal harbi ve anadolu
+
+(1921-1923)
+
+Mehmet Turgut Argun
+
+TÜRKİYE BANKASI
+
+Kültür Yayınları
+
+### p. 2
+
+Digitized by the Internet Archive
+
+in 2022 with funding from Kahle/Austin Foundation
+
+https://archive.org/details/istiklalharbivea0000argu
+
+### p. 3
+
+Genel Yayın: 3097
+
+### p. 4
+
+MEHMET TURGUT ARGUN İSTİKLAL HARBİ VE ANADOLU (1921-1923)
+
+© TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI, 2012
+
+Sertifika No: 29619
+
+> EDİTÖR PINAR GÜVEN
+
+> GÖRSEL YÖNETMEN BİROL BAYRAM
+
+> DÜZELTMEN ESEN GÜRAY
+
+GRAFİK TASARIM UYGULAMA TÜRKİYE iŞ BANKASI KÜLTÜR YAYINLARI
+
+TI. BASIM: AĞUSTOS 2014, İSTANBUL
+
+ISBN 978-605-332-221-4
+
+> [!note]+ Footnotes
+> BASKI YAYLACIK MATBAACILIK LİTROS YOLU FATİH SANAYİ SİTESİ NO: 12/197-203
+>
+> TOPKAPI İSTANBUL (0212) 612 58 60
+>
+> Sertifika No: 11931
+>
+> Bu kitabın tüm yayın hakları saklıdır.
+>
+> Tanıtım amacıyla, kaynak göstermek şartıyla yapılacak kısa alıntılar
+>
+> dışında gerek metin, gerek görsel malzeme yayınevinden izin alınmadan hiçbir yolla çoğaltılamaz, yayımlanamaz ve dağıtılamaz.
+>
+> TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI İSTİKLAL CADDESİ, MEŞELİK SOKAK NO: 2/4 BEYOĞLU 34433 İSTANBUL
+>
+> Tel. (0212) 252 39 91 Fax. (0212) 2523995 www.iskultur.com.tr
+
+### p. 5
+
+**istiklal barbi ve anadolu (1921 - 1923)**
+
+Mehmet Turgut Argun
+
+> [!note]+ Footnotes
+> Lİ z bi TÜRKİYE X BANKASI
+>
+> Küitür Yayınları
+
+### p. 6
+
+
+
+> [!note]+ Footnotes
+> i
+>
+> — Ni sinai Alip , Mg 78 lm be.
+>
+> ie ı o ğcüMeeci pin iş si Ky p i i
+>
+> kğ, A İM Şi ye ei ye m
+
+### p. 7
+
+İçindekiler
+
+İSTİKLAL HARBİ GÜNLÜĞÜ
+
+Karadeniz ve Anadolu Yolculuğum.....................................3
+
+Pol
+
+hareke
+
+e
+
+ei.
+
+ak le İİ AŞehe a Mk mi Me A edi 30
+
+ANADOLU “HATIRA DEFTERİ”
+
+**Al Ya Sterk e e e e 5.**
+
+Kürre-i nuhas, Kastamonu ve Ilgaz.
+
+**Kreşi ye Anknra yaylaları. e, la**
+
+)
+
+**be) e e ei e Pim DAM.**
+
+MR MENE DUE RE 39 Vazife Hayatı.
+
+Cephe...
+
+**a e**
+
+00 Tek başına çıfelıkie kaldığımın YY 70 hbakasya Muherebesi e z Mrkiyoma (Canlanişie
+
+ki Ge kle .. E Gelişme ve bekleme'devreşin e. 5 eki Mi.
+
+Milli kalkınma ve Mustafa Kemal Paşa > Büyük Zalere. 2 A PE RE İİ ee
+
+> [!note]+ Footnotes
+> 117 anla Va yl İL e
+>
+> İİ a ke mmlik Bursa'ya, evime gidiyorum.
+>
+> Dönüşten sonra...
+>
+> — e er İki sene sonra La serenler e 100 Düşün... Bul!...
+>
+> z Şahsın, elleri La e a e 103 bire yaikımci Glee 188
+>
+> EKLER
+>
+> Mehmet Turgut Argun'un Kaleminden e Green srmn
+>
+> Mel e ek RM Mehmet Turgut Argun'un Albümünden
+
+### p. 8
+
+Editörün Notu
+
+Veteriner Hekim Mehmet Turgut Argun'un 1921-22 yılları arasında tutuğu günlüğü ve 1923 yılında yazdığı Kurtuluş Savaşı anıları, doksan bir yıl sonra okurla buluşuyor. Mehmet Turgut Bey, Askeri Veteriner Yüksek Okulu'nu bitirip stajını yaptıktan sonra 1921 yılında katıldığı Kurtuluş Savaşı'nın iki yılını günü gününe aktarmış, daha sonra yazdığı anılarında olaylardan ziyade Anadolu'da bulunduğu yerler ve o yerlerin insanlarıyla ilgili detaylara yer vermiş, savaşla ilgili hislerini anlatmıştır.
+
+Mehmet Turgut Bey'in kız kardeşi Cemile Sezer tarafından günümüz yazısına aktarılan bu günlük ve anılardaki eski kelimeler bugünün okuyucusu için daha yenileriyle değiş-
+
+> [!note]+ Footnotes
+> tirildi. Kitapta adı geçen bazı kişiler, olaylar, yerler ile ilgili dipnotlarla açıklamalar yapıldı. Kitabın ekler bölümünde Mehmet Turgut Argun'un 1975 yılında yazdığı kısa yaşamöyküsüne ve kendi albümünden fotoğraflara yer verildi.
+
+### p. 9
+
+Moda, 22.1.1981
+
+Muhterem ve Âziz Ağabeyime,
+
+Sizi bir nebze olsun memnun edeceğini düşünerek bizler için, bilhassa evlatlarımız için çok kıymetli olan İstiklal Harbi hatıralarınızı, o yaşlardaki ve o günlerdeki his, düşünce ve temennilerinizi Latin harfleriyle tekrar yazmaya teşebbüs ettim.
+
+Arap harfleriyle yazılan bu kıymetli yazılarınızı tek başına, kendim okuyup yine Latin harflerine çevirip yazarken, cümlelerin manalarını bozacak eksiklikler ve yanlışlıklar yapmış olabilirim.
+
+Arabi ve Farisi kelime ve terkipleri bilebildiğim kadar doğru yazmaya gayret ettim. Bu terkiplerin yazılış ve okunuşundaki hususiyetleri -imâle gibi— aksanlarla belirtmeye çalıştım.
+
+Sonra yine eski yazıda bazı harflerin, Latin harfleriyle yazılırken değişmesi icap ediyor; b, dH'nin p, ye çevrilişi gibi. Ben, çok defa hatıraların heyecanına kapılarak bu hususlarda da hatalar yaptığıma eminim.
+
+Bu hatıralarınızın yazıldığı günlerden bugüne 60 seneye yakın bir zamanın geçtiği, Latin harflerinin kabulünün ise benim lise tahsil hayatımın son senesine tesadüf ettiği ve bugüne kadar da yine 51 seneyi mütecaviz bir zamanın geçtiği düşünülür ve yaşımın da artık
+
+### p. 10
+
+70in üstünde olduğu ve senelerden beri yalnız gazete, kitap okumak, mektup yazmaktan başka yazıyla hiçbir alakam olmadığı nazar-ı itibara alınırsa yaptığım hatalar hoş görülür sanırım.
+
+Yazılarınızın hususiyetini, kıymetini kaybetmemesi için nokta ve virgüllere kadar aslına sadık kalmaya ihtimam gösterdim. Bütün bu mazeretlerim muvacehesinde hoşgörünüze sığınarak size ömrünüz boyu sağlıklı, mutlu senelerde daha nice tatlı hatıralar yazmanızı dileyerek biz kardeşlerinize, bilhassa hatırasını, sevgisini kalbimizin en derin köşelerinde sakladığımız Celâimize ithaf ettiğiniz bu kıymetli yazıları ben de çok sevdiğim evlatlarınıza aktarıyorum.
+
+Sonsuz, ebedi şükranlarım, derin sevgi ve yüce saygılarımla...
+
+Kardeşiniz, Cemile Sezer
+
+## İstiklal Harbi Günlüğü
+
+### p. 11
+
+*[no text on this page]*
+
+### p. 12
+
+*[no text on this page]*
+
+### p. 13
+
+**Karadeniz ve Anadolu Yolculuğum**
+
+2 Temmuz 337 (14-15 Temmuz 1921), Cuma günü Akdeniz vapuruyla Sirkeci'den üçte hareketle muayeneden sonra 3.45'te Boğaz'a hareket Jettik| ve altıda Boğaz'dan çıktık ve Karadeniz'e açıldık. Deniz pek sakin, gece mehtaplı ve serin, tam bir yaz havası. Vapurun pervane gürültüsü içerisinde uykuya yatıyorum. (Kamara)
+
+14 Temmuz 337 (1921), Akdeniz vapuru
+
+Mehmetçiğim, Defterine bir hatıra yazmamı arzu ediyorsun. Ben burada ancak bugünden bahsedersem ve bugünü hatırlamanı istersem hata ederim. Aramızda şu altı sene zarfında bugünden çok kıymetli dakikalar, saatler -*amamıyla seneler geçti. Artık bir daha o günleri yaşamak imkân haricine çıktı. O yerlere kavuşsak, o zaman, o ümitlerle dolu günlerin lezzetini bulamayız. Bütün bu tatlı hayatın ihtimal son günü olan bugün, Cemil'in arkasından seni de kaybederken, arkanızdan bütün o tatlı mazinin üzerine onu hakikatten hayal âlemine geçiren bir bulutun geçtiğini hissediyorum. Böyle
+
+> [!note]+ Footnotes
+> bir hal, bir keder içinde sana mutlu ve tatlı hatıralardan bahsedecek kudret bulamıyorum. Eğer sen, şu biçare Sabri kardeşini unutmaz ve lüzumunda hatırlarsan bu hayatı her zaman için yaşarsın. Artık senden sonra maziye veda ediyorum. Çünkü o hayat çoktan sönmüş, fakat sizlerin mevcudiyetiniz bunu bana hissettirmemişti. Ah biçare sevgi-
+
+### p. 14
+
+> li Cemil ve sevgili, vefakâr hakikatli kardeşim. Mehmef'siz bugünler yaşanmaz. Elveda, gözlerini öper ve beni unutmamanı rica ederim.
+
+Kardeşin Sirozlu Sabri Baki
+
+> Ooofi... Onun ünleminin noktasını yüze tamamlasam. “Of'a kuvvet vermek için “elif“in önüne yüz bin “vav” koysam, kuvvetli okunması için de sonuna beş on “f” harfi yazsam, yine ağzımdan çıkan “of”un her biri bütününü ifade etmez. Mehmet ne yazayım?! Can sıkıntısından ölmek işten bile değil kil Hayatta bu kadar bunaltıcı hiçbir zamana tesadüf etmedim. Şimdiden sonra belki daha müthiş ve daha acı zamanlar geçirmeyeceğim ne malum! Her ne isel Şu soğuk yazılarımla defterini doldurmayayım kardeşim. Şu birkaç satırımı herhalde defterinde hatıram olarak saklayıverirsin olmaz mı Mehmet?
+
+Kemal (Âşık Paşa)
+
+14/15 Temmuz 337/921, Akdeniz vapuru kamarası — Arkamda ne kadar fazla ve pejmürde hatıralar bıraktıktan, uzun bir keşmekeş ve ıstırap hayatı yaşadıktan sonra bugün, bütün bunlara veda için bindiğim koskoca bir geminin bir odasındayım. Bütün gün yolculuk meşguliyetimi tamamlayıp ve birkaçıyla pek gönlümü saran hatıralarım olan arkadaşlarımla vedadan sonra karanlık çökerken vapura girdim. Bu sefer ettiğim bu yolculuk, hayatımın ilk lezzetini tadacağım yeni bir maceradır. Bu vapur yarın beni alacak ve senelerce gözlerimin alıştığı bu denizden hiç bilmediğim ve tanımadığım dağlar arkasındaki tenha topraklara atıverecek. Yarabbi! İlerisini şimdi kestiremediğim bu müddeti meçhul yolculuğumu senin bütün hislerini ve kudretini bildiğin şu vücudumla yaparken beni korumanı ve beni bekleyenlere acımanı, merhamet ve lütfunu istiyorum. Oh! Arkamda bıraktıgım tahammül yıkıcı, azaplı sergüzeştlerden artık yaka-
+
+### p. 15
+
+mı sıyırıyorum. Belki bundan sonra ruhumda hissedemediğim cürete ve cesarete kavuşurum. Başarılı olmak için lazım gelen hususiyetlerden mahrum kaldığım için veyahut onlara sahip olmanın imkânsızlığı sebebiyle başaramadığım emellerime kavuşmak için artık bu yeni serüvenimin başarılara başlangıç olmasını canıgönülden arzu eder, saadet dilerim.
+
+16 Temmuz, Cumartesi — Bismillah, yataktan kalkıyorum. Saat 8.30. Vapur yeknesak bir ahenkle ilerliyor. Kamaranın penceresinden Anadolu sahilleri, ormanlı ve yeşil dağlar görünüyor. Hava sakin. Zonguldak'a yaklaşıyoruz. Saat 9da Zonguldak önünde demirledik. İlk (olarak) Kuva-yi Milliye asker ve zabitlerini gördük. Limanın müşterek rıhtımı ve dalgakıranı var. Kasaba, dağ eteğinde ve deniz kenarında olup Türk mahallesi batı ve Fransız mahallesi doğu tarafındadır. Ecnebilerin tarafında güzelce binalar gözüküyor. Ta rıhtıma kadar inen tren hattı var. Bizi şehre çıkarmadılar. Mavnalar yanaştı. Çoluk çocuk, yerli amelenin cümbüşleri içerisinde bir kömür alma işi yapılıyor. Akşama belki biter, diyorlar. Anlaşılan günü burada geçireceğiz.
+
+Gemi akşama kadar yedi, sekiz yüz ton kömür aldıktan sonra, gece saat yarımda limandan hareket ettik. Son deniz gecem. Güverteden denizi uzun uzun seyrettim. Engin Karadeniz'in üzerinde, bulutların arasından denizi ziyalarıyla ışıldatan ayın o kadar latif manzarası oluyor ki... Saat ikiye geliyor. Yatağıma yattım. Yarın öğleyin İnebolu'ya çıkarız, diyorlar. Bakalım...
+
+> [!note]+ Footnotes
+> 17 Temmuz, Pazar — Yataktan güzel bir uykudan sonra kalkıyorum. Kamaranın penceresinden sahil pek yakın gözüküyor. Şu halde gideceğimiz yere yaklaşıyoruz demektir. Deniz ve hava yaza mahsus bir güzellikte. Artık deniz yolculuğumuzun son saatlerini geçiriyorum...
+
+### p. 16
+
+Güverteye biraz sonra çıktığım zaman İnebolu'nun evlerini seçecek kadar vapurun yaklaştığını gördüm. On bir buçukta vapur kasabanın önünde demirini attı. Karaya ayak bastığım zaman saat öğleden sonra birdi. Anadolu toprağına attığım ilk adım... Eşyamızın dakik bir muayenesinden sonra yakın olan kasabaya çıktık. Doğru askeri misafirhaneye gittik. Orada mefruşatsız bir odaya eşyamı bıraktım. Çıkıp lazım gelen yol muamelemi yapmak üzere binayı terk ettim. Karnım da acıkmıştı. Yemek yemek üzere bir lokantaya girdim. Birinci tabağımı bitirmemiştim ki dışarıda bir gürültüyle dükkânlar kapanmaya ve herkes kaçışmaya başladı. Hemen sahile koştum. Herkes kumandanlığın önünde toplanmış denize bakıyordu. Baktım, uzakta iki Yunan harp gemisi geliyordu. Limanda bizim Akdeniz vapuruyla bir Fransız ve bir İtalyan vapuru bulunuyordu. Biraz sonra hepsi birden açıldılar, diğerleri İstanbul istikametine ve bizim Akdeniz de aksi istikamete açıldılar. Bu esnada Yunan'ın Panter torpidosu ile Dafni muavin kruvazörü olan gemiler durmuşlardı. Muavin gemisi hemen torpidoyu bırakarak Akdeniz'e yaklaştı ve her ikisi de yaklaşarak durdular. Yunan filikası Akdeniz'e yaklaşarak anlaşılan tahkikata başlamıştı. Kasaba da bombardımana hazırlıklı, bekliyordu. Uzun müddet süren tahkikat henüz son bulmamıştı. Saat altı buçukta bu satırları yazarken bu manzarayı sahilden seyrediyordum. Bu hal, akşam sekize kadar devam etti. Ondan sonra Akdeniz'i serbest bıraktılar ve kendileri de doğu istikametine doğru def olup gittiler.
+
+İnebolu ucuz bir memleket değilse de pahalı da değildi. 25 kuruşla mükemmel bir yemek yedim ki İstanbul'da en azından 50 kuruş eder. Memleket, dağ eteğinde ve büyükçe olup bir tepeyle iki kısma ayrılmış. Doğu tarafındaki kısım, ki Patriyos deniliyor, burada Rumlar yaşıyormuş. Biz burasını görmedik. Akşama
+
+### p. 17
+
+kadar muamelemizle uğraştım. Geceyi geç vakte kadar sahildeki bütün halkın devam ettiği güzel manzaralı bir kahvede geçirdikten sonra misafirhanedeki karyolama çekildim. Yatsı vakti yanık bir ses işittik. “Vakt-i salât ya müminin” diyordu. Herkes namaza çekildi. Odada bir eczacı, bir doktor, iki zabit olmak üzere beş kişiydik.
+
+18 Temmuz — Bugünü yine muameleleri tamamlamak ve kahvede mütalaayla ve keşifle geçirdik. İşlerimi bitirseydim yarın hareket edecektim.
+
+19 Temmuz — Şimdi bugünün hatıratını yazmak için kalemi elime aldım. Saat akşam yedi. Ta bu vakte kadar hep harcırah muamelesini tamamlamak ve beklemekle geçti. Hamdolsun onu da tamamladıktan sonra kafam rahatladı. Artık bir dakika evvel kara yolculugumuza devam edecek gibiyiz. Telaştan şimdi nefes aldım. Hükümet Konağı'nın en üst katındaki Mal Sandığı Odası'ndan çıktım ve binanın önündeki balkondan rahat bir kafayla Karadeniz'i seyrediyorum. Masmavi deniz, önümde gök ile denizin birleştiği ufuklara kadar devam edip gidiyor ve güneş, gurubun mahmur rengini bu denizin ve binanın üstüne saçıyordu. Hükümet binası denizin ta yanında ve ilk Yunan bombardımanından! şimdi bulunduğum en üst kat etkilenmiş. Her taraf delik deşik bir halde. Bulunduğum balkon bile harap. Bir taraftan tamirat da var. Velhasıl İnebolu'nun, gördüğüm ilk Anadolu toprağının veda yeri. Artık rahat nefes alıyorum. Şimdi araba meselesi kalıyor, bakalım onu nasıl halledeceğiz. Cenab-ı Hakk bu ilk yolculuğumda ve yalnız bir halde bana hayırlı yardımlarda bulunur ve beni korur.
+
+> [!note]+ Footnotes
+> 1 Anadolu'da kurulan milli hükümetin ikmal iskelesi durumunda olan
+>
+> İnebolu, 9 Haziran 1921'de Kılkış ve Panter adlı Yunan zırhlıları tarafından top ateşine tutulmuştu (e.n.).
+
+### p. 18
+
+20 Temmuz — İnebolu'dan saat yarımda hareket ettik, otomobille. Germe Hanı'nda saat 2.15”te mola verdik. 3.30'da oradan hareket ettik. 4.45”te tekrar durduk. İşte yolculuğun eziyetlerini tahammüle başladım. Bütün bu duraklamalarımız hep otomobil diye altımızda bizi sarsa sarsa koşturan şu arabanın münasebetsizliği ve intizamsızlık yüzünden oluyor. İnsanlar her ne kadar arkadaşların sohbetiyle eğleniyorsa da yine bu tamirat ürküntüsü insanı bırakmıyor. İşte tekerleklerin birisi büsbütün mahvoldu. Şimdi yeniden yegâne yedek tekerleğin içine ot doldurarak yürüyeceğiz. Kim bilir ne zaman Kastamonu'ya gideceğiz. Of bu seyahat! Gözümün önünde ormanlı dağlar ve yer yer gözüken yılankâvi yollar uzanıyor. Yollarda eşya taşıyan kağnılar gıcırdıyor. Şimdi bir han önündeyiz. Han birkaç birbirinden ayrı, ahşap kulübeden ibarettir. Önündeki çardağın altında oturuyoruz. Yanımızda buz gibi nefis bir su akıyor. Can sıkıntısından fazla bir şey yazılmıyor ki. Onun için bütün hislerimi rahat bir nefes aldığım zaman not etmek üzere aklımda tutuyorum. Altıda hareket ettik. Yine bin müşkülatla dağ tepe atlayarak akşam ezanında Kürre-i nuhas2 (Küre) mevkiine geldik. Sefil manzaralı bir köyde (nahiye merkezi) yolculuğun tam manasıyla her müşkülatını çekerek geceyi geçirdik.
+
+> [!note]+ Footnotes
+> 21 Temmuz, Kürre-i nuhas — Şehrin üstündeki maden ocaklarını seyre çıktık. Bir Türk ustası aşağıdaki malumatı verdi:
+>
+> Burası gayet zengin bir ocak olup topraktan büyük bir kısmı yüzde 16 olmak üzere bakır ve kalanı az nispette platin, altın ve demir çıkar. Fransız Balya-Karaaydın Maden Şirketi'nin malıdır. İmtiyazı Arif Hikmet Paşa'ya aittir. Hali hazırda 25 kadar amele toprak çı-
+>
+> şi) e
+>
+> bie) A Ne ali bilin mein prim Seyi rm beda belkeliziniye ape e Sİ
+>
+> 2 Kastamonu'nun bir ilçesi olan Küre, adını, bakır ocağı anlamına ge-
+>
+> len “kürre-i nuhas”tan almıştır (e.n.).
+
+### p. 19
+
+kartmakla meşguldür, tasfiye yapılmıyor. Bu taşlar “pirit”, “halkopirit”, “şist” diye kısımlara ayrılıyor. Ve bir de piritlerin Cenevizliler zamanından kalmış, 2000 seneden beri toz haline gelmiş taşları var. Ayrı damarlarından bunlar çıkarılıyor. Şimdilik ocak hemen hemen terk edilmiş bir halde imiş. Maden ocaklarının içerisine raylarla giriliyor. Biz giremedik, vasıta yoktu. Civar arazi hep bu taş madenlerle dolu. Hatta 2000 sene evvel Cenevizliler tarafından çıkarılıp tasfiye edilemeyen taşlar pek çoktur. Üzerlerinde bakır izleri bellidir. Bunlar da tasfiye edilecek ve geriye kalanı saf demir olarak kalacakmış. Velhasıl pek zengin bir kasabadır. Üst tarafta Mehmet Bakır Hazretleri'nin mevkileri vardır. Bunları anlatan usta vaktiyle İmalat-ı Harbiye3 fabrikalarında falan bulunmuş. Mustafa Efendi isminde 35 yaşlarında kadar bir şahıstır.
+
+Otomobilin yenisi lüks olarak geldi ve müşterileri İnebolu'ya bıraktıktan sonra tekrar köye dönüp bizi sekiz kişi olarak aldı. Ondan evvel sabahleyin eşyamızı bir arabaya yükleterek yola çıkartmıştık. Küre'den saat beşte hareket ettik. Yolda Ecevit denilen durak mahallinden geçerek Seyitler'de bir çeyrek bekledikten sonra sekiz buçukta Kastamonu'ya vardık. Şimdi akşam. Kışlada Kemabin (Âşık Paşa) yanında misafirim. Bizden evvelkiler hep bu kışlada yatmışlar.
+
+Şimdi karşımda, güneşin parlak ziyasını siyah gölgeleriyle yutan ormanlı dağların peş peşe gelen manzarası var. Ta ufukta siyah ormanlı ve yalçın bir çıkıntıyla göklere karışmış dağın tepesi bulutlarla örtülmüş. Hep böyle karanlık ve haşin manzâralar karşısında ve sıkıntılar içerisinde geçen bu her ne kadar arkadaşlı fakat yalnız hayatımda kederli, elemli, neşeli, velhasıl karma-
+
+> [!note]+ Footnotes
+> 3 İmalat-ı Harbiye: Eski Askeri Fabrikalar Müdürlüğü. Günümüzde
+>
+> Makina ve Kimya Endüstrisi Kurumu olarak hizmet vermektedir (e.n.).
+
+### p. 20
+
+karışık bir cereyan içerisinde ve yolculuğun verdiği tam bir halsizlik altında üzgün bulunuyorum. Köye çıkan yolun kenarında bu satırları yazarken tıpkı bizim Bursa köylerindeki gibi, fakat burada daha kaba ve daha haşin manzaralı köylü kadınları ve ihtiyarları arabalarla geçiyorlar. Karşıdan gelirken arabaların önünde iki kadın el ele tutuşarak geliyorlardı. Yaklaşınca anladım ki —herhalde genç görünüyorlardı— bu kadıncıklar, bu kendilerini hiç bıktırmayan tekdüze ve ezici cereyan içinde bile kalplerinde kendilerine mahsus, bu kırların kendilerine hissettirdiği ruhani bir neşe içerisinde saadeti hissetmişlerdi ve etmek iktidarları vardı. Fakat işte yanımdan geçerken yalnız bir gözünü meydanda bırakacak kadar sarınan ve örtünen bu pejmürde kılıklı, yalınayak yürüyen ve ömrünü böyle dağların karanlık gölgeleri karşısında yollarda arabasını mütemadiyen çeke çeke süren kadınlar, kim bilir ne türlü bir zevkle bu dünyadan lezzet ve his alırlar?
+
+> [!note]+ Footnotes
+> 22 Temmuz, Cuma, Kastamonu — Sabahleyin kışlada Kemalin odasında, geceyi de yorgunluk acısını deliksiz bir uykuyla geçirdikten sonra kalktık. Güzel bir temizlikten sonra kışladan çıktık. Şehre giren şoseden yürüyerek çarşıya doğru çıktık. Gezerken Âdile rast geldik. Onun bulunduğu yere gittik, daha sonra şosenin ve yanından geçen rengi bozuk derenin kenarında bir kahvede oturduk. Biraz sonra Nuri Beşiktaş geldi. Güzelce bir muhabbet ettik. Namaz vakti kalktık Nuri'nin evine gittik. Evvelce bu evde Nuri, Kemal, Nahit oturuyorlarmış. Kemal kışlaya geçmiş, Nahit izinli olarak Konya'ya gitmiş... Biraz sonra kalktık, yemek yedik ve tekrar kahveye gittik. Muamelemizi de arkadaşlarla beraber yapmaya başladık. Kastamonu hakkında hislerimi daha sonra yazacaksam da kısaca kaydedeyim. Gördüğüm manzara, kıyafet, âdetleri, şehrin içi, etrafı hoşuma gitmediği gibi içtimai halleri hakkında işittiklerimden hiç de mem-
+
+### p. 21
+
+nun olmadım. Bu şehrin her tarafından duyduklarım hiç de umduğum gibi çıkmadı. Pek kederliyim. Şehri zaten pek o kadar gezemedim. Etrafı çorak tepelerle ve —garip şey- mezarlıklarla çevrili. Bir de İsfendiyar? zamanından kalma harap bir kale var. Şimdilik bu şehirden iyi bir hisle ayrılmıyorum. Akşama pek yakın bir zamanda gelen Merkez Kumandanlığı'nın bir emriyle yarın sabah hareket etmek üzere muamelemizin süratle bitirilmesi için öteye beriye koşa koşa gece bastı. Tam gece yarısından sonra saat birde işimiz bitti. Arabalarımız da tutuldu. Yarın Ankara'ya doğru inşallah hareket edeceğiz. Bu geceyi şose üzerinde yeni yapılmış Safa Oteli'nde geçiriyorum. Gözlerimden uyku akıyor! Uyku...
+
+23 Temmuz, Cumartesi Hareketten biraz evvel Adil'in yazdığı hatırası
+
+Tahsil devremizi bitirdikten sonra ikinci olarak Kastamonu'da tesadüf ettik. Düşmanın taarruzunun sonuçsuz kaldığı ve milli istikle'imizin muhafazası uğrunda çalışan Anadolu'nun muzaffer olmak üzere bulunduğu şu günlerde bir günlük temastan sonra seni tekrar kaybedeceğiz. İnşallah Mehmetçiğim, hep birlikte muzaffer olarak
+
+> [!note]+ Footnotes
+> Bursa'da birleşiriz. Biz mesleğimiz namına vatan için her gün çalışıyoruz. Toprağımızdan alçak Yunan kovulursa işte o zaman hepimiz mutlu ve memnun, belki de sevgili İstanbul'umuzda buluşuruz.
+>
+> Gözlerinden öperek selametle hareket temenni eylerim sevgili Mehmetçiğim.
+>
+> Menzil Nokta Baytarı Âdil Azmi Kastamonu Celâl'e, Haydar'a, Fahri'ye, Memduh'a, hepsine selam.
+>
+> 4 Candaroğulları beyi, İzzeddin İsfendiyar (e.n.).
+
+### p. 22
+
+23 Temmuz, Cumartesi — Öğleden iki saat evvel Kastamonu'dan üç arkadaş bir yük arabasına binerek hareket ettik. Şehirden çıkarak dağ yollarını çıkmaya başladık. Kastamonu'yu uzaktan bir kere daha o s0- luk çehresi ve heyetiyle gördük. Biraz sonra saatler ve günlerle süren ve sürecek olan killi topraklı, çorak dağlar ve tepelerden geçmeye başladık. Sonra yavaş yavaş Kastamonu'nun meşhur ormanları başladı. İki taraftan yamaçları kaplayan çam ormanları kesintisiz saatlerce sürüyor ve bazen gayet hoş manzaralara ve lezzetli ve soğuk sulara rast geliyorduk. Akşam oluyordu. Bazen ufak tefek bozuklukları olan şoseden, buraca meşhur Ilgaz denilen dağlara doğru yükselmeye başladık. Ezan zamanı etekte bir han önünde, su başında yemeğimizi yedik. Biraz istirahatten sonra yola devam ettik. Ortalık artık tamamıyla kararmış, gece başlamıştı. Artık yokuş tırmanıyorduk. Karşıdan Ilgaz tepelerinin dumanlar içerisinde, bulutlar arasında hayali gözüküyordu. Arabadan indik ve iki tarafını sık ve karanlık ormanların çevirdiği şoseden yürüdük. Manzara gittikçe heybetli ve ürkütücü bir hal alıyordu. Yürürken ormanların içinden hareket sesleri geliyor, gözümüzün göremediği derin karanlıkların içinde ayıların, kurtların ve sair hayvanların toplanma yeri olan bu ormanlarda korkunç bir rüzgâr esiyordu. İşte bu ürkütücü ve ara sıra görünen ateş başlarındaki yol tamir edici müfrezelerden başka kimse olmayan yollarda arabayla sarsıla sarsıla, bu korkunç manzara içerisinde saatlerce yol aldık. Uykusuzluktan gözlerimiz de bitap kalmıştı, kendimizi ara sıra kuvvetsiz bularak gözlerimizi kapayıp açıyorduk. Bazen memleket şarkıları söylüyoruz ve seslerimiz bu derin sonsuzluk içerisinde ormanlara çarpıyor. Artık dumanlı tepelere çıkmıştık. Mehtap bulutlardan kapanmıştı ve biz bulutlar içerisinde tepeleri aşıyorduk. Hafif bir gece ışığı ormanların içinden kıvrılan şoseye serpiliyordu ve sinemalarda ancak seyredilebilen bu güzel manzara içeri-
+
+> [!note]+ Footnotes
+> 112,
+
+### p. 23
+
+sinde yol alıyorduk. Sonra bulutların içerisinden geçtik, tepenin yüksek noktasını da aştık. Burada dumandan ancak yirmi metre ilerimizi görebiliyorduk. Manzara cidden müthişti. İşte bu heybetle yolumuza devam ettik ve artık yokuşları indik. Bir han önünde biraz durup iki saat kadar bir uyku kestirdik. Uyandığımız zaman şafak atmaya başlamıştı. Araba hareket etti. Düz şoseden yürürken güneş de çıkmıştı. Bu suretle Kala Hanı denilen yere vardık. Orada bizden evvel hareket eden arkadaşlara rast geldik, birer çay içtik ve ısındık. Unuttum; tepelerde pek müthiş dondurucu bir soğuk vardı.
+
+24 Temmuz, Pazar — Bu handan hareketten bir saat kadar sonra, öğleden evvel yine bir hana ulaştık. Burada arabalarımızdan indik. Kuyu başında hancının pişirdiği yumurtaları büyük bir iştahla yedikten sonra bu notları yazdım ve biraz uyku kestirmeye başladık. İn Hanı denilen ve Koçhisar'a yakın olan bu handan alaturka? sekizde hareket ettik. Akşam ezanından sonra tenha dağlar ortasında bir hana vardık e burada bir çatı altında geceyi geçirdik.
+
+> [!note]+ Footnotes
+> 25 Temmuz, Pazartesi — Sabahleyin güneş doğmadan evvel buradan hareket ettik ve dört saat sonra dağların ortasında, bahçelerinin çokluğundan meyvesi bol olduğu anlaşılan Kengırı'ya |Çankırı| ulaştık. Burada yemek yedik ve istirahat ettik. Şehrin içi pek derme çatma binalar ve dükkânlarla dolu. Postaneye mektup bıraktım. Geceyi handa geçirdikten sonra sabahleyin arabalarla tekrar yola çıktık.
+>
+> 26 Temmuz, Salı — Sabahleyin yola çıktık ve akşama kadar yol yürüdükten sonra bir söğütlükte geceyi geçir-
+>
+> 5 alaturka saat: Güneşin batışını 12 olarak kabul eden, eskiden kulla-
+>
+> nılan saat. Ezani saat, gurubi saat de denir (e.n.).
+
+### p. 24
+
+dik. Bu gecenin uyurken bende yarattığı tesirleri ileride kaydedeceğim.
+
+27 Temmuz, Çarşamba — Sabahleyin söğütlükten toplandıktan sonra henüz tanyeri kızarmaya başlamışken ve karanlık mehtap yarım bir kudretle gümüşlenirken yola çıktık. Yedi saat sonra bir hana ulaştık. Buraya kadar yollarda işittiklerimiz, muharebe haberleri bizi fena halde üzüyordu. Fakat bu malumatı yoldan geçen, cephede hafif surette yaralanmış askerlerden almıştık. Sonra muhacir kafileleri acıklı bir manzarayla geçiyorlardı. Bunlar Kütahya'dan geliyorlardı. İkindiden sonra Ravli denilen, civarında söğütlüklü ve bahçeli, sulu, gayet hoş manzaralı bir mevki civarındaki köye geldik. Burada bolca soğuk suyla yıkandık. Ankara'dan gelen ailelerin hicreti hissediliyordu. Biraz sonra bir yüzbaşıdan harp hakkında içimizi ferahlatan malumatı aldık ve kalbimiz serinledi. Fakat Ankara tahliye olunuyordu. Bununla birlikte kendisi vaziyetin bize müsait olduğunu katiyetle temin ediyordu. Geceyi burada geçirdik; önümüzde Ankara'ya altı saatlik bir mesafe bulunuyordu. Ha, bir de bugün yolda İnebolu'ya hareket eden İsmail Hakkı Topçular'dan benim Kocaeli mıntıkasına tayin olunduğumu haber aldım. Allah'tan hayırlısı!
+
+> [!note]+ Footnotes
+> 28 Temmuz, Perşembe — Öğleden evvel buradan hareket ettik. Üç saat sonra ağaçlıklı ve Ankara'ya iki saat mesafede olan bir yerde biraz istirahatten sonra tekrar hareket ettik. Artık Ankara'ya beş, altı kilometremiz kalmıştı. Bahçelikler ve yeşillikler başlıyordu. Bu esnada bir tepeye tırmanmaya başladık. Tepenin üzerine çıkar çıkmaz karşıda, ufku pek geniş bir ovanın yeşil bir tepesi üstünde serpilmiş ve etrafında bağlıklar —ki Dikmen bağları deniliyordu— içerisinde köşkler vardı. Bu, yolumuzun son noktası olan Ankara şehriydi. Yarım
+
+### p. 25
+
+saat sonra şehrin kapısından girdik ve şehrin içerisine daldık. Şehir güzelce yapılmış ve büyükçe taş binalarla toprak mahallelerden oluşmuş ve insanı sıkmayacak bir manzaradaydı. Herhalde gördüğüm ve geçtiğim diğer şehirlerden güzeldi. Şehirde misafirhaneye indik ve hamama gittik. Fena bir hamamda mümkün olduğu kadar temizlendim ve dünyaya çıktığımı hissettim. Çamaşırlarımı değiştirdikten sonra çarşıya çıktık. Millet Bahçesi ve karşısında Millet Meclisi binası vardı. Her taraf kalabalıktı, sargılı yaralılar ve zabitlerle doluydu. Aşağıdaki yeşilliklerde büyük binalar ve istasyon vardı. Tren sesleri işittik. Artık Bursa'ya biraz olsun yaklaşmıştım. Kahvehaneler dolu doluydu. Mektep arkadaşlarımı ve Nuri Bey'i gördüm. Bugün ağabeyimi göremedim. Epey harp havadisleri aldım ve harpte yaralanmış arkadaşlarımla görüştüm. Geceleyin de biraz gezdim, sonra misafirhaneye gittim ve yattım. Burada hayat İstanbul'dan pahalıdır. Herhalde fazla kalırsam sıkılacağım.
+
+> [!note]+ Footnotes
+> 29 Temmuz, Cuma — Misafirhaneden sabahleyin çıktıktan sonra merkezdeki kıraathaneye gittik. Öğleye yakın tezkiye6 muamelemi bitirdim ve Nuri Bey'i tekrar gördüm. Onunla birlikte Memleket Hayvan Hastanesi'ne gittik. İbrahim Nami'yi ve Süleyman'ı gördüm. Konuştuk ve bir yemek yedik. Kalktım kahveye çıktım ve orada arkadaşlarımdan beni araştıran ağabeyimi gördüm. Birlikte konuştuk, gezdik. Kendisi buraya yarım saat mesafede olan bir alaya tayin edilmiş. Akşama kadar beraber dolaştık ve konuştuk. Akşamüstü atına bindi. Yarın bana da bir at getirecek, beraber gezeceğiz. Akşam yemeğini yedikten sonra yol arkadaşlarımla Millet Meclisi önünden istasyona giden caddede bir gezinti yaptık ve tekrar kahveye döndük. Orada bizden
+>
+> 6 tezkiye: İyi hal, temiz sicil (e.n.).
+
+### p. 26
+
+sonra hareket eden arkadaşları gördüm. Konuştuktan sonra yalnız başıma kalktım. Karanlıkta misafirhaneye gittim ve yatağıma yatarak rahat bir uykuya daldım.
+
+30 Temmuz, Cumartesi — Misafirhaneden çıktıktan sonra şehirden bir çeyrek mesafede Müdafaa-i Milliye Vekâleti'ne istidamı? vermeye gittim. Tekrar döndüm. Dün ağabeyimden Batum Mebusu Ahmet Nurettin Bey'in verdiği kartı aldım. Bugün Millet Meclisi'ne gireceğim. Geldim, Millet Bahçesi'nin önünde istirahat ediyordum. Saat on buçuk raddelerinde bir otomobil geldi ve civarda, Darülmuallimin8 binasının önünde durdu. İçinden siyah kalpaklı üç kişi çıktı. Birisi önde yürüyordu. Hemen karşıladılar. Geri döndü. Baktım, tam tipiyle Mustafa Kemal Paşa'ydı. Şen ve mütebessim siması ve mavi gözleri sevimli bir manzaradaydı. Binaya girdiler. Bir saat sonra, on bir buçuk raddelerinde Millet Meclisi binasına gittiler. Etrafında Müdafaa-i Hukuk Grubu'na mensup birçok mebuslar da vardı. Ben de diğer kapıdan girdim. Onlar, doğru Riyaset |başkanlık| Odası'na girdiler. Ben de girdim ve odalarını gördükten sonra salonda dinleyicilere tahsis edilen mevkiye çıktım. İkide mebuslar toplandı ve sonra Mustafa Kemal Paşa da riyaset kürsüsüne çıktı. Müzakere başladı ve seçimler yapıldı. İkinci celse gizliydi. Bu husustaki hislerimi daha sonra tafsilatıyla not defterime kaydedeceğim. Akşamüzeri ağabeyimle görüştük, ayrılırken kalpak meselesinden aramızda dargınlık çıktı ve cidden canımı sıktı.
+
+> [!note]+ Footnotes
+> 31 Temmuz, Pazar — Bugün hafif bir can sıkıntısıyla geçti. Keyifsizlik, herhalde faaliyetsizlikten ileri geli-
+>
+> 7 Bahsi geçen istida (dilekçe), günümüzde Milli Savunma Bakanlığı'na
+>
+> karşılık gelen Müdafaa-i Milliye Vekâleti'nin emrinde 1920 kurulan Umur-ı Baytariye Müdüriyeti'ne verilmiş olmalıdır (e.n.).
+>
+> 8 Darülmuallimin: Erkek öğretmen okulu (e.n.).
+
+### p. 27
+
+yor. Mamafih ümit ederim ki bu durgunluk bir müddet sonra aksine dönecektir. Bugün ağabeyim gelmedi. Herhalde darılmış. Akşam kahvede tayyarecilerin biri ilk evvel İstanbul'dan Bursa'ya nasıl kaçtıklarını anlattı. Fedakârlık zaten yüzde okunur. Bugünlük bu kadar.
+
+30 Temmuz 337 Ankara-Millet Bahçesi Kardeşim, Vakitlerimizin başlangıç sıralarında anavatan için derin kaygılarımızı birlikte iki kardeş bağlarken işte şu oturduğumuz toprağı düşünüyoruz. Milletimizin hakkı olan bu toprakları bu melun düşmandan kurtarmaya ve temizlemeye azmetmiş olduğunu bildiğimiz milli ordumuzun askerlerinin yaralarını sarmaya, bu hizmete koşmuş Türklüğümüzün ruhuna can verecek azimli gençliğimizin inancını sarsılmaz bir kuvvetle temelleştirecek duyguyla çalışacağız. Nihayetinde duygu ve ahdımız budur. Bu vatanın, bu milletin iki böyle düşünen kardeşine elbet tanrının yardımı vardır. Seni, bu millete yardıma daima koşurken Cenab-ı Hakk'a emanet eder ve daima sıhhatin için sana ağabeylik duasını terfik
+
+> [!note]+ Footnotes
+> eylerim.?
+>
+> Ağabeyin Doktor Orhan
+>
+> 1 Ağustos, Pazartesi — Bugün muamelemi bitirdim. Ve şu halde resmen Kuva-yi Milliye askerlerinden olmak şerefiyle iftihar ediyorum. Cenab-ı Hakk milletimin uğrunda hakiki ve samimi hizmetlere nail olmamda kolaylık sağlasın. Bununla birlikte tayin olunduğum yer resmen tebliğ edilmedi. Müdafaa-i Milliye Vekâleti'nden belki birkaç güne kadar emir alırım. Akşamüzeri İstasyon Caddesi'ne indim ve istasyona gittim. Tren harekete
+>
+> 9
+>
+> “Ağabeylik dualarım hep seninle olsun” anlamında bir deyiş (e.n.).
+
+### p. 28
+
+
+
+> [!note]+ Footnotes
+> Mehmet Turgut, Kuleli Askeri İdadisi 1. sınıfta ve
+>
+> ağabeyi İbrahim Orhan, Tıbbiye 4. sınıfta
+
+### p. 29
+
+hazır ve içi cepheye hareket eden askerlerle dolu. Tren hareket ederken hep bir ağızdan vatan şarkıları söylediler ve silah attılar. Milletin gösterdiği bu harp şevki beni pek heyecanlandırdı. Cenab-ı Hakk muvaffak etsin. Demiryolunu, istasyon binasını ve duvarda yazılı “Ankara” kelimesini gördüğüm zaman, araba yolculuğundan bıkan ve demiryoluna alışan ruhumda serin bir heves duydum. Bu tren hattı bana pek munis geliyor. Ondan evvel akşama yakın Millet Meclisi'nin müzakerelerini dinledim, münakaşada bulundum. Mütalaalarını dinledim, pek hoşuma gitti. Gayet vâkıf bir şekilde mütalaalarını beyan ettiler.
+
+2 Ağustos, Salı — Dün boş yere Müdafaa-i Milliye'ye kadar gittim. Resmen bir şey tebliğ etmediler. Kati olarak anladığıma göre birkaç kişiyle Garp Cephesi Hayvan Hastanesi'ne tayin olunmuşuz. Kadere rızadan başka düşüncem yoktur. Zira ben buralara gelirken kalbimde yaşattığım nazik ve süslü gayelerden bir mukadder vakit kadar vazgeçmiş,!9 her ne suretle olursa olsun yalnız vazifemle meşgul olacağımı takdir etmiştim. Cehenneme de yollasalar, hizmetçim de emretse gideceğim: Zira vazifem! Ve akşama kadar Ankara'nın kararsız havasıyla ve kısmen Handan'111 okumakla vakit geçirdim.
+
+> [!note]+ Footnotes
+> 3 Ağustos, Çarşamba — İkindiye kadar vakti misafirhanede Handan'ı okumakla geçirdim. Ondan sonra çarşıya çıktım. Evvela emrimizin çıktığını tebliğ ettiler. Artık resmen Garp Cephesi Hayvan Hastanesi'ne tayin edilmişim. Benimle birlikte İsmail ve Nazif de var. Merkezde muamelemizi tamamlayarak yarın akşam trenle Polatlı'ya hareketimize karar verildi. Neyse böyle tak-
+>
+> 10 “Belli bir süreliğine vazgeçmiş” anlamında bir deyiş (e.n.).
+>
+> 11 Handan, Halide Edip Adıvar'ın 1912 yılında yayımlanan romanıdır
+>
+> (em):
+
+### p. 30
+
+dir edilmiş. Oradan sonra kahvede bekleyen ağabeyimle görüştüm. Ve biraz sonra iş için gelen hastanemizin müdürüne takdim edildim. İyi bir adam göründü. Sonra ağabeyimle şehirden yarım saatlik mesafedeki taburuna gitmeye karar verdim ve beraberce yolda atla geldik. Karargâhları bir ovada çadırlardaydı. Onun da bir çadırı vardı. Akşam yemeği yedikten sonra beraberce oturup konuştuk. Bu çadır hayatı pek hoşuma gitmedi. İnsana pek inzivaya çekilmiş hissi veriyor ve fazla sürmesi kederleri çoğaltıyor.
+
+4 Ağustos, Perşembe — Bugün sabahleyin ağabeyimin çadırından çıktım ve atla Ankara'ya döndüm. Bu akşam hareketimize karar verildiğinden işlerimi bitirdim ve akşama yakın eşyamı arabayla istasyona indirdim. Birkaç arkadaşla vagona yerleştik. Saat sekiz buçukta trenimiz hareket etti. Üç çeyrekte Sincanköy ve ondan sonra Malıköy istasyonlarından sonra gece saat üçte Polatlı'ya ulaştık. Eşyamızı indirdikten sonra korunaklı bir yere naklettik ve orada, soğuk havada eşyanın arasında sabahladık. Bir gecelik yolculuk sefaletini daha çektik. Uyku gözlerimden akıyor.
+
+> [!note]+ Footnotes
+> 5 Ağustos, Cuma — Sabahleyin istasyonun yanındaki bir kahvede çay içerek ısındık. Herkes daha uykudaydı. Gözlerimin kapakları ve başım ağırlaşmış, sersem bir haldeyim. Burası karargâhtır. Biraz sonra toprak ve temiz görünüşlü bir evde oturan Serbaytarlık Dairesi'ne gittik. Evvela bizim muamelemizi, aceledir diyerek yaptılar ve depo hayvanlarından bize nakliye vasıtası bulmak için gönderdiler. Depodan hastane dört buçuk saatlikti. Eşyamızı depoya getirdik. Bizi bir çadırda oturan serbaytar çağırdı ve üç dört mükemmel ve işsiz araba dururken, nakliye vasıtasının bulunmadığından bahsederek müşkülat çıkardı. İşte hissettim ki baytarla-
+
+### p. 31
+
+rın konfrerlerinin!2 içerisinde yine şekerrenk muamelelere başladık. En iğrenç ve çirkin muamele, kolaylık göz önünde durup dururken zorluktan başlamaktır. Ve bu, bizim baytarların yegâne kaidesidir. Bu nazik serbaytar bizi güneşin bütün hararetiyle kavurduğu çayırdaki çadırından, dışarıda beklememizi tembih ederek savdı. Biz bu layık olduğumuz muameleden dolayı pek üzgünüz. Ona da eyvallah dedikten sonra akşam alafranga saat beşe yakın birer estere!3 binerek, yine esterlere yükletilmiş eşyamız ve hastaneye gönderilen yüz kadar yaralı hayvan arasında hareket ettik. Uzun yollardan ve sıcak, taşlık tepelik araziden bin müşkülatla gece Macun Dede Köyü'ne!4 geldik. Karanlık fazla olduğundan kalmaya karar verdim. Hayvanlar bir tarafta kaldılar. Arkadaşlar beni bulamayıp gece ileriye yürümüşler. Ben fena kalpli bir muhtarın getirdiği yoğurt ile yufkayı yiyerek, köyün odasında karyolamı serdim ve uyudum. Sefalet pek müthişti.
+
+> [!note]+ Footnotes
+> 6 Ağustos, Cumartesi — Sabah yine erkenden derlenip toparlanarak yola düzüldük. Bir saat sonra bir köye geldik. Oradan geçtikten bir saat sonra hastane olarak kullanılan Salmanlı Çiftliği'ne ulaştım. Arkadaşlar da gelmişler. Binadan yukarıya çıktık. Bina üç katlı, ahşap ve yıkık bir binadır. Bize tahsis edilen yerler pek sefil görünüyordu. Biraz istirahat ettik ve yemek yedik. Sonra hastane önünde bataklık bir çayırda hayvanları viziteye indik.
+>
+> İşte böylece Temmuz'un 19'inde İstanbul'dan hareketle yirmi iki günlük bir seyahatten sonra görev yerime ulaştım ve takdir edilen vazifeme başladım. Şurasını
+>
+> 12 confrörie (Fr.): Camia (e.n.).
+>
+> 13 ester: Katır (e.n.).
+>
+> 14 Ankara'nın Beypazarı ilçesine bağlı Macun Köyü (e.n.).
+
+### p. 32
+
+kaydedeyim ki: O gece karyolamı balkon gibi dikdörtgen şeklindeki ve açık bir yere serdik. Gece sabaha karşı uyandım. Adeta ocak ayındayız zannettim. Fena halde üşümüşüm. Kalktım, örtündüm, fakat soğuğu almıştım. Ertesi gün fena halde başım ağrıdı, kemiklerim sızladı. Baştan aşağı rahatsızlandım. İşte şunları yazarken bu harap binada, bu garip başımla hasta hasta ve gözlerimin önünden sinema gibi geçen o güzel ve çok güzel mazimin hayali karşısında kızgın bir haldeyim. Cenab-ı Hakk korusun. Ah anneciğim, babacığım, kardeşlerim, canım ciğerim yavrucuklarım, sevgili ağabeyciğim, Allah birbirimizden ayırmasın. Allah pek yakın zamanda bizi yine eskisi gibi kavuştursun...
+
+7 Ağustos 337 (1921) — Seyahat hatıralarımın sonu. Mebde |başlangıç|: 15 Temmuz 337 Cuma, İstanbul Müntehi (son): 6 Ağustos 337 Pazar, Garp Cephesi Hayvan Hastanesi
+
+> [!note]+ Footnotes
+> 12 Ağustos, Cuma — Bugün öğleden sonra alınan emir icabı, hastane buradan hareket ederek Ankara civarında Çubuk nahiyesine gitti. Nazif ve İsmail gittiler. Burada ben ve bir de eskilerden Yusuf Kenan Bey kaldık... Bize hafıf yaralı veya taburcu hayvanları bıraktılar. Akşam Kenan Bey de köye gitti. Ben geceyi bu harap binanın içinde etrafta birkaç asker ve çiftliğin iki üç sakini içerisinde yalnız başıma geçirdim. Daha akşamdan, mehtap olmasına rağmen sivrisineğin çokluğundan cibinliğin içerisine girdim. Yatakta birkaç saat hep tatlı mazimin hayalleriyle uğraştım. Biz burada Serbaytarlık'ın emriyle kaldık. Bakalım ne yapacaklar.
+>
+> 13 Ağustos — Gece Serbaytarlık'ın emriyle Yusuf Kenan da Katar Baytarlığı'na tayin edilerek hareket etti.
+
+### p. 33
+
+15 Ağustos, Pazartesi — Salmanlı?dan Serbaytarlık'ın emriyle Polatlı'ya bütün hayvanları götürdüm.
+
+16/17 Ağustos gecesi, Hayvan Deposu'yla birlikte Polatlı'dan Malıköy'e hareket ettik.
+
+17 Ağustos — Malıköy'de açık ordugâh kurduk.
+
+19 Ağustos — Hastanemize Baytar Muavini Ömer Lütfi Efendi tayin edildi.
+
+20 Ağustos — Polatlı'dan Malıköy'e döndüm. Ömer Lütfi arkadaşla vazifeye başladık.
+
+24 Ağustos — Malıköy'deyiz. Tayyareler her gün ziyaret ediyorlar ve bombalıyorlar.
+
+28 Ağustos 37 (1921) — Bugün Haymana ve Beylikköprü harplerinin üç günden beri devam eden safhasının şiddetli bir günüydü. Gece ve gündüz top seslerini, tayyare keşiflerini, önümüzdeki yoldan aralıksız cepheye akan cesur asker kafilelerini ve gündüzleri de arabalarda toz ve toprak içerisinde başı gözü sarılı ve şen çehreli yaralı gazi yavruların geçişlerini işittik ve gördük. Of yarabbi! Bugünlerde geçirdiğimiz hicranlı ve düşünceli, bekleyişle dolu anları ve saatleri ömrümde unutmayacağım. Allah muvaffakiyet ver yarabbi...
+
+> [!note]+ Footnotes
+> 16 Ağustos'tan 8 Eylül'e kadar devam eden Sakarya Meydan Harbi!15 tam yirmi bir gün ve yirmi bir gece devam etmiştir. Bu müddet zarfında karargâhla Malıköy'de Hayvan Deposu'nda bulundum. Ve bütün harp esnasında her türlü harp manzaralarını gördüm.
+>
+> 15 Sakarya Meydan Muharebesi 23 Ağustos 1921'de başlamış, 13 Eylül
+>
+> 1921'de sona ermiştir. Yazarın muharebenin başlangıç ve bitiş tarihlerini farklı vermesinin nedeni anlaşılamamıştır (e.n.).
+
+### p. 34
+
+Gece gündüz önümüzden mühimmat, levazım, asker, yaralı geçti. Tam bir harp hayatı geçirdim. Orada bir de çardak yaptırmıştım. Ve hamdolsun vazifemi de hakkıyla yapmaya gayret ettim. Gündüz tayyareler üstümüzde uçar, bombalar atarlar. Kısacası korku, heyecan içinde bir harp geçirdim.
+
+4 Eylül 337, Malıköy — Karşıda engin bir ufuk, üst üste yığılmış tepeler, yer yer görünen harmanlar, köyler, dereler şimdi sessiz, güneş altında serilmiş yatıyor. Sanki yorgun, bu hicranlı azaptan dinleniyor.
+
+Günlerce inledi baştanbaşa bu ova Susmayan topların homurtusuyla karanlıklara dek Sanki yer gök sarsılıyor, inliyor eflâk Kalmayacak gibi çılgın ne köy, ocak, ne yuva...
+
+Çıkmış idim harbe yakın bir tepenin başına Ateş sinmişti ovanın toprağına taşına İleride fasılasız toplar güm güm gürlüyor Canavarlar gibi ölüm ve kan diye inliyor Tozlu yollar mahşer gibi kafilelerle dolu Geçiyorlar akın akın önümüzden yaralı Bazısının uçmuş toptan ya bacağı ya kolu Kimi bitap, toz içinde başı gözü sarılı Üstümüzde tayyarenin uğultusu, bombası Yer sarsılır, gökler inler, ateş ve kan humması Saldırıyor bir zavallı Türk'e bunca kâinat Karşısında mütevekkil, boynu bükük, pürsebat Türk askeri Allahına dayanarak bekliyor Alnında kin çizgileri düşmanını istiyor Fakat düşman meydanda yok, karşısında bir tufan Ki boğuyor ufukları tarrakalar durmadan Gözler kanlı, bir elinde silah, bir elinde bombası Düşman yok, karşısında karanlık ufukların kızıl seması Ortasında kalmış inliyor dağlar taşlar
+
+### p. 35
+
+> Yağdırıyor cehennemi ağızlar, demirler ateşler İşte zavallı asker bu ateşler düşmanın senin Ki cevabı derinlerinde yatar zaif sinenin Sen ey medeniyet denilen zulüm ve kan fırtınası Feryadına kulakların tıkalı mı bu halkın Bu ülkenin susmayacak ezanının sadası Çanlarını, salibini medeniyetin eşlerinin başına takın!
+
+8/9 Eylül 337, akşam, Malıköy — Ovanın semasını baştan başa simsiyah bulutlar kaplamış ve ortalığa müthiş bir karanlık yayıyor, yakında topların müthiş ve titretici sesleri inliyor. Bu aralıksız devam eden gürültü tufanının bende bıraktığı müthiş tesiri unutmayacağım zannederim.
+
+Polatlı”ya hareket!
+
+14 Eylül, Salmanlı — Cenab-ı Hakk'ın yardımıyla milletimiz ve ordumuz muzafferan ilerlemeye ve düşman mağlup olarak kaçmaya başladı. 8 Eylül'den beri düşman geri çekilmeye başlamıştı. İşte bu 14 Eylül tarihinde bütün Malıköy Karargâhı Polatlı'ya hareket etti. Hayvan Deposu da ileriye gittiği için bana 50 asker ve 260 kadar hayvan bırakarak Salmanlı Çiftliği'nde dinlenmemize karar verdiler. Ben de bütün malzemeyi alarak yalnız başıma yine eski inziva yerime, kim bilir bakalım ne kadar bir müddet için çekildim. Artık bu taraflarda asker ve kıtalar kalmadı. Herkes ileriye gidiyor. Nazlı diyarımıza doğru muzaffer akınlar şerefine, ben de bu harap ve sessizliğe gömülmüş çöllerde kalıyorum. Ve inşallah yakında ben de ileriye gideceğimi ümit ediyorum. Cenab-ı Hakk yardım etsin.
+
+> [!note]+ Footnotes
+> 15 Eylül — Ordumuzun Sivrihisar'ı işgal ettiğini haber aldım. Cenab-ı Hakk daha iyi günler göstersin ya-
+
+### p. 36
+
+rabbim ve ben de zavallı aileme bir an evvel kavuşayım. Allahım!
+
+19 Eylül — Salmanlı'dan Polatlı'ya çağırıldım. Hayvan Deposu baytarlığını yapıyorum. 20/21 günleri de depoda yalnız başıma pek hararetli bir faaliyetle çalıştım. Gecelere kadar faaliyet sürüyordu. Meşguliyetin çokluğu beni yordu.
+
+22 Eylül — Yetmiş kadar hayvanı Haymana'da satmaya memur edildim ve yağmurlu bir akşamda Polatlı'dan hareket ettim. İki saat kadar ıslanarak Eski Polatlı denilen bir Tatar köyünde kaldım.
+
+23 Eylül — Sabahleyin bu köyden hareketle şiddetli bir yağmur altında ıslanarak Bayburt Köyü'ne geldim. İki saat sonra geldiğim bu köyde ocak falan kalmamıştı. Düşman her şeyi altüst etmiş, etraf düşman cesedi dolu. Burada biraz istirahat verdim. İki saat sonra yağmur biraz kesildi. Oradan hareket ettik. Çamurlu yollardan ve harp olmuş mıntıkalardan geçtik. Ötede beride top tabiye edilen yerler, siperler, mezarlar ve birkaç feci manzaralı leşler geçtik. İki saat kadar sonra Ahırlıkuyu denilen bir Tatar köyüne geldik. Düşmanın en son harp hattı burasıymış. Bu köyde geceyi geçirdim. Buradan Haymana bir buçuk saat.
+
+> [!note]+ Footnotes
+> 24 Eylül — Yine sabahleyin buradan hareket ettim. Bir buçuk saat sonra yüksek bir tepede Haymana kazasına geldim. Burada emri şube reisine tebliğ ettim. Bir müddet sonra teşkil edilen bir komisyonla hayvanlar satılmaya başladı. Akşama kadar 30 hayvan satıldı. Kalanı yarın satılacak. Burada bir Rum evinin bir odasına yerleştirildim. Geceyi burada geçiriyorum.
+
+### p. 37
+
+25 Eylül, Haymana — Ah Celâlim, Cemileciğim, anacığım babacığım; sizlere ne sesim ne de mektubum yetişecek. Böyle uzak diyarlardan kalbim her şeyinize susayarak bütün ruhumla bağırıyorum, Allah'a dua ediyorum, sağ kalınız. Sizi acaba dünya gözüyle görecek, sizinle kucaklaşacak mıyım? Ah, kara gözlü yavrucuklarım, kim bilir beni ne kadar özlediniz. Bense rüzgârdan sanki sizin kokunuzu ta ciğerlerime çekerek bir ceza istiyorum. Allahım ne elim bir azap içindeyim. Kahrolası düşmanın ayağı altında, sizin her dakika heyecanla bekleyişinizi ben her saniye hissediyorum. Kalbim sizin için yaşlarla doldu. Ne zaman, ne zaman sizlere, sizin hiçbir zaman gözlerimden gitmeyen manzaranıza, kucaklarınıza atılacağım, yetişeceğim. Oh yarabbi! Sen bu hicranlı azapları, günleri çabuk bitir! Bu günahsız sübyanların hürmetine felaketlerimizi çabuk bitir. Rahmeti rabbaninin hayatı sunan kudretini bir an evvel bu diyarlara indir Allahım!
+
+> [!note]+ Footnotes
+> 26 Eylül — Haymana'dan hareketle tekrar öğleden sonra Polatlı'ya Hayvan Deposu'na geldim. Bugün serbaytar, iyi bir mevkiye tayin edileceğimi söyledi. Allah versin! Dönüşte Haymana, Erifköy16 yoluyla Polatlı'ya beş saatte hayvanla geldim.
+>
+> 27 Eylül — Yolda ıslandığım için vücudumda kırgınlık alametleri görünmeye başladı. Bugün serbaytar beyin tekrar Haymana'ya gönderilmem için bir teklifi oldu ise de hastalığım sebebiyle affettiler. Bereket ki tekrar Haymana'ya gidecektim. Bununla beraber bugünden itibaren Serbaytarlık Dairesi'nde istatistik tanzimiyle uğraşmaya başladım ve üç gün hastalığım şiddetlendiği halde mütemadiyen çalıştım. Artık Serbaytarlık'ta
+>
+> 16 Günümüzde Ankara'nın Haymana ilçesinin Sarıdeğirmen Köyü (e.n.).
+
+### p. 38
+
+(mülhak)17 kısmi bir vazifede bulunuyorum. Maksat nedir? Bilmiyorum. Mamafih tayinimi rica ediyorum. Fakat ısrarlarım faydasız kalıyor. Neyse, ben zaten cepheyle hareket halinde olmayı istiyordum. Hiç olmazsa buna şimdilik razıyım. Cenab-ı Hakk'tan hayırlısını isterim.
+
+**7 Teşrinievvel |Ekim| 337 — Bugün karargâhla bir-**
+
+likte Sivrihisar'a hareket ettik. Polatlı*dan sabahleyin yola çıktık. Üç saat sonra Beylikköprü'ye geldik. Biraz moladan sonra buradan da hareketle beş saat sonra Mülkköy'e geldik. Akşam oldu. Hazır bulundurulan çadırlarda geceyi geçirdik. Düşman bu köyü ve yolda gördüğümüz birkaç köyü yakmış.
+
+8 Teşrinievvel 337 — Sabah erkenden Mülk'ten hareket ettik ve üç saat sonra sivri kayaların eteğindeki Sivrihisar'a vardık. Bu kasaba yanmamış. Kasabaya girdik. Şubeye tahsis edilen evi aradık. Bu esnada düşman tayyaresi geldi, bombalar attı. Bir tesir yapamadı. Bize tahsis edilen eve geldik ve eşyalarımızı falan yerleştirdik. Hamdolsun ev içerisinde bir şehir hayatı gördük. Şimdilik rahatım iyidir. Cenab-ı Hakk'tan hayırlısı.
+
+> [!note]+ Footnotes
+> 26 Teşrinievvel 337, Sivrihisar'da Serbaytarlık maiyetinde — Bu tarihe kadar mülhak sıfatıyla bulundum. Bu müddet esnasında Muavin Şevket Bey'le iyi bir zaman geçirdik. Şimdiye kadar sürdüğüm -iki aydan fazla bir zaman— derbeder hayatı sona ermiş oldu. Zira Şevket Bey binbaşılığa terfi ile başka bir yere tayin edildi. Kudretimin üstünde olarak, serbaytar onun yerine muavinliğe beni münasip gördü. Bu zamana kadar da dairenin işlerine alıştığım için vazifede artık sıkıntı çekmeyeceğim ümidiyle razı oldum. 26 Teşrinievvel 337'de Serbaytar-
+>
+> 17 mülhak: Bir asker karargâhında emir subayı yardımcısı (e.n.).
+
+### p. 39
+
+lık, 3665 numaralı resmi yazıyla beni tayin için teklif etti ve Cephe Kumandanlığı 28/10/337 tarih 9676 numaralı emriyle beni Serbaytarlık muavinliğine tayin etti. Cenab-ı Hakk'tan vazifemde olan iyi niyetime mukabil muvaffakiyetler temenni eder ve bir an evvel aileme, sevgili yavrularıma kavuşmayı nasip etmesini dilerim.
+
+(Sivrihisar'da 38 gün kaldık.)
+
+Sivrihisar'ın ahalisi üzerimde gayet fena bir tesir bırakmıştır. Alçak, menfaatperest, gözlerinde hıyanet okunuyor. Kadınlarının güzel olduğundan bahsediyorlar. Hiç dikkatimi çekmedi. Şalvarlı, bir gözü dışarıda bu kadınlar hiç de hoş değil. Evlerinin döşemeleri genellikle toprak ve tuğla...
+
+15 Teşrinisani (Kasım) 337 — Sivrihisar'dan Akşehir'e on ikide hareket ettik. İki saatte Yakapınar'dan geçip Fettahoğlu Köyü'nden ve Fettahoğlu Köprüsü'nden geçerek yolumuza devamla akşam ezanından sonra Göktepe Köyü'nden geçip ezandan iki buçuk saat sonra ilk konak bir Kürt köyü olan Kaldırım'a gelerek geceyi orada geçirdik.
+
+> [!note]+ Footnotes
+> 16 Teşrinisani 337 — Sabah hareketle dört saat sonra Piribeyli ve bir buçuk saat sonra da Ören Köyü'ne geldik. Burada bir Yörük evinde geceyi geçirdik. Buradan Akşehir 12 saatmiş.
+>
+> 17 Teşrinisani 337 — Sabah erkenden 08.30'da Ören Köyü'nden kalktık. Bugün karargâhla hareket ettik. Hava bulutlu, biraz yağmur yağdı. Üç buçuk saat sonra ayrı tepe içinde bir Yörük köyüne geldik. Bir saat moladan sonra tekrar hareket ettik. İki buçuk saat sonra Mevlütlü Köyü'ne geldik ve burada konakladık. Burası
+
+### p. 40
+
+da bir Yörük köyüymüş. Biz de bir Yörük evinde misafir olduk. Buradan Akşehir yedi saatmiş.
+
+Akşehir'de 18 Teşrinisani 337, Cuma — Sabahleyin erkenden hareketle bir çeyrek saat sonra Hayrat denilen mevkiden ve bir buçuk saat sonra bir köyden, yine bir buçuk saat sonra Ortaköy'den geçtik. Bu geçtiğimiz yerler tamamen Konya Ovası'ydı. Karşıdaki sıradağların eteğinde Akşehir seçilmeye başlıyordu. Bir saat sonra buradan hareket ederek iki saat gittikten sonra şehre geldik. Istasyondan kasabaya güzel bir ağaçlıklı şose vardı. Bu şoseden geçtik, şehre girdik ve bize tahsis edilen binaya geldik. Ufakça, güzel bir binaydı. Şehrin kenarında, fakat yol üzerindeydi. Yolculuk sefaleti bu sefer de... Hasılı çok üzüntülü bir şey.
+
+Şehir ucuzmuş diyorlar. Akşam olduğu için ancak yerleşebildik. Temizliği yarına bırakıyorum. Bakalım burada ne kadar zaman kalacağız, hayırlısı! Hasılı Akşehir'e de girmiş ve görmüş oldum. Şimdi de Konya toprağındayım. Buralarda pek o kadar harp sesi yok. Burada menzil hizmetleri var.
+
+> [!note]+ Footnotes
+> 19 Teşrinisani 337, Cumartesi — Akşehir'de ilk gün! Hoşça geçti.
+>
+> 19 Kanunuevvel JAralık| 337, Pazartesi — Demek ki Akşehir'e geleli tam bir ay oluyor. Bu bir ay şehir hayatının gürültüsü içinde ve biraz da alışmış olduğum karargâh hayatı arasında geçti. Muavin olduğum günden beri selefim ve pek sevdiğim Şevket Bey'in bıraktığı tatlı hatıralarla hoş bir vakit geçiriyor ve çalışıyordum ve bugüne gelinceye kadar da böyle çalıştım. Tabiatım gereği, şimdiye kadar kırtasiye muamelelerindeki yavaşlıktan bıktığım için, gayet titiz ve hiçbir şeyi sürünceme-
+
+### p. 41
+
+de bırakmaz oldum. Mesaime tam istediğim gibi bir intizam verdim. Ve her ne olursa olsun benim bu mesaim gerek erkân-ı harp reisi!8 ve gerek bizzat iki defa İsmet Paşa tarafından takdir edildi. Ve bugün öyle ümit ediyorum ki asıl teveccüh kazanılacak nazarlarda bir mevkim vardır. Belki de bazılarından fazla. Evet, zaten ben o fikirdeyim ki ateşli ve ağırbaşlı bir genç, üç tane ihtiyar tecrübeliye bedeldir ve ben bunu ispat ettim. Hatta geçen İsmet Paşa, veba-yi bakari!? hakkında izahat vermeye gittiğim zaman uzun uzun benimle sohbet etti. Bursa'daki ailemi ve kardeşlerimi sordu ve nihayet bana pek samimi bir teşekkür etti. İşte ben bu noktalardan pek memnunum ve izzetinefsimin, gururumun, benliğimin en yüksek bir gayesine erişmiş oluyorum. Teveccüh, takdirden aciz olanların kârı değildir. Daha fennin derinliğini dahi göremeden sadece işitenler büyük ilim makamlarını işgal ediyorlar. Fakat öyle gördüm ki bütün bu makamın sahipleri, kendilerinin çürük bir tahta üstünde sallandıklarını her dakika hissediyorlar. Ben öyle bir mevkiye ve mevki sahibire lanet ederim. Cenab-ı Hakk beni izzetinefsimden hiçbir zaman ayırmasın, hayatım gibi sevdiğim benliğimin gururunu hiçbir şeye feda ettirmesin. Ve ben hayatta oldukça etmeyeceğim...
+
+> [!note]+ Footnotes
+> 1 Kanunusani 338 (1 Ocak 1922) gecesi — Bu gece şubeden çıktım. Sisli bir geceydi. Çay'a gitmek üzere istasyona gidiyordum, saat on ikiye geliyor. Gece yarısı! Yarabbi! İşte, evet, bu gece, belki bu dakikada bütün saadetlerinin zevkiyle inleyen gönüllerin yaşadığı şehirlerde ne kadar ahenkli bir neşe vardır. Belki birkaç dakika sonra tokuşturulan kadehlerin ve bardakların, alınan buselerin haddi hesabı olmayacak. İşte bu dakikada istasyona geldim. Kapalı vagonların içerisinde yorgunluk-
+>
+> 18 erkân-ı harp reisi: Kurmay başkanı (e.n.).
+>
+> 19 veba-yi bakari: Sığır vebası (e.n.).
+
+### p. 42
+
+larını dinleyen erler ve zabitler cepheye gidiyorlar. Trene ben de bindim. Bir arkadaşımın sandığı üzerinde feci, evet başka dünyaların lezzetine feda ettiğimiz hayatımız kadar feci birkaç saat geçirerek sabaha karşı Çay İstasyonu'na geldim. Bir saat sonra güneş açıldı ve Abdullah ile Sadullah istasyona geldiler. Hayvanlara binerek şehre gittik. Manevra için otomobillerle geçiyorlardı. İşte IV. Kolordu kumandanı Çolak Kemal!20
+
+Sadullah'ın evine gittik. Uykusuzluktan beynim patlıyordu. Biraz çay falan, biraz da uykudan sonra uyandım. Kendime gelmiştim. Biraz gezdik, muhabbet ettik. Gece Birinci Ordu Serbaytarlığı'nda biraz vakit geçirdik, geldik yattık. Ertesi akşam da son saatte trene yetişebildim. Trene binerken büyük bir bina önünde —Ali İhsan Paşa'nın?! karargâhı— Ali İhsan Paşa'nın marşını musiki ile söylüyorlardı. Neyse, son süratle trene yetişerek Çay'dan hareketle Akşehir İstasyonu'na geceleyin vardım ve daireye geldim. İşte bu, sene başı gezintisiydi...
+
+> [!note]+ Footnotes
+> 11 Mart— Ağabeyime gitmek üzere Akşehir'den trenle hareket ettim. Ve bugün akşamüzeri Çay'a iki buçuk saat mesafede ve Çay'ın batısındaki Yeniköy'e, 31. Alay Karargâhı'na gittim.
+>
+> 12 Mart — Akşamüzeri Çay'a döndüm.
+>
+> 20 Kemalettin Sami Gökçen: Balkan Harbi, Birinci Dünya Savaşı ve
+>
+> Kurtuluş Savaşı'nda çeşitli rütbelerle görev yaptı. Trablusgarp Savaşı sırasında gittiği Yanya'da kolundan yaralandığı için Çolak Kemal lakabıyla anıldı. Sakarya Meydan Muharebesi sonrasında IV. Kolordu kumandanı olarak Büyük Taarruz'a katıldı (e.n.).
+>
+> 21 Ali İhsan Sabis: Birinci Dünya Savaşı'nda Kafkasya Cephesi ve Irak
+>
+> Cephesi, Kurtuluş Savaşı'nda Batı Cephesi kumandanlıkları yaptı. Birinci Dünya Savaşı sonrasında İngilizler tarafından tutuklanıp Malta'ya sürüldü. Sürgün sonrası, 21 Ağustos 1922'ye kadar Batı Cephesi Birinci Ordu kumandanlığı yaptı. Devamında bahsedilen marş ise XIII. Kolordu Marşı olabilir (e.n.).
+
+### p. 43
+
+Mühim bir maksatla az bir zamanda başlanılan Azarıköy-Piribeyli
+
+dekovil hattının açılış merasimi, Haziran 1922.
+
+1- Müdafaa-i Milliye vekili Kâzım | Özalp) Paşa 2- Menzil Müfettişi Kâzım
+
+(Dirik) Bey 3- Garp Cephesi Kumandanı İsmet Paşa 4- V. Kolordu Kumandanı Fahrettin (Altay) Paşa 5- Konya Valisi Mustafa Abdülhalik (Renda) Bey 6- Şimendiferler Umum Müdürü Behiç Erkin) Bey
+
+> [!note]+ Footnotes
+> 13 Mart — Çay'da kaldım.
+>
+> 14 Mart — Akşam trenle Akşehir'e döndüm.
+>
+> 15 Temmuz 338 (1922J, Cumartesi (Anadolu'ya geldiğimin sene-i devriyesi) — Bugün tam bir sene evvel İstanbul'dan büyük bir geminin loş hücreleri içinde ve benim için hiç kimsenin kalbi sızlamaksızın hazin hazin ayrılmıştım. O muazzam şehre veda ederken ruhumun duyduğu garipliği işte şu anda yine hatırlarken, ta kirpiklerimin ucuna kadar gelen yaşları zapt etmeye gücüm yetmiyor. Evet, tam bugün, bu saatlerde hayatta saadetten pek az nasibi olan bir biçare, birkaç arkadaşın kıymetli yolculuk yardımlarından başka, hiçbir kalbi titretmeksizin, ne kendi gözleri nemlenmiş ve ne de kar-
+
+### p. 44
+
+şısında böyle bir nazara tesadüf etmiş ve tesadüf ihtimalinden uzak, fakat arkasında, vaziyeti meçhul ve vefasız topraklar üstünde, keşişin karanlık gölgesi altına sefil ve perişan gizlenmiş bir ülkede meçhul bir hissin tesiriyle titreyen birkaç kalp bırakarak ayrılmıştım... Birkaç gün Karadeniz'de çalkalandıktan sonra ve yaz gecelerinin bu denize has olan pek cazip mehtabını da görerek, o ana kadar büsbütün yabancısı kaldığım Anadolu topraklarına ve fakat ruhumda daima yanan ezeli bir aşk ve murhabbetle ayak basmıştım. İşte o günden bu ana kadar tam bir sene bizim için hakiki bir muhabbetle kalbi çarpan bu topraklarda ve bizim hayatımız için didiklenen masumlar arasında dolaştım. Ankara'ya gelerek daima ileri ufuklarda dalgın dalgın takılıp kalan nazarlarımla cepheye gitmek ve bana düşen vazifeyi orada yapmak arzusunu duymuştum. Bu arzumda inat ederek en nihayet dileğime nail olmuştum...
+
+Şimdi Ankara'dan cepheye hareketten sonra bütün Sakarya Harbi müddetince geçirdiğim hayatı ve yaşadıgım muhiti düşündükçe pek mesut ve hakikaten mesut bir hatıranın zihnime sarılmış olduğunu ne güzel hissediyorum. O gümbürtüler, inlemeler, feryatlar, kağnı gıcırtıları, toz ve toprak içerisinde çalışan, yürüyen ve hakikaten cidden fedakârlık eden insanlar arasında, çöller, susuzluk ve zaman zaman tahammülsüz bırakan bekleyişler içerisinde yaşadığım o zamanlar Allahım ne kadar ulvi imiş... Yarabbim, evet o hali sen hiç şüphesiz benden fazla gördün ve benden fazla bu milletin nasıl fedakârlık yaptığına ve nasıl çalıştığına şahit oldun. Hâlâ, affet Allahım, hâlâ niçin nihayetsiz gözleyişler içerisinde bizleri bekletmedesin?! Daima gözlerimin takılı kaldığı ufukların arkasında benim ve şu askerlerin toz toprak içerisinde tepelemeye ve kovmaya çalıştığımız düşmanın eli altında, ruhumun birer parçası ebeveynim ve kardeşlerim kalmış... Burada başka bir memleket içinde ben... Böyle
+
+### p. 45
+
+Bu resim 1922 senesi Büyük Taarruz'dan önceki Kurban Bayramı bayramlaşma merasiminde, Akşehir'deki Garp Cephesi Kumandanlığı önünde, Garp Cephesi Kumandanı İsmet Paşa, ordu kumandanları Kâzım Karabekir Paşa, Âsım (Gündüz) Paşa, İzzettin |Çalışlar| Paşa ve karargâh zabitanı ile çekilmiştir. (x) işaretli zabit, Garp Cephesi Serbaytar
+
+Muavini Mülazım-ı sani Mehmet Turgut bin Musa Kâzım Efendi'dir.
+
+mıkyas, mukayese ve mantıkın kabul etmediği nispetsiz hadiseler karşısında ve elim unutulmuşluklar içerisinde uzun bir bekleyiş devri ve tahammül!
+
+Artık yeter, yarabbi, bu masum halkın hürmetine, artık şu gaddar ve zalim medeniyetlerin zafer elde etmelerine izin verme! Biraz da bizler gibi zavallı masum ve mazlumlara sen merhamet ve yardım et! Yoksa insan kanı dökmeyenlere, vahşete ve yıkımlara sebep olmayanlara acımıyor musun? Sen affet yarabbi! Amin!
+
+> [!note]+ Footnotes
+> 22 Temmuz — Cephe Serbaytarı Ömer Hulusi Bey'in yerine Miralay Ahmet Vefik Bey tayin edildi. Yeni bir emirle işe başlıyoruz. Bu değişikliğin sebebi veba-yi bakariymiş. Bu veba-yi bakari cidden baytarların vebayi namusu oldu.
+>
+> 39)
+
+### p. 46
+
+Kocatepe'de taarruz hazırlıkları
+
+25 Temmuz — Yüzbaşılığa terfimiz tebliğ edildi. Cenab-ı Hakk'tan hayırlısı olsun.
+
+20 Ağustos — Başkumandan ve diğer ordu kumandanları cephe karargâhına geldiler ve bütün gece müzakereler yaparak sabaha kadar çalıştılar. Bu, mühim ve tarihi bir gecedir.
+
+> [!note]+ Footnotes
+> 21 Ağustos — Hareket emri tebliğ edildi. Hazırlık yapıyoruz. İleri!
+>
+> 24 Ağustos — Bugün öğle üzeri birinci harp kademesi ve paşalar hareket etti. Yarın verilen emir gereği ikinci kademe olarak biz de Çay'a gidiyoruz. “Harp yarın” yani “25 Ağustos 338 günü akşamı başlayacak” diyorlar. Cenab-ı Hakk, kuvvetini sine-i milletten alan bu mukaddes orduya nihai zaferi artık ihsan ve nasip eylesin. Âmin! Tam bu suretle Sivrihisar'dan geldiğimiz tarih olan 18 Teşrinisani 337'den (18 Kasım 1921) beri dokuz ay bir hafta Akşehir'de konakladıktan sonra bu memleketten de çıkıyoruz. İnşallah çok geçmeden
+
+### p. 47
+
+> Garp Cephesi Kumandanı İsmet Paşa, Kocatepe'de karargâhta, 25 Ağustos 1338 (1922).
+
+> 1- İstihkâm Müfettişi Miralay Şükrü By 2- Topçu Müfettişi Miralay Galip Bey 3- İsmet Paşa
+
+Cenab-ı Hakk'ın yardımıyla sevgili Bursa ve İzmir'imize kavuşuruz! Çok mühim günler...
+
+> [!note]+ Footnotes
+> 25 Ağustos, Perşembe — Bugün saat dörtte Çay'a hareket ettik. Geceleyin Çay'a geldik. İstasyondan hayvanlarla karargâhımıza geldik.
+>
+> 26 Ağustos — Bugün sabah saat dört evvelde (öğleden evvel) harp başladı.22 Çadırdayız. Ağaçlık bir mahalde yerleştik. Bugünü heyecanla geçiriyoruz. Öğleden sonra havadis dolaşıyor. Muvaffakiyet haberleri var. İlerliyoruz!
+>
+> 22 26 Ağustos 1922'de Afyon-Kocatepe'de başlayan ve 30 Ağustos'ta
+>
+> sona eren Büyük Taarruz (e.n.).
+
+### p. 48
+
+ii 26 Ağustos 1922 sabahı: Taarruz başlarken...
+
+1- Nurettin Paşa 2- İsmet Paşa
+
+3- Mustafa Kemal Paşa
+
+> [!note]+ Footnotes
+> Kocatepe'de Umumi Karargâh tarassut mevkii, 26 Ağustos 1922.
+>
+> İsmet Paşa, Mustafa Kemal Paşa (ileride solda) ve
+>
+> Fevzi Paşa (ileride sağda).
+
+### p. 49
+
+Afyonkarahisar'ın kurtuluşu günü, 27 Ağustos 1922.
+
+Başkumandanın halkın alkışları arasında ayrılışı.
+
+27 Ağustos – Hamdolsun bugün akşamüzeri yürek ferahlatan haberler aldık. Öğleden sonra saat üçte Afyon’a girilmiş. Bundan evve' süvarilerimiz Uşak-Balmahmut arasındaki tren hattını geçerek demiryolunun kuzeyindeki Resulbaba Dağları’nı isal etmiştir. Düşmanin İzmir’le ulaşımı kesildiğinden kuzeye çekilmeye mecbur oldu. İzmir’le haberleşemiyor. Bugün aynı zamanda Bursa’dan da bir kart aldım. Cenab-1 Hakk daha iyi günler göstersin.
+
+> [!note]+ Footnotes
+> 28 Ağustos – Bugün havadisler daha güzelleşti. Düşman çok gayret veriyor ve çok perişan geri çekiliyor. Afyon’u yakamadı ve üstelik 70-80 vagonlu iki tren mühimmat ve erzakı kaçıramadı. Ganimet pek fazla. Esir de çok. Ne lüzumu var. Harp kademesi Afyon’a gitti. Birinci Ordu Balmahmut’tadır. Süvarilerin Altıntaşa vardıkları söyleniyor. On dört muhtelif top alinmiştir. Herhalde asıl gayenin elde edilmesi daha yakındır. Kocaeli’den malumat yok. Belki Bursa üzerine yürüyor.
+
+### p. 50
+
+Dumlupınar'da İsmet Paşa'nın çadırı önünde, İsmet Paşa ve
+
+erkân-ı harbi Miralay Âsım Bey
+
+Şimdi en ziyade bu muvaffakiyetlerden haberdar olan İstanbul ve işgal altındaki yerlerde bulunanların sevincini düşünüyorum, kim bilir nasıldır. Afyon'a gideceğimiz söyleniyor. İnşallah Bursa'ya da yakında gideriz.
+
+Kaputum yok, çadırda üşüyorum.
+
+> [!note]+ Footnotes
+> 29 Ağustos — Bugünkü havadisler muvaffakiyetin devam ettiğini bildiriyor. Diğer bir taraftan, Dumlupınar güneyinden zapt edilmiş. Hedef, düşmanın imhası olduğuna göre Dumlupınar Harbi düşmanı kuzeye atarsa Süvari Kolordusu tuzağına düşecek demektir. Düşman Eskişehir'i falan da ihtimal yarın bırakır. Kim bilir Bursa'dan ne haber ve kim bilir İstanbul nasıl seviniyor. Bunu düşünüyorum. Cenab-ı Hakk'tan şu milletin daima gülmesini istiyorum.
+
+### p. 51
+
+Dumlupınar'da İsmet Paşa'nın çadırı önünde, 29 Ağustos 1922
+
+Mühim bir şey not edeyim: Bu harpte vesait itibariyle intizam pek mükemmeldir. Geri hizmetleri, yaralı nakliyatı, iaşe gayet muntazamdır. Otomobilden istifade çoktur. Zavallı askercikler “Avrupa ordusunda harp ettiğimizi zannediyoruz” diyorlar. Yarın Afyon'a kalkacağımız söyleniyor. İnşallah...
+
+> [!note]+ Footnotes
+> 30 Ağustos — Bugün Afyon'a gidemedik. Böyle, biraz bile olsun geride kalmak ne kadar fena. Talih benim istediğim kadar ileriye gitmeme mâni oldu. Ne ise buna da şükür. Yarın herhalde gidecekmişiz. Bugün yine güzel haberler aldık: Altıntaş, Kütahya düşmüş. Dört fırkası pek perişan olmuş, ağırlıklarını, otomobillerini, erzakını ve eşyasını, develerini bırakarak dağlara kaçmışlar. Daha beter olsunlar. Şimdiye kadar alınan toplar, ikisi motorlu olmak üzere otuz adetmiş. Ganimet pek çok, fakat biz istifade edemiyoruz. Her ne ise bize de belki kırıntısı düşer. Artık İzmir yollarındayız! Bugün top adedinin 150'ye ulaştığını daha sonra öğrendim.
+
+### p. 52
+
+31 Ağustos — Bugün öğleden sonra Çay'dan hareket ettik. Epey bir meşakkatten sonra bir otomobile atlayarak Afyonkarahisar'a geldik. Vaziyet çok iyi. Bir ev bulduk. Bu akşam Birinci Ordu Serbaytarlığı'ndakilerle birlikte oturduk. Afyonkarahisar'dayız.
+
+1 Eylül — Bugün hoş bir vakit geçirdik. Zamanın müsaade ettiği kadarıyla milli şenliklerden pek duygulanırız. Cenab-ı Hakk ordumuza tükenmez ömürler versin!
+
+2 Eylül — Bugün de Afyon'a İkinci Ordu subayları geldi. Onlarla görüştük. Afyon'a yüzlerce esir geliyor. Yirmi altı da zabit geldi. Bunlarla konuştum. Ordularının mahvolduğunu söylüyorlardı. Daha beter olsunlar. Eskişehir ve Uşak da düştü. Bugün ağabeyimle Afyon'da görüştük.
+
+3 Eylül — Bugün bir general (kolordu kumandanı) ve dört miralay, pek çok binbaşı esir geldi. Generalin birisi intihar etmiş. Ordu Alaşehir üzerine yürüyor. İzmir'e yaklaşıyoruz. Afyon'dan hareket edeceğimiz hissolunuyor.
+
+> [!note]+ Footnotes
+> 4 Eylül — Bugün Afyon'a birçok esir geldi. Bunlar tren hattında çalıştırılacaklarmış. Zabitleri pek çok. Akşamüzeri Kemal Paşa'nın verdiği raporda iki kolordu kumandanıyla, dört fırka kumandanı daha ve birçok miralay ve zabitin esir alındığı bildiriliyor ve şimdiye kadar 200 top ve on bin esir alındığı zikrediliyor. Söğüt de bugün düştü.
+>
+> 5 Eylül — Çobanlar-Afyon hattı bitmek üzeredir. Yarın trenin geleceğini ve bizim de gideceğimizi söylüyorlar. Bugün Afyon'un İzmir ve İstanbul istasyonlarına gittik. Her iki istasyon ve civarı tamamıyla taş taş üstünde kalmayacak şekilde düşman tarafından yakılmış. Bu ha-
+
+### p. 53
+
+rap manzara karşısında bu aşağılık düşmana karşı ebedi bir kin duymamak mümkün değildir. Bugün artık layık olduğu cezasını bulan düşman işte memleketimizin zaten biçare olan kasaba ve köylerini böyle harap etmiştir. Cenab-ı Hakk bu ve bunun gibi canımıza ve ruhumuza kast eden düşmanları en şiddetli kahrına ve cezasına çarptırsın! Yarın Uşak'a doğru hareket ediyoruz.
+
+6 Eylül — Bugün eşyalarımızı topladık ve akşama kadar treni bekledik. Tren gelmediği için işsiz bir gün geçirdik. Yarın gelecekmiş.
+
+7 Eylül — Bugün tren geldi ve ilk tren olarak biz de bindik, onunla hareket ettik. Afyon'dan üç buçukta hareket ettik. Sırasıyla Balmahmut, Küçükköy, Dumlupınar istasyonlarını geçtik ve Oturak İstasyonu'na geceleyin saat dokuzda indik. Bu yolu ihtiyatlı hareket eden trenle beş buçuk saatte kat ettik. Dumlupınar ile Oturak arasında dört, beş ufak tünel geçtik ve bir mühim rampadan çıktık. Geceleyin çadırlar kurduk ve istasyon yakınında çadırlarda uyuduk.
+
+> [!note]+ Footnotes
+> 8 Eylül — Oturak Köyü'nü görmüyoruz. İstasyon civarı ganimet dolu. Tel örgüler var. Sağ ilerimizde, Murat Dağları ormanlıklarından silah sesleri geliyor. Dağılan Yunan ordusundan tek tük askerler bu ormanlara kaçmışlardı, takip olunuyorlar.
+>
+> 9 Eylül — Bugün Oturak'tan da hareket için hazırlandık. İlk kademeyle aramız çok açıktır. Havadisler hamdolsun iyidir. Öğleden sonra düzensiz kafileler halinde, bir otomobile dört arkadaş atlayarak hareket ettik. Biraz sonra otomobil bir batağa saplandı. İki saat sonra kurtardık, yolumuza devam ettik. İslamköy'e ve Banaz İstasyonu'na geldik. Buradan da hareketle ormanlıklar-
+
+### p. 54
+
+dan geçerek Uşak'a iki saatlik mesafeye geldik. Otomobil, yolların bozukluğundan ve karanlıktan devam edemedi. Biz dört arkadaş yola çıktık. Gedikönü ve daha iki köyden geçerek dört saat geceleyin yollarda yürüdükten sonra alafranga saat birde Uşak'a girdik. Bugün sabah saat onda 1. Süvari Fırkası İzmir'e girmiştir. Bursa'ya da yaklaşılıyor. Geceyi bir kahvede soğukta geçirdik.
+
+10 Eylül, Pazar — Ağabeyim buradaymış. Rastgele kendisini buldum. Biraz uyku ve yemek temin ettim. Karargâhta intizamsızlık aşırıdır. Mesut ilk kademeden çok uzağız.
+
+11 Eylül, Pazartesi — Sabah ağabeyim ve ordu gitti. İzmir'e! Öğleden sonra işe başladık. Uşak muntazam ve güzel bir kasabaymış. Gördüğüm şehirlerin hepsinden güzeldir. Lakin alçak ve melun düşman kaçarken üç gün burasını harabeye çevirmiş, daha güzel yerlerini yakmış. Bununla birlikte şirinliği yine belli. Uşak'tan Elvanlar'a kadar tren sağlam. Bugün gelen 10 (Eylül) tarihli raporda II. Kolordu'nun Bursa İstasyonu'nu işgal ettiğini ve ayrıca da Bursa'da mağazaların Yunan firarileri tarafından yağma edildiğini işittim. Şu halde 10 (Eylül| tarihinde geceleyin Bursa'ya girilmiş. Cenab-ı Hakk sevgili Bursamızı afetinden muhafaza buyursun. Şimdilik Bursamızın yanmadığını duyacağımı ümitle bekliyorum.
+
+> [!note]+ Footnotes
+> 13 Eylül — Bursa'nın 10 |Eylül| tarihinde geceleyin düştüğü doğru çıktı. Yalnız şu kadar ki, gelen bir şifreden Bursa'nın dörtte birinin yandığı haber alınmış. İnşallah hakikat değildir de sevgili yeşil Bursamız sağ salim kurtulur. Filedar Köyü'nde23 üçüncü düşman kolordusunun tamamı zapt edilmiş. Bir de Balıkesir ve civar kasabalar
+>
+> 23 Filedar (Phileidar): Günümüzde Bursa'nın Osmangazi ilçesine bağlı
+>
+> Gündoğdu Köyü (e.n.).
+
+### p. 55
+
+da işgal edilmiş. Velhasıl pis düşman mahvoldu. Beter olsun. Yarın Uşak'tan da trenle Elvanlar'a gideceğimiz söyleniyor. Karar verilmiş. Hey sevgili Bursam, sen de her şeyinle beraber kurtuldun ha!
+
+14 Eylül — Bugün de her nedense hareket edemedik. Trenlerin, hatların tamir ve tanzim idaresi meselesi bizi yolumuza devamdan ve intizamdan mahrum ediyor. İnşallah yarın olsun hareket eder de şu güzel İzmir'i bir defa görürüm.
+
+16 Eylül — Bugün akşam saat altıdan sonra Uşak'tan trenle hareket ettik. Bir iki istasyon sonra makinenin bozulması nedeniyle durduk. Gece yıldızlar altında bir müddet istirahatten sonra, tren bizi yarım saat kadar götürüp yine bıraktı. Sabahı böyle ettik.
+
+17 Eylül, gece kaldığımız (Ahmetler ile M. arasında) istasyonda — Makinelerimizden hayır yok. Akşam geç vakit bulduğumuz vasıtalarla buradan hareket ettik. Dağlardan ve pis yollardan, bir faytonda karanlık basıncaya kadar yürüdük. Sonra Ahmetler İstasyonu'na geldik ve geceyi burada faytonun içinde geçirdim.
+
+> [!note]+ Footnotes
+> 18 Eylül — Sabah erkenden Ahmetler'den hareketle üç saat sonra, karargâhımız olan Elvanlar civarındaki yere geldik. Burada çadırlardayız. Elvanlar yarım saattir. İçinden geçtik. 300 haneli bir köy, fakat güzelceymiş. Dörtte üçü düşman tarafından yakılmış.
+>
+> 19 Eylül — Elvanlar civarındaki sırttayız. Heyet-i vekilenin24 İzmir'e hareketi için, İzmir'den otomobiller geldi. Bunlarla gelen bir yüzbaşı İzmir'in güzelliğini anlattı. Zavallı İzmir! Ermeniler tarafından en güzel yerleri
+>
+> 24 heyet-i vekile. Günümüzde bakanlar kuruluna karşılık gelen vekiller
+>
+> heyeti (e.n.).
+
+### p. 56
+
+harap edilmiş, yakılmış. Hamdolsun bir iki gün evveline kadar Anadolu'da hiçbir düşman kalmamış ve tamamıyla temizlenmiştir. Şu halde güzel Anadolumuzu azami yirmi gün zarfında temizledik. Ne büyük lütuf yarabbi! Okuduğum bir raporda 25 Bursa civarında 3 26 general ve 200 zabit ile altı bin er esir etmiştir. Elvanlar'dan hareket edeceğiz.
+
+21 Eylül — Bugün sabah heyet-i vekile buradan İzmir'e geçti. Canım çok sıkılıyor. Akşam yatmaya geldiğim zaman serbaytar bizi de İzmir'e çağırdıklarını söyledi. Yarın sabah erkenden hareket edeceğiz. Şükürler olsun şu kademeden ayrılıyorum.
+
+22 Eylül — Sabah erkenden kendi eşyalarımızı da yükletmek şartıyla bize üç kamyonet verdiler. Bunlara binerek Elvanlar'dan yola çıktık. Yolu şaşırdık. Otomobille dere tepe aşarak, güçlükle akşama Güney Köyü'ne ulaştık ve istasyon civarında bir Yunanlının yaptırdığı güzel bir bina içinde yattık. Otomobilin biri bozuldu.
+
+> [!note]+ Footnotes
+> 23 Eylül — Sabahleyin tekrar hareketle güçlükle şoseyi bulduk ve bu şose ile dağlardan döne döne aşarak akşamüzeri Alaşehir'e girdik. Şehir pek haraptır. İstasyona yakın bir ecnebi binasında geceledik.
+>
+> 24 Eylül — Bugün Abdullah'la burada buluştuk ve birkaç saat eğlendik. Akşam tren geldi ve biz de trene binerek sefil bir halde İzmir yolunu tuttuk. Gece tam on saat trenle yürüyerek İzmir'e girdik. Sabaha bir iki saat kala İzmir'e ulaştık ve denizin, karanlıkta yalnızca hışırtısını dinledik.
+>
+> 25 Burada “K3” şeklinde, belki “MI. Kolordu” olarak yorumlanabilecek
+>
+> bir ibare vardır (e.n.).
+>
+> 26 Burada “KorK” şeklinde, ne olduğu çözülemeyen bir ibare vardır (e.n.).
+
+### p. 57
+
+25 Eylül — İzmir'in Basmane İstasyonu'na geldik. Irenden inerek istasyonda biraz bekledik. Sabahleyin dokuzda hareket eden trenle, karargâhın bulunduğu Bornova'ya hareket ettik. Yarım saat bir seyir ile Halkapınar, Mersinli ve Bornova'ya geldik. Burada trenden indik.
+
+26 Eylül, Bornova-İzmir — Burada gayet güzel köşkler var. Bunların birisine biz de yerleştik. Güzelce yıkandım. İzmir'e tekrar trenle inip geri döndüm. Ağabeyim falan da buradaymış. Bulunduğumuz yer bir İngiliz binası. İçerisi usulünce mükemmelen döşenmiş, piyanosu da var. Çok çok güzel vesselam.
+
+### p. 58
+
+*[no text on this page]*
+
+## Anadolu “Hatıra Defteri”
+
+### p. 59
+
+**Gi**
+
+> [!note]+ Footnotes
+> Anadolu kadını ve harbi Fatma Çavuş kağnı kolu
+
+### p. 60
+
+Kardeşim Celâl için:
+
+Milli Mücadele İntibaları ve Anadolu Hatıraları
+
+337 (921)-338 (922)-339 (923)
+
+Müsvedde olarak deftere geçirilmiştir.
+
+M.T.
+
+### p. 61
+
+**Anadolu'ya Girerken**
+
+17 Temmuz 337 (1921|
+
+On dört yaşımdan beri pek az fasılalar yapan sıla zamanları hariç olmak üzere ahir ömrümün gurbetli hayatına sahne olan İstanbul'dan, bütün irfan ve izanımla Anadolu topraklarına geçiyordum. Saçlarımın ötesine berisine serpilmeye başlayan ak teller mazimi hatırlatarak beni selamladılar. Hissediyordum ki mazinin karanlık hatıralarını gümüşi renkleriyle ışıldatan zamanın bu emanetleri, daha uzayarak derinleşecek hasret ve gurbet diyarlarında gittikçe çoğalıp kuvvetlenerek bana yardımcı ve bu sefer rehber olacaklar!
+
+Temmuz ortasının bunaltıcı, güneşli günlerinden birinde, Akdeniz vapuru, bu çok hazin ve yüce seferimi yüklendi. Akdeniz'in bayrağı kırmızı ve ay yıldızlıydı. İstanbul'dan çıkarken, mavi ve geniş ufuklu engin denizlerde serbest rüzgârlar içinde büyüleyici, cazip edalarla kıvrıla, hırçınlaşa, çarpa çarpa dalgalanan bu bayrak pek durgundu. Rüzgârda bir ağırlık var ki onu artık neşelendirmiyor ve dalgalandırmıyor. Biraz sonra... bu bayrağa sürünerek başka bir |...| bayrak, aynı renkte ve aynı kızıllıkta ... Yalnız hilal ve yıldız yerine onun bir köşesine çifte renkli bir haç sinmiş, sönük fakat mağrurdu. İşte Akdeniz bu bayrağın mağrur ellerinden ve meraklı gözlerinden geçerekten Boğaz'dan çıkabildi. Ve kurtuldu... Evet, o zaman İstanbul'dan kurtulmuştuk. Kim bilir, belki de tuhaftır, artık ilk defa olarak Karadeniz'e,
+
+> [!note]+ Footnotes
+> Sil
+
+### p. 62
+
+Boğazlar'dan dışarıya çıkıyordum. İnebolu'ya gelinceye kadar son defa olarak mehtaplı, merhamet ve şiir dolu iki güzel gece geçirdim. Ve suların ahenkli, nağmeli sesini bir ninni gibi dinleyerek uyudum. İnebolu'da zinde ve canlı gönlümü asil milletimin gönlüne, ayağımı onun öz topraklarına attım. Artık burada kara ve deniz benim için uzun bir müddet birbirinden ayrılacaktı... Arkamda süslü ve tantanalı bir dünya kalıyor, önümde Türk dilinin ve Türk gönlünün işlenmemiş, saf ve bâkir vücudu durmuş bekliyordu.
+
+Anadolu'ya girerken saadet ve neşeme veda edeceğimi biliyordum. Bir defa Türk mülkünün mühim bir kısmı, bereketli ve zümrütlü parçaları, haşin ve haksız bir alçak düşmanın ayakları altındaydı. Sonra dünyada yegâne dayanağım ve ruhumun dünyayla yegâne bağı olan ebeveynim ve kardeşlerim bu düşmanın kanlı tırnakları içerisinde bulunuyordu, eziliyordu... Gurbette bile olsa içerisinde yaşadığım, bana manzaralarıyla ruhani ve tabii ziynetiyle bir arkadaş olan elemli, fakat elemleri aşk ve neşe membalarıyla susturan zümrütlü çağlayanlı diyarlardan da ayrılıyor, uzaklaşıyordum ve bir daha ona ne zaman kavuşacağımı da bilemiyordum. Yalnız önümde öksüz milliyetimin kanlı ve çok meşru bir davası için savaşı vardı. Buna kalbimi ve varlığımı bağlamıştım. Milliyetimin yaşam ve bakilik hakkı vardı, ezeli mevcudiyetini ebediyete kadar var etmeye çok hakkı vardı... Düşmanın hiçbir hakkı yoktu. O, bir zorbaydı. Bir gün evvel vapurumuzla onun eli altından ve onun gözleri önünden geçtiğimiz halde bir gün sonra aynı vapuru ve aynı bayrağı arkasından pençelemiş, tartaklamış, çalmıştı. O, hırsızdı. Memleketimize de sahip olma hakkı işte böylece ve bu kadardı.
+
+Artık Anadolu dağlarına, ormanlar ve dumanlar içerisinde uyuyan dağlara tırmanıyorduk. Bu diyarlarda ne işlenmemiş ve ihmal edilmiş milyonlarla servet var ve biz
+
+### p. 63
+
+bunların kıymetini bilmiyorduk. Yollarından, köylerinden ve en fecisi ahalisinden, halkından ve çocuklarından belli... Türk milleti asırlardan beri uyandırmadığı Anadolu köylüsü gibi servetinin, malının üstüne sırtüstü yatmıştı. “Yemeyenin malını yerler” deriz. Düşman acaba bu fikir ve bu emelle mi geliyordu? Ben bunu muhakkak zannediyorum. Zavallı Anadolu, hep senin duyamadığımız bedduaların yüzünden bu felaketlere uğruyoruz. O bedduaların ki bize duyuramamıştın ve biz de duymak istememiştik! Fakat ne yazık ki bu felakete yine senin kıymetli vücudun maruz kaldı. Şimdiye kadar vaktini tevekkül ve itimatla geçirmiştin. Bak bugün çapan, sabanın ve kağnılarınla cenk ediyorsun. Tevekkül ve itimat sana yaramıyor. Bedduanın felaketini sen çekiyorsun! Günahların kefaretini sen ödüyorsun! Gönül ne kadar istiyor ki, bundan sonra her muammanın hakiki manasını sen bul ve sen söyle! Sen iste ve sen öğret! Sonra... yalnız sen zengin ve efendi ol!
+
+Kürre-i nuhas, Kastamonu ve Ilgaz...
+
+> [!note]+ Footnotes
+> 26 Temmuz 337 (1921|
+>
+> İnebolu'dan sonra Ankara yolu üzerinde ilk uğrağımız Kürre-i nuhas |Küre| nahiyesi oldu. Nahiye, yamaçlar ortasında, yüksek ve yeşil dağları bölen dereler kenarında mevki olarak gayet şirin ve efsanevidir. Yamaçların kenarında kıvrıla kıvrıla uzanan, kâh vadilere sürünen ve kâh ormanlar içinden geçen ne güzel yolları var. Yol buradan geçer ve fakat konak yeri iki üç saat kadar ileride ve Ecevit denilen hoş bir yermiş.
+>
+> Biz hızlı gittiğimiz, yani otomobille geldiğimiz için biraz geride kalmaya mecbur olduk. Evet, hakikat; çünkü buralarda hızlı vasıtalar mutlak ve mutlak kağnılara yol açar ve kağnılar ancak kendi hızlarıyla hareket eder... Nahiyenin biraz üst tarafında ta Cenevizler zamanından
+>
+> 98,
+
+### p. 64
+
+keşfedilmiş ve bizim elimizde o şeklini muhafaza etmiş, harpler, darplarla işlenememiş olan gayet zengin bir bakır madeni var. Bu maden kullanılmamaktadır. Fakat işletecek ellerin emrine amade bir halde... Küre'nin suyu da gayet nefis, havası güzel... Bir gece Küre'de kaldıktan sonra ertesi gün öğle üzeri bir binek otomobiliyle hareket ederek akşama doğru Kastamonu'ya girdik. Küre ve Kastamonu arasını vadiler doldurmuş ve ağaçlar bezemiştir. Kastamonu'ya bir saat evvel ağaçlık ve gayet hoş manzaralı bir yerden geçtik. Karşıdan burasının şu güzelliğine bakarak bir şehir kabul edilmeye layık oldugunu kestirdikse de yaklaşınca maalesef, bütün bu güzelliklerin sahipsiz ve terk edilmiş olduğunu anladık ve biraz sonra Kastamonu'ya girdik. Aman yarabbi dünyada ne tuhaflıklar ne münasebetsizlikler icat ederiz. O güzel, ağaçlı ve zümrüt renkli vadiler, manzaralar dururken, koskoca bir vilayet merkezi çorak ve toprak renkli sıra tepelerin ortasına kuyu gibi kazılmış ve kurulmuş. Bu ne nankörlüktür yarabbi!
+
+Kastamonu'ya İsfendiyaroğulları'nın kaleleri hâlâ hâkim; hâlâ o devrin mazisinin cazibesiyle, ruhen ve maddeten bir memleket mazisine bağlanmış! Evet Kastamonu şehrini İsfendiyaroğulları kadar eski bir mazinin varlığı ve kuvveti aklen ve hükmen idare ediyor. Bu kuvvetin kayalıklara oyulmuş kaleleri şehre hâlâ tehdit yağdırıyor ve şehri ruhen benimsiyor! Şehri çeviren tepelerin etrafı mezar taşlarıyla örtülü. O çıplak tepelere daha fazla dehşet vermek için bir de ölüm abideleri dikmişler ve şehre bir ölü ruhu serpmişler. Zavallı hassas bir arkadaşımın dediği gibi, burada ruha ve maneviyata daima kasvet ve ölüm hâkim oluyor.
+
+Kastamonu, bana dudakları susuzluktan çatlamış kupkuru ve kirli bir çöl kızı hissini verdi. Sonra karmakarışık sokakları ve ruhu hiç de okşamayan dükkâncılığı, hasılı şehrin berbat manzarası zihni asırlarla geriye sü-
+
+### p. 65
+
+rüklüyor. Kasabanın ortasından bir dere geçiyor, pis ve kötü kokan bir dere... Bu derenin kenarında memleketin oturulabilecek kahveleri kurulu!
+
+Kastamonu kadınlarına dair işittiklerim yüz kızartıcı hikâyeler oldu. Hakiki mahiyetine hiçbir vakayla şahit olmadım. Fakat güpegündüz sokak ortalarında, erkekler içinde yüzleri örtülü kadınların çok galiz, çok adi küfürleri pervasızca sarf etmeleri daima işitilebilen ve onlarca ehemmiyetsiz şeylerdir. Hasılı Kastamonu sıhhi ve içtimai hayatıyla, çamurlar içinde sürüklenen bir zavallıdır.
+
+Kastamonu'daki ikametimiz iki gün sürdü. Hareket edeceğimiz gece düşman taarruzuna dair, lehimizde sevinçli haberler işittik. Maalesef birkaç gün sonra aksini anladık. Kastamonu'nun telgrafı da yalancı çıktı.
+
+Bir vilayet merkezi olduğuna hâlâ aklım ermeyen bu kasabadan bir araba kafilesiyle ayrıldıktan sonra çok bozuk yollardan yükseklere tırmanmaya başladık. Kastamonu'dan Kengırı'ya | Çankırı| üç günde gidilecek ve Ilgaz Dağları geçilecekti. Yolumuzun güney ufukları baştan başa sıra sıra ve gittikçe yükselen ve beyazlaşan dağlarla çevriliyordu. Issız vadilerin, korkunç ormanlıkların sardığı yollarda akşamın karanlığı da bastıktan sonra yürüyorduk. Sırf bir zevk nedeniyle buralara gelmiş olsaydım adım başında durur ve emsaline olsa olsa İsviçre'de belki rast gelinecek olan bu ziynetli manzaraları doya doya seyrederdim. Ne çare ki işte biz gecenin karanlık saatlerinde kâh arabada kâh yürüyerek hiç durmadan yolumuzu tamamlamaya mecburduk. Saatler ilerliyor ve etrafımızı yoğun bir karanlık, derin bir sessizlik ve heybetli çam ormanları kaplıyordu. Yolumuz bazen korkunç uçurumlar kenarından, bazen semayı kaplayan büyük çam ormanlarının ortasından geçiyor ve bu müthiş sessizliği yalnız arabamızın ormanlar içerisine yayılan sesi bozuyordu.
+
+> [!note]+ Footnotes
+> Dö
+
+### p. 66
+
+Artık Ilgaz'ın zirvesine gelmiştik. Bu manzarayı ve bu saatte duyduğum korkuyu hiç unutamam. Vakit gece yarısını geçmiş ve her tarafımızı yoğun bir sis kaplamıştı. O zamana kadar simsiyah bulutlarla kapanan ay, bulutlardan yarılarak bu sisin yoğun dalgalarını yarmaya çalışıyor ve solgun bir ışık bu derin karanlığa yer yer serpiliyordu. Cidden bu pek muhteşem, görülmeye değer bir manzaraydı. Soğuk, titretici bir rüzgâr esiyor ve ürkütücü ormanlıklara keskin bir hışırtı yayıyordu. Bazen çağıltısını dinleyerek ne kadar çok membaanın yanı başından geçiyorduk. Fakat inip de onu içecek kim? Her tarafımız örtüler içinde kapanmış, göz kapaklarımız uykuyla ağırlaşmış ve bütün zihnimizi bu sersemlik hali ile bu muhteşem levha kaplamıştı. Vücudumuzu uyuşturucu bir sarhoşluk bürümüştü. Yavaş yavaş alçaldığımızı, yüzümüze çarpan acı rüzgârın hafiflemesiyle anlıyorduk. Biz iniyoruz ve sema, fecr-i kaziple27 ağarmaya başlıyordu. Tabiatın bu sihirli güzelliğini seyre devam etmeye uykusuzluk imkân bırakmamıştı. Bir han önüne geldik ve derhal uykumuza sarıldık.
+
+Kengırı ve Ankara yaylaları Ilgaz'ı indikten sonra artık Kengırı'nın yaylalarına giriliyor ve buradan Ankara'ya kadar arazi yayla halinde bulunuyor. Ağaçlıksız bir sürü iniş ve yokuş, yolun bütün güzergâhındaki manzarayı kaplayarak devam etmektedir. Kengırı da aynı vaziyette olup mevkii biraz geniş ve civarında, bizim görebildiğimiz, şehrin girişinde bir miktar ağaçlık göze çarpıyor. Kengırı'ya geldiğimizde temmuz nihayetleriydi. Şehirde tahammül edilemez, cehennemi bir sıcaklık yürümeye ve gezmeye hal bırakmadı. Şehrin bir hanına indik. Çarşısını gezdik ve haricinde bir
+
+> [!note]+ Footnotes
+> 27 fecr-i kazib (yalancı fecr): Tan ağarmasından önceki geçici aydınlık
+>
+> (e.n.).
+
+### p. 67
+
+su kenarı kahvesinde durduk. Kengırı, manzara itibariyle Kastamonu'dan bir mertebe yukarı ise de binaları, çarşıları ve dükkânlarıyla ilkçağ hatırası canlandırıyor. Dükkânlarında bizim en çok gördüğümüz iri iri tuz kayaları ve çeşit çeşit ipler, urganlar oldu. Yol ortalarına dökülmüş bir halde satılan zerdalisi de bol görünüyor. Tenha, ıssız sokaklarda ara sıra kasabayı velveleye veren müthiş kağnı gıcırtılarından başka bir hayat eseri yok. Insan bir iki hafta burada yaşarsa, Allah saklasın, aklına bir eksiklik musallat olacak gibi geliyor. Şehre bir doktor, baytar gelince yegâne haber vasıtası tellallardır. Tellalın sesi, ecelin pençesine takılan zavallı hastalardan başkasına da kâr etmiyor: Bu da şehrin sıhhatine bir misal! Hayat ve faaliyet buralara hiç uğramamış. Zavallılar medeniyetin tırnağına bile hasret bir halde yaşıyor. Bu vasıtasız memleketlerde biçare halk inadına kısır toprakları deşe deşe artık büsbütün nasırlaşan vücudu ve dimağıyla mahsul elde etmeye çalışıyor ve garibi şu ki hâlâ da yol vergisi, can vergisi bilmem ne vergisi veriyor. İnsan nasıl eyvah demesin, nasıl kan ağlamasın! Bu hayat faciasını görüp de teselli bulmak mümkün mü?
+
+Hasılı bu şekilde Kengırı'dan çıktık. İşin fena taraflarından biri de han sıkıntısı oluyor. Zamanın en işlek yolu olan bu hatta —yani toprak hattı— bir gece değil, bir saat rahat edecek bir barınak bulunmuyor. Bereket versin havalar iyi gitti de soğuğa kulak asmayarak, mevcut bulunan karyolalarımızı ağaçlar altına seriyor ve yıldızları seyrederek uyuyorduk. Çünkü han denilen harabelerde hancı bile bulunmuyor. Yabanilerle bundan fazla ahbaplık olur mu? İşte böylece bir hafta kadar can ve hayatımızı yıldızlara ve ağaçlara sigorta ettik. Adamı kaldırıp götürseler arkasından vah diyecek de yok. O sırada akın akın bizler gibi İstanbul muhacirleri bu yoldan Ankara'ya geliyorlardı. Biz bu kafilelerin epey bahtiyarlarındanmışız. Çünkü bizden evvel gelenler ara-
+
+> [!note]+ Footnotes
+> DE
+
+### p. 68
+
+sında, yükü de çekmekten aciz mekkârelerin,28 esterlerin peşinde kâh kendine acıyan, dizlerine güvenemeyip semerin baş tarafına ağırlığını ilave edip hayvancağızların göçmesine sebep olan, kâh onların bu haline acıyıp düşmesine canı dayanamayarak tabanlarına binen, bazen mekkâresine yükün fazla ağırlık vermesi nedeniyle sürüp arkadaşlarına, kafileye yetişmeye ve bir ayak evvel hızlanmaya mecbur olduğu halde yetişemezse yalnız başına kalıp mutlaka saatin birinde taze bir av olacağını kestirerek harıl harıl çocuk gibi ağlaya ağlaya, hadiseden haberdar olmayarak, gücü yettiği kadar, mümkün mertebe yürümeye çalışan, esterin yüküne de bir taraftan yardım ede ede gidenler sayılamayacak kadar çokmuş. Rivayete göre yüküyle ve hayvanıyla beraber nihayetsiz uçurum kenarından uçanlar da olmuş. Yani Anadolu'ya geçenler için hayat, memleketle mücadele, bismillah diye insanın toprağa bastığı tarihten başlıyor. Şu hale göre düşman karşısına varmadan akıbete kavuşmak da işin içinde vardı.
+
+Ankara yaylaları Kastamonu ve Kengırı'ya nispetle daha verimlidir. Buralarda ekinler daha kuvvetli ve daha yüklü başak veriyorlar. Zannedersem bu kadarı da memleketin ihtiyacına kâfi değil, çünkü Ankara'ya güvenen ordu bir zamanlar epey iaşe darlığı çekmişti. Artık Ankara'ya beş altı saat mesafede Ravli mevkiine gelmiştik. Bu köy Ankara-İnebolu hattının —yukarıda dediğim gibi hatt-ı turabi (toprak hatJ- Ankara'ya son menzilidir. Ravli'de faal ekmek fırınları, harap evler ve gölgeli söğütlükleri ile bol su gördük. Ankara'nın kibar muhacirlerine burada tesadüf ettik ve o gece yine muazzam “yıldız palas”ta uyuduk. Ertesi gün buradan hareketle Ankara'ya yaklaştığımızı hissettirecek manzaralar görerek yol almaya başladık. Son defa olarak bir
+
+> [!note]+ Footnotes
+> 28 mekkâre: Yük hayvanı (e.n.).
+
+### p. 69
+
+konak yerinde bir saat kadar mola verdik. Burası meyve bahçelikleriydi. Ağaçlardan zerdali kopardık. Bu bizim yemeğimizin çerez kısmını teşkil etti ve cümbüşlü oldu. Artık buradan sonra Ankara'ya varan düz yollardan yamaçlara tırmanmaya başladık. İnebolu'dan beri bizi her dakika fazlalaşan bir heyecanla coşturan ve koşturan, bizim için henüz rüyavi olan bu şehre artık giriyorduk. Bu rüya ki İstanbul'da dimağımıza yerleşmiş, hayalen sihirli kuvveti bizce henüz hafifleşmemiş ve fakat bizi o nispette kendisine cezbetmiş olan bu istiklal mahallinin heyecanıyla ruhen sarhoş bulunuyorduk... Bir daha yamaç ve sonunda tepeye vardık... “İşte Ankara!” dediler...
+
+Ankara 1 Ağustos 337 (1921)
+
+Sıcak bir ağustos günü öğleye doğru Ankara'ya indik. Memleket geniş bir ufka karşı ve dikine yayılmış, tepeciklerden eteklere inmiş çorak manzaralıdır. Yolda gördüğümüz şehirlerden, ufkunun açıklığı ve yapılışında bir mertebecik daha intizamlı ve en mühimi bir tren hattının ucuna bağlı olmasıyla göze çarpıyor. Şüphe yok ki bu şehri bugün bize daha sevimli göstermeye sebep olan tesir, tarihi kalabalığı, müstesna bir kudretin tecelli ettiği yer olmasındaydı. Zira pek güzel hissediyordum ki Ankara'yı gözlerimden fazla gönlüm ve ruhum ile seviyordum. Kalbimin pek ateşli ilgi ve alakası, Ankara'yı görmeden olduğu gibi, gördükten sonra da aynı suretle sevmeye yegâne sebep olmuştu. Evet, bu tozlu, kirli, gördüklerimle kıyas edilebilecek kadar sevimli olmayan belde, sırf bâkir, lekesiz ve yüksek bir gayenin doğduğu yer olması nedeniyle beni kendine bağlamıştı. Burada da tıpkı Kengırı, Kastamonu ve diğerleri gibi göze görünen sefil manzaralar vardı. Fakat gözlerim bunlarla alakadar olmuyor ve olmaya da fırsat bulamıyordu. Hafıza-
+
+> [!note]+ Footnotes
+> 59)
+
+### p. 70
+
+mın bütün duyguları ilahi ve büyük hislerle sarılmıştı. Şehirde geceli gündüzlü derin ve hummalı bir faaliyet görülüyor, simalar ve dudaklar, heyecan ve asabiyet hisleri veren bir telaş ve endişeyle kasılıyordu.
+
+Şehir, bütün manzarası ve bütün manasıyla harp meydanlarının biraz gerisindeki ağırlık kademelerini andırıyordu. Havasında bile harp kokusu teneffüs ediliyor, insanlar, kıyafetleri ve halleri ile saff-ı harp?? gerisinde, kimisi neredeyse sipere girecek, kimi de siperden henüz çıkmış gibi pejmürde ve düşkün bir halde gibi geliyordu. Mamafih bütün bu manzaralar içinde gayet acı ve acıklı olanları da bulunmaktaydı. Nitekim yüzlerce kağnı lüzumsuz heyecanlar yüzünden, ordunun nakil işleri yerine muhacir taşımakla uğraşıyordu. Heyecanın mühim bir kısmının bu sefil, hayat düşkünü kimselerin gümrükten mal kaçırırcasına gürültülerle akınlarından, bozgunculuklarından ileri geldiği aşikâr olarak anlaşılıyordu. Biz ise unumuzu elemiş ve eleğimizi de asmıştık. Bizim için geride ne bir dayanak ve ne de bir ümit noktası vardı. Esasen böyle heyecanları hiçbir zaman benimsemeyen tabiatım burada beni büsbütün lakayt yapmıştı. Artık biraz Ankara'yı görmek, bu tarihi beldenin simalarını seçmek, büyüklüğünü hissetmek arzusunda bulunuyordum. Talih bana bu fırsatı verdi. Bir hafta Ankara'da kalabildim. Biz Ankara'ya geldiğimiz zaman vaziyet şu yoldaydı. Kuva-yi Milliye hükümeti dahili birçok mühim buhranların ortadan kaldırılmasında ve İnönü Muharebeleri'nde düşmanı mağlup ederek vaziyetin kuvvetlendirilmesinde başarılı olmuş ve son defa düşmanın büyük kuvvetlerle yaptığı taarruz dolayısıyla mühimce bir geri çekilişe mecbur kalmıştı.
+
+İstanbul'dan ayrılırken Yunanlılar, İngiliz hükümetinin bütün maddi ve manevi yardımlarıyla büyük bir ta-
+
+> [!note]+ Footnotes
+> 29 saff-ı harp: Savaş hattını meydana getiren asker dizisi (e.n.).
+
+### p. 71
+
+arruz hareketi icrasına başlamış bulunuyorlardı. Bütün memleket, İnönü harpleri gibi bu taarruzun da mahir kumandanlar karşısında neticesiz kalacağını kuvvetle tahmin ediyor ve Anadolu'ya büyük bir itimat besliyordu. Kengırı'dan çıktıktan sonra acı ve fena neticeyi hissetmeye başladık. Kütahya ve Eskişehir muhacir kafilelerine rastlıyor, gerilere gönderilen birçok yaralı görüyorduk. Bunlara sorduğumuz zaman ordunun Eskişehir hattının doğusuna doğru çekildiğini anladık. Halkta bir heyecan hissediliyordu. Ankara'ya geldiğimiz zaman pek güzel anladık ki bu bozguncu heyecanın asıl sebepleri Ankara'nın lüzumsuz ve acemi kalabalığının gösterdiği faydasız telaştaydı. Ordunun tamamı sarsılmaz bir maneviyatla karşı koymak için azimlilik gösterirken, yüreksiz bir halk kitlesi bir endişe ve telaşla yollara dökülmekteydi. Halbuki vaziyet soğukkanlılığa muhtaç bulunmaktaydı. Vaziyetin vahameti göz önünde dururken Ankara'nın aşırı gazeteleri kati bir karşı taarruzdan bahsederek heyecanın artmasına sebep oluyorlardı. Millet Meclisi mühim müzakereler yapıyor, geceli gündüzlü bir faaliyet her tarafı kaplıyordu.
+
+Ankara'da cephede yaralanmış birçok zabit var. Bunların içinde arkadaşlardan bazılarını gördüm. Bana vaziyeti etraflıca anlattılar. Zaten cepheye istekli olan gönlümde daha fazla bir itidal ve itimat ortaya çıktı. Yolda gelirken bana birisi Kocaeli, yani İzmit mıntıkasına tayin edildiğimi haber vermişti. Buraya gelince bu haberin doğru olmadığı anlaşıldı. Burada gördüğüm ağabeyim ve diğer tanıdıklarım beni cepheye gitmekten alıkoymak istedilerse de kati ısrarlarımla arzuma mutlaka ulaşmak için kararlı oldum. Benim emelim, hayatım, her şeyim ve milletin de kurtuluş ufku benimki gibi daima batıda ve ilerideydi. Onun için kararlılığımın mükâfatını gördüm. Bir hafta sonra Garp Cephesi emrine tayin edildim. Zannedersem Ankara'ya geldiğimin ertesi günüydü. Büyük
+
+### p. 72
+
+Millet Meclisi binasının karşısında Millet Bahçesi'nde oturuyordum. Burada durmaktan maksadım hem Ankara'nın işlek yollara hâkim bir noktasında etrafı incelemek, hem de Millet Meclisi'nin faaliyetini dışarıdan seyretmekti. Öğle üzeriydi. Bahçenin yan cephesine bakan ve Müdafaa-i Milliye'ye giden yol üzerindeki Darülmuallimin binasının önünden süratle gelen bir otomobil durdu. Bu otomobilde dört kalpaklı, sivil şahıs vardı. Derhal o tarafa koştum. Otomobilden inenler binanın merdivenlerinden çıktılar. Önde uzunca boylu birisi vardı. Kapı önünde durdu ve geriye döndü. O zaman resimlerde görerek hafızama nakşettiğim bir simayı, Mustafa Kemal Paşa'yı tanıdım. Zayıfça çehresiyle, sarışın siması ve soğukkanlı bakışlarıyla heykel gibi tebessüm ederek bakan bu zat, bugün memleketin yegâne emellerinin kıblesi olan şahsiyeti. İşte paşayı, memleketin bu gözbebeğini ilk defa olarak burada gördüm. Biraz sonra, meclisin açılışına yakın, kalpaklı ve genç birçok mebusla beraber paşa bu binadan çıktı ve hep birden yürüyerek Meclis binasına girdiler. Elimde bir mebus kartdöviziti39 vardı. Bunu ağabeyim vermişti. Bir dakika sonra ben de arkalarından ve aynı kapıdan binaya girdim.
+
+Kalabalık koridorlardan geçerek müzakere salonuna girip dinleyicilerin mevkiine çıktım. Salonda üç kısma ayrılmış ikişer kişilik basit sıralar muntazam bir şekilde dizilmiş ve orta, karşı tarafta yüksekçe siyaset kürsüsü ve iki tarafında kâtipler mevkiiyle önünde biraz aşağıda hitabet kürsüsü bulunuyordu. Bir kısım mebus sıralarda oturmuş, kimi bir şeyler yazıyor, kimi şekerleme yapıyor ve kimi konuşuyordu. Riyaset kürsüsünün arkasında duvara asılı bir levhada “ve şâvirhüm fil emr”31 yazılıydı. Riyaset kürsüsü siyah örtüyle örtülmüş. Biraz sonra
+
+> [!note]+ Footnotes
+> 30 carte de visite (Fr.): Kartvizit (e.n.).
+>
+> 31 “İş konusunda onlarla müşavere et” mealindeki Âli İmran suresinin
+>
+> 159. ayeti (e.n.).
+
+### p. 73
+
+mebuslar salona girmeye başladılar. Ve sıraları yavaş yavaş doldurdular. Kalabalık fazlalaştı. Dikkat ediyordum. İşte bir uzun sakallı mebusla görüşerek Mustafa Kemal Paşa geliyor. Ve mebusların lakayt bakışları arasından süzülerek riyaset kürsüsüne çıkıyordu. Görüştügü mebus Kürdistanlı Diyap Ağa'ymış.32 O günkü celse Mustafa Kemal Paşa tarafından açıldı. Paşa, riyaset kasasının bu mühim anlarda Müdafaa-i Milliye emrine bahşedilmesini teklif etti ve hararetle kabul edildi. Sonra Maliye vekilinin33 kibrit ve sigara kâğıdı imalinin hükümetin tekeli altına alınması hakkındaki layihası münakaşa edildi. Bu esnada Karesi (Balıkesir) mebusu Basri Bey ile Trabzon mebusu Ali Şükrü Bey'in gayet düzgün ve meseleye vâkıf olarak yaptıkları tenkitler çok hoşuma gitti. Celsenin ikinci kısmı paşanın teklifiyle harbe dair açıklamalarla ilgili olduğundan gizli olarak yapılması kabul edildi ve ben de binadan çıktım. Meclisin başka bir gün de ikinci reis Doktor Adnan Bey'in3# riyaseti altındaki celsesinde biraz bulundum. Müzakerelerin ekseriyet itibariyle baskıdan uzak cereyan ettiği ve fikir hürriyetinin meclise hâkim olduğu görülüyordu. Tabii ben daha esaslı tetkik etmedim. Ankara'dan ayrılacağıma yakın bir gündü. İstasyon Caddesi'nden akşamüzeri geze geze istasyona indim. Her nedense bana istasyon binaları medeniyetin metanet ve kudretini ifade eden bir heykel kadar sevimli gelir. Bu binaların seyahatte gayet emin bir istirahat ve Anadolu'da kolay ele geçmeyen sürat hususunda taşıdığı mana itibariyle bir istisna teşkil ettiği için insanı kendine bağlaması da başka bir mesele.
+
+Ankara İstasyonu, Bağdat Hattı'nın Eskişehir'den ayrılan bir şubesinin sonu ve Yahşihan'a doğru doğuya giden bir dekovil hattının başlangıcıdır. Ankara şehri
+
+> [!note]+ Footnotes
+> 32 Birinci Meclis Dersim mebusu Diyap Ağa (Yıldırım) (e.n.).
+>
+> 33 Dönemin Maliye bakanı Hasan Saka (e.n.).
+>
+> 34 2 Mart 192'de meclisin ikinci başkanı seçilen Adnan Adıvar (e.n.).
+
+### p. 74
+
+işte medeniyet dünyasına bu istasyoncukla bağlantılıdır. İstasyon civarındaki binalar da pek uzak olduğu şehrin sanki dindarane bir tevekkülle beli bükülmüş gibi duran binalarına küçümseyen bir tebessümle bakıyor gibi dimdik, zarif ve azametlidir. İstasyon civarı şehre göre daha alçak bir arazide, fakat geniş gölgeler dağıtan top ağaçlarıyla göze oldukça şirin gözüküyor. Zaten dikkat edilirse Anadolu şehirlerinin tren hattı geçen mıntıkalarında, istasyonlar daima şehirlere sokulmaktan geri durmuştur ve güya güzelliğini, temizlikten ve zarafetten eser olmayan toprak ve çamur yığınlarından uzaklaştırmak arzusuyla kendi başına ufacık bir muhit yaratmış ecnebi mahallesine benzerler ve mutlaka şekilce ve ruhça bir başkalık gösterirler. Yine dikkat edilirse, tenha ve uzak memleketlerin havasına bir türlü alışamamış yabancılar, gezintilerini mutlaka istasyonlara doğru yaparlar. Böyle yerlerde, bu kadar bir bağla yaşayanların hayatla yegâne tanıştıkları ve karşılaştıkları saatler, trenlerin istasyona girip çıktıkları zamandan ibarettir. Zavallı garibin, kederli yabancının saadeti giden, uzaklaşan trenlerin vagon tekerleklerine bağlanmış gibidir. Bunun için gariplik, dünyanın en ağır işkenceli, pek fazla azap duyuran hayatıdır. Ne yapalım ki bunu bildiğimiz ve gördüğümüz halde, muhitin yürek parçalayan vaziyeti bu pençeden yakamızı kurtarmaya bizde mecal bırakmıyor ve hâlâ bu acılardan çeşit değiştire değiştire yaşıyoruz...
+
+“Ümit ölmeyince, ölmüyor ki beşer!..”
+
+Neyse sadede gelelim; Ankara İstasyonu'ndaydım. Bir askeri tren cephe için yükleniyor. Polatlı'ya gidecekti. Vagonlar tıklım tıklım harp malzemesi yüklendi, birçok asker var. Bunlarla beraber cepheye yeni bir zabit kafilesi de hareket ediyor. Bu kafile Ankara namzet talimgâhında yetişmiş genç, dinç, gözlerinde hayata da vatana da doyamayan, hasret dolu bakışlar ifade eden delikanlılardı. Her hareketleri zinde bir asker kadar çe-
+
+### p. 75
+
+vik, düzgün kıyafetleri ve özenerek yapılmış süslü, kayışlı üniformaları içerisinde her biri aşağı yukarı yirmişer senelik kıymetli bir hayat semeresiydi. Tren kampana sesleri ve alkış tufanı içerisinde hareket ederken insanı vecde getiren tesirli bir ahenkle hepsi birden vatan şarkıları söylediler. Harp hengâmesini andıran uzun süreli gümbürtülerle silahlar atarak cepheye doğru gözden kayboldular. Bunlar sağlamlar... Bir de şimdi Ankara'yı dolduran, hastaneleri taşıran, elleri, kolları, ayakları bağlı, koltuk değnekleriyle gezen, kim bilir kaç yüz de yaralı vatan delikanlısı var. Bunların hepsi şen, hepsinin yüzlerinden ilahi bir nur, simasından mütevekkil bir sevinç akıyor. Ve bu, insanlığın en samimi hürmetlerine layık asil kütle, ötede yaşam kaygısıyla, müthiş endişeler ve korkulu rüyalarla yorgun düşen zümreye benzemiyordu. Ankara'nın kısaca anlatabildiğim vaziyeti, bende bıraktığı tesirleri bu kadardır. Bunların hakiki ifadesi hiç şüphesiz ki kuvvetli ve kudretli bir kalemle mümkündür. Ankara'nın benim bahsettiğim tarihlere ait günlerini yazacaklar, herhalde bu zamanları pek ulvi ve asıl tasvirlerle anlatacaklar ve milliyet kaygısına sarılan bir beşeriyetin tamamının yaptığı pek çok fedakârlığı layık olduğu parlaklıkla gelecek nesillerin hatırasına nakşede-
+
+> [!note]+ Footnotes
+> ceklerdir...
+
+### p. 76
+
+**Vazife Hayatı**
+
+Cephe 26 Temmuz 337(1921|
+
+Müdafaa-i Milliye Vekâleti iki arkadaşımla beraber beni Garp Cephesi emrine verdiği zaman, bu tarihin artık resmen benim Kuva-yi Milliye'ye, Anadolu ordusuna dahil oluşumu tespit etmesi, yani Kuva-yi Milliyeci oluşum vicdanımın üstündeki ağır bir yükün ortadan kalktığını bana hissettirdi. Biraz evvel Ankara muhitini yarım yamalak anlatırken, orasını bir menzil kademesine benzetmiştim. Menzil kademelerini cephe hattına girdiğim zaman görüp anladıktan sonra bu benzetmede yarım hatalı bir isabet buldum. Çünkü ben cephe muhitine girince herkesin dillerinde gezdire gezdire, ballandıra ballandıra söyledikleri ihtişamı göremedim. Göremeyince de doğal olarak Ankara'cılar yahut Ankara'daki iri iri kalpaklı, pancar suratlı Kuva-yi Milliyeciler tarafından ağız dolusu palavralarla insana düşündürdükleri Kuvayi Milliyenin başka cephelerde olduğuna inanmaya karar verdim. Ankara'nın harbi andırması, kılık kıyafet kalabalığından ve menzil kademesi itibariyle yaptığı hizmette müthiş bir palavra baskınından ibaretmiş. Artık teşbihteki isabet kuvvetini o zaman bana değil onların yüreklerine sormalıydı! Ankara'dan trene binip tıpkı ocak ayını andırır bir ağustos gece yarısında indim. İstasyon köşesinde uyuklayıp sabah oluncaya kadar bu-
+
+### p. 77
+
+ralarda vesait ve nakliyatın selametinin yegâne sigortasının Allah'a tevekkülden ibaret olduğuna bir defa daha inandım.
+
+Karargâh Polatlı'daydı. Polatlı, Ankara'dan Eskişehir'e doğru, hattın üçüncü istasyonu olup topraktan yapılmış yalın kat binalarıyla genişçe bir düzlük ortasında büyük bir köydü. Burası Haymana ve havalisinin, bu verimli ve kuvvetli arazinin ihraç ambarı hükmündeymiş. Ahalisinin çoğunu Tatarlar oluşturuyor. Biz oradayken askeri bir kalabalık buranın eski vazifesini tamamıyla unutturmuş bulunuyordu. Ortalık pek sıcak, kuru ve hava bunaltıcıydı. Buna rağmen müthiş bir faaliyet ve tamamıyla askeri bir hayat vardı. Cephenin Serbaytarlık?ı akşama doğru bizi Polatlı”dan bir istasyon geride Malıköy'e yakın Salmanlı Çiftliği'ndeki Hayvan Hastanesi'ne tayin etti. Üç arkadaş akşamüzeri esterlere binerek, maiyetimizde yüz kadar yaralı hayvanla birlikte yola düzüldük... Daha eyer üzerine kuvvetlice binip sağlam dizginlerle hayvan idaresini bilmezken bu semerli ve yalnız bir taraftan uzanma urganla bindiğimiz esterlerden ikide bir düşüyorduk Otu görünce dayanamayıp yuların çarpmasına bir zerre ehemmiyet vermeyen zavallı aç esterler otlamak için başlarını eğer eğmez, bir metre boyunda ya var ya yok yuları zapt etmek fedakârlığını göstermek için semerden boynuna, oradan da hayvanın başı üzerinden yere döşeniyorduk. İşte bu suretle akşamın koyu karanlığı etrafımızı sarıncaya kadar yola devam ettik.
+
+Bir köye geldiğimizi acı acı köpek sesleri haber verdi. Bu sesler aynı zamanda insanı teyakkuza da davet eden bir ihtardır. Çünkü lazım gelen vaziyeti almadınız mı bir yerinizin parçalanmak ihtimali pek galiptir. Köye vardık, vardık ama kafilenin darmadağınık bir hale geldiğini de anladık. Ben hayvanların bir kısmıyla bir iki askeri güçlükle bulabildim. Arkadaşlardan bir haber yoktu.
+
+### p. 78
+
+Zifiri karanlıkta ve köpeklerin müthiş sesleri arasında bulabildiğim bet suratlı bir muhtardan biraz yoğurt ile bir parça bayat ekmek tedarik ederek midemin bitmeyen haykırışını susturabildim. İkametgâh meselesi yürekler acısıydı. Köylünün misafirhane olarak takdim lütfunda bulunduğu ıssız bir binanın toz toprak dolu odasından vazgeçerek hayvanların bulunduğu yerle komşu, askerlere yakın, terk edilmiş bir kahveye benzer kulübe içerisine karyolamı kurarak istirahat ettim. İstanbul'dan çıkarken —-kim bilir Anadolu'yu ne zannederek— karyola almaktan vazgeçiyordum. Bereket versin bu deliliği, bu cinayeti her nasılsa yapmamışım. Ağabeyimin dediği gibi karyola bazen —-benim için çok kere— koskoca bir hayata bedelmiş. Denizde tahlisiye mantarı39 ne kadar kıymettar ise, Anadolu'ya düşen için de karyola o nispette mühimdir. Cibinlik dahi bunun ayrılmaz bir parçası sayılmasına layıktır. Ve bunların kıymetinin her gün daha ziyade arttığı da şüphe kabul etmez bir gerçektir.
+
+Sözü kısa kesmek için, ışık olmadığından nenin nesi olduğunun hamdolsun farkına varmayarak yattığım bu sefalethanede sabahı nasıl ettiğimi, karyolamda işkenceye tutulan bir mecnun gibi nasıl ter ter tepindiğimi anlatmaktan vazgeçiyorum. Çünkü uyku uyuyarak rahat mı ettim, dayak yiyerek azap mı çektim, bilmiyorum. Daha sonra da mesafenin uzaklığını idrak şerefiyle müşerref olamayarak bizi akşam karanlığında, kurda kuşa yem olacağımızı zerre kadar hatırına getirmeden yola salan eşrefi mahlukata ne derece dualar ettiğimi de mutlaka zikretmeliyim! Ya zavallı arkadaşlarım; meydanda izleri bile yoktu.
+
+Sabah yine kafileyle yola çıkarak bir iki saat sonra çiftliğe, yani hastane binasına ulaşıldı. Benim izlerini bulamadığım arkadaşları burada bulduk. Zavallılar yolu
+
+> [!note]+ Footnotes
+> 35 tahlisiye mantarı: Cankurtaran simidi (e.n.).
+
+### p. 79
+
+büsbütün şaşırarak tarlalar, bahçeler içerisinde gece yarılarına kadar —kim bilir ne korkular içerisinde- dolaşa dolaşa onlar da bir köy bularak geceyi geçirmişler. Vazife hayatımızda bize ilk kucak açan bu Rum mülkü çiftlik, bataklıklar ve uzaktan bakılınca yalancı zümrüte benzeyen söğütlükler kenarında bir tepe üstünde harap bir şatoya benzeyen baykuş yatağı bir binadır. Ahalisi arasında en üst katı işgal eden pek çok güvercin var ve bunlar cennetlik dervişler tekkesindeki gibi mütemadiyen hü çekerek burasının hakiki ve feci bir inziva yeri olduğunu ilan ediyorlardı. Güneş içerisinde pırıl pırıl yanan yamaçlarda toprak manzaralı bir iki köy görünüyor. Ufkun bunlardan sonraki sahasını kasvetli bir boşluk kaplıyor. Köylerin adı da ne yakıştırılmış: Çoveren (çok verenden kısaltılmış), Beybabası, Ücretli vs. Bunların delalet ettikleri manayı anlamak herhalde hoş bir şey olur. Çünkü tersini görürsün! Mutlaka çok verenden az, beybabasından yobaz, ücretliden besbedava bir çöl çıkar.
+
+Hastanenin bine yakın hayvanı, bizimle beş baytarı, heyeti ve birçok eri var. Hayvanların çoğu derin yaralı ve çok zayıf. Sabahın karanlığında tedavi başlıyor, öğleyin bir saat kadar istirahatten sonra akşam ezanına kadar devam ediyordu. Bu arada erlerin gelip de hoş tabirlerle ifade ettikleri ölen hayvanların günde iki üç tane de otopsisi yapılıyor. Çiftlikte içecek su bir bulanık kuyu suyu, viziteye sarf edilen su da mecrasından çevrilme etrafı çamur ve çirkefle kaplı bir akarsudur. Burada bir hafta kadar devam eden mesai zarfında çekilen emeğe pek acıyordum. Zira antiseptik ilaç, sudaki hastalık esasını yok etmeye belki yetmezdi. Nerede kaldı ki yaraya bir şifa etkisi olacak! Ne hoş gaflet...
+
+Yediğimiz yemekler, midemin bütün hazım kabiliyetini mahvetti. Az zamanda iştahım tamamıyla elden çıkmış bulunuyordu. Tabii bu hal ve buna ilaveten gece
+
+### p. 80
+
+soğukları beni hasta etti. Hastalığımda Çoveren'den azıcık yağ aldık. Bir arkadaşım da tavuk olmadığı için üstümüzde dem çeken güvercinlerin palazlılarından birkaç tanesini boğazlayarak çorba vesaire yaptı. Bu suretle biraz kendime gelebildim.
+
+Muhitin gündüzki müthiş sıcaklarına rağmen geceleri aralık ve ocak ayları kadar soğuk oluyordu. Sonra sivrisineklerin dehşeti ve işkencesi de tarife sığmayacak bir haldeydi.
+
+Tek başıma çiftlikte kaldığımın tasviridir Zaman gelir ki insan Diyojen gibi elinde fener adam aramaya kalkar. Ben bu hakikate pek yakından ve pek acı olarak temas ettim. Şu farkla ki, ben Diyojen gibi zihni denklik meselesini endişe edinmemiştim. Ben yalnız karşıma geçip de konuşacak, sadece benim muhatabım olacak bir canlı insan aradım.
+
+Yukarıda bir nebze çiftlik muhitini tarif etmiştim. İşte bu mukaddes inziva yeri, binanın harap tenhalığında, çın çın öten bu ıssız çölde benden pek uzaklarda barınan bir miktar asker ve hayvanın muhafazası için yapayalnız bırakılmıştım. Daha, geldiğim ve geçtiğim yerlerin hayat patırtısı kulaklarımdan silinmemiş, pek yakın bir mazinin rengârenk hayatı gözlerimin çerçevesinden kımıldamamıştı. İşte o patırtılarına bedel, istemeye özendiğim süküt ve inzivayı tam manasıyla, hem de pek feci bir şekilde bulmuştum. Hicranların teselli kaynağını sessiz ve ıssız yurtlarda arayanların hayat lugatında pek az kelime ve satır ihtiva edenler olduğunu; neşe denilen hissiyatın tomurcuğunun işte asıl bu hüsran çöllerinde gömülü olduğunu ne kadar açık olarak anladım. Elverir ki bu mütalaayı tetkik için bu zeminden istifadeye insanın tahammülü olsun ve gelsin, birkaç hafta değil, birkaç gün Salmanlı Çiftliği'nde vakit geçirsin. Ben burada çölün
+
+### p. 81
+
+ufkunda güneşin batışını ve doğuşunu süslü inceliklerle tasavvur ve tasvir eden şairlere acı acı öyle güldüm ve hatta küfrettim ki... Çünkü buralarda tabiatın süsleri, tabiatın ilk halindeki can sıkıcı örnekten başka bir şey değildir. Bunları tasvir için kuvvetli bir yazarın kalemi değil, seyyah bilmem ne Çelebi'nin eski üslubu bile fazla gelir... Buralarda ne kaleme, ne dimağa azıcık olsun neşe ve sevinç verecek bir gurup ve tulü levhası yoktur. Olsa bile gayet kuru ve verimsizdir. İşte ben bu sonsuz sessizliğin ve ıssızlığın içerisinde bana bir sene gelen bir hafta kadar gömülü kaldım. Mevsim dolayısıyla gündüzün boğucu sıcakları havayı istifade edilemeyecek bir şekle koyuyor, akşamın ılık rüzgârlarını teneffüse de müthiş bir sivrisinek hücumu mâni oluyor. Akşamları cibinliğin içerisine giriyor ve uykum gelinceye kadar söğütlüklerdeki baykuşların vahşi feryatlarını, üstümdeki damda barınan güvercinlerin ruha gariplik veren hülarını dinleyerek rahatsız edici bir hayale dalıyordum. Daha fenası bu ahalisi hiç derecesinde olan çiftliğin bu aralık eşkıya ve firari güruhlarına mesken olması da kuvvetle ihtimalmiş. Hatta silahları, saklanmaktan ibaret olan askerler, çiftlik civarına bu gibi şahısların yaklaştıklarını ve sabahı kaybolduklarını görmüşler de gelip bana söylediler. Hayatı bu sefer tam manasıyla kaza ve kadere sigorta etmiş oluyordum demektir. Bereket versin serbaytara kadar duyurmayı başardığım şikâyet ve istirhamlarım yüzünden, hatıra lütfen gelerek, Polatlı'da Hayvan Deposu'na katılmamız için emir verildi.
+
+Bir akşamüzeriydi. Kalan hayvanlar ile askerleri de derleyip toparlayarak, çiftliği de asıl sahiplerine terk ettikten sonra dağlardan, derelerden gece yarılarına doğru bin müşkülatla Polatlı'ya gelebildik. Gece, sabahı nerede ettiğimi pek hatırlamıyorsam da, hayalimde bir ocak ayında Kopdağı üzerinde çardakta uyumuş hissini veren bir rüya var. İhtimal ki birkaç kişinin barındığı bir çadı-
+
+> [!note]+ Footnotes
+> Zi
+
+### p. 82
+
+rın eteğinin dibinde bana da bir kovuk göstermişlerdir. Herhalde böyle olacak! Bunların içinde bulunduğumuz hayatta, bilhassa bu sıralarda zikre değer şeyler olmadığını burada bir daha tekrar etmeliyim!
+
+Evet Polatlı'daydık. Sabah oldu. Kalkıp şöyle istasyon civarına geldim. Polatlı da bir çöl gibiydi. Burası da kötü bir yerdi. Fakat benim nazarımda öyle paha biçilmez bir kıymeti vardı ki, artık senelerce buralarda kalmaya ve en ağır işleri görmeye razı olmuştum. Zira burada hiç olmazsa insan vardı, birçok kalabalık vardı. Bunlarsa benim için pek kıymetli şeylerdi. İşte ben o gün akşama kadar bu kalabalıktan ayrılamadım. Buradaki kalabalık bir asker ve zabit kitlesinden başka bir şey değildi. Ortalıkta bu kalabalığın sürekli hareketine sebep olan bir faaliyet mevcuttu. İşte bu faaliyet bu insan kütlesini devamlı çalkalıyordu. Bu hummalı faaliyetin sebebi, o aralık Yunan kuvvetlerinin ileri harekete başlayıp temas hasıl olmak üzere bulunduğundan harp vaziyetinin mühim değişimler icap ettirmesiydi. İşte bu değişimler, cephenin gürültülü bir hareketine sebep oluyor ve aralıksız devam eden nakliyat, insanlara bunaltı verecek bir hale geliyordu. Ben bütün bu faaliyetleri bir köşeden seyrediyor ve henüz aklım iyice ermediği için vukuatın birkaç gün sonra alacağı daha gürültülü şekli düşünmeyerek bu basit faaliyeti zihnen pek fazla genişletip büyütüyordum.
+
+O gün orada bir aşçı dükkânında yemek yerken bir iki tanıdık gördüm. Kendileri bilmem hangi fırkalardanmışlar. Bana vaziyetten, düşmanın temas etmek üzere olduğundan, harbin neredeyse başlayacağından bahsettiler. Bu bana eğlenceli bir hikâye gibi geldi. Çünkü artık bende sönmez bir neşe vardı. Onlarda da o neşeyi görüyordum. Benimki herhalde şu insanlar arasında bulunmak bahtiyarlığına nail oluşumdandı. Onlarınki de bu veya buna çok yakın bir sebep olsa gerek. Sonra
+
+> [!note]+ Footnotes
+> 2,
+
+### p. 83
+
+fena halde üzücü bir haber verdiler. O gün cephe üstünde uçan bir tayyare kazara düşmüş ve içerisindeki iki yüzbaşı tayyareci şehit olmuşlar. Bunların cenazelerini de Polatlı'ya getirmişler. Artık akşam oluyordu; kalktım, Depo'ya, yani yerime gittim. Orada efendilerle sohbet ederken Serbaytarlık'tan acele kaydıyla bir haber gelmesin mi?! Bu haberi derhal okudular: Cephe karargâhı bu akşam Malıköy'e hareket edecekmiş, onun için Hayvan Deposu da akşam derhal hareketle oraya, sabahı ulaşacakmış. Hay kör şeytan! Benim zavallı çiftliğime bir buçuk saat uzak olan Malıköy'e demek ki on altı saatte gidecekmişim. Güzel talihim bana ne güzel işler gösteriyor. Artık benimle eğleniyorlar. Nasıl? Sabırsızlık eder misin, diyorlar?! İşte bir gün daha orada bulunsaymışım bu zahmete katlanmayacak ve bir gece uykusuz kalarak at sırtında eski muharipler gibi düşe kalka yolculuk etmeyecekmişim. Her neyse! Bunu da görmüş olduk.
+
+Akşam olunca bütün Depo, hep birlikte yola düzüldük. Depo'dan başka önümüzden ve arkamızdan gelen, gece mahiyeti meçhul kalan birçok kafile var. Bu müthiş insan kalabalığı, yolun iki karış yüksekliğindeki tozlarını da öyle bir havalandırdı ki, artık Karadeniz'de önünü göstermeyen yoğun sis içindeki gemiler gibi hareketin sevkiyle yürüyor ve güçlükle nefes alabiliyorduk. Böylece sekiz saat mütemadiyen at üzerinde bu halde, ara sıra mola vererek yürüdük. Mola esnasında atlarımızdan inerek ekinlerin üzerine uzanıyorduk. Zaten zor açılan gözlerimiz arada derhal kapanıyor, beş on dakika sonra insanı o halinde sıçratan gürültülerle uyanarak yine at sırtına oturuyorduk. Şunu iyi biliyorum ki bu aralık bir saatlik molaya ben bir maaş terk etmeye razıydım. Zannedersem yolun ortasına gelmiştik.
+
+Yan tarafımızdan istikametleri bizimkinin aksine, yani ileriye, bir alay kadar asker geçti. Bu zavallılar anladığımıza göre, böylece Samsun'dan beri yürüyorlarmış.
+
+### p. 84
+
+Yarın sabah cepheye varacaklar ve siperlere gireceklermiş! Sonradan anladım ki ağabeyim de bunların içerisindeymiş. Alaylarıyla beraber cepheye geçmişler. Artık sabaha karşı, hatta ortalık iyice ağardıktan sonra Malıköy Ovası'na vardık. Ben attan iner inmez, derhal üzerime bir battaniye çektim ve çimenlerin üzerine yatarak uyuyakaldım. Bir iki saat uyumuşum. Kalktığım zaman Depo'nun burada çadır kurup ordugâh tesis edeceğini işittim. Derhal faaliyete başladılar... Burası istasyona on dakika mesafede etrafı bostan tarlalarıyla çevrilmiş bir meydan olup ortasından istasyona giden bir yol geçiyordu. İşte biz Sakarya Muharebesi'ni bu meydanda barınarak geçirdik. Burada bütün harbin ve faaliyetin her türlü cereyanlarına tamamıyla ve yakından şahit olduk. Bir ay kadar kaldığımız bu ovanın bende pek munis ve pek haraketli hatıraları vardır ve ömrüm oldukça bu hatıraları saklayacağımı zannediyorum.
+
+### p. 85
+
+**Sakarya Muharebesi**
+
+18 Ağustos 337 — 10 Eylül 337
+
+Malıköy Ovası'nın mahşere benzer yoğun kalabalığı istasyonun dört tarafında geniş bir çerçeve halini almıştı. O zaman demiryolunun kendimize ait kısmı Ankara'dan, ikinci istasyon olan Malıköy'e ve bazen Polatlı'ya yaklaşıncaya kadar uzuyordu. Tabii bu hattın en yoğun noktası Ankara olmakla beraber, Malıköy İstasyonu da haddinden fazla vagonla dolmuş ve taşmış bulunuyordu. Vagonların pek çoğu karargâh bürolarına dönüştürülmüş, bununla birlikte yine manevra çarpışmalarıyla mevki değiştirmekteydi. Bir gün kendi gördüğümü söyleyeyim: Bir iş için bu seyyar büro kafilesinden birisine girdim. Bunlar alelade kırk kişilik vagonlardı. Hatta kişiden başka şeyler de taşımış olacak ki her tarafına gübre kokusu sinmişti. Vagon tıklım tıklım doluydu. İçerisine bir dairenin çizelgeyle idaresine kâfi gelebilecek kırtasiye malzemesi ile hususi eşya oldukça sağlam bir suretle yerleştirilmiş. Vagon, sohbet esnasında hepimizi oturduğumuz yerden fırlatan öyle gümbürtüyle kımıldadı ki bütün içindekiler birbirine girdi, ortalık altüst oldu. Vaziyet benden başka diğerlerince soğukkanlılıkla ve hatta tebessümle karşılandı. Çünkü bu gümbürtü hayata bir tehlikenin taarruz ettiğini değil, istirahat ve huzurun azcık azaldığını bildirmişti. Vagonları hafifçe çekmeye başlayan lokomotifin kısa ve sert düdüğü, sanki “rahatınızı bozmayın, mesele ehemmiyet-
+
+### p. 86
+
+siz bir manevradan ibaret” der gibiydi. İşte bu ufak vaka seyyar büro hayatının feci durumunu göstermeye kâfi gelir. Bunlardan başka manevra hatlarının kabiliyetinden fazla nakliyat vagonları sürekli bir faaliyet içerisindeydi. Hasılı istasyonda seyredilecek neşe veren bir hal vardı. Onun için yerimizin yakın olması münasebetiyle genellikle günün birkaç saatini burada geçirirdim: Aynı zamanda bu muhit güvenilir bir havadis kaynağıydı.
+
+İstasyonun biraz geri ve doğu tarafında ilk çağda yahut Kamçatka vahşilerinin yaptıklarının aynı sistemde, menfezi için pek az endişe edilmiş, toprak oyuklarından ibaret meskenleri olan köyün kendisi mevcuttu. İşte istasyonun zarif şekli ile köyün kaba manzarası mukayese edilirse ilk çağ ile şimdiki çağın birbirinin zıddı hali tamamıyla taban tabana vermiş iki hasım suretinde tecelli eder. Heyhat bu yarayı, bilinen bir şeyi tekrar zikretmek beyhudedir. Neden, sualinin en taze cevabı: Düşmanın koca Türk memleketinin son kuvvet-i nüfusunun, yegâne ordusunun karargâhının ta yanı başına kadar sokulmasıydı. Bu toprak oyukları içerisinde inleyerek sapsarı büyüyen, zincire vurulmuş bir nesil yetmiyormuş gibi bir de, bir kefareti kanıyla ödemeye çalışıyordu... Ve hâlâ da burnuna çarpan şu medeniyet meşalesine, şu istasyon binasına olsun hiçbir ibret inancı taşımadan, lakayt gözleriyle, uyuşmuş dimağıyla bakıyordu. Ve... Sonra biliyordu ki bu istasyon binası, bu şık ve zarif timsal, bu memleketin olmayan bir dimağ, bu memleket için çalışmayan, işlemeyen bir el tarafından yapılmıştı. İşte bunu bile bile, bunu göre göre, hatta bu kadar değil, bu yumruğu dimağına yiye yiye yaşadığı halde her gün toprağının kovuğuna daha fazla batıyor ve hayatla büsbürtün alakasını kesmeye uğraşıyordu. Neyse, bu kadarcık olsun yaraya ilişmeden de geçilemiyor... Zavallı memleket, zavallı Türklük senin bu haline yahut daha doğrusu bu halimize daha ne zamana kadar ağlayacağız?
+
+### p. 87
+
+Demiryolunun istasyon civarı yarım saatlik bir uzaklıkta askeri çadırlar, askeri kafileler, tankvari, eskiden kalmış Umumi Harp'in3© kalıntılarından cefakeş ağır yük kamyonları, arabalar, kağnılar, develer ve saire ile dolmuş bulunuyordu. Bu harbin nakliye vasıtaları bir tarih kadar mühim olduğu için bundan neden bahsetmeyeyim? Bunların başında malum Alman dostluğunun bugüne kadar intikal eden miras kamyonları vardır. Bu, yolların tahammülünü ezen, ne bizim yolların onu, ne de onların bizim yolları bir türlü sevemediği bu kamyonlar ağır tekerleklerinin üstünde harap vücutlarıyla, can çekişmeye benzer hırıltılarıyla mütemadiyen koştular. Türk'ün daima eskiye yapışan, onu hakkıyla kullanan ve idare eden elleri, bugünlerin vazifesini de pek makbul bir şekilde bu iskeleti çıkmış arabalara layıkıyla ve tam manasıyla gördürdü. Bu harp böyle eksik ve köhne kalıplı vasıtalarla yapılıyordu. Kağnılar, atlar, merkepler, develer birer iskelet şeklinde mütemadiyen koştular. Kulağımızın dibinde şimdi uğuldayan topların kamaları ve birçok noksanları da Türk'ün mahir ellerinde onun bütün kabiliyetlerinin birer iftihara şayan tecelligâhı değil miydi? Dost düşman bunu neden bilmesin?
+
+Hele kağnılar... Onlar bütün Sakarya Harbi'nin bir iftihar sermayesi, zafer nağmesinin büyüleyici birer okuyucusuydular. İki ağır tahta tekerleğin derme çatma desteği üzerine konulmuş, bazen tek, bazen birkaç basit tahtadan ve önünde bir çift itaatkâr öküz veya mandadan ibaret bir araba heyulası! Bazen bir tek mermiyi, bir çuval tayın ekmeğini, bir ağır yaralıyı günlerle durmaksızın taşıyarak hedeflenen yere eriştiren; çöl ayarı ıssız ovalarda birçoğu uzun bir kafile teşkil ederek derin hıçkırıkları andıran gıcırtıları içinde tonla değil, gayret ve fedakârlıkla ölçülen yüklerini sahiplerinin vefakâr
+
+> [!note]+ Footnotes
+> 36 Umumi Harp: Dünya Savaşı (e.n.).
+
+### p. 88
+
+hizmetkârları olarak cepheye sihir ve kuvvet gibi götüren; pek çoklarının başında memleketinden ayrılalı, işini bırakalı aylar geçmiş beyaz sakallı ihtiyarlar, yalın ayak çocuklar ve kadınlar bulunan, Anadolu mücadelesinin timsali olan kağnılar, sevgili, tarihi ve fedakâr kağnılar bunlardır! Bu kağnıların öküzleri ve sahipleri birçok geceleri, birçok günleri mütemadiyen yürümekle ve çok defa yemi ve yemeği hatırına getirmeden vazife için koşarak geçirdiler. İşittiğim her kağnı gıcırtısı, şimdi bile bana ilahi bir nağme gibi tesir eder. Kağnı gıcırtısı, Anadolu mücadelesinin, bu mukaddes muzafferiyetin teranesidir. Bu kağnı değil midir ki Avrupa'nın buharlı ve haşmetli medeni vasıtalarına Anadolu'da hacmi ve şeklinin çelimsizliğiyle beraber karşı gelmiş ve onu yenerek onların nazarlarında bir harika, bir mucize olmuştur? Anadolu'da Türk kağnısının, Avrupa'nın meydan okuyan medeniyetine galebe çaldığı, onu yendiği bir hakikattir. Bununla beraber kağnıya ancak tarihi müzenin mutena bir köşesinden başka bir yer vermekte ve memleketimizde bir vasıta olarak kabulde ısrar etmemeliyiz! Kağnının vazifesi artık son bulmuştur. Bundan sonra iş tersine döner ve bize feci mağlubiyetler göstermeye murhakkak sebep olabilir!
+
+Nakliye vasıtalarının diğer kısmını, şekil ve şemali cidden bozulan beygirler ve merkepler ile develer teşkil eder. Hele zavallı develerin ateş hattı gerisinde susuz ve hamursuz birkaç gece ve gündüz diz çökerek beklediği pek çok görülmüş ve bu zavallılar yine tevekkülü elden bırakmayarak çok fedakârlık yapmışlardır. Artık burada hakkaniyeti gözeterek onların da hakkını teslim edelim ve diyelim ki Anadolu'da hayvanlar, milletin istiklali selametinin teminine en mühim birer sebep olduğu kadar kendi istiklallerinin ve haklarının en son mertebesini bile kaybetmişler, onu da hissede hissede feda etmişlerdir. Acaba mükâfatlarını gördüler mi? Bunu arayama-
+
+### p. 89
+
+dım, zira bulamazdım da! Harbin safhalarına Malıköy Ovası'ndan yakinen şahit oluyorduk.
+
+Memleketin elde kalan son kudretinin zerresi sarf ediliyordu. Millet kılık kıyafetini bile değiştiremeden siperlere giriyor, düşmanın yağdırdığı cehennemi güllelere göğsünü gererek artık son demlerinin geldiğini ilan edenlere karşı “Varım!” diyordu. Ovanın ortasında ve yol kenarında kendimize düşen vazifeyi yerine getirmeye çalışırken kulaklarımız ardı arkası kesilmeyen derin uğultuları dinliyor, bu seslerin kâh yaklaşıp kâh uzaklaşmasını türlü türlü yorumlayarak kalplerimizin pek endişeli çarpıntılarıyla bekliyorduk. Günler geçiyor, bu uğultuların nihayeti gelmiyordu. Önümüzdeki yol her türlü nakliyatın geçiş yolu olduğu için bizim endişelerimizin hallinin bir anahtarı makamındaydı. Oradan cepheye mütemadiyen ikmal askerleri, cephane, erzak taşınıyor, geriye yaralı ve bazen ölgün bakışlı esirler geliyordu. Hele cephenin bin bir şehidi içinden ağır yaralarla dönebilen, yüzü gözü tozdan belirsiz bir şekle giren, kağnılar üstünde inleye inleye geçen yaralıların hali, ruhlarda sönmez galeyanlar uyandırmaya kâfi geliyordu. Bu geriye gelen kafilelerin ekserisi civarımızdaki ufak bir membanın başına toplanarak ilk defa rahat yüzü görmek için orada dinlenirlerdi.
+
+Bunlar bize bazen cephelerinin nasıl bozulduğunu, sonra tekrar nasıl kapatıldığını; düşman toplarının müthiş tahribatını; Mangal Dağı'nın, Türbe Tepe'nin efsanevi hikâyelerini ve nihayet bir misket parçasının kendisini nasıl ve neresinden yaraladığını anlatırlardı. Biz gönüllerimizin bütün samimi arzusuyla kendi ellerimizle yüzlerini gözlerini yıkar, su verir ve yakın olan istasyona kadar gönderirdik. Harbin her günkü yakın akisleri, müthiş ve korkunç haberleri, bazen teselli ve ümit veren neticeler bütün düşüncelerimizi ve dimağımızı bir örümcek ağı gibi sarmış, uyuşturucu bir buhar gibi bizi sersemletmişti. Bununla beraber o sırada hiçbir sebep ve
+
+### p. 90
+
+Anadolu kadını ve harbi. Fatma Çavuş kağnı kolu
+
+bahaneyle bu hareketin içerisinden çıkmayı ve bilhassa geriye gitmeyi arzu etmiyordum.
+
+Düşmanın yaklaştığı bir sıralarda vazife için bir gece Polatlı'ya gittim ve ertesi gün geri döndüm. Polatlı eski halinden daha fazla askeri bir şekil almıştı. Her gün tayyarelerin bombardımanı harbe karşı burada derin bir alaka yaratmıştı. Malıköy Ovası'nda bizim harple alaka ve irtibatımızın en kuvvetli faktörlerinden birisi de tayyare hücumlarıdır. Bazen her gün bazen gün aşırı. Kâh sabah ve kâh ikindi zamanı mutlaka, bu tedirgin edici kuşların ziyareti gerçekleşirdi. Körü körüne ölümün azraili işte bunlardır. İstasyonun kuzeyindeki tayyare hangarımızın geniş çadırları bu tayyarelerin ziyaret yeri oluyordu. Tam iş veya istirahat zamanında kulaklarımıza derin bir motor sesi gelir gelmez, bu hava afetinin yaklaştığı anlaşılırdı. Ova dümdüz; insan burada korunmak değil, ancak kendisini aldatmak için yere yatıyor. Fakat çadırdan çıkmakla çıkmamak arasında bir fark
+
+### p. 91
+
+yoktur. Öyle ama sen gel de yüreklere sor; onun uğultusu yaklaşınca, o istikamette semaları tarayan ve nüfuzunun en son kudretini sarf eden gözler onu bulmak için ne gayretler gösterir. Ve en nihayet görülür. İşte ta yükseklerde, bembeyaz parlayarak, arkasından hafif ve arkası gelmeyen bir duman sala sala süzülerek tam da üstümüze doğru yolu takip ederek geliyor. Herhalde de dolu; hediye getiriyor! Oradakilerin dörtte üç buçuğu secdeye kapanıyor. Ama niçin? İbadet mi, yalvarmak mı, af dilemek mi? Artık orası belli olmaz. İşitilen şey kalbin gürültüsüdür. Artık hedefe gelmiş olduğu için tam başımızın üstünde yavaşlıyor. Bu yavaşlamak hediyeyi takdim içindir: Hediyeler, bir tayyarede iki adet gerçekten büyük kırk elli kiloluk bomba ve beş on adet de ufak el bombalarıdır. Bunların düşüşleri başlayıp bitinceye kadar heyecanın derecesi yavaş yavaş azalmaya başlar. Tayyare hemen ses işitilmeyecek bir halde yavaşlar, sonra hafifçe bir döner, işte bomba yaydan çıkmıştır.
+
+### p. 92
+
+Birkaç saniye sonra çok defa hangar çadırının istikametinde simsiyah bir duman ansızın yükselir ve ardından tıpkı dolu bir gaz tenekesi yüksekten düşer gibi ve onun sesinin yüz misli fazlalıkta korkunç bir gümbürtü kopar. Sonra tayyare yine yoluna devamla bir kavis çizer, yine aynı vaziyeti alarak ikincisini bırakır. O da öyle. Sonra diğer el bombaları bir tabanca sesi gibi patlayarak birçok yere düşer. Ve en nihayet birkaç makineli tüfek de sıkar ve geldiği istikamete def olur. Bu seyir yahut bu mesele bir çeyrek kadar falan sürer. Artık o günün geri kalanının devamı bu müddetle ödenmiş olur.
+
+Bizim tayyarelerimizin hepsi ele geçirilmiş Yunan tayyareleriydi. Hatta bir tanesinin bütün noksanlarını kendi tayyarecilerimiz yapmışlardı. Bu hafif keşif tayyaresinin bir düdüğü vardı ki onunla onu tanır ve yaklaştığı zaman heyecana düşmezdik. Adı da İsmet'ti. Tayyareciler bizim için az çok bir havadis kaynağı oluyordu. Bazı akşamlar onların yanına gider ve keşiflerini azıcık anlardık. Fakat ekseriyetle bize düşmanın Beylikköprü veya Cihanbeyli Ovası'ndaki firar hazırlıklarını anlattıkları halde her nedense sonra kendi geri çekilişimizi duyuyorduk. Bununla birlikte kendileri çok fedakâr, çok yiğit çocuklardı. Zavallıların canları koltuklarında demekti. Muharebe hâlâ devam ediyor, bitmiyordu. Biz her gün havadis toplamakla, önümüzden geçenlerden soruşturmakla neticeyi anlamaya çalışıyorduk. Kimsenin çenesini bıçak açmadığı günler pek çok oldu. Lakin ortalıkta hakiki bir so- Şukkanlılık vardı. Önümüzden bazen toplar geçiyor ve Ankara'ya tamire gittiklerini söylüyorlardı. Sonunda anladık ki bunlar tamire değil, Kızılırmak”ta cephe tesisi için gidiyorlarmış. Vaziyetin pek feci ve buhranlı zamanları ortalığa bir “kaçıyor” haberi çıkarıyorlardı ve bu, insanı bir gün olsun ümitlendiriyordu.
+
+Ertesi gün vaziyetteki değişikliğin aleyhimize olduğunu anlıyorduk. Her türlü hakikati anladıkça insana bir
+
+### p. 93
+
+Sakarya kıyısında askerlerimizin düşmanı bekleyişi
+
+ümitsizlikten çok, gözünün önüne tahammülü mümkün olmayan feci akıbet endişeleri geliyordu. Ve bunun için de önümüzdeki cepheye bütün imanımızla dayanarak vakit geçirmekle kederimizi azaltıyorduk. Gerilerin halinin ise büsbütün berbat olduğu hissediliyordu. Orada bizim gibi göz önünde, bilinen bir cephe yok, herkes bin türlü şayia çıkararak, seksen türlü açıklama yapıyor, Ankara'dan Kayseri'ye, Kayseri'den kim bilir ne cehennemlere yol almak için hazırlanıyordu. Biz onlara nispetle, vaziyet itibariyle ne kadar az emniyetli bir yerde olsak da hiç olmazsa beyhude endişelere değil, birdenbire çarpacak ani tehlikelere maruz bulunuyorduk —ki bu hal herhalde daha rahatlatıcıdır zannederim. Ben o zaman böyle hissettim ve buna kanaat getirerek teselli oldum. Gerisi aklıma bile gelmedi. Burada daha müsterih yaşadım.
+
+Ağustos bütün sıcaklığı ve tozlarıyla hayata en bunaltıcı günleri gösterirken, önümüzde korkunç iniltilerle uzayan harp günden güne daha şiddetli bir hal alıyordu. Harbin bu kadar uzaması, cephedeki mukavemetin
+
+### p. 94
+
+çok esaslı olduğunu ifade ediyordu. Hakikaten geriye gelen pek çok yaralı, ruhlarımızda cephedekinden fazla bir boşluk yaratıyor, bununla beraber mütemadiyen akın akın ileriye geçen ve gece gündüz önümüzden şen ve neşeli bir halde Ankara ve Kemal Paşa şarkılarını söyleyerek ilerleyen, gönüllere serin bir ümit rüzgârı saçan askerler henüz ezeli davanın ebedi yolcularının bitmediğini ilan ediyordu.
+
+Öyle günler oluyordu ki cephenin demirden sesleri semalara aksederken müthiş bir fırtına da karanlık bulutlarla birlikte ufuklardan koparak cihanın bu zulüm ve facia sahnesini örtmek için dünyayı karartıyordu. Tam Mangal Dağı ve Türbe Tepe taarruzları zamanıydı. Bugün müthiş bir fırtına koptu. Gökyüzü simsiyah bulutlarla kapandı. Ortalığa velvele veren bir kasırga bütün ovanın altını üstüne getirecekmiş gibi hırçın ve haşin uğultularla her tarafı sarstı. Ne çadırlarımız, ne kulübelerimiz bu şiddete tahammül edebildi, hepsi yerlere döküldü. Başka barınacak yer olmadığı için hepimiz meydanda bu simsiyah semanın altında bekleşmeye başladık. Gök gürültüleri ve şimşekler semaları parçalarcasına devam ediyordu. Artık gök gürültüsü ile önümüzdeki topların iniltileri birbirine karışmıştı. Yerle gök sanki bu sahneye daha feci bir dehşet saçmak için birleşmişti; kâinat çıldırmış gibiydi. Biraz sonra müthiş bir yağmur tufanı gökten boşanmaya başladı. Artık bu levhanın, bu manzaranın dimağlardaki bütün tahammül ve tevekkül kabiliyetlerini ne derece altüst ettiğini hissedebilmek için onu bir parça tasavvura çalışmak yeterli olur zannediyorum. Önümüzdeki ufuktan başlayan bu fırtına cepheye doğru uzaklaşıyor ve tam düşmanın çirkin suratına karşı bir ilahi lanet kamçısı gibi çarpmaya koşuyordu. Nihayet bu iniltilerle birlikte topların akisleri de dindi. Bu sessizlik şimdi yüreklerde meraklı bir endişe uyandırmıştı. Yine havadis kaynaklarına koştuk. Haberler yine yürekleri ferahlatmıyordu. Harp bü-
+
+### p. 95
+
+tün şiddet ve ehemmiyetiyle hâlâ devam ediyordu. Demek bu şiddetli ilahi darbe de harp cephesinde bir tesir yaratamadan sönmüştü...
+
+Harbin bu kadar uzaması sinirlere pek vahşi bir gerginlik veriyor, cephedeki vaziyet ise endişelerin daha mahsus bir şekil almasına sebep oluyordu. Düşmanın piyadesinden ziyade, top kuvveti ve tesiri geri çekilmenin belli başlı bir sebebiydi. Bu sebep hem kayıpların artmasında hem de manevi kuvvet üzerinde mühim bir tesir icra ediyordu. Ordunun bu ilkel teşkilatı içerisinde mühim bir disiplin oluşturmaktan ziyade, askerlere daha samimi bir vatan sevgisi verilmeye uğraşılıyordu. Bir zabitin bir erden hiç farkı görülmüyor ve zabitler cesaret ve harp itibariyle erlere son derece üstün bir vaziyette bulunuyorlardı. Hasılı bu vaziyet içerisinde görünüşü kurtarmaktan ziyade işin iç yüzünde pek derin bir emniyet ve itimat esaslandırmak lüzumu açıkça hissediliyordu. Türk'ün harpteki soğukkanlılığı pek açık olarak bu harpte kendisini göstermiş ve kumanda ellerinin mahareti vaziyetin bütün endişeli safhalarını ve gidişatını büyük bir metanetle örtmüştü. Kim bilir, diyorduk, bu sırada bütün cihan ve harp sahnesinin etrafı ne türlü havadislerle çalkalanıyordu?
+
+Ankara'nın tek tük gelen gazeteleri esaslı bir malumat vermekten elbette çok uzak bulunuyordu. Bir gün her nasılsa elime bir İstanbul gazetesi geçti. Derin bir hasretle açtım. Sansürün dişleri, satırları ve sayfaları lime lime etmişti. İstanbul'da İngiliz zorbasının büsbütün azıttığı ne kadar belli oluyordu. Gazete, bizim ağzımızdan ziyade bir Yunanlının harbi tefsir etmesi gibi bir lisanla yazılmıştı. Zavallı İstanbul, o bütün kalbi ve ruhu ile Sultanahmet'lerde isyan için çırpınıp kükrerken şimdi ne kadar haşin tekmeler altında inliyor.*”
+
+> [!note]+ Footnotes
+> 37 İstanbul'un işgalinden sonra Sultanahmet'te yapılan protesto miting-
+>
+> leri kastediliyor (e.n.).
+
+### p. 96
+
+Gönlü kan ağlarken dili zorla bir hakikati gizliyordu. Ya kim bilir Bursa, o sevgili memleket ne kadar eziyet çekmiştir. Ve kim bilir yuvamızdaki canlar ne kadar acılar görüyor ve dertleniyordur. Ah! İstanbul gazetesi Yunan'ın Beylikköprü'ye geldiğinden ve oralarda Gardiyan namındaki mevki de zapt edilirse artık Ankara'ya girilmiş nazarıyla bakılacağından bahsediyordu. Gardiyan mevkiini aradım, bulamadım. Fakat Yunanlılar Beylikköprü'yü geçmişler ve Polatlı'ya yaklaşmışlardı. Mesele henüz bununla bitmemişti. Yunan ordusu bir çift zayıf öküz koşulu arabaya benziyordu. Öyle öküzler ki üvendire38 yerine kurşun ve top güllesiyle zorla yürüyor ve karşısında biraz da mukavemet hissetmeyince kendisini Aşillerin, Herkül'ün hakiki evlatlarından oldu- Şunu zan ve ilan ediyordu. Zavallı Heraklioszâdeler, on toplarına karşılık iki toplu olsun bir Türk mukavemeti görselerdi acaba Anadolu'nun bu kadar ilerisine adım atabilirler miydi?
+
+Ankara'ya yaklaşan ve hele bir defacık tayyaresiyle birkaç bomba savuran Yunan ordusu, bütün haykırışlarıyla artık Türklerin mahvolduklarını, Konstantin3? ise bir hafta sonra Ankara'da bir çay ziyafeti tertip edeceğini dünyaya ilan ediyordu. Megalo İdea'nın*9 evlatları çıldırıyorlardı. Vahşi, barbar, ezeli düşmanları olan Türk can çekişiyordu, ölmek üzereydi. Haymana Ovası'nda Yunan cephesi haftalarca aç kalıyorken Atina, Ankara hülyasına kendini kaptırmıştı. Heyhat ki Megalo İdea
+
+> [!note]+ Footnotes
+> 38 üvendire: Çifte koşulan öküzleri yürütmek için kullanılan, ucuna no-
+>
+> dul çakılmış uzun değnek (e.n.).
+>
+> 39 1913-1917 ve 1920-1922 dönemlerinde Yunanistan kralı olan 1. Kons-
+>
+> tantin (e.n.).
+>
+> 40 Megalo İdea: Modern Yunan milliyetçiliğinde hâkim olmuş, Bizans
+>
+> İmparatorluğu'nu bir Yunan devleti olarak kabul eden ve ihyasını öngören akımdır. Yunan ordusunun Anadolu'ya çıkması bu akımın yandaşlarınca desteklenmiş, Kurtuluş Savaşı sonunda Yunan ordusunun bozgunu bu akıma büyük darbe vurmuştu (e.n.).
+
+### p. 97
+
+yine şeklini aynen muhafaza etti. Yine bir hayalden, gerçekleşmesi imkânsız bir hayalden ibaret kaldı... Artık Yunan ordusu uzun süren taarruzlarını devam ettiremiyor, şaşırmış bir hale geliyordu. Eylül başlangıcından beş altı gün sonra çok şiddetlenen Yunan taarruzu, bir hafta sonra çekilme izlerini saklamak için beyhude bir yorgunluğa dönüştü. Bir gün cephe bütün kumandanların gözü önünde karşı taarruza geçti. Bütün kudretini sarf ederek palikarya sürülerine hayret veren bir numune gösterdi. Polatlı, Çekirdeksiz ve Dua Tepe Türk gülleleriyle Yunanlıların mezarı oldu. Artık Yunan hakikaten geri çekilmeye, kaçmaya başlamıştı. Melun, bütün harp kabiliyetini sarf ederek güvenli bir şekilde geri çekiliyordu. Beylikköprü ve diğer mühim noktalar bu kaçışı gizliyor ve muhafaza ediyordu. Düşmanın çekilişi, demiryollarını tahribe başladığından ve bütün köylerin alevler içerisinde yanmasından keşfediliyordu. Hakikaten her zaman için bu alametler çekilişi ispat etmiştir. Artık düşman kaçıyor ve ordu Sakarya'yı muhtelif noktalardan geçmiş, ilerliyordu...
+
+Birkaç gün sonra Sivrihisar'ın zaptını ve tekrar işgalini duyduk. Kısacası ordunun takipte mecburi bir yavaşlık gösterdiği hissediliyordu. Ordunun geçtiği yerler, tamamıyla harap olmuş ve bütün ahalisinden tecrit edilmiş bir haldeydi. Yunanlılar bütün işgal mıntıkalarında ne bir sağlam bina ne de bir sağlam insan bırakmışlar ve zulmün, işkencenin, vahşetin en müthişini yapmışlardı. Benim gezdiğim Haymana köylerini aynı halde buldum. Zavallı köyler büsbütün biçimsiz bir şekil almış, baykuş yatakları olmuştu. Ara sıra harabeler içerisinde tek tük insan hayaletleri görünüyor ve bunlar perişan bir halde bir lokma ekmek arıyorlardı. Düşman yiyecek bir lokma bırakmamıştı. Köylerde gizli ve meydanda ne varsa yakmış, hatta biçilmemiş ekin tarlalarını da ateşlemişti. İlerleyen ordu, bu yoksul harabeler içerisinden yürüme-
+
+### p. 98
+
+ye ve elbette kendi erzakını taşımaya, beklemeye mecbur kalıyor ve gecikiyordu. Harbin en fazla şiddetini gösterdiği Haymana ve Polatlı arası görülecek bir haldeydi. Her tarafa insan leşleri, palikarya başlıkları, boş kovanlar, silahlar, siperler, mezarlar; kısacası muharebeye ait bin türlü hatıra yayılmıştı. Bu meydanda kim bilir kaç yüzlerce şehit kefensiz yatıyor ve ne kadar Türk çocuğu şimdi yerleri top gülleriyle belirsiz bir hale gelen bu toprağın içinde gömülmüş... Bazı siperlerin yanı başlarında ne kadar insanın yüreğine dokunan mezarlar var. İşte bugün birer toprak kümesi halinde yükselen bu mezarlar, memleketin istiklali uğruna kurban giden vatan evladının abideleşmiş istirahat mekânıdırlar. Bunları candan ve gönülden takdis etmek Türk milletinin, Türk tarihinin borcudur... Sakarya şehitleri, Türk tarihinin hakiki başlangıcını kanlarıyla yazdılar. Gönül ne kadar ister ki bu meydan, istiklalini kazanan milliyetimin bir Kâbe'si olsun ve her zaman tavaf edilsin!
+
+Sakarya Harbi, Genç Türkiye'nin cesaretinin ve varlığının vesikasıdır. İnönü galipleri, burada hakiki varlıklarını bütün dünyanın kulağına ve beynine bağırmışlardır ve burada muzaffer olmuşlardır... Sakarya Harbi çok elim yoksulluklar içerisinde imanın en yüksek numunesiyle kazanılmıştır. Bu zafer, Türkiye devletinin temelini kurmuştur. Burada 21 gün ve 21 gece cenk eden ve ölen Türklük, barbar medeniliğe karşı en ulvi heyecanlarıyla saf ve bakir mevcudiyetinin temel taşlarını kanlarıyla yoğurarak koymuştur. İçimizden ve dışımızdan bizi bozmak için açılan ve uzanan pençeleri, Mehmetçiğin süngüsü, ezici kudretiyle burada kırmıştır. Burada, medeniyetin asaletsiz temsilcileri, serdarlarının sancaklarıyla birlikte ebediyen yok olmuşlardır.
+
+Sözün kısası, Sakarya Türk tarihinin ilk altın renkli sayfasıdır. Bu zafer, Türk milliyetinin kalbine saadetin en kuvvetli ümitlerini, asaletinin en yüksek örneklerini
+
+### p. 99
+
+koymuş; insanlığa karşı reva görülen cinayetin kendisine atfedilen iftiralarından ne kadar uzak olduğunu bütün belagatiyle göstermiştir. Bu zaferi ebediyen kutsayalım. Türklüğün Sakarya'daki muzafferiyeti, Yunanlılığın temsil ettiği medeniyeti, en yüksek ve en asil fedakârlıkla kendi toprağına gömmüştür.
+
+Sakarya zaferi, genç Türklüğe pek asil bir duygu ve pek ulvi bir ümit aşılamış, Türk memleketinin varlığını temin etmiştir. Sakarya daha çok büyük bir şeydir. Kısacası Türk milletinin iftiharı, kurtuluşunun ebedi bir müjdecisidir...
+
+### p. 100
+
+Türkiye'nin Canlanışı
+
+Kanunusani 338 (Ocak 1922)
+
+Sakarya yakınlarından kopup Türk ve Müslüman dünyasının üstüne gerilen kâbus, Sakarya galibiyetiyle sönüp sıyrıldıktan sonra, alışılmışın aksine, ordu ve memlekette canlanma yoluna doğru mühim adımlar atıldı. Artık Büyük Millet Meclisi'nin lanet eden haykırışı, başkumandanın harp ve neticesi ile istikbal hakkında verdiği nutukla bir kat daha yükselmiş; ordunun kalbindeki vatan ve istiklal aşkı son dereceyi bulmuştu. Ordu ilerliyor ve ilerledikçe Yunan ordusunun bıraktığı enkaz ile harabelere rast geliyordu. Hakikaten memleket geniş bir nefes almış ve ciğerleri istiklal aşkıyla bir kat daha kabarmıştı.
+
+Ordu, düşmanın son çekilme hattına ebedi kiniyle Eskişehir ve Afyon cephelerinde bir daha çarptı. Fakat heyhat ki o engeli aşacak bir kudrete henüz sahip olmadığını gördü. Ve yaptığı siperlerinde büyük zafer gününe hazırlanmak için beklemeye mecbur oldu. Sakarya'nın bir aya yakın süren aralıksız ateş tufanı elbette orduyu ve nakliye vasıtalarını son derece hırpalamış ve yıpratmıştı. Hayvanlar uzun zaman aç kalmış, kuvvetten düşmüştü. Kağnılar son takatlerini Sakarya çöllerinde boşaltmışlardı. Onun için zaten yanmış yıkılmış yerlerden akın eden ordunun besleyemediği hayvanlar arasında artık elim ölümler baş gösterdi. Sonbahar gelmiş, yağmurlar başlamış ve yollar geçilmez bir hale girmişti. Bu halde
+
+### p. 101
+
+tonlarla nakliyat yapmaya bazen haşin bir zorlama, inatçı bir mantıksızlıkla mecbur kalan nakliye vasıtaları son derece berbat bir şekil almış, hayvan ölümleri haddini aşmıştı. Biz Polatlı'dan kalkıp Sivrihisar'a gelinceye kadar Beylikköprü ve Sivrihisar ile Biçer arası leşlerle doluydu. Herhalde itidali gözetmek bu zamana mahsus değil denecekse bu felaketi memleketin zarar ve zimmet kısmına geçirmeye de müsaade buyurmazlar mı?
+
+Ankara hatlarına, Ankara ambarlarına yüklenen ordu bir açlık devresi içine girmişti. Bu devre, bastıran kışın müşkülatıyla gittikçe artan bir yürekler acısı oldu. Sonra hayvanlarda açlık sefaletinden başka bir illet yokken Allah bir de memleketin başına veba-yi bakari afetini indirdi. Bu söz ya! Hastalık şüphesiz ki gökten inmedi, yerden de bitmedi. Yine insanların haşin tabiatlarının ve feci lakaytlıklarının yüzünden çıktı. Ben zannederim ki memleketin canlanışını sırtlarındaki yükte doğuran, en önemli hizmetleri yerine getirdikten sonra kaçan düşmanın izleri üzerinde şehit olan, çamurlara boş yere gömülen bu hayvan sürüleri ölürken bizim için bir acıma sedası olsun çıkarmışlardır. Ben 337 (1921) senesinin kışı geçinceye kadar memleketin geçirdiği en azim felaket, en derin buhran olarak işte bu muazzez şehitler kafilesini tanıyorum. Veba-yi bakari afeti ise orduya memleketin ve cephenin gerisinden sanki zafer hediyesi olarak yollanmıştı. Kim bilir Ankara'dan Kayseri'ye can kaçırırken belki bu hediye de kutusundan fırlayarak görünmeden sıyrılmış ve kaçmıştır. Neme lazım ki yolunu şaşırarak Kayseri'ye veya geriye değil, batıya, şimdi zafer şiirleri okuyan ordunun, o binlerce kağnının muazzez sedalarını, gıcırtılarını dindirmek için Azrail gibi yetişmişti... Bu afet kâh şiddetlene, kâh hafiflene bir sene, daha bir sene, daha fazla... Hâlâ devam etti. Niçin? Bu sualin cevabını kimden isteyelim?
+
+### p. 102
+
+Her ne hal ise... Şimdi biraz da kendime geleyim: Sakarya'nın sonu gelmez gümbürtüleri dindikten sonra —hele sen şu kısmete bak, meğer yine içeceğimiz suyu, teneffüs edeceğimiz havası, dinleyeceğimiz hoş sesleri varmış- yine Salmanlı Çiftliği'ne kâhya olmayalım mı? Haydi, bizi Depo'nun bütün yaşlı hayvanlarıyla, onların çobanı tayin ve Salmanlı'da ikamete memur ettiler. Bereket versin bu sefer askerlerim daha düzgün, bir santimetre daha akılları beyinlerine yakın, sadık ve benim huyuma alışkın, beni sever gibi insanlardı. Tayin edene bin bir adet dua okuyarak o tarafa gittik. Salmanlı malum Malıköy?e bir buçuk saat mesafede demiştik ya, işte oraya ilk önce hayvanlar ile askerleri ve ağırlığı yolladım. Depo'nun ve Malıköy'ün muhterem ve muhteşem sakinlerinin Polatlı'ya doğru hareketini gönlümün acı şikâyetlerini, bahtımın derin feryatlarını da dinleyerek seyrettikten sonra hayvanımı Salmanlı yoluna sürdüm.
+
+Salmanlı'ya erişir erişmez çiftliği tamamıyla, sanki gizlice seyahate çıkmış mirasyediler gibi kılık değiştirmiş bir halde buldum. O canım çiftlik binasının ne kapı ve çerçevesi, ne camı ve ne de hü çeken güvercinlerinden eser kalmıştı. Muharebe esnasında nakliyat yolu buralara yakın geçtiğinden zavallı Salmanlı tamamıyla çok mühim taarruzlardan perişan olmuş ve sıska bir hale gelmişti. Benim askerlerim “derhal marş!” kumandasıyla harabeye az çok bir şekil verebilmek için uğraşmaya başladılar. Bin müşkülatla harabeyi azıcık olsun oturulabilecek bir hale koyabildiler. Ben yine eski odama taşınarak yerleştim. Bu seferki vazife ve vaziyet bambaşka bir şekildeydi. Üç yüze yakın muhtelif cinste zayıf ve güçsüz hayvanın hekimi, hem de ambarlı, hesaplı bir müfrezenin müdür, kâtip ve iaşecisi oldum. Sabahtan akşamlara kadar bir türlü işin sonuna gelemiyorduk. Bir taraftan habire kıtaların güçsüz hayvanları hastane diye bize getiriliyor ve bizden de mazbata namıyla bir kâğıt alını-
+
+### p. 103
+
+yordu. Bu halime gülmek mi ağlamak mı doğru olur, hâlâ bilmiyorum. Hoş ben buna gülerdim. Benim içimi sıkan şey, yine bu sürgün yeri kadar ıssız yerlere düşmekliğimdi. Bir hafta kadar bu halde çalıştıktan sonra canım boğazıma geldi ve serbaytara benim mutlaka bir kıtaya verilmekliğimi istirham ettim. Birkaç gün sonra yerime, zâbit olduğuna yetmiş iki şahit lazım gelen birisi geldi; her şeyi ona teslim ederek şen şakrak yola çıktım ve Polatlı'ya geldim.
+
+Polatlı bu sefer Malıköy'ün daha kalabalık bir halefi haline girmişti. Yine Depo'nun dağlar gibi yığılan işleriyle uğraşmaya başladık. Depo şimdi sağlam hayvanların toplandığı bir yer değildi. Burada tam manasıyla bir güçsüzler koleksiyonu olmuştu. Hem de mevcudu bine yakındı. Bir gün bize işe yaramayacak zayıfları seçtirdiler ve bunların altmış kadarını bir akşamüzeri idareme vererek Haymana'ya satılmak üzere gönderdiler. İşte bu hayırlı münasebet (!) ile tam üç gün gayet komik, gayet feci ve gayet seyirlik bir melodram kadar tuhaf bir halde seyahat ederek Haymana'ya vardım. Acı tarafı, bu üç gün yağmur altında ıslana ıslana gittim. Hayvanların her yüz metrede birisini ekiyorduk. Zavallı hayvanların zayıf olanları çabucak yorularak zaten iskelet şekline girdiklerinden takat namına bir şeyleri kalmadığı için mecburen böylece bir tarafta otlamaya, kendi haline terk ediliyordu. Polatlı'ya geldiğimde bunların derilerini de benden istemesinler mi? Hayvan ölmemiş, diri bir halde derisi yüzülsün demek hangi asrın işkencesiydi acaba? Tabii atlatıldı... Sonra yolumuzun her tarafı müthiş muharebelere sahne olmuştu... Buranın manzarası da pek ziyade hissi idi. Henüz buralarda bütün harp enkazı boş bir halde kalmıştı... Velhasıl böylece Haymana'yı da görüp üç gün kadar orada oturduktan sonra tekrar alelacele Polatlı'ya döndüm.
+
+### p. 104
+
+Şimdi hararet derece derece yükseliyordu... Hasılı hastalandım. Bu halimde, çok şükür atlattığım bir vaka daha oldu... Yani bir ikinci Haymana seyahati teklif ettiler. Bundan kurtulur kurtulmaz, yine aynı halde ateşler içerisinde yanarken istatistik yapmaya memur ettiler. Taşçı çekici gibi, önüme gelen yere biz vuruluyorduk. Bu halimde gece yarılarına kadar rakam hesaplarıyla, cetvellerle uğraştık. Bir şey değil kırtasiyeciliğin büsbütün yabancısıydım.
+
+Teşrinievvelin (ekimin) haftasında biz de birlikte Serbaytarlık Dairesi'yle ve karargâhla Polatlı'dan Sivrihisar'a hareket ettik. Artık ordunun ilerlediği yerlerden geçiyor ve yanan yıkılan yerleri yine görüyorduk. Cidden çok feci manzaralar vardı. En hoşuma giden şey tam Beylikköprü'nün yanında Sakarya yakınında oturmaklığımız oldu. Beylikköprü denilen, dünyayı endişelere ve heyecanlara sürükleyen, düşmanın en şiddetli hücumlarına hedef olan, kim bilir kaç yüz insanın öldüğü ve şu Sakarya'ya düştüğü yer işte bu yıkık ve harap köprüydü. Sakarya Nehri, harbin hâlâ rüyasını görür gibi gürleyerek akıyordu. Hayvanlarımızı sulayarak tekrar yola koyulduk. Bir harabe olan Melik Köyü'nde çadırda oturduktan sonra ertesi gün öğleye doğru Sivrihisar'a ulaştık. Sivrihisar'ın yalçın, yüksek ve sivri kayalıkları ta uzaklardan görünür. Nihayet döne dolaşa kasabaya vardık. Artık Anadolu'ya gelip cepheye girdiğimden beri ilk defa şehir yüzü görüyorduk. Bu hal, ne kadar da tesirli oluyor. “Hey gidi Salmanlı Çiftliği, nerelerdesin?” diyordum.
+
+Sivrihisar'a girince bize verilecek evleri, yani oturacağımız yeri bulmak için uğraşmaya başladık. Tam çarşı meydanlığına gelir gelmez herkesin gözlerini havada gördük. Aman Allahım yine düşman tayyaresi gelmemiş mi? Çoktan beridir kurtulmuştuk, yine bizi enseledi. Yine her zaman olduğu gibi aynı bombaları savurduktan
+
+### p. 105
+
+sonra döndü. Eskişehir istikametine def oldu. Nihayet şehrin kenarındaki evimize vardık, yerleştik. Ben Muavin Şevket Bey'le beraber oturacaktım. Nihayet bu zatla gayet iyi bir arkadaşlık yaparak bir ay birlikte oturduk. Topu topu Sivrihisar'da kırk gün kadar oturduk. Sonra buradan Akşehir'e hareket ettik. Ali İhsan Paşa ilk defa buraya gelerek Çay'daki karargâhına gitti ve Birinci Ordu o zaman kuruldu. Sonra Afyon mıntıkasında tertibat güçlendirilerek ağırlık merkezi o tarafa gönderildi ve kuvvetler bu suretle güneye inerek Konya mıntıkasına dayandırıldı. Sivrihisar bize ilk görüşte hoş geldi ise de sonra ufaklığı ve kapanıklığı ve ahalisinin kötü tabiatıyla canımızı sıkmaya başladı. Şehir yalçın ve yüksek kayalıkların eteğinde korkunç manzaralıdır. Güney ufku açıktır. Seyitgazi ve Eskişehir'e yolu olup Biçer'e de bir yolla bağlı istasyonu da burasıdır. Anadolu'da istasyona iskele diyorlar!
+
+Sivrihisar'da son zamana doğru Muavin Şevket Bey binbaşılığa terfi ederek başka bir yere tayin edildi. Bunun üzerine hiç de hatırıma gelmediği ve arzum da cidden olmadığı halde Garp Cephesi serbaytar muavini oldum. Vazifenin külfetine karşılık hiçbir menfaatim yoktu ve bir kıta baytarının benden pek çok rahat yaşadığına emindim; bin can ile kıtaya gitmek istiyordum...
+
+Sivrihisar'dan karargâhla hareket ettikten sonra dört günde Fettahoğlu Köprüsü, Kaldırım, Piribeyli yoluyla Akşehir Gölü'nün doğusundan Akşehir'e geldik. Burası işlek değildir. Buradan Afyon-Konya tren hattının en işlek yolu Sivrihisar, Çandır Köprüsü, Aziziye, Bolvadin, Çay'dır. Çay'dan Konya hattı geçer... Biz bu hatla gitmedik. Bu yol bizim batımızda kaldı... Akşehir, Güney ve Batı Sultan Dağları silsilesiyle çevrili yüksekçe ve hoş manzaralı, güzel bir kasabadır. Tren hattı şehre yarım saat mesafeden geçer. İstasyonla şehir arasında yarım saat kadar süren temiz ve düz, ağaçlıklı güzel bir yol vardır. Bahçeleri
+
+### p. 106
+
+boldur. Burada vişne çok oluyor. Akşehir'den Eğirdir'e, Çay'a, Ilgın'a da uzayıp giden şoseler vardır. Eğirdir'e giderken Sultan Dağları'ndan geçiliyor. Bu yol üzerinde ve Akşehir'den bir saatlik mesafede Bermendet! isminde zatif, bağlı bahçeli bir köy var. Köy, büyükçe olup ahalisi Rum'muş. Kalanları hâlâ mevcuttu. Gerek Akşehir, gerek Bermende ve buralara civar köyler hep dağ silsilesindeki boğazların tam ağzına yapılmıştır. Onun için rüzgârları çok bol ve şiddetli fırtınalar oluyor. Çay ve Ilgın yolları düzdür. Düşman Sakarya Harbi esnasında Akşehir'e yaklaşmış ve Çay'ı bir saat kadar geçmiş. Çay, Akşehir ile Afyonkarahisar arasında ve tren hattına bir saat mesafede bir nahiyedir. O zaman vaziyet itibariyle ordu karargâhı ve mühim bir askeri mıntıka merkeziydi. Bolvadin tam Çay'ın karşısında, fakat tren hattına iki saat kadar mesafede bulunuyor.
+
+Birinci Ordu'dan iki ay kadar sonra kurulan İkinci Ordu'nun merkezi olduğu için buralardan itibaren kuzeye, güneye ve doğuya, batıya doğru müthiş bir askeri yoğunluk vardı. Biz Akşehir'de yerleşmiştik. Ben dairede yatıp kalkıyor ve çalışıyordum. Akşehirliler çok zengin ve müteşebbis insanlardır. Fakat burasının yapılışında berbat hatalar olduğu şüphesizdir. Akşehir uzun müddet mühim bir merkez oldu, ordu ve cephenin uzun zamanlar buradan sevk ve idare edilmesi suretiyle bu şerefe mazhar oldu.
+
+> [!note]+ Footnotes
+> 337 (1921) senesi Türkiye'nin ve Türk ordusunun tesisinde ve takviye edilmesinde en mühim ve en tarihi zaman olmuştur. Bu sene zarfında büyük zaferler kazanılmış ve hiç yoktan çekirdeği kurulan ordu ise ilerleme yolunda en mühim adımları atmıştır. 337 senesi sonlarındayken, ufak bir kuvvet olan Garp Cephesi, iki büyük orduya ve birçok kolorduya, en mühimi kalabalık
+>
+> 41 Günümüzde Konya'nın Akşehir ilçesine bağlı Savaş Köyü (e.n.).
+
+### p. 107
+
+Akşehir'de İsmet Paşa'nın bir sabah gezintisi, 1922
+
+ve muntazam bir süvari kuvvetine sahip bulunuyordu. Vaziyet Sakarya zamanlarından nispet edilemeyecek bir derecede yükselmiş ve kuvvet bulmuştu. Avrupa artık bizim seslerimize kulaklarını tıkamıyor ve dinlemek ister gibi oluyordu. İşte hakkın en büyük temin kuvvetinin yumruk ve mukavemet kuvvetinde olduğu bir kere daha tamamıyla ispat edilmiş oluyordu. Avrupa'nın has temsilcisi olan Yunan ordusu eskisi kadar yüz bulamamaya başlamıştı.
+
+Bizim noksanımız Eskişehir-Afyon hattının elimizde bulunmamasıydı. Hakikaten bu hat bizde olsaydı daha çok kuvvetli görünecek, davamıza daha esaslı bir mürdafaa hazırlamış olacaktık. Bu olamadı ve 338 (1922) senesine girerken de ordu ve memleket gelişme yolunu da zafere kadar takipte ısrar etmeye azmetmiş bulunuyordu. Yalnız bir şey var ki orduda hissedilir bir derecede inzibat tesis edilirken ordunun eski ahlaki saflığını kaybetmekte olduğu da anlaşılıyordu. Çünkü çete kuvvetleriyle ilk önce işe başlanmış ve ordunun ilk nüvesi
+
+> [!note]+ Footnotes
+> Di
+
+### p. 108
+
+bunlardan kurulmuş bulunduğu için bugünün inzibatında artık bunlara alakayla bakılamıyor ve bu yüzden orduya yeni katılanlar ile eskiler arasında belli belirsiz bir soğukluk görülüyordu. Kumanda ellerinde de bu değişiklik vardı ve onlar asıl bu noktayı hissetmemeye başladıkları için zabitlere bir asabi yorgunluk gelmiş, bir bıkkınlık sezilmişti. Eskiler yenilerin hâkimiyetini çekemiyordu. Haklı mı veya haksız mıydılar? Bunu içerisinde olmayan bilmez. İnönüler, Sakaryalar... 337 senesinden sonra bir masal kadar tatlı dinleneceğine şüphe yoktur. Fakat bunların kahramanları ne olacak! Geleceği bilemem, ama bugün unutulmuşlardır. Benim bildiğim ve yakinen gördüğüm ve hissettiğim bir şey varsa, yeniler biraz ordunun asabiyetini bozmuşlardır. Kim bilir, belki de bu hal daha doğrudur. Onu da takdir edenlere bırakmak alakadarlarının işi değil midir?
+
+Gelişme ve bekleme devresinde...
+
+Ağustos 338 (1922)
+
+Bu devrenin hadiseleri, bir sessizlik örtüsü içerisinde geçmiş ve vaziyete aşamalı fakat sağlam gelişmeler bahşetmiştir. Akşehir, bütün memleketin ümitlerinin dayanağı olan Garp kuvvetlerinin merkez noktası olduğu için, zamana ait hadiselerin yaşandığı yer olmuştur. Biz de, buranın bu kuvvete bağlı bir sakini olmaklığımız dolayısıyla, bu yaşananlara yakından vâkıf olmak şerefiyle iftihar ediyorduk. Çok zamanlar muhtelif sanatlarda, çeşit çeşit ziyaretçilerin uğrağı ve mühim müzakerelerin sahnesi olan karargâh, bizim eski Salmanlı hayatına gıpta etmeye layık bir haldeydi. Gün olmuyordu ki, ilginç bir haber, bir ziyaret, bir bekleyiş olmasın! Ve bu haller dokuzuncu aya kadar canımız sıkılmadan zamanın geçmesini sağlamıştır. Burada bir Ramazan, iki bayram ve bir kış ile ilkbaharı geçirdik. Ramazan alıştığımız üzere
+
+### p. 109
+
+ve kabahat bizde olmayarak, kendisini yine hissettirmeden geçti. Bayramlarsa neşeden ziyade elem ve kasvet verdi. Hangi bayramın kimin için geldiğini ne duydum, ne de aradım! Ben kendi zevkime göre tanzim ettiğim, yol kenarındaki güzelce bir evde odamda hem çalışıyor, hem yatıp kalkıyordum. Zaten her yerde, hatta Salman- W'dayken bile böylece kendime göre bir inziva köşesi seçer, tanzım eder ve önüme bazen hiç açmasam bile birkaç kitap da yerleştirir ve bu suretle bana zevk verecek bir muhit hazırlamış olurdum.
+
+Sigarayı çok içmezdim, fakat iki üç defa büsbütün terk etmeyi katiyetle kurdumsa da bu niyetimin gerçekleşmesine hem bazı sonradan ortaya çıkma tabiatlarım, hem de ziyaretçilerimin ve arkadaşlarımın önüne çıkaracak başka bir eğlenti olmaması mâni oldu. Tiryakilik meselesi insanın hayatında hakikaten ilk önce düşünmeye layık bir mesele teşkil eder. Günümüzde sarhoş edici şeyler yasak bulunuyor. Çok kimseler bunun yalnız lafzen olduğunu söylüyorlar. Bazıları da insanların fenalıklardan nispeten uzaklaşmasına sebep olduğundan ve memlekette birçok facianın önüne geçtiğinden bahsediyorlar. Birincisini ben iyiden iyiye anlıyorum. İçki memleketten kalkmamıştır. Var, yapılıyor, satılıyor. Belki birazcık gizli olarak... Hangi şehirlerde hangi muhitlerde bu yasağın hakkıyla, yani elifi elifine uygulandığını henüz ne gördüm ne de biliyorum. Yalnız bazı mutaassıp memleketlerde damıtma aletlerinin ve onlara benzer şeylere varıncaya kadar hepsinin hükümet tarafından toplandığını işittim. Buralarda da sarhoşluk kalkmamış ki. Bizde bir mesele daha vardır: Bizim halk işret masası başına geçince sanki kadeh ve bardakları da yutacakmış gibi içer ve kendini bilmez bir hale girinceye kadar zıkkımlanır. İçmenin de medeni şekli varmış. Bizde, hele Anadolu'da bunu ne gören ne de bilen ve anlayan var. Hakikatte bizdeki içki denilen şeyler çok kuvvetli ve zararlı bir nevi
+
+### p. 110
+
+ispirtolardır. İşte bunlar, bazen aklına ve fikrine hürmet edilegelmekte olanları bile tanınmayacak bir şekle sokuyor ve işte bu hallerinde, bu esasından musibet olan sıvı daha kötü oluyor. Diğer kısmın iddiasına gelince: Bunun doğruluğu tabii ciddi istatistiklerle belli olur. Gerçi içki yüzünden yapılan yolsuzluklar, aklı başında olanlar tarafından da aynen yapıldığı için hakiki neticeye ulaşmak güçtür. Ama bence halkımız her şeyden önce cehalet sarhoşluğundan kurtarılmazsa içkiyi yasaklamak değil, kazık yutturulsa yine uslu oturmaz, bildiğini okur. Her vatan meselesi gibi bu işe de Hıristiyan vatandaşların ellerini uzatmışlardır. Kanun men ediyor. Kimi? Türkleri! Neden? Bu kötü yoldan para kazanmaktan! Şu halde yine o unsur ne yapıyor? İki misli fiyatla da satıyor. Kısacası halka bu kanunun bugüne kadar katiyetle tesir ettiği ve takdir gördüğü inandırıcı bir dereceye gelmediği gibi, memleketin ve milletin hazinesine ettiği fenalıklar ve zararlar da üste caba gibi bir şey oluyor. Kanunun hükmünü derinleştirmeli ve dinlemeli! Yoktan var olacak kadar azamet ve kudret gösteren bir milletin buralara gelince “hınk!” diye duruvermesi abes olmaz mı? Fakat keyif verici maddeler insanların ezeli bir ihtiyacıdır! Çeşidine karışmam, ölçülü olmayı bilirim!
+
+İşte Akşehir'deki hayatımızın kısaca şekli bundan ibaretti. Orada az çok bir vicdani huzur içerisinde hararetle çalışıyorduk. Yalnız bütün derdimi ve elemimi Bursa'dakiler teşkil ediyordu. Onların hayalleri ve vaziyetleri ziyadece üzüyordu. Yardım için son kudretimi sarf ediyordum. Fakat başımızda bir de maaş belası vardı. Bir türlü muntazam alamadığımız maaşlar yüzünden aileme hakkıyla yardım edemedim. Bir zamanlar altı aylık kadar devlet kumbarasında biriktirmiştik! Sağ olsun, sonradan toptan verdi gibi! Bizde bir türlü düzelemeyen şeylerden başlıcası bu meseledir. Elbise bedeli namıyla bir para kabul edildi. Bunun olsun toptan verileceğini ve
+
+### p. 111
+
+bu suretle bir kat elbise bari yapabileceğimizi ümit ediyorduk. Onu da aylığa indirmediler mi?! Elbise bedeli diye bir yahut iki ayda bir -ondan da kesilmek şartıyla— üç dört lira para veriliyor... İşte böylece elbise alacaktık. Herhalde adını şaşırmışlar da böyle koymuşlar! Hasılı bu maaş meseleleri bir aralık en buhranlı devresine bile girmişti!
+
+Gelişme yolundaydık, büyüyorduk. Fakat nedense bir türlü eski alışkanlıkları, eski kötü huyları, kabiliyet bozukluklarını terk edemiyorduk. Hadi kafalar yine o eski kafalar diyelim. Fakat a canım bugünlerin inceliklerini takdirden azıcık olsun nasibini almayanlara niçin hâlâ yer veriliyordu? Heriflerin kafası değil, böylelerinin yalnız fesi alınmış ve yerine koskocaman bir de kalpak geçirilmiş ve görüp göreceği değişiklik de bundan ibaret kalmıştı. Memleketi de, milleti de, Türk'ü de, Türk olmayanı da, askerini de, başıbozuğunu da sıkan, sersem eden, bıktıran bunlar ve bunların muameleleri, düzme, yaldızlı haplarıdır. Ya bu böyle hâlâ da devam edip gidecek mi? Kimlerin tahammülünü kemirecekler ki? İnsan böyle bir zamanda bunları kabul edemeyecek bir hale geliyor. Mesela keçi sakallı bir herif, koltuğunda defter, iki adım ilerisinde memleketin mahvına sebep olacak kudurmuş bir düşmanı, maksadını bildiği ve gördüğü halde, o düşmanın karşısında gövdesini siper etmiş, geride kim bilir kaç kardeş ve daha neler, ne yoksullar bırakmış bir yiğidin yirmi lira aylığından defterin seksen sahifesini karıştırarak seksen hesapla seksen türlü para kesmek için uğraşıyor! Yarabbi ne sabırlı milletmişiz! Cennet öküzü gibi bunlardan gelecek bir lokma hayra, lütfa avuç açıyoruz. Bu adamlara vazife ve kabiliyet idrakini sağlayacak kuvvet yok mu? Varsa nerede? Hele ambar idareleri... Hasılı kırtasiyecilik illetleri hep bizim başımızda! Mamafih canlanıştan sonra hele şimdi gelişmeye doğru bir gidelim bakalım!
+
+### p. 112
+
+Ordu ve memleket emin bir istikbal elde etmek için bütün varlığıyla çalışırken, idare makinesindeki eller maziye can ve gönülden sadakatlerini ibraz için sülük gibi yapışıyorlardı. Sözün kısası gelecekteki hayatın emniyetini sağlamak için çalışanlar, kötü ihtiyatlara sımsıkı sarılmış ve onu daha şimdiden kemirmek kabiliyetini gösteren yok edicilerle her an karşılaşıyorlardı. Askerlikte bugün gördüğümüz harikaları var eden millet; siyasi ve idari kabiliyetinde yine kısır kalıyordu. Kılıcın kazandığını, siyaset ve idare dimağları faydalı bir şekle sokar. Bizde bu sonunculardan hâlâ eser yoktu. Ateşi idare edenler, taarruz emri verenler kılıçlarını kınına sokarak siyaset madrabazlarıyla bir masaya oturuyorlardı. Bunun kadar elim bir hal tasavvur edilebilir mi? Fransızlarla uyuşulmuş, muahede ve hudut meseleleri hallediliyordu. Onlar bize Franklen Buyyom* adlı bir kurnaz herif gönderdiler. Bereket versin karşısına yine başkumandan falan çıktılar da herhalde lehimize çok şeyler kazandık. Adana vilayeti bu sayede geri alınmıştır. Bu mesut hadiselerle ordu bir kat daha kuvvet bulmuştur. İşte Fransızlarla bir antlaşma yaparak bir memleket kazanmak ve daha birçok istifade temin etmek bu devrede elde edilmiştir.
+
+Martta umumi bir taarruz için bütün hazırlıklar yapılmış bulunurken bunu hisseden ve üstünlüğümüzü anlayan müttefikler karşımıza yine mütareke ve sulh diye dikildiler. Heyecanlı müzakerelerden sonra notalar alınıp verildi. Neticede anlaşıldı ki kâfirler topluluğu yine
+
+> [!note]+ Footnotes
+> 42 Henry Franklin-Bouillon: Fransız politikacı ve devlet adamı. Kurtuluş
+>
+> Savaşı sırasında, 9 Ekim 1921'de Ankara'ya gelerek 20 Ekim'de Ankara Antlaşması'nı imzaladı. Ankara Antlaşması ile İtilaf Devletleri Cephesi bozulmuş ve yeni Türk Devleti, Fransa tarafından tanınmıştır. Bu anlaşma sonunda Güney Cephesi'ndeki savaş resmen sona ermiş ve Türkiye'nin güney sınırı belirlenmiştir. Henry Franklin-Bouillon ayrıca Lozan Konferansı'na katılan Fransız heyetinde de yer almıştır (e.n.).
+
+### p. 113
+
+> Süvari Kolordusu manevraları esnasında Mustafa Kemal Paşa'yı bekleyiş. 1922
+
+aleyhimize bir çorap örüyormuş. Derhal ağızlarını bir “hayır!” sesiyle kapadılar! Mustafa Kemal Paşa'nın bir aralık İzmitte okuyarak cihana ilan edilen nutku, vaziyetimizin makullüğünü ve hakkımızın aleniyet ve kuvvetini bütün gücüyle haykırmıştır. Ne yazık ki, yine buna kulak veren olmadı.
+
+Nisanda sefirler önünde Süvari Kolordusu'nun büyük manevraları yapıldı. Bu manevra ordunun elde ettiği kudreti, mükemmelliyeti parlak surette ispat etti. Bu süvari kuvvetinin Umumi Harp'te bile olmadığı o zamanlar çok söylendiydi. Konya bu sıralarda ordunun gerisinde büyük bir depo ve imalathane haline dönüştürülmüş gibi işliyordu. Ve hakikaten gerek Konya ve gerek Adana iaşe buhranlarını hayliden hayliye azaltmıştı. Artık ordu ıslahat ve terbiye itibariyle kusursuz ve mükemmel bir dereceye gelmiş bulunuyordu. Onun için gerilerden gelen sesler, harp sesleriyle karmakarışık çikiyordu.
+
+### p. 114
+
+Hazırlık!
+
+Süvarilerin başkumandan huzurunda manevraları. Başkumandan
+
+Mustafa Kemal Paşa ve Cephe Kumandanı İsmet Paşa, 1922
+
+### p. 115
+
+Yalnız cephe makine gibiydi, herkes iş başında muntazaman işliyor ve sükünetini azametiyle birlikte muhafaza ediyordu. Bir gün fırtınadan evvel gelen durgunluklar gibi sakin ve sessiz susuyordu. Elbet bu sessizliğin bir gün müthiş bir gümbürtüyle bozulacağı açıktı ve her gün anlıyorduk ki bu, günden güne daha mazbut ve daha azimli bir hale giren cephenin karşısında bekleşen ve sabrı tükenen Yunan ordusunun manevi kuvveti berbat bir hale geliyordu. Onlar pekâlâ bildikleri ve bekledikleri fırtınanın bir gün korkunç bir şekilde kopacağını düşünerek her gün biraz daha siperlerini derinleştirmek ve çelikleştirmekle meşgul oluyorlardı. Yaptıkları tahkimatı o hale getirmişlerdi ki İngilizler bile aylarca harple bunların zapt edilemeyeceğini söylüyorlardı. Artık bunu zamanın ne suretle göstereceği kestirilemez!
+
+Milli kalkınma ve Mustafa Kemal Paşa Ağustos 338 (1922)
+
+Bu zamanlara gelinceye kadar milletin kazandığı feyz ve kudreti devrelere ve derecelere ayıracak olursak Anadolu'da Kuva-yi Milliye harekâtının başlangıcı ile bugün arasında iki buçuk senelik bir zamanı, ihtiva ettiği günler kadar, derece ve aylar kadar devreye ayırmak icap eder. Hakikatte bu gelişmenin süratini ölçmek için hangi mantıki ölçü olabilir? Avrupa'nın fenni dimağları, buna ölçü bulamadıkları gibi cins ve mezhep ayırmadan ölüm ve taksim ölçüleriyle memleketin sinirlerini karışlamaya bile başlamış bulunuyorlardı. Onlar, İzmir'de bu gayelerine besmele çekerlerken Erzurum cihetlerinde hayırlı bir besmelenin ulvi sadasını derinden derine, fakat biraz endişeyle işitir gibi olmuşlardı. İşte İzmir'de başlayan ve Türk şehitlerinin kanlarını Akdeniz'e akıtan tüfek sesleri memlekete sanki “hayealelfelah!” diye bağıran bir ikaz sesi olmuş, İzmir ve Erzurum dağlarından
+
+### p. 116
+
+Başkumandan huzurunda teftiş veren süvariler, 1922
+
+kopan heyecanlı uğultular engin Anadolu'nun istiklal sabahını müjdelemiştir. Buradan başlayarak Büyük Millet Meclisi açılıncaya kadar bu teşkilat, birçok tesirler yüzünden karanlık kalmış ve bir şekilde müessir ve payıdar olmuştur. Hatta başlangıçta kendisine belli başlı bir şekil verilememiş ve belirsiz olan bu vaziyeti sebebiyle bir aralık Bolşevikliğe bile benzetilmişti.
+
+Milletin ekserisinin yüreğinin bam teline dokunan Kuva-yi Milliye, başlangıçtaki sessizliğine rağmen ortaya müthiş bir propagandanın çıkmasına da sebep olmuştur ve bu, kendisine iyi neticeler vermiştir. Elindeki kuvvetten ziyade milletin ruhuna yaslana yaslana doğu memleketlerimizde hazır bir gelişme zemini bulan bu teşkilat, gayet takdir görerek milletten kuvvetli bir itiraz çığlığına tesadüf etmeden büyümüş, nemalanmıştır. Ben bu başlangıç zamanlarında biraz Bursa'da ve sonra İstanbul'da bulunuyordum. Bu iki mevkide de ahali üzerinde söylediğim tesirlere şahit olmaktaydım.
+
+### p. 117
+
+Bursa'dan mecburen İstanbul'a döneceğim sırada, İstanbul İngilizler tarafından işgal odildi. Bursa da nispeten düşman tesirinden uzak bulunduğundan ve zaten İngiliz konsolosunu da kovmuş bulunduklarından buna karşı miting yapıldı ve protesto edildiydi! İşte iki gün sonra artık Bursa da resmen Kuva-yi Milliye'ye katılarak İstanbul Hükümeti'nden bağını koparmıştı. Bunu ilan eden beyannameler, Mustafa Kemal Paşa'nın imzasıyla ve Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti namına yazılmıştı. Bu beyannameyle Anadolu'nun idaresine bu cemiyet el koymuş bulunuyordu. Mustafa Kemal Paşa hakiki eseriyle işte buradan başlar. Paşanın bundan sonraki mesaisi müspet bir saha üzerinde görülmüştür. Erzurum ve Sivas kongrelerinde konulan esaslar üzerinde memleketin her tarafında mebus seçimleri olmuş ve bu suretle çalışarak teşkilat icrasına başlanmıştır. Artık bundan sonra İstanbul bütün hükümeti, padişahı ve kuvvetiyle civarından başkasına tesir edemez bir hale gelmiştir.
+
+### p. 118
+
+
+
+> [!note]+ Footnotes
+> Süvari kolordusunun teftişi ve manevraları, Başkumandan Mustafa
+>
+> Kemal tarafından harita üzerinde takip edilirken, 1922
+>
+> Bursa'dan İstanbul'a döner dönmez mektebe giderken akşamüzeri Haydarpaşa vapurunda herkesin ellerindeki gazeteleri büyük bir istekle okuduklarını görünce göz ucuyla baktığım bir gazetenin ilk sayfasında büyük harflerle padişah fetvasının yayımlandığını gördüm. Derhal bir gazete aldım. Bu uzun boylu fetvayı her satırını içimden taşan bir nefret ve isyanla okudum. Bu fetva Anadolu teşkilatına başlayanları her kelimesiyle idama mahküm ve milleti bunlara karşı isyana teşvik ediyordu. Hoca Efendi hem kendisi soruyor, hem de kimsenin bunlara cevap vermeyeceğini iyice bilmiş olmalı ki, yine kendisi cevap veriyordu! “Padişahına, dinine hıyanet için is-
+
+### p. 119
+
+yan eden bir güruhu teşvik edenlerin, bu küfürbazların katli caiz olur mu?” Cevap olarak, “Allahü âlem olur l» imiş... Behey sarmısak kafalı herif, sen çok okuduğun eshab-ı kehfe benzemişsin! Bu herzeleri bundan on asır evvel yumurtlamış olsaydın belki her zaman olduğu gibi milleti kandırabilirdin. Heyhat ki bu İngiliz paralarıyla din fetvası yazanların sözlerine birkaç serseriden başka aldıran bile olmadı.
+
+Millete asıl fetvayı kalplerinin, dimağlarının, tecrübelerinin mahsulleri vermiş bulunuyordu. Anadolu'nun günden güne büyüyen ve tesirini esrarengiz propagandalarla gösteren füsunkâr teşkilatı emellerine yaklaşmaya
+
+### p. 120
+
+başlarken İstanbul'un nankör hükümdarı her gün Papaz Fru'sunun#3 telkinlerine daha sıkı sarılıyor, Damat Ferit'ler, Anzavurlar ve saire gibi kendi emellerine can ve gönülden alet olacak kötü tabiatlı mahlukları bütün Türklüğe ve bütün Türk milletine musallat ederek Türk varlığını söndürmeye kendini veriyordu. Hasılı üç sene zarfında Türk'ü Türk'e kırdırmak için Anzavur kuvvetleri, Kuva-yi İnzibatiye, daha sonra Hendek, Bolu, Konya, Yozgat ve diğer isyanları teşvik ve Sevr Muahedesi gibi devletin tamamen mahvını gerekli bulan bir ihanet vesikasını da imza etmişlerdi. Evet, bugünlere gelinceye kadar İngiliz ceberutu bu İstanbul heyulası hükümetine yaptırmadık hainlik ve kötülük bırakmadı. Yunan ordusuna, bu Anadolu'yu ve Türk'ü mahva azmeden eşkıya sürüsüne bile hilafet ordusu dedirttiler. Milletin namusu, dinin şeref ve izzeti bu Türk ve Müslüman tarihinin ebediyen lanetleyeceği iğrenç adamlar vasıtasıyla horlandı. Hakikatte milletin bütün münevverleri ve halkın pek mühim ekseriyeti manen ve maddeten Anadolu teşkilatına bağlı bulunuyor ve bütün gönlüyle onun var olmasına, zaferine dua ediyordu. Memleket düşmanlarının kurduğu tuzaklar ve çıkarttığı hezeyanlar tamamen mahvedilmiş ve bastırılmış, teşkilat ise günden güne güçlenmişti. 336 (1920) senesinin 23 Nisanı'nda milli payıtaht Ankara'da Büyük Millet Meclisi fiilen açılmış ve memleketi idareye başlamıştır. İşte açılış tarihinde bütün medeniyet âleminin ekserisi tarafından “Haydut çetesi” diye kabul edilip anılan Milli Hükümet bugün, yani iki buçuk sene sonra bütün azamet ve kudretiyle ortaya çıkmaya fırsat bulduğu gibi, büyük devletlerden birkaçının teşvikine bile mazhar olmuş oluyor.
+
+Zaman, insanlara gerek ferdi olsun ve gerek toplu bir şekilde, mesela milli bir kitle halinde olsun ne garip
+
+> [!note]+ Footnotes
+> 43 Papaz Frew: Milli Mücadele döneminde İngiliz istihbaratı adına çalı-
+>
+> şan İngiliz ajanı ve misyoner (e.n.).
+
+### p. 121
+
+cilvelerle değişimler gösterir ve işte mesela Türk milliyetperverleri şimdi çetelikten çıkmış, Ankara Hükümeti, Türk Hükümeti namlarını almış, sefirler göndermiş ve sefirler kabul etmiş bir haldedir. Anadolu milli hareketi, Avrupa'nın yüz sene sonraki halini düşünüp derin planlarla hükümeti idare eden mahir diplomatlarını şaşırtmış, onları hiç ummadıkları bir heybet ve hüsrana düşürmüştür. Ben, ne kadar derin siyasi olursa olsun, elbette yanılacaklarına ve elbette bizim bu halimizi hoş görmeyeceklerine emin olduğum Avrupa'nın devletin ileri gelenlerine değil, kendi kanımızdan, kendi toprağımızdan yetişip de kendimizin ne mal, ne adamlar oldugunu pekâlâ bildikleri ve şu neticeleri gördükleri, derin derin tetkikleri ve düşünceleriyle akıllarının hiç şüphesiz pek çoklarından daha doğru gördüklerine şüphe etmediğim birçok bozguncuların haline ve ısrarlarına şaşıyorum. Kırk yıllık Yani, Kâni olmaz.
+
+Biz de biliyoruz ki şu bedbaht felaketten kurtulmak nasibi, gözünü açabilmek kısmeti olmayan şu memleketin, şu milletin birçok noksanları, kötülükleri, medeniyetsizlikleri, ilimsizlikleri, daha daha hasılı her nevi tehlikeli illetlerden birazı var. Kusurları çok. Fakat “A birader, dirisinden hayır görmezken, bu halde onun ölmesi acaba kimseyi zarara uğratmasa bile sana, bana zarar vermez mi” desem! Haydi farz edelim ki kozmopolit efendi; diyelim ki Türk devleti öldü... Ya Türk milletini ne yapacağız? Bu millete yarın, dost ve düşman “Ey asırlarca yaşamayıp sürünen hakir devletin değişmeyen sahipleri, ey ehliyetsizler!” demeyecekler mi? Buna aklın ermezse Anadolu'yu işgal için zulüm çeşitleri yaratan Yunan ordusunun zaferini sinsi sinsi alkışlayan ve gözlerine kadar maviye batmış dostum Karamanlı Hıristo'nun sana üstü kapalı anlatmak istediklerini azıcık olsun dinleyivermeni bilhassa tavsiye ederim. Devletlerin yok oluşu hukuken de inkâr edilemez. Fakat yok
+
+> [!note]+ Footnotes
+> bei
+
+### p. 122
+
+olmuş milletleri ne tarih, ne de hukuk kitapları yazıyor. Hukuk eserleri, milletlerin daima hatalarda ve mahvoluşlarda kabahatli olmadığını yazıyor. Yarın mandanın birisi ülkeni sahiplenerek, yani resmen yok oluşunu ilan ederek milliyetinin alnına bir “yaşamaya liyakatsiz, ehliyetsiz” damgasını vurdu mu, ondan sonra sen istediğin kadar İngiliz'e, Şeyhülislam Mustafa Sabri Hoca beyinsizi gibi “İngiltere hükümeti bu memlekette kendisine kalben dost ve bağlı olan bir zümrenin olsun hatırını saymayacak mı?” diye harıl harıl bağır, ağla! Bak para eder mi?! Bugün küçük gördüğün Çingenelik yok mu, işte Türklükten sıyrılmak için o zaman sana Çeribaşı bile Çingene pasaportu vermeye tenezzül etmez. O zaman sana ne Agop dost, ne de Yorgi ahbap olur. Rahip Frwların alimallah eteğinin gölgesini bile göremezsin! Hasılı, sana yine “Türk!” diyecekler.
+
+Onun için en iyisi sen bir defa şu Türklüğü tapuyla asli mal kaydet ondan sonra ister muvafık ol, istersen muhalif! Hatta daima muhalif olmanı ben de arzu ederim. Samimiyetle şu memleketin, kendimizin ne kadar soysuzluğumuz, alçaklığımız, kötülüğümüz varsa bütün belagatinle haykır, fiili olarak iyi yollar göster. Senin fikrini hemen kabul edivermeyenleri lanetleyip kâfir sayma. Yalnız şunu da bil ki dünyada içli dışlı bugün şu kanun hüküm sürüyor: Hak kuvvetlinindir... Sen de kuvvet sahibi olmaya çalış!
+
+**Elverirki ırkının selameti, varlığın PL düşün- ce, bunlar mevzubahis me birleş! Yadırgama! Bu-**
+
+gün bu kudrete sahip olan bu millet ve halk hükümeti bütün mahiyetiyle bu mefhuma sadık mıdır? Şüphesiz ki hayır! Elbette bin kere hayır! Bu bir inkılap şeklidir. Bunu, bundan sonra hakikileştirecek yine senin benim
+
+> [!note]+ Footnotes
+> 44 Mustafa Sabri Efendi: İngiliz himayeciliğini ve mandacılığı savunan
+>
+> İngiliz Muhipleri Cemiyeti'nin kurucuları arasında yer alan şeyhülislam (e.n.).
+
+### p. 123
+
+muhalefetimiz olacak! Evet efendimciliği, kavuk sallamayı terk ettiler mi, kurtuluşa ve yükselmeye doğru gidiyoruz demektir. Mesela vatanımız memleketimiz ne zümrüdi, lalezarmış! Buna inanma! Gözlerinle görüyorsun ki ortaçağdan bir örnektir. Yalnız şu kadar var ki bu haliyle, bu halkıyla bu memlekete, söz meclisten dışarı, Isviçre'yi kaldırıp semalardan naklen buraya indirsen burasını derhal yadırgar, verem olur, ölür. Demek bu da yavaş yavaş olacak! Askerlere soruyorlardı: “Hangi millettensin?” “Türk” diyen pek azdı. Kimi Müslüman, kimi Osmanlı (buna şimdi pek yanaşan yok ya!), kimi Ebu Hanife (?), bazısı adını işitmediğim, vücudu, ismi olmayan milletlerden dediler! İşte, bugün harp edip muzaffer olan milletin gürbüz evlatlarındaki fikri malumat! Bu kimin kabahati, kimin marifeti? Bu sıralarda birisi de şu haklı mütalaayı ileri sürdü: “Millete bir zaman Osmanlısın, bir zaman İslam milletindensin, bir zaman Hanefi milletindensin dedik, öğrettik. Zavallıların şimdi büsbütün zihinleri perişan oldu, ne olduklarını şaşırdılar...” Bu mütalaayı canıgönülden kabul ettim. Demek ki biz münevverler bu vatanı çorak topraklara çeviriyormuşuz! Şu halde artık bismillah deyip halka şeklini, şemalini, aslını, nesini, anlatmaktan başlamalı, onun kafasıyla birlikte de vatanı ve memleketi yükseltmenin hal çaresini bulmalıyız!
+
+Münevverlere gelince: Vallahilazim Atina rüştiyesinden mezun bir kirye, iki kırık Türkçe telaffuzuyla Türk yüksek mektebinden diplomalı bir gence tercihan kazanç sahasında başarıyla iş görüyor. Biz memuriyet kapılarında üç ayda bir verilen 20-30 lira maaşa el avuç açarken bu kiryeler günde bizim maaşımızdan fazla para kazanıyorlar. İşte bu bizim memlekette, yani Türk memleketinde oynanan hayat facialarının iç yüzüdür. Biz beşikten itibaren memuriyet kademelerinin hülyasıyla büyütülüyoruz. Hâlâ annelerimiz, “Ninni oğlum
+
+> [!note]+ Footnotes
+> Li)
+
+### p. 124
+
+paşa olacak!” diye neslimizin fikri inancını çürütüyor. Türkiye'de ticaret revaç bulmuyormuş! Neden? Çünkü kapıları yabancıların elinde! Anadolu rençperi bir senelik alınteriyle kazandığını verdiği halde yine Agop'a, Avram'a borçlu kalıyor. Halk hükümetine akıl öğretmeli, akıl! Her işi ihtisas sahiplerinin eline terk etmek zamanı gelmiştir. Mirliva Hasan Paşa hazretleri (!) ticaret vekili, ticaret murahhası olamayacağını gözüne aldırmalı! Hani bizim işçi kuvvetlerimiz, sendikalarımız, sermayedarların kontrol kuvvetleri. Hani maarif ordularımız! İlkokul muallimlerimiz ve umumiyetle muallim zümresi bugün aç değil mi? Onun için yeni başladığımız ve bugün kadir bir hale gelen Türkiye Halk Hükümetimiz, beylik laflardan ziyade faydalı işleri uygulama mevkiine koymakta gecikmemelidir.
+
+Ah Anadolu yolları; bu harplerde tamamıyla anladık: Ne perişan! Yol vergisi veren köylü, en basit kağnısını bile yürütecek yol bulamıyor. Hâlâ bunları yoluna koymaya başlamıyoruz. Sulh olsun da ondan sonra yapılacakmış! Demek ki harbin bize çok zararı var. Öyleyse harp etmeyelim. Her ne sebep olursa olsun bundan sonra harp etmeyelim, sulh hükümetleri yapalım. Meseleyi harbe kadar sürükleyen hükümet, derhal, derhal mevkiini başkasına devredip düşmeli! Bugün memleketimizin idaresinin başında pek haklı olarak Mustafa Kemal Paşa bulunuyor. Bu zat bir ölümsüz abidedir. Türkiye'nin üçüncü ihya edenidir. Fakat bugün kurtulan Türkiye Osman ve Çelebi devirlerinde kurtulan ve kurtarılan vaziyetten bambaşka bir şekildedir. Bu kurtuluşun mümessili bu zat dedik. Bugüne kadar Mustafa Kemal Paşa'nın idare hususlarında gösterdiği kabiliyet bize mesut bir gelecek vaat eden has bir kuvvettir. Ta, Büyük Millet Meclisi'nin açılış gününde söylediği nutuktan tutarak Sakarya'dan evvel, Sakarya'dan sonra ve sene sonlarında meclisteki beyanatını okuyacak olursak
+
+### p. 125
+
+kendisinde yüksek bir keşif mantığı olduğunu şükranla görürüz. Bu zattan başka milletin idaresinin başına geçirilecek kişilerin olması muhtemeldir. Fakat Erzurum ve Sivas kongrelerinde ne gibi bir kudret göstererek riyaset makamını işgal ettiğini bilemediğim için ancak derim ki: Mustafa Kemal Paşa kendisini millete hissettireliden beri sözlü ve fili olarak millet ve memleketin halinin ve hislerinin tercümanı olmuş, milli ihtiyaçları kati azimlilikle gidermek için milletin arzusu üzere hareket etmiştir. Bunu gücümüzün yettiği kadar görebildiğimiz aleni işlerle ispat edilmiş bir şekilde görüyoruz. Bugüne kadar bu böyle olmuştur. Ve bütün samimiyetimizle ümit edelim ki bundan sonra da memleket ve millet bu sayede kati zafere ulaşır da sağlam bir sulhla memleketin idari esaslarını ıslah için gayet kati çareler bulur ve kanunlar koyar.
+
+Bir hükümet adamı, özellikle zamanın tesirleriyle sivrilmiş ve etrafında alkışlardan haşmetli duvarlar örülmüş bir başbuğ ne kadar mütevazı hareket eder ve halk ve hükümetin haklarıyla ve kanunlarıyla ne kadar sürekli olarak karşılaşırsa o millet, idare makinesine o derece itimatla bakar. Gazi Paşa arzularını has neticelere sağlam bağlarla bağladığı için onun beyanatından bu millet geleceği daha emniyetle tahayyül edebiliyor. Onun her yerde, her söylediği söz milletin işittiği hakikate en yakın bir belagat olarak kabul ediliyor. Bu millet çok parlak nutuklar, çok derin ve güven veren tenkitler dinledi ve dinleye dinleye de bıktı. Bu seferki inancının, bu nutukları füli başarılarla süsleyen bir kudrete karşı olduğuna şüphe edilmemelidir. Arapların dediği gibi, tecrübe edilen bir şeyin tekrarı pişmanlıkla neticelenir. Ve onun için biz de inancımıza çok kıskanç bir hisle sarılmalı ve hissiyatımıza artık mağlup olmamalıyız. Zaten bugünkü mesele de bundan ibarettir. Millet yaldızlı hap yutmuyor!
+
+### p. 126
+
+Kemal Paşa'ya ait cümlelerin etrafında sahte markalı imalat da var. Fakat karnımızı doyurmuyor ki! Bu millet şimdiye kadar harp başlangıcı, teşkilat esasları, emniyet tertibatı, harp ortası ve kuvvete doğru yükseliş devrelerini gördü. İdare ve sulh hakkında bir şeye şahit olmamıştır. Halbuki asıl istediklerimiz bunlara dair başarılardır. Bunun için de herkesçe itaat edilen bir kanun hükümeti olmak lazımdır. Zamanımızda bir belediye süpürgecisi ile bir belediye reisi mahkemede karşı karşıya gelmişler midir? “İşte şu çal...(dı)!” diyemiyor ki! Derhal bir sille, bir tekme, herif ne avukat tutabiliyor, ne de bir yerde kabul görebiliyor. Bu devirlerin geçmesini çok istiyoruz, çok”.
+
+Adamın birisi öküzünü kaybetmiş. Dağ taş, dere tepe aramış bulamamış. Elinde bir kemençe, neşe ve keyif içerisinde bir tepeye koşarken görmüşler... Sormuşlar:
+
+— Böyle nereye koşuyorsun?
+
+— Öküzüm kayboldu, arıyorum, demiş.
+
+— Kaybolan öküz kemençeyle mi aranır?
+
+İnsan ümitsizliğe düşünce ruhu matemlenir, derler. Bu safdillere laf anlatmak için parmağıyla ta uzağı işaret ederek der ki:
+
+— Bir şu tepede ümidim var. Oraya varır da onu bulamazsam siz gelin de beni orada görün.
+
+Hasılı şu adamcağız bizimle dert itibariyle denktir. Bizim de bu sefer bir ümidimiz var! Allah kötü akıbetlerden saklasın!
+
+### p. 127
+
+**Büyük Zafer...**
+
+İzmir 25 Eylül 338 (1922)
+
+Izmir'deyiz! Geleli iki üç gün oluyor. Siz bizim hesabımıza bakmayın; ordu İzmir'i 9 Eylül'de fethetmiştir. 26 Ağustos'ta başlayan zafer taarruzu bu tarihte kati netice vererek bitmiştir. Bu zaferle memleket düşman çamurundan, düşman gölgesinden kurtulmuştur. Şimdi öz vatan, hafif yangın dumanları, harabe yığınları arasında zahmet ve işkence günlerinin arkasından gelen düğün günlerindeki gibi derin sevincini, ezeli hasretlerinin yaşlı sarmaşmalarını hıçkırıklarının dermansız sarsıntılarıyla idrak ediyor! Düşmanın, yani Yunan'ın üç senedir haşin çizmeleriyle çiğnediği kıymetli topraklar, bugün çoğu bir enkaz halinde kurtulmuş ve elimize geçmiş bulunuyor. Sakarya'dan sonra tam bir sene süren bekleyiş ve gelişme devresinden sonra ordu, karşısına gerilen çelik kadar sert ve amansız zincirlere atılarak bu engeli kırmış ve on beş gün kadar çok az bir zaman içerisinde kilometrelerle geniş toprakları kurtarmıştır.
+
+Tarihin hiç şüphesiz pek eşsiz bulacağı bu zafer hakkındaki müşahede ve duygularımı mümkün olabildiği kadar tespit ederek anlatayım:
+
+338 senesinin Ağustos'unu Akşehir'de Garp Cephesi Karargâhı'nda can sıkıntısı içerisinde geçiriyorduk. Geceli gündüzlü mesai içerisinde Akşehir'de tam dokuz ay bir hafta kadar zaman geçirdik. Gerçi günler faaliyet ve heyecanlı bir bekleyiş içerisinde insana o kadar
+
+### p. 128
+
+
+
+> [!note]+ Footnotes
+> İzmir'in kurtuluşu günü, 9 Eylül 1922. Hükümetönü'nde halkın
+>
+> Mustafa Kemal Paşa'yı bekleyişi
+
+### p. 129
+
+kasvet vermiyordu. Lakin zamanın bu uzayan bekleyişi, artık ruhlarda derin ve sıkıntı veren eserlerini göstermeye başlamış bulunuyordu. Mart ve nisan aylarında mütareke haberleri ve büyük manevralar ordunun lazım gelen kabiliyeti kazandığını göstermişti. İşte bu faaliyetin herhalde ulaşacağı neticeye bir an evvel varmak endişesi asabımızı üzmekteydi. Kuvvetimiz çoğalmış, teşkilatımız genişlemiş, silah, mühimmat, top ve tayyare oldukça tamamlanmıştı. Bu sessizlik büyük fırtınanın geleceğini açıkça işaret ediyordu. Akşehir, Konya, Ankara arasında başkumandanın uzun teftişleri, Rus sefirleri, Fransız murahhasları ve İngiliz misafirleriyle müzakere ve münakaşaları, bir taraftan kuvvetli bir sulh talebini gösteren beyanatı sonuçlandırırken Millet Meclisi'nde istenilen sulhu elde etmek için orduya itimat edilebileceğini de zikretmekten geri kalmıyordu. Sulh perisi hâlâ cilvelenmekte devam ediyordu.
+
+Ağustos ortasında ordular teftiş edilmiş ve kumandanlar toplu bir halde Akşehi"'e birikmişti. Akşehir'de oynanan bir futbol oyunu bu vesileyi hazırlamıştı. O gece İsmet Paşa'nın odasında bütün yetkili kumanda heyeti, başlarının karşısında sabaha kadar konuştular. İşte taarruzun umumi planları herhalde bu akşam orada yapılmış olsa gerek. Zaten başkumandanın ve Erkân-ı Harbiye-i Umumiye reisinin*5 bütün karargâhı Akşehir'de bulunuyordu. Bu büyük toplantı bitince etrafta harp dedikoduları elbette çoğaldı. Fakat bir gün sonra başkumandanın ve diğerlerinin derhal Ankara'ya döndüklerini gördük. Bunu görünce tabii harp ihtimalinin suya düştüğünü anladık. Yine bekleme devresine gireceğimizi düşündük. Çünkü harp olması durumunda mutlaka kumanda heyeti karargâhta bulunurdu. İşte bu sönmek üzere olan ümit birdenbire ani bir alevle ışılda-
+
+> [!note]+ Footnotes
+> 45 Dönemin Erkân-ı Harbiye-i Umumiye Reisi (Genelkurmay Başkanı)
+>
+> Fevzi Çakmak (e.n.).
+
+### p. 130
+
+Garp cephesi karargâhının bulunduğu Akşehir'de askerler arasında futbol müsabakası düzenlendi. Bu müsabakayı izleme bahanesiyle Akşehir'de toplanan kumandanlar, gece sabaha kadar taarruz planları yapmışlardı. 1- Birinci Ordu
+
+> [!note]+ Footnotes
+> Kumandanı Nureddin Paşa 2- Garp Cephesi Kumandanı İsmet Paşa 3- İkinci Ordu Kumandanı Yakup Şevki Paşa 4- Başkumandan Mustafa Kemal Paşa
+>
+> 5- Erkân-ı Harbiye-i Umumiye Reisi Fevzi Paşa 6- V. Kolordu Kumandanı Fahrettin Paşa.
+>
+> dı. 20 Ağustos'ta başkumandanın Konya'ya geldiğini ve bu akşam Akşehir'e geleceğini, Fevzi Paşa'nın da bütün karargâhıyla birlikte gelmek üzere olduğunu işittik. Hakikaten hepsi bir gün sonra Akşehir'e gelmiş ve yerleşmiş bulunuyorlardı. Bir gün sonra karargâh harp tertibatı hakkında bir emirname yayınladı. İşte ilk defa doğru ve kati olarak harpten böylece haberdar olabildik.
+>
+> Ankara'nın 21 (Ağustos| tarihli gazeteleri başkumandanın köşkünde bir çay ziyafeti verdiğinden bahsediyordu. Halbuki kendisi o gün, hatta bir gün evvel bizim karargâhtaydı. Tabii bu da bir şaşırtma hareketiydi.
+
+### p. 131
+
+Mesele fevkalade gizli tutuluyordu. Karargâhın yaptığı tertibat üzerine 24 Ağustos'ta harp kademesi ve Başkumandanlık, Şuhut ilerisinde Kocatepe'ye gidecekler ve ikinci ikmal kademesi Çay'da bulunacaktı. Biz ikinci kademede kalmıştık. Buna çok canım sıkıldı. Neyse harp kademesi hareket etti ve gitti. Bir gün sonra da biz trenle Akşehir?'den Çay'a geldik ve kasabanın doğusunda, ağaçlıklar arasında çadırlı ordugâh kurduk. Çay'a gece inmiştik. O akşam yolda Şuhut civarına giden ve kuzeyden inen bir alaya rastladık. Çay'a geldiğimizin sabahı harp başlayacaktı. Halbuki bu harpten belki zerre kadar haberi olmadığı kuvvetle muhtemel olan düşman ne taarruzdan, ne de taarruz noktasından haberdardı. Mesele hem gizli kalmış ve hem de mühim şaşırtma hareketleri yapılmıştı. Düşman taarruz edecek bir halde olmadığından taarruz edeceğimizi takdir ediyordu. Zamanı ve mevkii ise bilmiyordu. Harbin en mühim noktası ise buydu.
+
+### p. 132
+
+Fevzi Paşa tarafından LI. Kolordu topçularının teftişi, 1922
+
+Bundan on beş gün evvel bir ufak süvari kuvveti tarafından Denizli, Burhaniye civarında bir baskın yapılmış ve başarılı olunmuştu. Biraz sonra Kocaeli cephesinden, yani Bilecik civarından bir ufak baskın yapıldı. Tabii buraları zayıf noktalardı. Halbuki bütün kuvvetler Afyonkarahisar batısında yoğunlaştırılmış ve burada umumi taarruza hazırlanmıştı. Bu hazırlıklarsa hep gece ve pek az zamanda yapılmıştı. Nihayet hakiki taarruz Çay'a geldiğimizin sabahı, yani 26 Ağustos 338 sabahı şafakla beraber başlayacaktı. Çay'la taarruz mıntıkası arasında 30-40 kilometrelik bir mesafe vardı. Harp kademesiyle irtibatımız mevcutsa da faaliyetin fevkaladeliği dolayısıyla havadis alamıyorduk. Öğleye doğru top sesleri işittik. Fakat bu sesler çok az ve devamsız geldi. Heyecanımız fevkaladeydi. Ara sıra telefonla haber alabiliyorsak da taarruz hakkında umumi bir malumat geliyordu. Ah, Kocatepe'de olsaydık, oradan bütün harp sahası gözüküyordu. O gün akşama kadar vaziyet hakkında hakiki malumat alamadık. Ertesi gün akşamı Afyonkarahisar'ın düştüğünü ve düşman cephesinin yarıldığını haber alarak sevindik. Bir gün sonra harp
+
+### p. 133
+
+> le Fevzi Paşa'nın II. Piyade Kolordusu'nu teftişi, 1922
+
+karargâhı Afyon'a hareket etti ve Şuhut cephesi de istikamet değiştirdi. Bu cephede harp devam ederken bir taraftan da Eskişehir ve Seyitgazi-Kütahya cephesinde ve Kocaeli mıntıkasında işgal muharebeleri yapılıyordu.
+
+Vaziyetimizin merkezi olması münasebetiyle gerek telefon ve gerek telsiz telgrafımız vasıtasıyla öteden beriden havadis almaya başlamıştık. Hasılı Afyon cephesinde muharebe lehimize gelişe gelişe beş gün şiddetle devam etti. Karargâh ilerleyince biz de hemen Afyonkarahisar'a hareket ettik. Artık kurtulan memleketlere giriyorduk. Afyon'da belediye dairesine indik. Bizden evvelki harp kademesi de bir gün evvel buradan gitmiş. Afyon alınalı dört gün oluyor. Çay'dan Afyon'a posta kamyonuyla geldim. Tren hattı bozuk olduğundan nakliyat tamamen karadan yapılıyordu. Sonra buradan itibaren bizim ikinci kadememizin “muhteşem” karargâhında ne intizam, ne baş, ne kuyruk olduğu anlaşıldı. Bir hareket olduğunda herkesin çaresiz kendi başının çaresine bakacağı belliydi. Başını sokacak bir delik, kendini taşıyacak bir vasıta bulan derhal, sorgusuz sualsiz yola revan oluyor. Allah selamet versin. İkinci reisin yaveri de bizim hem-
+
+### p. 134
+
+Dumlupınar İstasyonu'nda Yunanlıların bıraktığı mermiyatın bir miktarı
+
+şeriydi. Bundan başka bir de şifreci hemşeri vardı. Biz üç Bursalı iyi anlaşırdık. Yalnız Allahlık yaver bizi ara sıra kızdırıyordu. Çünkü tertipleyen olması lazım gelen bu zat intizam tertibine yanaşmıyordu. Kamyonda birkaç arkadaşla Afyon'a giriyorduk...
+
+Yolu az arızalı bir ovadan geçiyordu. Afyon'a yaklaşırken üç sıra tel örgü ve birçok muntazam siperden geçtik. Afyon bana çok hazin ve munis manzaralı göründü. Abideye benzer iri taş tepeler altında toprak renkli evleriyle ovaya doğru inen bu zarifçe kasaba, işkenceden kurtulmuş, fakat hummalı hayaller içerisinde sessiz ve sakin bir öksüze benziyordu. Bu kasaba bir seneden beri bizim siperlerimize karşıdan boynu bükük bakmış, yâd ellerde esir kalmış bir sevgiliydi. Afyon'un güney kısmına isabet eden birçok ev ve hükümet civarı yanmıştı. Oturduğumuz belediye dairesi güzelce bir binaydı. Gezmek için istasyon civarına indik. Birbirinden biraz uzakça iki istasyon binası vardı —ki birisine İstanbul, birisine de İzmir istasyonu diyorlar. Muntazam olduğu anlaşılan bu binalar dahi yanmış ve harap olmuştu. Düşman istasyon civarında bir muhasara topu terk etmişti. Afyon'a
+
+### p. 135
+
+Dumlupınar'da esir edilen iki Yunan generali ve bir süvari zabiti
+
+geldiğimizden bir gün sonra şehirde ahali büyük bir miting yaptı. Tekbirlerle şehri dolaştılar. Bu manzara cidden hazindi.
+
+Afyon'da havadis kaynakları daha kuvvetlendi. Artık İzmir'e doğru ilerleyen ordudan olsun, kuzey gruplarından olsun, her türlü raporlar ve haberler geliyordu. Şimdi beş gün devam eden Afyon ve Dumlupınar muharebeleri bitmiş ve düşman kuvvetleri tamamıyla perişan olmuştu. 31 Ağustos'ta Uşak doğusunda Başkumandan Muharebesi denilen son ve kati bir muharebe yapıldığı ve bu suretle artık düşmanın kesin hezimete uğratıldığı Kumandanlık”ın tamimiyle anlaşıldı. Esir, mühimmat ve ganimet miktarı pek fazlaydı.
+
+Afyon'dayken ilk esir kafilesi geldi. Bunlar arasında fırka kumandanları, generaller vardı. Merkez Kumandanlığı'na giderek 30-40 kadar esir zabit gördük ve Türkçe bilenleriyle görüştük. Bunlar bize taarruzdan katiyen haberdar olmadıklarını söylediler ve kendilerinin Toklu Sivrisi'nde aniden kuşatılarak esir olduklarını, erlerimizin ve toplarımızın çokluğunu anlattılar. Uğursuz herifler güya intikam alırcasına bize Sakarya'dan ve bu harbin
+
+### p. 136
+
+de Sakarya gibi bu sefer kendi mağlubiyetlerinden bahsettiler. Biz ise Sakarya'daki vaziyetimiz ile onların o zamanki kaplumbağa yürüyüşlerine bizim şimdiki şiddetli ve seri ileri harekâtımızın kıyas kabul etmediğini, ordularının tamamıyla mahvolduğunu, birçok generallerinin ve ordu kumandanlarının ve hatta son defa Hacıanestis'in yerine tayin edilen Başkumandan Trikupis'in dahi esir olduğunu söylediğimiz zaman kederli ve donuk gözlerle bakakaldılar. Eskişehir kuvvetlerinin ne olduğunu bize sordular. Onların da mağluben Bursa'ya çekilmekte olduklarını ve yakında hepsinin teslim olacağını söyledik. Bu hallerine sebep olanlarına lanet ettiler.
+
+Artık Uşak da zapt edilmiş ve orduya, düşmanı İzmir'e doğru süratle takip emri verilmişti. Başkumandanın orduya ve halka hitaben neşrettiği emirnameler geldi. Başkumandan orduya, “Askerler, ilk hedefimiz Akdeniz'dir, ileri!” emri veriyor ve millete de ordunun, milli emelleri pek yakında katiyetle elde edeceğini vaatle orduların yaptıkları harplerdeki azamet ve asaleti takdir edip yüceltiyordu.
+
+Her taraftan kumandanlara tebrik ve takdir telgrafları yağıyor ve dualar ediliyordu. Bizim harp karargâhı Uşak'ın işgalinden sonra Eşme'ye hareket etmişti. Bu seri ilerleme cidden hayret vericiydi. Kuzey grubunda ise Eskişehir ve Kütahya alınmış ve Bursa'ya doğru ileri harekâtı başlamıştı. Afyon'dayken Bursa cephesinde bulunan bir süvari fırkasına katılmak üzere hareket edecek bir arkadaşla Bursa'ya ayak üzerinde bir ufak kâğıt yazdım. Arkadaş bunu Bursa'ya girer girmez, pederi bulup vereceğini vaat ederek gitti. Zavallı Bursa, kim bilir bu zaferlerden haberi var mıdır? Hiç zannetmem ki olsun... Çünkü biz bile muzaffer olduğumuz halde Başkumandanlık'ın emriyle taarruz başlangıcından beri bütün Anadolu'nun dışarıyla temasını men etmiştik. Yani Anadolu'dan dışarıya on gün müddetle hiçbir
+
+### p. 137
+
+nakliyat ve haberleşme yapılmayacak ve süküt muhafaza edilecekti. Hakikaten resmi tebliğler bile gayet kısa ve kati cümlelerle bitiyor ve tafsilat ise şifrelerle mühim makamlara gönderiliyordu. Bununla birlikte bizim karargâhtakiler bütün olan biteni tafsilatıyla okuyor ve anlıyordu. Uşak'ın kurtarılmasından sonra elimize geçen bir İstanbul gazetesi ağustos bittiği halde bile taarruzdan kati malumat vermiyordu. Sonra tabii hepsini birden anladılar ve sevindiler.
+
+Eylülün haftasına doğru karargâh Afyon'dan trenle hareket ederek Oturak İstasyonu'na geldi. Geldiğimiz tren ilk seferi yapıyordu ve bununla yalnız biz geliyorduk. Demiryollarının ne derece emniyetli olduğu şüpheli ve frenler ise yıpranmış bir halde olduğundan sonradan farkına vardığımız müthiş tehlikelerle adeta fedailik yaparak geldik. Trenle Afyon'dan çıktıktan sonra Balmahmut ve Dumlupınar istasyonlarını gördük. Yollarsa tamamıyla terk edilmiş otomobil ve araba enkazlarıyla doluydu. İstasyonlarda ise toplanabilmiş olan mühimmat ve erzak yığınları duruyordu. Ordu geriden hiçbir şeye ihtiyaç göstermiyordu. Geçtiği yerlerden topladığı erzak ve mühimmat kendisi için kâfi geliyordu...
+
+Oturak İstasyonu civarında çadırlarımızı kurduk ve burada üç dört gün kaldık. Tren buradan bir istasyon ileride olan Banaz'a kadar işlemeye başlamıştı. Oturak'tan güney ufuklarına doğru yayılan ve esaslı muharebelerin cereyan ettiği tepeler görünüyor. Kuzeye doğruysa Murat Dağları yükseliyordu. Geceleri etrafımızdaki tepelerden ve ormanlıklardan silah sesleri geliyordu. Düşman tamamıyla bozulunca büyük bir kısmı esir olduğu gibi, bir kısım askerleri de bu dağlara ve ormanlıklara güya saklanmak için kaçmışlardı ve yayılmışlardı. İşte takip müfrezeleri bu dağılanları toplamakla meşguldü. Yine bir günün herhangi bir zamanında bizim kademenin Uşak'a gideceği haber verildi. Her
+
+### p. 138
+
+zamanki gibi bulabildiğimiz arabalara eşyamızı attık, fakat birçoğumuz açıkta kalmıştık. Şimdi bizi Uşak'a nakledecek vasıta arıyorduk. İkindi üzeri oradan geçen bir yük otomobiline yükünün fazlalığına rağmen bindirilenler arasında biz de akşama doğru Uşak yolunu tuttuk. Yolda otomobil bir çamura saplandı, bir saatten fazla kurtarmak için çalıştık. Bize “Uşak buradan dört saat var” dediler. Biz burada bir iki saatini de kaybettik. Tekrar yola düzüldük.
+
+Banaz İstasyonu'na geldik. Bu istasyona yakın İslamköy var. Banaz Köyü biraz uzakta kaldı. Bu istasyon büyükçe bir hangara sahipmiş, fakat bu da harap olmuş. Burada akşam yaklaşmıştı. Yine de biz hep birlikte iki saat kalan Uşak'a gitmeye karar verdik. Otomobil iyiyse de şoför alışıldığı üzere hinoğlu hinin birisiydi. Zaten şoförlerin seciyelerinde mutlaka bir madrabazlık bulunur. Ellerindeki sanatın her noktasından gayet kurnazca istifade etmesini bilirler. Bizim memleketimizde bu böyle olduğu gibi sanatkârların hepsinde az çok bu alışkanlıklar bulunur. Şoförün okuduklarına ehemmiyet vermeyerek yola devam ettirdik. Banaz'dan sonra ormanlı derelerden geçmeye başladık. Yollarda birçok bozuk ve harap otomobillere rast geliyorduk. Düşmandan sağlam pek çok otomobil alındığı halde yeni yetişen şoförlerin elinde çoğu bozuldu. Sonra meselenin mühim noktası, bu sağlam otomobillerin pek çok alet ve edevatının otomobilden anlayan kimseler tarafından dehşetli suretle aşırılmış olmasıydı. Bu aşırma illeti yüzünden yağmalanan otomobiller bile bize pek pahalıya mal oldu. Bunlar için çok para sarf edildi. Her ne ise bu bizim çok sarıldığımız illetlerden birisidir. Onun için memlekette iş bilen ve fakat başarılı olamayan çok adamlar vardır. Sebebi milletin illetli olmasıdır.
+
+Akşam karanlık basıncaya kadar bozuk ve sarp yollardan yürüyorduk. Saatler geçti, hâlâ Uşak görünmü-
+
+### p. 139
+
+yordu. Ortalık iyice karardı ve otomobilimiz karanlığı iki ışıklı gözüyle delmeye ve yürümeye başladı. Fakat yolun çok arızalı oluşu her türlü tehlikeyi hatıra getiriyordu. Bununla birlikte biz ne olursa olsun Uşak'a varmak istiyorduk. Fakat zaten kendi keyfine hareket için fırsat arayan şoför, tehlikeleri bize daha büyütüyor ve durduğumuz bir tepe kenarında geceyi beklemeye zorluyordu. Benimse eşyam olmadığı gibi sırtımda yazlık elbisem vardı. Yazlık elbise deyince yanlış anlaşılmasın. Arşını yirmi kuruşluk keten elbise; dikilir dikilmez de eskidiydi. Kaputum esasen yoktu. Onun için ayazda kalıp üşümek pek işime gelmiyordu. Mehtap yatsıya yakın çıktığı için biraz dinlendikten sonra yola çıkmaya üç arkadaşla karar verdik. Midemiz boştu. Askerlerden bir parça peksimet aldık, ıslatarak büyük bir afiyetle yedik ve yavaş yavaş yola koyulduk.
+
+Durduğumuz yerde, geçen bir adama Uşak'ın buradan ne kadar uzakta olduğunu sormuştuk. Adamcağız bize iki saat demişti. Biz de buna güvenerek gece yarısından evvel Uşak'a varırız diye tahmin ettik. Fakat karanlıkta önümüze gelen bir yola saptık. Derken yolu şaşırmışız. Gidiyoruz. Mehtap çıktı, iki saat, üç saat, dört saat oldu, hâlâ Uşak meydanda yok. Bizde köylüler hep böyle yol tahmini ederler. Zavallılar yolun uzaklığı ile zamanı ölçecek saat denilen ölçü ifadesini daima işlerine biraz fazlasıyla tatbik ettikleri için, yani açık ifadesiyle, saatlerle çalışıp alınteri dökmenin muayyen bir neticeyi muayyen zamanlarda elde etmeyi mümkün kıldığını ömürlerinde görmediklerinden dakika ile saat arasında da çok fark görmüyorlar. Köylüye saat kıymetini anlatmanın çok faydası olacaktır. Hem yolcuyu şaşırtmaz, hem de saat denilen zaman ölçüsünün iş hayatındaki ehemmiyetini takdir ettirir. Sözün kısası nihayet bir köye gelebildik. Fakat köyde köpeklerin havlamasından başka hayat eseri görünmüyor. Anadolu'nun bu toprak
+
+### p. 140
+
+köyleri mehtaplı bir gecede bu kadar ıssızlığıyla insana daha vahşi görünüyor.
+
+Bağıra çağıra bir ev bize cevap verdi. Bu evden, daha doğrusu bu mağaradan bir ihtiyar kadın çıktı. Biraz su istedik. Burada azcık olsun dinlenecektik. Fakat bir ikimizin uykusu geldiğinden kalmaya da niyetleri vardı. Kadın bize, “Sizi Yunan askeri zannederek kimse ses vermemiştir...” dedi. Sonra anlattı: Civarda başıboş düşman askerleri geziyormuş. Bunlar aç kalıp nihayet köy civarlarına geliyorlar ve saldırıyorlarmış. Tabii bunları hemen yakalayıp derhal icabına bakıyorlarmış. Hem de kadınlar bunları erkeklerin ellerinden yalvararak kaparlarmış!
+
+“Daha dün birini elceğizimle geberttim” dedi. Zavallı ihtiyar köylü kadını, bu zalim ve alçak düşmanın erkeklere yakışmayacak ne kadar tecavüz ve gaddarlıklar yaptığını anlatıyordu.
+
+“Uşak'a bir buçuk saatlik yolunuz kaldı” dedi ve biz gözlerimizden uyku akarak güzel bir mehtapla 1ssız ovalardan ilerlemeye başladık. Artık bu köyden itibaren doğru yolu takip ederek bir saat sonra tepede bir köye vardık. Bu köyde köpeklerden başka kimseyi uyandırmak ve demlenmek dahi mümkün olmadı. Zaten vakit gece yarısını geçmişti. Tekrar yola devam ettik. Yola takriben altı saat kadar önce çıktığımızdan, her ne kadar konuşarak yürüdüğümüz için vaktin nasıl geçtiği belli olmuyorsa da dizlerimizin feryada başlaması bize yorgunluğu ihtar ediyordu. Zavallı, dermanı büsbütün kesilen bir arkadaş artık çeyrekte bir mola istiyor ve yola oturuyordu. İşte bu halde Uşak İstasyonu'na geldiğimizi gördük. Fakat Uşak'ın neresinden girdiğimizin farkında değildik. Biraz sonra kasabaya girmiş bulunuyorduk. Hava mehtaplı olduğu için şehrin ortasına doğru girmeye muvaffak olduk. Herkes uykudaydı ve her taraf kapalıydı. Bir şadırvan gördük ve hemen hararetimizi
+
+### p. 141
+
+giderdik. Sergisinin başında uyuyan bir adamı da uyandırarak henüz görmediğimiz iri ve güzel bir üzümden bir miktar satın alarak onunla da açlığımızı yatıştırdık. Şimdi en mühimi uyku meselesi kalıyordu. Buna çare ararken arkadaşların birisi gecenin bu zamanında bir handan çıkan orta yaşlı birisiyle ahbap çıktı. Ahbabın kafası pek dumanlıydı. Bir müddet gevezeliğini dinlemeye mecbur olduktan sonra, Uşak'taki irtibat zabitini bulursak bize yer göstereceğini ve onun oturduğu yeri de bildiğini söyledi. Biz derhal bir fırsat yakaladık ümidiyle irtibat zabitine koştuksa da orada bir kahve içmek için uzun uzadıya vakit geçirmekten başka netice elde edemeden döndük.
+
+Şehirde ne han, ne otel vardı. Mecburen bir kahveciyi uyandırdık. Adamcağız kahvede yatmamıza müsaade etti. Sedirler muşambaydı, kahve genişti, camları açıktı ve ortada da bir şadırvan vardı. Zaten gecenin ayazı da şiddetlenmişti. İki arkadaş kaputlarına sarılarak yattılar. Biz de yattık, ama rüzgâra ve ayaza bürünerek. Böyle uyumak mümkün mü? Artık sabahı beklemekten başka çaremiz yoktu. Uyur uyanık bir halde sabahı ettik. Arkadaşlardan kimsenin uyumadığı da anlaşıldı. Bizden evvel gelenlerden bir iki arkadaş kahveye geldiler, halimize pek ziyade acıdılar. Onlar istirahat etmemişler. Birisi bize tahsis edilen yerleri göstermek için önümüze düştü. Oralara gelir gelmez daha tahliye edilmediğini gördük. Bir münakaşa başladı. Bu gürültü arasında karşıki evlerden birinin kafesi kalktı. Altından uykudan gözleri şişmiş bizim yaver bey çıkmasın mı? Haydi millette bir hücum! Derhal kafasını içeri çekti. Oralarda şarap fıçıları ve sargı paketleri karıştıran bir asker nasılsa, bana Birinci Ordu Karargâhı'nın burada olduğunu söyledi. Demek ağabeyim, Nahit falan buradalarmış. Ah, bunu akşam öğrenseydim! Ne çare yine işe yarar diyerek Nahit'e koştum. Uykuda! Ağabeyime gittim, cibinlikli
+
+> [!note]+ Footnotes
+> ilağil
+
+### p. 142
+
+karyolasından henüz kalkmaktaymış! Derhal kaldırdım, halimi anlattıktan sonra yatağın içerisine atladım ve yorganı başıma çektim. Uykumu da epey aldıktan sonra kalkıp mideciğimin feryadını da biraz dindirdim, tekrar şehre çıktım. Biraz sonra Uşak'ta yerleşmiş bulunuyorduk.
+
+Uşak pek güzel bir kasabaymış, fakat en güzel binalarını ve yerlerini düşman pek feci bir surette yakmış ve mahvetmiş, yoksa kasaba çok güzelmiş. Afyon gibi burası da Yunanlıların mühim bir toplanma merkeziymiş. Her şey burada bol. Zaten Afyon'dan beri içkiden gözünü açamayan millet burada sanki içki deryasına düştü. Uşak”ta pek çok esir toplanmış. İçlerinde Trikupis de varmış. Arkadaşlar gidiyor konuşuyorlarsa da ben niyet etmedim.
+
+Uşakta halıcılık büyük şöhret almış. Her ne kadar fabrikaların bir kısmı yanmışsa da ahali yine halı dokuyor ve iş yapılıyor. Karargâh nereye giderse tabii hemen bir büro da kuruluyor ve herkes işine bakıyordu. İşte her zamanki gibi Uşak'ta da vazifeye başladık. Ben Konya, Ankara ve saire müesseselerinde serum için lazım olup da bulunamayan pek çok işe yarar şişe olduğunu ve bunların ötede beride hurdahaş olduğunu görünce bunlardan olsun meslek namına bir istifade teminini düşünerek serbaytara bin ısrarlarla birçok kâğıt imza ettirdim. Bunlarla Afyon ve Uşak”ta iki üç bin şişe temin ederek Konya'ya gönderildi. Harekât esnasında Teşkilat-ı Baytariye'nin pek lazımlı olmasına ve harekât sonunda birçok tertibat yapmak icap etmesine rağmen maalesef hiçbir karargâhın Altıncı Şube'si (Serbaytarlık) bunu takdir etmiyordu. Uşak'ta Birinci Ordu serbaytarı, Menzil serbaytarı ve Cephe serbaytarı ile görüştüler ve netice itibariyle ileride pek lazım olacak müesseselerin ve tertibatın şimdiden yapılması mevzuunu konuştular. Münakaşa neticesinde birçok tenkitler ve değişikliklerle
+
+### p. 143
+
+bir tamim kaleme alındı ve cephe kumandanı namına rels-i saniye gösterildi. Zavallı adamcağız, zavallı serbaytara henüz böyle bir şeyin yapılmasının zamanı gelmediğini söyledi ve yazılan birçok mühim manalı satırları çize çize ortaya manasız bir şeyler koydu. Sonunda bu iş de neticesiz ve konuşulmamış olarak kaldı.
+
+Insan neye kızıyor? Behey adamlar siz bir meslek sahibiyseniz haklarınıza ne için el dokunduruyorsunuz? Meslek hamisi iseniz bu mühim himaye vazifesini ihlal edenlere karşı niçin boyun büküyorsunuz? Zavallı kıta baytarları değil mi ki sizin bu büyük hatalarınızı ileride masum omuzlarıyla taşıyacaklar. Sizin günahlarınıza bedava hamallık edecekler. Ne zararı var, bugün yapamadığınız bu hayırlı işin yarını kötü neticelerini de karşılıksız yine bu sırtlara yüklersiniz. Merak etmeyin onlar taşırlar. Veba-yi bakari yükünü, iki senedir memleketin can damarını kemiren bu illetin büyük mesuliyeti zaten sizin omuzlarınızdayken yine, “Yazdık, işte!” diye ufacık kâğıtta iki satır yazıyla bütün mesuliyetleri titrek omuzlarınızdan bu cefakâr çocuklara ciro etmeye çalışan sizler değil miydiniz? Siz yine siz, onlar yine onlar olduktan sonra varın mesleğin hayrını görün.
+
+Uşak'taki içtimada ben Sakarya'dan sonraki hali anlattım. Onlara vız geldi. Ordu ilerliyor, meslek karşıdan bakıyor! Hâşâ, bunu söylemekle kıtaların muhterem meslektaşlarını işaret etmeyi arzu etmiyorum. Onların kutsiyetine inanıyorum. Fakat eshab-ı kehf gibi, baytar mesleğinin uykuda olduğuna iman etmemiz lazımdır. Kısmet olursa bunu ileride aydınlatmak isterim.
+
+Uşakta daha dört beş gün kaldıktan sonra tren hattının mümkün mertebe tamir edilmiş olmasından istifade ederek yine orduyu takibe karar verdik. Bir gece Uşak'tan kalkarak Elvanlar'a doğru tren hareket etti. Vagonları, kazanı çatlak bir lokomotif çekiyordu. Bir iki istasyon geçtik. Gece yarısı tam rampa bir yerde
+
+> [!note]+ Footnotes
+> 153)
+
+### p. 144
+
+Kasaba, 1922. Yunanlılar tarafından harap edilen bir şehirde süngülenmiş
+
+ibtiyarlar, sevgili gazileri beklerken
+
+makinenin çekiş gücü tükendi ve durdu. Gideceğimiz yere daha 10-15 kilometre varmış. Ahmetler'e de daha gelmemişiz. Sabah oldu. Büyükler her nedense neticeyi bilir gibi yürüyerek demiryolundan gitmeye başladılar. Gittikleri yerden bize vasıta göndererek aldıracaklarmış. Trenin durduğu yer, bir yar içerisi ve bir köprü başıydı. Burada vakit geçirdik. Düşman, bütün hattın köprü ve saire gibi mühim noktalarında tel örgülerle çevrilmiş karakollar yapmış. Böyle yüzlercesi var. Demek uğursuz herif içeride bile iğne üstünde duruyormuş. Hasılı rahat yüzü görmediği aşikâr. Buradaki köprü epey derince ve muntazamdı. Köprü uçlarında ve altında elektrik pilleri gibi birçok şeyler yığılı kalmış. Nihayet bunların köprüyü atmak için dinamit olduğu ve düşmanın süratle firara mecbur olmasından köprüyü atmaya vakit bulamadığı
+
+> [!note]+ Footnotes
+> anlaşıldı.
+>
+> Akşamüzeri birkaç araba ve mekkâre geldi. Süratle arabaların birinde yer bulduk ve yola çıktık. Fakat yol nerede! Her taraf kaya içerisinde, arabanın doğru gittiği yok ve biz dakikada bir iniyoruz. Karanlık basınca Ah-
+
+### p. 145
+
+metler İstasyonu'na geldik. Bundan ötesi hayatımız için şüphesiz tehlikeliydi. Geceyi bir dilim ekmekle geçirdik. Yer bulamadığım için araba içerisinde de bir gece geçirmek nasip oldu. Ertesi sabah buradan hareketle öğleye doğru konak yerimiz olan Elvanlar Köyü'nün ilerisindeki köprü başında bir tepeye ulaştık. Bu tepe havadar ve etrafı açık bir yerdi. Çadırlarda kalmaya başladık. Karargâh yine bir havadis merkezi olmakta devam ediyordu. İleriye ve geriye bağlı bulunduğumuz için gerek Uşak'ta ve gerek burada mühim ve tarihi havadis okuduk. Uşak'tayken duyduklarımız gayet ehemmiyetli vakayı teşkil ediyordu. Ordu ileriye süratle gidiyor, Alaşehir, Kula, Salihli, Kasaba (Turgutlu) ve Manisa işgal edilmiş bulunuyordu.
+
+Uşakta bir akşam ağabeyimle dururken aniden sokaklarda bir velvele koptu! Ahali fener alayları yapmışlar müthiş silahlar patlıyor, hasılı bir sevinçtir gidiyor. Bu vakanın ortaya çıkma sebebi dün, yani 9 Eylül'de İzmir'in tekrar zapt edilmesiymiş. Artık büyük Allah'ın belli ki Türk milletine ebedi bir muhteşem hediyesi olan bu büyük zafer katiyetle kazanılmış bulunuyordu. Evet, Türk milletinin, bugün sevincinden kâinatı titretse yeri vardır. Başkumandanın hedefine erişildiği gün düşman da Akdeniz'e bütün Megalo İdea'sıyla gömülmüş oluyordu. Fakat Bursa'ya dair böyle bir haber hâlâ gelmiyordu. Kocaeli ve II. Kolordu'dan gelen raporları süratle okuyoruz ve Bursa'ya yaklaşıldığını anlıyoruz. Nihayet bir gün sonra II. Kolordu'nun raporu geldi (İzmirin düşmesinden bir gün sonra). İleri kıtaların ve süvarilerin düşmanla Demirtaş İstasyonu civarında çarpıştıkları ve şehrin bu akşam muhakkak zapt edileceği bildiriliyor ve raporun da İsa Bey Şoşesi'nden yazıldığı gösteriliyordu. Şu halde biz raporu okurken Bursa da İzmir gibi düşmanın kara lekesinden temizlenmiş ve kurtulmuş bulunuyordu. Zaten bir iki gün evvel Fransız
+
+### p. 146
+
+**KV**
+
+Kasaba’ya ilk giren süvari keşif kolu ajansı da İstanbul’dan, Bursa’daki Yunan kuvvetlerinin dağılarak öteye beriye kaçtıklarını, yağmaya başladıklarını ve Bursa’nın yakılmakta olduğunu bildiriyordu. Biz bundan sonra bu haberin ne derece doğru olduğuna dair malumat almaya çalışıyorduk. Fakat sonradan anladık ki böyle bir yangın olmamış ve Bursa sağlam denecek bir halde elimize geçmiştir. Daha sonra gelen raporlar o taraftaki düşmanin 11. Fırkası’nın kısmen Filedar, kısmen Mudanya ve kısmen Bandırma’da esir edildiğini bildirdiler. Işte bu büyük ve muhteşem zaferleri kazandıktan sonra kalbim pek ziyade genişlemişti ve artık ne kadar zahmet ve cefa da olsa yine bir ayak evvel bizim de yol alarak İzmir’e gitmemizi arzu etmekteydim. Heyhat ki bizim kademe karinca süratiyle gidiyordu.
+
+Elvanlar’dayken bir zabit İzmir’e gitti ve geldi ve bir gün evvel İzmir’in en güzel parçasının Ermeniler tarafından yakıldığını söyledi. Buna acıdık. Herkes şimdi İzmir’in Kordon’unu, Buca'sını, Karşıyaka'sını, Kramer’ini ve saire sorup duruyor. Tabii ben İzmir’i bilmediğim için bu yerleri de anlayamıyordum. İzmir çok güzelmiş, güzel yerlerinin çoğu bu sefer yanmış. Anla-
+
+### p. 147
+
+dığımız bu! Elvanlar'dan hareket edilmesini hepimiz bin canla bekliyor ve istiyorduk. Fakat hareket edecek kim? İzmir'e artık ziyaretçiler koşuyor. Zaten Afyon'dan buraya kadar tren hattı düzeldiği ve trenler işlediği için buradan Alaşehir'e kadar Elvanlar'daki arabalardan istifade için herkes bir defa da bizim karargâhı ziyaret ediyordu. Bir gün çadırda otururken dışarıda yanık bir hitabe işittim. Çıkıp baktım. Meşhur şair Mehmet Emin | Yurdakul) Bey hararetle bir şeyler okuyor. Gidip ben de dinledim. Adana'da yazdığı bir makaleyi okuyormuş. Bunda Yunanlıların Anadolu'da yaptığı vahşeti Neron'a anlatıyor. Acı acı dert yanıyordu. Sonra bize gezdiği yerlerdeki intibalarından bahsetti ve dedi ki: “Kurtulan şehirlerdeki gençliğin inancını bozulmuş ve hatta bir parça Yunanlılaşmış gibi buldum.” Herhalde bu sözde ben çok hakikatler olduğunu sezdim. Bir gün de vekiller heyetinin erkânı geldiler ve süratle kendileri için İzmir'den gönderilen otomobillerle geçip gittiler. Anlıyorduk ki biten harpten sonra şimdi iş sulh taraflarına doğru gitmekteydi. Zaten bugüne kadar ne için çalışılmış ve ne sebeple beklenmişti? Hep sulh için değil mi?
+
+Her nasılsa İzmir'den karargâh bizim şubeyi istemiş. Müthiş bir sevinçle toplandık. Alaşehir'e kadar karayolundan gidecektik. Bize bir günlük dediler. Eh öyle ise dedik, bu sabah buradan hareket, akşama Alaşehir?'deyiz, ertesi gün de İzmir'de! Cidden meselenin bu kadar çabuk surette biteceğini katiyen kimse ümit etmiyordu. Hatta İzmir'e girildiğine çok kimse daha inanmıyordu. Bize üç kamyon verdiler. Bunlar Yunan'dan alınan sağlam otomobillerdendi. Başlarında yeni yetişen şoförlerden vardı. Hafifçe üzerlerine yerleştik ve bismillah diyerek yola koyulduk. Evvela süratle bir çıkış çıktık. Kendi kendime, “Hay Allah seni daim etsin!” diyerek olmayacak duaya âmin demiş bulunduk. Yolun iki kıvrımlı bir noktasına geldik. Otomobilimiz vızz diye birini tuttur-
+
+### p. 148
+
+du. Fakat gide gide biz, derelere tepelere ine çıka bir hal olmaya başladık. Artık öyle yerlere geldik ki taştan, bayırdan makinede mecal kalmadığı için inmeye mecbur olduk. Bir indik pir indik mi derler ne derler, biz de öyle! İster inan ister inanma. Biz otomobili çekmek şartıyla tam on saat yol yürüdük. Hâlâ da doğru bir yola gelemiyorduk. Meğerki bizim şoförler yolu bilmezlermiş ve bir yolu tutturmuşlar... Derken yolu şaşırmış, böyle dağlara bayırlara düşmüşüz. İşte mesele bundan ibarettir!
+
+İkindi üzeri tren hattına yaklaştık ve bir istasyona geldik. Burası Güney İstasyonu'ymuş. İstasyonda bize doğru yolu gösterdiler ve biz tekrar nefesi tutuklu gibi solumaya başlayan makinelere yüklendik. Bu sefer artık hepimiz yolun düzlüğünden istifade ederek otomobillere bindik. Yarım saat gittikten sonra yol kayboldu ve bir tarlada bulduğumuz araba izlerini takip ederek gidiyorken yolumuzun dik bir inişe gittiğini fark ettik. Otomobiller bu inişten faydalanarak süratlerini sarf ettilerse de heyhat ki gele gele bir derenin içerisine inmiş bulunuyorduk. Burada yol tamamıyla bitti... Şimdi hepimiz indik ve gördüğümüz bu facia karşısında düşünmeye mecbur olduk. İleride yol yok. Geriye dönüp bu tepeyi tekrar aşmak tamamıyla imkânsız bulunuyordu. Tehlike çok büyük ve korkunçtu. İleride bir karaltı gördük, araştırınca bunun oradaki büyük bir köprüyü tamir etmekte olan yüzü aşkın esirden oluşan bir kitle olduğunu anladık. Kumandanına mesele açıldı ve yol olmadığını o da söyledi. Şimdi geriye çıkmanın çaresine bakacaktık. Bunun için bize altmış kadar esir verdi. Bu kadar esir birçok tertibatla otomobilleri birer birer yukarı çıkarmaya başladılar. Bir saatten fazla uğraşarak otomobiller yukarıya çıkarıldı. Şimdi hepimiz kurtulduğumuz tehlikeyi görerek memnun oluyorduk. Eğer bu esirlere rast gelmeseydik her şeyimizle halimizi anlatıncaya kadar burada bekleyecek, kim bilir kaç
+
+### p. 149
+
+gün vasıta bekleyecektik. Hele otomobilleri çıkarmanın imkânı kalmamıştı...
+
+Artık akşam olduğu için mecburen geriye dönerek Güney İstasyonu'na geldik ve harap edilmemiş olan bir kısım istasyon binasında geceyi geçirdik. Bu meşakkatlere haydi bizler genç olduğumuzdan tahammül ediyorduk. Fakat içimizde mesela, Serbaytar Ahmet Bey gibi yaşlılar da vardı. Lakin çok şükür ki zavallı Ahmet Bey bu cefaya tahammülde bizi bile geçiyor ve sesini çıkarmıyordu. Eğer içimizde nazlı adamlar olsaydı bu yol meşakkatine hiç şüphesiz ki uzun dırıltılar karışır ve büsbütün işkence çoğalırdı. Onun için insan daima yolculukta iyi kalpli, dayanıklı ve sakin tabiatlı adamlar ve arkadaşlar aramalı yahut böylelerine tesadüf etmeli. Bu mesele cidden pek büyük bir talihe bağlı ve o nispette de düşünülmeye layık bir şeydir.
+
+Neyse, sabah oldu, hazırlandık. Fakat otomobilin birisi safdışı kalmış, bozulmuştu. Kaldık iki otomobile. O zaman bunlara taksim olundu. Artık yolu da öğrenmiş bulunuyorduk. Şimdi orta süratlerle düz yoldan gidiyor, bazen yokuşlardan çıkıyor ve ara sıra tekrar tekrar da iniyorduk. Otomobilin birisinin öndeki direksiyonu bozulmuştu. Yalnız ara sıra da lastikler patlamaya başlayarak başımıza bu suretle başka bir dert çıkıyordu. Bir zaman sonra durmaya mecbur olduk. Otomobilciler levazımatını çıkardılar ve derhal tamirata başladılar. Bu da iki saat falan sürdü. Biz bu sefer Alaşehir'e kadar arızasız gideceğimizi zannederek büyük bir rahatlıkla otomobillere atladık. İşin tuhaf tarafı neresi? Yollarda biz böyle ara sıra hızlı ve bazen duraklayarak yol alırken bazı kağnılar da geçiyordu. Ve bu geçen kağnılara bir iki defa tesadüf ettikten sonra onları büsbütün görmez ve onlara yetişemez oluyorduk. Böylelikle pek çok kağnı, hatta öküzü durmuş olanlar bile bizi geçti, bizden önce Alaşehir'e vardı.
+
+### p. 150
+
+İşler bitti... Yola düzüldük. Nihayet yokuşlar bitti, bu sefer inişler başladı. Bazen önümüze gayet dik inişler geliyordu. Bir tepenin üzerine gelince pek derinliklerde uzun bir ova gördük. İşte biz bu yüksek dağdan o ovaya inecektik. Ova, Alaşehir Ovası imiş. Dağ yolu oldukça geniş ve muntazamdır. Bunu Yunanlılar yapmışlar. Alaşehir'den Elvanlar'a kadar devam ediyormuş. Fakat biz Güney'den sonra bulduk, o başka mesele! Şayet bu muntazam yol da olmasaydı biz bu dağdan zor inerdik; kim bilir belki de inmek kısmet olmazdı. Nihayet üç saat kadar döne dolaşa, korka korka ovaya sağ selamet indik. Şükür artık ovada oldukça süratle yol alıyorduk. Yalnız lastikler yine havalarını kaçırmış ve pörsümüş olduklarından otomobiller de topal eşeklere dönmüştü.
+
+Alaşehir Ovası geniş bir ova, etrafta köyler görünüryor. Biz bir ikisinin içinden geçtik. Tamamıyla yanmış ve harap olmuştu. Akşam oluyordu. Bizse ne otomobile, ne de kırlığa bakıyor, sadece Alaşehir'i gözlüyorduk. Bir iki saat sonra şehir göründü. Şehre yaklaşırken bir otomobil kafilesine rastladık. Bir de baktık ki bunlar bizim harp kademesinden, İzmir'den geliyorlar ve eşyayı nakil için Akşehir'e gidiyorlarmış. Ayaküstü bir iki konuştuktan sonra tekrar yola devamla kasabaya girdik. Alaşehir'e girer girmez gördüğümüz manzaraya adeta inanmaz gibi olduk. Şehir eski eser gibi kalmış, harabeye dönmüştü. Yalnız nefes tutan bir duman bu eserin eski değil yeni olduğunu anlatıyordu. Artık aralıksız yangın kokusu ve baştan başa, evet bir istisnası olmadan baştan başa harabeler içerisinden geçiyorduk. Buradayken duyduğum nefreti hiç unutamayacağım. Bu kadar zalimane bir tahribi bu asra yakıştıracak Megalo İdea'nın, hakiki akıbetine artık mutlaka uğraması, mutlak be mutlak bu harabenin mimarlarına medeniyetin bu şekil ölçüsüyle karşılık verilmesi icap ettiğini insan, evet en mutedil bir insan Alaşehir'in kapısından girer girmez, ister istemez
+
+### p. 151
+
+kalben ve vicdanen derhal tasdik ediyor! Yıkık birer iskeletten ibaret kalmış harap duvarlar arasında, akşamın bu sessizliği içinde birkaç çocuk geziniyordu. Kendileriyle azıcık konuşmak istedim. İnsan bu çerçeve içerisinde bu masumların çok kederli hallerini görünce tahammül edemiyor. Zavallıların sesleri kısılmış, mütemadiyen kuru kuru öksürüyorlar, gözleriyse hâlâ pek yakında geçen faciaların hayalini görür gibi telaşlı ve fersiz!
+
+— Ne için öksürüyorsunuz yavrum, dedim...
+
+Tahammüllerini anlatır saf bir tavırla, küçücük parmağıyla etrafındaki enkazı göstererek:
+
+— Bu yangından, hepimiz böyle olduk, dedi.
+
+Dayanılmıyor, cidden dayanılmıyor. Bu manzara en katı yürekleri bile ağlatır! Şu tecelliye bakın! Alaşehir'de beş on binadan başka bir şey kalmamış! Halbuki binlerce ev, binlerce nüfus varmış! Şimdi hiçbirisinden eser yok! Kasabanın refahı dikkat çekiciymiş! Delili kalmamış!
+
+İstasyon civarında, bilmem hangi tarafsız devlet tebaasından yine bir Ermeni'nin yanmamış bir evi civarına kurulan çadırların birine karyolayı kurduk. Bulduğumuz bir arkadaş bize bir miktar nevaleyle ziyafet çekti. Sonra uyuduk. Ertesi sabah oldu. O gün akşama gelecek trenle İzmir'e gidecektik. Bereket versin yolun bundan ötesi trenle kat edilebiliyordu. Biz de trenle gidecektik, ama Allah kısmet ederse!
+
+O gün çadırda otururken ansızın Abdullah çıkageldi. Abdullah hem hemşerim, hem de küçükten beri, tahsil hayatından eski bir arkadaşım, aynı zamanda tam kafadarımdı. Bu da büyük bir nimet oldu. Oturduk, dertleştik. Kılık kıyafet itibariyle ise ne o, ne de ben zabite benziyorduk. O da menzil hayvan hastanelerinin birisinde bulunuyordu. Hastaneleriyle Dinar'dan kalkmışlar, karadan yavaş yavaş Manisa civarına gidiyorlarmış. Kalktık, pazar yerine doğru yürüdük. Burası yanmış harabeler ortasında birçok kurulu sergiden ibaretti. Üzüm,
+
+### p. 152
+
+karpuz çoktu. Kahvemsi bir yere oturarak biraz yemek ile karpuz yedik. Sonra biraz muhabbet ettik ve akşama doğru istasyona, hazırlık yapmak için yerimize geldik. Eşyaların gelmesini temin ettikten sonra istasyona indik. Burası oldukça haraptı. Yalnız bunun da küçük bir kısmı kurtulmuş. İstasyon civarı leş dolu olduğu için kötü koku fazlaydı. İstasyon civarına da esasen Mehmetçikler alışılagelen biçimde sınır çizmişlerdi. Bu bizim askerin büyük dirayetlerindendir.
+
+Akşam oldu, Abdullah”la veda ederek ayrıldık. Yerleştikten sonra İzmir'e gelecekti. Nihayet İzmir'den tren geldi. İlk kademeden birkaç zabit çıktı. Karargâhın Bornova denilen mevkide olduğunu söylediler. Söylendiğine göre bu mevki İzmir'in güzel bir yeriymiş. Bakalım... Tren boşaldı ve bin bir müşkülatla tozlu bir mevkiye yerleştik. Neme lazım, istediği kadar tozlu olsun, durmasın da! Birçok harıltı gürültüyle tren hareket etti. Artık dümdüz bir ovadan fevkalade bir süratle gidiyoruz. Hani insanın inanmayacağı da geliyor. O otomobil, araba vesaire meşakkatlerinin çeşidini hazmettikten sonra bu türlü bir nakil kolaylığı olacağı pek zihnime sığmıyordu. Fakat altımızda yağ gibi kayan vagonların penceresinden gördüğümüz manzaralar ile ettiğimiz rahatın neşesi, hemen bize bir gün evvele kadar çektiklerimizi unutturuvermişti. Cidden öyledir. Bir dakikalık olsun vicdani ve hakiki saadet, uzun işkenceleri insana unutturuyor. Süratle yol alıyoruz. Hele İzmir'e! Lafzı bu sürati bile az gösteriyordu.
+
+Sırasıyla Kasaba, Salihli ve Manisa istasyonlarını geçtik. Fakat gece olduğundan şehirlerin tek tük ışıkları ancak belli oluyordu. Yalnız bize buraların da hemen tamamıyla denecek kadar yandığını söylediler. Manisa'dan sonra durmaya mecal kalmadı. Azıcık uykuya daldık. Meraklıların artan gürültüsüyle uyandığımız zaman trenin İzmir'e girmek üzere olduğunu
+
+### p. 153
+
+söylediler. Şimdi Karşıyaka'dan geçiyormuşuz. Gecenin karanlığı içinde parlayan elektrik lambalarının gösterebildiği köşk hayalleri görüyorduk. Görünüşe göre buraları çok güzel yerlerdi. Tren yine birçok bina içinden muhtelif akisler bırakarak geçiyor ve süratle ilerliyordu. Biraz sonra “Deniz!” dediler. Pencereleri açarak kulak verdik ve gözlerimizle karanlığı delmeye uğraştık. Hakikaten sağımızda siyah bir uğultu ve bize doğru gelen tatlı hışırtılar var. Engin bir karanlık içerisinde tek tük dağınık elektrik ışıkları vapurları işaret ediyordu... Oh! Demek artık çoktan beri özlediğimiz ve hasret duydugumuz denize kavuşmuş, Akdeniz kıyılarına varmıştık. Büyük arzu gerçekleşmişti.
+
+Akdeniz'in, İzmir Körfezi'nin serin serin esen gece rüzgârını, hasretle ufalan ve kirlenen ciğerlerimize çekiyorduk. O dakikada ciğerlerime çektiğim havanın vicdanımda uyandırdığı büyük gururu, ruhuma verdiği tatlı serinliği ne kadar derin bir cazibeyle benimsediğimi mümkün değil tarif edemem. İzmir'e girerken ruhum, emellerin en yüksek mertebesine çıktığını hissetmiş, manevi varlığım teneffüs ettiğim havanın gönlüme doldurduğu büyük ümitlerle taşmıştır. Ne kadar istiyordum ki İzmir'in kurtuluşu, vatanın hakiki saadeti için bir talih olsun! İzmir'in Basmane İstasyonu'na indiğimiz zaman ortalık ağarmaya başlamıştı. Trenden inerek büyük bir gara girdik. Her taraf elektrik! İzmir'e ayağımızı bastık. Biraz sonra ortalık iyiden iyiye ağardı. Bornova denilen yere de tren Basmane'den gidecekmiş ve fakat hareketine daha bir saat kadar varmış. İzmir'i bilenlerle istasyondan çıktık. Sol tarafa doğru yürümeye başladık. Büyük kahvehaneler var. Yol parke döşeli ve genişçe. Her taraf donandığı gibi duruyor. Bir çarşı içinden geçtik. Güzel poğaçalar yapmışlar. Bu, sabah âdetiymiş. Birer tane yedik. Biraz sonra istasyona döndük. Bu gördüğümüz medeniyet, bir aydır çektiklerimize veda ettiğimizi his-
+
+### p. 154
+
+settirirken insana çocuk gibi bir sevinç hissi geliyordu. İstasyon binasının sağ ve ön tarafından ileriye, uzaklara doğru giden harabeler görünüyor. Demek yanan yerler bunlar olacak! Ücret ödemeden Bornova trenine atlayarak, tenhaca şöyle birinci mevkiye kurulduk. Aman yarabbi, rüyada mıyız?! İki seneye yakın bir zamandır böyle şey görmediğimiz için az çok rüya demeye de hakkımız vardı.
+
+Tren bu sefer büyük bir sükünetle hareket etti ve Halkapınar, Mersinli istasyonlarını da geçerek yirmi dakikada Bornova'ya vardı. Bornova, İzmir'in doğusuna isabet ediyor. Ortalıkta kimseler yok. İstasyon yanındaki kahve civarında karargâh telefon odasından, “Kolordu”, “alo”, “ordu”, “fırka” gibi sesler geliyordu. Gelen arabalara eşyaları koyduk ve biz de yola çıktık. Geniş ve dümdüz bir caddeden iki taraflı dizilmiş paha biçilmez köşkler arasından geçiyorduk. Biz bu köşklerin sahipli olduğunu zannederken mükellef salonlar içinde başı açık, kontvari kurulmuş birtakım zabitler görmeyelim mi? Demek buraları hep işgal edilmiş. Fakat biz bu süslü salonların süslü, itinayla giyinmiş zabitlerine bakarak kıyafetimizden utanıyorduk. Çünkü bu halimizle hemen insan kıyafetinden çıkmış bulunuyorduk. Neyse! Nihayet bir taraftan kıvrıldık. Bu sefer yüksek bir köşkün önünde bir kalabalık gördük. Âsım Paşa ile karargâh şube müdürleri bir kamyonetin etrafında konuşuyorlar. Dikkat ettik ve nihayet anladık ki, Halide (Edip Adıvar) Hanım, Celâl Nuri Jİleri|, Falih Rıfkı (Atay|, Âsım (Gündüz| ve Yakup Kadri |Karaosmanoğlu| Beyler bir tetkik seyahatine çıkacaklarmış, karargâh tarafından yolcu ediliyorlarmış. Burada bir kısım karargâh efendilerini gördük. Güzel güzel yerlere yerleşmişler. Her tarafta otomobiller dolu! Birinci Ordu Karargâhı da buradaymış. Kısacası Bornova'nın her tarafı kaplanmış! Bakalım bize neresini verecekler!
+
+### p. 155
+
+O gün akşama doğru ben İzmir'e indim ve çamaşır değiştirerek güzel bir hamam yaptım. Çünkü artık kendi kendimden iğreniyordum. Tertemiz olarak Bornova'ya girerken ben de kendimde bir karargâh zabitliği süsünü bulur gibi oldum. Ama ne gezer, üstümdeki yazlıklar hâlâ mevcut! Altüst olmuş bir büyükçe binanın bize ve levazıma verildiğini söylediler. Gittik. Ev baştan aşağıya talan olmuş, hem de o haldeki belediye süprüntülüğüne dönmüş! Temizlendi ve yerleşildi. Fakat zavallı evceğiz temizlendikten sonra adeta hoş bir şekil aldı. Kim bilir ne yaşamasını bilir bir İngiliz'in eviymiş. Mükemmel banyosu, elektrik dinamosu, kütüphaneleri ve enfes tablolarıyla pek güzeldi. Bir adet de dişi kim bilir ne zannıyla kırılmış ve alınmış piyano var. Bu saydıklarımızın hemen hepsi bugün kullanılamaz bir halde, yalnız şeklen mevcuttu. Bizim evimiz diğerlerine nispetle sonuncu derecelerdeydi. Şöyle biraz gezince anladık ki her şeyleri mükemmel ve sahipleri tarafından aynen bırakılarak el konulmuş nice köşk var.
+
+Esasen Bornova'nın mühim ahalisi ecnebilerden ibaretmiş ve burada oturan ecnebiler Whittall, Giraud, vesaire gibi gayet namlı zenginlermiş. Pek çok da Rum varmış. Fakat Nif#6 tarafından gelen kuvvetler Bornova civarında bir mukavemete tesadüf ettiklerinden ufak bir çarpışma neticesi Bornova alınmış ve bundan ötürü ahalisi tarafından tahliye edilmiş. Asker girince aldıklarını almış, kalanını kırıp dökmüş. Bu yüzden ne kadar çok da ziyan olmuş. Hasılı Bornova tam manasıyla talan edilmişti. İzmir ise bundan daha müthiş tahribata uğramış... Bornova İzmir'in bir nahiyesiymiş! Ağabeyim de Bornova'daydı. Onunla da görüşüyorduk. Onlara ordu karargâhı, yağma edilen eşyadan birçok şeyler vermiş. Halbuki bizim karargâh bize hiçbir şey koklatmıyordu.
+
+> [!note]+ Footnotes
+> 46 Günümüzde İzmir'in Mustafakemalpaşa ilçesi (e.n.).
+
+### p. 156
+
+Hiç olmazsa diyordum, sırtımdaki elbiseyi değiştireyim. Fakat ne mümkün...
+
+Bornova'daki evimizi güzel süslenmiş bir salonla hoş bir hale koyduk. Artık piyanoya güya kendiliğinden şarkılar söyletiyoruz. Hasılı hayatı oldukça düzenlemiş bulunuyorduk. Karargâhtaki otomobillerden biriyle İzmir'e inip şöyle bir dolaşmak istedik. Serbaytar falan bizi de aldılar. Artık bu kadar cefasını çektiğimiz makine azıcık olsun bize rahat etmenin ne olduğunu gösterir. Bindik. Bornova'dan güzel yollardan süratle İzmir'e indik. Şimdi bir rıhtımdan geçiyorduk. Burası mahşer gibi kalabalık, iğne atsan yere düşmez türünden. Rıhtımda silahsız Amerikan askerleri var. Bu kalabalıksa hicrete mecbur edilen Rum ve Ermenilermiş. Bir kısmının yakasında, şapkasında Mustafa Kemal Paşa'nın resmi asılı. Uğursuz millet nasıl da çabuk değişir. Fakat bu sefer dinleyen yok. Hepsi yola koyulmuş!
+
+Kordon'dan geçiyoruz. Çok büyük ve güzel binalar varmış, fakat hepsi yanmış ve harap olmuş. Artık kim bilir bunlar kaç senede yerine gelir? Kışla ve Hükümetönü'ne*” geldik. Burası ufak fakat şirin bir meydanlık. Hükümet dairesi büyük ve güzel. Bir tarafı da sahil. Masmavi, dalgalı deniz ta ufuklara kadar uzanıyor. Birçok vapur ve ecnebi gemileri de var. Bir tarafa çekildim ve bir müddet Akdeniz'in şu hoş kıyısında mavi ufuklara bakarak düşündüm.
+
+İşte üç senedir, bütün milletin lisanına doladığı, Türk'ün hakkından gasp edilen İzmir'e girmiştik. Bu, şimdi kıyısında harabelerin aksettiği, çılgın bir milletin hüsranla terk ederek alakasını keseceği İzmir, bu müstesna memleket, sakin körfezi ve geniş ufkuyla göze ne kadar güzel görünüyor. Fakat bıraktığımız ve bizim olmasını istediğimiz İzmir ile şimdi elimize geçen İzmir
+
+> [!note]+ Footnotes
+> 47 Günümüzde Konak Meydanı (e.n.).
+
+### p. 157
+
+arasında derin farklar ortaya çıkıyor ve daha da çıkacak. 335 (1919) senesinde İzmir'e giren Yunanlılar, karşılarında boynu bükük bir millet ile bütün servet ve refaha sahip bir şehir bulmuşlardı. Ve bu şehre girerken artık tarihi haklarına dayanarak İzmir değil, burasını hakiki manasıyla bir İyonya yapacaklardı. Onun için ilk bahaneyle Kışla*dan Kordon'a kadar rıhtım boyunu Türk kanlarıyla daha ilk fırsatta yıkadılardı. O zaman bu şehre tamamıyla sahip olunmuş gözüyle bakmışlar ve bunun için Loit Corc'un#8 ve Klemanso'nun*? Venizelos”a59 verdiği vaadi bu sahipliğin en kati bir delili olarak kabul etmişlerdi. Zaman değişti ve kendisiyle beraber bilinen hükümleri de değiştirdi. Ve nihayet Yunanlılar Megalo İdea'larının mühim sayılara ulaşan evlatlarını Anadolu'nun ücra köşelerinde, dilsiz topraklara gömerek, büyük bir perişanlık ve sefaletle çekilip gittiler ve giderken de bize İzmir'in mutena semtlerini bir harabe halinde bıraktılar...
+
+İzmirin Rum ve Ermeni ahalisi boşalıyor. Demek oluyor ki bunlarla beraber İzmir'in sanatına ve şöhretine sahip eller de gidecek. Çünkü İzmir, ne de olsa medeniyeti taklitteki maharetini bunlara borçludur. Fakat bizim memleketimizde, bizim yurdumuzda bu iyi özellikleri taşıyan unsurlar yüzünden de uğramadığımız felaket kalmadı. Bu felaketlerimize bedel üstelik bir de hâkimiyet ve sahiplenme davası açtılar. Şu halde onların sanatlarını biz yurdumuzun fedasıyla ödemeye mecbur olacaktık. Daha birçok sebeplerle, bugün Yahudi'den başka unsurlar ve vatandaşlar (!) vatana veda ediyor ve
+
+> [!note]+ Footnotes
+> 48 Lloyd George: 1916-22 yılları arasında görev yapmış Birleşik Krallık
+>
+> başbakanı (e.n.).
+>
+> 49 Georges Benjamin Clemanceau: 1906-1909 ve 1917-1929 yılları ara-
+>
+> sında görev yapmış Fransa başbakanı (e.n.).
+>
+> 50 Venizelos: 1910-15 yılları arasında görev yapmış, Megalo İdea'nın
+>
+> da mimarlarından olan Yunanistan başbakanı (e.n.).
+
+### p. 158
+
+bu zengin İzmir yalnız bize kalıyor. Bu servet hazinesi içerisinde, yine kendimizi kaybetmeden, dirayet ve feraset göstererek hakkıyla istifade edebilirsek ne mutlu! Büyük bir zafer kazandık ve az çok bu zafer bizi mest etti. Avrupa da hayrette! Yunanlılar kralı devirdiler. Lloyd George sallanıyor! Franklin-Bouillon ise İtilaf Devletleri namına İzmir'e geldi. Bu adam kurnazmış. Bize yine yaldızlı hap yutturmasın? Kısacası işin en mühim noktasına geldik. Şimdi kılıçları yan tarafa, akıl ve siyaseti öne sürmek icap edecek! Bunda ne derece başarılı olacağımızı Allah bilir.
+
+Başkumandan ve diğerleri İzmir'de! Mühim müzakereler oluyor. Orada İzmit ve Çanakkale havalisinde de faaliyette. Halbuki buralarda İngiliz kuvvetleri var. İstanbul'dan Harington5!, Mustafa Kemal Paşa'ya bir sürü telgraf çekiyor. Anlaşılıyor ki ordunun ilerlemeye gücü var. Fakat bizimkilerin dillerinden yine sulh lafı düşmüyor. Bakalım, Cenab-ı Hakk bundan sonra neler gösterecek?! Çünkü işin en mühimi şimdiden sonra görülecek. Bu kadar geniş bir memleketi on günde temizleyen millet, asırların biriktirdiği günahları da temizlemek için bir dirayet gösterebilecek mi acaba? Herkeste bir kurum, bir azamet var. Rıhtımda ecnebilerle nöbet bekleyen Mehmetçikleri de görüyorum. Onlar yine tarihi tevazularına sadık! Olandan bitenden habersiz görünüyorlar. Otomobilimize tekrar kurulduk. Sessiz bir süratle Kordon'dan kayarak Bornova'ya dönüyoruz. Hani insana az çok bir gurur ve azamet gelmiyor değil ha!
+
+> [!note]+ Footnotes
+> 51 Charles Harington: Kurtuluş Savaşı döneminde İngiliz işgal kuvvet-
+>
+> leri komutanı (e.n.).
+
+### p. 159
+
+Sıla Yolculuğu
+
+Teşrinisani 338 (Kasım 1922)
+
+Izmir ve Bornova'da geçirmekte olduğumuz hayat, tatlı bir şekilde sürüp giderken apansızın bir sıla yolculu- Şu göründü. Üç seneden beri pek acı manalarla Bursa'yı görmeyişim bende emsalsiz bir hüzün bırakmaktaydı. Nihayet bu kadar ayrılıktan sonra anavatana kavuşan yeşil yurdu görmek, şimdiye kadar devam eden elem ve hicran günlerinden sonra Bursa'ya ve ciğerparelerime kavuşmak kısmetmiş. Uşak'tayken Bursa'nın geri alındığını duyduğum anda içimde beni çıldırtan bir sevinç uyanmamıştı. O zaman yalnız kederlerim biraz hafiflemiş, fakat hâlâ içimi kemiren şüphe ve tereddüt kurtları kalmıştı... Gözlerimde hayalleri bile silinen yuvamızdaki vücutları nasıl bulabileceğimi düşünüyordum.
+
+Bursa geri alınınca beni de tebrik ederlerken bende sevinçten ziyade ağlamaya bir meyil vardı: Üç sene evvel onları mektebe giderken meyus ve meçhul bir düşünceyle bırakmıştım. Üç sene sonra ben ve onlar yine meyus ve meçhul düşüncelerle karşılaşacak olduktan sonra, daha şimdiden bu ihtimalle titremeye başlayınca boş yere sevinmek neye yarardı? Bu geçen üç sene, hicranların saadetlere karşı eskiden bildiğim kadar yabancı kalmasına mâni olmamışsa, hayatımızda ufak bir inkılap olsun doğurmamışsa, neşe ve sevincimize hangi sebepler mevcut olacaktı? İşte böyle derin sevinçlerle oyalanamadım. Yalnız kalbimde ve dimağımda bir hafiflik hisse-
+
+### p. 160
+
+diyordum. Belki de seviniyordum. Çünkü hayata beni bağlayan vücutlara kavuşacaktım. Bu benim ruhani ve manevi saadetimin en güçlü ve en sağlam bir temeliydi. İzmir'e geldiğimden beri serbaytarım ne zaman olursa Bursa'ya gitmenin benim için mümkün olduğunu söylemek lütfunda bulunuyordu. Fakat hem bir fırsat olmuyor, hem de yollar ve vasıtalar beni düşündürüyordu.
+
+Franklin-Bouillon'un İzmir'e gelerek paşalarla konuşması ve Mudanya Konferansı'nın hazırlıkları sırasında yine veba-yi bakari ve serum meselesi yüzünden bir defa daha geldiğimiz yollardan geriye dönerek Alaşehir'e gitmek icap etti. Fakat hamdolsun ki bu yolculuğu trenle yapacak ve önceki zahmetlere maruz kalmayacaktım. Alaşehir treni İzmir'den sabah erkenden hareket ettiği için Bornova'dan gece Basmane'ye inmek ve geceyi oralarda geçirmek lazımdı. Bu suretle bir gecelik uykuyu feda ederek Alaşehir'e yollandık. Gelirken gece olması dolayısıyla göremediğimiz Manisa ve diğer memleketleri gündüz gözüyle bu sefer oldukça iyi gördük. Zavallı güzel şehirler yerle bir olmuş denilecek kadar harap vaziyetteydi... İzmir'den Manisa'ya kadar tren hattı bazen saatlerce bağlar içerisinden geçiyor ve bu bağlar birçok yerlerde ta uzaklara kadar devam ediyor. Şimdi bu bağların çoğu terk edilmiş. Sahipleri kaçmışlar ve bağları yabani otlar sarmış. Halbuki en ziyade gelişmiş olan bu havalinin en mühim servetini bu bağcılık teşkil ediyormuş ve diyorlardı ki bu bağlar hakkıyla işletilecek olursa pek az zamanda bu mıntıkada harap olan şehirler ihya ve imar edilebilir. Fakat maalesef ahali elinde bulunan bağı bile zor işletebildiği gibi, kalanlar, yani pek büyük bir kısmı da boş kalmış. İzmir'de olsun, buralarda olsun emval-i metrukenin”2 satış işleri hiç de yolunda
+
+> [!note]+ Footnotes
+> 52 Kurtuluş Savaşı boyunca ve sonrasında ülkeden kaçan Osmanlı teba-
+>
+> sından kimselerin geride bıraktığı mülkler için kullanılan terim. Bu mülklerin bir bölümü savaşta yararlık gösterenlere verilmiştir (e.n.).
+
+### p. 161
+
+gitmiyordu. Hadi memleketin bu mühim kısımlarında feci surette talan ve harap edilen nefis eşya mahvoldu ve bu yüzden pek çok ziyan edildi. Onların zararı derin bir ehemmiyet ve memleketin geleceği için bir tehlike taşımamaktadır. O fenalık yapıldı, hükümet değil kâr, üstelik bir de ziyan etti. Fakat arazi işleri hiç de öyle degil. Maazallah, milletin İzmir diye can attığı memleketin zenginliği ve seli işte arazı sayesindedir.
+
+Bu memleketin zeytinleri ve bağları da harap oldu mu İzmir'de kimse durmaz. Ben zannediyorum ki bu sene arazi mühim zararlar etmiştir. Bağlara da zeytinliklere de bakılamadı. Halbuki bunlara her zaman bakmak ve para sarf etmek ister. Fakat şu hale teessüflerle bakalım ki araziyi taksimde müthiş acemilikler yapılıyor. Mesela bir Arnavut muhacirine koca bir zeytinlik ve söz gelişi Giritli veya diğer adalı bir muhacire de bilmem kaç dönüm tarla verilir! Garip değil mi? Bize vergi; derhal icat ederiz. Bu arazi suiistimallere uğramış ve işten katiyen anlamayan ellere terk edilmiştir. Bu halde, zararın yarısına geldik ve geçiyoruz bile... Dönmek kimsenin hatırından geçmiyor...
+
+Trende daha birçok güzel manzaralar içinden geçtik. Gediz Çayı Vadisi'ni gördük. Ne bereketli, ne yeşil yerler... Gelirken bende pek acı elemlere sebep olan yere, Alaşehir'e yine geldik. Bereket versin ki işim şehirde değildi. İstasyonda biraz eğlenip bulduğum bir arabayla geceyi geçireceğim bir köy civarına ulaştık. Yolda hâlâ olduğu gibi elbisesi, dolağı ve şapkasıyla yatmış ve bir kısmı çürümüş Yunanlı cesetleri var. Bunlar da her tarafı kokutmaya başladılar. Heriflerin mezarları bile kalmayacak, kurda kuşa yem oluyorlar... Alaşehir'de, zannederim şehrin doğusuna doğru bir maden suyu var. Buna Sarıkız Suyu diyorlar. İnsana biraz amel veriyor. Benim hoşuma gitmedi. Fakat çok faydalıymış. Her tarafa yol- İanırmış. Buradaki işim nakliyata aitti. Bu sıralarda ise
+
+### p. 162
+
+bu husustaki meşakkat ve müşkülat fevkaladeymiş. Tren Güney civarındaki bir köprüye -bizim otomobillerle indiğimiz dere civarında— kadar geliyor ve Alaşehir'den de Konaklar İstasyonu'na kadar gidiyormuş. Arada iki saatlik bir yol mevcut. İşte bu aktarmada pek feci müşkülat varmış. Eşya nakliyatındaki bu müthiş güçlük bir şey değilmiş. Asıl rezalet ailelerin nakli meselesinde oluyormuş. Bu günlerde birçok —belki yüzlerce— zabit ailesi İzmir ve civarında olan kocalarının yanına gitmek için akın akın gerilerden geliyordu. Zavallı kadınlar bu uzun yolculukta rezil ve perişan oluyorlar... Bu yüzden pek çok zabit ailelerinin namusları ayaklar altında çiğnenmiştir. İşte bu misaller de askerlikte evlenip ailesini taşımaya özenenlerin akıbetini açıklamaya kâfidir. Cenab-ı Hakk'a binlerce hamd olsun ki böyle mühim rezaletlere olsun maruz kalmadım. Bu harpler esnasında, birçok sebeplerle ne kadar çok zabit, ailesi yüzünden yüz kızartıcı maceralara maruz kaldı ve ne kadar genç kadın, anne ve hemşire perişan oldu. Hesabını kimse bilemez!
+
+Alaşehir'de birkaç gün kadar kalıp işimi gördükten sonra yine İzmir'e döndüm. Alaşehir'den doğuya doğru -büyük sözüme tövbe gözlerimi bile çevirmiyordum. Hani tren hattı olduğuna hemen hemen inanacağım gelmiyordu. Buralardan İzmir'e dönmek kadar büyük saadet olamazdı. Yine trenle bir gece yolculuğu yaptık. Ertesi sabah Bornova'ya ulaştık.
+
+Bursa'ya, evime gidiyorum Mudanya Konferansı için karargâhtan bir kısım hareket etti. Bu konferans sulh için bir başlangıç olacaktı. Ordunun her türlü ileri harekâtı yapma gücü bulunduğu bir sırada, sadece sulhperverlik göstermek için yapılan bu konferansta ne dereceye kadar bir menfaatimiz olacağını zaman gösterir.
+
+### p. 163
+
+Uzun bir belirsizlik içerisinde geçen müzakereden sonra bir gün konferans neticelendi ve mütareke imza edildi. Bu konferans gereğince Trakya'nın doğu kısmı Yunanlılardan alınarak bize verilecekti. İstanbul ise meçhul ve tereddütlü bir vaziyet içerisinde kalıyordu.
+
+Konferanstan sonra Mudanya'daki karargâh heyetinin Bursa'ya döndüğünü ve bir müddet orada kalacağını haber aldık. Hatta bütün karargâhın İzmir'den Bursa'ya kalkacağı da duyulunca pek ziyade sevindim. İşte ortalık bu havadislerle çalkalanırken bir gün Bursa'ya gitmek fırsatı da elimize geçti. Bir akşamüzeriydi. Bornova'dan İzmir'e inmek için aheste aheste can sıkıntısıyla istasyona doğru yürüyordum. Yolda ismimin çağrıldığını duydum, ses gelen tarafa döndüm. Bizim hemşeri, yaver çağırıyormuş. Gittim, bana, “Haydi ben Bursa'ya gidiyorum, beraber gelir misin?” demesin mi? Meseleyi etraflıca anlatmasını istedim. Meğer Bursa'ya İsmet Paşa için bir binek otomobili gidecekmiş, kendisi de reis-i saniden bu fırsatla otomobil gösürmeye memur edilmesini isteyecekmiş. Derhal beni bir düşünce aldı. Hasılı uzun uzun düşündükten sonra ve arkadaşlara danıştıktan sonra ben de gitmeye karar verdim. Akşama doğru mesele hakiki bir safhaya girdi. Hemşeri izin almış. Bu gece yarısı Bornova'dan İzmir'e inecek ve sabahı erkenden trenle hareket edecektik. Ben hemen işi serbaytarlara açtım ve müspet cevap aldım. Alelacele hazırlık yaptık ve gece yarısını beklemeye başladık.
+
+Karanlık bir gecenin üşütücü serinliği içinde, kaputum olmadığından aldığım battaniyeyi sırtıma örtüp otomobilin bir köşesine büzüldüm. Arkadaş da diğer köşeye yerleşti. Bu otomobil ne kadar geniş ve rahattı. Makinenin sert ve kuvvetli homurtuları Bornova'nın sakin havasını sarstı; iki kuvvetli ziya huzmesi karanlığı yırtarak, binalara ve yola aksederek etrafı yalamaya ve tekerlekler pürüzsüz bir yolun üstünden kaymaya
+
+### p. 164
+
+başladı. Artık düz yollar üzerinde, etrafta uzun akisler bırakan makine gürültüsü içerisinde yüzümüzü gecenin keskin ve soğuk rüzgârı kamçılayarak süratle yol alıyorduk. Biraz sonra Basmane İstasyonu'na geldik. Otomobili de trene yerleştirdikten sonra vagonlardan rahat birisinin içine girip sabah oluncaya kadar biraz şekerleme yapmak için uzandık. Kalktığımız zaman trenin hareket hazırlıkları yapmakta olduğunu anladık. Her işimizi de bitirerek tenha bir mevki vagonu içerisine atladık. Fakat bu sefer Alaşehir yolundan değil, Susurluk-Bandırma yolundan gidecektik. Belirlenen vakit geldi ve trenimiz İzmir'den hareket etti! Manisa'ya kadar evvelce görüp tanıdığımız yerlerden geçtik. Buradan hat ikiye ayrılıyor: Birisi doğuya, yani Alaşehir-Afyon istikametine ve diğeri de kuzeye, Soma-Bandırma istikametine gidiyordu. Biz kuzeye kıvrıldık.
+
+Bu hatta ilk defa yolculuk ediyordum. Bursa'ya bu yolla giderken hatırıma garip bir şey geldi: İstanbul'da tahsildeyken her sene sıla yolculuğunu İstanbul-Mudanya yoluyla denizden ve kısa olarak yapıyorduk. Umumi Harp'in ateşli devrelerinde Marmara'ya düşman tahtelbahirleri |denizaltıları| girip gidiş gelişte hayati tehlikeler ortaya çıkınca bir sene sıla yolculuğunu biraz daha uzatmaya mecbur olarak Haydarpaşa-Bilecik tren hattıyla ve oradan da arabayla iki günde Bursa'ya gelip, aynı yolla geri dönmüştük. Bu sefer ise sıla yolculuğu daha çok uzamıştı, bir buçuk sene devam eden bir yolculuk yaparak pek çok yerleri görmüştüm. Bu yolu kestirme olarak ifade etmek lazım gelirse, bu defaki sıla yolculuğunu İstanbul, İnebolu, Ankara, Polatlı, Akşehir, Afyon, İzmir, Manisa, Susığırlık,53 Kirmasti,54 Karacabey
+
+> [!note]+ Footnotes
+> 53 Bursa'nın Susurluk ilçesinin Osmanlı İmparatorluğu zamanındaki ve
+>
+> Cumhuriyet'in ilk yıllarındaki adı (e.n.).
+>
+> 54 Bursa'nın Mustafakemalpaşa ilçesinin eski adı. Kirmasti ismi, Kurtuluş
+>
+> Savaşı'nın ardından Mustafa Kemal Paşa'ya atfen değiştirilmiştir (e.n.).
+
+### p. 165
+
+üzerinden yapmıştım. Cenab-ı Hakk'tan bütün kalbimle niyaz ederim ki, bundan sonra Bursa'ya bu kestirme yollardan kavuşmayı nasip etsin! Ve Anadolu'nun daha içerilerinden ve doğusundan geçen Bursa yolunu bana göstermesin! Amin!
+
+Sırasıyla Akhisar, Kırkağaç, Soma, Balıkesir gibi mühim istasyonlara da uğrayıp uzaklardan şehirlerinin hayalini gördükten sonra Susığırlık'a vardık. Mevsim kavun karpuz zamanıydı. Akhisar civarında pek çok ve pek tatlı kavun yetişiyor. Tren Soma'yı geçinceye kadar oldukça düz araziden ve Balıkesir'e yaklaştıktan sonra dağlık ve sarp araziden geçiyor. Susığırlık'a gece yarısından sonra vardık. Fakat trenden inince orada barınacak yer olmadığından vagonumuzda rahatça uyuyarak sabahı ettik. Ortalık iyice ağardıktan sonra inip otomobili de yola koyduk. Yine yaverle ikimiz birer köşesine yerleştikten sonra birçoklarının iştahlı nazarları önünde makinenin gürültüleri içerisinde düz ovadan Kirmasti yolunu tutturduk. Bu yoldan da hiç gıtmemiştim. Susığırlık'tan sonra Bursa'nın kokusu ne güzel hissediliyor.
+
+Alaşehir'e gelirken çıktığımız otomobil yolculuğu cefalarını rahat bir Bursa yolculuğuyla ödeştirmiş oluyorduk. Yollar çok iyi değilse de otomobilin kuvvetli olması engellerin hepsini ortadan kaldırıyordu ve duraklamaya mecbur olmuyorduk. Bir saat sonra Kirmastı'ye girdik. Burada 11. Fırka varmış. Tanıdıklar var, fakat uzaktaymışlar! Burada bir saat kadar kaldıktan sonra tekrar köşelerimize yerleştik ve yola devam ettik. Kirmasti hiçbir hasara uğramamış, oldukça da büyük ve güzel bir kasaba, etrafı yeşillik ve bahçelik. Düz bir ovadan Karacabey (Mihaliç) yolunu tutturduk. Uluabat Köyü'ne ve köprüsüne geldik. Köy de, köprü de harabe ve perişan olmuş. Biraz müşkülat çekerek köprüyü geçtik. Yol düzeldi ve Karacabey göründü. Karacabey'e epey yaklaştığımız halde yol oraya kadar devam etmediği için sağa
+
+### p. 166
+
+kıvrıldık. Fakat Karacabey'in yanmış olduğu belli oluyordu. Şimdi Apolyont (Uluabat| Gölü'nün kuzey kıyısını takip ediyorduk. Göl büyük ve üzerinde adacıklar da var. Bir ucuna yakın bir dil üzerinde karşıdan gayet şairane görünen büyükçe bir köy var. Bu da Apolyont“ namındaki Rum köyü olup şimdi boş bulunuyormuş. Evi yanmış birçok perişan aile buralara toplanıyormuş. Ne âlâ! Artık göl kıyısını da bitirmiş ve Bursa'ya yaklaşmış oluyorduk. Bir hana geldik. Burası da harap, fakat birkaç araba yolculuğa hazırlanarak bekliyor. Buradan da kurtulduk. Şimdi Bursa'nın pek yakınındaydık. Her tepeyi atladıkça Bursa'yı görmek için telaş ediyor ve otomobile daha fazla sürat veriyorduk. Nihayet Beşevler civarında Mudanya treninin daracık demiryolunu geçtik ve Çekirge'nin binaları iyiden iyiye seçilmeye başladı. Ruhumuzda heyecanlandıran bir sevinçle bir an evvel varmak ve uçmak ister gibiydik. Mihraplı Köprü'ye, yani Abdullah'ın evine yaklaştık. Ben zihnen Abdullah'ın evine uğrar, pederim görür ve haber veririm diye düşünürken eve vardık ve otomobili durdurduk. Fakat buralar büsbütün değişmişti. Abdullah'ın evi yerine bir yığın enkaz, bu, vaktiyle güzel meyvelerini yiyerek serin ağaç gölgelerine uzandığımız bahçeler yerine de harabelerden başka bir şey, bir iz göremedik. Derin bir kederle, Bursa'nın daha kapısında hissettiğim bu acı altında birkaç dakika inledim...
+
+Otomobilin seri sarsıntılarıyla Acemler İstasyonu'na geldik. Ah, şimdi çocukluk devrelerine ait hatıralarımın izleriyle dolu olan yerlere girmiştik. Otomobil Çekirge yokuşunu çıktı ve kahvelerin yanından sola kıvrıldı. Şimdi bütün tazeliğiyle bu güzel yolun üstünde kayıyorduk. Henüz daha ikindi olmamıştı. Biraz sonra karargâh olarak kullanılan binaya, Yeni Kaplıca civarındaki Mi-
+
+> [!note]+ Footnotes
+> 95 Uluabat Gölü kıyısına kurulmuş Gölyazı Köyü (e.n.).
+
+### p. 167
+
+ralay Mehmet Bey'in köşküne“6 vardık. Bize sadık bir hamallık eden otomobile veda ederek binaya girdik. Âsım |(Gündüz| Paşa oradaydı. Bize iltifatla davet etti. Sonra içeriye girdik. Karargâhçılar büyük bir faaliyetle çalışıyorlardı. Biraz sonra yaver, ben ve bir de diğer bir arkadaş tuttuğumuz bir faytona binerek Bursa'ya doğru yola koyulduk. Altıparmak'tan içeriye girerken caddenin genişliği içerisinde otomobil kafileleri gördük. Büyük bir köşk önünde duruyorlardı. Meğerki bütün paşalar ve başkumandan da Bursa'da bulunuyorlarmış. Arkadaşın anlattığına göre biz gelmeden bir gün evvel Bursa'da müthiş bir bayram yapılmış ve sanatkâr alayları resmigeçit yapmışlar... Altıparmak yokuşunu çıkıyoruz. Her taraf süslü, her çehre şen görünüyor. Ne kadar da çok zafer takı yapmışlar. Kısacası her taraf yeşillik içerisinde büsbütün mest ve mahmur, o kadar da cazip!
+
+Büyük Kilise civarına geldik. O koca kilise ve civarı tamamıyla göçmüş. Bu haliyle Bursa'nın Elenizmden kurtulduğuna sanki bir timsa! gibi duruyordu. Şen bir kalabalık ve yeşil bir debdebe içerisinde döne döne, seyrede ede Ulu Cami'ye geldik. Buraları yine eskisi gibi neşeli ve mütebessim duruyor. Zavallı babacığım kim bilir nerelerdedir? Gözlerimle hep bildik arıyorum. Nihayet belediyeye yaklaşınca ben arkadaşlara vedayla indim. Yanımda iki battaniye ile bir de bohça vardı. Koltuklarımı ve omuzlarımı doldurdum ve aralığa saptım. Şimdi bizim evin yolunu tutturmuştum. Eşyanın ağırlığı beni fazlaca yormaya başlıyor. Fakat içimdeki heyecan ve ferahlık beni adeta koşturuyordu. Kim bilir, diyordum, onları nasıl bulacağım ve ben böyle apansız görününce ne kadar sevinecekler?
+
+Nihayet amcamın aralığı başına gelince ister istemez o tarafa döndüm. Meydanda kimseler yoktu. Eşyamı
+
+> [!note]+ Footnotes
+> 56 Bahsedilen köşk, günümüzde Bursa Atatürk Müzesi olarak kullanıl-
+>
+> maktadır (e.n.).
+
+### p. 168
+
+eşiğe attım, terlemiştim. Kapının tokmağını şöyle birkaç kere hafifçe vurdum. İçeriden cevap, kapı açıldı. Önce çocukların feryatları, atılışları içinde artık saadete kendimi terk edivermiştim. Oh yarabbi, artık büyük tanrı bana bugünü de gösterdi. Birer birer hepsi toplandı. Annem, babam ve kardeşlerim de geldiler. Hepsini çok şükür sağ ve zinde buldum. Hatta herkesi biraz serpilmiş ve büyümüş, biraz değişmiş gördüm. Binlerce şükür hiçbir noksan yokmuş. Yalnız, bir hanım kız mevcut, bu da amcamın Mediha Hanım'ı. Hepimiz derin bir bayram içerisinde uzun uzun muhabbetlere daldık ve akşamı neşe ve saadet içerisinde getirdik.
+
+Akşam yemeğimi yiyip bir müddet sohbetten sonra evimize gitmek üzere kalktık. Belediye önünde caddeye çıktık. Yol mahşer gibi kalabalık. Belediye bahçesinde mızıkas? çalıyor. Yol üzerinde büyük bir tak yapılmış ve tak elektrik ışıklarıyla süslenmiş. Bursa*'da en mesut bir değişim olarak bu elektrik süslemelerini gördüm. Şehrin eski bildiğimiz kor kandil gibi yanan elektrik süsleri yerine kuvvetli bir elektrik cereyanı ve umumi bir tesisat yapılmış ve her taraf elektrik aydınlatmalarıyla ışıklandırılmış. Bunu Ruslar yaptı, diyorlar. Sarayönü'ne ve daha ileride Setbaşı'na doğru yol aynı neşe ve şenliği muhafaza ediyor. Kahvehaneler aydınlatılmış ve kalabalık, hepsinde ince saz takımları terennüm ediyor. Yavaş yavaş hep birlikte bu güzellikleri seyrederekten Yeşil'e doğru bir aralığa saptık. Bizim ev buradaymış. Nihayet kapıya geldik, içeriye girdik. Tertibat ve genişlik itibariyle evi güzel buldum. Bu bizim için kâfi gelebilirdi. Cenab-ı Hakk kısmet etse de şu evi, emval-i metrukeden bize her neye karşılık olursa olsun bir verseler, dedim. Peder, valide ve kardeşlerle uzun bir muhabbet yaptıktan sonra yapılan yataklarımıza dağıldık. Hafif bir yor-
+
+> [!note]+ Footnotes
+> 57 mızıka: Bando (e.n.).
+
+### p. 169
+
+gunluk, tatlı bir gönül ferahlığı içerisinde hülyalarımın yarısına kavuşmaktan kaynaklanan bir gönül rahatlığıyla mükemmel bir uykuya daldım. Bursa rüyası artık hakikat olmuştur...
+
+Ertesi sabah uyandığım zaman yanı başımda kardeşimi buldum. Biraz sonra birisi daha geldi. İşte biri erkek öteki hanım kız olmuş iki yavru emellerimizin en kuvvetli nüvelerini teşkil eden kıymetli vücutlardı. Birisi sultanisini98 sonuna yaklaştırmış ve artık çocukluk çağından çıkarak sağlam inançlı bir genç olmuş bulunuyor ve çok sevdiğim sakin tabiatını hâlâ muhafaza ediyordu. Celâl, Allah'tan bana vefalı bir dost olmasını istediğim kardeş olmaya namzetti. İstikbale doğru sağlam adımlarla yürüdüğüne ve fakat o kadar da yalnız kaldığına emindim. Yalnız şuna çok şükrediyordum ki, o da bizim gibi gurbet ellerine düşmemiş, yabancı muhitlerin zehirlediği ruhların haricinde saf kalmış ve yıpranmamıştı. Celâl, henüz İstanbul'a olsun gitmek kadar bir ayrılık görmemiş, fakat ısındığı yurdunun kıymetini de her yönden takdir ve ondan istifade etmişti. Celâ'i çok ümit verici buldum.
+
+Cemile'mize gelince, onu artık çarşafa girmiş bir hanım kız buldum. Çocukluk hallerini oldukça terk etmiş olan bu yavru artık mesut zamanlara erişmesi temenni edilecek devrelere yaklaşmıştı. Ben Akşehir'de bulunurken bir gün üzeri ince ve titrek yazılı Rumca damgalı bir zarf geldiydi. Kaba olan zarfı açtığım zaman içerisinden bir fotoğrafı çıktı. O zaman Cemile'nin sima ve endamından, o pek sevdiğim, öyle tanıdığım çocukluk izlerinin silinmeye ve yerine müessir bir ciddiyet örtünmeye başladığını hissederek üzülmüştüm. Bilmem buna üzüntü demek hata mı olur? Her nedense onu daha küçük görmek ve öylece pek uzun müddet kucaklayarak doya doya sevmek istediğim bu yavruyu böyle serpilmiş ve
+
+> [!note]+ Footnotes
+> 58 sultani: Bugünkü liselerin dengi öğretim kurumu (e.n.).
+
+### p. 170
+
+değişmiş görmek bana tesir etmiş ve o zaman bu resim ve arkasına yazılmış bir iki satırlık yazı beni ağlatmıştı...
+
+Şimdi bu hakikatin karşısına geçmiş seyrediyordum. Onun da üzerinde eski beğendiğim tabiatları baki kalmış. Biz üç kardeş, öyle hissederdim ki, birçok müşterek özelliğe sahip bulunuyorduk ve bu tesirlerle birbirimize karşı derin bir muhabbetle dolu oluyorduk...
+
+Baş başa vererek biraz muhabbet ettikten sonra kahvaltı etmek için semaver başına indik. Ah bu semaver başı sohbetleri bize ne kadar değişik bir hayatı tattırmıştı. Mazimde semaver etrafında geçen ömrümüzün ne kadar çok hikâyeyle dolu olduğunu düşündükçe hâlâ içimde bir ağlama arzusu titrer. Şimdi semaverin ahenktar musikisi karşısında hepimiz sohbetler ederek, çocukların mektebe hazırlıkları da telaşla bitirilerek oturuyorduk. Çoktan beri unuttuğum eski bir alışkanlığa kavuşmanın verdiği memnuniyetle güzel kokulu çaylarımızı da içtik.
+
+Celâl bana Bursa'yı gezdirmek için mektebini ihmal etti. Bu samimi arzusuna muhalefet edemezdim. Zavallı pederim de beni her daim yanı başında görmek istiyor ve validem ise ona kafa arkadaşlığı edecek bir kadın kadar benimle sohbet etmek arzusunda bulunuyordu.
+
+Bursa'da ne kadar kalacağım belli değildi. Karargâhın bir taraftan İzmir'e tekrar hareket edeceği ve bir taraftan da Bursa'da yerleşmek ihtimali hakkında söylentiler dolaşıyordu. Ben de hem Bursa'da kalmayı, hem de karargâhla birlikte giderek vesaitten layıkıyla istifade edebilmeyi arzu ediyordum. Büyük sevgileriyle bana karşı büyük ikramlarda bulunmak isteyen akrabalarımız da bir taraftan davetlerde bulunuyorlardı. İşte böylece az zamanda tanıdıklarımızın hepsinin hatırı yerine getirilmiş oldu. Memuriyet dolayısıyla Bursa'dan ayrılan amcam da nihayet geri geldi. Onunla da görüştüm. Zavallı amcamı pek çok severim. Cömertliği, temiz ve
+
+### p. 171
+
+sakin tabiatı bende pek derin tesirler uyandırmıştır. Bu defa kendisini ihtiyarlamış buldum. İşgal altında geçen zamanların üzerlerine yüklettiği dertler ve kederler bu, zamanının zarif ve ağırbaşlı memurunun belini bükmüş, ıstıraplar ve sıkıntılarla dolu uzun, kâbus gibi hayatı gönlünü ihtiyarlatmıştı. Şimdiyse bu sıkıntılara tahammül etmesine mukabil memuriyetinden de ümidi yok gibiydi. Bizde, memurları veyahut memleketin güzide münevverlerini her yönden himaye edecek bir idare tarzı yaratılamamıştır. Bu, memleketin gençlerine tesirli bir ibret olduğu kadar, büyük bir zümreye de en zehirli bir dert olmuştur. Gözlerimizin önündeki gençliğe bu yolların bütün kötülüklerini göstererek onları aydınlatır ve bu gayelerden uzaklaştırabilirsek en vicdani vazifemizi yapmış ve onlara karşı büyük bir borç ödemiş oluruz. Bu vesileyle söylemeden geçemeyeceğim ki benim neslimden akraba ve hısımlarımdan her kim memuriyet veya askerlik kisvesine girmek isterse o bilmeli ki zaman bir gün muhakkak kendisini hüsrana uğratacaktır. Memur hayatının hâlâ devam ettiği bu memleketin kapısındaki yaftayı okumayı herkese tavsiye ederim. O yafta şudur: “Bu memlekette insan takdir edilmez.” Elverir ki takdir ve ödüle muhtaç olmadan hayatını sürdürebilsin! Biz yandık, bundan sonrakiler bari yanmasın! İşte misalleri: Kırk senelik bir memur ve muallim olan muhterem babacığım bize bir karış toprak bırakmamıştır. Miralay rütbesinde —ki serbaytarım— bazen meteliksiz geziyor. Maaş çıkmazsa bilmem neredeki ailesini düşünüyor. Bunun gibi daha kim bilir ne feci misaller anlatılıyor...
+
+Bursa'nın henüz en ziyade sevilecek mevsimi olmamakla beraber her nedense beni bütün cazibesiyle sarmış ve çok hoşuma gitmişti. Hele şimdi başkumandanın ve diğer paşaların da burada oluşu zaten mevcut bayramı daha da şenlendirmişti. Başkumandan Bursa'ya gelirken pek muhteşem bir surette karşılanmış, zaten dediğim
+
+### p. 172
+
+gibi Bursa, kurtarılışının üzerinden bir buçuk ay geçtiği halde hep bayram yapıyormuş. Bu sefer kumandanların gelmesiyle daha büyük ve süslü bayramlar yapmışlar. Kuva-yi Milliye'nin gitmesine dört gözle bakan Bursalılar şimdi milletin kucağına kavuşmalarını derin pişmanlıklarla kutluyorlar.
+
+Celâl, bana köşebaşlarında biriken sımsıkı örtülü kadınları gösteriyor ve bunların günün belli zamanlarının dışında hep böyle bekleşmekte olduklarını söyleyerek onların tuhaf konuşmalarını taklit ediyordu. Celâlim tam aklı başında bir efendi olmuş, benim yanımda benden daha düzgün kıyafetiyle daha ağırbaşlı görünüyordu. Bu beni pek ziyade sevindiriyordu. Bursa'da bazen yanıma amcamın küçüklerini ve pek çok seviştiğimiz Behçeti alarak gezintiye çıktım... Hasılı bir hafta kadar, yeniden ruhumu serinleten, elemlerimi unutturan ve bana geleceğe daha derin güven duymak için kuvvet vermeye sebep olan bir zaman yaşadım... Bir gün ansızın karargâhın hareket ettiğini öğrendim. Canım sıkıldı. Vasıta düşünüyordum. Nihayet gördüğüm bir zabit bana bir otomobil olduğunu ve bunun da iki gün sonra hareket edeceğini, kendisinin de gideceğini söyledi. Neyse buna da şükrettik...
+
+Artık Bursa'da sılanın son günlerini geçiriyorduk. Bir akşam İstanbul'dan muallimelerin başkumandanı ziyarete gelecekleri duyuldu. Çünkü İstanbul artık bir miktar Anadolu'nun kokusunu duymuştu. Mudanya Konferansı'ndan sonra orada olan Refet (Bele) Paşa İstanbul'a delege olarak gönderilmişti. Bununla İstanbul halkı ilk defa Anadolu temsilcisini karşılamış oldu. Gazetelerde okuduğumuza göre bu karşılama pek heyecanla ve pek büyük merasimle yapılmış. Hasılı İstanbul baştan başa çalkalanmış ve sevinmiş. İşte İstanbul muallimelerinin geldiği akşamdı. Ben geç vakit yatmıştım, tam uyuyacağım sırada Celâl'in sesiyle uyandım. Bana,
+
+### p. 173
+
+pek yakınımızda olan Şark Tiyatrosu salonunda bütün kumandanların ve muallimelerin toplandığını, orada nutuklar söylendiğini ve mutlaka gelip görmekliğimi söyledi. Merakla kalkıp giyindim. Filhakika bir kısmı çarşaflı hanımlarla dolmuş salonda büyük bir kalabalık vardı. En önde paşalar oturuyorlar ve karşılarındaki sahne üzerinde Hamdullah Suphi (Tanrıöver| Bey heyecan verici edalarla nutuk söylüyor. Hamdullah Suphi derin bir vecd ile İstanbul misafirlerine, İstanbul'un işgal günlerine ait matemli hatıralarından bahsediyordu. Nihayet bu da bitti ve sahneden indi. Sahnenin karşısında Mustafa Kemal Paşa, yanında Madam Golis,5? İsmet Paşa, Fevzi Paşa, Kâzım Paşa ve Kâzım Karabekir, Çolak Kemal Paşalar vardı.
+
+Bir aralık Mustafa Kemal Paşa kalkarak hanımlarla sohbete başladı. Bakıyordum, zavallı İstanbul kadınları paşaya ne kadar hasretli gözlerle derinden bakıyor ve heyecanla ellerine sarılıyorlardı. Paşa kalpağını ve paltosunu çıkarınca bunlar da paha biçilmez bir eşya seyreder gibi herkesin meraklı nazarlarından geçmeye başladı. Paşa ruha nüfuzu çok iyi biliyor. Diğer paşalar da kalkıp her biri bir tarafa, ahali içerisine karışarak sohbete başladılar. Bu samimi manzarayı zannedersem hiçbir yer görmedi. Biraz sonra imza toplama merasimi başladı. Şimdi herkes bir kâğıt parçasını paşalara uzatarak imza attırıyorlardı. Büyük bir heyecanla devam eden bu iş de bittikten sonra paşalar hep birlikte sahne üzerine dizilen sandalyelere oturdular. Bir çeyrek kadar bu manzara da devam etti. Mustafa Kemal Paşa da nutuk söylemiş ve “Bundan sonra orta tahsilli, ameli adamlar yetiştireceğiz...” demiş. Bunu duyamadım. Sahne üzerinde herkes simaları tetkik ediyordu: Sivil elbisesiyle açık başından sarı saçları maharetle fırçalan-
+
+> [!note]+ Footnotes
+> 59 Berthe Gaullis: Kurtuluş Savaşı zamanında Fransız Le Temps gazete-
+>
+> sinin temsilcisi olarak Türkiye'ye gelen, Fransız gazeteci (e.n.).
+
+### p. 174
+
+mış Mustafa Kemal Paşa büyüleyici bir eda ve bakışları ile kâh konuşuyor, kâh etrafına bakıyordu... Fevzi Paşa, manasız bir tavırla sandalyesinde durarak ciddi ve vakur bir heykel gibi oturan sevimli çehreli Kâzım Karabekir Paşa ile konuşuyordu. Zinde ve çevik bir hareketle sahneye sıçrayan Hariciye Vekili (0 zaman yeni olmuştu) İsmet Paşa, bu sivil vekil, asker üniforması içerisinde meşhur tatlı tebessümleriyle etrafı seyrediyor ve bazen yanındaki Kolordu Kumandanı Kemalettin Sami | Gökçen| Paşa'yla, bu değerli ve kıymettar kalpli kumandanla konuşuyordu. Bu sahne de herkesin takdirkâr nazarlarına arz edildikten sonra birer birer salonu terk etmeye başladılar.
+
+Hepsine ayrı ayrı alkış tutuluyor ve halk, paşaları candan takdir ediyordu. Yalnız İsmet Paşa'nın daha çok alkış tufanına boğulduğunu ve “Yaşa!” nidalarıyla uzun uzun alkışlandığını gördüm. Mudanya Konferansı'nı imzalayan ve ihtimal ki gösterdiği dirayet yüzünden Hariciye Vekâleti'ne yükselen paşa, Garp Cephesi kumandanlığından ayrılırken halkta fazla bir hürmet hissi ve bir takdir arzusu vücut buluyordu. Allah bu emeği bol, güzel huylu paşadan millete daha çok iyilikler görmek nasip etsin!
+
+Ertesi gün Emir Sultan'da mı Yeşil'de mi cuma namazı kılınacakmış. Paşalar orada da bulundular ve sonra Ankara'ya hareket ettiler. Ben de vaadim icabı Ulu Cami'de bir cuma namazı kıldım. Oh, bu mübarek mabedin serin ve ruhani kubbelerinin altında hasretle yanan alnımı secdeye koyduğum vakit ne kadar büyük, derin bir hazla duygulandım... Çok şükür ki, Yunanlılar bu mabetlerimizin kutsiyetine olsun el sürmemişler. Tabii çok fırsat gözlemişler. Bursa'da harap olan ve fakat beni çok etkileyen büyük bir müessese var: Ziraat Mektebi... Bu mektep, böyle ameli müesseseler için mükemmel örnek demeye layıktı. Yüz binlere değer bir kıy-
+
+### p. 175
+
+metteydi. Bilmem, ihyası için ne kadar emek ve ne kadar para ister! Allah vere de mümkün olsa!
+
+Bursa'da bir akşam daha kaldım. Celâl'le gece dolaştık. Sonra eve dönerken Şark Tiyatrosu'nda mektepliler tarafından verilen bir müsamereyi azıcık seyrettik. Zavallı yavrucaklar Yunanlılar zamanında Bursa'da geceleyin evlere edilen adi taarruzları temsil ediyorlardı. Bu çok etkileyici sahne karşısında düşman işgali altındaki kederler pekâlâ hissediliyordu. Ufacık kızların yetenekleriyse görülecek şeydi. Bursa'da bulunduğum müddetçe memleketin ilim, irfan ve uyanıklık hususlarında ilerlemekte olduğunu tamamıyla hissettim. Bursa'da eğitimdeki gelişme pek çok memleketlerden ileride ve İstanbul'a pek yaklaşmaktadır. Ertesi sabah kamyonetimiz Yeni Kaplıca civarında hazır bulunacaktı. Bu ufak ziyaretle bende pek derin sevgi ve bağlılık yaratan evimden ve Bursa'dan ayrılacaktım. Fakat nedense içimde bir ses bana, “Yakında yine gelirsin, merak etme!” diyor gibiydi. Ve ben de buna güvenerek yine geleceğimi vaat ediyordum. Öyle ya, artık meselenin mühim kısmı hallolmuş, uzun müddet gurbet diyarlarında sürünmeye sebep kalmamıştı. Kim bilir?
+
+Yaşlı nazarların, titrek dudakların veda merasiminden uzaklaşarak, Celâle birlikte kamyonete kadar gittik. Kardeşimle de orada ayrıldık ve şoför civarında bir yere yerleştik. Gelirken gördüğümüz rahat nerede? Nihayet otomobil hareket etti. Yeknesak bir ahenkle makine yol alırken artık Bursa da yavaş yavaş ve azar azar nazarlardan silinmeye başlıyordu. Çekirge'nin tenha binaları da son bir merasim nazarıyla bize veda ettikten sonra düz bir arazi üzerinde Bursa'dan büsbütün uzaklaşmaya başladık... Beni cazip güzelliğiyle saran sevgili Bursa'yı hayalen tespite gayret ederek ve kim bilir ne zaman tekrar döneceğimi bilemeden İzmir'e dönüyorduk...
+
+### p. 176
+
+Dönüşten sonra Kanunuevvel 338 (Aralık 1922)
+
+O uğursuz işgalden başlayarak üç sene kadar devam eden hasret acılarını dört beş günlük bir sılayla azıcık serinlettikten sonra tekrar İzmir'e gelişim, sanki yeni hicran hayatına bir dönüm noktası oldu. Bir seneden fazla zamandan beri devam eden vazifemi İzmir'e döndükten bir ay sonra bıraktım. Gönül, en pürüzsüz rahattan bile bıkıyor. Bilhassa bendeki gibi delisi olursa! Fakat şükrederim ki verilen vazifeleri daima kayıt ve şarta bağlanmadan yapmak isteyen ruhum her müşküle, her engele rağmen onları başarmaya çalışmıştır. Yukarıda İzmir'e dönüşümü hicran hayatıma yeni bir başlangıç olarak vasıflandırmıştım. Vazifemin terki bu hicranıma asla sebep değildir. Bilakis bu iş, benim ta ezelden, o mevkiye geldiğim günden beri arzu ettiğim bir şeydi. Hatta cepheden çekilmekliğim ve kıta hayatına atılmaklığım benim için az çok mutluluk sebebi bile oldu dersem hata etmediğimi vicdanımın tasdik ettiğini hissederim. Bu vicdan kelimesi de ikide bir dilime dolaşır. Burada da kullandığım zaman içime bir acı çöktü. Bunun sebebini açıklamak herhalde iyi olmayacak. Çünkü bu kelime kullanıla kullanıla o kadar sıradanlaştı ki adeta şimdi her ayıbı kapamak, her palavrayı kuvvetlendirmek ve herkesi kandırmak için eski ifade kudretini bile kaybetti. Ah, bu vicdan masallarını ne kadar çok dinledim ve ne kadar vicdanlardan da nefret ettim! Keşke ben de vicdan demeseydim. Benim vicdanım temiz bile olsa bu kelimenin kirletmesi çok muhtemel!
+
+Ben daima içimde, şu yaşımla uygun olmayarak, büyük bir sabır ve tahammül olduğunu hissederim. Bunun cebir veya korkudan ileri geldiğini söylemek, zihnimden geçmez. Çünkü yaşıma başıma bakmadan çok hatırı sayılır münakaşa ve mücadelelerde bulundum. Sabır ve
+
+### p. 177
+
+tahammül dediğim kederimi, haksızlıklardan başka her türlü mihnet ve cefaya karşı bir silah olarak kullandım. İşte yine bir sürü manasız sözler saçmalıyorum. Manasız... Çünkü bazen kendimin bile takdirinden aciz kaldıgım, kendim hissettiğim halde tarif ve ifade edemediğim ve edemeyeceğim ne derin buhranlara gönlümü kaptırmadan yaşadığım zamanları burada zikretmek ve uzatmak neye yarayacak?
+
+Bursa'dan döndükten sonra yukarıda saydığım uzun ve daha çok uzatılmaya layık şeylerden dolayı minnetsizce serbaytar muavinliğini terk ederek 6. Fırka Topçu Alayı'na tayin edildim. Bu suretle Anadolu'da ve ilk defa olarak askerliğin yüksek mevcudiyeti içerisine, kıta hayatına atılmış oluyordum. 338 senesi biterken ben kıtamla birlikte İzmir'den ayrılıyor ve Bursa'ya gittiğim yollardan bu sefer Soma taraflarına doğru yollanıyordum.
+
+339 (1923) senesinin birinci günü yeni girdiğim kıta, yeni bir yere geçtiği için hiç görmediğim bir havaliye girmiş bulunuyorduk. Bursa'ya giderken ve gelirken trenle geçtiğim ve trende müsterih, kaygısız, gideceğim memleketin sevincini ruhumun derinliklerinde hissederek geçerken uğradığımız Soma İstasyonu'na bu sefer askeri trenle gelmiştim. Gönlümde her nedense bir öksüzlük hüznü hissediyordum. Soma'nın tenha istasyonuna indikten sonra topların çamurlu yollardaki kederli sedaları hayalimde ne etkili manzaraların canlanmasına sebep oluyordu. Bir iki ay içinde ne umulmaz değişimlere şahit olmuştum. Şimdi, kışın bu kasvetli günlerinde mütevekkil asker yürüyüşüyle çamurlu yollara tırmanarak uzun bir ova içerisine giriyoruz. Birden hatırama bugünün tarihi geldi. Hakikaten bugün 339 senesinin birinci günü, yani sene başıydı. Anadolu'da gördüğüm bu ikinci sene başı da beni bir hayli düşündürdü. Geçen sene başında Akşehir'den Çay'a arkadaşlarla konuşmak üzere gitmiştim ve epey zahmet çekmiştim. O zaman bekleme
+
+### p. 178
+
+devresi içinde hayallerimizin bulutlu göklerine bakarak bir zaman geçiriyorduk. Gönüllerde dinmeyen bir can sıkıntısı vardı ve hep bekliyorduk...
+
+Bugün emellerimiz gerçekleşmiş, rüyalarımızın pek çoğu hakikat olmuştu. Hatta ben Bursa'yı bile görmüştüm. Ve yine bugün sulh için devletlerle müzakere ediliyor. Fakat biz yine bugün böyle dere tepe aşıyor, memleketler geziyorduk. Bu maceraların sonuna bilmem ne zaman yaklaşacağız. İçimde bir üzüntü var. Bu haller, bütün bu maceralar bana çok yabancı geliyor. Gördüklerim gözlerimi, dinlediklerim zihnimi ve dimağımı dinlendiremiyor. Hatta bana azap veriyor. Cenab-ı Hakk'ın insanlara verdiği hislerden ve zevklerden istifade etmek kabiliyeti, yoksa bir kısım insanlara bahşedilmemiş midir? Geçen bir sene pek çok ve pek mühim vakalarla dolup taşmıştı. Bu giren sene kim bilir bize daha ne kadar vukuat sunacak?
+
+Bu yeni memleketlerde geçireceğimiz yeni yılın benim için de mesut bir yıl olmasını şu zavallı kalbimle Allahtan niyaz edersem, merhametine kavuşamaz mıyım?
+
+Allaha imanım ve ondan ümidim var! Allah büyüktür! Bizi de kurtarır!
+
+İki sene sonra başımdan geçenler...
+
+> [!note]+ Footnotes
+> 17 Temmuz 339 (1923)
+>
+> Hatıra defterimin ilk sahifesinde de 17 Temmuz tarihi okunur. Fakat o tarih bu tarihten iki sene evveline aittir. Yani Anadolu'ya girişim tam iki büyük seneyi doldurmuş. Yirmi üç veya yirmi dört yaşındayım (kafa kâğıdına göre). Daha doğrusunu ebeveynime sormalı! Daha az derlerse inanmam. Daima yaşımı fazla söylerim. Kız değilim ki tohuma kaçmış desinler! Şu halime bakan ağırbaşlı, yorgun bakışlı görerek, hele saçlarımın akını da gördükten sonra otuzluk tahmin eder. Fakat bazı fazla haşarılık, hafiflik yaptığım görünürse çocuk-
+
+### p. 179
+
+luğumdan hâlâ ayrılamadığımı söyleyenler olur. Gönlümün genç tabiatı ölmesin de ne derlerse desinler! Kulak bile asmam. Elverir ki mizacıma münasip ruhtan dostlarım olsun! Bana vaktinden evvel ağırbaşlılığı ve fazla yaşlılığı veren, sekiz on senedir bana gençlik zevkini zaman veya mekân, her ne suretle olursa olsun tattırmayan acı gurbet seneleridir. “Gurbette ölen şehit olur” sözü de işin ehemmiyetine yüksek bir işarettir. İstanbul'un kararsız muhiti ve iki senedir de Anadolu'nun basık ve yapışkan mizacı tabiatımda derin izler ve şaşırtıcı eserler bıraktı. Gurbet acıdır, çok, pek çok acıdır! İnsanı böyle vaktinden çok evvel ihtiyar eder, yıpratır. Hasılı gurbetin terbiye üzerinde de pek çok tesirleri vardır...
+
+Eskileri mecburen geçeceğiz. Anadolu'ya geleli, geçen iki sene bana çok mühim ve tarihi vukuatı gösterdi. Eskişehir geri çekilişinin buhranlı günleri, Sakarya Harbi, uzun bir mesai devresi ve Büyük Taarruz ile sonuçları... Bunlar az şey mi? Bunların içinde ve yakınında bulundum, gördüm, işittim ve zahmetlerini de çektim. Gerek vazife ve gerek duygu itibariyle yaşadığım hayattan aldığım zevkler bana bazen derin kederler, bazen büyük ümit ve teselliler vermiştir... Anadolu'ya girmekliğim, gevşeyen ve didiklenen hissiyatımı pek çok tamir ve takviye etmiş ve mevcudiyetim sanki bu saf muhitin hararetiyle örtünmüş ve ısınmış, pişmiştir. Hissiyat noktasından Anadolu'nun zihnimdeki büyük eserlerini gördüm. Fakat vazife hayatı bana mühim, muhtelif, acı örnekler gösterdi. Yukarıda birçok parçalarını yeri geldikçe zikrettiğim çeşitlerin, bana mahsus olanlarını da tespit etmesini çok arzu ederdim. Fakat her şeyden evvel kuvvetli bir hafıza lazım değil mi? Bu yönden fakir olduğumu neden itiraf etmeyeyim? Yazdıklarım ve yazacaklarım, gördüklerim ve yaptıklarıma nazaran noksandır. Bütün bu tecrübelerin acı veya tatlı lezzetlerini ruhumun kâfi derecede tattığını, mümkün değil inkâr edemem. Ana-
+
+### p. 180
+
+dolu camiasını millet ve memleket olarak ikiye ayırmak lazım gelirse ben hissiyat cihetiyle millet ve vazife itibariyle de memleket ile temas ettim. Duygularımla ilgili kısımları ve millete karşı olan hislerimi ifade için bundan evvelki bahisleri göstermekliğim icap eder.
+
+Her ne kadar önceki bahislerde vazife ve mesleğime de bir miktar tarif karıştırılmışsa da ben bu kısmın bu kadarcıkla geçiştirilmesine katiyen razı değilim. Bunun için çok söz çok çene ister. Hoş, mesleğimize göre bu da vız gelir ya. Fakat ben burada mesleği mi tenkit edeceğim, yoksa hatıra mı tespit edeceğim? Birinci şıkkı vazifeliyken fiilen, her zaman, her fırsatta yaptım. Lakin memleketi sevenlerle beraberce söyleyelim ki “Varak-ı mıbr-i vefayı okuyan ve anlayan yok!”60 Bunu memlekete yakıştırsak haksız mı çıkarız? Hakkın sihhatli bir ölçüsü olmadıktan sonra da bu söze hacet var mı ya, dedikleri gibi hakkı ve hakikati uzun uzadıya arayarak aczini ilan edeceğine, muktedirsen tut, yık! Vazifenin memleket aşkıyla münasebetini ben bir buçuk sene devam eden ilk ve mühim vazifem esnasında görmediğimi mesleğime karşı bir ukde olarak muhafaza edersem, ben mi zararlı çıkarım, meslek mi zararlı çıkar? Ben böyle diyorum; o, hayır şöyle diyor ve başında koca kalpak, baş sedire geçmiş, elinde çubuk altında post, kaşları çatık, şehadet parmağını âdeti üzere dik şekilde, kapanık dudaklarının ortasından göstererek, “Sen sus!” diye tehdit ediyor. O ölürse, o giderse meslek de ölmez mi, bitmez mi, gitmez mi acaba? Geleceği kim hazırlayacak: Müşavirler. Programı kim yapacak? Müdürler... Bunları kim himaye edecek? Adam sen de zamanı mı ki? İstersen otur da bir kurt masalı da sen dinle! Ben bıktıydım azi-
+
+> [!note]+ Footnotes
+> 60 Birçok Divan edebiyatı şairi tarafından kullanılan “Varak-ı mihr ü
+>
+> vefayı kim okur, kim anlar” şeklindeki bu mısra, “Artık kimsede dostluk, sadakat ve vefa kalmadı, kimse bunları önemsemiyor” manasına gelmektedir (e.n.).
+
+### p. 181
+
+Mehmet Turgut, Askeri Baytar Mektebi 3. sınıfta, 15 Şubat 1918
+
+zim ve hâlâ da bıkıyor ve nefret ediyorum. Bu mesleğin kaygısı yüzünden cüsseme bakmadan ne haltlar yedim, ne belalara uğradım. Fakat topuzu yine pöstekilerden yedik. Hoş bu heriflerin öyle topuz vurabilecek iktidarları da yok ya? Onu da başka birine havale ediverirler. Mesleği düşündün mü yüreğine acı çöker... Hataların hangi birisini saymalı? Keşke böyle meslek için çalışacak ilk devremde öyle bir mevkide bulunmasaydım.
+
+Kendim, o kadar ilgim olmadığı halde mesleğe cehalet yüzünden sürülen karaları küçük dimağımla üzerime alınır ve pek çok fazla alaka gösterirdim. Bugün hiç şüphe yok ki meslek erbabı ekseriyetle bıkmış ve hatta nefret eder bir vaziyettedir. Bu hali kurtaracak yok mu? Orduya da memlekete de veba-yi bakari afetini musallat eden veyahut netice itibariyle böyle bir hükme maruz kalan mesleği temize çıkaracak kuvvetin pancar gibi yerden biteceğini düşünmeye kadar varmadık mı? Ben cephe serbaytar muavinliğindeyken henüz kıta hayatını görmediğim ve bilmediğim halde, kıta baytarlarını,
+
+> [!note]+ Footnotes
+> izel
+
+### p. 182
+
+> Mehmet Turgut, Askeri Baytar Mektebi 4. sınıfta. Cerrahi laboratuvarı, 22 Mart 1919
+
+yani asıl amele baytarları çok sever ve takdir ederdim. Ve dolayısıyla hallerine çok acırdım. Sonradan işte bu çok sevdiğim, fakat baytarlığına geçtikten sonra ve işte bugün baytarlığın daha ne kadar çok zavallı olduğunu da görüyorum. Meslek de meslektaşlar da himayesiz ve öksüz bir vaziyettedir. Çünkü kodamanların hepsi dalkavukluk yarışı yapıyorlar. Bu da iş icabıymış?! Bu icabın bu suretle olsun idaresini ve teminini gören kim? Kim iktidar mevkiinde? Hangi kuvveti sarf etmiş? Hepsi hiç, evet hepsi hiçtir. Hatta daha fenası bunlar öyle oldukça, o tavrı takındıkça zararı yine küçüklere, bizlere dokunuyor... Ah mektepsizlik, diyeceğim.
+
+Bizi Kuleli Askeri İdadisi'nden, küçük diyerek Baytar Mektebi'ne atmışlardı ve hatta ben istemeye istemeye, ağlayarak Selimiye'deki mektebe gelmiştim. Daha ilk seneydi. Okuduğum dersler bende derin bir cazibe uyandırıyor ve yeni atıldığım mesleğe beni fazlasıyla bağlıyordu. Ben çalıştım ve her sene de birinci oldum. Fakat
+
+### p. 183
+
+Mehmet Turgut, İstanbul 1919
+
+şunu itiraf etmeliyim ki dersler ve sınıflar yükseldikçe hocalarımın ve ders anlatma usullerinin kötüleştiğini, manasızlaştığını görerek üzülüyordum. Hocaların hepsi baştan savma ders veriyorlar ve bizi daha fazla ısındıracak tatbikatlardan ve teşviklerden tamamen mahrum bırakıyorlardı. İlk hazırlık sınıflarındaki hayatın derin tefsirlerini büyük sınıflarda unutmaktan başka bir şey öğrenmediğimizi söylemek bir acı hakikattir. Ben bir zaman kimyayı gaye edinircesine sevdim, fakat beni zorla soğuttu. Bize ne ameli ve ne de ilmi gerekli malumatı vermediler. Çok eksik okuttular. Mektebin dopdolu olan ders vasıtalarını bir müze şeklinde karşıdan, adını bilmeden seyrettirdiler. Ve mektep bizi başıboş bıraktı.
+
+Daima düşünürdüm ve o zamanlarda bile anlardım ki koskoca bir baytar mektebinin böyle manasızca sürmesindense bütün masraflarının belki yarısıyla daha çok ve daha malumatlı meslek adamını Avrupa'da yetiştir-
+
+### p. 184
+
+Askeri Baytar Mektebi staj senesi, 1920
+
+mek mümkündü. Bugün işte fiilen bu hakikatle karşılaşmış bir haldeyiz. Bu mektep işi boştur. Şunun bunun karnını beyhude doyurmaktan başka bir şey değildir. Millete de, memlekete de, hükümete de, mesleğe de, meslektaşlara da çok yazık oluyor. Mesleğimizde adam yetişmiyor, adam çıkmıyor. Ben bilmiyorum, görmedim. Bilen varsa söylesin. Fakat benim tanıdıklarımdan değil! Çünkü meydanda görünen baytarların hepsini biliyorum. Meslek kaygısına düşe düşe meslekten tamamıyla soğudum ve şimdiden sonra da bu kafayla bu meslekte çalışmak budalalığını yapmak istemiyorum.
+
+Cephedeki vazifemde Kumandanlık bizden bir harp ceridesi istemişti. Bunun 337 (1921) senesine ait olanını ben yazdım. Orada bütün bildiklerimi ve bu mühim, verimli senede baytarlığın mesaisini veya hatalarını açıkça ve delilleriyle yazdım. Gören ve okuyanların bir kısmı oradaki lisanın, her ne ve kim olursa olsun, biraz şiddetli olduğunu söylediler. Mesleğin hatasını bağırmak bizim için iyi değilmiş! Bir yara olunca neşterlenmezse daha
+
+### p. 185
+
+Mehmet Turgut, İstanbul 1920
+
+vahim akıbete sebep olmaz mı? İsterse bu cerahatin kokusu mühim burunlara kadar gidecekmiş. Daha iyi ya! Mademki dalkavuklukla onlara her şeyi anlatmak ve onların önünde bütün hataları izah etmek ve onlardan tehdit görmek lazımsa hiç olmazsa herhangi suretle olursa olsun ortaya yüksek sesle, açıkça bağırmak, haykırmak, feryat etmek daha iyi değil mi? Aramızda mı bağıralım? Hani münakaşa sahası? Çıkan mecmua mı? Gülerim... Bu kadar senede nihayet parayla çıkabilen bir mecmuada dört imza sahibinin mükerrer, manasız, konuyla alakasız, gayeden, esastan uzak, anlaşılmaz, faydasız tercümeleri hangi yüzle ortaya sürülüyor. Fendeki son gelişmeler bunlar mı? Lütfen bir de doktorların, yani yanı başlarındaki Sıhhiye Dairesi'nin ücretsiz
+
+### p. 186
+
+yayınladıkları mecmuanın kıymetini görsünler. Herkes yazsın! Yazsın mı? Hele senin istemediklerinden olursa! Geç yiğidim geç! Sussan da dinlesen daha iyi edersin. Kişi işleriyle ölçülür. O nerede, ondan ne haber?! Şu kıta baytarlarının vaziyetlerine ve ihtiyaçlarına acaba vâkıf mısın? Ne gezer. O halde lütfen sus! Yahut söyle, söyle, şuna cevap ver:
+
+— İki senedir veba-yi bakari memlekette neden sönmüyor?
+
+Söyle ve yaz. Benim de, milletin ve memleketin de kulağı sende, söyle!
+
+Ben bunları meslekteki kişilere söyledim. Mesleğime ait hatıralarım neşterlenmiş yaralara benzer. Dimağım çok şükür sakinleşti. Şimdi eski tevekkül sahibi ve sabırlı meslektaşların eserlerine ihtiyaç duyarak, hayatın zevkini başka yollarda aramak üzereyim. Hayatı anladık, fakat ters tarafından geldik. Bu böyle olmayacaktı. İyi olur inşallah diyelim de iyi olsun bari!
+
+Vazife hayatında gönül istirahatini de hiç görmedim. Amirim serbaytarken de, bir askerken de vazife yapmak çekilmez dertlerimden oldu. Başıma bela kesildi. Bir şey var ki insan yolunu bilmeliymiş! O da ne? Dalkavukluk! Riya ve yaltaklanma. İşte hükümet kapısında, askerlikte, memurlukta gaye budur: Hakarete tahammülün, izzetinefsinden fedakârlığın ne kadar çoksa o kadar iyi yaşarsın! Hükümet kapısında beş ayda bir ekmek parasına el açmak, insanlıktan çıktığını derhal ilana en birinci sebeptir. Artık hiç durmaya lüzum yok! Şerefli memur! Ha ha hay! Biraz da hatıralarımızı tespit edelim, kendi ömrümüzün cereyanını görelim: Cephe Serbaytar Muavinliği'ne geldikten sonra Sakarya Muharebesi olmuş ve ordu, memleket geniş adımlarla ilerlemeye yüz çevirmiş bir hale girmişti. Bizim şubemiz hayvanların idamesini, sıhhatlerinin ve mevcudiyetlerinin muhafazasını teminle vazifeliydi. İlk zamanlar müthiş hayvan
+
+### p. 187
+
+ölümleri oluyordu. Başlıca sebebi açlık olan bu sefalet ve ölüme veba-yi bakari gibi bulaşıcı hastalıklar da korkunç sebepler olarak ilave edildi.
+
+Her ilerleme devresinde bu facia sahnesi bir kat daha artıyor ve şiddetleniyordu. Ve nihayet o hale geldi ki bizim şubemiz için bilhassa kaçınılmaz bir bela haline girdi. Serbaytar bu yüzden çok şeyler işitti ve ben birçok açıklama yapmaya mecbur oldum. Çok defa İsmet Paşa'nın hoşuna giden açıklamaları serbestçe yaptığım zaman kendimce hakikat olarak kabul ve ispat ettiğim fikirlerden zerre kadar fedakârlık göstermedim. Kumandanlar her makul fikri kabul ve tatbik ediyorlardı... Çok defa benim bu serbest ifadelerim diğerlerinden daha çok makbule geçti ve daha iyi neticeler verdi. Üzerimdeki vazifemi uzun müddet mücadele, münakaşa, gizlilik ve inatla yapmayı başardım. Buna şükrederim, bundan sonra Serbaytarlık'ın daha çok muğlak işlerinde tertipleyici olmakla müşerref oldum. Vazifemde hakikat bildiklerimi, bu husustaki müspet kanaatlerimi metanetle müdafaa ettiğim gibi hepsini ue yapmayı ve yaptırmayı başardım. Benden öndekilerin düşünmesi ve bulması icap eden şeylerin mühim bir kısmını bularak ortaya koyup faydalı bir şekilde neticelendirdim. Büyük Taarruz olduğu zaman da üstümüzdeki vazifeye dair pek çok telkinlerde bulundum. Yapılanlardan fayda, yapılmayanlardan çok zarar görüldü: Harpte ele geçirilen hayvanlar meselesi gibi...
+
+Sakarya'dan İzmir'e kadar üzerime düşen vazifeyi yapmaya çalıştım. İki serbaytarın maiyetinde bulundum. Hizmetlerimi de takdir ettirdim. Kalben, fikren bugün son derece rahatım. Bugün bu hayata razı değilim. Bu hayat bana çok yabancı geliyor, kanmıyorum. Sözlerimi bitirirken bulunduklarım, yaptıklarım ve gördüklerime bedel herkes büyük mükâfatlar ve iltifatlar görürken bize de bir aferincik olsun kimsenin hatırına gelmemiş
+
+> [!note]+ Footnotes
+> G7
+
+### p. 188
+
+olmasından, büyüklerimin bunu zihinlerine hazmettirmemelerinden azıcık olsun üzgün olduğumu zikretmeyi münasip görürsem, kuru bir teselliyi de kendi kendime bağışlayıp bu suretle gönlümü ferahlatırsam herhalde günah işlemiş olmam...
+
+Düşün... Bul!
+
+24 Temmuz 339 (1923), Kınık
+
+Bugün hem Kurban Bayramı'nı, hem de Sulh Bayramı'nı“! kutluyoruz. Dün de eski 10 Temmuz Hürriyet Bayramı'ydı.62 Gurbet senelerinde geçen bayramlardan hiçbir şey anlamayan gönlüm bu bayramı biraz sıcak buldu ve sevindi. Evet, bu bayrama benim zavallı, küskün gönlüm de katıldı ve sevindi...
+
+İsmet Paşa, bu yüce adam, 26 Ağustos63 gibi, Mudanya Mukavelenamesi gibi eserlerine sulhun imzası gibi büyük ve en şerefli eserini de ilave ediyor. Hakikaten bu kadar arka arkaya bir muvaffakiyet tarihte belki de kimseye nasip olmamıştır. Artık Türk tarihi bu kıymetli zat için en kıymetli satırlarını yazmakta tereddüt etmez sanırım. Okuduklarımıza ve işittiklerimize göre bugün Lozan'da İsmet Paşa'nın imzaladığı sulh Türkler için büyük bir muzafferiyetmiş ve Avrupa bile bunu kıskanmış! Her ne olursa olsun bu kelimenin bugün gerçekleşmesi cidden ve hakikaten bizim en büyük zaferimiz sayılır. Siyaset kumaşını istedikleri gibi dokumak için Avrupa'yı diyar diyar gezen diplomatlar, bu fabrikayı nihayet Lozan'da bulabildiler ve en son Şark Sulhu'nu da
+
+> [!note]+ Footnotes
+> 6l 24 Temmuz 1923'te imza edilen Lozan Barış Antlaşması (e.n.).
+>
+> 62 10 Temmuz 1324 (23 Temmuz 1908) tarihinde ilan edilen İkinci
+>
+> Meşrutiyet, 1909 senesinden itibaren milli bayram (id-i milli) olarak kutlanmaya başlanmıştı (e.n.).
+>
+> 635 Büyük Taarruz'un 26 Ağustos'ta başlayan ilk saldırısında Başkuman-
+>
+> dan Mustafa Kemal Paşa'nın yanında, Fevzi Paşa ve İsmet Paşa da bulunuyorlardı (e.n.).
+
+### p. 189
+
+orada imzaladılar. Sevr imalathanesinde imzalanan eski sulh ahitnamesi daha uzun zaman salondan çıkmadan kırıldı ve imzalayanların yüzüne gözüne bulaştıydı. Şimdiyse hakiki sulh oldu. Toplar atılıyor, geceli gündüzlü her taraf akın akın şenlikler yapıyor. Aralıksız dokuz senedir süren mücadele ve harp bugün bizim için şerefli bir surette son bulmuş oluyor. Demek oluyor ki bugün, on şu kadar senelik gürültülü, karışık bir maziden çıkarak sulh devresine, yani tatlı bir istikbal içerisine giriyoruz. Bundan sonra milli endişeleri nasıl esaslı bir gaye peşinde halle mecbur olacaksak şahsi gayeleri de o nispetle gerçekleştirmek mecburiyetindeyiz. İçinde bulunduğumuz vaziyet hiç şüphe yok ki tabii değildir. Ve bu halin devam etmesi nasıl memleket zararına ise şahsi hayatımızın da daha ziyade zarar görmesine sebep olacaktır. Şimdi sulh perisi memleketimizin ufuklarında doğdu. Oradan bize, yani aydınlatıp güzelleştireceği vatana “hayyalel-felah”64 diye haykırıyor. Ömürlerimizin mühim senelerini kemiren ve sık sık vatanperverlik hislerini sarsa sarsa vatani kuvvet ve kudretten epeyce mahrum eden uzun bir mazinin memleketin kudret ocaklarını, feyz membalarını oldukça söndürdüğünü inkâr edecek kimse yoktur. Dinliyoruz işitiyoruz ve görüyoruz:
+
+“Bacağımı Çanakkale'de, kolumu Galiçya'da, gözlerimi Filistin çöllerinde kaybettim. Merhamete muhtacım, bir dilim ekmek!” Ve görüyoruz: Lime lime olmuş haki ceketinin bir köşesinde kırmızı bir harp kurdelesi takılıyor ve... “Ah böyle mi olmalıydı?” diyoruz.
+
+“Darülfünun'u bitiremeden asker oldum. Irak Cephesi'ne gönderdiler. Bugün dokuz senedir ilamaşallah sırtımdan şu kisveyi yeni çıkarıyorum ve gidiyorum...” Fakat görüyoruz ki bugün olgunluk yaşının yarısını geçmiş, gözlerinin feri gitmiş, zihnindeyse dokuz sene evvelki malumatından bir nebze kalmamış... Bu gidiyor... Ve gidecek...
+
+> [!note]+ Footnotes
+> 64 “Haydi kurtuluşa” manasındaki Arapça söz (e.n.).
+
+### p. 190
+
+Kınık 1923
+
+### p. 191
+
+
+
+> [!note]+ Footnotes
+> 6. Topçu Alayı hatırası, Kınık 1923
+
+### p. 192
+
+Daha dinleyelim mi? İşte dokuz sene evvel askeri idadiden çıkmış bir muvazzaf mülazım. Sınıf arkadaşım anlatıyor:
+
+“Talimgâhtan Kafkas Cephesi'ne verildim. Ayak ve el parmaklarımın hiçbirisi yok. Döndük ve Romanya'ya gittik, üç yerimden yaralandım. Viyana Kaplıcaları'nda tedavi edildim. Oradan Irak çöllerine düştük. Esir oldum. İki buçuk sene Hindistan, Hindiçini ve civar ülkeleri boyladım. Mısır garnizonundan İstanbul'a döndüm. İşte Anadolu mücadelesini de bugün bitirmiş oluyorum...”
+
+Soruyor: “Maaş çıkmadı mı? Seferi zammını keseceklermiş, bizi Harbiye'ye mi göndereceklermiş?” Kulaklar ve ruhlar bu musibetlerle dopdolu hikâyeleri işitmeye tahammül getiremiyor ve insan tıpkı onlar kadar cefa çekip ihtiyarlamış gibi mustarip oluyor... Zannedersem asıl bundan sonra vatanperverlik mücadelelerine mantıki tarafından gireceğiz ve bundan böyle vatanperverlik taslayan ve yaparız, kırarız diyenlere “Yuha!” diyeceğiz. Demezsek sonunda deminki gibi bize diyecekler.
+
+Hissiyatımızdan istifade etmek isteyenlere bir taş kadar hareketsiz kalmak ve hissiyatımızı zedeleyenlerin bir taş gibi kafasına inmek şiarımız olmalıdır. Zira “Vatanı sevmekle vatan kurtulmaz, vatanı kurtarmakla vatan sevilir” meşhur sözü imanımıza, aklımıza, anlayışımıza ve vatanperverliğimize rehber olmazsa daha çok çekeriz! Tahammülümüzü soranlara boş cüzdanlarımızı göstermenin, sırtımızdaki parlak üniformayı işaret etmekten bin kat faydalı olduğunu artık zaman bize gösterdi... Ne güzel, Anadolu hükümeti eski parlak, sırmalı üniformaları basitleştirdi. Ve inşallah daha ziyade şeklen de ruhen de bunun azametini kaldırmak ihtiyacında kalırız. Bugün birçok medeni milletler görüyoruz ki, milletlerine askerliği bir efsane gibi dinletmişler ve onların yalnız gönüllerinin bir köşesine derin ve zengin bir his sızdırmışlar ve bırakmışlardır. Bu milletler de harp ediyor ve
+
+### p. 193
+
+galip geliyor, daha doğrusu bu milletler bugün iktisat sahasında kesin galibiyeti kazanıyorlar. Memleketimizin bundan sonraki şuurunda daha ziyade soğukkanlılık ve sakinlik görmek ve mutlaka görmek için çırpınmalı ve yırtınmalıyız. Olmadı mı, şahıs kaygısında daha parlak gayelere yükselmeye çalışmak derhal yer bulmalıdır... Çok felaketler geçirdik, çok acı tecrübeler gördük. “Bin nasihatten bir musibet evladır” derler. Biz binini gördük, akıllanmak ve tetikte olmak mecburiyetindeyiz. Münevverlerin pek çokları bugün vatanın içinde tek bir kulübeye ve tek bir ağaca sahip değildir. Büyük memleketler, geniş sahaları topraklarına katmak kaygısına düşenlerin gözleri önüne hemencecik bunu koyuvermeli. Bir karış toprağa, bir aylık refaha sahip olmayanların başka memleketlerin fethine kalkışmasını hiçbir akıl almaz ki!
+
+Orası zenginmiş! “Ben burada fakirim a birader!” de, geç. Vesselam! Sen de rahat, ben de! Nene lazım! Bugün memleketin de, milletin de selameti mevzubahis!
+
+Bu Sulh Bayramı gibi gönüllerin en derin köşelerinde yapılan ve beklenen bayramlaiı millet ne Meşrutiyet'in ilanında, ne de filan veya falan bayramda yaptı! Orduda ve memlekette, “Tezkere ve sulh!” lakırdısı zavallı Mehmetçik ile zavallı halkın, diline tesbih gibi doladığı sözler oldu.
+
+Hasılı memleketin tan vaktinde güneşin doğuşunun göz kamaştırıcı ve gönül dinlendirici pembeliği üzerine nakşedilmiş levhalar işte bu hayırlı sabahın millete hayırlı müjdecisi oluyor. O da:
+
+— Maziyi düşün! Ve geleceği bul!
+
+Şahsın, milletin, memleketin selametleri...
+
+Ağustos 339 (1923)
+
+Bu cuma Kınık'ta namaz kıldım. Zavallı babacığımın gönlü herhalde şad olmuştur. Zaman hepimizde dinimize karşı manevi bir lakaytlık eseri bırakmıştır. Fakat yine
+
+### p. 194
+
+> Ra Mehmet Turgut 6. Topçu Alayı'nda iken. Kınık, 27 Şubat 1923
+
+bu zaman, gönüllerimizin görünmez köşelerinde kökleşen inançlara dokunamamıştır. Din hakkında pek geniş felsefelere giriş ve bu zeminde türlü türlü nazariyeler ileri süren fikirlerin hepsi sonunda yine bir sihirli cazibenin dalgaları içerisine gömülüyor. İşte bu bizim ilk terbiyemizin kuvvetlendirdiği inanç nüvesidir.
+
+Böyle daha nice nice inançlarımız vardır ki bizi hayatta pek tesirli bir cazibeyle sürükler ve bizde günahlarımızın çoğunu affettirecek ruhi kahramanlıklar gösterir. Mantık ile maneviyatın uyumuna akıl ve idrakimiz pek çok zamanlar yabancı kalır. Bu inkâr edilmez ve bu sebeple muhit ve zaman, şuur ve kabiliyetimize çok defa yüzeysel bir halde kalan taklitleri kolaylıkla kabul ettirdiği gibi, bunları ruhumuza işlemekte acze düşer. Üç beş sene evvel bende dini ve manevi felsefelerin derinleşmesi ve mütalaası için derin bir arzu uyanmıştı. Okuduklarım ve işittiklerim zihnimde istifade edilmesi lazım gelen bir
+
+### p. 195
+
+> ve la Bergama'nın Kınık nahiyesi, 1923
+
+açıklık yarattı. Ve ben artık o zamandan beri hadiseleri en yalın manasıyla kabule başladım. Anladım ki zihinlerde açık kapı siyaseti çok faydalar veriyor, fakat bunun semerelerini lezzetle yiyebilmek, yani ruhu mutlu etmek için de işte o gönüllerde kökleşmiş olan sağlam inançlara bir yandan da sarılmak icap ediyor. Mesela birçok libr pansörlere65 rast geliriz ve bunları dinleriz. Sonra birçok derme çatma fikir sahiplerine de kulak veririz. Bunların arasında bir evvelkiyle bir sonraki fikrin mutabakatı bizi ne derece kendine bağlarsa, her nevi kayıttan ve huduttan kurtulmuş taşkın bir fikrin tatsız mahsulleri de o nispette hiddetlendirir. Demek ki gönül serbest cereyanlara ancak bir şartla bağlanabiliyor, o da fikirlerdeki tutarlılıkta mevcut ahenktir.
+
+Serbest görmek, serbest düşünmek ve bir yandan da bir cemiyete bağlı olmak çok hoşuma giden bir şiardır. Fen adamlarının tarifince tabiat en büyük müessir ve müderristir. İlahi inançlarımıza, fiilen yaptıklarımız bazen çok ağır gelir. Demek oluyor ki dinlerin maneviyat üzerine olduğu derecede maddiyata tesiri her nedense hakiki bilgiyle olamıyor. Mesela bakınız şimdi hutbede kişinin sıhhati ve saadetinden bahseden hoca efendiden tutunuz
+
+> [!note]+ Footnotes
+> 65 libre-penseur (Fr.): Aydın, münevver (e.n.).
+
+### p. 196
+
+da bütün şu saflarda irili ufaklı sıralanıp bütün dini huşuyla kıyam edip duran insanların, cemaatin günahları, rengi ve temizliği, söylenen ve okunanlarla pek açık bir tezat teşkil ediyor. Her şeyden evvel omurgaların belden yukarı tamamıyla şekli bozulmuş ve kılık kıyafetinden vazgeçtim, dinin emrettiği temizliğin zerresi meydanda yok. Nahiyenin en muteber hocası hutbe okunurken iki kat olmuş uyukluyor ve beri taraftan direğe yaslanıp hutbedeki sıhhate dair sözlere ehemmiyetle kulak veren diğer birisi tasdik edercesine başını sallarken elinin parmaklarıyla ayağının kirlerini temizleyip ovalıyor.
+
+Camiler bana her zaman için bir huşu ilham ederler. Orasının Allah'a yakarmak için secdegâh olduğunu bürtün kutsiyetine vâkıf olarak biliyorum. İmamın “Allah u ekber” diyen ahenkli sesiyle rüküa eğildim ve nasılsa bir aralık gözlerim kaydı, yanımdakilerin ayaklarına ilişti. Dikkatimi çeken bu iğrenç manzara bana ilahi merhameti niyaz edercesine suphanallah dedirtti. Ya secde! O mübarek namaz benim için hakikati söylemek lazım gelirse teneffüsümü tamamen men edecek kadar şiddetli bir azap oldu... Cenab-ı Hakk taksiratımızı affetsin. O dini emre karşı mutaassıp taraftar olan halkın, dini hakikatlere bu derece feci lakayt olmasına cidden tahammül edilmiyor. Fakat ne yapalım? Memleketin dini selametini nasıl temin edelim. Yoksa mesele mi yanlış anlaşılıyor? Bana böyle geliyor. Memleketin selameti milletin selametiyle ve bu da şahsın saadetiyle mümkündür.
+
+Her zaman lazım olan milli şahıstır. Evet, öyle münevver bir şahıs ki manası tamamıyla milletine de bağlı olsun, dinine de faydalı inançlara sahip bulunsun. Bunun için de lazım olan şey esaslı bir terbiyedir. Terbiye deyince de hatırımıza hani mektepteki zamanlar gibi başı aşağıda, gözleri toprakta, şekli şemali bozulmuş manzaralı bir tavır gelir. Biz buna terbiyesizlik diyelim de asıl terbiyeyi ilim ve irfanla hakikate dört elle sarılmak suretiyle elde edeceğimize inanalım.
+
+### p. 197
+
+Bu mülke, bu millete hakiki saadet ve selameti bahşedecek şey, şahsın asra layık olarak yetişmesi ve yetiştirilmesidir. Bunu başarabilirsek halkın selameti vücut bulur. Yoksa bize kurtuluşu ümit etmek, dalgalara ve akıntıya bel bağlayan zaman sandalının akıntıyı beklemesinden daha az abes olamaz...
+
+### p. 198
+
+Bursa'ya İkinci Gelişim
+
+11 Eylül 339 (1923), Bursa
+
+Elhamdülillah bugün sekiz aydır çektiğim kıta hayatının meşakkatinden ve ıstırabından kurtularak daha zararsız bir yere —Konya'da harp tarihi komisyonuna— tayin edilip Bursa'ya bu vesileyle de gelmek kısmet oldu. Bugün Bursa'da bir ay kadar oturmuş ve bu suretle de Bursa'nın kurtuluşunun seneidevriyesi münasebetiyle yapılan şenlikleri görmüş oluyorum. Bursa'nın kutladığı bu kurtuluş şenliği bende pek büyük bir mutluluğa sebep oldu. Yalnız Bursa'yı bu sefer biraz daha boş buldum. Dışarıdan ziyade evde vakit geçirmeye mecbur olduğum zamanlar fazlaca oldu. Geçen sefer beş altı gün içerisinde pek gözüme çarpmayan birtakım yeniliklere de şahit oldum. Bursa'nın şirinliği her bakımdan göze çarpıyor, hele bu kurtuluş bayramında açılan Bursa sergisi bir kat daha güzellik bahşetti. Bu serginin muhteviyat itibariyle verdiği zevk ve iftihar da ayrıca memnuniyet vesilesi oluyordu. Sergide yerli sanatının ne derece yükselmeye kabiliyeti olduğu görünüyordu. Serginin açılış merasiminde bulundum. Güzelce süslenip bezenmiş sultani mektebinin bir zamanlar bizim de bir iki sene koşup oynadığımız bahçesinde tertibat yapılmış ve merasim yeri hazırlanmıştı. Burada IV. Kolordu Kumandanı Kemalettin Sami Paşa Sergi Müteşebbis Heyeti'nin reisi sıfatıyla bir nutuk söyleyerek sanat ve fennin kıymetinden ve ticaretin hayattaki ehemmiyetinden uzun uzadıya bahsetti.
+
+### p. 199
+
+Misal olarak da kendisinin Adapazarı'ndan Eskişehir'e giderken trende yer bulamadığı halde bir Amerikalının bir vagonun tamamını tutarak rahat rahat nasıl gittiğini yana yakıla anlattı. Millet ve memleketin kumandanlarının hepsinin bu meseleyi hissetmesini ve idrak etmiş bir suretle hareket etmesini gönül ne kadar arzu eder. Bu hakikatin anlaşılması bizim için pek ziyade lüzumludur. Evet, sanat, ticaret ve fennin bu memlekette de artık itibar kazanmasının ihmal edilemeyeceği bir zamana geldik. Geçmiş felaket ve musibetlerden artık lazım gelen dersleri aldıktan sonra yine eski bir kör değneğini beller gibi kuvvet ve silah kullanmaktan başkasını düşünmemek bize çok pahalıya mal olacaktır. Bakalım, bugün bile elimizdeki malı satacak müşteri bulmaktan aciz bir halde kalıyoruz. Ticaret yollarını bile bize kapamışlar. Kemalettin Sami Paşa'nın dediği gibi harben muzafferiyet kazanan Türkleri, Avrupa, iktisaden boğacağız diye ter ter tepiniyor. İdare ve memleket işlerine de herkes karışa karışa bu işten de bir hayırlı netice çıkmayacağa benziyor. Şu hale göre herkesin kendi üzerine düşen vazifesini yapması ve sırf saadet ve selametini temin etmesi ve hükümet ile idare ile asgari temasta bulunması memlekin selameti için herhalde daha hayırlı olacaktır.
+
+Bursa'ya ikinci gelişim ve bu sefer biraz daha fazla kalışım evle daha yakından temasa vesile oldu. Ev idaresinin pek güç olduğunu anladım. Dışarıyla dedikodu yapmadan bir hayat sürmek bizim ailelere pek de nasip olmuyor. Her nedense herkes en yakın hısım ve dostunun bile sivrilip mesut olmasına haset ediyor. Ben kendi evimizin içerisinde pek ziyade samimiyet buldum. Pederim ihtiyarlamıştı. Validemse canını evlatları için telef ederek muhabbet numunesi oluyordu. Kardeşlerime gelince, onlar bize daha kıymetli ve mesut birer bahar hissi veriyor, aile hayatımıza birer şeref ve ziynet saçıyordu.
+
+### p. 200
+
+Bu hatıra defterim bugün kapanıyor. Bu satırlar uzun bir hayatın hikâyesine ait neticeleri teşkil edecek. Bu defteri Celâl'e ve daha doğrusu her iki kardeşime, yani gerek Celâl ve gerek Cemile'ye ithaf ediyorum. Kalbimdeki iyi hislerin ekserisini kendileri için beslediğim bu iki sevgili varlığın saadetine hayatımı hasredebilmeyi iftihar ve sevinçle arzu ederim ve isterim ki onlar kendilerinden beklenen hakiki ve mesut bir geleceği kendi elleriyle, kendi düşünce ve irfanlarıyla bulsunlar. Cemile hepimiz için yüceltmeye değer bir emanettir. Kalbimizin her darbesinde kendisi ve kendi saadeti için bir arzu hissesi vardır. CelâPin sultaninin son sınıfına gelmesi sebebiyle bir an evvel bir meslek sahibi olmaya çaba harcaması epeyce bir fikir alışverişi yapmamıza vesile oldu. Başkalarından aldığı fikirleri kendisine bırakarak ve kendi fikirlerine de lazım gelen hürmet ve serbestiyi bahşederek ona iktisat yollarını gösterdim... Bütün kalbimle onun için bu iktisat yolunun saadetli zirvelerine ulaşmasını temenni ediyorum. Yaşının ve tecrübesinin henüz kemale ermediği muhakkak olan böyle bir zamanında onun makul ve mantıklı bir yolu takip edeceğine de eminim. İngiliz ve Fransız lisanlarına kâfi derecede vâkıf olan yirmi yaşında bir gencin ben, içtimai sahada ve çalışma hayatında elleri koynunda duracağına akıl erdiremem. Elverir ki kendisinde de, hayatın taş gibi sert ve maddi olduğuna, hayallerin, hülyaların sonuçsuz kalmaya mahküm bulunduğuna dair bir kanaati olsun! Tecrübelere hürmet ve itibar insanlığın cidden şanındandır. Aşırılıktan ve geride kalmaktan sakınmayışımızın çok kereler felaketimize neden olduğunu da hiçbir zaman unutmayalım. Ecnebi insanları, bize, Avrupa muasır medeniyetinin anlaşılması için kıymetli birer anahtardır. Başkalarının birkaç senede anlayabileceğini Celâl daha çok az zamanda bulup çıkarabilir. İyi şeyleri, mesut istikballere hülya çerçevesi yapmak daha doğrudur. Yo-
+
+### p. 201
+
+gurdum ekşi diyen olmaz. Herkes de kendisini ve kendi fikrini beğenebilir. Ama biraz da karşısındakine kulak vermesi faydalı olur... Âlemin dedikodusuna ehemmiyet verin demek istemiyorum. Bunlar beyhude üzüntüdür. Şu muhakkak ki dünyada insanın sivrilip kurtulmasını isteyenler pek ender bulunan dostlardır. Gösterişe derhal kapılmamak ve her iyi görünenin yanı başında bir fikir hanesini her zaman açık bulundurmak mutlaka lazımdır... Biz herkesin iyi olmasını isteyelim. Kendimiz de iyi olmaya çalışırsak, hayırsever ve fakat minnetsiz yaşarsak saadete ulaşmayı ümit edebiliriz. Biz annemin dediği gibi iş bitirmeye, herkese ufak bir yardım olsun yapmaya pek hazırız. Bu âdet hepimize de sirayet etmiş. Bilmem iyi mi, kötü mü? Fakat bana öyle de geliyor ki çok defa yapılan hayırlar karşı tarafın (kurbağa ürkütmesinden) başka da bir netice vermiyor. Belki de bu, ara sıra nasip olan bir şeydir. Hasılı iyilik iyiliktir ve iyidir!
+
+Kardeşlik âlemiyse büsbütün başkadır. Bu hususta fazla söz söylemek ve kardeşlik kalbini açmak bence lüzumsuzdur. Çünkü kalplerimizde aynı hisleri taşıdığımızı pekâlâ seziyoruz. Ve bu hislerimizde de sunilik bulmuyoruz. Temenni edelim ki bu daim olsun!
+
+> [!note]+ Footnotes
+> » e Amcam ve ailesinin Mudanya'da bulunuşu bize üç günlük Mudanya seyahatini de gösterdi. Anadolu'ya geçtiğimden beri denizi bir kere İnebolu'dan Anadolu'ya girerken ve iki sene sonra İzmir'den, bir sene kadar sonra Dikili'den görmüştüm. İşte şimdi de Mudanya'dan ve İstanbul'un hemen ufukları karşısından seyredecektim. Trene CelâPle birlikte binerek ağaçlıklar arasından bu çoktan beri tutkunu olduğum sihirli yollardan, bu küçücük arabalarla Mudanya'ya geldik. Amcamla, bütün küçükler ve büyüklerle de görüştük. Zavallı amcamın hali bende çok derin bir tesir bıraktı. Kendime, amcamın azıcık elinden tutamadığım için bu kadersizliğime
+
+### p. 202
+
+lanet okudum. Zaman ve felek insana neler gösteriyor. İyiliklere doğru gidiyoruz...
+
+Mudanya’nın denizi ve mehtabı ile Haydarpaşa vapurlarından bozma posta vapurları bana İstanbul’un pek hoş kokusunu getirdi ve ruhuna sindirdi. Vaktim müsait olsaydı İstanbul’a da giderdim. Ah, o tatlı Istanbul hatıraları! O kadarcık olsun şimdilik İstanbul’a da yaklaştıktan sonra Mudanya’dan tekrar Bursa’ya döndük. Artık birkaç gün sonra Konya’ya doğru yine yola çıkacağız. Yine görmediğim diyarlardan bir miktarında da içeceğimiz su varmış! Allah’tan bir temennim de bu yabancı suları daha uzun müddet içmemekliğimdir. Bu sefer de sevgili Bursa’ya ve sevgili diyarlara veda ediyorum. Çilelerimiz dolduysa rahat ve huzur ile karşılaşırız. Artık yetmez mi? Sabır cennetin anahtarı imi!
+
+Bursa, Eylül 1339
+
+### p. 203
+
+**Ekler**
+
+### p. 204
+
+*[no text on this page]*
+
+## Mehmet Turgut Argun'un Kaleminden Kısa Yaşamöyküsü
+
+### p. 205
+
+Hizmetlerim ve çalışmalarım Mensubu olduğum Türk ulusuna yararlı olmaya ömrünü adamış bir meslek ve bilim adamıyım. Osmanlı Devleti'nin son yıllarında, Birinci Dünya Savaşı sonunda yüksek tahsilimi tamamladım (1919), Kurtuluş Savaşı ile göreve başladım (1921).
+
+Bursa'da 1900 (1316) yılında doğdum. Balkan Savaşı sırasında Askeri Rüştiye'yi (1912), Birinci Dünya Savaşı'nda Kuleli Askeri Lisesi'ni (1915), Mütarekede Askeri Veteriner Yüksek Okulu'nu birincilikle bitirdim (335-1); stajı bitirip Anadolu'ya geçerek Kurtuluş Savaşı'na katıldım (1921). Garp Cephesi Başveteriner Yardımcılığı ile savaştaki görevim sona erdi (1923), İstiklal Madalyası aldım. Genelkurmay Harp Tarihi Bölümü'nde ve Birinci Ordu Müfettişliği Başveteriner Yardımcısı olarak görev yaptım (1924). Sınavla Haydarpaşa Askeri Veteriner Tatbikat Okulu'na salgın hastalıklar asistanı oldum, iki yıl sonra başmuavin oldum, iki sene kıdem aldım (1928). Milli Savunma Bakanlığı yarışma sınavını kazanarak iç ve salgın hastalıklar ihtisası için Almanya'ya gönderildim (1928). Berlin Veteriner Yüksek Okulu İç Hastalıklar Klinikleri'nde çalıştım ve “Hasta Hayvanlarda Kan Tazyiki Ölçmek” konu-
+
+> [!note]+ Footnotes
+> 125)
+
+### p. 206
+
+sunda bir tez yapıp yayınladım (1929). Bundan sonra Viyana Veteriner Yüksekokulu İç ve Salgın Hastalıklar Klinikleri”nde çalıştım ve “Kanatlı Hayvanlarda Kan Tablosu” konusunda bir tez yaptım, Doktora imtihanı verdim ve Doktora Diploması aldım (1930). Sonra Budapeşte Veteriner Yüksekokulu'nda klinikleri izledim, üç ay çalışıp yurda döndüm (1931).
+
+Bu suretle ihtisasımı yaptıktan sonra Askeri Veteriner Tatbikat Okulu'nda (Akademi) İhtisas sınavımı verdim ve Salgın Hastalıklar Öğretim Üyeliği'ne atandım. Yedi yıl süre ile Salgın Hastalıklar, Bakteriyoloji ve İç Hastalıklar öğretim görevlerini yaptım ve binbaşı ve yarbay rütbelerine terfi ettim (1938). Çalışmalarımı yurt ölçüsünde genişletmek amacı ile Tarım Bakanlığı'na geçtim ve Veteriner Genel Müdürlüğü'nde Mütehassıs Müşavir olarak Salgın Hastalıklar Şubesi'nin idaresini aldım ve sürekli olarak 14 yıl (1938-1951) çalıştım. Meslek ve bilim alanında büyük bir bilgi ve şeref kazandıran bu görevimi hükümette meydana gelen değişme s1- rasında sona erdirerek emekli oldum (1951). Emekli olduktan sonra Ankara'dan İstanbul'a taşındık. Önce evimde bir poliklinik açtım, bir iki yılımı bunu ilerletmekle geçirdim.
+
+Yeni kurulan Et ve Balık Kurumu Veteriner Müşavirliği ve bu arada ilaç imalatı ile meşgul olarak Eczacıbaşı İlaç Fabrikası Veteriner İlaçlar Şubesi'ni kurdum (1953). Bu görevlerde yedi yıl çalıştım. Türkiye'nin et konusunda incelemeler yaptım. Hayvan borsasındaki sirkülasyon üzerinde geniş ve çok yararlı bilgiler edinerek türlü konularda görevler yaptım.
+
+Veteriner ilaçları imalatında dünyada yapılanları izleyerek Türkiye'de ilk imalat sanayiini kurdum (1953). Bu alanda bir meslek servisi kurarak formül ve denemeleriyle uygulamak suretiyle birçok müstahzarlar yaptım. Yedi yıl bu servisi geliştirdikten sonra bu servisten ayrıl-
+
+### p. 207
+
+dım (1959). Özel bir veteriner ilaçlar fabrikası ile şirket kurdum. Birkaç müstahzarla işe başladıktan sonra çok ciddi ve olumlu bir şekilde yürüteceğime inandığım bu fabrikada seçtiğim hissedar arkadaşım tarafından sabote edilerek bu işi bırakmak zorunda kaldım (1959).
+
+Yurtta 1960 Devrimi olduktan sonra Ziraat Bankası tarafından yeni kurulan Başak Sigorta Şirketi'ne girdim ve önce Hayvan Sigortası'nı kurdum. Bu servisi geliştirmeye uğraşırken hasıl olan zaruri durum üzerine bütün Zirai Sigorta servislerine sahip olmak zorunda kaldım (1963). Bu çalışmalarım çok olumlu gelişmeler gösterdiği sırada çıkan engeller yüzünden bu işi de bırakarak meslek çalışmalarımı ele aldım ve beş yıldan beri uğraştığım son kitabımı yayımlamak için Başak Sigorta Şirketi”nden ayrıldım (1967).
+
+Meslek alanındaki bilimsel çalışmalarım Gerek askeri veteriner olarak öğretim yaşamı sırasında, gerekse Tarım Bakanlığı'ndaki yurt çalışmalarım boyunca çeşitli meslek konularında birçok çalışmalar ve bilimsel araştırmalar ve önemli buluşlar yaptım, bunları Türkçe, Almanca, Fransızca olarak yayınladım ve birkaç kitap yazıp neşrettim. Bunların en önemli olanlarını aşağıda tarihlerine göre bildiriyorum.
+
+Entradermik Mallein Testi Dünya meslek kitaplarına geçen bu çalışmam ve buluşum ruam hastalığının teşhisi için en emniyetli ve yeni bir metot olarak önce yurdumuzda ilk defa kabul ve tatbik edilmiştir. Dünya literatürüne ismimle geçen bu araştırmalar yıllarca ruam savaşlarında kullanılmış, öteki metotlarla mukayese edilmiş ve sonunda tarafımdan Bakanlık Müşavere Heyeti'ne sunulmuş ve kabul edilerek resmen yurdumuzda uygulanması, dünyada ilk defa olarak bizde başlamıştır (1946). Entradermik Mallein
+
+### p. 208
+
+Testi 1950 yılından beri dünyada Hutyra-Marek ve öteki dillerde yazılmış klasik salgın hastalıklar kitaplarında yazılmaktadır.
+
+Atlarda Ruam tedavisi Eskiden beri ruam hastalığı yurdumuzda savaş ve barış zamanlarında amansız bir dert halinde süregelmiştir. İnsanlara da geçen bu hastalığın tedavisi olmadığı için önemli bir yer almakta idi. En son, önce sülfamitlerin ve sonra antibiyotiklerin ruam mikroplarını öldürdüğü ve hastalığı tedavi edebildiği birçok deneylerle saptanmış idi.
+
+Tarafımdan 1950 yılında Ankara'da ruamın bütün belirtilerini gösteren iki at, streptomycin ve aureomycin enjeksiyonları ile 10 gün içinde tamamıyla iyi edilmiştir. Emekliye çıkarılmasaydım 1950 yılından beri resmen ruamlı atlar tedavi edilecekti, eskisi ve şimdiki gibi öldürülmeyeceklerdi.
+
+Şap aşısı Yurdumuzda yıllarca zaman sığırlarda büyük ölümler ve ekonomik zararlar yapan Şap (Tabak) hastalığı ile 1990 yıllarına kadar esaslı bir savaş yolu bulunamamıştır. Büyük Şap istilaları dört yılda bir yurdu kaplıyor ve çok büyük zararlar yapıyordu. Görevim gereği uğraştığım bu hastalıkla savaşma sıralarında virüsler üzerinde yaptığım birçok deneyler sonunda hastalık çıkan yerlerde uygulamaya ve hazırlamaya elverişli pratikte kullanılabilecek bir aşı yapmaya muvaffak oldum. Bu aşıyı 1952 yılında Fransa Ziraat Vekâleti Alfort Şap Laboratuvarı'nda dostum Prof. Jean Verge tarafından kontrol ettirerek Etkenlik ve Bağışıklık bakımlarından değerini araştırdım. Aşının yapımı tarafımdan olması zorunluğu çıktı, orada bulunamadım, verdiğim talimata göre yapım ve denemeler uygulandı ise de beklediğim sonuç elde edilemedi. Bu aşı hakkında Hayvanlarda Sal-
+
+### p. 209
+
+gın ve Parazitli Hastalıklar (1967) adlı kitabımda sayfa 211'de bilgi verilmiştir. Bugün çok büyük masraflarla Şap Enstitüsü'nde yapılmakta olan Şap aşısı bence esaslı bir incelemeye konu olacak durumdadır. Emekli olduktan sonra da elime geçen her fırsatta Şap virüsü ve aşı uygulaması üzerinde pek çok çalışmalar yaptım, bunları resmi makam ve yetki sahibi meslektaşlarımla birlikte izledik. Virüsler üzerinde denemelerimi yaparken bazı gerçekleri saptadım ve bunları bazı Avrupa ve Amerika uzmanlarına anlatmaya çalıştım. Ben bilimsel araştırmalarda belli metotlara saplanıp kalanları inandırmakta güçlüklerle karşılaşmıştım.
+
+İneklerde verem (tüberküloz) savaşı Sığır tüberkülozunun yurdumuzdaki durumunu her fırsatta inceledim. Teşhis metotlarında ve testlerde görülen uyarsızlıkları bertaraf etmek için tüberkülin yapımında sentetik usulü uyguladım ve Entradermik Test usulüne çok güvendim. Tarım Bakanlığ”'nda bu konuyu ön plana aldırdım ve 1944-46 yıllarında devlet kurumlarında ineklerin durumunu ele aldım.
+
+Ankara'da Atatürk Orman Çiftliği”ndeki birkaç yüz safkan ineklerde yaptığım sondajla veremin çok dehşet verici bir durumda olduğunu saptadım. Buranın süt ve mamulleri büyük bir rağbet görmekte idi. Resmen savaşa başladım ve hastalığın bütün belirtileriyle ve Tüberkülin Testi ile bütün ineklerde çok korkunç bir halde olduğunu gördüm ve gösterdim. Bu konu çevrede büyük tepkiler ve korkular yarattı: Yıllardan beri sütleri tercihen içilen ve çiftlik yöneticilerinin kaynatmaya lüzum görmeden içtikleri bu sütlerde tüberküloz basillerinin kültür halinde bulundukları anlaşıldı. Bu arada hastalığa tutulup ölenler ve çocuklar da tespit edildi. Bunun üzerine bu çiftlikteki bütün inekler kesildi ve bu felaketin önüne geçilmiş oldu.
+
+> [!note]+ Footnotes
+> NE
+
+### p. 210
+
+Karacabey, Çifteler haralarındaki ineklerde 9050'den fazla müspet reaksiyon verenler saptanarak bunlar da temizlendi ve her 6 ayda bir Entradermik Tüberkülin Testi yapılarak bu iki hara, sonra da geri kalanlar tamamıyla verem hastalığından arındı.
+
+Yeni Hayvan Sağlık Zabıtası Kanunu Salgın hastalıklarla savaşlar yaparken her fırsatta Sağlık Zabıtası Kanunu'nun yenilenmesine ihtiyaç olduğunu gördüm. Bunun için Almanya, İngiltere, Fransa, İsviçre, Bulgaristan kanun ve nizamnamelerini ME Li ve bütün bir yeni kanun taslağı hazırlayarak bunu bastırdım ve bütün yurtta her veterinere yollayarak fikir ve mütalaalarını istedim (1947).
+
+Bu kanunu en iyi şekilde çıkarmak için toplantılar düzenledim ve kanunu olgun bir hale getirdim (1950). Hükümetin değişmesiyle emekliye ayrıldıktan sonra yıllarca bu kanun çeşitli inceleme ve değişmelere uğradı, bugüne kadar bu tasarı da eskidi ve bu haliyle geçerli sayılacak bir kanun ve yenilik niteliğini tamamıyla kaybetmiş duruma geldi. Millet Meclisi'nde bekleyen bu kanunun geri alınarak çıkarılmaması isabetli olur.
+
+Hayvan Sağlık Zabıtası Kanun ve Nizamnamesi bugünün bilgilerine uygun olarak yeniden ele alınmalı ve eskiyen yerleri hemen değiştirilmelidir. Bu yapılmazsa yine ruamlı hayvanları öldürmek yolu rehber olur.
+
+Parazitli hastalıklarla savaş Tarım Bakanlığı'na geçtikten sonra parazitli hastalıkların durumu ve savaşlar üzerinde duruyordum. Bunların başlıcaları şunlardı: Piroplazmoz, durin, spiroketoz, koyun uyuzu, stronjiloz-kılkurdu, hipodermoz, distomatoz. Bu hastalıkların yurdumuzda çok yaygın olduklarını saptadım. Piroplazmoz at, sığır ve koyunlarda çok telefat veriyordu, bunlara karşı Acaprin Bayer kullanı-
+
+### p. 211
+
+lıyordu. Veterinerlerin yetişemediği olaylar için hayvan bakıcılarına hazır ilaç verip kullanılmasını öğretiyorduk, böylece savaşlar daha olumlu oluyordu. Daha sonraları kenelere karşı (kontakt insektisid) ilaçlarını kullanarak bu metotları geliştirdik.
+
+Atlarda sık sık görülen durin (beygir firengisi) hastalığı da güney sınırları boyunca içerilere kadar ve hara damızlıkları arasında çok kıymetli hayvanları öldürüyordu. Bu hastalıkla savaşta neosalvarsan ile cuca-çuka usulü uygulayarak birkaç değerli devlet damızlık aygırlarını tedavi ettik ve bu hayvanlardan bilimsel metotlarla izleyerek birçok yavrular aldık. Bu olaylar Avrupa dergi ve kitaplarında da yazılmıştır.
+
+Kanatlı hayvanlarda kenelerle intikal eden kan parazitleri spiroketoz hastalığını tavuk ve kazlarda yaygın olduğunu saptadık ve bunlara başarı ile tedavi metotları uyguladık, Almanca yayınladık (1934).
+
+Merinos yetiştirme bölgesinde, Bursa, Balıkesir illerinde koyun uyuzu (psoroptes, sarcoptes ovis) yaygın bir hale gelmişti. 1942-1944 yıllarında tertip ve idare ettiğim savaşlarla, meslektaşların çok zahmetli ve yorucu çalışmaları sayesinde bu bölgeden temizlenmiştir.
+
+Stronjiloz hastalıkları her yıl koyunlarda büyük ölçürde ölümlere neden olmakta ve savaş çareleri bulunmamakta idi. Yaptığım incelemeler ve tertip ettiğim etkili savaşlarda iyotlu su (tracheal) enjeksiyonları ve bakır sülfat solüsyonu içirme metotları ile hastalık alanları çok azaltılmış ve geniş ölçüde de uygulanarak olumlu sonuçlar alınmıştır.
+
+Sığır derilerini değerden düşüren yaygın bir ekonomik hastalık olan nokra-hipodermoz hastalığı ile savaş metotları düzenlenmiş ve sonradan da yeni ilaçlarla savaş uygulanmaya başlanmıştır.
+
+Koyunlarda kelebek (distomatoz) hastalığına karşı kapsül şeklinde çeşitli etkili ilaçlarla savaşın geniş öl-
+
+### p. 212
+
+çüde uygulanması sonucu hastalık gittikçe azalmıştır. Parazitli hastalıklarla savaş için yaptığım çalışmalardan çok olumlu sonuçlar alınmıştır. Bu hastalıklarla hemen hiç savaş yapılmazken bunlarla savaşlar için talimatnameler yapılmış ve broşürler basılarak bütün teşkilata gönderilmiş ve konferanslar ve kurslar tertip edilmiştir (1942-1945).
+
+Dış ülkelerle ilişkiler, Fransa Veteriner Akademisi üyeliği Orta Doğu Ülkeleri Veteriner Konferansı'na delege olarak gittiğim (1946-Bağdat) toplantılarda diğer delegeler içinde bilimsel konuşmalar ve iki defa konferans vermek suretiyle yurdumuzu şerefle temsil ederek Bağdat büyükelçisinin Hariciye Vekâleti'ne takdirkâr yazısına nail oldum.
+
+Paris'te (Office International des Epizooties — Uluslararası Salgın Hastalıklar Ofisi) 1947 Mayıs toplantısına resmi delege olarak gönderildim. Dünya meslek bilim adamlarının bu toplantısında yaptığım konuşma Ofis Bülteni'nde yayımlanmıştır. Bu sırada yaptığım temaslarla oldukça dikkati çeken konuşmalar yaparak dostlar kazandım.
+
+Değerli ilgisini gördüğüm Prof. Jean Verge benimle Alfort'daki laboratuvarında yaptığı özel bir konuşmada yaptığım çalışmaları öğrendikten sonra neşriyatım ve çalışmalarım hakkında yazılı vesikalar istedi ve ertesi 1948 yılında kendisi (Fransa Veteriner Akademisi) reisi oldu ve beni açık bulunan muhabir üyeliğe aday gösterdi ve seçildiğimi bildiren resmi belgeyi de gönderdi. Türkiye'nin yegâne üyesi olarak 1948”den beri bu şerefli mevkide bulunmaktayım.
+
+### p. 213
+
+Başak Sigorta Şirketi Zirai Sigorta müşavirliği (1960-1967)
+
+Ziraat Bankası tarafından yeni kurulan ve başlıca konusu yurdumuzda Zirai Sigorta'yı kurmak ve geliştirmek olan Başak Sigorta Şirketi'ne önce (Hayvan Sigortası müşaviri) olarak girdim ve bu branşı bütün benzerleri gibi tesis ettim. Şirketin çok değerli umum müdürü Yusuf Saim Atasağun merhum ile çalıştık, beni 1962 yılında da Avrupa'da incelemeye gönderdi, 1963 Ocak ayında yurda dönerken vefat etti. Böylece Zirai Sigorta Şubesi sahipsiz kaldı. Bu branşı da üstüme almak zorunlu oldu. Bu suretle bütün Zirai Sigorta Şubesi'ni kurmak ve idare etmek görevini yaptım. Bir taraftan ziraat kitapları okuyordum, sigorta konusu bütün bitkiler ve ürünler üzerinde bilgi edindim, öte taraftan da Zirai Sigorta branşını yabancı kitap ve belgelerden öğrendim. Aynı zamanda Ziraat Banka şubelerine bu branşları işletmeleri için bilgiler verdim, uygulamalarda bulundum.
+
+Yurdumuz için çok önemi olan Zirai Sigorta'nın dünyadaki yürütme ve işletme yönleri ve metotları üzerinde durmadan çalışarak esaslı bir bilgiye sahip oldum, diyebilirim.
+
+Yaptığım bütün bu çalışmalara karşı şirket yetkilileri bu branşa hiçbir ilgi göstermedikleri gibi yurdumuzda bu sigortanın olumsuz bir branş olacağını ileri sürerek çok olumlu olan kanaatlerimi sarstılar ve nihayet bu şirketten ayrılmaya zorladılar.
+
+Kitaplarım
+
+> Türkiye'de Sığır Vebası Tarihi, 1924 (basılmamıştır;) Hayvanlarda Salgın Hastalıklar, 1939 Hayvanlarda Yetiştirme Hastalıkları, 1946 Hayvanlarda Salgın ve Parazitli Hastalıklar, 1951
+
+### p. 214
+
+Dergilerde yayınladığım orijinal bilimsel çalışmalarım “Hasta Atlarda Kan Tazyiki Ölçmeleri” (Almanca),
+
+Archiv f. Wüs. u. Prak., Thk, Heft 2, 1930. ve Askeri Tıbbı Baytari Mec., sayı 8, 1931.
+
+“Kanatlı Hayvanlarda Kan Levhası” (Almanca), Wiener
+
+Tieraerztl. Monatsh, Heft 18, 1931 (doktora tezidir). “Şarbonun Çabuk ve Emniyetle Teşhisi”, Askeri Tıbbı
+
+Baytari Mec., sayı 115, 1933.
+
+“Cüfni Mallein Teamülü Üzerinde Tetkikler”, Askeri
+
+Tıbbı Baytari Mec., sayı 120, 1934.
+
+“Türkiye'de Kazlarda Spiroketoz” (Almanca), Dewtch.
+
+Tierarztl. Wochsch., N. 50, 1934.
+
+“Türkiye'de Atlarda Sari Bronşit-Grip” (Almanca), Vie-
+
+ner Tier. Monat., H. 9, 1935.
+
+“Kısraklarda Cuboni Teamülü ile Gebelik Teşhisi” (Al-
+
+manca), Tieraerzil. Rundsch., N. 43, 1936 (Cuboni bunu La clinica Veterinaria dergisine almıştır).
+
+“Eskimiş ve Açıkta Kalmış Malleinlerin Ruam Teşhisin-
+
+de Kıymeti” (Almanca), Berliner Tierar. Woch., H. A “Atlarda Sari Bronşit” (Fransızca), Bullet. de l*Acadömie
+
+Vötör. de France, No. 4, 1937.
+
+“Ruam Teşhisinde Entradermik Mallein Teamülü”
+
+(Fransızca), Bullet. de L*Acadömie Vet&r. de France, No. 6, 1948.
+
+“Türkiye'de Sığır Tüberkülozu Epidemiyolojisi”, 4.
+
+Türk Mikrobiyoloji Kongresi Kitabı, sayfa 60, 1950. “Açık Ruamlı İki Atın Antibiyotikle Tedavisi”, Türk
+
+Mikrobiyoloji Dergisi, sayı 3-4, 1952.
+
+İstanbul, 7 Aralık 1975 Veteriner Dr. Turgut Argun
+
+## Mehmet Turgut Argun'un Albümünden
+
+### p. 215
+
+**vi**
+
+> [!note]+ Footnotes
+> | Jİ öğ ERİ İRİ Osb BASİL yem Says
+>
+> SA BADE
+>
+> Mehmet Turgut Bey'in askeri veteriner olarak teğmenliğe inha belgesi,
+>
+> 28 Temmuz 1919
+
+## ERER EEE ez EEE
+
+### p. 216
+
+i
+
+“
+
+.>
+
+İl İ ep Nİ M5 KIŞI ;
+
+İİ | | K
+
+Ni
+
+| —P»p pug RG pl ge ee & En Mİ 6 & |
+
+eği
+
+vi Ye el e gi Oi | 0klef ie Aİ imar İSİ İŞ vE”) DE gi ZAM ike SAD OLZEY Aİ İL Şİİ EİN 0 izle 0 gps
+
+> [!note]+ Footnotes
+> ÇA TL aşı Dai — j Ki j !
+>
+> Mehmet Turgut Bey'in Askeri Baytar Tatbikat Mektebi'nde
+>
+> yaptığı bir yıllık (1919-20) stajın belgesi
+
+## 0r pm S3 Eİİ ep
+
+### p. 217
+
+1 (- dts)
+
+**>. rn v2» «| SİRİ SARİ a a giz Seyi El Lİ —ut GLAM — STİ > gelm le EE fr iç | Uye YY: ozi v6 1244 yy AŞ İN yil ii m —**
+
+Asi!
+
+**2 . Li Üs!**
+
+> [!note]+ Footnotes
+> Mehmet Turgut Bey'in üstteğmenliğe inha belgesi, 26 Haziran 1920
+
+### p. 218
+
+DE - e, Pr e >
+
+—ir z. Gu yi ii
+
+İyi 1 # 74 seye
+
+3 belirle
+
+Bük KAMA 028 bp tarim ML DI RİN ALİ
+
+MY See
+
+iie
+
+b İk Sİ
+
+> [!note]+ Footnotes
+> Tababet-i Baytariye İcazetnamesi
+
+### p. 219
+
+Mehmet Turgut Bey (önde sağdan ikinci) Haydarpaşa Askeri Veteriner Tatbikat Mektebi'ndeki asistanlığı sırasında, 1924
+
+> [!note]+ Footnotes
+> ia :
+>
+> ie Birinci Ordu Müfettişliği, Ankara 1924
+
+### p. 220
+
+**Ea**
+
+İL
+
+N ud İ çizik
+
+«a /4/v
+
+, İç
+
+, 2 VEİM İp anl Z İĞ UR vb)
+
+> [!note]+ Footnotes
+> aş TT AŞ
+>
+> 2,
+>
+> 4 DE Rk
+>
+> 5 pi A. er dio Vi EE pi
+>
+> EN ill yle Mehmet Turgut'un ordu mensuplarına mahsus hüviyet varakası,
+>
+> 7 Nisan 1925
+
+### p. 221
+
+5 vk
+
+MY Kd, AE indim ve ARR “5 İvaası ov & GL Aİ, bade EE YA
+
+iznik ŞE KY
+
+NE
+
+> [!note]+ Footnotes
+> İs
+>
+> Milli orduda vazife almış olan Kıdemli Yüzbaşı Mehmet Turgut'un
+>
+> kırmızı şeritli İstiklal Madalyası ile taltif edildiğini tasdik eden
+>
+> İstiklal Madalyası vesikası
+
+### p. 222
+
+Berlin Veteriner Okulu Dahiliye Kliniği'nde, 1929.
+
+(Öndekiler soldan sağa) Dr. Hornung, Frl. von Düring,
+
+Mehmet Turgut Bey, Prof. Dr. Neumann Kleinpaul
+
+> [!note]+ Footnotes
+> Mehmet Turgut Bey'in ağabeyi İbrahim Orban Bey,
+>
+> 199
+
+### p. 223
+
+
+
+> [!note]+ Footnotes
+> Mehmet Turgut'un Budapeşte Veteriner Yüksekokulu kliniklerinde
+>
+> kaldığı sıralarda, 1931
+
+### p. 224
+
+> [!warning] Parts of this page are hard to read in the source; check the PDF before quoting.
+
+NOS RECTOR et PROFESSORES
+
+ACADEMIAE VETERINARIAE VINDOBONENSİS
+
+IN MEDICUM VETERİNARIUM DOMINUM MEHMET TORGUT
+
+ORIUNDUM EX BURSA (TÜRKEl)
+
+> GUAE INSCRIBITUR POSTGOUAM ET DISSERTATIONE
+
+UNTERSUCHUNGEN ÜBER DAS BLUTBILP DES nunnes »
+
+ET EXAMINIBUS LEGİTİMİS LAUDABILEM DOCTRINAM rig.
+
+**DOCTORIS MEDICINAK V ETERINARLAK**
+
+**yk Zn**
+
+> [!note]+ Footnotes
+> NOMEN ET HONORES, JURA ET PRİVILEGİA
+>
+> GONTULMUS,
+>
+> IN ENĞSOUE REİ FDEM HASGE LİTTERAS AGADEMİRE SIGİLLO SANGENDAS. GURAYIMUS,
+>
+> VINDOBONAE, DIE XI. M. NOVEMBRIS MCMXXX.
+>
+> a — EE/ kelle, RECTOR.
+>
+> PROMOTOR,
+>
+> Viyana Veterinerlik Yüksekokulu Doktora diploması, 1930
+
+### p. 225
+
+RK AKU
+
+tttıtililit litilitit BANKA SUNUAYAYAYAYTA AYAN ANNAN YAYANYA YAYAN UN LİLİ MANN 0 t
+
+GS
+
+> İHTISAS — > Tara mi 7
+
+SEHARDETNAMESİ Şe ir
+
+> [!note]+ Footnotes
+> Mumâileyh f M4 mek Zn ul J Efendinin olbaplahi nizamnamesine fevfikan Mili Müdafaa Vokileli Bayfarık İşleri Dairesi Beisliğine merbul Askeri Baylar Talia! Meklebi heye İslimiyesinder e Jüzi he, yeli #uzurunda (dbm54831) tarihinde fara filinan sazari ve ameli ümfikanlarda ihrazı mava/fakıyel ederek e e 2) Kile )
+>
+> şubesinde mülehassıs unvana espi ehliyef eylediğini v8 Ünezkir Şubeye si vazaif ve hidtmafı Temir mösfakillen. Yaya 55.
+>
+> mufedir bulunduğunu nalık işöu şekadefname Wa kilindi e
+>
+> JÜRİ HEYEZİ Mall. Bin 5/5 Mal. a Mala
+>
+> 7 Haz BH Bbm Üye Ay. Kaya MİLLİ MUDAFAK VEKALETİ Me 4 > Z yek e 7 < İĞ Ml idl MAYTARLIK İŞLERİ DAİRESİ SİSE
+>
+> |
+>
+> YANLOYAYAYLANYAYYAYZ Y Nİ YE YAY RUN yayaği AYNAYA ya AYAYAYAYANI YAYA teni şedieedi(
+>
+> 40'e 44
+>
+> Askeri Baytar Tatbikat Mektebi ve Hastanesi Şehadetnamesi,
+>
+> 16 Mayıs 1931
+
+### p. 226
+
+
+
+> [!note]+ Footnotes
+> Ş
+>
+> Belediye Sertabibi İhsan Âli Bey'in kızı Cemile İhsan Hanım ve Mehmet
+>
+> Turgut Bey'in nikâhı, Beyoğlu Tokatlıyan Oteli 1932
+
+### p. 227
+
+
+
+> [!note]+ Footnotes
+> Mehmet Turgut Bey ve eşi Cemile İhsan Hanım
+
+### p. 228
+
+
+
+> [!note]+ Footnotes
+> Askeri Veteriner Tatbikat Okulu, Bakteriyoloji İntaniye laboratuvarı,
+>
+> 2 Mart 1932
+
+### p. 229
+
+Askeri Veteriner Tatbikat Okulu'nda İntaniye (salgın hastalıklar)
+
+muallimliği sırasında, 1937
+
+> [!note]+ Footnotes
+> Yeşilköy, 10 Mayıs 1938
+
+### p. 230
+
+
+
+> [!note]+ Footnotes
+> Sivas, 27 Mart 1940
+
+### p. 231
+
+
+
+> [!note]+ Footnotes
+> Konya, Eylül 1943
+
+### p. 232
+
+Karacabey bavrasındaki uyuz mücadelesi kursu, 1943.
+
+Fahri Savrun, Nevzat Tüzdil ve Mehmet Turgut Argun
+
+> [!note]+ Footnotes
+> Hayvan sağlık memurları okulunda veterinerler kursu grubu, Temmuz 1944
+>
+> 220,
+
+### p. 233
+
+**—sanzm**
+
+Orta Şark Memleketleri Veteriner Konferansı, Bağdat 1946
+
+> [!note]+ Footnotes
+> e
+>
+> Sk, — > ii A
+>
+> Çorlu'da Trakya sığır yaz hastalığı mücadelesi kursu grubu,
+>
+> 7 Temmuz 1947
+
+### p. 234
+
+Merinos toplantısı, Ankara, 18 Kasım 1949
+
+> [!note]+ Footnotes
+> Eczacıbaşı toplantısı, 1956
+
+### p. 235
+
+KİMLİK KARTI 178 Seri : E ii 1 Nor prog | ZN
+
+Çayi ii e “
+
+Muharip Gaziler Cemiyeti kimlik kartı, 1974
+
+> [!note]+ Footnotes
+> 225)
+
+### p. 236
+
+*[no text on this page]*
+
+### p. 237
+
+Dizin Abdullah Bey 32, 46, 141, 142,
+
+156 Acemler İstasyonu 156 Adana 102, 103, 137 Âdil Azmi Bey 10, 11 Adnan Bey (Adıvar) 63 Afyon (Afyonkarahisar) 39-43,
+
+OO, asm 2b27 1137. 137, 154 Ahırlıkuyu 26 Ahmet Bey (serbaytar) 139 Ahmet Nurettin Bey (Batum me-
+
+busu) 16 Ahmet Vefik Bey (miralay) 35 Ahmetler İstasyonu 45, 134 Akdeniz 3,4, 6, 51
+
+Altıparmak 157 Anadolu 5-7, 11,33,34,46,51-
+
+53, 58, 61, 63, 64, 66, 68, 78, 86, 94, 95, 99, 105-11, TİZ 26 129187 d47, 193, 162, 167-69, 182, 191, iliği Anadolu ve Rumeli Müdafaa-i
+
+Hukuk Cemiyeti 107 Ankara 11, 14, 17, 19-22, 27,
+
+BAM SO:O7 701082805 Me O lella 20 132,154, 164 Apolyont (Uluabat) Gölü 156 Apolyont Köyü (Gölyazı Köyü)
+
+> [!note]+ Footnotes
+> Akdeniz 105, 126, 135, 143,
+>
+> 146 Akhisar 155 Akşehir 29, 30, 32, 33, 35, 36,
+>
+> YO İS TO İZ. 119,
+>
+> 120, 121, 140, 154, 199,
+>
+> 167 — Gölü 95 Alaşehir 42, 46, 135, 137, 139-
+>
+> 41, 150-52,154, 155 — Ovası 140 Ali İhsan Paşa (Sabis) 32, 95 Ali Şükrü Bey (Trabzon mebusu)
+>
+> 63 Altıntaş 39, 41
+>
+> 156 Arif Hikmet Paşa 8 Âsım Paşa (Gündüz) 144, 157 Askeri Baytar Mektebi 172 Atina 86, 113 Avrupa
+>
+> 15X76) x97 0105 11 LO Sil 20)
+>
+> Aziziye 95
+>
+> Balıkesir 44, 63, 155, Balmahmut 39, 43, 127 Balya-Karaaydın Maden Şirketi
+>
+> 8 Banaz 43, 128
+>
+> — İstasyonu 127, 128 Bandırma 136, 154
+>
+> 2D
+
+### p. 238
+
+Basmane İstasyonu 47, 143,
+
+150, 154 Basri Bey (Karesi mebusu) 63 Başkumandan Muharebesi 125 Bermende 96 Beşevler 156 Beybabası 69 Beylikköprü 23, 28, 82, 86, 87,
+
+91,94 Biçen
+
+195 Bilecik 122, 154 Birinci Ordu yo 96: 120,131, 132, 144 — Serbaytarlığı 32, 42 Bolu 110 Bolvadin 95, 96 Bornova 47, 142-46, 148-590,
+
+1525153 Buca 136 Burhaniye 122 Bursa 10 <0 ml o7. 39, 40, 44-46, 86, 100, 106-
+
+Çanakkale 148, 179 Çandır Köprüsü 95 Çay 31-33, 36,37, 42,95, 96,
+
+1104 (51 17 Çekirdeksiz 87 Çekirge 156, 165 Çobanlar 42 Çolak Kemal (Kemalettin Sami
+
+Gökçen) 32, 163, 164, 188, 189 Çoveren 69, 70 Çubuk 22
+
+Dafni 6 Damat Ferit 110 Demirtaş İstasyonu 135 Denizli 122 Dikili 191 Dikmen 14 Dinar 141 Diyap Ağa (Yıldırım) (Dersim
+
+mebusu) 63 Dua Tepe 87
+
+> [!note]+ Footnotes
+> if, alak ale, rlsis, Ile
+>
+> 149,150, 152-62, 164, 167,
+>
+> 168, 188, 189, 192
+>
+> Büyük Millet Meclisi 15, 16, 19,
+>
+> 61, 62, 90, 110, 114, 119,
+>
+> Celâl Bey (Mehmet Turgut Bey'in
+>
+> kardeşi)“11, 27. 159, 160,
+>
+> 122 ike, EXO, ISİN Celâl Nuri (İleri) 144, Cemile Hanım (Mehmet Turgut
+>
+> Bey'in kız kardeşi) 27, 1959,
+>
+> 190 Cihanbeyli Ovası 82 Clemanceau, Georges Benjamin
+>
+> 147
+>
+> Dumlupınar 40, 43, 124, 125,
+>
+> ipa — Muharebesi 40, 125
+>
+> Ecevit 9, 93 Eğirdir 96 Elvanlar 44-46, 133, 135-37,
+>
+> 140 Emir Sultan 164 Erifköy 27 Erzurum 105
+>
+> — Kongresi 107, 115 Eski Polatlı 26 Eskişehir 40, 42, 61, 63, 67, 90,
+>
+> OS A al OG 89 Eşme 126
+
+### p. 239
+
+Falih Rıfkı (Atay) 144 Fettahoğlu Köprüsü 29, 95 Fettahoğlu Köyü 29 Fevzi Paşa (Çakmak) 120, 163,
+
+164 Filedar Köyü Filistin 179 Franklin-Bouillon, Henry 102,
+
+148, 150
+
+Galiçya 179 Gardiyan 86 Garp Cephesi 33, 37,61, 66, 95,
+
+96,117, 164, — Hayvan Hastanesi 19, 22, Gaullis, Berthe 163 Gedikönü 44 Gediz Çayı Vadisi 151 George, Lloyd 147, 148 Germe Hanı 8 Giraud 145 Güney İstasyonu 138, 139
+
+Hükümetönü 146 Hürriyet Bayramı 178
+
+ligaz 12, 53/55,56 Ilgın 96 Irak 179, 182
+
+İkinci Meşrutiyet 183 İkinci Ordu 42, 96, 120 İmalat-ı Harbiye 9 İn Hanı 13 İnebolu 5-9, 14, 52, 53, 58, 59,
+
+154,191 İngiliz(ler) 47, 60, 85, 105, 107,
+
+1S alam uh o ge, 148, 190 İnönü Muharebeleri 60 İsa Bey Şosesi 135 İslamköy 43, 128 İsmail Hakkı Topçular 14 İsmet Paşa (İnönü) 31, 119, 153,
+
+163,164,177, 178 istanbul6.11, 15. 17, 2122,
+
+el Zek a
+
+> [!note]+ Footnotes
+> Güney Köyü 46, 140, 152
+>
+> Hacıanestis, Yeoryos 126 Halide Edip (Adıvar) 144 Halkapınar 47, 144 Hamdullah Suphi (Tanrıöver)
+>
+> 163 Handan 19 Harington, Charles 148 Haydarpaşa 108, 154, 192 Haymana 23, 26, 27, 67, 86-88,
+>
+> 93,94 Hayrat 30 Hendek 110 Hindiçini 182 Hindistan 182
+>
+> 68, 85, 86, 106-108, 110,
+>
+> 104 7 A6 1153. iy, ile) key, ies), AE TES, 12, İŞ 1122 — Hükümeti 107 İtilaf Devletleri 148 İzmir 37,39,41,42, 44-47, 105,
+>
+> 117, 124, 125, 135-37, 140-
+>
+> 54,160, 165-67,177, 191 İzmit 61, 103, 148
+>
+> Kafkas Cephesi 182 Kala Hanı 13 Kaldırım 29, 95
+>
+> 202)
+
+### p. 240
+
+Karacabey (Mihaliç) 1594-56 Karadeniz 3, 3, 7,34, 51, 73 Karesi (Balıkesir) 63 Karşıyaka 136, 143 Kasaba 135, 142 Kastamonu 8-12, 53-55, 57-59 Katar Baytarlığı 22 Kayseri 83, 91 Kemal (Âşık Paşa) 4, 9, 10 Kemalettin Sami Paşa (Gökçen)
+
+bkz. Çolak Kemal Kengırı (Çankırı) 13, 55, 56-39,
+
+61 Kınık 178, 183 Kırkağaç 155 Kışla 146, 147 Kızılırmak 82 Kirmasti 154, 155 Kocaeli 14, 39, 61,<122 5123,
+
+135 Kocatepe 121, 122 Koçhisar 13
+
+Macun Dede Köyü 21 Malıköy 20, 23-25, 67, 73-75,
+
+79.00, 902 di Mangal Dağı 79, 84 Manisa 135,141,142, 150, 154 Megalo İdea 86, 135, 140, 147 Mehmet Bey (miralay) 157 Mehmet Emin Bey (Yurdakul)
+
+1S Melik Köyü 94 Memleket Hayvan Hastanesi
+
+(Ankara) 15 Mersinli 47, 144 Mevlütlü Köyü 29 Mısır 182 Mihraplı Köprü 156 Millet Bahçesi 15-17, 62 Mudanya 136, 153, 154, 156,
+
+162,191, 192 — Konferansı 150, 152, 164 Murat Dağları 43, 127 Mustafa Kemal Paşa (Atatürk)
+
+**G6**
+
+3)
+
+20 S7 Ma ls 6 Tak 16i,
+
+> [!note]+ Footnotes
+> Konstantin I (Yunanistan kralı)
+>
+> 86 Konya 10, 30, 95, 96, 103, 110,
+>
+> 11951207152. 188, 192 — Ovası 30 Kopdağı 71 Kordon 136, 146-48 Kramer 136 Kula 135 Kuleli Askeri İdadisi 172 Kuva-yi İnzibatiye 110 Kuva-yi Milliye 5, 17, 60, 66,
+>
+> 105-107, 162 Küçükköy 43 Kürre-i nuhas (Küre) 8, 53 Kütahya 14,41, 61, 123, 126
+>
+> 164 Mustafa Sabri Hoca (şeyhülis-
+>
+> lam) 112 Müdafaa-i Hukuk Grubu 16 Müdafaa-i Milliye Vekâleti 16,
+>
+> 17,19,33, 62, 63, 66 Mülkköy 28
+>
+> Nahit Bey 10, 131 Nif 145 Nuri Beşiktaş 10
+>
+> Ortaköy 30 Oturak 43, 127
+
+### p. 241
+
+Ömer Hulusi Bey (serbaytar) 35 Ömer Lütfi Efendi (baytar mu-
+
+avini) 23 Ören Köyü 29
+
+Panter 6, 7 Papaz Frew 110, 112 Patriyos 6 Piribeyli 29, 95 Polatlı 19,20, 23,25-28, 64, 67,
+
+71-73, 75, 80, 86-88, 91-94, 154
+
+Ravli 14, 58 Refet Paşa (Bele) 162 Resulbaba Dağları 39 Romanya 182
+
+Sabri Baki 4 Sadullah Bey 32 Sakarya 83, 87-90, 92, 94, 177 Sivas Kongresi 107, 115 Sivrihisar 25, 28,29, 36,87, 91, va 0) Soma 154, 155, 167 Söğüt 42 Sultan Dağları 95, 96 Sultanahmet 85 Susığırlık (Susurluk) 154, 155
+
+Şark Tiyatrosu 163, 165 Şevket Bey 28, 30, 95 Suburl2 14123
+
+Teşkilat-ı Baytariye 132 Toklu Sivrisi 125 Trakya 153 Trikupis, Nikolaos 126, 132 Türbe Tepe 79, 84
+
+Ulu Cami 157, 164 Uluabat Köyü 155 Sakarya Meydan Harbi 23, 32, Umumi Harp 77, 103, 154
+
+> [!note]+ Footnotes
+> 34, 74, 77, 88, 96-98, 114, Td ie il, 169;
+>
+> 176 Salihli 135, 142 Salmanlı Çiftliği 21, 23, 25, 26,
+>
+> 67, /0, 92,94, 98,99 Samsun 73 Sarayönü 158 Selimiye 172 Serbaytarlık Dairesi 20, 22, 23,
+>
+> 2109 07.10, 04, 132, 177 Setbaşı 158 Sevr Antlaşması 110, 179 Seyitgazi 95, 123 Sincanköy 20 Sirkeci 3 Uşak 39, 42-45, 125-135, 149
+>
+> Ücretli 69
+>
+> veba-yi bakari 31, 35, 91, 150, Al, 7 İZ Venizelos 147 Viyana Kaplıcaları 182
+>
+> Whittall 145
+>
+> Yahşihan 63 Yakapınar 29 Yakup Kadri (Karaosmanoğlu)
+>
+> 144 Yeni Kaplıca 156, 165
+
+### p. 242
+
+Yeniköy 32 147, 148, 151, 153, 164, Yeşil 158, 164 Yozgat l9 Yusuf Kenan Bey 22 Yunan ordusu 43, 86, 87, 90,
+
+OLS
+
+ll.
+
+Yunanlı(lar) 46, 60, 85-87, 89, (Ziraat Mektebi (Bursa) 164
+
+124, 132, 134, 137, 140, Zonguldak 5
+
+### p. 243
+
+*[no text on this page]*
+
+### p. 244
+
+1921 yılında Askeri Baytar Mektebi’ni
+
+bitirdikten sonra Kurtuluş Savaşına Garp Cephesi’nde katilmiş, Sakarya
+
+Meydan Muharebesi’nden Büyük Taarruz’a cephenin başveteriner muavini olarak görev yapmiş, hem savaşin hem de mesleğinin zorluklarını
+
+yaşamış bir hürriyet sevdalısı...
+
+İnebolu, Kastamonu, Çankırı, Ankara, Akşehir, Afyon, İzmir’e Mehmet Turgut Argun (1900-1982) Bursa'da doğdu. 1912'de Askeri Rüştiye'yi, 1915'te kadar Anadolu’nun çeşitli yerlerinde Kuleli Askeri Lisesi'ni bitirdi. 1918'de Askeri görev yapan Mehmet Turgut Bey ve Veteriner Yüksekokulu'nu bitirip 1921'de stajını arkadaşlari, bütün bu zaman boyunca tamamladıktan sonra Kurtuluş Savaşı'na katıldı. başka cephelerden gelecek iyi haberleri Garp Cephesi başveteriner yardımcısı olarak ve barişi beklerlerken bir yandan 1923 yılında savaştaki görevi sona erdi. 1924'te da türlü imkansızlıklara rağmen Birinci Ordu Müfettişliği başveteriner yardımcısı
+
+görevlerini aksatmamak olarak görev yaptı. Haydarpaşa Askeri Veteriner
+
+için çabalarlar. Tatbikat Okulu salgın hastalıklar asistanlığı yaptı, 1928'de başmuavin oldu ve aynı yıl iç Mehmet Turgut Argun 1921-22 yılları ve salgın hastalıklar ihtisası için Almanya'ya arasında tuttuğu günlüğünde cepheye gönderildi. Berlin Veteriner Yüksek Okulu'nun i dair gözlemlerini aktarırken, “Anadolu hastalıkları kliniklerinde çalişti. Viyana Veteriner
+
+Hatıra Defteri” başlığıyla 1923 Yüksekokulu'ndan 1930'da doktora derecesi aldı. Askeri Veteriner Tatbikat Okulu'nda salgın yılında yazdiği anılarında Anadolu’da hastalıklar öğretim üyeliğine atandı. 1938'de bulunduğu yerler, oraların insanları ve binbaşı ve yarbay rütbelerine terfi etti. 1938-51 savaşa dair hislerini anlatır.
+
+yılları arasında Tarım Bakanliği Veteriner Genel Müdürlüğü'nde mütehassis mücavir olarak Salgın Kurtuluş Savaşının önemli Hastalıklar Şubesinin idaresini yürüttü.
+
+şahsiyetlerinin ve cephe fotoğraflarının 1953'te Eczacıbaşı ilaç Fabrikası Veteriner Ilaçlar yer aldığı kendi albümünden Şubesi'ni ve Türkiye'deki ilk veteriner ilaçları imalat fotoğraflarla birlikte, Mehmet Turgut sanayini kurdu. Başak Sigorta Şirketi'nde Hayvan Bey’in anıları döneme farklı bir Sigortası'nı kurdu ve 1967'ye kadar burada çalişti.
+
+> tanıklık sunuyor... Veterinerlikle ilgili çalışmalar, bilimsel araştirmalar ve önemli buluşlar yaptı, bunları Türkçe, Almanca, Fransızca olarak makaleler ve kitaplar halinde yayımladı.
+
+THG CEZ KDV dahil fiyatı 9786053"322214" 12 TL

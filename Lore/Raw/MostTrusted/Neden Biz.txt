@@ -1,0 +1,338 @@
+NEDEN BİZ
+================================================================
+
+Source      : YouTube video (Turkish). Rebuilt from auto-generated Turkish subtitles.
+Raw file    : _Subtitles/[Turkish (auto-generated)] Neden Biz [DownSub.com].txt
+Topic       : The roots of anti-Turkish sentiment in Europe, from the Huns and the Crusades to Lloyd George and the War of Independence
+Period      : c. 1095 – 1922 (with references to the present day)
+Side        : Turkish
+Recorded    : Shortly after the US recognition of the Armenian genocide (April 2021)
+
+Editing notes
+- The speech-recognition text had no punctuation and many misheard names. It was
+  punctuated, split into paragraphs and given section headings.
+- Names that could be identified with confidence were corrected (e.g. "klamo
+  falan" -> Clermont, "flört kurt" -> Lord Curzon).
+- Parts that could not be recovered are marked [anlaşılmıyor]. Uncertain
+  readings are marked [?]. Notes in square brackets are the editor's, not the
+  speaker's.
+- Film/archive sound clips inside the video are marked [Film sesi].
+- The content and claims are the speaker's own; they were not fact-checked here.
+
+================================================================
+
+
+GİRİŞ
+-----
+
+Sanırım her video, her tartışma, her teori sonrası dönüp dolaşıp ortaya çıkan bir tane soru var: Neden biz?
+
+Ben bu videoyu aslında Biden'ın Ermeni Soykırımı'nı tanımasından sonra çekecektim, ama araya bildiğiniz üzere biri girdi. Soru genelde belli: Bunca insan bizden ne istiyor? Neden biz? Bu sorunun cevabına ulaşmak için tarihte biraz geriye gitmemiz gerekiyor.
+
+
+TÜRK DÜŞMANLIĞININ TEMELLERİ: HUNLAR VE HAÇLI SEFERLERİ
+------------------------------------------------------
+
+Bu Türk düşmanlığının temeli aslında Hunların Avrupa işgaliyle atılır. Zira Avrupalı basit çiftçi ve köylü için bu barbarlar "Türk" olarak bilinir. Anti-Türkizm buradan doğar.
+
+Bu düşmanlığın bir manifestoya dönüşmesi ve özellikle dinî boyut kazanması ise Haçlı Seferleri'yle başlar. Zira ondan evvel Türkler barbar ve dinsiz olarak görülürken, bu noktadan sonra Türk düşmanlığı dinî motiflerle beslenmeye başlar.
+
+Selçukluların Anadolu'yu fethinden sonra Bizans için geri sayım başlar. Bu durumdan rahatsız olan Papa II. Urbanus'un 1095 Kasım'ında kendi başkanlığında ve birçok din adamının katılımıyla gerçekleştirdiği Clermont Konsili, Haçlı Seferleri'nin başlangıç noktasını oluşturmuştur.
+
+[Film sesi: "Ne var? Cevap verin, ordular!"]
+
+27 Kasım 1095'te Fransa'nın Clermont şehrinde geniş katılımlı bir konsil toplandı. Binlerce insanın önünde gerçekleşen bu konuşmada Urbanus, Hristiyanlığın kutsal topraklarını işgal ettikleri gerekçesiyle Selçuklu Türklerine lanet okudu.
+
+[Film sesi: anlaşılmıyor]
+
+Hristiyan âlemini, kutsal toprakları geri kazanmak amacıyla düzenlenecek bir Haçlı Seferi için bir araya gelmeye davet etti. Ayrıca Urbanus, kutsal toprakların verimli ve zengin, hatta Hristiyan Avrupa'sından bile daha zengin olduğuna işaret etti. Son olarak da Haçlı Seferleri'ne katılmanın tüm kefaretlerin ödenmesini sağlayacağını ve haçlıların bütün günahlarının affedileceğini bildirdi.
+
+[Film sesi: anlaşılmıyor]
+
+Bir iki ay sonra Birinci Haçlı Seferi başlamıştı. Bu sefer, yaklaşık iki yüzyıl süren uzun bir kutsal savaş zinciriyle devam etti ve bu zincir, Türk düşmanlığının filizlendiği dönem oldu.
+
+1099'da Birinci Haçlı ordusu Kudüs'ü geri almayı başardı. Urbanus ise iki hafta sonra, zafer haberini alamadan öldü. Türk düşmanlığını simgeleyen Urbanus, 1881 yılında, ölüm günü olan 29 Temmuz'da aziz ilan edildi. Neden 1800'lü yıllarda aziz ilan edildiğini ileride öğreneceksiniz, bekleyin. [Editörün notu: Urbanus 1881'de "kutsanmış" (beato) ilan edilmiştir.]
+
+
+OSMANLI'NIN YÜKSELİŞİ VE "TÜRK AYİNLERİ"
+---------------------------------------
+
+Gerek Konstantinopolis'in alınması, gerek Avrupa'ya açılan Osmanlı ve bununla bağlantılı Türk savaşları, Avrupa'daki Türk karşıtlığını yükseltti. Türk düşmanlığı, Osmanlı'nın bu durdurulamaz büyümesine karşı Batı Hristiyan dünyasının geliştirmiş olduğu bir formüldür.
+
+Evet, biliyorum, kulağa haber belgeseli gibi geliyor belki. Ama işin gerçeği bu. Hatta bu yüzden 15. yüzyılın ortasından itibaren, size daha evvel bir başka videoda bahsettiğim "Türk ayinleri" (Türkenmesse) başlar. Türklere karşı özel olarak Avrupa'nın her yerinde Katolik dinî törenler düzenlenir. Bu törenlerde verilen mesaj şudur: Türklere karşı bir zafer ancak Tanrı'nın yardımıyla kazanılabilir; bu yüzden Hristiyan âlemi Türklerin zalimliğine karşı direncini yitirmemelidir.
+
+Viyana Piskoposu Johann Fabri bu önyargıyla ilgili şöyle demiştir:
+
+  "Dünyada, yaş ve cinsiyet ayrımı yapmadan, çocuk yaşta herkesi kesen,
+   hatta ana rahmindeki bebeği bile katleden Türkler kadar acımasız ve kaba
+   bir ırk yoktur."
+
+Bu "ana rahmindeki çocuğu kesme" olayını iyi aklınızda tutun. Çünkü sonraki yıllarda sürekli, sürekli yeniden anlatılacak bir masaldır bu. Demek ki bu, Avrupa'ya ilk adım attığımızdan beri bize karşı yöneltilen bir suçlamaymış.
+
+Genellikle bu törenlerde küçük tiyatro oyunları oynanır ve resimler sergilenirdi. Türkleri bir insandan çok bir canavara benzeten bu törenler, basit halk üzerinde büyük etki bırakır; bugüne kadar süren bir etki.
+
+
+REFORMASYON: LUTHER VE "TANRI'NIN KIRBACI"
+-----------------------------------------
+
+16. yüzyılda konuyla alakalı tüm Avrupa'da 2.500 civarında kitap basılmış, bunların binden fazlası Almanya'da ve Almanca basılmıştır. Bu kitaplarda özellikle "kana susamış Türk" imajı yerleştirilmeye çalışılmıştır.
+
+Hatta Martin Luther'in yakın arkadaşı [isim anlaşılmıyor], Türklerin "Kızıl Yahudiler" olduğunu iddia etmiştir. Buna dayanak olarak Türklerde ve Yahudilerde ortak olan erkek çocukları sünnet ettirme ve diğer ortak adet ve görenekleri göstermiştir. "Kızıl" benzetmesi de Türklerin adeta kan dökücü, katleden ve savaşan bir millet olmasına bağlanmıştır. Türklerin Kızıl Yahudi olduğu iddiası bugün hâlâ İran'da, özellikle Türklerden hoşlanmayan Farslar arasında popülerdir.
+
+Martin Luther, Türkleri papalık makamı ile kilisedeki yolsuzluk ve bozulmaya karşı Hristiyan dünyasına gönderilmiş Tanrı'nın bir cezası olarak görmüştür. 1517'de 95 Tez'ini açıkladığında Luther, Tanrı'nın Hristiyanları veba, savaş ve depremlerle cezalandırması gibi bu sefer de Türkleri yollayarak cezalandırdığını iddia etmiştir.
+
+Osmanlı artık iyice Orta Avrupa'yı ele geçirmeye başlayınca panik yükselir. Luther bu panikten istifade eder ve korkuları körükler: Türkler, Deccal ile işbirliği içinde olan şeytanın ajanlarıdır; Roma'yı ve Vatikan'ı işgal edip ahir zamana yol açacak, kıyamete sebep olacaklardır.
+
+18 Aralık 1519'da arkadaşı Wenceslaus Linck'e yazdığı bir mektupta Türkler ve Roma hakkındaki görüşünü şöyle bildirir:
+
+  "Bugün Roma'nın ve kilisenin Türklerden bile daha kötü olduğunu
+   söyleyebilirim."
+
+Türklere karşı savaş yazılarında ve askerî vaazlarında Luther, teolojik olarak Türklerin "Tanrı'nın kırbacı" olduğunu sürekli vurgular. Luther ve taraftarları yüzünden Avrupa'da, Osmanlılara karşı yürütülen savaşın bir tarafında İsa'nın, diğer tarafında Deccal'in; ya da bir tarafında Tanrı'nın, diğer tarafında şeytanın olduğuna inanılır.
+
+Papa X. Leo buna karşılık Luther'i kiliseden atmakla tehdit etmiş; onu Türklere kapitülasyon verilmesini savunmakla ve Türklerin avukatlığını yapmakla suçlamıştır.
+
+Portekizliler de Doğu Afrika'yı ele geçirmeleriyle, "o kötü Türklerle" her karşılaşmalarını Avrupa'da kendilerini dinin savunucusu olarak göstermek için kullanır.
+
+
+EFSANELER: "TORQUERE", İSKİTLER VE KURT-TÜRK
+-------------------------------------------
+
+Bazı ilahiyatçılara göre "Türk" kelimesi Latince "torquere", yani "torture" (işkence) kelimesinden gelmektedir. Bir diğer popüler teoriye göre Türkler, zalim bir ırk kabul edilen İskitlerle aynı soydandır.
+
+Centre for European Policy Studies'in (CEPS) Türkiye ve Avrupa Birliği üzerine deneyimler ve beklentiler konulu raporunda [rapor adı tam anlaşılmıyor], o dönemdeki "kurt-Türk" efsanesine de yer verilmiştir. Bu hikâyelerde kurt-Türk karışımı bir yaratığın, yarı insan yarı kurt, kurt kafası ve kurt kuyruğu olan, gerisi insan biçiminde bir varlığın varlığından bahsedilir.
+
+
+AYDINLANMA ÇAĞI VE İDEOLOJİK SİLAH OLARAK TÜRK
+---------------------------------------------
+
+16. yüzyıldan sonra Türkler ve Türklerin yaşam stili, ideolojik sebeplerden dolayı aşırı kötü gösterilmeye başlandı. Bunun sebebi de Aydınlanma Çağı'ndaki Avrupa'nın 16., 17. ve 18. yüzyıllardaki tartışmalarında Türkleri bir ideolojik silah olarak kullanmasıdır. Özellikle yönetim biçimi hakkında yapılan tartışmalarda Türkler aşağılanıyordu ve bu aşağılama için bolca yalan haber gerekiyordu.
+
+Yazarlar, Türkler hakkında oluşturdukları imajın yanlış ama kabul gören bir imaj olduğunu söylüyordu. Türkler konusunda yazılıp çizilenlerin doğruluğunun bir önemi yoktu; önemli olan bu illüzyonun ayakta kalmasıydı. Yani bugün modern dünyanın ve Batı medeniyetinin üzerine kurulu olduğu Aydınlanma Çağı, sistematik bir Türk düşmanlığı üzerine kuruluyordu.
+
+İşte sorumuzun cevabına giderek yaklaşıyoruz. Zira artık bu Türk düşmanlığını yürütenler din adamları, çiftçiler veya cahil halk değil; bizzat entelektüel kesimin yürüttüğü bir politikaydı bu.
+
+Bu İsveç'te de geçerliydi; Türkler Hristiyanlığın ana düşmanı olarak gösterilirdi. Buna örnek olarak [yazar adı anlaşılmıyor] tarafından yazılan ve 1694'te basılan, "Türk Kuranı ya da Muhammed'in dört kitaba bölünmüş tehlikeli kanunu" anlamına gelen [Latince başlık anlaşılmıyor] adlı kitap gösterilebilir. Dinî törenlerde Türklerin fethettikleri yerleri nasıl sistematik olarak yakıp yıktığı, acımasızlıkları ve kana susamışlıkları hakkında vaazlar verildi. İsveç'te 1795 yılında yazılan ve okullarda okutulan bir kitapta İslam, "büyük düzenbaz Muhammed tarafından uydurulan ve günümüzde Türklerin tamamen kabul ettiği sahte din" olarak tarif ediliyordu.
+
+Edward Said "Oryantalizm"de şöyle yazacaktı:
+
+  "On yedinci yüzyılın sonuna dek, Avrupa'nın hemen yanı başında yatan
+   Osmanlı tehlikesi, tüm Hristiyan medeniyetini tehdit eden bir tehlike
+   olarak bekleyecekti; ve zamanla Avrupa medeniyeti bu tehlikeyi, onun
+   olaylarını, figürlerini, iyi ve kötü yanlarını alıp hayatının en temel
+   dokusuna işledi."
+
+Kısacası Türk düşmanlığı, hatta nefreti, gayet normal karşılanan, hatta sağlıklı bulunan bir şeydi.
+
+
+RÖNESANS VE KAYBEDİLEN "TÜRK RÖNESANSI"
+--------------------------------------
+
+Rönesans döneminde Avrupa, unutulmuş Yunan eserleriyle yeniden tanıştı. [İsimler anlaşılmıyor] gibi isimler, Platon ve diğer antik yazarların eserlerini Doğu'nun kütüphanelerinde bulup tekrar Avrupa'ya taşıyordu.
+
+Bizans'ın yıkılması sonrası (Fatih'in de çok üzüldüğü bir gelişme) Yunan entelektüellerin İtalya'ya kaçması ve yanlarında bin yıllık tüm bilgi birikimlerini götürmeleri, İtalyan Rönesansı'nın sebeplerinden biri oldu. Zaten İtalyan Giovanni Aurispa, Konstantinopolis'e giderek 1423 yılında 200 civarında antik kodeks alıp İtalya'ya götürmüştü. Yani bir Türk Rönesansı şansını kaybetmiştik; bunu İtalya elimizden almıştı.
+
+
+FİLHELENİZM
+-----------
+
+Buna ek olarak Türk düşmanlığından farklı akımlar doğdu: Pan-Arabizm ve en önemlisi Filhelenizm. Demiştik ya, Avrupa medeniyeti antik Yunanlıları yeniden keşfetmişti; Türk düşmanlığıyla beraber gitgide Türkleri suçlu bulmaya başlamışlardı.
+
+Filhelen, "Yunan dostu" anlamına gelir. Filhelenler genelde genç, klasik eğitim almış aristokrat erkeklerden oluşuyordu. Kendilerini antik Yunan'ın temsilcisi ve antik Yunan medeniyetinin koruyucusu olarak gören bu adamlar, antik Yunanlıların mirasçısı olarak gördükleri Yunanlıların Osmanlı'ya karşı bağımsızlığını destekliyorlardı. Hatta Lord Byron gibileri, "Yunan Devrimi" olarak adlandırılan bu savaşa katılmış, Osmanlı'ya karşı bizzat savaşmıştı. Çoğu da Yunan diasporası yüzünden filhelen olmuştu.
+
+Aralarında kimler yok ki: Frank Abney Hastings, Samuel Gridley Howe, Victor Hugo, Humboldt, Aleksandr Puşkin ve daha niceleri. [Altyazıdaki uzun isim listesinin büyük bölümü anlaşılmıyor.]
+
+Hatta Bavyera Kralı I. Ludwig öyle bir Yunan hayranıydı ki Bavyera'da 12 yılda yaptırdığı Walhalla adlı anıtta Atina'daki Parthenon'u örnek almıştı.
+
+
+DÖNEMİN ÜNLÜLERİNDEN ALINTILAR
+------------------------------
+
+Bahsettiğimiz tüm bu isimlerin etkisini birkaç alıntıyla görelim:
+
+  "Yüzyıllardır antik dünyanın kalbinde oturan bu barbar güç, zorla klasik
+   ve dinî antik [anlaşılmıyor] yüzyıllarını, dünyanın en güzel topraklarını
+   elde tutuyor. Bu barbarlar, bilmeden dünya tarihinin yarısını ellerinde
+   tutuyor. Kadın ve anne olan kadınlara karşı [anlaşılmıyor], sanat düşmanı
+   Türkler."
+
+Voltaire:
+
+  "Şu barbar işgalcileri Avrupa'dan def etmek için [anlaşılmıyor]... Çok
+   içten bir şekilde Türk barbarların Ksenofon'un, Sokrates'in, Platon'un,
+   Sofokles'in, Euripides'in topraklarından kovulmasını diliyorum. Eğer
+   istersek bunu yakında yapabiliriz. Ama batıl inanç için yedi Haçlı Seferi
+   yapıldı da [bunun için] bir tane yapılmaz mı? Onların inşa etmiş olduğu
+   bir tane şehir bile yok. Antik dünyanın en güzel yapılarını çürütüyorlar,
+   kalıntılara hükmediyorlar."
+
+Bu söz önemli, çünkü Türklere karşı girişilecek soykırımın temelini bu fikir özetliyor.
+
+Philipp Melanchthon:
+
+  "Eğer tarihe bakarsam, hiçbir millet yoktur ki Türkler kadar [anlaşılmıyor],
+   fahişelik ve her türlü yabani ve kaotik yaşamı yaşamış olsun."
+
+[İsim anlaşılmıyor]:
+
+  "Çinlilerden asla, Türklerden nefret ettiğim kadar nefret etmedim. Eğer
+   Rusya onlarla savaşmaya hazır olursa, umarım İngiltere ve Fransa bunu
+   engellemez."
+
+Mark Twain:
+
+  "[...] ve bir Türk gibi yalan söyledi."
+
+[İsim anlaşılmıyor] / Maimonides:
+
+  "Kuzeyin en uzak yerlerinde bulunan Türkler gibi mahlukların ve onlara
+   benzeyenlerin durumu, akılsız hayvanların durumu gibidir."
+
+1870 yılında "anti-Türkizm" yerine "Türkofobi" kelimesi kullanılmaya başlanır. Yani önceden açıkça belirtilen karşıtlık, şimdi "Türklerden korkmak" gibi gösterilmeye başlanır.
+
+
+OSMANLI İÇİNDE TÜRK DÜŞMANLIĞI
+------------------------------
+
+Tabii bu sırada Osmanlı topraklarında da rahatlıkla Türk düşmanlığı gelişir. Zira Osmanlı hepsini özgür tutar. Hatta Atatürk'ün bir gün annesiyle [anlaşılmıyor] meşhur bir tartışması vardır, bilirsiniz. Selanik'te büyüyen Mustafa Kemal, Yunan ırkçılığının yükselmesini ve Türk düşmanlığını bizzat yaşamıştı. Çünkü kendi özel okullarına sahip olan milletler, rahatlıkla Osmanlı'nın altını oymaya başlar.
+
+
+GLADSTONE VE LLOYD GEORGE
+-------------------------
+
+1800'lerin sonlarında William Gladstone, Türkofobiyi Britanya politikasında Osmanlı İmparatorluğu'na karşı bir politika değişikliği olarak ortaya atmıştır. Gladstone, Osmanlı yönetimindeki Bulgarlar hakkında, 5 Eylül 1876 tarihinde basılan "Bulgarian Horrors and the Question of the East" (Bulgar Vahşeti ve Doğu Sorunu) başlıklı 64 sayfalık bir broşür kaleme almış ve Türklerin dünyadan tasfiye edilmesi gerektiğini anlatmıştır. Ona göre Türkler insanlığın "dev bir insanlık dışı örneği"dir. Osmanlı Hükümeti hakkında ise "Hiçbir hükümet onun kadar günah işlememiş, hiçbir hükümet onun kadar günahkâr olmamış, hiçbiri onun kadar değişime kapalı olmamıştır" demiştir.
+
+İşte Gladstone'un öğrencisi Lloyd George, Türk düşmanlığını fiilî devlet politikası hâline getirip bir Türk soykırımına çalıştı. Osmanlı İmparatorluğu'nu parçalama siyasetini destekledi. Türk Kurtuluş Savaşı süresince Britanya hükümetini idare etti ve Türkiye Cumhuriyeti'nin kurulması sırasında Türklere karşı yürütülen savaşın baş mimarı oldu.
+
+- Sevr Antlaşması,
+- Türk hükümetinin Sevr Antlaşması'na direnmesi üzerine Yunan ordusunun Anadolu'ya sürülmesi,
+- 1921 Londra Konferansı'nda Sevr Antlaşması'ndan taviz verilmemesi,
+- 1922 yılında Yunan Başbakanı Gunaris'in Anadolu'dan çekilme teklifinin reddedilmesi,
+- Eylül 1922'de Çanakkale Boğazı nedeniyle Türkiye ile savaş noktasına kadar tırmanan gerilim;
+
+bunların hepsi Lloyd George'un şahsen yönettiği politikaların ürünüdür.
+
+Megali İdea destekçisi ve Venizelos'un dostu olan Lloyd George, büyük soykırım gerçekleşsin diye, zaten kapitüle etmiş ve ordusu olmayan Türk milletinin üzerine Yunan ordusunu sürer. İstanbul ve Boğazlar hakkındaki anlaşmalarda Türkleri tamamen Avrupa'dan çıkarmak ön plandaydı. Lloyd George şöyle diyordu:
+
+  "Savaş ve Türklerin mağlubiyeti, bize bu problemi sonsuza kadar kökünden
+   çözme olanağı verdi."
+
+Lloyd George, Yunanlıların Doğu Akdeniz'de yükselen bir grafik çizdiği fikrindeydi. Bu düşüncesinin sebebi, Yunanistan'ın artan nüfusunun yanı sıra askerî anlamda zeki ve çevik askerler çıkardığına ve denizci bir millet olduğuna inanmasıydı. Ona göre Doğu Akdeniz'e hâkim olan bir müttefik, Süveyş Kanalı'ndan Uzak Doğu'ya ve Avustralya'ya kadar uzanan Britanya İmparatorluğu'nun işine yarayacaktı.
+
+Eylül 1922'de çıkan Çanakkale Krizi, Lloyd George'un başbakanlığının, dolayısıyla da hükümetinin sonunu hazırlamıştır. Lord Curzon'a göre tüm bu problemler, başbakanın Türklerden nefret etmesinden ve Yunanlılara delicesine sevgisinden kaynaklanmaktaydı. Hatta bazı İngiliz parlamenterler de Lloyd George'un Türklere karşı barbarca tavrını tartışmış, Malta'ya gönderilen sürgünler konusunda da onun keyfî politikasını eleştirmiştir.
+
+Lloyd George, Londra Konferansı'nda, kendi tarafında savaşmasına rağmen Fransa'yı, Kilikya [?] bölgesinde Osmanlı tarafından yapıldığı iddia ettiği Ermeni katliamının önlenememesinin sorumlusu olarak göstermiş; Mustafa Kemal'in bu olaydan sorumlu olduğunu, bu sebeple ona göre İstanbul Hükümeti'nin sadrazamı ve bazı bakanlarının tutuklanması gerektiğini söylemiştir. Dahası, Mustafa Kemal'in zor duruma düşmesi için Yunan ordusunun 12 kilometre daha ilerlemesini teklif ettiği de kayıtlardadır.
+
+İtilaf Devletleri 18 Aralık 1916'da ABD başkanına şöyle bir mesaj veriyor: "Türklerin kanlı tiranlığı altında yaşayan halkları özgürleştirmek."
+
+Lloyd George'dan bir diğer alıntı, anlaşma şartları duyulunca:
+
+  "Türklerin delilikleri, körlükleri ve yaptıkları katliamlar için nasıl
+   cezalandırıldığını göreceksiniz. Cezalandırılmaları o kadar korkunç olacak
+   ki en büyük Türk düşmanları bile memnun olacak. Mezopotamya'da ne olur, o
+   konferansa kalmış; ama ne olmayacağını söyleyeyim: Bir daha asla lanet
+   olası Türklerin tiranlığına bırakılmayacak."
+
+
+KURTULUŞ SAVAŞI SIRASINDA SİVİLLERE YÖNELİK ŞİDDET
+-------------------------------------------------
+
+İşte bu ideoloji ve nefretle Türk soykırımının startı verildi. Yüzyıllardır hayal ettiklerini yapacaklardı. Yunan ordusunu savunmasız Türk halkının üzerine sürdüler.
+
+Justin McCarthy'ye göre Türk Bağımsızlık Savaşı boyunca 640.000 Türk sivil Yunan ordusu tarafından öldürüldü.
+
+14-15 Mayıs 1919'da İzmir'in işgal edilmesinden sonra Yunan birlikleri şehrin Türk nüfusunun bir kısmını katletti. İtilaf Devletleri'nin kaynaklarına göre 15 Mayıs 1919'da 300 ila 400 Türk öldürüldü. Yunan ordusu Anadolu'da ilerledikçe bölgede yaşayan Türkler katliamlar, tecavüzler ve yıkımla karşı karşıya kaldı.
+
+- Britanyalı askerî yetkili Harold Armstrong, İzmir'den Anadolu içlerine doğru ilerleyen Yunan ordusunun sivilleri katlederek, yağmalayarak ve tecavüz ederek gittiğini bildirdi.
+- Britanyalı tarihçi Arnold Toynbee, 15 Mayıs 1919'da İzmir'in Yunanlılar tarafından işgalinden sonra organize bir şekilde katliamlar yürütüldüğünü yazdı. Toynbee, Yunanlıların İzmit, Yalova ve Gemlik bölgelerinde yürüttüğü zulme tanıklık ettiklerini ve bu bölgelerde evlerin yağmalandığını veya yakıldığını belirtti.
+- [İsim anlaşılmıyor]'a göre Yunan işgali altındaki İzmir'de [sayı belirsiz: "dört bin"?] Müslüman idam edildi.
+- Menemen katliamında 200 Türk sivil öldürüldü.
+- Bir köyde Yunan ordusu, köye zarar vermemek için 500 altın lira talep etti. Ödeme yapıldı, ancak köy yine de yakılıp yıkıldı.
+- Bergama baskını sonucu 80.000 ile 100.000 arası Türk sivil göç etmeye zorlandı.
+
+Birçok kaynağa göre Yunan ordusu, savaşın son kısmında Anadolu'dan çekilirken bir yakıp yıkma stratejisi izledi. Orta Doğu tarihçisi Sydney Nettleton Fisher'a göre geri çekilme sırasında Yunan ordusu bir yakıp yıkma taktiği izledi ve öfkesini savunmasız Türk köylerinden bilinen her yoldan çıkardı. Norman Naimark'a göre Yunan geri çekilişi yerel halk için işgalden de yıkıcıydı.
+
+İstanbul'daki ABD konsolos yardımcısı James Loder Park, Yunanlıların Anadolu'yu boşaltmasının hemen ardından bölgeyi gezdi; İzmir'i çevreleyen yerlerdeki durumu ve 1922 Manisa yangını gibi olayları rapor etti.
+
+Kinross'a göre bölgedeki kasabaların çoğu harabeye dönmüştü. Uşak'ın üçte biri artık yoktu. Alaşehir, yamaçları tarif eden karanlık, kavrulmuş bir boşluktan başka bir şey değildi. Köy ardına köy, Yunan askerleri tarafından kül yığını hâline getirildi. Tarihî kutsal şehir Manisa'daki 18.000 binadan sadece 500'ü ayakta kaldı.
+
+Geri çekilme sırasındaki Yunan vahşetinden örnekler:
+
+- 14 Şubat 1922'de İzmit [?] vilayetindeki Türk köyü Karatepe Yunanlılar tarafından kuşatıldı. Tüm sakinler camiye kondu ve cami yakıldı. Ateşten kaçmayı başaran az sayıda kişi de vuruldu.
+- İtalyan konsolosu [isim anlaşılmıyor], Yunanlıların 60 kadın ve çocuğu katlettiği bir köyü ziyaret ettiğini rapor etti. Bu rapor daha sonra Fransız konsolosu Kaptan [isim anlaşılmıyor] tarafından doğrulandı.
+- Yunan ordusunun acelesi, yıkımın seviyesini biraz sınırladı. 24 Haziran 1921'de İzmit'te çoğunluğu erkeklerden oluşan 300'e kadar sivil Yunan ordusu tarafından idam edildi. Şehir yağmalandı ve bir bölümü ateşe verildi.
+- 5 Eylül 1922'de Salihli Yunan ordusu tarafından ateşe verildi. Şehirdeki binaların [oranı anlaşılmıyor] yok oldu, en az 76 kişi yanarak öldü. Ayrıca yüz kız tecavüz etmek için kaçırıldı.
+
+Gülfem Kağıtçılar, küçük bir kız olarak Manisa'daki yangına tanık oldu ve ailesiyle tepelere kaçtı. Hatırladıkları şöyle:
+
+  "Sabaha karşı [anlaşılmıyor] tepelerde gizlenmek için kuru bir dere
+   yatağına tırmandık. Biz tırmanırken şehir yanıyordu ve biz onun ışığıyla
+   aydınlandık, ısısı bizi ısıttı. Şehir üç gün üç gece yandı. Evlerin
+   pencere camlarının bomba gibi patladığını gördüm. Ağaçlar kökleriyle
+   devrildi. Ben bu şeyleri unutmadım: ısıyı, açlığı, korkuyu, kokuyu. Üç gün
+   sonra aşağıda vadide toz bulutları görüldü: at sırtında Türk askerleri.
+   Biz onları, tepelerde bizi öldürmeye gelen Yunanlılar sanıyorduk. Yeşil ve
+   kırmızı bayraklar taşıyan üç askeri hatırlıyorum. İnsanlar ağlıyor,
+   atların toynaklarını öpüyordu. 'Bizimkiler geldi' diye..."
+
+İzmir'deki İsveçli doğubilimci Johannes Kolmodin, mektuplarında Yunan ordusunun 250 Türk köyünü yaktığını yazdı. Ayrıca 30.000'den fazla bina Yunan ordusu, yerel Rumlar ve onların Ermeni destekçileri tarafından yakıldı. Savaşın son aşamasında bir tetkik heyeti Aydın ve çevresinde incelemelerde bulunmuş ve rapor vermiştir; bu rapor "Tetkik Heyeti Raporu" olarak bilinmektedir.
+
+Tabii tüm bunlar olurken doğudaki Ermeniler ve Fransızlar da durmuyordu. Türklerin bölgedeki Fransız işgaline karşı birleşmesi üzerine Antep'te, Maraş'ta ve Urfa'da büyük ölçüde sivil kayıplara ve katliamlara sebep oldular. Maraş'ta 4.500 Türk öldürüldü. 1920 yılında Ermeniler tarafından Kozan katliamı yapıldı. Ermeniler ayrıca Yalova katliamında ve 1922 Manisa yangınında önemli roller oynadı.
+
+
+SONUÇ: BUGÜN
+------------
+
+İşte Türkler bu soykırım girişiminden kıl payı kurtulmuştur. Kısa sürede demokrasiye kavuşan Türk milleti, ne yaşadığını asla tam anlamamış, yaşananların hesabını sormamıştır. Gerek çalkantılı dönemler, gerek komünizmin bir jenerasyonu etkilemesi, gerek Amerikan Gladio'sunun milliyetçi gençleri kullanması, Türk milletini yapması gereken aydınlanmadan alıkoymuştur.
+
+Bu sırada Türk düşmanlığı her geçen gün devam ediyor; torunları durmuyor. Sen bu videoyu izlerken bile yeni bir "Pontus soykırımı" üzerine çalışma yapıyorlar; Trabzon'da ve Karadeniz'de faaliyet yürütüyorlar, yine sol maskesi altında. Öğrenci dediğin, "geleceğim" dediklerin, senden ve Türklükten nefret ediyor.
+
+Ermeni soykırımını tanıyan Biden'ın kendine "Yunan" demesini [?] ve hayatı boyunca Türk düşmanlığı yapmasını tesadüf mü sanıyorsunuz? Aynı ideolojinin devamı. Ve siz uyurken onlar tarih revizyonizmiyle devam ediyorlar; yüzlerce özel hesapla Vikipedi'yi domine ediyorlar. Türk milletine soykırım yapmaya kalkıp def edilmelerini "soykırım" olarak tanıtmak istiyorlar.
+
+
+TRİPOLİÇE VE SAKIZ
+------------------
+
+Örnek: Kanlı Tripoliçe katliamı ve Sakız Adası çıkarması.
+
+Tripoliçe katliamında Yunanlılar binlerce Türk sivili katletmiştir; [isim anlaşılmıyor] 10.000–15.000 sivilin katledildiğini yazmıştır. Yunan tarihi üzerine uzman olan tarihçi-yazar William St. Clair, öldürülen sivillerin sayısının 10.000'in üzerinde olduğunu belirtmiştir. Katledilenlerin içinde kadınların da olduğu görülür.
+
+İngiliz tarihçi W. Alison Phillips, Tripoliçe katliamı hakkında:
+
+  "Üç gün boyunca şehrin sakinleri vahşi bir çetenin kötülüğüne ve keyfine
+   bırakıldı. Yaş ve cinsiyet ayrımı yapılmadı. Kadınlar ve çocuklar
+   öldürülmeden önce işkenceye tabi tutuldu."
+
+Katliam o kadar büyüktü ki Kolokotronis, kapıdan kaleye kadar atının ayaklarının yere hiç değmediğini söyledi. Şehirdeki Yunan zaferinden sonra yol kenarları cesetlerle doldu. Kadınların ve çocukların bulunduğu Müslüman kitleler yakınlardaki dağlarda [anlaşılmıyor] doğrandı.
+
+Katliam sırasında Tripoliçe'de bulunan yabancı subaylar gördüklerini şöyle aktarmıştır:
+
+  "10.000'in üzerinde Türk öldürüldü. Paralarını sakladığından şüphelenilen
+   tutsaklara işkence edildi; kolları ve bacakları kesildi, bir ateş üzerinde
+   yavaş yavaş kızartıldılar. Hamile kadınların karınları kesildi, kafaları
+   kesildi ve köpek kafaları bacaklarının arasına sokuldu. Cumadan pazara
+   kadar hava çığlık sesleriyle doluydu. Bir Yunanlı 90 kişiyi öldürdüğünü
+   söylüyordu. Haftalarca aç bırakılan Türk çocukları çaresizce yıkıntıların
+   arasında koşarken Yunanlılar onları yere attılar ve sonra vurdular."
+
+Sakız Adası çıkarmasında ise Yunanlılar Sakız Adası'na gelip halkı ayaklandırdı. Bunun üzerine adada Türkler öldürülür; Osmanlı adaya çıkarma yaparak isyanı kanlı bir şekilde bastırır.
+
+Şimdi gelin bu iki olayın Vikipedi sayfalarına bakalım: Biri Tripoliçe katliamı "Siege of Tripolitsa" (Tripoliçe Kuşatması) olarak geçerken, Sakız Adası çıkarması "Chios Massacre" (Sakız Katliamı) olarak geçiyor.
+
+
+KÜLTÜREL SALDIRI
+----------------
+
+İşte bu büyük savaşın bir parçası bu. Onlar sadece silahla saldırmıyor, kültürel olarak da saldırıyor. Türk dili yok sayılıyor, varlığı yok sayılıyor, kültürü yok sayılıyor. Dalga geçtiğiniz "Yunanlılar yemeğimizi çalıyor" olayı bile bunun ürünü. Sadece yemek değil; kültürel olan tüm değerlerini yok etmek veya senden almak istiyorlar.
+
+Hacivat ile Karagöz'ü aldıklarını biliyor muydunuz? Hatta Paris'teki uluslararası tiyatro [festivaline] Yunan Ulusal Tiyatrosu Karagöz'ü götürmüştür. Ancak Yunanlılar Karagöz'ü, bizim sahip çıkmadığımız dönemde bile yalnız Karagöz oynatılan tiyatrolarda, çocukların sevdiği bir halk tiyatrosu olarak yaşatmışlardır. Hatta UNESCO Türkiye lehine karar verince [kıyamet] koparmışlardır.
+
+
+KAPANIŞ
+-------
+
+İşte bugün karşılaştığımız her sorunun, her olayın sebebi bu anlattıklarımdır. "Neden biz?" sorusunun cevabı budur.
+
+"Neden biz" demek yerine "O hâlde biz" demenin vakti geldi. Prangaları atıp Türk aydınlanmasını tamamlamanın vakti gelmiştir.
+
+[Abone olma çağrısı]

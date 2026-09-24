@@ -1,0 +1,22 @@
+---
+tags: [source]
+side: Turkish
+protocol: historical
+---
+# Source - Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi
+
+- **Author:** Ali Akyıldız, Zekeriya Kurşun
+- **Side:** Turkish
+- **Protocol:** historical
+- **Written:** 2015
+- **Covers:** ~1870 – 1924
+- **Converted text:** [[Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi (Ali Akyıldız)]]
+- **Original file:** `Raw/NormalTrust/Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi -- Ali Akyıldız, Zekeriya Kurşun -- Tarih Dizisi, 1_, 2015 -- Türkiye İş Bankası Kültür Yayınları -- 4610b63e6fd926259f80b0b1a78d3911 -- Anna’s Archive.pdf`
+
+Back to [[Home]] · [[Sources Ledger]]
+
+## Notes that use this source
+
+[[British occupation of Egypt (1882)]] (10), [[Abbas Hilmi Paşa]] (9), [[Lord Kitchener]] (8), [[Boghos Nubar]] (7), [[Edward Grey]] (7), [[Suez Canal Campaign (1915)]] (7), [[Egyptian Question (1831-1841)]] (6), [[Faysal]] (6), [[Lord Salisbury]] (6), [[William Gladstone]] (6), [[Küçük Said Paşa]] (5), [[Lord Curzon]] (5), [[Mahmud Nedim Paşa]] (5), [[Mustafa Reşid Paşa]] (5), [[Otto von Bismarck]] (5), [[Sheikh Said rebellion (1925)]] (5), [[Kavalalı Mehmed Ali Paşa]] (4), [[Lübnan]] (4), [[Mahmud II]] (4), [[Ramadan in İstanbul]] (4), [[Süleyman Hüsnü Paşa]] (4), [[İbn Suud]] (4), [[Abdülaziz]] (3), [[Baghdad Railway]] (3), [[Basra]] (3), [[Cavid Bey]] (3), [[Cezayir]] (3), [[Damat Ferit Paşa]] (3), [[Filistin]] (3), [[Fuad Paşa]] (3), [[Gazi Ahmed Muhtar Paşa]] (3), [[Halil Kut]] (3), [[Harem and the palace household]] (3), [[Hicaz]] (3), [[Informants and spies (jurnal system)]] (3), [[Kamil Paşa]] (3), [[Kanuni Sultan Süleyman]] (3), [[Kıbrıs]] (3), [[Kırım]] (3), [[Medine]] (3), [[Mekke]] (3), [[Midhat Paşa]] (3), [[Napoleon Bonaparte]] (3), [[Ottoman Parliament]] (3), [[Palestine and Sinai Front]] (3), [[St. Petersburg]] (3), [[Sublime Porte]] (3), [[Süveyş Kanalı]] (3), [[Talat Paşa]] (3), [[Tanzimat]] (3), [[Tevfik Paşa]] (3), [[Treaty of Lausanne (1923)]] (3), [[Treaty of Sèvres (1920)]] (3), [[Tunus]] (3), [[Woodrow Wilson]] (3), [[Yıldız Sarayı]] (3), [[Ziya Paşa]] (3), [[Abdülhamid II]] (2), [[Abdülmecid I]] (2), [[Adana]] (2), [[Ahmed Cevdet Paşa]] (2), [[Armistice of Mudros (1918)]] (2), [[Arnavutluk]] (2), [[Atina]] (2), [[Balkan Wars (1912-1913)]] (2), [[Battle of Navarino (1827)]] (2), [[Bağdat]] (2), [[Berlin]] (2), [[Beyrut]] (2), [[Boğazlar]] (2), [[Bulgaristan]] (2), [[Caliphate]] (2), [[Capitulations]] (2), [[Committee of Union and Progress]] (2), [[Congress of Berlin (1878)]] (2), [[David Lloyd George]] (2), [[Diyarbakır]] (2), [[Erzurum]] (2), [[First World War]] (2), [[Gazi Osman Paşa]] (2), [[Girit]] (2), [[Greek War of Independence (1821)]] (2), [[Halep]] (2), [[Helmuth von Moltke]] (2), [[Hindistan]] (2), [[Irak]] (2), [[Konya]] (2), [[Kudüs]] (2), [[Londra]] (2), [[Malta]] (2), [[Musul]] (2), [[Mısır]] (2), [[Occupation of İstanbul (1918-1923)]] (2), [[Ottoman Empire]] (2), [[Ottoman Navy]] (2), [[Ottoman War Academy]] (2), [[Ottoman press]] (2), [[Paris]] (2), [[Refugees (muhacir)]] (2), [[Rumeli]] (2), [[Sofya]] (2), [[Suriye]] (2), [[Sırbistan]] (2), [[Trablusgarp]] (2), [[Tuna]] (2), [[Viyana]] (2), [[Yemen]] (2), [[Yunanistan]] (2), [[Çanakkale and Gelibolu]] (2), [[İran]] (2), [[İstanbul]] (2), [[Şam]] (2), [[Şerif Hüseyin]] (2), [[Anadolu]] (1), [[Ankara]] (1), [[Battle of Çeşme (1770)]] (1), [[Beyoğlu and Galata]] (1), [[Crusades]] (1), [[Eastern Question]] (1), [[Edirne]] (1), [[English Friendship Society]] (1), [[Fahreddin Paşa]] (1), [[Famine and epidemics]] (1), [[Fatih Sultan Mehmed]] (1), [[Hayreddin Paşa]] (1), [[Hüseyin Cahit]] (1), [[Hüseyin Hilmi Paşa]] (1), [[Italo-Turkish War (1911-1912)]] (1), [[Janissaries]] (1), [[Kastamonu]] (1), [[Kütahya]] (1), [[Makedonya]] (1), [[Mehmed V Reşad]] (1), [[Moskova]] (1), [[Mustafa Kemal Atatürk]] (1), [[Ottoman Bank]] (1), [[Peter the Great]] (1), [[Proclamation of the Republic (1923)]] (1), [[Raid on the Sublime Porte (1913)]] (1), [[Russo-Turkish War of 1877-1878]] (1), [[Selanik]] (1), [[Selim III]] (1), [[Sivas]] (1), [[Stratford Canning]] (1), [[Tobacco Régie]] (1), [[University reform of 1933]] (1), [[Van]] (1), [[Venedik]] (1), [[Yavuz Sultan Selim]] (1), [[Âli Paşa]] (1), [[Üsküdar]] (1), [[Kadıköy and Kızıltoprak]], [[Mizancı Murad]], [[Namık Kemal]]
+
+*The number in brackets is how many quotes from this source appear in that note. Notes without a number only mention it.*

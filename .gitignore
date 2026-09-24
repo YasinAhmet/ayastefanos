@@ -1,0 +1,87 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+# Large documents
+*.pdf
+*.epub
+*.mobi
+*.azw
+*.djvu
+*.cbz
+*.cbr
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+# Large documents
+*.pdf
+*.epub
+*.mobi
+*.azw
+*.djvu
+*.cbz
+*.cbr
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+# ============================================================
+# Large documents
+# ============================================================
+
+*.pdf
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.djvu
+*.cbz
+*.cbr
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# ============================================================
+# Unity
+# ============================================================
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# ============================================================
+# IDE
+# ============================================================
+
+.vs/
+.vscode/
+.idea/
+
+# ============================================================
+# OS
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+*.pdf
+*.epub
+*.zip
+*.rar
+*.mp4

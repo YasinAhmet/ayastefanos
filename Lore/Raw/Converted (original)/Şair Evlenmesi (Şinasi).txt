@@ -1,0 +1,1269 @@
+---
+title: "Şair Evlenmesi"
+author: "Şinasi"
+side: Turkish
+protocol: fictional
+written: "1860"
+covers: "~1860"
+source_file: "Raw/NormalTrust/Şair Evlenmesi -- Şinasi -- Newtokrasi, 2025 -- Türkiye İş Bankası Kültür Yayınları -- 5f8afda10df7790cd3f9025f953d4471 -- Anna’s Archive.epub"
+location_unit: "loc."
+tags: [converted-book]
+---
+
+# Şair Evlenmesi
+
+**Author:** Şinasi · **Side:** Turkish · **Protocol:** fictional · **Written:** 1860 · **Covers:** ~1860
+
+> This e-book has no page numbers. It is split into locations (`loc. N`) of about 3,000 characters each.
+
+## loc. 1
+
+ePub Hakkında Uyarı
+
+Bu dosya kitap severler tarafından dikkatle hazırlanmış olup "OCR" hatası içerebilir. Bu hataları aşağıdaki mail adresine iletebilirsiniz.
+
+Hiçbir ticari amaçla kullanılamaz.
+
+bookssavelifes@proton.me
+
+* * *
+
+e-Kitap
+
+1. Sürüm, Ağustos 2018
+
+Türkiye İş Bankası Kültür Yayınları’nın
+
+Temmuz 2018 tarihli 1. baskısı esas alınarak hazırlanmıştır.
+
+Tarama: Sam / ePub: Bincol
+
+Keyifli okumalar dileriz.
+
+Genel Yayın: 4216
+
+TÜRK EDEBİYATI
+
+ŞİNASİ
+
+ŞAİR EVLENMESİ
+
+UYARLAMAYA KAYNAK ALINAN ÖZGÜN
+
+ESER TERCÜMAN-I AHVAL TEFRİKASI
+
+1860
+
+© TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI, 2018
+
+Sertifika No: 40077
+
+EDİTÖR
+
+HACER ER
+
+GÖRSEL YÖNETMEN
+
+BİROL BAYRAM
+
+GRAFİK TASARIM UYGULAMA
+
+TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI
+
+I. BASIM: TEMMUZ 2018, İSTANBUL
+
+ISBN 978-605-295-482-9
+
+BASKI
+
+AYHAN MATBAASI
+
+MAHMUTBEY MAH. DEVEKALDIRIMI CAD. GELİNCİK SOK. NO: 6 KAT: 3
+
+BAĞCILAR İSTANBUL
+
+Tel: (0212) 445 32 38 Faks: (0212) 445 05 63
+
+Sertifika No: 22749
+
+Bu kitabın tüm yayın hakları saklıdır.
+
+Tanıtım amacıyla, kaynak göstermek şartıyla yapılacak kısa alıntılar dışında gerek metin, gerek görsel malzeme hiçbir yolla yayınevinden izin alınmadan çoğaltılamaz, yayımlanamaz ve dağıtılamaz.
+
+TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI
+
+İSTİKLAL CADDESİ, MEŞELİK SOKAK NO: 2/4 BEYOĞLU 34433 İSTANBUL
+
+Tel. (0212) 252 39 91
+
+Faks (0212) 252 39 95
+
+www.iskultur.com.tr
+
+GÜNÜMÜZ TÜRKÇESİNE UYARLAYAN: REFİK DURBAŞ
+
+(1944, Erzurum) Liseyi İzmir’de okudu. İstanbul Üniversitesi Edebiyat Fakültesi Türk Dili ve Edebiyatı Bölümü’ndeki öğrenimini yarıda bıraktı. Yirmi yıl Cumhuriyet gazetesinde çalıştı. Yazın hayatına hikâye yazarak başladı, daha sonra şiire yöneldi ve ilk şiirini 1962’de Ege Ekspres gazetesinde yayımladı. 1962-1964 yılları arasında İzmir’de arkadaşlarıyla Evrim dergisini çıkardı. 1967’de Alan 67’nin sahipliğini ve yazıişleri müdürlüğünü üstlendi. 1972-1974 yılları arasında Yeni a dergisinin yazıişleri müdürlüğünü yaptı. 1989’da Türkiye Gazeteciler Cemiyeti tarafından “Kapıkule’nin Vatansızları” röportajıyla yılın gazetecisi seçildi. İlk şiir kitabı Kuş Tufanı 1971’de yayımlandı. Çırak Aranıyor kitabıyla 1979’da Yeditepe Şiir Armağanı’nı, Nereye Uçar Gökyüzü ile 1983 Behçet Necatigil Şiir Ödülü’nü, Menzil ile 1993’te Halil Kocagöz Şiir Ödülü’nü, 2014’te PEN Şiir Ödülü’nü, 2015’te Bağışla Ziyanımı ile Yunus Nadi Şiir Ödülü’nü aldı. 2011’de TÜYAP 16. İzmir Kitap Fuarı Onur Konuğu seçildi. Halen BirGün gazetesinde köşe yazarlığı yapmaktadır.
+
+TÜRK EDEBİYATI KLASİKLERİ - 5
+
+Oyun
+
+şair evlenmesi
+
+ŞİNASİ
+
+Günümüz Türkçesine Uyarlayan: Refik Durbaş
+
+Önsöz
+
+İlk Türkçe Tiyatro Oyunu
+
+Şinasi’nin 1860’ta yazdığı tek perdelik Şair Evlenmesi adlı komedi, Batılı anlamda ilk Türkçe oyun kabul edilir. Anlatımdaki yeniliklerin yanı sıra tema bakımından da Türk tiyatro edebiyatının öncüsü sayılır.
+
+Bir töre komedisi özelliği taşıyan Şair Evlenmesi, görücü usulüyle evliliğin sakıncalarını anlatır.
+
+## loc. 2
+
+Batılı tutum ve davranışı, kılık ve kıyafetiyle pek sevilmeyen, eğitimli olmasına karşın saf bir yapısı olan şair Müştak Bey, sevdiği Kumru Hanım’la, kılavuz ve yenge hanımlar aracılığıyla evlenir. Ancak nikâh sonrasında kendisiyle evlendirilen kişinin, Kumru Hanım’ın çirkin ve yaşlı ablası Sakine Hanım olduğunu görür. Mahallelinin de işe karışmasıyla başına gelenleri kabul etmek zorunda kalan Müştak Bey’in imdadına arkadaşı Hikmet Bey yetişecektir. Olay Hikmet Bey’in mahalle imamına verdiği rüşvetle çözülecek, böylece yapılan hile sonuçsuz kalacaktır.
+
+Ahmet Kutsi Tecer, Şinasi’nin oyun yazmasını “Fransız tiyatrosunu yakından görüp tanıdıktan sonra Garp tiyatrosunun edebi değerini iyice kavramış olması” şeklinde yorumlar ve yapıtını “oynatma umudu olmaksızın yazdığı ”nın altını çizer.1
+
+Şair Evlenmesi tiyatronun gelişimini, sokağın dili ve hayat tarzını yansıtması bakımından taşıdığı önemle beraber birçok konuda birey ve toplum eleştirisi de yapar.
+
+Ahmet Hamdi Tanpınar, Şair Evlenmesi için şu yorumda bulunmaktadır:
+
+“Hemen hemen konusuz denecek kadar basit olan bu komedi ya da farce’ın2 iki büyük özelliği vardır. Bir taraftan, bize edebiyatımızın o zamana kadar semtine uğramadığı yeni bir realizmin kapısını açar, öbür taraftan da bunu yapmak için halka gider, ortaoyunu ve meddah hikâyeleri gibi yerel sanatlardan yararlanır. Gerçekten, piyesin hayat karşısındaki mübalağalı durumu, çok açık konuşan mizahı, olayın gelişmesindeki çabukluk ve kişiden çok genel tip üzerinde duruşu, ilk Türk komedi yazarının, eserini yazarken bu geleneği göz önünde tuttuğunu gösterir. Hatta, isimlerde görülen rolle uyumlulukta bile biraz bu durum vardır; boş bir değirmen gibi konuşan, fakat hükümlerinde daima kesin olan cahil ve düzenbaz imam efendi Ebüllaklaka’dır, süprüntücü Atak Köse’dir, bekçi Batak Ese’dir, âşıkın adı Müştak’tır, evlilik çağındaki genç kız Kumru’dur, aklı başında becerikli dost Hikmet Efendi’dir, sağdıç hanım Ziba Dudu’dur. Bununla da kalmaz; bütün bu şahsiyetler özel şive ya da hiç olmazsa mesleki dil ile konuşurlar.
+
+Şair Evlenmesi’nde Şinasi’nin ulusal bir tiyatroya varacak en kısa yolu aradığı muhakkaktır. Bu, ancak halk ananesi ile olabilirdi.”3
+
+İnci Enginün, yapıtta dikkat çekilen noktaları, “Ferdî hayata ve seçimlere mahallelinin bütün olarak karışması, düğünlerin büyük masraflar gerektirmesi, kaç göçün olduğu kapalı toplumda, kişileri mutsuz kılacak, istekleri dışında sahteliklere kalkışılması ve bir din adamının bile yaptığı haksızlığı rüşvetle düzeltmesi türünden nice bozukluk dile getirilmiştir”4 cümleleriyle açıklamaktadır.
+
+Kenan Akyüz’e göre ise bu ana olay üzerinden “birbirini görmeden, görücü usulü ile evlenme” âdeti eleştirilmektedir.
+
+Cevdet Kudret, oyunda adı geçen kişilerin portrelerini şöyle çizer:
+
+## loc. 3
+
+“Müştak Bey, alafrangalık meraklısı genç bir şairdir. Geceleri Beyoğlu’na, tiyatroya gitmektedir. Yabancı dil bilip bilmediğini bilmiyoruz. Bekçi Batak Ese, ona: ‘Şimdi sana fan-fin demeyi [Frenkçe konuşmayı] gösteririm!’ dediğine göre, Müştak Bey’in dış görünüşünün, ‘fan-fin’ diyen alafranga gençlerin görünüşüne benzediği anlaşılıyor.
+
+Hikmet Efendi, babayani bir aydın tipidir. Zaten birine ‘Bey’, öbürüne ‘Efendi’ denmesi de aşırı Avrupa hayranı aydınla yerli aydını ayırmak içindir.
+
+Ziba Dudu, ‘kendi menfaati için aşk ve muhabbet tellallığına kalkışan’ bir ‘kılavuz’ kadındır. Bütün entrikayı o hazırlamıştır: Kumru Hanım’a kavuşturma vaadiyle Müştak Bey’den para sızdırmış; sonra, öbür taraftan belki daha çok para alınca, Müştak Bey’e Kumru Hanım yerine onun çirkin ve yaşlı ablası Sakine Hanım’ı vermeye kalkışmış; Müştak Bey’in gürültü çıkaracağını kestirdiği için, suç ortağı imamı el altında hazır bulundurmuş ve Müştak Bey, ‘istemem’ diye diretince, yenge kadını hemen imama koşturmuştur.
+
+Ebüllaklaka, mahalle imamıdır. Para için her şeyi yapabilir. Kılavuz Ziba Dudu ile anlaşıp Kumru Hanım yerine Sakine Hanım’ı nikahlamış, çağırılır çağırılmaz peşine mahalleliyi takıp gelmiş, fakat Hikmet Efendi’den bir kese para alınca hemen ağız değiştirmiştir. Halk topluluğunu etkisi altında tutabilen, ağzı kalabalık bir ‘demagog’ tipidir.
+
+Batak Ese ile Atak Köse, biri mahalle bekçisi, öbürü mahalle çöpçüsüdür. İlkin imamın ve mahallelinin etkisi altında kalıp kendilerini akıntıya kaptırırlarsa da, imamın birdenbire yüz-geri edişinden, köylü sağduyusuyla kuşkulanırlar, adamın hareketlerine ve sözlerine göz kulak olurlar, rüşvet aldığını anlarlar; bunu imamın yüzüne karşı da söylerler; fakat, belki de ekmek parası kaygısıyla daha ileri gidemezler.
+
+Mahalleli, ‘demagog’un hem kara, hem de ak dediğini hiç düşünmeden ‘Hay hay!’ diye kabul eden halk topluluğu…”5
+
+Refik Durbaş
+
+[Hüseyin Rahmi Gürpınar ve Ahmet Rasim’in çıkardıkları Boşboğaz ile Güllabi adlı mizah dergisinden bir karikatür. Kutucukta “Milli Osmanlı Tiyatrosu” yazılı (6 Ağustos 1908, S: 19, s. 4).]
+
+ŞAİR EVLENMESİ
+
+KOMEDİ / TEK PERDE
+
+Kişiler
+
+MÜŞTAK BEY Güveyi ve Kumru Hanım’ın âşığı.
+
+HİKMET EFENDİ Müştak Bey’in sırdaşı.
+
+KUMRU HANIM Müştak Bey’in sevgilisi ve Sakine Hanım’ın küçük kız kardeşi.
+
+SAKİNE HANIM Müştak Bey’in nikâhlısı.
+
+ZİBA DUDU Kılavuz6
+
+HABBE KADIN Yenge7
+
+EBÜLLAKLAKATÜL-ENFİ Sakine Hanım’ın nikâhını kıyan imam.
+
+BATAK ESE Mahalle bekçisi.
+
+ATAK KÖSE Mahalle süprüntücüsü.
+
+MAHALLELİ Esnaftan.
+
+Bu oyun gelin odasında geçer.
+
+Birinci Sahne
+
+MÜŞTAK BEY, HİKMET EFENDİ
+
+MÜŞTAK BEY
+
+Hele bu akşam güveyi giriyorum ya… Bereket versin, bugün nikâhım kıyıldı, yoksa aşk ile telaşımdan az kalsın nikâhsız güveyi girecektim!
+
+HİKMET EFENDİ
+
+Hiç öyle şey olur mu?
+
+MÜŞTAK BEY
+
+Niye olmasın? Buna âşık evlenmesi derler.
+
+HİKMET EFENDİ
+
+Acayip!
+
+MÜŞTAK BEY
+
+## loc. 4
+
+Öyle ya! Aşk ve sevgisiz evlenen geçinebilirse aşk olsun! Ya ben Kumru Hanım’ı niye alıyorum? Sonuçta sevgilim olduğu için. Ne dersin, onu delice sevdiğime akıllılık etmiş miyim?
+
+HİKMET EFENDİ
+
+Herhalde öyledir…
+
+MÜŞTAK BEY
+
+O tazelikte yüzü gibi huyu da güzel. Ben her halinden hoşnutumdur. Ah! Ama zavallı Kumrucuğumun o karga suratlı büyük kız kardeşi olmasa!
+
+HİKMET EFENDİ
+
+Gerçek, onun adı ne idi?
+
+MÜŞTAK BEY
+
+Sakine Hanım değil mi ya? Miskinin adını bile sevmiyorum.
+
+HİKMET EFENDİ
+
+Niçin?..
+
+MÜŞTAK BEY
+
+Bize engel olduğu şöyle dursun, çehre züğürdü olarak kırk beş yaşına kadar evde kaldığından akıldan yana da iflas etmiş. Özetle bir büyük kamburundan başka göze görünür bir şeyi yok. Ah! Böyle bir baldızım olduğuna âlemden utanıyorum.
+
+HİKMET EFENDİ
+
+Ne çare? Gülü seven dikenine katlanır…
+
+MÜŞTAK BEY
+
+Gel şunu sana vereyim be! Ama nikâhla ha! Geçinemeyecek ne varmış; ya o akıllanır, ya sen çıldırırsın.
+
+HİKMET EFENDİ
+
+Sakın Kumru Hanım yerine onu sana verip de hile yapmasınlar! Âlem bu ya! Çünkü büyük dururken küçüğü kocaya vermek âdet değildir.
+
+MÜŞTAK BEY
+
+Yok, bak ben öyle latife sevmem. Latife latif gerek.
+
+HİKMET EFENDİ
+
+E sen bana onu latifeyle peşkeş çekiyorsun ya?
+
+MÜŞTAK BEY
+
+Ben onu sana şakayla mı vermek istiyorum? Gerçekten a canım?
+
+HİKMET EFENDİ
+
+Özrün kabahatinden büyük…
+
+MÜŞTAK BEY
+
+Hiç özür dilemiyorum.
+
+HİKMET EFENDİ
+
+Yaaa!
+
+MÜŞTAK BEY
+
+Aman sus! İşte kılavuzum Ziba Dudu geliyor. Galiba benim Kumrucuğumu getiriyorlar. Haydi, sen selamlıkta8 otur. Birazdan yine görüşürüz.
+
+İkinci Sahne
+
+MÜŞTAK BEY, ZİBA DUDU
+
+ZİBA DUDU
+
+Müjde evladım müjde! Gelin hanım geliyor. Yoldadır.
+
+MÜŞTAK BEY
+
+Ah, benim anacığım! Sen olmasan ben hasretime kavuşur muydum? Bunun için sana nasıl iyilik yapacağımı bilmiyorum.
+
+ZİBA DUDU
+
+Ay oğul! Böyle hayırlı işlerde bulunmadıktan sonra yalancı dünyada niye duruyorum? Hele bu mürüvvetini gördüm ya! Bundan sonra yaşamak neme lazım. İstemem, istemem! Fakat gözlerim kapanmadan bir de evlatlarını ak sakallı göreydim…
+
+MÜŞTAK BEY
+
+Artık beni muradıma erdirdin ya, yaşa ömrün oldukça… (Sevincinden sıçrayarak oynamaya başlar.)
+
+ZİBA DUDU
+
+A kuzum biraz ağırbaşlı olsana. Artık başından nikâh geçti, az buçuk utan, utan!
+
+MÜŞTAK BEY
+
+Vay! Adam evlenirken utanmalı mıdır ya? Benim bildiğim bunun tersinedir. Her neyse! Sen hadi git, hanımı dışarıda bekleyedur. Ben de burada biraz kendi kendime utanma talimi yapayım.
+
+Üçüncü Sahne
+
+MÜŞTAK BEY
+
+MÜŞTAK BEY
+
+(Kendi kendine) Şimdi benim Kumrucuğum kafese girecek ha! Ah, bir kez kanadının altına girebilseydim! Fakat insan kısmının yediği bir yem var ya, adına para derler. Eğer ondan isteyecek olursa mesela… E n’olmuş? Ben de elimden geleni esirgemem ya. Verebileceğim şey çok mu? Hepsi bir teselli. Bir de yüz görümlüğünü nasıl etmeli? Adam sen de, o da kolay. Şöyle birkaç beyit veriveririm olur biter:
+
+Şarkı
+
+Bir kumrusun sen tab’a9 muvafık10
+
+Yapsam yuvanı sinemde layık
+
+Can ü gönülden ben oldum âşık
+
+Yapsam yuvanı sinemde layık
+
+## loc. 5
+
+Benim gibi fakir bir şairin vereceği yüz görümlüğü bu kadar olur.
+
+Dördüncü Sahne
+
+MÜŞTAK BEY, ZİBA DUDU, HABBE KADIN, SAKİNE HANIM
+
+ZİBA DUDU
+
+Evladım gelin hanımı getirdik. Gel koluna gir de köşeye oturt!
+
+MÜŞTAK BEY
+
+(Sevincinden türlü türlü tuhaflıklar yapar. Sakine Hanım’ı Habbe Kadın koltuklamış olduğu halde karşılar) Vaaay!..
+
+ZİBA DUDU
+
+(Habbe Kadın’a) A dostlar! Damat bey gelin hanımı görür görmez sevincinden bayıldı.
+
+MÜŞTAK BEY
+
+Hayır, sevincimden bayılmıyorum. Kederimden yüreğime iniyor. Ah!
+
+HABBE KADIN
+
+(Ziba Dudu’ya) Aaaa! Zavallı gelin hanımı bir titreme aldı. Amanın, al basmasın.11
+
+(Sakine Hanım sandalyeye oturur.)
+
+MÜŞTAK BEY
+
+Nedir bu?
+
+ZİBA DUDU
+
+İşte ömrün oldukça sana can yoldaşı olacak sevgili karın Sakine Hanım.
+
+MÜŞTAK BEY
+
+O bana can yoldaşı olacağına benim canım çıksa daha canıma minnettir.
+
+ZİBA DUDU
+
+(Habbe Kadın’a) Damat Bey sayıklamaya başladı. Galiba sevincinden aklını şaşırmış.
+
+HABBE KADIN
+
+(Ziba Dudu’ya) Zavallı hasretine kavuştuğu için sevinç delisi oldu.
+
+MÜŞTAK BEY
+
+(Hüzünlü) Ah! Ah! Ah!
+
+ZİBA DUDU
+
+Ağlama evladım, sen ağlayacağına düşmanların ağlasın.
+
+MÜŞTAK BEY
+
+Ah! Düşmanlarım benim bu halimi bilseler nasıl gülerler.
+
+ZİBA DUDU
+
+Haydi kuzum! Gelin hanımın duvağını aç da yüzünü gör. Biraz gönlün açılsın.
+
+MÜŞTAK BEY
+
+Neme lazım! Yüzünü göreyim de yüreğim bir kat daha mı kalksın?
+
+ZİBA DUDU
+
+Aç evladım, aç! Sevgilin olduğuna kuşkun kalmasın. (Habbe Kadın’la birlikte Sakine Hanım’ın duvağını açması için Müştak Bey’i zorlarlar.)
+
+MÜŞTAK BEY
+
+İstemem! (Elini çekerken Sakine Hanım’ın duvağı ile iğreti saçı kazayla eline takılır kalır. Sakine Hanım’ın yüzü ve ak saçları ortaya çıkar.) Bu ne?..
+
+ZİBA DUDU
+
+Vaaay! Zavallı kızcağızın sırma gibi nazik saçlarını yolup çıkardı.
+
+MÜŞTAK BEY
+
+Haklısın, ak saçları beyaz sırma gibi. Baksana, nasıl parıl parıl parlıyor.
+
+ZİBA DUDU
+
+Ay, bu söz geline değil, yenge kadınla banadır. Ben sana laf atmayı öğretirdim de… (Habbe Kadın’a) Haydi, yenge kadın! Gelin hanımı çabuk dışarı çıkar da nikâhını kıyan efendiyi çağırt. Yanımızdaki kahvededir. Orada bulunan mahalleliyi alsın da gelsin. Şuna ne olup bittiğini anlatsınlar.
+
+Beşinci Sahne
+
+MÜŞTAK BEY, ZİBA DUDU
+
+MÜŞTAK BEY
+
+Vay! Mahalleli beni zorla mı güveyi koyacak?
+
+ZİBA DUDU
+
+Evet, ya güveyi koyarlar ya hapse…
+
+MÜŞTAK BEY
+
+Böyle bir karıyla bir evde yatmaktansa, gönül hoşluğuyla hapiste yatmak bence daha hayırlıdır.
+
+ZİBA DUDU
+
+Hele sen bir hapse gir de bak, çekeceğin eziyetler yüzünden ne dertlere uğrarsın.
+
+MÜŞTAK BEY
+
+Adam sen de! Sayende edindiğim alacaklılarımın dualarıyla pekâlâ sapasağlam yaşarım.
+
+ZİBA DUDU
+
+Ya kazara hasta olursan?
+
+MÜŞTAK BEY
+
+Alacaklılarım da bana doktor göndermeyip baktırmazlarsa örneğin?..
+
+ZİBA DUDU
+
+E ne yapabilirsin?..
+
+MÜŞTAK BEY
+
+Sonra kendilerine büyük zararım dokunur.
+
+ZİBA DUDU
+
+Ne zararın dokunacakmış bakayım?
+
+MÜŞTAK BEY
+
+Kör olayım, onlara inat ölürüm haa!
+
+Altıncı Sahne
+
+MÜŞTAK BEY, ZİBA DUDU, HABBE KADIN, EBÜLLAKLAKA, BATAK ESE, MAHALLELİ
+
+EBÜLLAKLAKA
+
+## loc. 6
+
+(Başında bir dildâde,12 kılık değiştirmiş olarak ve vurgularıyla harfleri çatlata patlata) Sanki beni bir telaşla böyle uykudan kaldırıp da getirtmenin ne anlamı var? Ortaoyununa çıkar gibi, bakın şu kıyafetime! Ayıp… Gürültünüz ne böyle? Ne oluyor?
+
+ZİBA DUDU
+
+(Entarisinin kenarıyla başını örterek Ebüllaklaka’nın elini öper) Amanın efendim, güveyi olacak şu herif isteye dileye aldığı hanımı şimdi istemiyor. Bütün saçını başını yoldu. O şöyle dursun, yenge kadınla bana etmediği edepsizlik kalmadı. Size anlatmaya utanıyorum.
+
+EBÜLLAKLAKA
+
+(Müştak Bey’e) Vay namussuz vay!
+
+MÜŞTAK BEY
+
+Efendim, izin veriniz bendeniz de bildiğim kadar gerçeği size anlatayım.
+
+EBÜLLAKLAKA
+
+Sen sus sefil! Ninen gibi biçare hatun yalan mı söyleyecek?..
+
+ZİBA DUDU
+
+Efendim bu kızı mutlaka almalıdır.
+
+EBÜLLAKLAKA
+
+Almalı ya! Almazsa namusuna leke sürmüş olur. (Mahalleliye) Öyle değil mi komşular?..
+
+MAHALLELİ
+
+Hay hay!..
+
+MÜŞTAK BEY
+
+Alamam efendim! Bunda bir yanlışlık var. Çünkü bana nikâh ettiğiniz kız bu değildir. Bunun küçüğüdür. Ben onu isterim.
+
+EBÜLLAKLAKA
+
+Hayır, sana nikâh ettiğimiz büyük kızdır.
+
+MÜŞTAK BEY
+
+Değildir.
+
+EBÜLLAKLAKA
+
+Vay! Sen beni de mi yalancı çıkarıyorsun? Bu ne yüzsüzlüktür!
+
+BATAK ESE
+
+Afandi, biliyo musunuz ki ben bunun daha bilmen nelerini bilürün. Durun, size deyivereyin. Bekçi olduğumdan için geceleri mahallede dolanurken buna çat pat çak sokak ortasında ırast gelirün. Bir kere kendüceğine “Nirden geliyon?” diyin soracak oldum. Bana ne garşuluk verse iyi, “Taratordan13 geliyorun” dimesin mi? Bu beni maskaralığa alma dime değül de ne dimektür? Bahın şu ahmaha!
+
+MÜŞTAK BEY
+
+Vay ferasetli adam vay!
+
+BATAK ESE
+
+Feres atlu14 adam sensin! Ulan hayvan, bana kotu alaf söyleyüp durma! Şimdi sana fan fin demeyi gosterürün!
+
+EBÜLLAKLAKA
+
+Bu herif hem edepsiz hem deli.
+
+BATAK ESE
+
+Benim aklıma galırsa hem hapishaneye gomalı hem tımarhaneye.
+
+EBÜLLAKLAKA
+
+Bana danışırsanız, her şeyden önce bir edepsiz belgesini alalım da bu edepsizi bir daha mahallemizde oturtmayalım. Artık istemeyiz!
+
+MAHALLELİ
+
+İstemeyiz!..
+
+Yedinci Sahne
+
+MÜŞTAK BEY, ZİBA DUDU, HABBE KADIN, EBÜLLAKLAKA, BATAK ESE, ATAK KÖSE, HİKMET EFENDİ
+
+ATAK KÖSE
+
+(Sırtında küfe, bir elinde kürek, ötekinde süpürgeyle) İstemeyüz!
+
+HİKMET EFENDİ
+
+(Atak Köse’nin ardından yetişerek) Ne istemiyorsunuz?
+
+ATAK KÖSE
+
+Ben ne bileyin! Mahalleli “İstemeyüz” diyor, ben de öyle diyorun. Elbette mahallelinin öyle demelerinde hakkı vardır.
+
+HİKMET EFENDİ
+
+Ay! Mahallelinin neden hakkı var?..
+
+ATAK KÖSE
+
+Hakkı olduğunu pek iyi bilürün. Ama bak, doğrusu neden hakkı olduğunu bilemem.
+
+HİKMET EFENDİ
+
+Öyleyse bilmediğin şeye neden karışıyorsun?
+
+ATAK KÖSE
+
+Vay! Neye garışmıyan? Ben de bu mahallenin galbur üstüne gelenlerinden değül müyün?
+
+HİKMET EFENDİ
+
+Sen kim oluyorsun?
+
+ATAK KÖSE
+
+Daha hâlâ sen benim kim olduğumu bilmiyom musun?
+
+HİKMET EFENDİ
+
+Hayır!..
+
+ATAK KÖSE
+
+## loc. 7
+
+Öyleyse sen de bilmedüğünü niye soruyonsun? Hay cahil hay! Şimdi tutup da sana anlatacak mıyın ki, ben de öteki mahallede kiracıyın ve bu mahallede çöpçü başıyın diye?..
+
+HİKMET EFENDİ
+
+Hay şaşkın hay!..
+
+ATAK KÖSE
+
+Senin de aklın olaydı benim gibi şaşkın olurdun. İşte ne varmış? Haydi oradan süpürüver bakayın!
+
+EBÜLLAKLAKA
+
+(Hikmet Efendi’ye Müştak Bey’i göstererek) Vay sen şunun gibi bir suçluya sahip çıkıyorsun ha? Suça göz yummak suç işlemekle birdir. Sen de onun gibi cezaya layıksın.
+
+HİKMET EFENDİ
+
+Aman efendi, ben kendi suçumu anladım, ama onun suçu ne oluyor anlayamadım?
+
+EBÜLLAKLAKA
+
+Daha ne olsun? Kendisine nikahladığım kızı istemiyor da onun küçüğünü istiyor. Bu ne demektir?
+
+HİKMET EFENDİ
+
+Efendim sinirlenmeyiniz. (Gizlice bir para kesesi göstererek) Küçük kızı senden isteriz.
+
+ATAK KÖSE
+
+Efendi nedir o? Rüşvet mi alıyosunuz?
+
+EBÜLLAKLAKA
+
+(Atak Köse’ye) Ben öyle şey mi kabul ederim? İstemem. (Gizlice Hikmet Efendi’ye) Yan cebime koy. (Hikmet Efendi keseyi yan cebine koyar.)
+
+ATAK KÖSE
+
+Gizlice “Yan cebime ko” mu diyomsunuz?..
+
+EBÜLLAKLAKA
+
+Hayır, “Yan tarafımda durma git” diyorum. Ta ki, benden kuşkulanmayasınız.
+
+ATAK KÖSE
+
+Galiba parayı almışa benziyosunuz.
+
+EBÜLLAKLAKA
+
+Haşa, Allah göstermesin! Eğer ben bu paraya elimi sürdümse ellerim kırılsın.
+
+HİKMET EFENDİ
+
+Aman efendim, gerçek her neyse hakkıyla ortaya çıkarın da ona göre şanınıza düşeni yapınız.
+
+EBÜLLAKLAKA
+
+Böyle kibarca derdinizi anlatışınızdan gönlümdeki öfke gitti de yerine merhamet geldi. (Mahalleliye) Yahu mahalleli! Ben bu işte başka türlü bir haklılık görmeye başladım. Çünkü sonradan aklıma bir şey geldi.
+
+MAHALLELİ
+
+Nedir o?
+
+EBÜLLAKLAKA
+
+Hani “Nikâhını kıydığım hanım büyük kızdır” diye deminden söylemiştim ya?
+
+MAHALLELİ
+
+Öyle ya!..
+
+EBÜLLAKLAKA
+
+Fakat “büyük kız” demekten kastım, yaşta büyük değildir, boyda büyük anlamınadır. Çünkü büyük kız kırk yaşını geçtiği için damat beyin dengi olamaz. İşte benim bildiğim bu kadardır. Her bir zamanda ve her bir mekânda böyle doğrucasına tanıklık ederim.
+
+BATAK ESE
+
+Siz böyle dedikten sonra biz de kabl15 ile onaylarız.
+
+MAHALLELİ
+
+Hay hay!..
+
+EBÜLLAKLAKA
+
+(Habbe Kadın’a) Yenge kadın! Boyda büyük, yani yaşta küçük olan asıl gelin hanımı git getir. Kendi elimle damat beye teslim edeyim, bir daha yanlışlık olmasın. (Hikmet Efendi’ye) Daha başka yanlışlık olmuş şeyler varsa söyleyin, onları da hesaplıca düzelteyim. Çünkü bu çeşit hayırlı hizmette bulunmayı kendime bir büyük iftihar bilirim.
+
+BATAK ESE
+
+(Müştak Bey’e) Beyefendi, deminden size dediğim sözlerin hepicüğü şaka içündü. Sizi kaygınız vaktinizde güldürüp eğlendürmek istiyodum.
+
+ATAK KÖSE
+
+(Hikmet Efendi’ye) Efendim, tövbe olsun, bir daha mahallenin süprüntüsünden başka bir işine garuşursam adam değilün.
+
+Sekizinci Sahne
+
+MÜŞTAK BEY, HİKMET EFENDİ, ZİBA DUDU, HABBE KADIN, KUMRU HANIM, EBÜLLAKLAKA, BATAK ESE, ATAK KÖSE, MAHALLELİ
+
+HABBE KADIN
+
+## loc. 8
+
+(Kumru Hanım’ı öyle bir halde getirdi ki kâh ağlar gibi gözlerini oğuşturur, kâh bir eliyle yüzünü kapatarak parmaklarının arasından yan yan Müştak Bey’e bakar.) İşte efendim, asıl gelin hanım!
+
+EBÜLLAKLAKA
+
+(Habbe Kadın’a) O niye ağlıyor? Sakın damadımızı istemezlik etmesin?
+
+HABBE KADIN
+
+(Kumru Hanım’la kulak kulağa fısıldaştıktan sonra) Efendim, ağlamasının nedenini sordum, anladım. Öyle sandığınız gibi değilmiş.
+
+EBÜLLAKLAKA
+
+Ya nasılmış?..
+
+HABBE KADIN
+
+Ah, zavallı dertli tazecik! Önce damat beye varamadım, diye kahrından pek çok ağlamış. İşte o boş yere döktüğü gözyaşlarına acımış da şimdi de ona ağlıyormuş.
+
+EBÜLLAKLAKA
+
+(Kumru Hanım’a yavaşça) Ağladığını gördükçe yüreğim öyle kalkıyor ki merhametimden yengeliğini kendim edeceğim geliyor. (Kumru Hanım ile Müştak Bey’i el ele tutuşturur.) Alınız efendim, artık yüzünü güldürmenin çaresine bakınız. Ömür boyu mutlu olmanızı, bir yastıkta kocamanızı isterim. (Hikmet Efendi’ye) Benimle daha bir işiniz kaldı mı?..
+
+HİKMET EFENDİ
+
+Hayır. Fakat güveyi ve gelinden başka, evde bulunanların hepsini beraberce götürmenizi rica ederiz.
+
+EBÜLLAKLAKA
+
+Rica ne imiş, emrediniz efendim! (Mahalleliye) Haydi mahalleli! (Ziba Dudu’ya) Haydi, kılavuz kadın! (Habbe Kadın’a) Haydi, yenge kadın!
+
+Dokuzuncu Sahne
+
+MÜŞTAK BEY, HİKMET EFENDİ, KUMRU HANIM
+
+MÜŞTAK BEY
+
+(Kumru Hanım’ı koltuğuna almış ve birbirlerine naz ile yan yan bakarak hayran kalmışken Hikmet Efendi’yi görerek) Vay sen mahalleliyle birlikte gitmiyor musun? Artık burada bir işin kaldı mı ya?
+
+HİKMET EFENDİ
+
+Hayır. Sana iki çift lafım var.
+
+MÜŞTAK BEY
+
+A canım, sabah gel de iki bin çiftini söyle. Bak o zaman nasıl can kulağıyla dinlerim.
+
+HİKMET EFENDİ
+
+Yok, yok! Şimdi söyleyeceğim.
+
+MÜŞTAK BEY
+
+E, haydi o zaman çabuk ol. (Başını Kumru’dan yana çevirip Hikmet Efendi’nin lafına kulak vermez.)
+
+HİKMET EFENDİ
+
+Ey benim sevgili dostum!
+
+MÜŞTAK BEY
+
+Daha bitmedi mi canım?
+
+HİKMET EFENDİ
+
+Dur bakalım, başlayayım.
+
+MÜŞTAK BEY
+
+Amma uzunmuş ha!
+
+HİKMET EFENDİ
+
+Benim gibi bir dostuna danışmadan evlendiğine tövbe mi?
+
+MÜŞTAK BEY
+
+Aman, sen de günahımı mı çıkarıyorsun, nedir bu?
+
+HİKMET EFENDİ
+
+İşte kendi çıkarı için aşk ve muhabbet tellallığına kalkışan kılavuz kısmının sözüne güvenenin hali budur.
+
+MÜŞTAK BEY
+
+Ah, a kardeş! Ama gideceğin yere geç kalıyorsun. İşinden geri kaldığına asla razı olmam.
+
+HİKMET EFENDİ
+
+Sen ve eşin birbirinizi her yönden tanıdığınız halde, evlenirken ne belalara uğradın, bak hele.
+
+MÜŞTAK BEY
+
+Vay! Evlenmeden önce istihareye yatmak16 istiyordum. Her nasılsa unutmuşum. Aklıma gelmişken gidip istihareye yatayım. Göreceğim rüyaları sonra yine sana yordururum.
+
+HİKMET EFENDİ
+
+Ya birbirlerinin durumunu bilmeyerek ev bark kuranların hali nasıl olur? Ötesini var sen düşün.
+
+MÜŞTAK BEY
+
+(Gözlerini ovuşturarak) Offf! Nasihat sıkıntısıyla bir uykum geldi ki tarif edemem. İznin olursa gidip azıcık kestirsem olmaz mı?
+
+HİKMET EFENDİ
+
+İşte, ben gidiyorum. Git, artık ne yaparsan yap. Fakat aldığın dersi unutma ha!
+
+MÜŞTAK BEY
+
+## loc. 9
+
+Dostum, hiç unutur muyum? Ben o dersi alıncaya kadar az mı zahmet çektim? Her neyse! Evlenmenin ilmini çok iyi öğrendim. Umarım uygulamasının güzelce yapımında hiçbir kusur etmem.
+
+SON
+
+Şair Evlenmesi’nin ilk sahnesinin yer aldığı Tercüman-ı Ahval gazetesi (Sayı: 2, 1860).
+
+Şair Evlenmesi Güldürüsü17
+
+Şinasi’nin az tanınmış, çok değerli eserlerinden biri de gazete hayatına ilk atıldığı zamanlarda, Tercüman-ı Ahval sütunlarında tefrika olarak yayımladığı tek perdelik Şair Evlenmesi güldürüsüdür. Bundan evvelki makalelerde açıklandığı üzere Şinasi, 1860 yılında Jön Türk Âgâh Efendi’yle ortaklaşa Tercüman-ı Ahval’i kurmuş ve yayımlanmasına hızla başlamıştı. Resmi ve yarı resmi bir sıfatı olmadığı halde Türk sermayesiyle Türkçe çıkan ilk özel gazete budur.
+
+Şinasi altı yedi ay kadar çalıştıktan sonra Tercüman-ı Ahval’i Âgâh Efendi’ye bırakarak ayrılmış, sonradan 1861’de Tasvir-i Efkâr gazetesini kurmuştu. Şair Evlenmesi işte bu birkaç aylık dönemin ürünlerindendir.
+
+Piyesin geçmişi de pek gariptir. Bu oyun Tercüman-ı Ahval sütunlarında yayımlandıktan sonra, anlaşılan çevrede kıymeti idrak edilmemiş, önemli bir etki bırakmamış olacak ki unutulmuş kalmıştı. Sonradan ‒Şinasi’nin vefatından sonra‒ Selanik’te Mehmed Tayfur Efendi18 adında bir kitapçı Tercüman-ı Ahval koleksiyonunda bu esere rastlayarak onu kitap şeklinde basar ve yayımlar. O zaman İstanbul’da yayımlanan mizah gazetelerinden Çaylak bu eseri de zevzekliğe bir vesile sayarak, “Selanik’te kitapçının biri uydurduğu bir güldürüye kıymet verdirmek için ileri gelenlerden birine atfetmek hevesine düşmüş, Şinasi merhuma atfetmiş…” yolunda bir fıkra yazar. Eseri yayımlayan da Çaylak’ın rakibi ve meşhur Diyojen’le Hayal’in ardılı olan Çıngıraklı Tatar’da bir mektup yayımlayarak Tercüman-ı Ahval’deki tefrikaların tarih ve numaralarını bildirir.19
+
+Bu suretle kitap şekline giren eser, yine tamamen unutulmaktan kurtulamaz, sahneden ve hatta okunmaktan uzak kalır. Ancak Meşrutiyet’in ilanından sonra ‒talih, baba ile evladı aynı esere bağlamak istemiş olacak ki‒ bendenizin aracılığıyla o zaman Selanik’te oluşan bir hevesli takımı tarafından sahneye konulur. Bu güldürüyü Yarın sütunlarında kamunun görüşüne sunuyoruz, görüleceği üzere eser pek güzel, sade ve tıpkı bir konuşma diliyle yazılmış. Sahneye uygun ve hoş bir güldürüdür.
+
+1860’tan önce bizde tiyatro türü olarak ortaya konulmuş bir eser tanımıyorum. Tanzimat zamanlarına ait, yani 1838 ya da 1840 tarihli, bir tiyatro ve tanıtımını görmüştüm. Fransızca bir piyesin nasıl geliştiğini, opera ve sinemalar için yapılan özetler biçiminde, kısaca ve diyalogsuz olarak anlatan bu eserin gerçek tiyatro düşüncesiyle bir ilgisi yoktur. Maalesef bu gördüğüm nüsha sonradan kaybolduğu için konusu ve içeriği hakkında açık bir bilgi sunamayacağım. Fakat kişiler konuşacağı yerde, “filan yerde şöyle olur, filan gelir şunu yapar, filan ona şu anlamda yanıt verir… vb.” biçiminde tanımlamalardan oluştuğunu kesinlikle hatırlıyorum.
+
+## loc. 10
+
+Sonradan Güllü Agop Efendi tarafından bir tiyatro ekibi oluşturularak Türkçe bazı eserler de sahneye konulmaya başlanmıştı. Fakat bunlar hep Fransızcadan, hem de en basit ve edebi değerden yoksun eserlerden çevrilmişti. Hatta Ahmet Vefik ve Ziya Paşa’ların ‒tarihçe Şinasi’den sonraya rastlayan‒ pek değerli eserleri bile çeviri ve sonunda adaptasyon derecesinde kalmıştır.
+
+Oysa Şair Evlenmesi hem bunlardan önce hem de doğrudan doğruya yazarın kendisinin yazdığı, orijinal bir eserdir.
+
+Şair Evlenmesi alafranga davranışları ve kıyafetiyle mahallelinin hoşuna gitmeyen Müştak Bey adında yoksul fakat ileri kafalı bir şairin sevip istediği genç, güzel Kumru Hanım yerine büyük kız kardeşi çirkin ve kart Sakine Hanım’ı almaya mecbur edilmesi, bu küçük entrikanın mahalle imamına Müştak Bey’in dostu tarafından verilen rüşvetle hükümsüz bırakılması hikâyesinden oluşmaktadır. Kişiler gayet canlı ve doğrudan doğruya muhitten alınmıştır. Kılavuz Ziba Dudu, yenge Habbe Kadın, İmam Ebüllaklakatül-Enfi Efendi, bekçi Batak Ese, süprüntücü Atak Köse, o günün mahalle hayatından koparılmış ve ‒biraz fars türünden olan güldürüye uydurulmak üzere‒ az abartmayla kişileştirilmiş yaşayan şahıslardır.
+
+Konunun aslını Şinasi’nin nereden ilham aldığı bilinmemektedir. Üstat muhterem Namık Kemal’in oğlu Ali Ekrem Beyefendi, babasından kalan anılar arasında o zamanlarda böyle bir hileye uğramış yayıncı bir arkadaşının varlığını belli belirsiz hatırlıyorlar. Fakat o hile mi Şinasi’ye oyunu ilham etmiş, oyun mu o hile düşüncesini uyandırmış, bu konu tamamıyla meçhul kalmaktadır.
+
+Dikkat çekicidir ki bu basit güldürüde bile Şinasi yenilikçi düşüncesini izlemiş; Batı’ya ve uygarlığa düşkün şairi mahalle halkı arasında hoşlanılmayan, fakat sonuçta galip gelmiş göstererek mahalle halkını ise tam tersine alay ederek ve küçümseyerek, yenilikçiliği hak ve güzellik örneği biçiminde tasvir etmiştir.
+
+Olayın düzeni de pek hoşa gidecek bir şekildedir. “Fıkra” adını verdiği meclisler tabii bir tutarlıkla akar; oyun dokuz fıkradan oluşmuştur. Bu kısa perdenin içinde kılavuz ve yenge kadınların, mahallelinin bütün kimlikleri resmedilmiştir. Kelime oyunları, taklitler olayın gülmecesini artıracak bir ustalıkla serpiştirilmiştir. İmam Efendi “Harfleri çatlata patlata” konuşur; bekçi tiyatroyu “tarator” diye telaffuz eder; İmam, Hikmet Efendi’den rüşvet alırken “Yan cebime koy” der ve bunu “Yan tarafta durma git” sözüyle örtmeye çalışır, başta “Sana nikâh ettiğimiz büyük kızdır” demiş olduğu için rüşvet alınca bunu da “Yaşta büyük değil, boyda büyük” diye değiştirir.
+
+Eserin dili de pek iyidir: Her kişiye kendi muhitinden esinlenen konuşma dili verilmiş, kimsenin ağzında yabancı söz yok. Hatta bekçi ve süprüntücü ağzından yazılan sözlerde yanlışlar, olanaksızlıklar, söyleyiş hataları da aynen resmedilmiş. Özetle Şair Evlenmesi piyesi bugün bile sahneye konulup başarıyla seyrettirilebilecek oyunlardan biridir.
+
+## loc. 11
+
+En önemlisi o zaman tiyatro türü henüz edebiyatımıza girmemişken Şinasi çağdaş bir edebiyatta bu türün varlığının gerekliliğini de anlayarak, gazete türünü kurar kurmaz hemen tiyatroyu ortaya sürmüş bulunuyor. Sadece bu hareket bile Şinasi’de edebi yenilik ve inkılap düşüncesinin ne kadar güçlü bir biçimde kurulmuş olduğunu göstermeye yeter.
+
+Şinasi’nin bu küçük güldürüsünde kişisel olan önemden daha büyük bir değer vardır. Bu mini mini esercik, Hayri Paşa’yı Tartuffe20 çevirisine, Ahmet Vefik Paşa’yı Molière çeviri ve adaptelerine, hatta Namık Kemal’i ve ardından gelenleri tiyatro türünü edebi mekteplerinin en önemli unsuru olarak tutmaya sevk eden ilk ilham aracı olmuştur.
+
+Şinasi’nin Hayatının Son Günleri ve Ölümü21
+
+1867 yılının Mayısı’nda Yeni Osmanlılar üyelerinin Avrupa’ya kaçmaları ve Paris’te toplanmalarından sonra, Mustafa Fazıl Paşa22 cemiyeti kurmuş ve başkanlığını Ziya [Paşa] Bey’e vermişti.
+
+Şinasi, o tarihten iki buçuk yıl önce Paris’e çekilerek ikamet ettiği Rue du Bac’ta sözlük araştırmalarıyla meşguldü. Haftada iki gün, o tarihte Bibliothèque Impériale olan Milli Kütüphane’ye giderek Kamus-ı Osmanisi [Osmanlı Sözlüğü] için birçok eseri inceler, defterlerine notlar alır, diğer günlerini çalışma odasında, araştırmalarının verimlerini düzenlemekle geçirirdi.
+
+Gece hiç çalışmaz, yaz mevsiminde saat altıda Rue de Bac’tan Voltaire rıhtımına çıkar, kırk elli adım sola gidip geldikten sonra Bac sokağıyla aynı istikamette olan Royal köprüsünden Tuilerie rıhtımına geçer. Oradan Tuilerie bahçesine girer, yedi buçuğa kadar büyük havuzun karşısındaki kanepelerden birinde Littré’yi23 bekler, onunla yedi buçuğa kadar etimoloji üzerine görüşmelerde bulunur, yedi buçukta iki sözlük bilgini ertesi akşam yine birleşmek kararıyla ayrılırlar. Şinasi tam sekizde Bac sokağını dikine geçen Rue de Lille’de Madame Berthe’in lokantasına girer; bir çorba, bir et, bir salatadan ibaret olan akşam yemeğini yer, kahvesini Quai Voltaire’de içer. Gece yarısına bir saat kalıncaya kadar Voltaire rıhtımında ‒doğusunda Malaquai, batısında Orsay isimlerini alan yol üzerinde‒ birkaç kere sola sağa gidip gelerek zaman geçirir. Ondan sonra evine dönerek dinlenmeye çekilir. Ertesi günü sabahın yedisine kadar yatağında kalır, sekizde yazı çalışmalarına başlar. Öğle vakti yine Madame Berthe’in lokantasına gider. Yemekten sonra, kütüphanenin günüyse oraya yollanır, değilse evine döner.
+
+İşte Şinasi’nin günlük hayatı bu düzende istisnasız devamdan ibaretti, fakat Theatre Français’de Molière’in eserleri oynadığı zaman hiçbir geceyi kaçırmazmış.
+
+## loc. 12
+
+Jön Türklerin Paris’te toplanmaları, daha doğrusu Jön Türk adıyla Paris’te bir grubun ortaya çıkmasıyla Şinasi’nin rahatı kaçtı. Çünkü Şinasi politikayla meşgul olmamaya kesinlikle karar vermiş ve yalnız başına yaşamaktan zevk aldığından kimseyle görüşmez olmuştu. Fakat Paris’e gelmiş olan kendi yetiştirdiği öğrencisini yaşantısına kabul etmesi yeniden siyaset âlemine girmesine neden olabilecekti. Bu yüzden [Namık] Kemal’i adeta soğuklukla karşıladı. Kemal de doğal olarak sokulmaya cesaret edemedi.
+
+Bir de Şinasi esasen pek vehimli olduğundan özel düşünceleri hakkında kimseye ipucu vermemek için az söyler ve söyleyeceği sözlerde özellikle seçme sözcükler kullanırdı. İşte her sözcük ya da sarf edeceği cümlede başkasına yorumlamak vesilesi vermemeye gayret ede ede adeta vehmini cinnet derecesine çıkarmıştı, denebilir.
+
+Bu sırada Abdülaziz Han’ın Paris’e yapmış olduğu gezide Fuad Paşa24 Şinasi’yi davet ederek ilgi göstermiş ve İstanbul’a dönmesi konusunda kendisinden söz almıştı. Gerçekten de Hünkâr’ın İstanbul’a dönüşünden sonra Şinasi de gelmiş ise de beş günden ibaret kalan ikamet süresince eski dostu olan Courrier d’Orient’ın [Doğu Postası Gazetesi] sahibi Jean Pietri’nin matbaasında misafir olarak kalmış, ne Fuad Paşa’yı görmüş ne de evinin semtine uğramış. Fakat Tophane Müftüsü Bekir Efendi25 ile Sormagir imamını Courrier matbaasına getirterek onların huzurunda karısını boşamış ve boşanma tazminatı olan kırk bin kuruşu ödediği gün vapura binip Marsilya yoluyla Paris’e dönmüştür.26
+
+Bu defa Paris’e dönüşünde Jön Türkler’in Londra’ya çekilmiş olduklarını öğrenerek tekrar münzevi hayatına girmişse de önceki rahat ve huzurunu bulamamıştır. Çünkü onunla kimse meşgul olmadığı halde o, Jön Türkler’in kendisiyle meşgul olabilmeleri ihtimaliyle huzurunu kaybetmiş bulunuyordu. Sonunda 1869 yılı sonbaharında Paris’i terk ederek İstanbul’a gelmiş ve Babıâli’nin sadaret kapısı karşısındaki köşede bulunan binayı matbaa edinmişti.
+
+Şinasi burada garip bir ömür geçirmekteydi. Han kadar büyük olan bu binanın yukarı katı boş bulunuyordu, kendisi birinci katında uzunlamasına bir odanın köşesine serdiği yatağı gündüz minder, gece yatak edinmişti. Ona bitişik diğer uzunlamasına bir odada harf kasaları bulunuyor, dizgiciler çalışıyordu.
+
+Durub-ı Emsal’ini27 ikinci baskı olarak dizdiriyor, bir taraftan da matbaacılıkta daha kullanışlı olabilecek harf ve baskı teknikleri geliştiriyordu. Kendi düşüncesine göre başarmıştı. Divanını ve Fransızcadan Türkçeye, Türkçeden Fransızcaya çevirdiği Fransız şiirleriyle kendi şiirlerinden bazılarını (örnek olmak üzere) bu harflerle bastırmıştı. Fakat bu değişiklikleriyle matbaacılıkta tasarladığı ilerleme gerçekleşmemişti. Yalnız Osmanlı harflerine özgü güzellik kaybolmuştu.
+
+## loc. 13
+
+Paris’in Rue de Bac’ını, Quai Voltaire’ini, Tuilerie bahçesini, Lille sokağındaki Madame Berthe’in lokantasını değiş tokuş ettiği yerler ve eserler arasındaki fark ise Doğu ile Batı kadar birbirinden uzak, birbirine zıttı. Paris’te arzu etse de süfliliği sürdürmeye imkân yoktu, çünkü otelci yatak takımlarını duruma göre en az iki günde bir kere değiştirecekti. Burada ise Fransızların cynique dedikleri sinizm öğretisine has bir hayat tarzına girmişti. Tam bir mahrumiyet içindeymiş gibi odası hiçlikten ibaret bir tiyatro sahnesiydi ki onun da kahramanı Şinasi’ydi.28
+
+Fakat bu kasvet verici hayat, sonunda maneviyatı gibi vücudunu da tahrip etti. Orada yaşamaya daha fazla dayanamadı. Matbaasındaki baskı takımlarını Babıâli yakınındaki Beşir Ağa Tekkesi’ne ait bir mahzene taşıyarak, kendisi de yedi yıldan beri ayak basmadığı Sormagir’deki evine çekilmeye mecbur oldu. Bu mahalle Cihangir’e bitişik havadar bir yerdi, kuzey tarafında genişçe bir bahçesi vardı.
+
+Şinasi evine girdikten biraz sonra bahçesine kârgir bir matbaa yaptırmaya başladı. Amacı bitirilmek üzere olan sözlüğünü bastırmak olduğundan bir taraftan da Paris’ten Çince, Uygurca, Sanskritçe, özetle Türkçeyle etimolojik ilişkisi olan eski ve unutulmuş dillere ait döktürülmüş sözcükler getirtiyor, onları numaralayarak birçok gözleri içeren levhalara yerleştiriyor, bir taraftan da not defterlerinden henüz düzenlenmemiş, sayfalara geçirilmemiş incelemelerini bir hattata gözünün önünde yazdırıyor ve karşılaştırdıktan sonra bu notları hemen yakıyordu.
+
+Bitip tükenmek bilmeyen bu çalışma kendisince bir zevke döndüğü halde zihnini de yoruyordu. Çünkü yiyip içme tarzı pek fena, adeta sağlık bozucuydu.
+
+Bir teyzesi, onun kızı, hatta torunu bile bulunduğu halde onlarla ilgilenmiyor, Tasvir-i Efkâr’ın kuruluş tarihinde dağıtıcı olarak atadığı Bolulu Yusuf Ağa’dan başka kimseyi evine kabul etmiyordu. İki öğüne yetecek kadar bir kaptan ibaret yemeğini, onun evinde pişirtir ve alkolle ilgili meşrubattan öteden beri kaçındığından sudan ve kahveden başka bir şey içmezdi, fakat tütüne düşkünlüğü fevkalade idi.
+
+Yaşı kırk sekize yaklaşmışken gerek geçim tarzı gerek yaşantısı maddi ve manevi gücünü çok yıpratmış olduğundan elli beşlik sakat bir kişi halini bulmuştu. Hatta günden güne yüzünü bir sarılık kaplıyor, vücudunun eridiği hissediliyordu. Ne çare ki kendisi bu halin farkında değildi.
+
+Yaptırmakta olduğu binaya penceresinden bakar ve gerek gördüğü değişiklik ve tarifleri oradan yapardı. Bir kere olsun bahçesine inip dolaşmıyordu.
+
+Akşam yemeğini getiren Yusuf Ağa, kahvesini pişirip verdikten sonra kapıyı çekip gidiyor, Şinasi evin içinde tek ve yalnız, bu kasvet verici hayata gömülü bulunuyordu.
+
+## loc. 14
+
+Yegâne oğlunu Mekteb-i Sultani’ye [bugünkü Galatasaray Lisesi] vermişti. Haftada bir gece eve gelen Hikmet Şinasi, babasına sanki Allah tarafından gönderilmiş bir cennet sevinç ve neşesi veriyor, onun gelmesiyle bir haftalık kederli yalnızlığı tamamıyla yok olarak, sanki mahkûmu olduğu münzevi hayata bir hafta daha dayanabilecek taze bir kuvvet topluyordu.
+
+O günün akşam yemeği de fevkalade bir ziyafet sayılırdı. Yusuf Ağa çocuğun hoşlanacağı yemekleri bildiğinden seçme yemekler hazırlıyordu. Fakat Şinasi oğluna özgü olan bu gece ziyafetini yalnız seyretmekten zevk alıyordu.
+
+Kimseyle temas etmeksizin devam eden bu tekdüze hayat, dehşet verici bir kasveti doğurdu. Saatlerce derin bir hüzünle gözlerini bir noktaya dikerek hiçbir şeyle meşgul olmaz ve ara sıra kendi kendine tebessüm ederdi. Sözlüğünü yazan hattat söylüyordu:
+
+“Bana rakamlar konmuş kâğıt parçalarına yazılı kelimeleri verdikten sonra kendisi mindere yaslanır, bir saat, bazen iki saat hiçbir şey söylemeksizin düşünür ve parmakları arasındaki sigaranın sönüp yere düştüğünü bile fark etmezdi. Verdiği kâğıtları bir saat içinde kaydederek, müsveddelerini önüne koyduğum zaman ‘Akşam olmuş ha! Pekâlâ! Yarın erken geliniz’ derdi. Akşam değil henüz öğle vakti gelmemişken ben, gündüzün yarısında olduğumuzu bir türlü söyleyemezdim, çünkü ondaki bu halin hayra alamet olmadığını anlıyordum.”
+
+Bu hali iki ay kadar devam etmiştir. Ondan sonra kendisine bir neşe gelmiş ve teyzesini getirterek evi temizletmesini rica etmiş, fakat bir hafta sonra hastalanarak on beş gün kadar kendisini bilmeyecek kadar humma ateşleri içinde kavrulmuştur.
+
+Hastalığını haber alan Mustafa Fazıl Paşa özel doktorlarını göndererek muayene ettirmişse de gerçek hastalığı keşfetmek mümkün olmamıştır. Biraz sonra kendi kendine iyileştiğinden Paşa derhal konağın bitişiğindeki Kemeraltı Sokağı’nda bir ev hazırlayarak oraya getirtmiş ve hizmeti için kadın ve erkek iki hizmetçi tutmuş ve özel yemekler ayarlamıştı.
+
+Bu mekân değişikliği 1870’in Ekim başlarındaydı. 1870 yılı Aralık ayına rastlayan Ramazan’da ise havalar pek uygun olduğundan Şinasi iftardan sonra her gece Beyazıt Meydanı’nda gezinti yapmaya başlamıştı. Bazen Direklerarası’na kadar uzanır, bir iki saat çaycı dükkânında eğlenerek evine dönerdi. Bu değişiklik, ruh halinde de değişikliğe neden olmuştu. Bazı geceler de Fazıl Paşa’nın konağına geliyordu. Konağa geldiği geceler temiz bir ceket giyiyor, temiz gömlek, siyah kravatla zarafetini tamamlıyordu. Paşa’nın ona hürmet ve muhabbetle karışık bir yakınlığı olduğundan yanında laubali bulunmaktan çok çekinir ve üslubuna, kullandığı dile çok dikkat ederdi.
+
+Şinasi aşırı tevazudan hoşlanmazdı, fakat görgü kurallarına fevkalade uyduğundan, Paşa’nın toplantılarında ağırbaşlı mizacını zarif davranışlarıyla süsleyerek meclistekilere hürmet hissettirirdi.
+
+## loc. 15
+
+Karşılaştığı herhangi bir konuda tartışma adabından ayrılmaz ve gayet etkili ve fakat kesin sözlerle düşüncelerini açıklardı, bu özelliği de kendisine layık olduğu saygıyı elde ettiriyordu.
+
+Her konuda söz açmak kudretine sahip olan Fazıl Paşa ve büyüklüğünün göstergesi olan görkemli tavırlarıyla toplantılarda saygı uyandıran Yusuf Kâmil Paşa29 Şinasi’ye karşı temkinden çok çekingenlikle yorumlanabilecek mütevazı bir tavırla yaklaşıyorlardı. Şinasi bazen ince bir alayla karışık zarif sorular sordukça paşalar verecek cevap bulamazlardı. Onunla özentisiz konuşan ve tartışmada bulunan yalnız Fuad Paşa imiş. Onun da nedeni, Paşa’nın mizaç bilmekte doğuştan sahip olduğu kudretten ileri geldiğine kuşku yoktur. Çünkü Şinasi yüksek mevki sahiplerine karşı her zaman ağırbaşlılık ve saygınlığını muhafaza ederdi. Fuad Paşa ise Şinasi’yi öğrenim için Paris’te bulunduğu zamandan beri tanır ve onun her halini bilirdi. Bu cihetle gururunu okşayacak bol bol iltifatlarda bulunurdu. Hatta en ikballi zamanında Şinasi’ye yazmış olduğu mektuplarda bile bu durum görülür.
+
+Şinasi, Fuad Paşa’nın ölüm haberini işittiği zaman pek fazla üzülmüş ve naaşının Nice’den İstanbul’a getirildiği gün bir çocuk gibi ağlamıştır ki bu da dostlarına karşı şiddetli vefasına delil olan ruh hallerindendir.
+
+1871 yılının bahar mevsiminde Fazıl Paşa merhum Çamlıca’daki köşküne taşındığında Şinasi’yi de beraber götürmek istemişse de tamamen iyileşmiş olması dolayısıyla kendisi buna gerek görmemiş ve Paşa’nın sayfiyeye geçmesinden sonra o da Cihangir’deki evine dönmüştür. Neye yarar ki bu dönüşüyle üç aydan beri alışık olduğu rahat ve bilhassa yiyip içme düzeni yine bozulmuştur. Gerçi Mustafa Paşa, kendisine bir aşçı ile hizmetine tahsis ettiği Fransız kadınını da emrine vermişse de burada yine sözlükle meşgul olmaya başladığından aradan bir ay geçmeden vahim surette hastalanmıştır. Hastalığını haber alan Fazıl Paşa birkaç kez yardımcısını göndererek ısrarla Çamlıca’ya davet etmiş ve doktorlar da bu tavsiyede bulunmuş oldukları halde Şinasi’yi ikna etmek mümkün olamamıştır.
+
+Haziran’da hastalık bir duraklama devresine girdiğinden doktorlar, hava değişimi gereğini yalvararak tekrar etmişler ve uyarmışlarsa da yine söz dinletememişlerdir.
+
+Ağustos başlarına kadar devam eden, hatta gittikçe iyileşme umutlarını artıran bu duraklama devresi birden değişmiştir.
+
+Bir sabah, alışıldığından fazla yatakta kalmış olmasını merak eden hizmetçi kadın kapıyı açıp da içeri girdiği zaman Şinasi yatağında yatıyormuş. “Rahatsız mısınız?” diye sorması üzerine, acı dolu bir alın buruşukluğuyla elini tepesine götürerek “Buramda!..” demiş ve gözlerini yummuş.
+
+Biraz sonra olaydan haberdar olan doktoru gelip muayene ederek tepesine buz koydurmuş ve her iki saatte, yarım saat ara verilerek devam edilmesini ve hastaya, cevap vermeye mecbur olmaması için kesinlikle bir şey söylenmemesini tembih ederek gitmiş.
+
+## loc. 16
+
+Ertesi günü biz de haber almıştık. Zaten yufka yürekli olan [Namık] Kemal, Şinasi’ye karşı hepten zayıf kalpliydi. Bu cihetle onu hasta halinde görmeye tahammül edemezdi. Bana, “Sen git, gör” dedi. Ben de o durumda görmek istemedim. Çünkü sağlığı yerindeyken yanında söz söylemeye cesaret edemezken bu durumunda ona ne muhatap olabilirdim ne de onu muhatap etmeye cesaret edebilirdim. O sırada ahbaplardan Doktor Saip Efendi gelmişti. Bu rastlantıyı nimet vesilesi sayarak gönderdik. Çünkü Şinasi’yle Paris’ten beri görüşürlerdi. Ayrıca doktor olduğundan, onun görmesi ile benim görmekliğim kıyas kabul etmezdi.
+
+Saip Efendi gitmiş. Ertesi gün bizimle buluşmasında, “Zavallı Efendi yolcu! Kafatası kemiğinde bir tümör var, yumurta büyüklüğünde fırlamış. Bu genellikle fazla meşguliyet ile beraber vehim ve hayal sahibi olanlarda görülen dimağ arızalarındandır. Birkaç günlük ömrü kalmış. Çekmemesi daha hayırlıdır” demişti. “Konuşabiliyor mu?” dedik. Asıl hayret edilecek orası. Sağlığı yerindeyken konuşmayan Şinasi şimdi durmadan söylüyor!
+
+Doktor Saip birkaç gün arayla iki kez daha gitmişti. En son görüşünden üç gün sonra Âli Paşa30 vefat etmişti. Tam haftasında Eylül’ün on üçüncü Çarşamba günü de Şinasi vefat etti.
+
+* * *
+
+1871 Eylülü’nün on üçüncü Çarşamba günüydü. [Namık] Kemal’le Beyoğlu’nda o gece konuk olduğumuz Mösyö Fanton’un31 evinde sabah kahvesi içiyorduk.
+
+Ben, mizah gazetesi Diyojen için yazdığım bir makaleyi okuyordum. Kemal de bazı cümlelerini, daha manidar ibarelerle ve imla yoluyla düzeltiyor ve süslüyordu.
+
+Bu sırada ev sahibinin hizmetçilerinden biri içeri girerek, “Bir adam geldi. ‘Kemal Bey’i görmek isterim’ diyor” dedi.
+
+İkimiz de gecelikle oturmakta idik. Ben hemen bitişikte olan yatak odasına çekildim. Uşak da gelen adamı içeriye getirdi.
+
+Kapı aralıktı, gelen adamı görmedim. Fakat kâğıt yırtılmasını andırır bir ses işittiğimden adamın bir pusula getirmiş olduğunu anladım. Bir dakika sonra Kemal kapıyı iterek elindeki kâğıtla içeri girdi. Yüzü, üzücü bir olay üzerine herkeste oluşan o kederli rengi almıştı.
+
+“Büyük bir felaket!” diyerek kâğıdı uzattı.
+
+Pusula, “Şinasi Efendi bu gece vefat etmiş…” sözüyle başlıyor ve cenazenin kaldırılması Kemal’den rica olunuyordu. Altındaki “Mehmed Hamdi” imzasından Mustafa Fazıl Paşa’nın yardımcılarından olduğunu anladım.
+
+“Bu bekleniyordu!” dedim.
+
+“Evet bekleniyordu! Keşke daha geç gelseydi” dedi.
+
+Ve tekrar bana, “Bu işi sen göreceksin, ben mümkün değil Şinasi’nin cenazesinde bulunamam,” dedi.
+
+Ani bir tereddütten sonra “Peki” dedim.
+
+Gelen adam yüz lira da para getirmişti, bir çeyrek sonra giyinip sokağa çıktım. Ve köşeyi dolaşırken bilim ve irfan sahibi dostlarımızdan Kavalalı Hoca Kâmil’le karşı karşıya geldik.
+
+O, bir gün önce kararlaştırdığımız üzere bize geliyordu.
+
+“Geri dön de bana refakat et. Üzücü bir hizmeti yerine getireceğiz. Şinasi vefat etmiş” dedim.
+
+## loc. 17
+
+Hoca Kâmil, Şinasi’yi ömründe görmemişti. Fakat mensup olduğumuz edebi ve siyasi okulun kurucusu ve başkanının Şinasi olduğunu biliyor ve onu görmeden, tanımadan edep ve zekânın canlı örneği olarak algılayıp hayalindeki Şinasi heyulasına büyük hürmet besliyordu.
+
+Kendisi pek hisli ve çok çabuk etki altında kalan biri olduğundan birden işittiği bu fena haberden donakalmıştı. Bir kelime bile söylemeksizin birlikte yürümeye başladık. Biz Bursa Sokağı’ndan Büyük Cadde’ye çıkarak Taksim’e doğru gidiyorduk. Şinasi’nin evinin Firuzağa’da Sormagir’de olduğunu biliyordum. Fakat hangi sokaktadır onu bilmezdim. Zihnim pek karışmıştı, hem gidiyordum hem de gözümün önünde o ağırbaşlı insanı görüyordum. Hayattayken huzuruna, maneviyatım titreyerek girebildiğim o büyüklük timsalinin şimdi naaşının huzurunda bulunacağım için ayaklarım ileri gitmekten çok geri gitmek istiyordu.
+
+Taksim’de sağa saparak Kazancı’ya doğru yürüdük. Sağ kolda gözüme bir yorgancı dükkânı ilişti. Otuz otuz beş yaşlarında bir adam, elinde büyük bir çuvaldızla bir minder yapıyordu. Dükkânın önünde durarak, “Baksana ağabey! Sormagir’e nereden gidilir?” dedim.
+
+“Şu karşıki sokağa sapınız, iki sokak sonra sağa dönünce Sormagir kahvehanesinin önüne çıkarsınız” dedi.
+
+Ben teşekkür etmek üzereyken yorgancı, “Galiba Şinasi Efendi’nin evine gideceksiniz?..” sözünü üzüntü ve merakla karışık bir bakışla gözlerimin içine bakarak söyledi.
+
+“Evet, oraya gideceğiz” dedim.
+
+“Öyleyse beraber gidelim. Bu musibet minder de bugün kalıversin” diyerek çuvaldızı bıraktı. Zaten bir kanadı kapalı olan dükkânın diğer kepengini de indirdikten sonra yanımızda gelmeye başladı.
+
+“Merhumu tanır mıydınız?”
+
+“Onu mahallemizde kim tanımaz. Koca Şinasi Efendi!”
+
+“Ne zaman vefat etti?
+
+“Bu gece sabaha karşı. Ben Bekir Efendi’yle birlikte yanındaydım. Bekir Efendi’yi tanır mısınız? Tophane Müftüsü.”
+
+“Hayır kendisini tanımam, adını duymuştum.”
+
+“Merhumun çok dostu, eski dostuydu, rahat döşeğine birlikte yatırdık.”
+
+“Cenaze hazırlandı mı?”
+
+“Hayır! Müftü Efendi öğleden sonra kaldırmak istiyor. Mısırlı Paşa ile (yavaşça kulağıma söyleyerek) Murat Efendi’ye32 haber gönderdi.”
+
+“Nereye gömecekler?”
+
+“Taksim Mezarlığı’na, annesinin yanına, Müftü Efendi öyle söyledi.”
+
+“Vefatında kendini biliyor muydu?”
+
+“Beni yatsıdan sonra Şakir çağırdı. Şakir’i bilir misiniz; teyzesinin damadı.”
+
+“Evet, bilirim.”
+
+## loc. 18
+
+“Kahveden kalkıp gittim, Müftü Efendi yanındaydı. Ben içeri girince merhum gülümseyerek yüzüme baktı. Ayak ucundaki küçük mindere oturdum. Müftü Efendi merhuma, ‘İzin verirseniz azıcık dışarı çıkayım, bir sigara içeyim’ deyip çıkmıştı. Beş dakika kadar hiç ses çıkarmadı. Yalnız yüzüme bakıyordu. ‘Efendi rahatsız mısınız?’ dedim. ‘Vücudum rahat ama başım pek rahatsız Raşit. Kafam kırılıyor, beynim oyuluyor gibi geliyor’ dedi. Ben de ‘Merak etme Efendi, annem de tıpkı böyle olmuştu. Ensesinden iki boynuz çektiler33, bir şeyi kalmadı. Ah siz razı olsanız şimdi berber Hacı’yı getirir, iki boynuz çektirirdik’ dedim. Yine gülümseyerek, ‘Yok çocuğum! Bu başka hastalıktır. Buna boynuz kâr etmez’ dedi.”
+
+Bu sözleri konuşarak evin bulunduğu sokağa girmiş olduğumuzu anladım. Çünkü bekçi, teneşiri yüklenmiş, kapıdan içeri giriyordu. Demek Efendi henüz ölüm döşeğindedir. Onu orada görmek istiyordum. Bir daha yüzünü görmek, bence her arzunun üstünde idi. Milleti dilsizlikten kurtaran, bize edebiyat sevgisi, bir siyasi düşünce veren, zulümden nefret ettiren, zalimleri yılandan korkunç, akrepten iğrenç, cellattan merhametsiz tanıtan oydu. Onu, o deha örneğini, ölümün çukuruna verilmeden önce bir kez daha görmek benim için bir evlatlık göreviydi. O hepimizin, gelecek kuşaklarda yetişecek vatan evlatları için irfan babası, edep ve siyaset piri idi. Bizi düşünmeye, düşündüğümüz gibi söylemeye alıştırmıştı. Ona insanlık kimliğimiz bile şükran borcu taşıyordu.
+
+Hoca Kâmil’le beraber kapıdan içeri girdik. Avlunun sol tarafında on iki basamaklı bir merdivenden yukarı çıkınca bir sofaya girdik. Solda ve sofanın başlangıcında yarı açık bir kapı vardı. Önünde de şarap renginde bir ferace34 giyinmiş, solgun benizli, kederli bir düşünceye dalmış baygın gözleriyle ikimize bakan, uzunca boylu genç bir kadın duruyordu. Çevremize bakınarak girmek istediğimiz odayı aradığımızı halimizden anlayan kadın, bulunduğu yerden ayrılarak sofanın sonuna, pencerelere doğru çekildi. Ben çok hafif bir biçimde kapıyı itip içeri girdim.
+
+Odanın pencereleri kuzeye, kapısı güneye doğruydu. Ölüm döşeğini de naaşın sağı güneye denk ve yüzü kıbleye gelmesi için baş tarafı batıya, ayak tarafı doğuya doğru sermişler.
+
+## loc. 19
+
+Üzerinde güvez rengi bir yazma yorgan örtülü olan üstadın naaşının yüzü de beyaz bir tülbentle örtülüydü. Müftü Bekir Efendi başucunda Kuran okuyordu. Beni görünce işaret ederek yanına oturttu. Bir iki dakika sonra okuması bittiğinden hafif bir sesle, “Sizi tanıyamadım oğlum?” dedi. Ben de bir iki kelimeyle kendimi tanıtarak bana verilmiş ve Mehmed Hamdi mührüyle mühürlü kaşeyi çıkarıp verdim ve Fazıl Paşa’dan olduğunu söyledim. Derhal elimden tuttu. Birlikte sofaya çıkardı. Kadın henüz pencereye dayanmış duruyordu. Bekir Efendi yaklaşarak, “Navekter kızım! Mısırlı Mustafa Paşa bu beyi cenazeyi kaldırmaya memur etmiş, bu parayı da cenaze için göndermiş” dedi. Kadın cevaben, “Pekâlâ! Ne lazımsa yapınız!” dedi. Bunun üzerine keseyi açtı, yirmi beş lirasını ayırarak, yetmiş beş lirayı kesesiyle hanıma verdi. Ve “Bu yirmi beş lira iskata35, kefenlemeye fazlasıyla yeter. Artanını da fukaraya sadaka ederiz” dedi. Yusuf’u çağırarak hemen bozdurması için Tophane’ye gönderdi. Bana da “Siz kalacak mısınız?” dediğinde “Kuşkusuz defnine kadar bulunacağım!” cevabını verdim. Tekrar odaya girdik.
+
+Bekir Efendi’nin nam ve şanından çok haberliydim. Fakat şahsını tanımazdım. Yorgancının biraz önce müftüden söz etmiş olması, onun Bekir Efendi olduğuna hükmettirmişti.
+
+Kendisine, “Yüzünü açıp görmeme bir mani var mı?” dedim. Tebessüm etti, “Hayır! Ne mani olacak. Memleketin âdetlerine uyarak örttük” diyerek tülbendi kaldırdı.
+
+Hâlâ o manzara gözlerimin önündedir. Yüzünde hiçbir değişiklik eseri yoktu. Sağ gözü sol gözünden fazla aralık kalmıştı, yüzde belli belirsiz bir gülümseme durumu fark olunuyordu, alt dudağı bu gülümsemenin ebedi tanığı olarak hafif bir biçimde kıvrılmıştı. Çehre, sağlıklı halindeki canlılık rengini henüz koruyordu. Eğilip dudaklarına büyük bir üzüntüyle bir veda busesi kondurdum, bu durumu gören Bekir Efendi elinde olmayarak, “Lâ havle ve lâ kuvveti illâ billâh!” diyerek gözlerinden üzüntü yaşları dökmeye başladı. Tülbendi örteceğim sırada, “Dur evlat! Ölüm nedeni olan marazı da gör!” deyip baş yastığının altına elini soktu ve sağ eliyle cenazenin başını çevirerek kafatası ile ense arasında büyücek, bir yumruk kadar fırlamış olan keseyi gösterdi. Mosmor bir deri idi. Parmağımı dokundurdum. Lastik toplar gibi sağlam bir yumuşaklık hissettirdiği halde akıcı bir maddeyi barındırdığı hissedilemeyecek kadar sertti.
+
+## loc. 20
+
+“Çok acı veriyor muydu?” dedim. “Evet! Bazen fevkalade bir sancı oluşurdu. ‘Aman başımı eziyorlar’ diyordu. Yarım dakika kadar süren bu acıdan sonra sükûnet geliyordu. Dün öğleye kadar, bir yumurta iriliğinde bu şiş, akşam üzeri gördüğünüz kadar büyümüştü. Bana diyordu ki, ‘Galiba beynim kabına sığmak istemiyor, dışarı fırlamak istiyor. Mümkün olsa da şunu çıkarıp atsam ne iyi olurdu.’ Bu sözü söylemekle beraber gülüyordu, gece saat beşte çok şiddetli bir acıyla sıçradı. ‘Aman! Başımı tut, sık’ dedi. Ardına geçtim. Avuçlarımı şakaklarına yapıştırıp var gücümle bastırmaya başladım. ‘Oh, oh! Bırakma Hocam, rica ederim bırakma!’ diyordu. Beş dakika kadar bu durumda kaldı. ‘Artık bırak, acı geçti, yavaşça yatır’ dedi.
+
+Bir saatten fazla rahat rahat nefes alarak uyudu. Saat altıyı çalıyordu, birden doğruldu. Gözlerinde çoğunlukla cinnet getirenlerde görülen bulanık bir bakış vardı. Çevresine bakındı, hokkayı kalemi buldu. (Saatinin kapağından yarım mecidiye büyüklüğünde açık yeşil bir kâğıt parçası çıkararak) İşte şu kâğıda bu anlamsız sözcüğü yazdı. Arkasından sırtı üzerine düştü, bir daha uyanmadı” dedi. Kâğıtta, şu anda gözümün önündeymiş gibi şöyle bir söz yazılıydı: “Feskmuni”36 Bu sırada altınları paraya çevirmeye gönderilen Yusuf Ağa geri döndüğünden imam ile adamları iskata başladılar. Naaşı da gusül için aşağıya indirdiler.
+
+Biz Hoca Kâmil’le öteki odaya çekilerek kefenleme ve defin işlerinin tamamlanmasını bekliyorduk. Sokak kapısının karşısına bazı kimseler birikmişti. Bunlar cenazelerde bulunmayı geçim aracı edinmiş aşağılık insanlardı. Hele gusül işini görenlerin keyif ve neşeleri bize hayret veriyordu. Hoca Kâmil, “Bu adamlar bilmem nasıl bir hisle, daha doğrusu nasıl bir hissizlikle, sırf bir maddi çıkar karşılığında o soğuk ve bunaltıcı hizmeti yerine getirmeye çalışıyorlar” diyordu. Bu manzarayı, Ziya Paşa’nın “Kerkes-misal vâris ü gassal na-şekib!”37 sözü kısmen onaylıyordu.
+
+Bir ebenin cenini ana rahminden dünyaya getirmeye yardımcılığı sevinçli bir hizmettir, ondan duyduğu zevk ve neşe, hürmet ve tebrike değerdir. Çünkü o, topluma canlı bir varlık ilave ediyor. Bu berikiler, kendi türlerinden birinin ölümüne umutlarını bağlamış birtakım aşağılık nefisli yaratıklardır. Ancak bu sayede geçimlerini sağlayabilmektedirler.
+
+Ne acı ve ayıplanacak bir kârdır ki, kendi türünden birinin ölümünden elde edile! Hele ne katı yürekli insanlar ya da insan olmayanlardır ki hemcinslerinin üzerine toprak çekmekle kendilerine çıkar sağlamaya bakarlar.
+
+Bir taraftan devir ve iskat yapıldığı gibi, aşağıda da gusül gereklerinin yerine getirilmesi ve bitirilmesine çalışılıyordu. Sonunda bu iş de bitmiş, tabut, muhterem vücudu içine almıştı. Müftü Efendi bizi de tezkiye38 yerine gönderdi. Biraz önce kapının önünde birikmiş olan güruh tabutun çevresini almıştı. Eve girdiğimiz zaman oda kapısında gördüğümüz kadın orada bulunuyordu.
+
+## loc. 21
+
+İmam Efendi, tezkiyeye ilişkin soru cümlesini söyleyince lehinde şahadette bulundular. Hemen naaşın muhafazasını kaldırıp omuzlarına aldılar. Bu aralık gözüm üzüntüyle tabuta bakmakta olan kadına ilişti. Yaşmağının39 örtemediği üzüntü rengi, yüzüne öyle bir tatlılık doldurmuştu ki matem renginin bir yüze bu kadar yakıştığı görülmemiştir. Bu kadın Şinasi’nin boşadığı karısıydı.
+
+Cenazeyi taşıyan cemaat bir iki sokak sapıldıktan sonra Taksim’e ulaşan Kazancı’ya geçiyordu.
+
+Bu büyük adamın cenazesinde bulunanlar kimlerden ibaretti? Ölülerle çıkar ilişkisi olanları hariç tutarsak Altıncı Daire’den40 dört belediye çavuşu ile mahalleden yorgancı Raşit Ağa, teyzesinin damadı Şakir, Tasvir-i Efkâr sermürettibi Rıza ile biraderi Rıfat ve Müftü Efendi ile Hoca Kâmil ve ben.
+
+Bir hafta önce yine bir çarşamba günü Âli Paşa’nın naaşı Sirkeci yoluyla Süleymaniye Mezarlığı’na naklolunurken iki tarafında asker, zabıta, polis, belediye memurları saygı duruşunda bulunuyor, hükümet yetkilileri peşinde sessizlik içinde ağır adımlarla izliyordu. Bu iki büyük adam bir hafta arayla birbirlerini izleyerek dünyayı terk etmişlerdi.
+
+Gerçekten ikisi de büyüktü. Fakat bu büyüklük birinin resmi kimliğinde, ötekinin yaradılışında meydana çıkıyordu.
+
+Ben cenazeyi takip ederken bu iki büyük adamı ‒ilkinin yaptığı işler, ikincisinin gayret ve çalışmaları üzerinden kıyaslayarak‒ düşünüyordum. Birini, bulunduğu yüksek makamın halkta yarattığı etki bakımından bir resmi büyüklük heykeli gibi buluyordum. Diğerini, halkın fikirlerini idrak ve anlayış yoluna sevk eden fevkalade bir gücün uygulayıcısı gibi kabul ederek her durumda büyüklüğü Şinasi’de görüyordum.
+
+Âli Paşa, mesleği gereği insanlığı idrak hassasından ayrılmış hayvan halinde görmekten, Şinasi idrak hassaları uykuda olan milletin düşünce gücünü uyarmaktan zevk alıyordu.
+
+İşte bu iki adamın arasındaki fark.
+
+Cenazeyi taşıyanlar o kadar çabuk adımlarla ilerliyorlardı ki biz onlara yetişebilmek için adeta koşuyorduk. Bu süratin nedeni ise bir an önce görevlerini bitirerek hak ettiklerinden hiç kuşku etmedikleri vaatlere kavuşmak hırs ve emeliydi.
+
+Caddenin köşesini sağa döndük ve yüz adım ileride cepheye rastlayan mezarlık kapısından içeriye girdik. Sağ tarafı izleyerek şimdiki Hariciye nazırlarına41 ayrılmış konağın tam karşısında cenazeyi yere indirdiler. Ve üzerindeki şalı çıkarıp aldıkları gibi tabutun kapağını da kaldırdılar. Bekçi ile mezarcı çukurda bulunuyorlardı. İmam ile müezzin de naaşı tabuttan çıkarmak üzere ellerini uzatmıştılar ki yıldırım hızıyla oraya ulaştım ve:
+
+— Ne yapıyorsunuz? dedim.
+
+İmam:
+
+— Çıkarıp defnedeceğiz, dedi.
+
+Ben:
+
+— Hayır! Tabutla defnolunacak, dedim.
+
+İmam:
+
+— Tabutsuz olarak kefenle defninde sevap vardır, cevabını verdi.
+
+Ben:
+
+— Sevap değil ceza bile olsa tabutla defnedilecek! dediğimden imam kırgın olarak:
+
+— Pekâlâ! deyip çekildi.
+
+Hemen tabutun kollarını kestirdim, dört belediye çavuşuyla biz de iki arkadaş tabutu tutarak kabre indirdik.
+
+## loc. 22
+
+Bana öyle geliyor ki Şinasi’nin ruhu benim bu son hizmetimi yüce âlemden seyir ve takdir ediyordu.
+
+Kaynakça
+
+Ahmet Hamdi Tanpınar 19’uncu Asır Türk Edebiyatı Tarihi, Çağlayan Kitabevi, İstanbul, 1967.
+
+İnci Enginün, Yeni Türk Edebiyatı Tanzimat’tan Cumhuriyet’e (1839-1923), Dergâh Yayınları, İstanbul, 2012.
+
+Kenan Akyüz, Modern Türk Edebiyatının Ana Çizgileri, İnkılap Kitabevi, İstanbul, 1995.
+
+Memet Fuat, Aydınlar Sözlüğü, Adam Yayıncılık, 2001.
+
+Özdemir Nutku, Dünya Tiyatrosu Tarihi, Remzi Kitabevi, 1999.
+
+Şinasi, Şair Evlenmesi (Haz. Cevdet Kudret), Yeditepe Yayınları, 1954.
+
+Şinasi, Şair Evlenmesi (Haz. Mustafa Nihat Özön), Remzi Kitabevi, 1940.
+
+[←]
+
+1. Ahmet Kutsi Tecer, “Şair Evlenmesi’ni Okurken”, İstanbul dergisi, s. 4,1954.
+
+[←]
+
+2. Fars: Hafif konulu, yer yer şarkılı, basit ve kaba komedi unsurlarının yer aldığı güldürücü temsil.
+
+[←]
+
+3. Ahmet Hamdi Tanpmar, 19’uncu Asır Türk Edebiyatı Tarihi, Çağlayan Kitabevi, 1967.
+
+[←]
+
+4. İnci Enginün, Yeni Türk Edebiyatı: Tanzimat’tan Cumhuriyet’e (1839-1923), Dergâh Yayınları, 2012.
+
+[←]
+
+5. Şinasi, Şair Evlenmesi “Önsöz”, (Haz.) Cevdet Kudret, Yeditepe Yayınları, 1959.
+
+[←]
+
+6. Kılavuz burada evlenme işlerinde aracılık eden kadın anlamındadır.
+
+[←]
+
+7. Düğünde geline rehberlik eden kadın.
+
+[←]
+
+8. Selamlık: Saray, köşk ve konaklarda erkeklere ayrılan bölüm.
+
+[←]
+
+9. Tab’: (Ar.) Huy, mizaç, karakter yaratılış.
+
+[←]
+
+10. Muvafık: (Ar.) Uygun, münasip, layık.
+
+[←]
+
+11. Al basmak: Albastı hastalığına yakalanmak.
+
+[←]
+
+12. Eskiden âşıklık göstergesi olarak belli bir biçimde başa sarılan boyalı mendil.
+
+[←]
+
+13. Tiyatrodan.
+
+[←]
+
+14. Eşsesli “feraset” kelimesinin ilki Müştak Bey’in alay yollu kastettiği anlayışlı, çok çabuk kavrayan, sezgili anlamındadır. Diğeri ise “feres” (at) kökünden türeyen at yetiştirme, binicilik anlamındadır.
+
+[←]
+
+15. Kalp.
+
+[←]
+
+16. Bir işin hayırlı olup olmayacağını görülecek rüyadan çıkarmak amacıyla abdest alıp dua okuyarak uykuya yatma.
+
+[←]
+
+17. İbrahim Necmi Dilmen, “Şinasi ve Âsârı: Şinasi’nin Âsârı 4-Şair Evlenmesi Mudhikesi”, Yarın, S. 20, 2 Mart 1922, s. 3.
+
+[←]
+
+18. Sonradan dava vekâleti mesleğini seçen ve Gümülcine’de vefat eden Mehmed Tayfur Efendi, babamdır. [İbrahim Necmi Dilmen’in notu.]
+
+[←]
+
+19. Babam başından geçen bu olayı her zaman kitapçılık hayatının en heyecanlı olayı olarak anlatırdı. Çocukluğumdan kalan bu hatıra, Meşrutiyet’ten sonra eseri bulup sahneye koydurmaya vesile olmuştur. [İbrahim Necmi Dilmen’in notu.]
+
+[←]
+
+20. Molière’in yazdığı beş perdelik komedi.
+
+[←]
+
+21. Ebüzziya Tevfik, “Şinasi’nin Eyyâm-ı Ahîre-i Hayatı ve Vefatı”, Mecmua-i Ebüzziya, nr. 105-106,1911.
+
+[←]
+
+22. Mustafa Fazıl Paşa (1829-1875) Osmanlı devlet adamı. Avrupa’da Yeni Osmanlılar’a parasal destek sağlamıştır.
+
+[←]
+
+23. Paul-Émile Littré (1801-1881) Fransız dilbilimci, sözlük yazarı ve filozof.
+
+[←]
+
+## loc. 23
+
+24.Fuad Paşa (Keçecizade Mehmed Fuad/1815-1869). Osmanlı sadrazamı. Tanzimat Dönemi’nin önde gelen devlet adamlarındandır. Bilimle de uğraşmış, tarihçi Ahmed Cevdet Paşa’yla birlikte Osmanlıca grameri üzerine ilk çalışmalardan biri olan Kavaid-i Osmaniye’yi (1864) yazmıştır.
+
+[←]
+
+25. Bu Bekir Efendi, 1859’da “Kuleli Vakası” diye anılan Hüseyin Daim Paşa ihtilalci cemiyetinden olup ömür boyu Bağdat’a sürülmüştür. [Ebüzziya Tevfik’in notu.]
+
+[←]
+
+26. Boşanma sebebi, eşinin Şinasi’yi İstanbul’a dönmeye mecbur bırakmak için Fuad Paşa’ya bir yazı yazmış olmasıdır. [Ebüzziya Tevfik’in notu.]
+
+[←]
+
+27. Durub-ı Emsal-i Osmaniye, Şinasi’nin 1863-1885 yılları arasında hazırladığı atasözü ve deyimler derlemesidir.
+
+[←]
+
+28. Mecmua-i Ebüzziya’nın sekseninci sayısında “Şinasi’yle Bir Mülakatım” adlı makale bu odanın durumunu anlatır. [Ebüzziya Tevfik’in notu.]
+
+[←]
+
+29. Yusuf Kâmil Paşa (1808-1876), Osmanlı sadrazamı. Şiirleri de olan Yusuf Kâmil Paşa, Fenelon’dan çevirdiği Tercüme-i Telemak’la (1862) Türkçeye ilk roman çevirisini kazandırmıştır.
+
+[←]
+
+30. Âli Paşa (Mehmed Emin Ali Paşa / 1815-1871), Islahat Fermanı’nı yürürlüğe koyan Osmanlı sadrazamı. Babıâli’nin üstünlüğünü korumak ve sağlamlaştırmak için farklı güçleri birbirine karşı kullanmayı başardı. Kendi gücünü sınırlayacağı için temsili kurumların gelişmesine karşı çıktı, basın ve muhalefet üzerinde baskı uyguladı. Onun döneminde ortaya çıkan Yeni Osmanlılar hareketi, Âli Paşa’nın otokratik yönetimini de hedef alıyordu.
+
+[←]
+
+31. Namık Kemal’in Londra’da sıkı bir dostluk kurduğu iş adamı, politikacı, gazeteci kimlikleri de olan Mösyö Fanton aynı zamanda Namık Kemal’e hukuk dersleri vermiştir.
+
+[←]
+
+32. Murad V (1840-1904), tahtta en kısa süre kalan (Mayıs-Ağustos 1876) 33. Osmanlı padişahı. Kendinden önceki padişah Abdülaziz’in Mısır (1863) ve Avrupa (1867) gezilerine katıldı. Gezi sırasında Avrupa’da sürgünde bulunan Yeni Osmanlılar’la gizlice görüştü. Dönemin hürriyetperver aydınlarıyla yakın ilişkileri vardı. Namık Kemal, Şinasi ve Ziya Paşa da görüştüğü, hürriyet ve anayasa konularını tartıştığı kişilerdendi. Bir saray darbesiyle 30 Mayıs 1876’da tahta çıkarıldı. 31 Ağustos’ta tahttan indirildi ve yerine II. Abdülhamid geçirildi.
+
+[←]
+
+33. Boynuz çekmek: Hacamat yapmak, kan almak.
+
+[←]
+
+34. Eskiden kadınların dışarıda giydikleri mantoya benzer elbise.
+
+[←]
+
+35. İskat: (Ar.) Ölünün ibadet eksikliklerinin ve kusurlarının affı, cezasının bağışlanması amacıyla sadaka verme ve verilen sadaka.
+
+[←]
+
+36. Gerek bu kâğıt, gerek hokka ile kalemi ben almıştım, ne fayda ki Rodos’a sürüldüğümüz zaman kaybolmuştu. Hokka, Kütahya işi yeşil sırlı, kalem küt açılmış on santimetre uzunluğundaydı, yazık ki zamanın yok edici elinden bu üç yadigâr kurtulamamıştı. [Ebüzziya Tevfik’in notu.] Kâğıttaki not:مكمون
+
+[←]
+
+37. Günümüz Türkçesiyle: Akbaba gibi sabırsız; vâris ve ölü yıkayıcı.
+
+[←]
+
+38. (din.) İmamın, cenazede hazır bulunanlardan ölünün hayatta iken halinin nasıl olduğunu sorması.
+
+[←]
+
+## loc. 24
+
+39. Yaşmak: Kadınların feraceyle birlikte kullandıkları, yalnızca gözleri açıkta bırakan yüz örtüsü.
+
+[←]
+
+40. Beyoğlu Belediyesi.
+
+[←]
+
+41. Dönemin dışişleri bakanları.

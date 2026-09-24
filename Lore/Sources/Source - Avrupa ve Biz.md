@@ -1,0 +1,22 @@
+---
+tags: [source]
+side: Turkish
+protocol: historical
+---
+# Source - Avrupa ve Biz
+
+- **Author:** İlber Ortaylı
+- **Side:** Turkish
+- **Protocol:** historical
+- **Written:** 2007
+- **Covers:** 16th – 20th c.
+- **Converted text:** [[Avrupa ve Biz (İlber Ortaylı)]]
+- **Original file:** `Raw/NormalTrust/Avrupa ve Biz (Seme Eserleri, #1) -- İlber Ortaylı -- Türkiye İş Bankası Kültür yayınları, genel yayın_ 1405, -- İş Bankası Yayınları -- isbn13 9789944882859 -- a5610c62071d0e637f7ec908a00b1dcb -- Anna’s Archive.pdf`
+
+Back to [[Home]] · [[Sources Ledger]]
+
+## Notes that use this source
+
+[[Treaty of Karlowitz (1699)]] (8), [[Voltaire]] (7), [[Ahmed Cevdet Paşa]] (6), [[Mark Sykes]] (6), [[Ahmed Vefik Paşa]] (5), [[Orientalism]] (5), [[Peter the Great]] (5), [[Âli Paşa]] (5), [[Crusades]] (4), [[Evliya Çelebi]] (4), [[Fuad Paşa]] (4), [[Galician Front (1916-1917)]] (4), [[Kemalist reforms]] (4), [[Namık Kemal]] (4), [[Paris Peace Conference (1919)]] (4), [[Silistre]] (4), [[Crimean War (1853-1856)]] (3), [[Fall of Constantinople (1453)]] (3), [[Janissaries]] (3), [[Kaiser Wilhelm II]] (3), [[Kanuni Sultan Süleyman]] (3), [[Kıbrıs]] (3), [[Kırım]] (3), [[Makedonya]] (3), [[Medine]] (3), [[Mehmed Akif]] (3), [[Moskova]] (3), [[Napoleon Bonaparte]] (3), [[Pan-Islamism]] (3), [[Russian Empire]] (3), [[Sırbistan]] (3), [[Tanzimat]] (3), [[Treaty of Küçük Kaynarca (1774)]] (3), [[Venedik]] (3), [[İsmet İnönü]] (3), [[Abdülhamid II]] (2), [[Ankara]] (2), [[Arnavutluk]] (2), [[Atina]] (2), [[Balkan Wars (1912-1913)]] (2), [[Belgrad]] (2), [[Berlin]] (2), [[Beyoğlu and Galata]] (2), [[Bulgaristan]] (2), [[Bursa]] (2), [[Caliphate]] (2), [[Capitulations]] (2), [[Celal Bayar]] (2), [[Committee of Union and Progress]] (2), [[Congress of Berlin (1878)]] (2), [[Enver Paşa]] (2), [[Fatih Sultan Mehmed]] (2), [[First Constitutional Era (1876-1878)]] (2), [[First World War]] (2), [[Hindistan]] (2), [[Irak]] (2), [[Islahat Fermanı (1856)]] (2), [[Kafkasya]] (2), [[Kudüs]] (2), [[Mustafa Kemal Atatürk]] (2), [[Mustafa Reşid Paşa]] (2), [[Mısır]] (2), [[Ottoman Empire]] (2), [[Palestine and Sinai Front]] (2), [[Paris]] (2), [[Philhellenism]] (2), [[Prut Campaign (1711)]] (2), [[Refugees (muhacir)]] (2), [[Rumeli]] (2), [[Selanik]] (2), [[Siege of Vienna (1683)]] (2), [[Sivas]] (2), [[Sofya]] (2), [[St. Petersburg]] (2), [[Suriye]] (2), [[Teşkilat-ı Mahsusa]] (2), [[Trabzon]] (2), [[Trakya]] (2), [[Tuna]] (2), [[Turkish folklore]] (2), [[University reform of 1933]] (2), [[Urfa]] (2), [[Viyana]] (2), [[Yavuz Sultan Selim]] (2), [[Yemen]] (2), [[Young Ottomans]] (2), [[Young Turks]] (2), [[Yunanistan]] (2), [[Ziya Gökalp]] (2), [[İran]] (2), [[Şam]] (2), [[Abdullah Cevdet]] (1), [[Abdülaziz]] (1), [[Adana]] (1), [[Ahmed Midhat Efendi]] (1), [[Alexander Suvorov]] (1), [[Amasya]] (1), [[Anadolu]] (1), [[Baghdad Railway]] (1), [[Bakü]] (1), [[Batum]] (1), [[Bağdat]] (1), [[Boğazlar]] (1), [[Catherine the Great]] (1), [[Diyarbakır]] (1), [[Erzurum]] (1), [[Eskişehir]] (1), [[Fevzi Çakmak]] (1), [[Filistin]] (1), [[Gazi Osman Paşa]] (1), [[Girit]] (1), [[Harem and the palace household]] (1), [[Hejaz Railway]] (1), [[Henry Morgenthau]] (1), [[Hicaz]] (1), [[Kadıköy and Kızıltoprak]] (1), [[Kamil Paşa]] (1), [[Kilikya]] (1), [[King Ferdinand of Bulgaria]] (1), [[Klemens von Metternich]] (1), [[Konya]] (1), [[Londra]] (1), [[Midhat Paşa]] (1), [[Military uniforms and equipment]] (1), [[Opening of the Grand National Assembly (1920)]] (1), [[Ottoman Navy]] (1), [[Ottoman press]] (1), [[Ottomanism]] (1), [[Prince Menshikov]] (1), [[Ramadan in İstanbul]] (1), [[Sarıkamış]] (1), [[Sarıkamış Operation (1914-1915)]] (1), [[Selim III]] (1), [[Sublime Porte]] (1), [[Süleyman Hüsnü Paşa]] (1), [[Talat Paşa]] (1), [[The Sick Man of Europe]] (1), [[Tiflis]] (1), [[Topkapı Sarayı]] (1), [[Trablusgarp]] (1), [[Treaty of Lausanne (1923)]] (1), [[Van]] (1), [[Young Turk Revolution (1908)]] (1), [[Yıldız assassination attempt (1905)]] (1), [[Ziya Paşa]] (1), [[Çanakkale and Gelibolu]] (1), [[Üsküdar]] (1), [[İstanbul]] (1), [[İzmir]] (1), [[Şemsi Paşa]] (1), [[Köprülü family]], [[Mahmud II]]
+
+*The number in brackets is how many quotes from this source appear in that note. Notes without a number only mention it.*

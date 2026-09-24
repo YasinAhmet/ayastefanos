@@ -1,0 +1,22 @@
+---
+tags: [source]
+side: Turkish
+protocol: historical
+---
+# Source - Atatürk Hakkında Hatıralar ve Belgeler
+
+- **Author:** Afet İnan
+- **Side:** Turkish
+- **Protocol:** historical
+- **Written:** 1959
+- **Covers:** ~1925 – 1938
+- **Converted text:** [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)]]
+- **Original file:** `Raw/NormalTrust/Atatürk Hakkında Hatıralar ve Belgeler -- Ayşe Afetinan; Arı İnan; Emre Yalçın -- 8, 2009 -- Türkiye İş Bankası Kültür Yayınları -- isbn13 9789944881401 -- c94612a7ae6e5fb2f7d72ee4506c5919 -- Anna’s Archive.pdf`
+
+Back to [[Home]] · [[Sources Ledger]]
+
+## Notes that use this source
+
+[[Afet İnan]] (10), [[Nuri Conker]] (10), [[Erzurum Congress (1919)]] (7), [[Celal Bayar]] (6), [[Sivas Congress (1919)]] (6), [[Great Offensive (1922)]] (5), [[Misak-ı Milli (1920)]] (5), [[Türk Ocağı]] (5), [[Ziya Paşa]] (5), [[Abolition of the Sultanate (1922)]] (4), [[Barbaros Hayreddin]] (4), [[Battle of Sakarya (1921)]] (4), [[Caucasus Front]] (4), [[Colmar von der Goltz]] (4), [[Dolmabahçe Sarayı]] (4), [[Eskişehir]] (4), [[Heyet-i Temsiliye]] (4), [[Kemalist reforms]] (4), [[Müdafaa-i Hukuk societies]] (4), [[Opening of the Grand National Assembly (1920)]] (4), [[Proclamation of the Republic (1923)]] (4), [[Republican People's Party]] (4), [[Afyon]] (3), [[Amasya]] (3), [[Armistice of Mudanya (1922)]] (3), [[Armistice of Mudros (1918)]] (3), [[Battles of İnönü (1921)]] (3), [[Damat Ferit Paşa]] (3), [[Fethi Okyar]] (3), [[Fevzi Çakmak]] (3), [[Gallipoli Campaign (1915)]] (3), [[Hamdullah Suphi]] (3), [[Kuva-yı Milliye]] (3), [[Kılıç Ali]] (3), [[Makedonya]] (3), [[Manastır]] (3), [[Mehmed VI Vahdettin]] (3), [[Salih Bozok]] (3), [[Samsun]] (3), [[Tanzimat]] (3), [[Trakya]] (3), [[Treaties of Moscow and Kars (1921)]] (3), [[Treaty of Lausanne (1923)]] (3), [[Treaty of Sèvres (1920)]] (3), [[University reform of 1933]] (3), [[Venedik]] (3), [[Young Turk Revolution (1908)]] (3), [[Yıldırım Army Group]] (3), [[İsmet İnönü]] (3), [[31 March Incident (1909)]] (2), [[Adana]] (2), [[Ankara]] (2), [[Arnavutluk]] (2), [[Atina]] (2), [[Balkan Wars (1912-1913)]] (2), [[Berlin]] (2), [[Boğazlar]] (2), [[Bursa]] (2), [[Caliphate]] (2), [[Capitulations]] (2), [[Committee of Union and Progress]] (2), [[Edirne]] (2), [[Erzurum]] (2), [[Fatih Sultan Mehmed]] (2), [[First World War]] (2), [[Girit]] (2), [[Halep]] (2), [[Irak]] (2), [[Kafkasya]] (2), [[Kanuni Sultan Süleyman]] (2), [[Konya]] (2), [[Kütahya]] (2), [[Mustafa Kemal Atatürk]] (2), [[Musul]] (2), [[Ottoman Parliament]] (2), [[Ottoman War Academy]] (2), [[Ottoman press]] (2), [[Rumeli]] (2), [[Selanik]] (2), [[Sivas]] (2), [[Sofya]] (2), [[Tevfik Paşa]] (2), [[Trablusgarp]] (2), [[Tuna]] (2), [[Viyana]] (2), [[Yunanistan]] (2), [[Yusuf Akçura]] (2), [[Çanakkale and Gelibolu]] (2), [[Çerkez Ethem]] (2), [[Şam]] (2), [[Abdülhamid II]] (1), [[Abolition of the Caliphate (1924)]] (1), [[Ali Rıza Paşa]] (1), [[Anadolu]] (1), [[Bekir Sami]] (1), [[Bitlis]] (1), [[Bulgaristan]] (1), [[Diyarbakır]] (1), [[Düyun-u Umumiye]] (1), [[Eastern Question]] (1), [[Eleftherios Venizelos]] (1), [[Fall of Constantinople (1453)]] (1), [[Filistin]] (1), [[First Constitutional Era (1876-1878)]] (1), [[Fuad Paşa]] (1), [[German military mission (1913)]] (1), [[Harem and the palace household]] (1), [[Hicaz]] (1), [[Hilal-i Ahmer]] (1), [[Hindistan]] (1), [[Hürrem Sultan]] (1), [[Istanbul Independence Tribunals]] (1), [[Kars]] (1), [[Kastamonu]] (1), [[Kudüs]] (1), [[Kâzım Karabekir]] (1), [[Kâzım Özalp]] (1), [[Köprülü family]] (1), [[Kıbrıs]] (1), [[Kırım]] (1), [[Londra]] (1), [[Lübnan]] (1), [[Mahmud Şevket Paşa]] (1), [[Mazhar Müfit Kansu]] (1), [[Military uniforms and equipment]] (1), [[Moskova]] (1), [[Mustafa Reşid Paşa]] (1), [[Mısır]] (1), [[Namık Kemal]] (1), [[Ottoman Empire]] (1), [[Ottoman Navy]] (1), [[Pan-Islamism]] (1), [[Paris]] (1), [[Paris Peace Conference (1919)]] (1), [[Rauf Orbay]] (1), [[Suriye]] (1), [[Tevfik Fikret]] (1), [[The Sick Man of Europe]] (1), [[Tunus]] (1), [[Yemen]] (1), [[Young Turks]] (1), [[Yunus Nadi]] (1), [[Zübeyde Hanım]] (1), [[Üsküdar]] (1), [[İran]] (1), [[İstanbul]] (1), [[İzmir]] (1), [[İzmit]] (1), [[Abdülmecid Efendi]], [[Amasya Circular (1919)]], [[Hayreddin Paşa]], [[Selim III]], [[Trabzon]], [[Van]], [[Yavuz Sultan Selim]]
+
+*The number in brackets is how many quotes from this source appear in that note. Notes without a number only mention it.*

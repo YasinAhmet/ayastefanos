@@ -1,0 +1,463 @@
+KİM HAİN, KİM KAHRAMAN
+================================================================
+
+Source      : YouTube video (Turkish). Rebuilt from auto-generated Turkish subtitles.
+Raw file    : _Subtitles/[Turkish (auto-generated)] Kim Hain, Kim Kahraman [DownSub.com].txt
+Topic       : Boğazlıyan District Governor Mehmet Kemal Bey: the Yozgat Armenian
+              revolts, the 1915 deportation, his court-martial and execution in
+              occupied Istanbul (1919), and how he is remembered today
+Period      : 1893 – 1922 (with a section on 2010 – 2012)
+Side        : Turkish
+
+Editing notes
+- The speech-recognition text had no punctuation and many misheard names. It was
+  punctuated, split into paragraphs and given section headings.
+- Names that could be identified with confidence were corrected (e.g. "Amiral
+  cartrop" -> Amiral Calthorpe, "Said Mola" -> Sait Molla, "tezahürat ile
+  tanıştırıldı Hoffman" -> Tessa Hofmann ile tanıştırıldı).
+- Parts that could not be recovered are marked [anlaşılmıyor]. Uncertain
+  readings are marked [?]. Notes in square brackets are the editor's.
+- The content and claims are the speaker's own, including claims about living
+  people; they were not fact-checked here.
+
+================================================================
+
+
+GİRİŞ
+-----
+
+Hain: Kutsal sayılan şeylere hıyanet eden kimse.
+Kahraman: Savaşta veya tehlikeli bir durumda yararlılık gösteren kimse.
+
+Yaşadığımız bu topraklarda sanırım "hain" ve "kahraman" kelimeleri kadar ağır, fakat aynı zamanda tartışmalı kullanılan başka iki kelime yok. Günümüzde ise neredeyse enflasyonel şekilde kullanılmaktan ağırlığını kaybetmiş, dillere pelesenk olmuş durumda. Öyle ki bazen hainler kahraman, bazen kahramanlar hain ilan ediliyor. "Tarihi kazananlar yazar" denir ya; bazen hainler kazanıp tarihi onlar şekillendiriyor, bazen ise doğru er ya da geç ortaya çıkıyor.
+
+Soru şu: Kim hain, kim kahraman?
+
+Bugün size anlatacağım hikâye sadece tüm bunlara güzel bir örnek değil; aynı zamanda bu ülkenin kolektif yargısının bir dönme dolap olduğu gerçeğini ortaya seren, aradan 100 yıl geçse de bazılarının hainliğe devam ettiğini hatırlatan bir hikâye. Bu hikâyenin belki birçok farklı ismi var, ama sadece tek bir sonu.
+
+
+YOZGAT İSYANLARI (1893)
+-----------------------
+
+Hikâyemizin geçtiği Birinci Dünya Savaşı'na kadar zaten kazan kaynıyordu. Sadece 1882 ile 1909 arasında toplam 38 Ermeni isyanı meydana gelmiş, bu isyanlar sonucu binlerce insan hayatını kaybetmişti.
+
+Bunlar elbette tesadüfi gelişmeler değildi. Uzun süre imparatorluğun başına bela olan bu gruplar, örneğin Ayastefanos Antlaşması sürecinde Ruslarla görüşerek Berlin Konferansı'nda Doğu Anadolu'da ıslahat maddesini temin etmişler ve böylelikle imparatorluğu diplomatik alanda da tehdit etmeye başlamışlardı.
+
+1893'te Yozgat'ta Hınçakların çıkarmış olduğu Birinci ve İkinci Yozgat İsyanları, bu 38 isyandan sadece ikisi olsa da bugünkü hikâyemiz açısından çok önemli bir yere sahip. Boğazlıyan kazasında 33.400 Müslüman ve 8.800 Ermeni yaşamaktaydı.
+
+İsyanlardan hemen evvel bölgeye komitacı [isim anlaşılmıyor]'ın kardeşi [Moruk?] gelir. Hemen bölgedeki Ermenileri örgütlemeye koyulur; köylerde ve kasabalarda taraftar toplayarak ciddi bir teşkilat kurar. Ermenilerden para talep etmeye ve toplamaya da başlar. Elde ettiği parayla silahlı eşkıya grupları kurarak zaman içinde Yozgat Ermenilerinin neredeyse tamamını kontrol altına almayı başarır. Hınçak teşkilatına girmek istemeyen, para vermeyen ve teşkilatı hükümete ihbar edeceğini söyleyen Ermenileri de adamlarına öldürtür.
+
+Köylere gittiklerinde erkeklere hitaben şöyle derler:
+
+  "Cesur olunuz. Osmanlı'dan ve tüfeklerinden korkmayınız. Köylere
+   tahsildar ve zaptiyeler geldiğinde itibar etmeyiniz. 5.000 kuruş
+   isterlerse 500 kuruş veriniz, üzerlerine hücum ediniz."
+
+Kızlara ise:
+
+  "Nişanlılarınıza, 'Ancak millete hizmet ettikten sonra görüşelim'
+   demelisiniz."
+
+diyerek telkin ve tavsiyelerde bulunurlar. Yozgat'ta köyleri geceleri gezip propaganda yaparlar. Köy toplantılarında "Rusya'dan ve İngiltere'den buraya asker gelecek, biz de boş kafalılık etmeyelim, hazırlıklı olalım" diyerek militan toplarlar. Dikkat edin, sene 1890'lar.
+
+Tüm bu örgütlenmeler meşhur 1893 Yozgat kilise hadisesinde patlar. Bir gün Yozgat'ın Karayakup ve Karaçayır köylerindeki kadınlar, başka köylerdeki Ermeni kadınlarını da örgütleyerek, sözde Osmanlı memurlarının köydeki kadınlara tecavüz ettiğini iddia ederler. Büyük bir patırtı, slogan ve yaygarayla Yozgat merkezine gelir, şehrin kalabalık yerlerinden geçip kiliseye doğru giderler. Bu arada kilisenin çanı olağandışı, devamlı ve uzun bir şekilde çalmaya başlar. Çanın sesini duyan Yozgat'taki neredeyse bütün Ermeniler kiliseye akın eder.
+
+Ortada bir olay olmalıydı. Zira kilisede komitacıların yaptığı inanılmaz nefret söylemlerinin ardından kiliseden çıkan öfkeli gruplar Müslüman ve Türk mahallelerine saldırmaya başlar.
+
+Bu karışıklıktan sonra yapılan soruşturmayla, şikâyet konusu olan tecavüz hadisesinin gerçekte hiç yaşanmadığı anlaşılır. Karaçayır ve Karayakup köylerinden gelen kadınların hadiseden bir gün önce Yozgat'a getirildiği, bir evde gizlendikleri, hadise günü de Yozgat'a yeni gelmişler gibi hareket ettirilerek şehrin en kalabalık yerlerinden bilerek geçirildikleri ve kiliseye gönderildikleri ortaya çıkar. Gelişmelerden haberi olmayıp kiliseye silahsız gidenler kapıdan geri gönderilir ve silahlı gelmeleri istenir. Hatta tehditlere rağmen kiliseye gitmek istemeyenler fedailere vurdurularak öldürülür. Bu hadisede Türk halkından 3 kişi öldürülür, 6 kişi ciddi şekilde yaralanır.
+
+Yozgat'taki bu kanlı isyanlardan sonra bölgeye gelen memurlar çektikleri telgraflarda, bölgedeki Türklerin üzgün olduğunu, olayın üzerinden bir ay geçmesine rağmen suçluların hâlâ cezalandırılmadığını yazarlar. Öneri olarak da isyana katılan suçluların ailece sürgün edilmelerini, aksi takdirde tekrar isyana kalkışabileceklerini bildirirler.
+
+Merkezî yönetim bunu ağır mı buldu, yoksa baskı mı fazlaydı, bilinmez; ama bu öneri uygulanmaz. Henüz uygulanmaz. 1893 Yozgat Ermeni İsyanı sırasında Ankara valisinin merkeze yazdığı görüşlerde de, sadece suçlu Ermenilerin değil, suç işleyenlerin aileleriyle birlikte uzak yerlere gönderilmesini gerekçesiyle birlikte önerdiği görülür. Ankara valisinin 1893'te [altyazıda "1895"] yazdığı bu fikirler, 20 yıl sonra, Mayıs 1915'te uygulamaya konacaktır.
+
+
+MEHMET KEMAL BEY VE 1915
+------------------------
+
+Bizim hikâyemizin başladığı tarihte, işte kahramanımız: Mehmet Kemal Bey. Memur çocuğu bir memur; idealist, kuralcı bir adam. 15 Mayıs 1915'te Yozgat Sancağı'na bağlı Boğazlıyan Kazası kaymakamlığına tayin edildi. 11 Haziran 1915'te görevine başlayan Boğazlıyan Kaymakamı Mehmet Kemal Bey'i çok zor bir süreç bekliyordu.
+
+Zira tam bu sıralarda, 24 Nisan 1915'te, meşhur Ermeni kuruluşlarını kapatma, silahlarını toplama ve devlet aleyhinde faaliyette bulunanları tutuklama kararı çıkarılmıştı. Fakat tabii ki tüm bunlar fayda etmeyecek, çeteciler şiddeti daha da artıracaktı. Bu şiddet sarmalı bizi 27 Mayıs'taki tehcir kararına getirecekti.
+
+Seferberlikten hemen sonra Yozgat'ta olaylar başlar. İlk huzursuzluk Boğazlıyan'ın Ermeni köylerinde çıkar:
+
+- Boğazlıyan'ın Ermeni komitacıları tarafından Çayırşeyhi köyüne yerleştirilen dinamitlerden birinin patlamasıyla bir Türk çocuğu ağır yaralanır. Bunun üzerine [Ümit?], Menteşe ve [İdeli?] köylerinde yapılan aramalarda bomba, dinamit, silah ve cephane ele geçirilir.
+- Asker toplamak için köye giden jandarma birliğinin yolu kesilerek üzerlerine uzun süre ateş edilir.
+- Rumdiğin köyü Ermenileri jandarma karakoluna ve jandarmalara bir gece sabaha kadar kurşun yağdırır.
+- Komitacılar Kumkuyu köyünde bir jandarmayı, Poyraztepe köyünde iki kişiyi katleder.
+- Akdağmadeni'nde defalarca bomba patlatılır.
+- Boğazlıyan köylerindeki Ermenilerin kurduğu yaklaşık 300 kişilik çete, Türklere saldırarak öldürme, gasp, soygun ve çapulculuk suçları işler. Çevre kazalara da saldıran çete ancak 23 Temmuz 1915'ten itibaren Yozgat Jandarma Taburu'nun takibiyle etkisiz hâle getirilir.
+
+Halkın baskısını da ensesinde hisseden Mehmet Kemal Bey, kendisine verilen tehcir emrini yerine getirir. Ancak bu karar olayları bitirmez, tam tersine başlatır:
+
+- Yine yaklaşık 300 kişilik Ermeni eşkıyası, 15 Eylül 1915'te Yozgat'ın Kumkuyu köyünden çıkarak çevredeki Müslüman köylerini ateşe verir.
+- [Çatkemer?] köyü çevresinde yuvalanan 800'e yakın Ermeni, hazırladıkları siperlerden askere, jandarmaya ve halka saldırır; günlerce süren çatışmalardan sonra [yön anlaşılmıyor] tarafına kaçarlar.
+
+Yozgat ve çevresindeki Ermeni çetelerinin sevkiyattan sonra da faaliyette olduğu anlaşılıyor. 3 Nisan 1916 tarihli bir telgraf, Akdağmadeni ve [anlaşılmıyor] çevresinde 300-500 kişilik, kimi silahlı, kimi asker elbiseli Ermeni çetelerinden ve eylemlerinden söz etmektedir. Tehcir emrine uymayanlar genelde çetelere katılmıştır. Bu çetelerle çatışmalar sırasında ölen Ermenilere ilaveten, sevk esnasında bazı görevlilerin ve köylülerin suistimalinden dolayı ölenler de oluyor. Şiddet şiddeti doğuruyor.
+
+Bu kanuna rağmen saldırılarını devam ettiren Ermeniler, 2 Eylül 1915'te Yozgat'ın Boğazlıyan ilçesine bağlı köyleri ateşe verir. Duruma müdahale etmek üzere bölgeye jandarma kuvvetleri gönderilir, ancak Ermeniler jandarmalara da ateş açar. Durum zamanın Dahiliye Nezareti'ne bildirilir; nezaret bir telgraf emriyle buradaki Ermenilerin 24 saat içinde bölgeden çıkarılarak Suriye istikametine sevk edilmesini ister.
+
+Tabii o dönemdeki açlık sorununu da göz ardı etmemek gerekiyor. O dönemde açlıktan ölen Türk sivil ve askerlerinin sayısı bile çok daha fazla olmuştu. Bu kıtlık ve sefalet dönemini bizzat yaşamış olan Bavyeralı bir Alman binbaşı, [alıcı anlaşılmıyor] gönderdiği mektubunda yaşananları şöyle dile getiriyor:
+
+  "Ben harp esnasında iki buçuk sene Türkiye'de, Kafkasya, Mezopotamya,
+   İran ve Filistin cephelerinde bulundum. Ermeniler Türklerin asi
+   tebaalarıydı. Askerî ve siyasi sebeplerden onların harp mıntıkalarından
+   uzaklaştırılmaları zaruriydi. Türkiye gibi hiçbir şeyin bulunmadığı bir
+   memlekette bir kitle sürgünü sırasında birçok insanın ölmesi açık bir
+   şeydir. Fakat Fırat bölgesinde ayda ne kadar Türk askerinin açlıktan
+   öldüğünü düşünüyor musunuz? Ayda yüzlerce, hem de 1917 yılında."
+
+
+İLK YARGILAMA VE BERAAT (1917 – 1918)
+------------------------------------
+
+Tehcir kararlarından dolayı yurt dışından, özellikle de ABD kaynaklı baskı artıyordu. Muhtemelen bu baskıdan dolayı, Ankara Vilayeti İdare Meclisi'nin 8 Ocak 1917 ve Şûra-yı Devlet'in 12 Nisan 1917 tarihli kararlarıyla Kemal Bey'in yargılanmasına karar verildi. Suçlu bulunur. Ancak davayı tekrar inceleyen Konya İstinaf Mahkemesi, Kemal Bey'i haklı bularak 25 Temmuz 1918'de oybirliğiyle beraatine karar verdi. Aklanmasından sonra Konya'da [tarım?] müfettişliğinde görevlendirildi.
+
+
+İŞGAL İSTANBUL'U VE "SAVAŞ SUÇLULARI" (1918 – 1919)
+--------------------------------------------------
+
+1918'de imparatorluğun üzerine kara bulutlar çöker. İstanbul'u işgal eden İngilizler, uzun süredir sürdürdükleri anti-Türkist politikaları devam ettirir. İngiliz Yüksek Komiseri Amiral Calthorpe, Tevfik Paşa hükümetine sözde savaş suçlularının tutuklanması ve yargılanması emrini verdi. Yüksek komiserin verdiği liste doğrultusunda, İttihat ve Terakki hükümetleri döneminde görev yapmış ve isimleri bir şekilde öne çıkmış devlet adamları, gazeteciler, yazarlar ve düşünürler tutuklanmaya başlandı.
+
+İngilizlerin ve Ermenilerin baskıları sonucunda Kemal Bey'in görevine de son verildi ve tutuklandı. Ermeni meselesinden dolayı kelle alınması gerekiyordu. Kemal Bey, Konya İstinaf Mahkemesi'nde yargılanıp beraat etmesine rağmen yeniden tutuklandı ve kurbanlık koyun gibi yargılanmak üzere işgal altındaki İstanbul'a götürüldü.
+
+Padişah Vahdettin, İngilizlere yaranmak, dostane ilişkiler geliştirmek ve güvenlerini kazanmak için harekete geçmişti. Öncelikle siyaseten düşmanı olan İttihatçılara savaş açmış ve İngiltere'nin ortaya attığı "Ermeni kırımı" tezini kabul etmişti.
+
+10 Ocak 1919'da İstanbul'daki İngiliz Yüksek Komiseri Amiral Calthorpe, İngiltere Dışişleri Bakanlığı'na gönderdiği telgrafta şunu bildiriyordu: Padişah Vahdettin, Damat Ferit'i [anlaşılmıyor] göndererek, Ermenilere kötü davrananları ve savaş esirlerine kötü davrananları cezalandırmak arzusunda olduğunu; yeterince enerjik davranmayan kabine üyelerinin yerine daha aktif üyelerden oluşan bir kabine kurmayı düşündüğünü iletmişti. Yine Calthorpe'a göre padişah, İngiltere hükümetinin İngiliz savaş tutsaklarına barbarca davrananların ve kırımdan sorumlu olanların cezalandırılmasını istediğini biliyor ve İngiltere'nin arzulayacağı her kişiyi yakalatıp cezalandırmaya hazır olduğunu belirtiyordu.
+
+24 Kasım 1918'de Tevfik Paşa hükümeti tehcir suçlarını araştırmak için Tahkik-i Fecayi Komisyonu'nu kurmuş ve Anadolu'da 7 bölgeye tehcir soruşturma heyetleri gönderilmesine karar vermişti.
+
+İngiliz amiral bu konudaki hedeflerini şöyle söylüyordu: "Ermeni meselesinde cezalandırmak için büyükleri toptan idam etmeli. Cezalandırma işlemi, kişileri ibret verici bir şekilde yargılayarak cezalandırma biçiminde olmalı."
+
+Calthorpe'un emriyle bir Ermeni Haberler Bürosu kuruldu. Burada toplanan gazeteciler kamuoyunu hazırlamak için fikir alışverişinde bulunuyorlardı. Calthorpe, çok ateşli bir anti-Türkist olarak tüm Türklerin kolektif olarak cezalandırılması gerektiğine inanıyordu.
+
+Buna ek olarak İngiliz yanlısı Sabah ve Alemdar gazeteleri tamamen propaganda yayınları yapıyor, sürekli yalan haberlerle davada yargılanan kişileri karalıyor, yargılananlara saldırıyordu. Bu iki gazete bugün hâlâ kaynak olarak kullanılmakta.
+
+Nasıl düşündüklerini göstereyim size. Bu gazetelerden Sabah'ın sahibi Mihran [Nakkaşyan?], başyazarı da Ali Kemal'di. Ali Kemal bir yazısında şöyle anlatıyor: Bir gün bir esnaf Ali Kemal'i görmüş ve "Beyefendi, ne için Sabah'ın başmakalelerinde Türkleri müdafaa etmiyorsunuz da Ermenileri ediyorsunuz?" diye sormuş. Ali Kemal de cevaben: "Hemşerim, doğru söyle, İttihat ve Terakki'nin hangi kulübüne üyesin?" demiş. Ardından da hakaretler ederek "Bu zavallı [anlaşılmıyor] her nasılsa o cehennemî hissi peyda etmiş" diyor.
+
+
+DİVAN-I HARP (ŞUBAT – NİSAN 1919)
+--------------------------------
+
+Bu derece yoğun bir propaganda altında, tutuklananların yargılanması için harp divanlarının oluşturulmasına karar veriliyor. İlk Divan-ı Harp 16 Aralık 1918'de İstanbul'da kuruluyor; başkanlığına Hayret Paşa atanıyor.
+
+Boğazlıyan'da sivil Ermenilerin öldürülmesi iddiasıyla tutuklanan Mehmet Kemal Bey, 5 Şubat 1919'da Divan-ı Harp'te yargılanmaya başlıyor. Okul arkadaşı İbrahim [soyadı anlaşılmıyor] şimdi onunla aynı koğuşta kalıyordu:
+
+  "Kemal ile tutuklu olarak buluştuk. Daima gülen Kemal'in bu kahramanca
+   tavrına hayran kalmıştık. Bir gün bana 'İbrahim, beni asacaklar' dedi.
+   Çocuklarını ve ailesini düşünüp bir ah çekti. O kadar temiz kalmıştı ki
+   ziyarete gelen eniştesinden, tek bir sigara alacak parası olmadığı için
+   sigara istemişti."
+
+Kemal Bey'in maddi durumu olmadığı gibi, kendisini işgalcilere ve kuklalarına karşı savunacak bir avukat bulmak bile zordu. Sadettin Ferit adında bir avukat gönüllü olarak Kemal Bey'in savunmasını üstlendi.
+
+İngilizlerin istekleri doğrultusunda tutuklanan devlet görevlilerinin mesnetsiz iddialarla suçlanması ve yargılanmaya başlanması Türk kamuoyunda bir infial yarattı. Tutuklama ve yargılamalara tepki gösteren önemli isimlerden biri de Mustafa Kemal Paşa'ydı. Yaveri Cevat Abbas Bey ile birlikte Bekirağa Bölüğü'ne giden Mustafa Kemal Paşa, Mehmet Kemal dahil tutuklu bulunan arkadaşlarına, Türk milletinin kendileriyle birlikte olduğunu söyleyerek moral vermeye çalıştı.
+
+Divan-ı Harp savcısı Sami Bey'in iddianamesinde Boğazlıyan Kaymakamı Mehmet Kemal Bey de suçlulardan biriydi ve en ağır cezaya çarptırılması isteniyordu.
+
+Mahkeme sırasında, çoğu Ermeni komitacılarından oluşan bir sürü yalancı şahit Kemal Bey'in suçlarını bir bir sayıp dökmeye başlamıştı. Komitacılar İstanbul'da buldukları küçük Ermeni çocuklarını bile mahkemeye getiriyor, şahit olarak dinletiyordu.
+
+Söz alan Kemal Bey şöyle dedi:
+
+  "Düne kadar bir hâkimler heyeti hâlinde olan sizler, bu dakikada bir
+   tarih mahkemesi sıfatını almış bulunuyorsunuz. Ermeniler tarafından
+   öldürülen dindaşlarının ve soydaşlarının matemi Müslümanların
+   yüreklerini sızlattı; her gün gelen kara haberlerin halkı tahrik etmekten
+   geri kalmadığı malumdur. Ermeniler ise Rus ordularının kâh önüne geçerek,
+   kâh arkasında kalarak, çoğunlukla memleketin asker kuvvetinden mahrum
+   kalmasına güvenerek facialar meydana getirmekten çekinmiyorlardı.
+
+   İddia edildiği gibi Yozgat vilayeti dahilinde sevk edilen bazı Ermeni
+   muhacir kafilelerine, Ermenilerin Müslümanlara reva gördükleri fecaate
+   şahit olmuş bazı asker kaçaklarının tecavüz etmesi ihtimal dahilindedir.
+   Ancak savaştaki yenilgimizin aleyhimize meydana getirdiği havayı
+   dağıtmak maksadıyla, iddia makamının isteği üzerine kurbanlar verilmesi
+   bir siyaset icabı sayılıyorsa, bu kurban ben olamam. Siz kurban seçmekle
+   değil, ancak hak ve adalete göre hüküm vermekle vicdani görevi taşıyan
+   yüksek bir heyetsiniz. Mutlaka kurban aranıyorsa, herhalde bütün bu
+   işlerin tertipçisi ve idarecisi olarak benim gibi küçük bir memur
+   bulunacak değildir."
+
+Bu savunmaya karşı mahkeme reisi, "Kemal Bey, emin olun, mahkeme hükmünü hiçbir dış etkiye kapılmaksızın sırf vicdani kanaatine göre verecektir" diyordu. Hâlbuki Kemal Bey'in mutlaka asılması için Fransız ve İngiliz işgal kuvvetlerinin ve Ermeni Patrikhanesi'nin ağır baskısı devam etmekteydi.
+
+Tehcir esnasında öldürüldüğü ve mallarının gasp edildiği ileri sürülen Ermeniler mahkemede vekâleten temsil edilmişlerdir. "Müdahil avukatlar" olarak anılan bu kişiler, zanlılar aleyhinde suçlamalarda bulundukları gibi mahkeme heyetini de etkileyebilmişlerdir. Tabii yargılananlar hemen buna itiraz ediyor: "Bu kişiler bu mahkemede ancak dinleyici olarak bulunabilirler, şahit olarak değil. Çünkü ellerinde herhangi bir belge yok."
+
+Bu uyuşmazlıklara birkaç örnek verelim:
+
+- Ermenilerin dava vekâletini üstlenen [avukat] Remzi [?] ilk dilekçesinde öldürülenlerin sayısını 300, daha sonraki düzeltmesinde 2.700 olarak gösterdi. 10 Şubat'taki duruşmada ise öldürülen Ermenilerin sayısını 6.000'e yükseltti.
+- Dinlenen şahitlerin büyük çoğunluğu Ermenilerden oluşuyordu. Anadolu'dan gelecek şahitlerin yolluk ve yevmiyeleri karşılanmadığı için Mehmet Kemal Bey lehine şahitlik yapacak kişiler İstanbul'a gelemedi. Lehte tanıklık yapanlar sadece 3 kişiyle sınırlı kaldı; aleyhte tanıklık yapanlar ise 19 kişiydi.
+- Pek çok ifadenin gerçek dışı olduğu mahkeme heyeti tarafından tespit edildi. Örneğin Ojeni Varvaryan, tehcir sırasında küçük bir kız olduğunu, kafasına balta vurularak öldürülmek istendiğini, ama şans eseri hayatta kaldığını anlattı. Mahkeme, Ojeni Varvaryan'ın kafasındaki yarayla ilgili doktor raporu talep etti. Tıbbi incelemede yaranın çok yeni olduğu ve baltayla oluşmasının mümkün olmadığı belirlendi. Raporun mahkemede okunmasından sonra Varvaryan, Boğazlıyan'da hiç bulunmadığını, ama bu şekilde ifade vermesi için kendisine para verildiğini itiraf etti.
+- Diğer şahitler de savunma avukatlarının soruları üzerine iddia ettikleri olayları hiç görmediklerini, ama anlatılanları duyduklarını beyan ettiler.
+
+Mehmet Kemal Bey savunmasında, Sivas ile Yozgat arasında köylere saldıran çeteler olduğunu, bu çetelerin toplam 800 civarında silahlı üyesi bulunduğunu, kendisinin de bu çetelere müdahale ettiğini, ölenlerin ise sivil değil çete mensubu Ermeniler olduğunu belirtti. Köyleri basan bu çetelere etkin müdahale etmek amacıyla Kayseri ve Niğde'den asker talep ettiğini, Niğde'ye bağlı bölgelerden asker takviyesi yapıldığını, gerekirse bu konunun Kayseri bölge kumandanına [sorulabileceğini söyledi].
+
+Aleyhteki şahitlerden 15'i duyduklarını naklediyor veya görmüş gibi anlatıyordu; hatta bir tanesi açıkça yalan söylediğini belirtiyordu. Aleyhteki tüm şahitler bulundukları vilayetlerden getirilip yol masrafları karşılanmasına rağmen, savunma şahitleri için bu yola başvurulmamıştı.
+
+Biraz da bu şahitlerin ifadelerinden bahsetmek istiyorum:
+
+- Artin veled-i Agop (aleyhte): Akrabalarının öldürüldüğünü söyleyen şahidin ifadeleri çelişkili. Öldürülen akrabalarının ismi sorulduğunda iki isim verip diğerlerini unuttuğunu söylüyor.
+- Yozgat Mebusu Şakir Efendi: Lehte ya da aleyhte kesin bir ifadesi yok; tehcir sırasında Yozgat'ta bulunduğunu ve bazı suistimaller işittiğini söylüyor.
+- [İsim anlaşılmıyor] (aleyhte): İfadesindeki iddialar savcı tarafından bile şüpheyle karşılanıyor; önceden yazılıp ezberlenmiş olarak değerlendiriliyor.
+- Ojeni Varvaryan (aleyhte): Az önce anlattığım şahit. Ermenilerin öldürülmesine şahit olduğunu, Kemal ve Tevfik Beyleri adam öldürürken görmediğini ama işittiğini söylemiş. Daha önce Yozgat'ta bulunduğunu ve öldürme olaylarına şahit olduğunu söylediği hâlde, sonra Yozgat'ta bulunmadığını ve olaylardan haberi olmadığını söylüyor. Yalancı şahitliğine rağmen savcının "Bırakın gitsin, kadındır" sözüyle serbest bırakılıyor.
+- Hristaki Andreadis (aleyhte): Ermenilerin öldürüldüğünü anlatıyor, fakat "Görmedim" diyor.
+- Yozgat Muhasebecisi Vehbi Bey (lehte): Ermenilerin mallarının kayıtlarıyla ilgili bilgi veriyor.
+- Bahri Bey (lehte): Bu kişilerin suistimallerine şahit olmadığını söylüyor.
+- Yozgat Müftüsü (burası çok önemli): Lehte veya aleyhte kesin bir ifadesi yok. İstinabe yoluyla ifadesine başvurulan müftü, bazı Ermenilerin öldürüldüğünü duymuş. Bu son Yozgat müftüsünü sakın ha sakın unutmayın.
+
+Şahitleri gördüğünüzde işin ne kadar bir komedi, bir tiyatro olduğunu herhâlde kafanızda canlandırabiliyorsunuzdur.
+
+
+DAMAT FERİT VE NEMRUT MUSTAFA
+-----------------------------
+
+Bu olağanüstü mahkemelerin Yozgat davasını kısa sürede tamamlayamaması eleştirilere yol açtı. Sadrazam Tevfik Paşa, mahkemenin yetkilerinin genişletilmesi için padişaha başvurduysa da kabul görmedi. Tevfik Paşa istifa etti ve yeni hükümet Mart 1919'da, İttihatçı karşıtı ve İtilaf Devletleri'ne yaranma politikasının bizzat sahibi Damat Ferit Paşa tarafından kuruldu.
+
+Ferit Paşa bu yargılamalara hız kazandırıp hemen sonuca ulaşmak istiyordu. Artık bir kurban gerekiyordu. Nitekim kısa sürede sıkıyönetim mahkemesinde değişiklik isteğini padişaha sundu ve bu sefer talebi kabul gördü.
+
+Yargılama süreci 7 Nisan 1919'a kadar yaklaşık 2 ay sürdü; 18 duruşma yapıldı. Siyasi baskılar nedeniyle bağımsız hareket edemeyen ve İngilizlerin istekleri doğrultusunda karar vermek zorunda kalacağını gören Hayret Paşa, bu baskılara dayanamayıp Sadrazam Damat Ferit Paşa ile yaptığı şiddetli bir münakaşadan sonra istifasını verdi. Kimse İngilizlerin emriyle kurban vermenin vebalinin altına girmek istemiyordu.
+
+Tehcir davasının son 5 oturumu, [Ali Fevzi Paşa?] yerine atanan Mustafa Nazım Paşa tarafından yönetildi. Mahkeme heyetinde üye olarak yer alan ve Mehmet Kemal Bey'in idam edilmesi konusunda ısrarcı olan isim ise emekli [Ferik] Mustafa Paşa'ydı: Nemrut Mustafa.
+
+Biliyorum, bu kanalda çok vatan haini tanıdınız; ama böylesini görmediğinize, duymadığınıza yemin ederim. Bu düşmanlıkla işe koyulan Nemrut Paşa'yı anlamanız için size bir mektup aktaracağım. Fethi Okyar, Damat Ferit'e şöyle bir mektup yazıyor:
+
+  "Bugün Divan-ı Harp reisi denilen [Nemrut Mustafa?] Paşa, en hunhar
+   canavarlar tıynetinde yaratılmış bir cellattır. Bu cellatın pek yakında
+   vereceği idam hükmünü işitmek istemezseniz, şimdiden bu zalimin
+   tahribatına set çekmeniz lazımdır."
+
+Mahkemede sadece aleyhindeki sözde şahitler dinlenen Kemal Bey, kendisi şahit çağıramıyordu; Nemrut Mustafa bunu lüzumsuz buluyordu. Fakat Kemal Bey'in savunması o kadar etkiliydi ki salondaki izleyicilerin gözleri yaşarmıştı. Gazeteler savunmanın etkisinden bahsederken, İngiliz yanlısı gazeteler mahkemeyi etkilemeye çalışıyor, "Aman ha, kanmayın!" başlıkları atıyordu.
+
+Ermeni Patrikhanesi'nin iftiraları, Nemrut Mustafa'nın hükmü, Mustafa Sabri'nin fetvası ve Vahdettin'in onayıyla, İngiliz ve Fransız askerlerinin ve Damat Ferit hükümetinin nezaretinde idam edilecekti.
+
+İngilizlerce hazırlanan idam listesini uygulamaya gönüllü, Kürt Teali Cemiyeti ve İngiliz Muhipler Cemiyeti üyesi Nemrut Mustafa sordu:
+
+  "Memleketimiz dahilinde yaşayan vatandaşları birbiri üzerine sevk ederek
+   can ve mal tecavüzüne teşvik etmenin cezası nedir, bilir misin?"
+
+Kemal Bey işin nereye gittiğini anladı. Yapılacak bir şey kalmamıştı.
+
+  "İdamdır, paşam."
+
+Nemrut Mustafa memnun bir şekilde:
+
+  "Kendi hükmünü kendi ağzınla verdin. Biz de senin için bu karara
+   varmıştık."
+
+
+FETVA VE İDAM (10 NİSAN 1919)
+----------------------------
+
+Karar Sultan Vahdettin'e ulaştı. Fakat o bile tereddüt içindeydi. Bu kararın tasdiki için şeyhülislamdan fetva istedi. Peki bu cenderedeki şeyhülislam kimdi? Mustafa Sabri Efendi.
+
+Mustafa Sabri önce "Kemal Bey hakkında istenilen fetva değildir, kazaya aittir; benim ise kazaya yetkim yoktur" diyerek fetva vermekten kaçındı. Padişah ısrar edince konuyla ilgili yeni bir fetva hazırlandı. Bu fetva sarayı tatmin etti. İrade hazırlandı, imzalandı. 10 Nisan 1919 günü padişah idam kararını onayladı.
+
+İdam için gerekli tedbirler alındı, hazırlıklar yapıldı, sehpa kuruldu. Kemal Bey'in olup bitenden haberi bile yoktu. Bekirağa Bölüğü'nde tutuklu arkadaşlarıyla oturmuş konuşuyordu. Birden dışarı çağırdılar ve Kemal Bey'e karar tebliğ edildi. Ardından muayene edilip sağlık raporu verildi. Hiç zaman kaybetmek gerekmiyordu; İngilizler bekliyordu. Hiç beklemeden hemen Beyazıt Meydanı'na çıkardılar.
+
+Ermeni komitacıları İstanbul'un çeşitli semtlerinden pek çok serseriyi meydana topladı. İstanbul'un Türk halkı ise davayı yakından takip etmişti; sonucu karşısında içi kan ağlıyordu. Meydanda olduğu kadar yollarda ve meydana bakan damlarda da mahşerî bir kalabalık vardı.
+
+Darağacı, o zaman Harbiye Nezareti'nin girişi olan, daha sonraları uzun yıllar rektörlük makamı olarak kullanılacak küçük binanın önüne kurulmuş; etrafı jandarma ve polis kordonu altına alınmıştı. İngiliz ve Fransız askerî birlikleri de binanın önünde nöbet tutuyordu.
+
+Kapıdan çıkan Kemal Bey'i görünce kalabalık bir anda sustu. Kemal Bey idam mahkûmlarına mahsus beyaz gömleğini giymiş, ağır ağır yürüyordu. Metindi. Sigarasını yaktı; bir güzel içti. Sonra sehpaya çıkarıldı. Koca meydanda çıt çıkmıyordu. Son sözü soruldu. O zaman Kemal Bey konuşmaya başladı:
+
+  "Ben bir Türk memuruyum. Aldığım emri yerine getirdim. Görevimi
+   yaptığıma vicdanen eminim. Sizlere yemin ederim ki ben masumum. Son sözüm
+   bugün de budur, yarın da budur. Yabancı devletlere yaranmak için beni
+   asıyorlar. Eğer buna adalet diyorlarsa, kahrolsun böyle adalet!"
+
+İşgalin prangaları altında kıvranan meydandaki Türk halkı gür sesle bağırdı: "Kahrolsun böyle adalet!"
+
+  "Benim sevgili kardeşlerim, çocuklarımı asil Türk milletine emanet
+   ediyorum. Bu kahraman millet elbette onlara bakacaktır. Allah vatan ve
+   milletimize zeval vermesin. Amin."
+
+Halk hıçkıra hıçkıra ağlıyordu. Meydan tam bir matem havasına bürünmüştü. Manzarayı küçük köşkün pencerelerinden seyreden İngiliz Muhipler Cemiyeti Başkanı Sait Molla'nın cellatlara verdiği emir Kemal Bey'in sözlerini bastırdı:
+
+  "Söyletmeyin bu alçak herifi! Hemen asın bu köpeği! Ne duruyorsunuz, it
+   oğlu itler!"
+
+Kemal Bey birkaç kelime daha edebildi:
+
+  "Borcum var, servetim yok. Üç çocuğumu milletim uğruna yetim
+   bırakıyorum. Yaşasın millet!"
+
+Sehpa çevrildi. Kemal Bey'in cesedi akşama kadar asılı şekilde bırakıldı. Ermeni komitacıları sevinç çığlıkları atıyor, Türk halkı ağlıyordu.
+
+Kemal Bey'in üzerinden çıkan vasiyet:
+
+  "Perişan zevcem Hatice'ye, yavrularım Müzehher ve Müşerref'e sahip
+   olunmasını, yavrularımın tahsil ve terbiyesine ihtimam buyrulmasını
+   vatandaşlarımdan beklerim. Babam Arif Bey de âciz, kardeşim Münir de
+   kimsesizdir; bunlara da sahip olunursa memnun olurum. Türk halkı ebediyen
+   yaşayacak, Müslümanlık asla zeval bulmayacaktır. Fertler ölür, millet
+   yaşar. İnşallah Türk milleti ebediyete kadar yaşayacaktır. Kabir taşım
+   Türk ve Müslüman kardeşlerim tarafından dikilmeli ve üstüne şöyle
+   yazılmalıdır: 'Millet ve memleket uğruna şehit olan Boğazlıyan Kaymakamı
+   Kemal Bey'in ruhuna Fatiha.'"
+
+
+DÜNYANIN TEPKİSİ VE CENAZE
+-------------------------
+
+12 Nisan'da New York Times'ta "Dünyayı dehşete düşüren Ermeni katliamlarının failleri cezalandırıldı" haberi çıktı. 14 Nisan'da ise daha da öfkeliydiler; bu idam onları tatmin etmemişti:
+
+  "Bu sabah İstanbul'dan gelen, Kemal Bey'in asıldığına dair haberler pek
+   tatmin edici değil. Kendisi katil, ama asıl sorumlular Enver ve
+   Cemal'dir. [...] İnsanlık, bu üç kana susamış canavar Beyazıt
+   Meydanı'nda yan yana asılana kadar olanları unutmamalı."
+
+Kemal Bey'in katledilişine şahit olan Türk halkında inanılmaz bir reaksiyon başlar. Öyle ki cenaze töreni işgalcilerin gözünü korkutur. On binlerce vatansever, tabutunu baş hizasında taşıyarak İstanbul'u inletir.
+
+Celal Bayar, Tıbbiye öğrencilerinin cenazeyi üzerinde "Türklerin büyük şehidi Kemal Bey" yazılı çelenklerle karşıladığını ve Kadıköy karakolunun önünden geçerken askerlerin cenazeyi selamladığını yazıyor.
+
+İsmail Hami Danişmend:
+
+  "Türk milliyetçiliğinin unutamayacağı bir cenaze alayı yapıldı. O zamanki
+   Kadıköy karakolundaki askerler, tabut geçerken bayrağı yarıya indirerek
+   askerî merasim yaptı. Tıbbiye talebeleri oradaki zabitlerle muazzam bir
+   cenaze alayı yapmışlar, tabutu kolları üzerinde götürmüşler. Hatta o
+   zaman işitmiştik ki bu alayı seyreden bir Fransız, 'Bu İttihat ve Terakki
+   ne müthiş kuvvettir!' diye haykırmış."
+
+Mezarının başında bir tıbbiyeli genç şöyle yemin etmiş:
+
+  "Kemal, sen ölmedin. Sen şu anda toprağa verdiğimiz bir çiçeksin. Orada
+   büyüyecek dalların o kadar dikenli olacak ki seni bu akıbete layık
+   görenlerin hepsini paramparça edecektir. İntikamın kesinlikle
+   alınacaktır."
+
+İngiliz ve Fransız istihbarat subayları raporlarında inanılmaz bir panik hâlindeydi: "Türk milliyetçileri uyandı. Hükümetin bu cenazeye müsaade etmesi hatadır" diye yazıyorlardı. "Kendi ellerimizle bir kahraman yarattık" diye hayıflanıyorlardı.
+
+
+"KAHRAMANLARIN" AKIBETİ
+----------------------
+
+İşte bu, Mehmet Kemal Bey'in hikâyesi. Gelelim diğerlerine; o "kahramanlara" ne oldu?
+
+NEMRUT MUSTAFA
+
+Kürt Teali Cemiyeti mensubu Nemrut Mustafa, bir takım devlet aleyhindeki faaliyetleri ve davranışları nedeniyle daha sonra görevinden alındı. Hatta Ermeni Jamanak gazetesine verdiği demeç yüzünden iç güvenliği bozduğu gerekçesiyle sorguya bile çekildi. Mustafa Kemal Atatürk için de gıyabi idam kararı çıkaran Nemrut, görevinden alındıktan sonra Şam'a gitti; İngilizlerden buradaki Kürtleri ayaklandırmak için 50.000 lira aldı ve yine İngilizler tarafından sözde "Kürdistan"a vali tayin edildi.
+
+1921'de Diyarbakır'da ayaklanma çalışmaları yapan Nemrut Paşa, Şeyh Said İsyanı'nı hazırlayanlar arasındaydı. Millî Mücadele'ye başından beri düşmanlık eden ve imkân bulduğu her yerde Kuva-yı Milliye'ye zarar veren Nemrut Mustafa, Divan-ı Harp'te Kuva-yı Milliyecilere verdiği haksız cezalar nedeniyle Ankara hükümeti tarafından yargılandı ve 3 Temmuz 1920'de vatana ihanet suçundan [mahkûm edildi]. Ayrıca 150'likler listesine 31. sıradan girdi. İngiltere'nin kurduğu Kürdistan Krallığı'nda sözde eğitim bakanı oldu. Ancak bu yapının yıkılmasıyla birlikte Bağdat'ta sefalet içinde öldü.
+
+[Müzik]
+
+MUSTAFA SABRİ
+
+Peki ya Mustafa Sabri? Sevr Barış Antlaşması'nın imzalandığı günün gecesi, İngiliz Muhipler Cemiyeti üyesi Mustafa Sabri ile eşi arasında ilginç bir diyalog yaşanır. Ailesiyle oturduğu Şeyhülislamlık binasında eşi Ulviye Hanım ağlayarak:
+
+  "Sen Allah'tan korkmadın mı? Peygamberden utanmadın mı? İzmir'in
+   Yunanlılara verilmesine nasıl razı oldun? İstifa edeydin de imza
+   etmeseydin!"
+
+diyerek bu antlaşmadan duyduğu rahatsızlığı dile getirir. Mustafa Sabri eşine hiçbir cevap veremez.
+
+Burada bile istifa etmeyen Sabri Bey, başka bir yerde istifa edecektir. Çünkü Atatürk'ün yürüttüğü Millî Mücadele'ye başından beri karşıydı. Çıkarılan fetvayı destekler: "Padişahın aksi emrine rağmen istilacılara karşı direnişe geçen milliyetçilerin öldürülmesi caiz olmakla kalmayıp her Müslümanın dinî görevidir. Bu uğurda ölenler şehit, kalanlar gazi sayılır." Kuva-yı Milliyecileri "kudurmuş haydutlar" diye niteleyen bildiriler yazdı; bu bildirileri İngiliz uçakları Anadolu'da dağıttı. O kadar Müslümandır ki hilafeti korumak için Papa'dan yardım ister, mektup yazar. Hatta sultanın huzuruna gidip Anadolu hareketine karşı görüşlerini bildirir.
+
+Bu çerçevede 18 Nisan 1920'de "Hilafet Ordusu" adı altında bir ordu kuruluyor. Kuva-yı Milliye'ye karşı kurulan bu orduya Kuva-yı İnzibatiye de denmektedir. Bu ordunun görevi ayaklanmalara destek olmak ve Ankara Meclisi'ni doğmadan boğmaktır.
+
+Ancak Mustafa Sabri'nin sert tedbirler alınması yönündeki istekleri kabul edilmedi ve bunun üzerine istifa etti. Evet, bu kadar hainliğin içinde olup ar edip istifa etmeyen adam, Millî Mücadele'ye balta vurulmuyor diye istifa etti.
+
+Millî Mücadele başarılı olunca önce Yunanistan'a, oradan da ölene kadar kalacağı Mısır'a kaçtı. Yunanistan'da çıkardığı Yarın gazetesinde 1927'de yazdığı şiirde Türklüğüne tövbe ettiğini, Türklükten istifa ettiğini söyler:
+
+  "Yalnız Müslüman bir insan olarak kalmak üzere Türklükten şeref ve
+   izzetimle istifa ediyorum. Allah'ın huzurunda tövbe, ya Rabbi tövbe
+   Türklüğüme; beni Türk milletinden addetme."
+
+Bir yazısında da milletler hakkında şöyle der:
+
+  "Benim elimden gelse Türkleri Arap yaparım. Diğer Müslümanların da
+   vaktiyle Araplaşmamış olmasına çok esef ederim. Arap dili ne Türk
+   diliyle ne de Çerkez diliyle kıyas kabul etmeyecek derecede üstünlüğe
+   sahip olduğundan, insanın milliyetin küçüğüne sahip olup da onunla
+   iftihar edeceğine, büyüğüne sahip olarak onunla iftihar etmesi daha
+   kârlı ve makul olur."
+
+Bu kadar ihanetin sonunda Mustafa Sabri de 150'likler listesine 9. sıradan, oğlu İbrahim Sabri ise 13. sıradan girer.
+
+MEHMET KEMAL BEY
+
+Peki ya Mehmet Kemal Bey? 14 Ekim 1922'de Boğazlıyan Kaymakamı Mehmet Kemal Bey, Birinci Büyük Millet Meclisi tarafından "Şehid-i Millî" ilan edildi. Eşi Hatice Hanım'a ve çocuklarına ömür boyu maaş bağlandı; şehit ailesine bir apartman ve bir ev tahsis edildi.
+
+Hain ilan ettikleri Kemal Bey Türk milletinin kahramanı ve Millî Mücadele'nin sembolü olurken, kendisini ölüme gönderen dönemin sözde kahramanları vatan hainleri olarak öldüler.
+
+
+DÖNME DOLAP: 2010'LAR
+--------------------
+
+Peki hikâye burada bitti mi? Elbette hayır. Ne demiştim size: Bu ülkenin kolektif yargısı bir dönme dolap.
+
+Gelelim 2010'lu yıllara. AKP iktidarının çeşitli "açılımlarından" biri de Ermeni soykırımı açılımıdır, hatırlarsınız elbette. Bir dönem Türkiye bu yalanı neredeyse soykırım olarak tanıyordu. Bunun için de "Ermeni soykırımını doğrudan bir suç olarak eleştiren ilk Türk" unvanıyla tanıtılan sipariş tetikçi Taner Akçam devreye girdi. Her yazısında Boğazlıyan Kaymakamı Kemal Bey'i hedef alıyor, hakaretler ediyordu.
+
+Hikmet Çiçek, Aydınlık'taki "Tanıdığım Taner Akçam nasıl devşirildi" yazısında şöyle anlatıyor:
+
+  "Akçam, 1977 yılında cezaevinden kaçarak Almanya'ya gittikten sonra
+   müthiş bir değişime uğradı. Geçmişini, davasını, arkadaşlarını ve
+   vatanını bir kenara bıraktı. Alman istihbarat servisinin konuğu oldu,
+   siyasi mülteci sayıldı ve kısa sürede Alman uyruğuna kabul edildi. Tessa
+   Hofmann ile tanıştırıldı. [...] Hamburg Sosyal Araştırmalar Enstitüsü
+   bursuyla 'Türkiye ve Doğu Sorunu' başlıklı doçentlik tezini hazırladı.
+   Akçam'ın araştıracağı konuları Tessa Hofmann ve Alman Doğu Enstitüsü
+   belirliyordu. Akçam'a sipariş edilen konular şunlardı: Türk tarihinde
+   şiddet, Türk tarihinde işkence, Ermeni soykırımı, Türkiye'nin cinayet
+   dosyaları. Emperyalizm bu konuların yazılmasını istiyordu; görev yerine
+   getiriliyordu."
+
+Akçam üzerinden geliştirilen bu tarih revizyonizmini muhafazakâr kitlelere yutturma görevini ise bir başkası üstlendi: Hilal Kaplan. FETÖ'nün yayın organı Taraf gazetesinde yazarlık yapan Kaplan bu söylemi özenle geliştirdi. Soykırımın tanınması için spin doktorluğuna soyundu.
+
+13 Ocak 2010'da "Ey Cemaat-i Müslimin", 19 Ocak'ta "Neredesin" yazısında şöyle der Kaplan:
+
+  "Aslında bu akrabalık bağını, devletin zulmettiği ve bu zulüm karşısında
+   kendince durmuş olan herkes için hissediyorum sanırım. Mesela zorba
+   hükümete karşı ayaklanan Şeyh Said kadar, aynı zorbalığa tahammül
+   edemeyen Seyit Rıza'ya ya da Said Nursi kadar, onun gibi mezarının bile
+   nerede olduğu bilinmeyen Krikor Zohrab'a da yakın hissetmem bundandır.
+   Yine belki de bu yüzden pozitivist, sosyal Darwinist ve aydınlanmacı
+   Talat Paşa'yı değil de, Ermeni tehcirine 'Allah var ve onun gazabından
+   korkun' diyerek isyan eden Boğazlıyan Müftüsü Abdullahzade Mehmet
+   Efendi'yi ecdadım olarak kabul etmem bundandır."
+
+22 Nisan 2010'da "Bizim acımız diyebilmek" başlıklı makalesinde Şehit Kemal Bey'i yine hedef alır:
+
+  "Boğazlıyan Müftüsü Abdullahzade Mehmet Efendi'nin, tehcir sorumlularından
+   olan Boğazlıyan Kaymakamı'na o günlerde 'Allah var ve onun gazabından
+   korkun' demesi bundandı. Ancak bugün çoğumuz bu kadarını bile demekten
+   âciziz. [...] Bazıları katledilen [Ermenileri] anmayı bile vatan
+   hainliğinden sayıyor. Milliyetçilik, kendinden olanı üstün ve önemli
+   görüp ötekini teferruat kabilinden görmeye yol açan nefsî bir duygu
+   hâlini beraberinde getiriyor ve gözü kendini göremiyor."
+
+28 Nisan 2010, "Ermeniler Müslümanlardan ne ister" yazısından:
+
+  "Bu 24 Nisan, aradan neredeyse koca bir asır geçtikten sonra o
+   kayıplarımızı ilk kez ziyaret ettik. Evet, geç oldu, biraz güç oldu ama
+   yaptık bunu. Yıllardır sadece katledilen Müslümanların anıldığı bu
+   ülkede ilk kez katledilen Ermeniler için de 'Keşke olmasaydı' dedik.
+   Siyasal değişim zamanlarında saflar kesinleştiği için sıklıkla üçüncü
+   bir yolun olmadığı söylenir. Örneğin başörtüsü meselesinde ya yasakçı
+   söylemin ya da yasak karşıtı söylemin yanındasınız. Anayasa değişikliği
+   tartışmalarında ya statükonun ya değişimin yanındasınız. Aynı bunun gibi
+   Ermeni meselesinde de ya inkârcıların kafilesinde, Talat Paşacıların
+   yanındasınız; ya da mazlumun kimliğine bakmadan ona sahip çıkan
+   Abdullahzade Mehmet Efendi'nin yanında. Çünkü üçüncü yol hâlâ yok."
+
+Bir yıl sonra, 21 Nisan 2011'de "Allah var ve onun gazabından korkun" yazısında yeniden millî şehidi hedef alır:
+
+  "Boğazlıyan Müftüsü Abdullahzade Mehmet Efendi'nin, tehcir
+   sorumlularından olan Boğazlıyan Kaymakamı'na o günlerde 'Allah var ve
+   onun gazabından korkun' demesi bundandır. Bu kadarını bile demekten âciz
+   olduğumuz bugünlerde ben Abdullahzade Mehmet Efendi'nin sözünü tüm ülke
+   Müslümanlarına hatırlatmak isterim: Allah var ve onun gazabından
+   korkun."
+
+Evet; bugün tutanakları okuduğumuzda "Ben bir şey görmedim" diyen müftü. İşte bu müftü.
+
+Sanki İngiliz Muhipler Cemiyeti yeniden dirilmişti. Bu millete hakaretler, küfürler ediliyor; ecdada sövülüp hain övülüyordu. Sanki yeniden sahipsiz, sanki yeniden işgal altındaydık.
+
+Bu ihanet tabii ki ödülsüz kalmaz. 2012 yılında Hilal Kaplan'a ödül vermek için Ermeni diasporası tarafından özel bir tören düzenlenir. Osman Kavala'nın, İngiltere'nin ve ABD'nin İstanbul başkonsolosluklarının katıldığı bu törende Hilal Kaplan'a "üstün hizmetlerinden" dolayı çok teşekkür edilip hemen bir özel ödül de verilir.
+
+
+KAPANIŞ
+-------
+
+Gördüğünüz üzere bu ülkenin hainleri asla bitmeyecek, asla durmayacak. Sormanız gereken soru şu: Biz tarihin hangi tarafında olacağız? Ecdada vefa borcumuzu ödeyebilecek miyiz? "Kim hain, kim kahraman" derken, biz de kahramanın yanında durabilecek miyiz? Dönme dolap olmuş kolektif yargıdan dik çıkabilecek, tarihe omurgalı geçebilecek miyiz?
+
+Ne olmuştu onlara? Makama güvenme, güce aldanma. Hain Nemrut Paşa, kim hatırlar seni? Öldüreyim derken ölümsüz diye çıkardın Mehmet Kemal'i.
