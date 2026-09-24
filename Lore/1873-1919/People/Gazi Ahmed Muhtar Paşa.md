@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Al1-5235-6C52-7E70* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Gazi Ahmed Muhtar Paşa was a marshal and grand vizier. In the Russo-Turkish War (1877-1878) he won several victories on the eastern front but could not stop the Russians, and [[Kars]] fell on 18 November 1877 (Hobart-Hampden, British view). He was later [[Abdülhamid II]]'s special commissioner in Egypt and resisted British proposals for the Sudan frontier in 1886 (Akyıldız; Cox, American view). Bouquet notes he was one of the few who kept the Sultan's trust long, until they fell out.
@@ -218,6 +219,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 130|130]]
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 391|391]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -226,17 +228,11 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Al1-5235-6C52-7E70.jpg|480]]
 *Al1-5235-6C52-7E70*
 
-![[Ahmetmuhtar.jpg|480]]
-*Ahmed Muhtar Pasha, 1910s*
+![[Ahmed Muhtar Pasha.jpg|480]]
+*Ahmed Muhtar Pasha*
 
 ![[Gazi-ahmed-muhtar-pasa-1.jpg|480]]
 *Gazi-ahmed-muhtar-pasa-1*
-
-![[Ahmet muhtar.jpg|480]]
-*Ahmet muhtar*
-
-![[Ahmed Muhtar Pasha.jpg|480]]
-*Ahmed Muhtar Paşa*
 
 ## Related
 

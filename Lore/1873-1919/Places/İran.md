@@ -10,10 +10,6 @@ tags: [place, "1873-1919"]
 
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **52** sources on **628** pages · [[Home]] · [[Timeline]]
 
-<!-- images:start -->
-![[Caucasian albanian stone azerbaijan mingechaur2.jpg|320]]
-*Caucasian albanian stone azerbaijan mingechaur2* — ⚠ Not from vault sources (image: Wikimedia Commons)
-<!-- images:end -->
 
 ## Summary
 
@@ -301,13 +297,6 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 268|268]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 105|105]]
 
-## Images
-
-> [!info] ⚠ Not from vault sources
-> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Qajar_Iran) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Ka%C3%A7ar_Devleti)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
-
-![[Caucasian albanian stone azerbaijan mingechaur2.jpg|480]]
-*Caucasian albanian stone azerbaijan mingechaur2*
 
 ## Related
 

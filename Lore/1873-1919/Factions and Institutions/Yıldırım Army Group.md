@@ -15,6 +15,7 @@ tags: [faction, "1873-1919"]
 *Mustafa Kemal Atatürk as the last commander of the Yıldırım Army Group, with his adjutants, 1918.* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The Yıldırım ('Thunderbolt') Army Group was the German-Ottoman army group commanded by [[Erich von Falkenhayn]] on the Syrian and Palestine fronts. [[Cemal Paşa]] wanted its forces gathered between Damascus and Aleppo and some sent to Palestine. The German Military Mission organised all its supplies up to Aleppo (Sanders). Hüseyin Hüsnü Emir Erkilet wrote a memoir titled *Yıldırım* (Sorguç). At the end of the war Mustafa Kemal commanded it in the [[Adana]] region before returning to [[İstanbul]] after Mudros (Goloğlu; İnan). (Some quotes refer to other uses of 'Yıldırım', such as a [[Bursa]] mosque or the [[Antep]] 'Yıldırım Battalion'.)
@@ -194,6 +195,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kızıltoprak Anıları (Nezih H. Neyzi)|Neyzi, *Kızıltoprak Anıları*]]** (Turkish, 1 p): [[Kızıltoprak Anıları (Nezih H. Neyzi)#p. 260|260]]
 - **[[Türk Halkbilimi (Sedat Veyis Örnek)|Örnek, *Türk Halkbilimi*]]** (Turkish, 1 p): [[Türk Halkbilimi (Sedat Veyis Örnek)#p. 161|161]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 17|17]]
+
 
 ## Images
 

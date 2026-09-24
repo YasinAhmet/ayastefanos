@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The 1915 deportation (*tehcir*) of Armenians is the most sensitive subject in the vault. Bardakçı publishes [[Talat Paşa]]'s own records ('the black book') and argues that writers on both sides lacked access to the architect's papers. He prints the Interior Minister's orders of 24 April 1915 to provinces including [[Erzurum]], [[Adana]] and [[Ankara]]. Deportations in Syria took place in 1916 (Erdinç). After the war, tribunals tried officials: Kemal Bey of Boğazlıyan and Nusret Bey of Bayburt were executed (video transcripts; Akşin; see [[Unionist trials (1919-1920)]]).
@@ -212,6 +213,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 179|179]]
 - **[[Türkiye'de Milli İktisat (Zafer Toprak)|Toprak, *Türkiye'de Milli İktisat*]]** (Turkish, 1 p): [[Türkiye'de Milli İktisat (Zafer Toprak)#p. 169|169]]
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 226|226]]
+
 
 
 

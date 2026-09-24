@@ -14,8 +14,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[1946 Prince Sabahaddin.jpg|320]]
-*Prince Sabahaddin in 1946* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*1946 Prince Sabahaddin* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -168,16 +169,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 281|281]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 691|691]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmed_Sabahaddin) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Prens_Sabahaddin)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[1946 Prince Sabahaddin.jpg|480]]
-*Prince Sabahaddin in 1946*
-
-![[1st Young Turk Congress, 1902.jpg|480]]
-*Birinci Jön Türk Kongresi, 1902*
+*1946 Prince Sabahaddin*
 
 ## Related
 

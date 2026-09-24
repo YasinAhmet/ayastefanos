@@ -18,6 +18,7 @@ tags: [faction, "1873-1919"]
 
 
 
+
 ## Summary
 
 The Committee (later Party) of Union and Progress (*İttihat ve Terakki*) was the secret society, then ruling party, of the [[Young Turks]]. Mustafa Kemal and many officers joined it in Salonika around 1907 (Goloğlu). After the [[Young Turk Revolution (1908)]] its deputies pushed for 'national' banks (Toprak). The [[Raid on the Sublime Porte (1913)]] brought [[Mahmud Şevket Paşa]] to power; after his assassination the CUP ruled directly (Erdinç). It took the empire into the World War under [[Talat Paşa]], [[Enver Paşa]] and [[Cemal Paşa]]. In 1918 it dissolved itself; everyone knew its successor, the Teceddüt Party, was only a new signboard (Bardakçı). Karakol tried to continue it under a new name (Akşin; see Karakol).
@@ -284,6 +285,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 1 p): [[The Armenian File (Kâmuran Gürün)#p. 234|234]]
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 20|20]]
 - **[[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)|Kemal, *Zabit ve Kumandan ile Hasbihal*]]** (Turkish, 1 p): [[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)#p. 13|13]]
+
 
 
 

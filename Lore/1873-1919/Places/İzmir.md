@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Cumhuriyet Square* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 İzmir (Smyrna) was the great port of western Anatolia. The first Bulgarian newspaper, *Lyuboslovye*, was started there by Konstantin Fotinov in 1842 (Ortaylı). Its Greek occupation in May 1919 (see [[Occupation of İzmir (1919)]]) set off the spread of Müdafaa-i Hukuk organisations across the country (Akşin). In Sinop, for example, the national struggle began the day the news arrived (Goloğlu). A satirical song mocked the Unionist years: 'Serbest İzmir, vur davula' (Akşin). In 1926 it gave its name to the [[İzmir assassination plot (1926)]] ([[Kılıç Ali]]).
@@ -318,6 +319,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Naciyem, Ruhum, Efendim (Murat Bardakçı)|Bardakçı, *Naciyem, Ruhum, Efendim*]]** (Turkish, 1 p): [[Naciyem, Ruhum, Efendim (Murat Bardakçı)#p. 229|229]]
 - **[[Neden Biz (Video transcript)|Video, *Neden Biz*]]** (Turkish, 1 loc): [[Neden Biz (Video transcript)#loc. 12|12]]
 - **[[Plevne'de Bir Avustralyalı (Charles S. Ryan)|Ryan, *Plevne'de Bir Avustralyalı*]]** (Australian, 1 p): [[Plevne'de Bir Avustralyalı (Charles S. Ryan)#p. 322|322]]
+
 
 ## Images
 

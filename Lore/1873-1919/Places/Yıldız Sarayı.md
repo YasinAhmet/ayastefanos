@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *A view of the outer gardens at Yıldız Palace* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Yıldız Palace was the residence of [[Abdülhamid II]]. The Sultan's presence there was felt only through its grand gate and high walls (Çelik). Dozens of informers' reports (*jurnal*) arrived every day, some absurd (Bardakçı; see [[Informants and spies (jurnal system)]]). Tahsin Paşa served as chief secretary there for years (Georgeon). In October 1918 Vahdettin moved from Dolmabahçe to Yıldız (Bardakçı).
@@ -200,6 +201,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Mahşerin İki Gemisi - Part I (Video transcript)|Video, *Mahşerin İki Gemisi - Part I*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part I (Video transcript)#loc. 18|18]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 122|122]]
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 67|67]]
+
 
 ## Images
 

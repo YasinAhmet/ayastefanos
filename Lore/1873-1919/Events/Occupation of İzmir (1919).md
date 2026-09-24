@@ -12,9 +12,10 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 15 May 1919 · Found in **10** sources on **42** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Ionia within Greece (1919).png|320]]
-*Ionia within Greece (1919)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Greek army Smyrne 1919.jpg|320]]
+*Greek troops marching on İzmir's coastal street, May 1919* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -118,16 +119,17 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Occupation_of_Smyrna) · [TR Wikipedia](https://tr.wikipedia.org/wiki/%C4%B0zmir%27in_%C4%B0%C5%9Fgali)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Ionia within Greece (1919).png|480]]
-*Ionia within Greece (1919)*
-
 ![[Greek army Smyrne 1919.jpg|480]]
 *Greek troops marching on İzmir's coastal street, May 1919*
+
+![[Ionia within Greece (1919).png|480]]
+*Ionia within Greece (1919)*
 
 ## Related
 

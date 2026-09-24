@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Painting of the Emir of Mount Lebanon Bashir II* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Lübnan (Lebanon) had special status. Druze landlords and Maronite peasants fought for over twenty years before 1860 (Emrence). Ortaylı calls Syria–Lebanon a cosmopolitan culture where modern Arab nationalism grew. Before the war some sought to join Baalbek and the Bekaa to Mount Lebanon with French help ([[Cemal Paşa]]). Allawi says 'Greater Lebanon' could not be created without French protection.
@@ -230,6 +231,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Bu Defa Niçin Harp Edeceğimi Biliyorum (İbrahim Sorguç)|Sorguç, *Bu Defa Niçin Harp Edeceğimi Biliyorum*]]** (Turkish, 1 p): [[Bu Defa Niçin Harp Edeceğimi Biliyorum (İbrahim Sorguç)#p. 15|15]]
 - **[[Büyük Petro (Robert K. Massie)|Massie, *Büyük Petro*]]** (American, 1 p): [[Büyük Petro (Robert K. Massie)#p. 654|654]]
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 186|186]]
+
 
 ## Images
 

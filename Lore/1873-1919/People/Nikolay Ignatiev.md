@@ -10,10 +10,6 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **2** sources on **13** pages · [[Home]] · [[Timeline]]
 
-<!-- images:start -->
-![[Graf Ignatiev 2009 godina.jpg|320]]
-*Count Ignatiev Primary School* — ⚠ Not from vault sources (image: Wikimedia Commons)
-<!-- images:end -->
 
 ## Summary
 
@@ -61,16 +57,6 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Büyük Petro (Robert K. Massie)|Massie, *Büyük Petro*]]** (American, 9 ps): [[Büyük Petro (Robert K. Massie)#p. 806|806]] · [[Büyük Petro (Robert K. Massie)#p. 807|807]] · [[Büyük Petro (Robert K. Massie)#p. 808|808]] · [[Büyük Petro (Robert K. Massie)#p. 809|809]] · [[Büyük Petro (Robert K. Massie)#p. 810|810]] · [[Büyük Petro (Robert K. Massie)#p. 817|817]] · [[Büyük Petro (Robert K. Massie)#p. 844|844]] · [[Büyük Petro (Robert K. Massie)#p. 849|849]] · [[Büyük Petro (Robert K. Massie)#p. 1067|1067]]
 - **[[Osmanlı İmparatorluğu Tarihi (Robert Mantran)|Mantran, *Osmanlı İmparatorluğu Tarihi*]]** (French, 4 ps): [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 635|635]] · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 638|638]] · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 641|641]] · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 946|946]]
 
-## Images
-
-> [!info] ⚠ Not from vault sources
-> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Nikolay_Pavlovich_Ignatyev) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Nikolay_Pavlovi%C3%A7_%C4%B0gnatyev)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
-
-![[Graf Ignatiev 2009 godina.jpg|480]]
-*Count Ignatiev Primary School*
-
-![[Ignatiev.jpg|480]]
-*An Ignatiev monument in Varna*
 
 ## Related
 

@@ -16,6 +16,7 @@ tags: [faction, "1873-1919"]
 *Emblem of the Special Organization* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The Teşkilat-ı Mahsusa ('Special Organisation') was the CUP's secret paramilitary and intelligence body in the World War. It sent officers and teachers to Central Asia (Bardakçı) and units against the British at [[Basra]] ([[Cemal Paşa]]). Mantran (French view) notes its propaganda among Muslims against the Allies. After the war Unionists were accused of having used it for the deportations and other abuses (Bardakçı; Erdinç). Ortaylı links it to wild dreams like 'conquering China'. Hasan Tahsin, who fired the first shot at [[İzmir]] in 1919, was a member (Akşin).
@@ -139,6 +140,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Hafız Hakkı Paşa'nın Sarıkamış Günlüğü (Hafız Hakkı Paşa)|Hakkı Paşa, *Hafız Hakkı Paşa'nın Sarıkamış Günlüğü*]]** (Turkish, 1 p): [[Hafız Hakkı Paşa'nın Sarıkamış Günlüğü (Hafız Hakkı Paşa)#p. 10|10]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 82|82]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 302|302]]
+
 
 ## Images
 

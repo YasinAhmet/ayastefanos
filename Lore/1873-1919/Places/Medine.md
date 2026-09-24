@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Al-Masjid An-Nabawi (Bird's Eye View)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Medine (Medina), the second holy city, came under Ottoman rule when the Ottomans destroyed the Mamluk state in Egypt in 1517 (Allawi). It was the last station of the [[Hicaz]] railway. On the morning of 5 June 1916 the Arab rebels moved against the main Turkish garrisons at Medina and Mecca (Murphy). [[Fahreddin Paşa]] held it through the war; Sanders records failed rebel attacks 60 km south-west of the city. Kula quotes Victor Hugo's 'Sultan Ahmet': 'I would give my crown for Medina'. (Ortaylı's 'Medine-i [[Ankara]]' simply means 'the city of Ankara'.)
@@ -221,6 +222,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 92|92]]
 - **[[Türkiye'de Milli İktisat (Zafer Toprak)|Toprak, *Türkiye'de Milli İktisat*]]** (Turkish, 1 p): [[Türkiye'de Milli İktisat (Zafer Toprak)#p. 686|686]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 40|40]]
+
 
 ## Images
 

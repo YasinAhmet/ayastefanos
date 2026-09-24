@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The [[Erzurum]] Congress opened on 23 July 1919 (Akşin). After being elected chairman, Mustafa Kemal appealed to the nation's patriotism (İnan). He ended his opening speech with a prayer for the Sultan and caliph (Bardakçı). The congress drew a national border within which Turks, Circassians and other Muslims lived as one (Akşin). Its tenth article set up the [[Heyet-i Temsiliye]] (Goloğlu). Kansu calls it a basic stage, but says the [[Sivas]] Congress realised Mustafa Kemal's aims more fully. A rumour said Kurdish chiefs attended and were promised support (Neyzi).
@@ -137,6 +138,7 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -144,6 +146,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Erzurum Kongresi Beyannamesi.jpg|480]]
 *Kongre beyannamesinin orijinal metni.*
+
+![[ErzurumKongresiKararlari.jpg|480]]
+*Monument in Erzurum reproducing the main resolutions of the Erzurum Congress. 1) The motherland is a whole, and cannot be divided. 2) The nation will defend itself and resist against any kind of foreign invasion and inte*
 
 ![[23 Temmuz-9 Ağutos 1919 Erzurum Kongresine katılan Delege Listesi.jpg|480]]
 *23 Temmuz-9 Ağutos 1919 Erzurum Kongresine katılan Delege Listesi*

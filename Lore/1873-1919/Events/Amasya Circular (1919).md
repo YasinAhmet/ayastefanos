@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The [[Amasya]] Circular (*Amasya Tamimi*) of 22 June 1919 was signed by Mustafa Kemal, Refet and Rauf and sent across the country in secret (Goloğlu; Akşin). It called for a congress at [[Sivas]], 'the safest place in Anatolia' (Akşin), which was delayed until after [[Erzurum]]. Delegates were sent under its terms (Goloğlu). Atatürk was 38 at the time. The later [[Amasya]] Protocols (October 1919) with the Istanbul government centred on elections and parliament; the second protocol stated that the armistice borders were the minimum demand (Akşin).
@@ -64,6 +65,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 3 locs): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 6|6]] · [[Sivas Kongresi (Mahmut Goloğlu)#loc. 7|7]] · [[Sivas Kongresi (Mahmut Goloğlu)#loc. 45|45]]
 - **[[Son Meşrutiyet (Sina Akşin)|Akşin, *Son Meşrutiyet*]]** (Turkish, 3 locs): [[Son Meşrutiyet (Sina Akşin)#loc. 43|43]] · [[Son Meşrutiyet (Sina Akşin)#loc. 206|206]] · [[Son Meşrutiyet (Sina Akşin)#loc. 358|358]]
 - **[[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)|İnan, *Atatürk Hakkında Hatıralar ve Belgeler*]]** (Turkish, 1 p): [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 539|539]]
+
 
 
 

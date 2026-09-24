@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Abbas Hilmi II in 1909* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Abbas Hilmi Paşa was the last Khedive of Egypt ('the last khedive', Bardakçı). The firman given to him in 1892 caused objections from Britain and Italy over Egypt's borders (Akyıldız). In the [[Italo-Turkish War (1911-1912)]], Mustafa Kemal met him privately in Cairo, won his moral support for the Tripoli struggle, and travelled to the border on his special train ([[Kılıç Ali]]). Allawi (Iraqi view) notes that Egypt's ruling house was among those eyeing the Syrian throne after the war. Note: other men of the same name appear, such as Colonel Abbas Hilmi of Yanbolu in 1920 (Akşin) and a later Prince Abbas Hilmi of the dynasty (Bardakçı).
@@ -94,6 +95,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Son Osmanlılar (Murat Bardakçı)|Bardakçı, *Son Osmanlılar*]]** (Turkish, 1 p): [[Son Osmanlılar (Murat Bardakçı)#p. 62|62]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 135|135]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -102,11 +104,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[His Highness Abbas Hilmy II.png|480]]
 *Abbas Hilmi II in 1909*
 
-![[Abbas II and George V aboard HMS Medina 1911.jpg|480]]
-*Abbas II with King George V in 1911*
-
-![[Khalili Collection Hajj and Arts of Pilgrimage mss 1190.jpg|480]]
-*Painting commemorating Abbas II's 1909 Hajj pilgrimage, including his portrait on the left*
+![[Abbas Hilmi II.jpg|480]]
+*Abbas Hilmi II*
 
 ## Related
 

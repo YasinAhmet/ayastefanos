@@ -12,6 +12,11 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1889–1949 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **18** sources on **76** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Enver Bey, Hacı Ahmet Pasha, Nuri Bey 1909.jpg|320]]
+*Enver Bey, Hacı Ahmet Pasha, Nuri Bey 1909* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
 ## Summary
 
 Nuri Paşa (Killigil) was [[Enver Paşa]]'s younger brother. In 1918 he commanded the 'Army of Islam' that entered Azerbaijan ([[Bakü]]). [[Kılıç Ali]] served as his chief aide. According to [[Cemal Paşa]]'s editor, he rose to 'Paşa' through 'an arrangement of form'. He later took the surname Killigil, became an arms manufacturer, and during the Second World War promoted 'Pan-Turanism'.
@@ -147,6 +152,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 568|568]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 86|86]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 495|495]]
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Nuri_Killigil) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Nuri_Killigil)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Enver Bey, Hacı Ahmet Pasha, Nuri Bey 1909.jpg|480]]
+*Enver Bey, Hacı Ahmet Pasha, Nuri Bey 1909*
 
 ## Related
 

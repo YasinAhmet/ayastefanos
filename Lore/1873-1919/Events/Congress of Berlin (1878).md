@@ -12,9 +12,10 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1878 · Found in **21** sources on **98** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Bundesarchiv Bild 146-1998-013-20A, Berlin, Reichskanzlei.jpg|320]]
-*Bundesarchiv Bild 146-1998-013-20A, Berlin, Reichskanzlei* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Congress of Berlin, 13 July 1878, by Anton von Werner.jpg|320]]
+*Anton von Werner's painting, Congress of Berlin (1881), depicting the final meeting at the Reich Chancellery on 13 July 1878. Bismarck (representing Germany) is shown in the centre, between Gyula Andrássy (Austria-Hungar* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -180,22 +181,26 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Congress_of_Berlin) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Berlin_Kongresi)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Bundesarchiv Bild 146-1998-013-20A, Berlin, Reichskanzlei.jpg|480]]
-*Bundesarchiv Bild 146-1998-013-20A, Berlin, Reichskanzlei*
-
 ![[Congress of Berlin, 13 July 1878, by Anton von Werner.jpg|480]]
 *Anton von Werner's painting, Congress of Berlin (1881), depicting the final meeting at the Reich Chancellery on 13 July 1878. Bismarck (representing Germany) is shown in the centre, between Gyula Andrássy (Austria-Hungar*
+
+![[Bundesarchiv Bild 146-1998-013-20A, Berlin, Reichskanzlei.jpg|480]]
+*Bundesarchiv Bild 146-1998-013-20A, Berlin, Reichskanzlei*
 
 ![[Edward Stanford 1877.jpg|480]]
 *Pro-Greek ethnic map of the Balkans by Ioannis Gennadius,5 published by the English cartographer E. Stanford in 1877*
 
 ![[Constantinople conference.png|480]]
 *Bulgaria after the Conference of Constantinople, 1876*
+
+![[Ernst-Ravenstein-Balkans-Ethnic-Map-1880.jpg|480]]
+*Ethnic composition map of the Balkans by the German-English cartographer Ernst Georg Ravenstein of 1870*
 
 ## Related
 

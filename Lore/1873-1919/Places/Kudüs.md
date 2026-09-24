@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *16-03-30-Klagemauer Jerusalem RalfR-DSCF7704* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Kudüs (Jerusalem) was a holy city and an Ottoman district. In 1907 its governor Ekrem Bey called Jews arriving from Russia 'dangerous elements' (Ortaylı). The 11th Zionist Congress of 1913 discussed Jerusalem (Akşin). In 1917 [[Cemal Paşa]] feared that if Jerusalem fell the road to Amman would open, and it was lost that December. Kula recalls the Crusaders' massacre of its Jews in 1099. [[Emir Abdullah]] was assassinated there in 1951 (Bardakçı).
@@ -268,6 +269,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı Piyadesi 1914-1918 (David Nicolle)|Nicolle, *Osmanlı Piyadesi 1914-1918*]]** (British, 1 p): [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 11|11]]
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 194|194]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 685|685]]
+
 
 ## Images
 

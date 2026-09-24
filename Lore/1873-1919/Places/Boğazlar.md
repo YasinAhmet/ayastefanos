@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Satellite image of the Bosphorus, taken from the International Space Station in April 2004. The body of water at the top is the Black Sea, the one at the bottom is the Sea of Marmara, and the Bosphorus is the winding ver* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The Boğazlar (Turkish Straits: Bosphorus and Dardanelles) were central to the [[Eastern Question]]. The 1841 convention closed them to warships, ending Russia's gains from Hünkar İskelesi (Akyıldız). Trotsky (Russian view) argued Russian society had the right to discuss the Straits. After 1918 plans existed to take [[İstanbul]] and the Straits out of European rivalry (Akşin). The Soviets wanted prior agreement with Turkey on the Straits (Aralov). In 1945 the USSR's claims on the Straits, [[Kars]] and Ardahan pushed Turkey towards the West (Akşin).
@@ -305,6 +306,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çariçe Katerina (Robert K. Massie)|Massie, *Çariçe Katerina*]]** (American, 1 p): [[Çariçe Katerina (Robert K. Massie)#p. 443|443]]
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 62|62]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 164|164]]
+
 
 ## Images
 

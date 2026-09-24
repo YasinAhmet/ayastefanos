@@ -17,6 +17,7 @@ tags: [person, "1873-1919"]
 *Ahmedniyazibey* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Ahmed Niyazi of Resne was an Albanian adjutant-major whose 'taking to the mountains' began the [[Young Turk Revolution (1908)]]. Goloğlu gives the date as 3 July 1908: Niyazi rose with a band of 160 men, and [[Enver Paşa]] followed with his uncle Halil and friends. Akşin adds that at [[Manastır]] he took with him 200 civilians and 200 soldiers, including the mayor and the police chief. [[Şemsi Paşa]], sent to crush the movement, was shot dead. Rumours that [[Rumeli]] was about to be partitioned (the Reval meeting) were one of his motives.
@@ -114,6 +115,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı İmparatorluğu Tarihi (Robert Mantran)|Mantran, *Osmanlı İmparatorluğu Tarihi*]]** (French, 1 p): [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 952|952]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 495|495]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -123,7 +125,7 @@ Every page where this subject is named. Each number links to that page in the co
 *Ahmedniyazibey*
 
 ![[Ahmed Niyazi Bey.jpg|480]]
-*Niyazi Bey in military gear (post 1908)*
+*Ahmed Niyazi Bey*
 
 ## Related
 

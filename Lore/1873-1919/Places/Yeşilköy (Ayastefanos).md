@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **33** sources on **118** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[HouseOfSanStefanoTreaty.jpg|320]]
-*HouseOfSanStefanoTreaty* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Ayastefanos Rus Abidesi'nin yıkılmış hali.jpg|320]]
+*1914 yılında yıkılan Ayastefanos Rus Abidesi'nin bir görüntüsü.* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -223,16 +224,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 229|229]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 240|240]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ye%C5%9Filk%C3%B6y) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Ye%C5%9Filk%C3%B6y)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[HouseOfSanStefanoTreaty.jpg|480]]
-*HouseOfSanStefanoTreaty*
-
 ![[Ayastefanos Rus Abidesi'nin yıkılmış hali.jpg|480]]
 *1914 yılında yıkılan Ayastefanos Rus Abidesi'nin bir görüntüsü.*
+
+![[HouseOfSanStefanoTreaty.jpg|480]]
+*HouseOfSanStefanoTreaty*
 
 ## Related
 

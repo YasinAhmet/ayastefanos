@@ -11,9 +11,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **18** sources on **151** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Gazi Osman Paşa Heykeli.jpg|320]]
-*Statue of Osman Pasha in Tokat* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[GhaziOsmanPasha.jpg|320]]
+*GhaziOsmanPasha* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -166,16 +167,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 114|114]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 647|647]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Osman_Nuri_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Gazi_Osman_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Gazi Osman Paşa Heykeli.jpg|480]]
-*Statue of Osman Pasha in Tokat*
-
 ![[GhaziOsmanPasha.jpg|480]]
-*Photograph of Osman Nuri Pasha by the brothers Abdullah Frères, ca. 1895*
+*GhaziOsmanPasha*
 
 ## Related
 

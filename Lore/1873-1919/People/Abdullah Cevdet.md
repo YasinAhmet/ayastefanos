@@ -17,6 +17,7 @@ tags: [person, "1873-1919"]
 *Abdullah Dschewdet* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Doctor Abdullah Cevdet was one of the founders of the secret society at the Military Medical School that grew into the [[Committee of Union and Progress]], together with İbrahim Temo. Its main activity was reading [[Namık Kemal]] and other liberal writers together (Akşin). He was arrested in 1895 and exiled to Tripoli. In exile he wrote for *Meşveret* and *Mizan* as 'a Kurd'.
@@ -109,6 +110,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 304|304]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 424|424]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -116,12 +118,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Abdullah Dschewdet.jpg|480]]
 *Abdullah Dschewdet*
-
-![[Abdullah Cevdet darvin karikatürü.png|480]]
-*A cartoon by Abdullah Cevdet "Representative of the Darwin theory"*
-
-![[Abdullah Cevdet ve kerimesi Gül Hanımefendi.png|480]]
-*Abdullah Cevdet and his daughter Gül Karlıdağ*
 
 ## Related
 

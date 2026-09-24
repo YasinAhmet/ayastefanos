@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **34** sources on **143** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Istanbul Üsküdar Belediyesi 0513.jpg|320]]
-*Istanbul Üsküdar Belediyesi 0513* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Beylerbeyi Palace in October 2023.jpg|320]]
+*Beylerbeyi Palace in October 2023* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -221,16 +222,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 132|132]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 147|147]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/%C3%9Csk%C3%BCdar) · [TR Wikipedia](https://tr.wikipedia.org/wiki/%C3%9Csk%C3%BCdar)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Istanbul Üsküdar Belediyesi 0513.jpg|480]]
-*Istanbul Üsküdar Belediyesi 0513*
-
 ![[Beylerbeyi Palace in October 2023.jpg|480]]
 *Beylerbeyi Palace in October 2023*
+
+![[Istanbul Üsküdar Belediyesi 0513.jpg|480]]
+*Istanbul Üsküdar Belediyesi 0513*
 
 ## Related
 

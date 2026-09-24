@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Gertrude Bell in 1909, visiting archaeological excavations in Babylon* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Gertrude Bell was a British official and Orientalist in Iraq. With Lawrence and General Clayton she represented a current in British policy that favoured Arab self-rule (Allawi, Iraqi view). She admired [[Faysal]] to the point of worship, yet was tired of his sudden changes of course (letter of 4 June 1922). Faysal relaxed at private gatherings at her house. On 30 January 1923 she wrote fearfully in her diary about the Turks' approach. In her last year she worked mainly on founding Iraq's first museum. Faysal asked her to look after his family and prepare them for palace life.
@@ -62,6 +63,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Irak Kralı I. Faysal (Ali A. Allawi)|Allawi, *Irak Kralı I. Faysal*]]** (Iraqi, 38 ps): [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 17|17]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 21|21]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 236|236]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 258|258]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 286|286]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 313|313]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 440|440]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 474|474]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 479|479]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 480|480]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 485|485]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 493|493]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 495|495]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 523|523]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 529|529]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 532|532]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 554|554]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 572|572]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 576|576]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 590|590]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 605|605]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 609|609]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 617|617]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 622|622]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 757|757]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 764|764]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 769|769]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 772|772]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 773|773]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 774|774]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 775|775]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 776|776]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 777|777]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 779|779]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 780|780]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 781|781]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 783|783]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 784|784]]
 - **[[Arap İsyanı 1916-1918 (David Murphy)|Murphy, *Arap İsyanı 1916-1918*]]** (Irish, 1 p): [[Arap İsyanı 1916-1918 (David Murphy)#p. 80|80]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -69,18 +71,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[BellK 218 Gertrude Bell in Iraq in 1909 age 41.jpg|480]]
 *Gertrude Bell in 1909, visiting archaeological excavations in Babylon*
-
-![[Gertrude Bell Fattuh 1907.jpg|480]]
-*1907 photograph of Bell and Fattuh, an Arab guide who accompanied her on many of her trips*
-
-![[BinbirkiliseBell.jpg|480]]
-*Bell's workers at the Binbirkilise excavations in 1907*
-
-![[Gates of Ha'il.jpg|480]]
-*A picture, taken by Bell in 1913, of the gates of Ha'il which was then part of the Rashidi Emirate*
-
-![[Harry St. John Bridger Philby.jpg|480]]
-*St John Philby. Philby would later fall out with Bell and Faisal in 1921; he supported a republic for Iraq, and later served Ibn Saud in what would become Saudi Arabia.47*
 
 ## Related
 

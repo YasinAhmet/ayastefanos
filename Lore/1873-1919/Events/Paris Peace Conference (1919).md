@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The Paris Peace Conference met from early 1919 (see [[Paris]]). Its Greek Affairs Commission recommended giving Thrace to Greece, and the people of [[Edirne]] answered with a pamphlet of 16 March 1919 arguing that Thrace was Turkish (Goloğlu). The Ottoman government applied through the French High Commission to send a delegation (Akşin). On 16 July the conference made clear it would not soften its terms (Akşin). Lawrence and [[Faysal]] worked hard in Paris to win American friendship (Allawi, Iraqi view). Pisani supported the Arab cause there (Murphy). The later Lausanne Conference opened on 20 November 1922 (Akşin; see [[Treaty of Lausanne (1923)]]).
@@ -192,6 +193,7 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -200,8 +202,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Dignitaries gathering in the Hall of Mirrors at the Palace of Versailles, France, to sign the Treaty of Versailles.jpg|480]]
 *Dignitaries gathering in the Hall of Mirrors at the Palace of Versailles, France, to sign the Treaty of Versailles*
 
-![[Ile-de-France region location map.png|480]]
-*Ile-de-France region location map*
+![[Img010GeneralBougrain.jpg|480]]
+*Img010GeneralBougrain*
 
 ![[Map of league of nations mandate.png|480]]
 *Mandates of the League of Nations*

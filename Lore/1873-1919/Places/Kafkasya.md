@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Topography of the Caucasus* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Kafkasya (the Caucasus) was the eastern frontier with Russia and a theatre of war (see [[Caucasus Front]]). Karabekir's reply to Mustafa Kemal about the Caucasus caused friction (Akşin). Armenian advances there were a nationalist concern (Kansu). Enver went there after the war (Erdinç), and Nuri Paşa after Baku (Bardakçı). Aralov (Russian view) notes British–American rivalry in the South Caucasus in 1919. Tonguç, returning from captivity, was warned that travelling via Kazan to the Caucasus was dangerous.
@@ -289,6 +290,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 241|241]]
 - **[[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)|Kemal, *Zabit ve Kumandan ile Hasbihal*]]** (Turkish, 1 p): [[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)#p. 74|74]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 4|4]]
+
 
 ## Images
 

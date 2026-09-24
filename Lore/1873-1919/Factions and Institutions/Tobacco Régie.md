@@ -15,6 +15,7 @@ tags: [faction, "1873-1919"]
 *23 Haziran 1892 tarihli Servet-i Fünun dergisinde Osmanlı Bankası Reji İdaresi* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The Tobacco Régie (*Reji*) held the tobacco monopoly; its revenue went to the Public Debt (Goloğlu). Its armed guards clashed with smugglers: a folk song mourned a smuggler killed by Régie guards at Çankırı (video transcripts). Only the Debt and Régie kept real statistics on taxed goods (Yalman). The writer Ahmed Samim worked there (Akşin). In 1920 [[Ankara]] ordered its offices to cut ties with [[İstanbul]].
@@ -164,6 +165,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Son Meşrutiyet (Sina Akşin)|Akşin, *Son Meşrutiyet*]]** (Turkish, 1 loc): [[Son Meşrutiyet (Sina Akşin)#loc. 486|486]]
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 207|207]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 164|164]]
+
 
 ## Images
 

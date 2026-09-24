@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **24** sources on **129** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Iss016e019375.jpg|320]]
-*Iss016e019375* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Aerial view of city of Suez and Suez Canal.jpg|320]]
+*Aerial view of city of Suez and Suez Canal* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -172,16 +173,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 264|264]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 310|310]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Suez_Canal) · [TR Wikipedia](https://tr.wikipedia.org/wiki/S%C3%BCvey%C5%9F_Kanal%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Iss016e019375.jpg|480]]
-*Iss016e019375*
-
 ![[Aerial view of city of Suez and Suez Canal.jpg|480]]
 *Aerial view of city of Suez and Suez Canal*
+
+![[Iss016e019375.jpg|480]]
+*Iss016e019375*
 
 ![[Canal of the Pharaohs Map-en.png|480]]
 *Canal of the Pharaohs, which followed Wadi Tumilat*

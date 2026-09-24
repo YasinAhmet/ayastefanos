@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Alexander Mikhailovich Gorchakov* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The quotations here concern mostly General Mikhail Gorchakov, commander of the Russian armies on the Danube in 1853–54. On 30 June 1853 he gave Nicholas I a 'Guide to War with the Turks', noting that the Ottomans had destroyed their old army (Badem). On 10 October 1853 he replied to [[Ömer Paşa]]'s ultimatum that he had no authority to withdraw, so legally the war began (Badem). Badem also notes criticism of his poor handling of the small forces in Little Wallachia. Note: Prince Alexander Gorchakov, the Russian foreign minister, appears at the 1876 [[Berlin]] meeting of the three emperors' ministers (Mantran).
@@ -63,6 +64,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Enver (Murat Bardakçı)|Bardakçı, *Enver*]]** (Turkish, 1 p): [[Enver (Murat Bardakçı)#p. 762|762]]
 - **[[Osmanlı İmparatorluğu Tarihi (Robert Mantran)|Mantran, *Osmanlı İmparatorluğu Tarihi*]]** (French, 1 p): [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 633|633]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -71,8 +73,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Alexander Mikhailovich Gorchakov.jpg|480]]
 *Alexander Mikhailovich Gorchakov*
 
-![[Gorchakov by Pushkin.png|480]]
-*Pushkin's doodle representing Alexander Gorchakov*
+![[AM Gorchakov by Bogatsky crop.jpg|480]]
+*AM Gorchakov by Bogatsky crop*
 
 ## Related
 

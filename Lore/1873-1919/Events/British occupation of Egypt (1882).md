@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The British occupation of Egypt followed the Urabi revolt. In April 1881 a commission under Urabi was formed (Akyıldız). Abdülhamid considered sending fifteen battalions from [[Rumeli]], but hesitated (Akyıldız; video transcripts). The bombardment of Alexandria and British occupation followed, and Urabi was tried; Akyıldız rejects the claim that Urabi had always been a British tool. The Canal campaigns of 1915 failed to take Egypt back ([[Cemal Paşa]]'s editor).
@@ -76,6 +77,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Mahşerin İki Gemisi - Part II (Video transcript)|Video, *Mahşerin İki Gemisi - Part II*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 15|15]]
 - **[[Son Meşrutiyet (Sina Akşin)|Akşin, *Son Meşrutiyet*]]** (Turkish, 1 loc): [[Son Meşrutiyet (Sina Akşin)#loc. 136|136]]
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 240|240]]
+
 
 
 

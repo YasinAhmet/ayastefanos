@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *The Danube basin* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Tuna (the Danube) was the Ottoman–Russian war frontier. In the Crimean War Gorchakov commanded there (Badem). In 1877 the Russians crossed the Danube on 27 June and the Balkan range on 14–19 July without serious resistance (video transcripts). Ryan (Australian view) describes strong Ottoman forts on the river. Hobart's gunboats served on the Danube front.
@@ -234,6 +235,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 29|29]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 85|85]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -247,9 +249,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Donauquelle Donaueschingen im Sommer.jpg|480]]
 *The symbolical source of the Danube in Donaueschingen: the source of the Donaubach (Danube Brook), which flows into the Brigach.*
-
-![[Donaueschingen Donauzusammenfluss 20080714.jpg|480]]
-*Donaueschingen Donauzusammenfluss 20080714*
 
 ## Related
 

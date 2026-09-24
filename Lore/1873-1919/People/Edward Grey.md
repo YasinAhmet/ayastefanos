@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Edward Grey 1914* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Sir Edward Grey was British Foreign Secretary before and in the early [[First World War]]. He signed a secret declaration with Hakkı Paşa over the Gulf (Akyıldız). In the Italian war he said Italy had only occupied, not annexed, Rhodes (Childs). In the Balkan crisis he warned the Ottoman envoy, 'If you go to [[Edirne]] you will lose [[İstanbul]] too' (Talat). He said Britain could not return to Lord Beaconsfield's old pro-Turkish policy (Akşin). In December 1913 he raised Russian concern over [[Liman von Sanders]]'s command (Sanders). The Sykes–Picot terms were set in his note to the French ambassador (Allawi).
@@ -124,6 +125,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 18|18]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 188|188]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -132,8 +134,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Edward Grey 1914.jpg|480]]
 *Edward Grey 1914*
 
-![[1stViscountGreyOFFallodonOld.jpg|480]]
-*Lord Grey of Fallodon*
+![[Edward Grey 5 February 1903.jpg|480]]
+*Grey caricatured by Spy for Vanity Fair, 1903*
 
 ## Related
 

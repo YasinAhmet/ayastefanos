@@ -10,6 +10,11 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **8** sources on **46** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Demyan Bedny and Leon Trotsky.jpg|320]]
+*Demyan Bedny and Leon Trotsky* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
 ## Summary
 
 Leon Trotsky was a revolutionary and war correspondent. His Balkan War reports, *Balkan Savaşları*, are one of the vault's sources (Russian view). As early as 1909 he wrote that the Balkans were 'Europe's Pandora's box'. He escaped from Siberian exile in 1907. As the Bolsheviks' first Foreign Commissar he published the secret treaties, including Sykes–Picot (Allawi). Talat met him at Brest-Litovsk and disliked him intensely (Talat's memoir). In 1929, after his break with Stalin, he lived on Büyükada before going to Mexico (Reisman).
@@ -101,6 +106,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Irak Kralı I. Faysal (Ali A. Allawi)|Allawi, *Irak Kralı I. Faysal*]]** (Iraqi, 2 ps): [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 170|170]] · [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 806|806]]
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 2 locs): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 21|21]] · [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 437|437]]
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 1 p): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 162|162]]
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Leon_Trotsky) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Lev_Tro%C3%A7ki)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Demyan Bedny and Leon Trotsky.jpg|480]]
+*Demyan Bedny and Leon Trotsky*
 
 ## Related
 

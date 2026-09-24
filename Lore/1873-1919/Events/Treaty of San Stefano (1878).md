@@ -12,9 +12,10 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 3 March 1878 · Found in **14** sources on **27** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Bulgaristan - Ayastefanos (1878).png|320]]
-*Ayastefanos Antlaşması'na göre Bulgaristan'ın sınırları* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[HouseOfSanStefanoTreaty.jpg|320]]
+*The Treaty was signed in this house of the Simenoğlu (Simeonoglou) family in Yeşilköy.* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -126,10 +127,14 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Treaty_of_San_Stefano) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Ayastefanos_Antla%C5%9Fmas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[HouseOfSanStefanoTreaty.jpg|480]]
+*The Treaty was signed in this house of the Simenoğlu (Simeonoglou) family in Yeşilköy.*
 
 ![[Bulgaristan - Ayastefanos (1878).png|480]]
 *Ayastefanos Antlaşması'na göre Bulgaristan'ın sınırları*
@@ -139,9 +144,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Constantinople conference.png|480]]
 *Bulgaria after the Conference of Constantinople, 1876*
-
-![[HouseOfSanStefanoTreaty.jpg|480]]
-*The Treaty was signed in this house of the Simenoğlu (Simeonoglou) family in Yeşilköy.*
 
 ## Related
 

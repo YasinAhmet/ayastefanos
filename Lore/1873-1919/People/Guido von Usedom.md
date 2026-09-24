@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Admiral v Usedom* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Admiral Guido von Usedom, famous from the China expedition, came to [[İstanbul]] in late summer 1914. He was made inspector-general of coastal artillery and mines, and then commanded the forts of the Dardanelles and the Bosphorus (Sanders, German view). A special German naval unit under him served in the forts and batteries. The video transcripts describe the German quarrels: Usedom told Enver that Goltz's reports home misled other German leaders, while Liman complained to Enver of Usedom's ignorance of war.
@@ -63,6 +64,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Hafız Hakkı Paşa'nın Sarıkamış Günlüğü (Hafız Hakkı Paşa)|Hakkı Paşa, *Hafız Hakkı Paşa'nın Sarıkamış Günlüğü*]]** (Turkish, 2 ps): [[Hafız Hakkı Paşa'nın Sarıkamış Günlüğü (Hafız Hakkı Paşa)#p. 82|82]] · [[Hafız Hakkı Paşa'nın Sarıkamış Günlüğü (Hafız Hakkı Paşa)#p. 153|153]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 2 locs): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 8|8]] · [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 10|10]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -71,14 +73,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Admiral v Usedom.jpg|480]]
 *Admiral v Usedom*
 
-![[Germans to the front.jpg|480]]
-*The German expeditionary force under Usedom's leadership*
-
 ![[Kaiser Wilhelm II in Gallipoli.jpg|480]]
-*Usedom (far left) as an admiral in Turkish uniform accompanies Kaiser Wilhelm II and Enver Pasha across the battlefield of Gallipoli. On the far right the delegate of the fleet command and commander of all floating equip*
-
-![[HMS Irresistible abandoned 18 March 1915.jpg|480]]
-*The British battleship Irresistible sinks after a mine hit in the Dardanelles*
+*Kaiser Wilhelm II in Gallipoli*
 
 ## Related
 

@@ -12,8 +12,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[Gladstone's Cabinet of 1868 by Lowes Cato Dickinson.jpg|320]]
-*Gladstone's Cabinet of 1868, painted by Lowes Cato Dickinson.87 Use a cursor to see who is who.88* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*Gladstone's Cabinet of 1868 by Lowes Cato Dickinson* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -124,13 +125,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Son Meşrutiyet (Sina Akşin)|Akşin, *Son Meşrutiyet*]]** (Turkish, 1 loc): [[Son Meşrutiyet (Sina Akşin)#loc. 300|300]]
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 535|535]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/William_Ewart_Gladstone) · [TR Wikipedia](https://tr.wikipedia.org/wiki/William_Ewart_Gladstone)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[Gladstone's Cabinet of 1868 by Lowes Cato Dickinson.jpg|480]]
-*Gladstone's Cabinet of 1868, painted by Lowes Cato Dickinson.87 Use a cursor to see who is who.88*
+*Gladstone's Cabinet of 1868 by Lowes Cato Dickinson*
 
 ## Related
 

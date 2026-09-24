@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *The remains of the Kamenica Tumulus in the county of Korçë* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Arnavutluk (Albania) was a restless Balkan region in the last Ottoman decades. Revolts in northern Albania in 1911, which Turgut Şevket tried to crush, added to the CUP's problems (Childs, American view). Albanians set up many organisations in Albania and Macedonia to spread their movement (Akşin). Mustafa Kemal served in the Albanian campaign (Kemal). In the Balkan War the Ottomans first accepted autonomy for Albania and Macedonia (Akşin). Hochwächter notes that the Albanian wars had drained manpower.
@@ -238,6 +239,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 3|3]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 107|107]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 118|118]]
+
 
 ## Images
 

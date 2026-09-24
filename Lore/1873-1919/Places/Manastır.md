@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **30** sources on **201** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Ambientalna ulica Marsal Tito-Bitola (10).jpg|320]]
-*Ambientalna ulica Marsal Tito-Bitola (10)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Greek demonastration Bitola 1908.jpg|320]]
+*Greek demonastration Bitola 1908* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -196,19 +197,20 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 62|62]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 20|20]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Bitola) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Manast%C4%B1r%2C_Kuzey_Makedonya)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Greek demonastration Bitola 1908.jpg|480]]
+*Greek demonastration Bitola 1908*
 
 ![[Ambientalna ulica Marsal Tito-Bitola (10).jpg|480]]
 *Ambientalna ulica Marsal Tito-Bitola (10)*
 
 ![[Bitola 019.jpg|480]]
 *Bitola 019*
-
-![[Bitola 055.jpg|480]]
-*Bitola 055*
 
 ## Related
 

@@ -4,10 +4,16 @@
   "tr": "Hilâfet",
   "images": [
    {
-    "file": "First_Islamic_coins_by_caliph_Uthman-mohammad_adil_rais.jpg",
+    "file": "Sultan_Abdul_Hamid_II_of_the_Ottoman_Empire.jpg",
     "caption": "",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "The_Sheik-ul-Islam_proclaiming_the_holy_war_in_Constantinople_-_NYT_-_December_31_1914.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Rashidun_coin_Pseudo-Byzantine_types.jpg",
@@ -32,12 +38,6 @@
     "caption": "Mustansiriya Madrasah in Baghdad",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Califato_de_Córdoba_-_1000-en.svg",
-    "caption": "Map of the Caliphate of Cordoba c. 1000",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -46,10 +46,16 @@
   "tr": "Osmanlı İmparatorluğu kapitülasyonları",
   "images": [
    {
+    "file": "Serveti_funun-1914-09-17-1_Kapitulasyonlarin_Kaldirilmazi.jpg",
+    "caption": "17 Eylül 1914 tarihli Servet-i Fünun dergisinde Kapitülasyonların kaldırılması mitinglerinden bir görüntü.",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "16th_century_copy_of_the_1569_Capitulations_between_Charles_IX_and_Selim_II.jpg",
     "caption": "16th century copy of the 1569 capitulations between Charles IX and Selim II",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Draft_of_the_1536_Treaty_negotiated_between_Jean_de_La_Forest_and_Ibrahim_Pacha_expanding_to_the_whole_Ottoman_Empire_the_privileges_received_in_Egypt_from_the_Mamluks_before_1518.jpg",
@@ -67,12 +73,6 @@
     "file": "Stamp_French_PO_Turkish_1885_1pi.jpg",
     "caption": "1 piaster overprint on 25-centime Type Sage, used at the French Post Office, Beirut in December 1885",
     "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Serveti_funun-1914-09-17-1_Kapitulasyonlarin_Kaldirilmazi.jpg",
-    "caption": "17 Eylül 1914 tarihli Servet-i Fünun dergisinde Kapitülasyonların kaldırılması mitinglerinden bir görüntü.",
-    "lang": "tr",
     "infobox": false
    }
   ]
@@ -124,16 +124,16 @@
   "tr": null,
   "images": [
    {
+    "file": "Bulgaristan'dan_göç_eden_Türkler_(1912).jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Epidemic_Typhus._Macular_rash.png",
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Epidemic_typhus_Burundi.jpg",
-    "caption": "Rash caused by epidemic typhus in Burundi",
-    "lang": "en",
-    "infobox": false
    },
    {
     "file": "DDT_WWII_soldier.jpg",
@@ -190,9 +190,21 @@
   "tr": "Osmanlı ordusu (modern dönem)",
   "images": [
    {
-    "file": "Coat_of_arms_of_the_Ottoman_Empire_(1882–1922).svg",
+    "file": "Battle_Sarikamis_winter_gear.png",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Makinali_Tüfek.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Israel_in_World_War_I_-_Ottomans_soldiers_with_machine_gun_H_OP_039.JPG",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -209,18 +221,6 @@
    },
    {
     "file": "Paris-_Ernest_Bourdin,_1854_Raffet,_Auguste_(artist)_image_4th_in_collection_of_4_col._lith._pl._by_Riffault_after_Raffet;_three_uniform_figures_of_Turkish_infantrymen,_standing,_with_more_in_background..jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Schlacht_bei_Cetate.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Distribution_of_the_Medjidie,_After_the_Battle_of_Citate.jpg",
     "caption": "",
     "lang": "en",
     "infobox": false
@@ -272,7 +272,14 @@
  "National economy (Milli İktisat)": {
   "en": "National economy (Turkey)",
   "tr": "Millî İktisat",
-  "images": []
+  "images": [
+   {
+    "file": "Serveti_funun-1914-09-17-1_Kapitulasyonlarin_Kaldirilmazi.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   }
+  ]
  },
  "Orientalism": {
   "en": "Orientalism",
@@ -363,6 +370,24 @@
   "tr": "Osmanlı İmparatorluğu'nda basın",
   "images": [
    {
+    "file": "İkdam,_4_Kasım_1918.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "L'Étoile_du_Bosphore_6_janvier_1892.jpg",
+    "caption": "L'Étoile du Bosphore'un 6 Ocak 1892 tarihli sayısının ilk sayfası",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Akhtar_-_1294.pdf",
+    "caption": "Reprint of year three (January 1877-January 1878) of Akhtar (\"The Star\"), a newspaper in Persian",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Takvimi_vekayi_1831.jpg",
     "caption": "",
     "lang": "en",
@@ -375,26 +400,8 @@
     "infobox": false
    },
    {
-    "file": "Akhtar_-_1294.pdf",
-    "caption": "Reprint of year three (January 1877-January 1878) of Akhtar (\"The Star\"), a newspaper in Persian",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "EPTALOFOS-NEA-1865-Jul-Dec.pdf",
     "caption": "Dönemin Yunan gazetesi Konstantinoupolis",
-    "lang": "tr",
-    "infobox": false
-   },
-   {
-    "file": "L'Étoile_du_Bosphore_6_janvier_1892.jpg",
-    "caption": "L'Étoile du Bosphore'un 6 Ocak 1892 tarihli sayısının ilk sayfası",
-    "lang": "tr",
-    "infobox": false
-   },
-   {
-    "file": "Description_de_l´Egypte_1.jpg",
-    "caption": "Mısır'daki Fransız hakimiyeti sırasında birçok eserin çıkmasından sorumlu olan Mısır Bilim ve Sanat Komisyonu (Commission des sciences et arts d'Egypte)[50]",
     "lang": "tr",
     "infobox": false
    }
@@ -405,10 +412,22 @@
   "tr": "Osmanlıcılık",
   "images": [
    {
+    "file": "Declaration_of_the_1908_Revolution_in_Ottoman_Empire.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Greek_lithograph_celebrating_the_Ottoman_Constitution.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "London_news_c1877_-_scanned_constantinopole(1996)-Opening_of_the_first_parlement.png",
     "caption": "Opening of the first Ottoman Parliament after the proclamation of the Ottoman Constitution of 1876",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Şinasi-1.2_V01-1.1_cropped_and_cleaned.jpg",
@@ -427,12 +446,6 @@
     "caption": "Şair, roman ve tiyatro yazarı, gazeteci Namık Kemal",
     "lang": "tr",
     "infobox": false
-   },
-   {
-    "file": "Mustafa_reshid_pasha.jpg",
-    "caption": "Koca Mustafa Reşit Paşa, Sultan Abdülmecid'in emriyle Gülhane Hatt-ı Şerif-î'ni hazırlayarak 3 Kasım 1839 tarihinde ilân etmiştir.",
-    "lang": "tr",
-    "infobox": false
    }
   ]
  },
@@ -441,10 +454,16 @@
   "tr": "Ümmetçilik",
   "images": [
    {
-    "file": "Islam_by_country.svg",
-    "caption": "Islam by country: .mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{} Sunni Shia Ibadi",
-    "lang": "en",
-    "infobox": false
+    "file": "The_Sheik-ul-Islam_proclaiming_the_holy_war_in_Constantinople_-_NYT_-_December_31_1914.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Hejaz_railway.svg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
    }
   ]
  },
@@ -495,15 +514,15 @@
   "tr": "Ramazan",
   "images": [
    {
-    "file": "Breaking_the_Fast_(2)_(27351979537).jpg",
+    "file": "Crescent_moon_-_Hilal.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Crescent_moon_-_Hilal.jpg",
+    "file": "Breaking_the_Fast_(2)_(27351979537).jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -537,20 +556,20 @@
   "tr": "Muhacir",
   "images": [
    {
-    "file": "Muhajir.jpg",
-    "caption": "Muhacirs arriving in Istanbul crossing the Galata Bridge, Ottoman Empire, in 1912, with the New Mosque in the background",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "Distribution_of_clothing_to_Turkish_Refugees_at_Shumla.png",
     "caption": "Distribution of clothing to Turkish refugees at Shumla, 1877",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Bulgaristan'dan_göç_eden_Türkler_(1912).jpg",
     "caption": "Turkish immigrants from Bulgaria arriving in Anatolia in 1912",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Muhajir.jpg",
+    "caption": "Muhacirs arriving in Istanbul crossing the Galata Bridge, Ottoman Empire, in 1912, with the New Mosque in the background",
     "lang": "en",
     "infobox": false
    },
@@ -699,10 +718,22 @@
   "tr": "Türkçülük",
   "images": [
    {
-    "file": "Grey_Wolves_Gokturk_Flag.svg",
-    "caption": "Flag misattributed to the Turkic Khaganate[a]",
-    "lang": "en",
-    "infobox": false
+    "file": "Yeni_Mecmua_(1917)_1._sayfa.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Yeni_Atilla.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Map_of_Turkic_languages.svg",
+    "caption": "Herhangi bir Türk dilinin resmî dil olduğu ülke ve bölgeler",
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "PanTurkishRally.JPG",
@@ -714,18 +745,6 @@
     "file": "Map_of_Independent_Turkic_countries.svg",
     "caption": "Azerbaijan and Turkey promote their vision of a land corridor through Armenian territory as a means of \"uniting the Turkic world\"[52][53]",
     "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Action_dedicated_to_the_events_in_Guba_at_the_beginning_of_the_20th_century.jpg",
-    "caption": "Pan-Turkic rally in Quba, 2011",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Map_of_Turkic_languages.svg",
-    "caption": "Herhangi bir Türk dilinin resmî dil olduğu ülke ve bölgeler",
-    "lang": "tr",
     "infobox": false
    },
    {
@@ -741,15 +760,27 @@
   "tr": "31 Mart Vakası",
   "images": [
    {
-    "file": "Jungtürkische_Parlamentsmitglieder_in_Saloniki,_1909.jpg",
-    "caption": "",
-    "lang": "en",
+    "file": "Action_Army_marching_on_Makri_Keuy.jpg",
+    "caption": "Action Army forces marching on Bakırköy",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Selanik_Army_Enters_Istanbu_1909l.jpg",
     "caption": "",
-    "lang": "tr",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Tashkishla_1909.jpg",
+    "caption": "Taşkışla barracks at Taksim following the suppression of the uprising",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Jungtürkische_Parlamentsmitglieder_in_Saloniki,_1909.jpg",
+    "caption": "",
+    "lang": "en",
     "infobox": true
    },
    {
@@ -761,18 +792,6 @@
    {
     "file": "Hasan_fehmi_bey.jpg",
     "caption": "The murder of Hasan Fehmi, editor-in-chief of the anti-CUP newspaper Serbestî, in the days preceding the mutiny acted as a catalyst for unrest.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Tashkishla_1909.jpg",
-    "caption": "Taşkışla barracks at Taksim following the suppression of the uprising",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Action_Army_marching_on_Makri_Keuy.jpg",
-    "caption": "Action Army forces marching on Bakırköy",
     "lang": "en",
     "infobox": false
    }
@@ -881,7 +900,13 @@
    {
     "file": "AdanaChristianQuarter.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Adanamass.PNG",
+    "caption": "An Armenian town pillaged and destroyed during the Adana massacre.",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -893,12 +918,6 @@
    {
     "file": "Henry_K._Carroll_of_the_Boards_of_Foreign_Missions_pleading_to_the_secretary_of_state_for_protection_of_Christians_with_the_Ottoman_Empire.png",
     "caption": "Henry K. Carroll of the Boards of Foreign Missions pleading to the US Secretary of State for protection of Christians with the Ottoman Empire.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Adanamass.PNG",
-    "caption": "An Armenian town pillaged and destroyed during the Adana massacre.",
     "lang": "en",
     "infobox": false
    },
@@ -923,8 +942,8 @@
    {
     "file": "Amasya_Genelgesi.pdf",
     "caption": "Original text of the Amasya Circular",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "SarayduzuKislasi.jpg",
@@ -941,7 +960,13 @@
    {
     "file": "030Arab.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Lcamel.jpg",
+    "caption": "Lawrence of Arabia after the Battle of Aqaba.",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -963,12 +988,6 @@
     "infobox": false
    },
    {
-    "file": "Lcamel.jpg",
-    "caption": "Lawrence of Arabia after the Battle of Aqaba.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "Hejaz_railway.svg",
     "caption": "The Hejaz railway, on the Damascus-Mecca pilgrim route, built at great expense by the Ottoman Empire in the early 20th century. It quickly fell into disrepair after the Arab revolt of 1917.",
     "lang": "en",
@@ -983,13 +1002,13 @@
    {
     "file": "Column_of_deportees_walking_through_Harput_vilayet_during_the_Armenian_genocide_(cropped).jpg",
     "caption": "Column of Armenian deportees guarded by gendarmes in Harput vilayet",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Marcharmenians.jpg",
     "caption": "Osmanlı askerleri eşliğinde Harput'tan Mezire (günümüzde Elâzığ) yakınındaki bir hapishaneye götürülen Ermeni savaş esirleri ve iş birlikçi olduğundan şüphelenilen kişiler. Nisan 1915",
-    "lang": "tr",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -1061,14 +1080,14 @@
    {
     "file": "Agamemnon_at_Mudros.jpg",
     "caption": "HMS Agamemnon on an earlier visit to Mudros during the Dardanelles campaign in 1915.",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Aspiotis_Moudros_Fleet.jpg",
     "caption": "The English-French fleet at the bay of Moudros",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Arabia_Armistice_Mudros.png",
@@ -1085,7 +1104,19 @@
    {
     "file": "Luleburgaz_Battle_Postcard.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Bulgarian_army_adrinople.jpg",
+    "caption": "Bulgarian forces waiting to start their assault on Adrianople",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Balkan_troubles1.jpg",
+    "caption": "A Punch cartoon of October 2, 1912, by English cartoonist Leonard Raven-Hill depicting Britain, France, Germany, Austria-Hungary, and Russia sitting on a lid on top of a pot marked \"Balkan Troubles\", satirizing the situation in the Balkans leading up to the First Balkan War",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -1101,20 +1132,8 @@
     "infobox": false
    },
    {
-    "file": "Balkan_troubles1.jpg",
-    "caption": "A Punch cartoon of October 2, 1912, by English cartoonist Leonard Raven-Hill depicting Britain, France, Germany, Austria-Hungary, and Russia sitting on a lid on top of a pot marked \"Balkan Troubles\", satirizing the situation in the Balkans leading up to the First Balkan War",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "Meurtre_de_Nazim_Pacha_illustration,_9_February_1913.jpg",
     "caption": "Nazım Pasha, the chief of staff of the Ottoman army, was assassinated in January 1913 by Young Turks due to his failure.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Bulgarian_army_adrinople.jpg",
-    "caption": "Bulgarian forces waiting to start their assault on Adrianople",
     "lang": "en",
     "infobox": false
    }
@@ -1305,26 +1324,26 @@
   "tr": "Anglo-Mısır Savaşı (1882)",
   "images": [
    {
-    "file": "Carte_d'Égypte,_pour_suivre_les_opérations_militaires,_éditée_par_\"l'Armée_française\"_et_\"la_Petite_République_française\"_-_btv1b8438932f.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
     "file": "VOGT(1883)_p245_BOMBARDEMENT_OF_ALEXANDRIA_-_JULY_1882.jpg",
     "caption": "Bombardment of Alexandria",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "VOGT(1883)_ALEXANDRIA_AND_THE_NILE-DELTA.jpg",
-    "caption": "The Seat of War – Alexandria and the Nile-Delta (1882)",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "VOGT(1883)_p247_BATTLE_OF_TEL-EL-KEBIR_(1882).jpg",
     "caption": "Tell El Kebir",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Carte_d'Égypte,_pour_suivre_les_opérations_militaires,_éditée_par_\"l'Armée_française\"_et_\"la_Petite_République_française\"_-_btv1b8438932f.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "VOGT(1883)_ALEXANDRIA_AND_THE_NILE-DELTA.jpg",
+    "caption": "The Seat of War – Alexandria and the Nile-Delta (1882)",
     "lang": "en",
     "infobox": false
    }
@@ -1335,15 +1354,21 @@
   "tr": "Kafkasya Cephesi",
   "images": [
    {
-    "file": "Caucasus_campaign.jpg",
+    "file": "WW1_TitlePicture_For_Caucasus_Campaign.png",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "WW1_TitlePicture_For_Caucasus_Campaign.png",
+    "file": "Caucasus_campaign.jpg",
     "caption": "",
-    "lang": "tr",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Battle_Sarikamis_winter_gear.png",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -1354,12 +1379,6 @@
    },
    {
     "file": "Staff_of_armenian_volunteers_1914.png",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Battle_Sarikamis_winter_gear.png",
     "caption": "",
     "lang": "en",
     "infobox": false
@@ -1377,16 +1396,16 @@
   "tr": "Berlin Kongresi",
   "images": [
    {
-    "file": "Bundesarchiv_Bild_146-1998-013-20A,_Berlin,_Reichskanzlei.jpg",
-    "caption": "",
-    "lang": "tr",
+    "file": "Congress_of_Berlin,_13_July_1878,_by_Anton_von_Werner.jpg",
+    "caption": "Anton von Werner's painting, Congress of Berlin (1881), depicting the final meeting at the Reich Chancellery on 13 July 1878. Bismarck (representing Germany) is shown in the centre, between Gyula Andrássy (Austria-Hungary) and Pyotr Shuvalov (Russia). On the left are Alajos Károlyi (Austria-Hungary), Alexander Gorchakov (Russia) (seated) and Benjamin Disraeli (Great Britain). On the far right is the Ottoman delegation; showing from left to right, Sadullah Pasha, Karatheodori Pasha, and Mehmed Ali Pasha.",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Congress_of_Berlin,_13_July_1878,_by_Anton_von_Werner.jpg",
-    "caption": "Anton von Werner's painting, Congress of Berlin (1881), depicting the final meeting at the Reich Chancellery on 13 July 1878. Bismarck (representing Germany) is shown in the centre, between Gyula Andrássy (Austria-Hungary) and Pyotr Shuvalov (Russia). On the left are Alajos Károlyi (Austria-Hungary), Alexander Gorchakov (Russia) (seated) and Benjamin Disraeli (Great Britain). On the far right is the Ottoman delegation; showing from left to right, Sadullah Pasha, Karatheodori Pasha, and Mehmed Ali Pasha.",
-    "lang": "en",
-    "infobox": false
+    "file": "Bundesarchiv_Bild_146-1998-013-20A,_Berlin,_Reichskanzlei.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Edward_Stanford_1877.jpg",
@@ -1533,21 +1552,21 @@
   "tr": "Erzurum Kongresi",
   "images": [
    {
-    "file": "ErzurumKongresiKararlari.JPG",
-    "caption": "Monument in Erzurum reproducing the main resolutions of the Erzurum Congress. 1) The motherland is a whole, and cannot be divided. 2) The nation will defend itself and resist against any kind of foreign invasion and intervention. 3) The basic principle is to do everything with the power of the nation's people and to hold the people's will above all. 4) Mandate and patronage cannot be accepted.",
-    "lang": "en",
-    "infobox": false
+    "file": "Mustafa_Kemal_Paşa,_Erzurum,_5_Temmuz_1919.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Erzurum_Kongresi_Beyannamesi.pdf",
     "caption": "Kongre beyannamesinin orijinal metni.",
-    "lang": "tr",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
-    "file": "Mustafa_Kemal_Paşa,_Erzurum,_5_Temmuz_1919.png",
-    "caption": "",
-    "lang": "tr",
+    "file": "ErzurumKongresiKararlari.JPG",
+    "caption": "Monument in Erzurum reproducing the main resolutions of the Erzurum Congress. 1) The motherland is a whole, and cannot be divided. 2) The nation will defend itself and resist against any kind of foreign invasion and intervention. 3) The basic principle is to do everything with the power of the nation's people and to hold the people's will above all. 4) Mandate and patronage cannot be accepted.",
+    "lang": "en",
     "infobox": false
    },
    {
@@ -1617,14 +1636,26 @@
   "tr": "Birinci Meşrutiyet",
   "images": [
    {
-    "file": "MehmedKani.jpg",
-    "caption": "Mehmed Kani Pasha, member of the first Ottoman Parliament.",
-    "lang": "en",
-    "infobox": false
+    "file": "Opening_ceremony_of_the_First_Ottoman_Parliament_at_the_Dolmabahce_Palace_in_1876.jpg",
+    "caption": "Meclisin açılış töreni, Dolmabahçe Sarayı, 1876.",
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Kanun-i_Esasi.jpg",
     "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "A_Sitting_of_the_New_Turkish_Parliament_at_Constantinople_-_ILN_1877.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "MehmedKani.jpg",
+    "caption": "Mehmed Kani Pasha, member of the first Ottoman Parliament.",
     "lang": "en",
     "infobox": false
    },
@@ -1635,20 +1666,8 @@
     "infobox": false
    },
    {
-    "file": "A_Sitting_of_the_New_Turkish_Parliament_at_Constantinople_-_ILN_1877.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "London_news_c1877_-_scanned_constantinopole(1996)-Opening_of_the_first_parlement.png",
     "caption": "Meclis-i Mebusan'ın açılışı, 1876.",
-    "lang": "tr",
-    "infobox": false
-   },
-   {
-    "file": "Opening_ceremony_of_the_First_Ottoman_Parliament_at_the_Dolmabahce_Palace_in_1876.jpg",
-    "caption": "Meclisin açılış töreni, Dolmabahçe Sarayı, 1876.",
     "lang": "tr",
     "infobox": false
    }
@@ -1661,13 +1680,13 @@
    {
     "file": "Bataille_de_Verdun_1916.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "British_39th_Siege_Battery_RGA_Somme_1916.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -1701,15 +1720,21 @@
   "tr": "Brusilov Taarruzu",
   "images": [
    {
-    "file": "EasternFront1916b.jpg",
-    "caption": "",
-    "lang": "en",
+    "file": "Defenders_NGM-v31-p369-A.jpg",
+    "caption": "Russian infantry",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Brusilov_offensive.jpg",
     "caption": "",
-    "lang": "tr",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "EasternFront1916b.jpg",
+    "caption": "",
+    "lang": "en",
     "infobox": true
    },
    {
@@ -1729,12 +1754,6 @@
     "caption": "Russian bayonet attack",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Defenders_NGM-v31-p369-A.jpg",
-    "caption": "Russian infantry",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -1743,9 +1762,27 @@
   "tr": "Çanakkale Savaşı",
   "images": [
    {
+    "file": "HMS_Irresistible_abandoned_18_March_1915.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "OttomanBatteryAtGallipoli.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Dardanelles_fleet-2.jpg",
+    "caption": "Panoramic view of the Entente fleet in the Dardanelles",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "G.C._18_March_1915_Gallipoli_Campaign_Article.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -1759,31 +1796,32 @@
     "caption": "Graphic map of the Dardanelles and Gallipoli, showing the Entente bridgeheads at Cape Helles and ANZAC Cove before the Suvla Bay landing",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Dardanelles_fleet-2.jpg",
-    "caption": "Panoramic view of the Entente fleet in the Dardanelles",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Landing_French-Gallipoli_April_1915.jpg",
-    "caption": "French troops land at Lemnos, 1915.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "ANZAC_Mudros_harbourl_1915_SLNSW_FL685794.jpg",
-    "caption": "Australian troops, Port Mudros, Greece, 20 April 1915",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
  "German military mission (1913)": {
   "en": null,
   "tr": null,
-  "images": []
+  "images": [
+   {
+    "file": "Bundesarchiv_Bild_183-H29994,_Liman_von_Sanders_mit_türkischen_Offizieren.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Sanders_4627036226_52c952e0c4_o.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "1909_05_01_Resimli_Kitab_Goltz_Pasaya_Yemek.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   }
+  ]
  },
  "Goeben and Breslau (1914)": {
   "en": "Pursuit of Goeben and Breslau",
@@ -1792,7 +1830,7 @@
    {
     "file": "Battlecruiser_SMS_Goeben_transfered_to_the_Ottoman_Empire_and_renamed_the_Yavuz_1914_(49911053158).jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -1876,14 +1914,14 @@
    {
     "file": "Dömeke_Harbi_Zonaro.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Le_petit_journal_1897.jpg",
     "caption": "The Greco-Turkish war of 1897 on the cover of Le Petit Journal",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Timoleon_Vassos_and_son,_Crete_1897.jpg",
@@ -1960,7 +1998,13 @@
    {
     "file": "1895erzurum-victims.jpg",
     "caption": "A photograph taken in November 1895 by William Sachtleben of Armenians killed in Erzurum[1]",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Hamidianmassacres.jpg",
+    "caption": "An 1896 depiction of fanatical \"Softas\" massacring Armenians.[25]",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -1978,12 +2022,6 @@
    {
     "file": "Armenian_woman_and_her_children_from_Geghi,_1899_(edit).jpg",
     "caption": "An Armenian woman and her children who were refugees of the massacres and sought help from missionaries by walking great distances.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Hamidianmassacres.jpg",
-    "caption": "An 1896 depiction of fanatical \"Softas\" massacring Armenians.[25]",
     "lang": "en",
     "infobox": false
    },
@@ -2042,32 +2080,32 @@
   "tr": "Trablusgarp Savaşı",
   "images": [
    {
+    "file": "Mustafa_Kemal_Pasha_on_the_Tripoli_Front_(1911).jpg",
+    "caption": "A photograph of Mustafa Kemal Pasha, Enver Pasha, Nuri Conker and Fuat Bulca taken on the front line on December 19, 1911",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Italo-Turkish_war_collage.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ismail_Enver_Bey_in_Cyrenaica.jpg",
+    "caption": "Ismail Enver Bey in Cyrenaica, 1911",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Zeplin_orta.jpg",
+    "caption": "Italian dirigibles bomb Turkish positions on Libyan territory. The Italo-Turkish War was the first in history to feature aerial bombardment by airplanes and airships.[30]",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Giovanni_Giolitti_1905.jpg",
     "caption": "Italian Prime Minister Giovanni Giolitti, 1905",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Zeplin_orta.jpg",
-    "caption": "Italian dirigibles bomb Turkish positions on Libyan territory. The Italo-Turkish War was the first in history to feature aerial bombardment by airplanes and airships.[30]",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Ismail_Enver_Bey_in_Cyrenaica.jpg",
-    "caption": "Ismail Enver Bey in Cyrenaica, 1911",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Mustafa_Kemal_Pasha_on_the_Tripoli_Front_(1911).jpg",
-    "caption": "A photograph of Mustafa Kemal Pasha, Enver Pasha, Nuri Conker and Fuat Bulca taken on the front line on December 19, 1911",
     "lang": "en",
     "infobox": false
    },
@@ -2152,7 +2190,13 @@
    {
     "file": "British_and_Indian_machine_gunners_with_a_Vickers_machine_gun,_Lewis_gun_and_range-finder,_1917.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Kiazim_Karabekir_Bey_at_Kut_in_1916.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -2175,12 +2219,6 @@
    },
    {
     "file": "Meso-WW1-2.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Kut1915.jpg",
     "caption": "",
     "lang": "en",
     "infobox": false
@@ -2264,6 +2302,18 @@
   "tr": "İzmir'in İşgali",
   "images": [
    {
+    "file": "Greek_army_Smyrne_1919.jpg",
+    "caption": "Greek troops marching on İzmir's coastal street, May 1919",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ionia_within_Greece_(1919).svg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "State_Flag_of_Greece_(1863-1924_and_1935-1973).svg",
     "caption": "",
     "lang": "en",
@@ -2271,12 +2321,6 @@
    },
    {
     "file": "Royal_Arms_of_Greece.svg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Ionia_within_Greece_(1919).svg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -2290,12 +2334,6 @@
    {
     "file": "Treaty_of_Sèvres_1920.svg",
     "caption": "Partition of the Ottoman Empire according to the Treaty of Sèvres",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Greek_army_Smyrne_1919.jpg",
-    "caption": "Greek troops marching on İzmir's coastal street, May 1919",
     "lang": "en",
     "infobox": false
    }
@@ -2348,9 +2386,21 @@
   "tr": "Suriye-Filistin Cephesi",
   "images": [
    {
+    "file": "Israel_in_World_War_I_-_Ottomans_soldiers_with_machine_gun_H_OP_039.JPG",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "The_camel_corps_at_Beersheba2.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Turkish_howitzer_10.5cm_leFH_98_09_LOC_00121.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -2370,18 +2420,6 @@
     "caption": "",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Israel_in_World_War_I_-_Soldiers_in_the_trenches_H_OP_038.JPG",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Israel_in_World_War_I_-_Ottomans_soldiers_with_machine_gun_H_OP_039.JPG",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -2390,20 +2428,20 @@
   "tr": "Paris Barış Konferansı",
   "images": [
    {
-    "file": "William_Orpen_–_The_Signing_of_Peace_in_the_Hall_of_Mirrors,_Versailles_1919,_Ausschnitt.jpg",
-    "caption": "Johannes Bell of Germany is shown signing the peace treaties on 28 June 1919 in The Signing of Peace in the Hall of Mirrors, by Sir William Orpen.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "Dignitaries_gathering_in_the_Hall_of_Mirrors_at_the_Palace_of_Versailles,_France,_to_sign_the_Treaty_of_Versailles.jpg",
     "caption": "Dignitaries gathering in the Hall of Mirrors at the Palace of Versailles, France, to sign the Treaty of Versailles",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
-    "file": "Ile-de-France_region_location_map.svg",
+    "file": "Img010GeneralBougrain.jpg",
     "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "William_Orpen_–_The_Signing_of_Peace_in_the_Hall_of_Mirrors,_Versailles_1919,_Ausschnitt.jpg",
+    "caption": "Johannes Bell of Germany is shown signing the peace treaties on 28 June 1919 in The Signing of Peace in the Hall of Mirrors, by Sir William Orpen.",
     "lang": "en",
     "infobox": false
    },
@@ -2512,7 +2550,13 @@
    {
     "file": "1913_Ottoman_coup_d'état.png",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Enver_kamil.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -2538,12 +2582,6 @@
     "caption": "The front page of the Le Petit Journal magazine in February 1913 depicting the assassination of Minister of War Nazım Pasha during the coup",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Omer_Nadji.jpg",
-    "caption": "Ömer Naci (1878–1916)",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -2552,19 +2590,19 @@
   "tr": "Rus Devrimi (1917)",
   "images": [
    {
-    "file": "Митинг_на_Невском_проспекте_(1917).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
     "file": "19170704_Riot_on_Nevsky_prosp_Petrograd.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "After_the_capture_of_the_Winter_Palace_26_October_1917.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Митинг_на_Невском_проспекте_(1917).jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -2638,7 +2676,25 @@
    {
     "file": "MixCollage-15-Jan-2024-08-56-PM-4371.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "The_defeat_of_Shipka_Peak,_Bulgarian_War_of_Independence.JPG",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "1878_Vereshchagin_Schlachtfeld_am_Schipkapass_anagoria.JPG",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Grivita_1877.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -2652,24 +2708,6 @@
     "caption": "Ottoman Empire in 1862",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Europe_1871_map_en.png",
-    "caption": "Europe before the Balkan crisis",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "MoniArkadiou2.JPG",
-    "caption": "The Moni Arkadiou monastery",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Hercegovci_u_zasedi,_Srbadija.jpg",
-    "caption": "Herzegovinian Serb insurgents in 1875",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -2678,15 +2716,27 @@
   "tr": "Sarıkamış Harekâtı",
   "images": [
    {
-    "file": "Sarikam.jpg",
-    "caption": "",
-    "lang": "en",
+    "file": "Тела_турок._Сарыкамыш.jpg",
+    "caption": "The bodies of the Turks",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Makinali_Tüfek.jpg",
     "caption": "",
-    "lang": "tr",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Battle_of_Sarikamis_Enver_Feldmann_inspection_1914.png",
+    "caption": "Ismail Enver and Otto von Feldmann inspecting the units",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Sarikam.jpg",
+    "caption": "",
+    "lang": "en",
     "infobox": true
    },
    {
@@ -2696,20 +2746,8 @@
     "infobox": true
    },
    {
-    "file": "Battle_of_Sarikamis_Enver_Feldmann_inspection_1914.png",
-    "caption": "Ismail Enver and Otto von Feldmann inspecting the units",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "Battle_Sarikamis_winter_gear.png",
     "caption": "Ottoman Third Army winter gear",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Тела_турок._Сарыкамыш.jpg",
-    "caption": "The bodies of the Turks",
     "lang": "en",
     "infobox": false
    }
@@ -2750,13 +2788,31 @@
   "tr": "Kût'ül-Amâre Kuşatması",
   "images": [
    {
-    "file": "Townshend,_Khalil_Pasha_after_Fall_of_Kut_B.jpg",
+    "file": "Townshend,_Khalil_Pasha_after_Fall_of_Kut.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Iraq_physical_map.svg",
+    "file": "Kiazim_Karabekir_Bey_at_Kut_in_1916.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Kut1915.jpg",
+    "caption": "Situation at Kut on 28 September 1915",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Mesopotamian_campaign_6th_Army_Siege_of_Kut.png",
+    "caption": "The siege by Ottoman 6th Army forces",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Townshend,_Khalil_Pasha_after_Fall_of_Kut_B.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -2766,24 +2822,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Townshend,_Khalil_Pasha_after_Fall_of_Kut.jpg",
-    "caption": "",
-    "lang": "tr",
-    "infobox": true
-   },
-   {
-    "file": "Kut1915.jpg",
-    "caption": "Situation at Kut on 28 September 1915",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Mesopotamian_campaign_6th_Army_Siege_of_Kut.png",
-    "caption": "The siege by Ottoman 6th Army forces",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -2794,7 +2832,13 @@
    {
     "file": "Grivita_1877.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Dmitriev_004.jpg",
+    "caption": "The artillery battle at Pleven. The battery of siege guns on the Grand Duke Mount, by Nikolai Dmitriev-Orenburgsky",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -2812,12 +2856,6 @@
    {
     "file": "General_Skobelev_(Dimitriev-Orenburgsky).jpg",
     "caption": "General Mikhail Skobelev on horseback, by Nikolai Dmitriev-Orenburgsky",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Dmitriev_004.jpg",
-    "caption": "The artillery battle at Pleven. The battery of siege guns on the Grand Duke Mount, by Nikolai Dmitriev-Orenburgsky",
     "lang": "en",
     "infobox": false
    },
@@ -2876,26 +2914,26 @@
   "tr": "Sivas Kongresi",
   "images": [
    {
-    "file": "Sivas_Congress_September_1919.jpg",
-    "caption": "Sivas Kongresi Temsilciler Heyeti, Eylül 1919",
-    "lang": "tr",
+    "file": "Bekir_Sami_Mustafa_Kemal.jpg",
+    "caption": "Prominent nationalists at the Sivas Congress. Left to right: Muzaffer Kılıç, Rauf (Orbay), Bekir Sami (Kunduh), Mustafa Kemal (Atatürk), Ruşen Eşref Ünaydın, Cemil Cahit (Toydemir), Cevat Abbas (Gürer)",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Bekir_Sami_Mustafa_Kemal.jpg",
-    "caption": "Prominent nationalists at the Sivas Congress. Left to right: Muzaffer Kılıç, Rauf (Orbay), Bekir Sami (Kunduh), Mustafa Kemal (Atatürk), Ruşen Eşref Ünaydın, Cemil Cahit (Toydemir), Cevat Abbas (Gürer)",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "124_KongreMüzesi.07.2006_resize.JPG",
-    "caption": "Sivas Kongresi'nin toplandığı salon, Atatürk Kongre ve Etnografya Müzesi, Sivas.",
-    "lang": "tr",
-    "infobox": false
+    "file": "Sivas_Congress_September_1919.jpg",
+    "caption": "Sivas Kongresi Temsilciler Heyeti, Eylül 1919",
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Mustapha_Kemal_Pasha_&_members_of_his_Nationalist_Committee,_Sivas,_1919.jpg",
     "caption": "Kongreye katılanlar",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "124_KongreMüzesi.07.2006_resize.JPG",
+    "caption": "Sivas Kongresi'nin toplandığı salon, Atatürk Kongre ve Etnografya Müzesi, Sivas.",
     "lang": "tr",
     "infobox": false
    },
@@ -2918,6 +2956,24 @@
   "tr": "Birinci Kanal Harekâtı",
   "images": [
    {
+    "file": "1st_Herts_Yeomanry_in_the_Suez_Canal_trenches_1915_IWM_Q15566.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Turkish_military_town_of_Hafir_el_Aujah,_the_principal_desert_base,_1916.jpg",
+    "caption": "Ottoman military town of Hafir el Aujah, the Principal Desert Base",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Map3CanalAttacks.tif",
+    "caption": "Attacks on the Suez Canal",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "The_camel_corps_at_Beersheba2.jpg",
     "caption": "",
     "lang": "en",
@@ -2934,24 +2990,6 @@
     "caption": "Map shows the 3 ways across the Sinai Peninsula from el Aujah",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Turkish_military_town_of_Hafir_el_Aujah,_the_principal_desert_base,_1916.jpg",
-    "caption": "Ottoman military town of Hafir el Aujah, the Principal Desert Base",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Map3CanalAttacks.tif",
-    "caption": "Attacks on the Suez Canal",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Map4CanalAttacksDet.tif",
-    "caption": "Lake Timsah to Great Bitter Lake",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -2962,17 +3000,23 @@
    {
     "file": "MPK1-426_Sykes_Picot_Agreement_Map_signed_8_May_1916.jpg",
     "caption": "Map signed by Sykes and Picot, enclosed in Cambon's 9 May 1916 letter to Grey",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Mark_Sykes00.jpg",
+    "file": "1919_British_map_ahead_of_Paris_Peace_Conference_-_extract_regarding_1915_Constantinople_Agreement.png",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "François_Georges-Picot_cropped.JPG",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Mark_Sykes00.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -2988,12 +3032,6 @@
     "caption": "Top: Mark Sykes and François Georges-PicotBottom: Paul Cambon and Edward Grey",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "1919_British_map_ahead_of_Paris_Peace_Conference_-_extract_regarding_1915_Constantinople_Agreement.png",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -3104,6 +3142,18 @@
   "tr": "Brest-Litovsk Antlaşması",
   "images": [
    {
+    "file": "Bundesarchiv_Bild_183-R92623,_Brest-Litowsk,_Waffenstillstandsabkommen.jpg",
+    "caption": "Signing of the armistice between Russia and Germany on 15 December 1917. Prince Leopold of Bavaria signing the treaty",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "At_the_Peace_Conference_in_Brest-Litovsk_(arrival_of_the_Russian_delegation).jpg",
+    "caption": "Trotsky being greeted by German officers",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Traktat_brzeski_1918.jpg",
     "caption": "The first page of the treaty in (from left to right) German, Hungarian, Bulgarian, Ottoman Turkish, and Russian",
     "lang": "en",
@@ -3116,20 +3166,8 @@
     "infobox": false
    },
    {
-    "file": "Bundesarchiv_Bild_183-R92623,_Brest-Litowsk,_Waffenstillstandsabkommen.jpg",
-    "caption": "Signing of the armistice between Russia and Germany on 15 December 1917. Prince Leopold of Bavaria signing the treaty",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "LübA_-_Sonderdepesche.jpg",
     "caption": "Special edition of the Lübeckischen Anzeigen, with the headline as: \"Peace with Ukraine\"",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "At_the_Peace_Conference_in_Brest-Litovsk_(arrival_of_the_Russian_delegation).jpg",
-    "caption": "Trotsky being greeted by German officers",
     "lang": "en",
     "infobox": false
    },
@@ -3268,13 +3306,19 @@
    {
     "file": "The_Treaty_of_San_Stefano._Jos_Holdforth._Completed_in_1879.jpg",
     "caption": "The signing of the treaty of San Stefano",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "HouseOfSanStefanoTreaty.jpg",
+    "caption": "The Treaty was signed in this house of the Simenoğlu (Simeonoglou) family in Yeşilköy.",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Bulgaristan_-_Ayastefanos_(1878).png",
     "caption": "Ayastefanos Antlaşması'na göre Bulgaristan'ın sınırları",
-    "lang": "tr",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -3292,12 +3336,6 @@
    {
     "file": "Sanstefanska_Bulgaria.png",
     "caption": "Bulgaria after the Treaty of San Stefano, 1878",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "HouseOfSanStefanoTreaty.jpg",
-    "caption": "The Treaty was signed in this house of the Simenoğlu (Simeonoglou) family in Yeşilköy.",
     "lang": "en",
     "infobox": false
    }
@@ -3350,16 +3388,16 @@
   "tr": "1919-1920 İstanbul yargılamaları",
   "images": [
    {
-    "file": "Turkish_courts-martial-Memleket-April-8-1919-Courtroom.png",
-    "caption": "A court session of the Turkish courts-martial of 1919–20. The CUP's leaders, Enver, Djemal, Talaat, among others, were ultimately sentenced to death under charges of wartime profiteering, and massacres of both Armenians and Greeks.[1][2][3]",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "Turkish_courts-martial_Courtroom.jpg",
     "caption": "A session of the Turkish courts-martial on 3 April 1919",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Turkish_courts-martial-Memleket-April-8-1919-Courtroom.png",
+    "caption": "A court session of the Turkish courts-martial of 1919–20. The CUP's leaders, Enver, Djemal, Talaat, among others, were ultimately sentenced to death under charges of wartime profiteering, and massacres of both Armenians and Greeks.[1][2][3]",
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Operation_Nemesis_exhibition_Tsitsernakaberd.jpg",
@@ -3392,16 +3430,22 @@
   "tr": "Jön Türk Devrimi",
   "images": [
    {
-    "file": "Declaration_of_the_1908_Revolution_in_Ottoman_Empire.png",
-    "caption": "",
-    "lang": "en",
+    "file": "Proclamation_of_the_Constitution_of_the_Ottoman_Empire_in_Thessaloniki,_24_July_1908.png",
+    "caption": "Proclamation of the Constitution in Eleftherias Square, Salonica",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Proclamation_of_the_Constitution_of_the_Ottoman_Empire_in_Thessaloniki,_24_July_1908.png",
-    "caption": "Proclamation of the Constitution in Eleftherias Square, Salonica",
-    "lang": "en",
-    "infobox": false
+    "file": "1908-mesrutiyet.jpg",
+    "caption": "Postcard for the new constitution in Ottoman Turkish and French",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Declaration_of_the_1908_Revolution_in_Ottoman_Empire.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Greek_demonastration_Bitola_1908.JPG",
@@ -3420,12 +3464,6 @@
     "caption": "Enver Bey and Niyazi Bey from a postcard in 1908.",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "1908-mesrutiyet.jpg",
-    "caption": "Postcard for the new constitution in Ottoman Turkish and French",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -3436,14 +3474,20 @@
    {
     "file": "Yildizmahaports.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Bomb_Misses_Sultan.png",
+    "caption": "The headline of the New York Times from 22 July 1905",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Istanbul_-_Abdullah_brothers_-_Viçen_(1820-1902),_Hovsep_(1830-1908),_Kevork_(1839-1918)_pre_1895.jpg",
     "caption": "Yıldız Hamidiye mosque during an Ottoman state ceremony in the late 19th century.",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Nejuik_Operation_in_front_page_of_L'Illustrazione_Italiana.jpg",
@@ -3454,12 +3498,6 @@
    {
     "file": "Members_of_the_plot_1904.jpg",
     "caption": "Friends of Joris in 1904, photograph including many members of the Nejuik Operation, whose names are given by Gaidz Minassian and include Sophie Areshian, Edward Joris and Anna Nellens, among others[18]",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Bomb_Misses_Sultan.png",
-    "caption": "The headline of the New York Times from 22 July 1905",
     "lang": "en",
     "infobox": false
    },
@@ -3520,14 +3558,14 @@
    {
     "file": "Osmanlı_Ahrar_Fırkası_amblem.svg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Nureddin_ferruh.jpg",
     "caption": "Nureddin Ferruh Bey, one of the founders",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Sevket_bey.jpg",
@@ -3544,13 +3582,13 @@
    {
     "file": "Armenian_Revolutionary_Federation_Flag.svg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Armenian_Revolutionary_Federation_logo.png",
     "caption": "",
-    "lang": "tr",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -3584,15 +3622,21 @@
   "tr": "Bağdat Demiryolu",
   "images": [
    {
-    "file": "CIOB_map.PNG",
-    "caption": "CIOB in red (CFOA route to Istanbul in blue)",
-    "lang": "en",
+    "file": "Bagdadbahn_1903.JPG",
+    "caption": "Share of the Baghdad railway, issued 31 December 1903[1]",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Baghdad_Railway_LOC_04665u.jpg",
     "caption": "Baghdad railway c. 1900–10",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "CIOB_map.PNG",
+    "caption": "CIOB in red (CFOA route to Istanbul in blue)",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -3600,12 +3644,6 @@
     "caption": "",
     "lang": "tr",
     "infobox": true
-   },
-   {
-    "file": "Bagdadbahn_1903.JPG",
-    "caption": "Share of the Baghdad railway, issued 31 December 1903[1]",
-    "lang": "en",
-    "infobox": false
    },
    {
     "file": "Bundesarchiv_Bild_137-012595,_Kleinasien-Adana,_Bahnhof.jpg",
@@ -3628,14 +3666,14 @@
    {
     "file": "İttihat_ve_Terakki_amblemi.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Jon-turkler-1.jpg",
     "caption": "Members of the Young Turks (from left to right): İshak Sükuti, Serâceddin Bey, Tunalı Hilmi, Âkil Muhtar, Mithat Şükrü, Emin Bey, Lutfi Bey, Doctor Şefik, Nûri Ahmed, Doctor Reshid and Celal Münif",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Ahmed_riza2.jpg",
@@ -3668,16 +3706,16 @@
   "tr": "Düyûn-ı Umûmiye",
   "images": [
    {
-    "file": "IELfrontgate.jpg",
-    "caption": "The Istanbul High School building was originally constructed as the Ottoman Public Debt Administration (OPDA) headquarters.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "OPDA_duty_stamps.png",
     "caption": "Duty stamps from the Ottoman Public Debt Administration",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "IELfrontgate.jpg",
+    "caption": "The Istanbul High School building was originally constructed as the Ottoman Public Debt Administration (OPDA) headquarters.",
+    "lang": "lead",
+    "infobox": true
    }
   ]
  },
@@ -3744,12 +3782,31 @@
  "Freedom and Accord Party": {
   "en": "Freedom and Accord Party",
   "tr": "Hürriyet ve İtilaf Fırkası",
-  "images": []
+  "images": [
+   {
+    "file": "Damad_Ferid_Pasha_1919.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   }
+  ]
  },
  "Hamidiye Regiments": {
   "en": "Hamidiye (cavalry)",
   "tr": "Hamidiye Alayları",
   "images": [
+   {
+    "file": "Group_of_Karapapakh_Hamidiyeh_Cavalry.jpg",
+    "caption": "Officers of the Karapapakh Hamidiye cavalry",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Serveti_funun-1896-09-17-1_Hamidiye_Alayi.jpg",
+    "caption": "17 Eylül 1896 tarihli Servet-i Fünun dergisinde Hamidiye Alaylarından bir fotoğraf.",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Lynch_Armenia_Hamidiye_cavalry_at_village_of_Gumgum.png",
     "caption": "Hamidiye Cavalry",
@@ -3760,18 +3817,6 @@
     "file": "Kurdish_Hamidiye_officer.png",
     "caption": "Kurdish Hamidiye officer",
     "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Group_of_Karapapakh_Hamidiyeh_Cavalry.jpg",
-    "caption": "Officers of the Karapapakh Hamidiye cavalry",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Serveti_funun-1896-09-17-1_Hamidiye_Alayi.jpg",
-    "caption": "17 Eylül 1896 tarihli Servet-i Fünun dergisinde Hamidiye Alaylarından bir fotoğraf.",
-    "lang": "tr",
     "infobox": false
    },
    {
@@ -3795,17 +3840,17 @@
    {
     "file": "Damascus_Hejaz_railway_station_7615.jpg",
     "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Madinah_Museum.JPG",
-    "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Hejaz_railway.svg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Madinah_Museum.JPG",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -3877,16 +3922,16 @@
   "tr": "Türk Kızılay",
   "images": [
    {
+    "file": "Hilal-i_Ahmer_Cemiyeti_1877_logo.svg",
+    "caption": "Ottoman Red Crescent Society (Hilâl-i Ahmer Cemiyeti) emblem",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Türk_Kızılay_logo.svg",
     "caption": "Logo of the Turkish Red Crescent",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Hilal-i_Ahmer_Cemiyeti_1877_logo.svg",
-    "caption": "Ottoman Red Crescent Society (Hilâl-i Ahmer Cemiyeti) emblem",
-    "lang": "en",
-    "infobox": false
    },
    {
     "file": "A_Turkish_Red_Crescent_Staff.jpg",
@@ -4035,7 +4080,13 @@
    {
     "file": "IMRO_badge.svg",
     "caption": "Emblem of the IMRO",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Apostol_Petkov_cheta.jpg",
+    "caption": "Apostol Petkov (far left) and his band.",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -4053,12 +4104,6 @@
    {
     "file": "Struga_1903_1.jpg",
     "caption": "The battle flag of the Struga insurgent detachment during the Ilinden uprising with the motto Свобода или смърть",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Apostol_Petkov_cheta.jpg",
-    "caption": "Apostol Petkov (far left) and his band.",
     "lang": "en",
     "infobox": false
    },
@@ -4089,14 +4134,14 @@
    {
     "file": "Ottoman_Banks_Archives_and_Research_Centre.jpg",
     "caption": "Bankalar Caddesi 11, the bank's headquarters in Constantinople (Istanbul) from 1892 to 1999",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "7_Meyerbeer.jpg",
     "caption": "7, rue Meyerbeer, the bank's Paris office from 1870 to 1975",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "OttomanThrogmorton.jpg",
@@ -4131,24 +4176,18 @@
    {
     "file": "Naval_standard_of_the_Ottoman_Sultan.svg",
     "caption": "Naval standard of the Ottoman Sultan",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Battle_of_Zonchio_1499.jpg",
-    "caption": "The Battle of Zonchio in 1499.",
-    "lang": "en",
-    "infobox": false
+    "file": "Battlecruiser_SMS_Goeben_transfered_to_the_Ottoman_Empire_and_renamed_the_Yavuz_1914_(49911053158).jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Piri_reis_world_map_01.jpg",
     "caption": "Surviving fragment of the first world map of Ottoman admiral Piri Reis (1513) showing the Atlantic Ocean and the Americas.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Battle_of_Preveza_(1538).jpg",
-    "caption": "Ottoman admiral Hayreddin Barbarossa defeated the Holy League of Charles V under the command of Andrea Doria at the Battle of Preveza in 1538.",
     "lang": "en",
     "infobox": false
    },
@@ -4173,7 +4212,19 @@
    {
     "file": "Coat_of_arms_of_the_Ottoman_Empire_(1882–1922).svg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Postcard-from-1908-celebrating-the-new-parliament.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Delegation_to_Abdul_Hamid_II.jpg",
+    "caption": "Delegation of the Ottoman Parliament to Abdul Hamid II.",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -4181,18 +4232,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Delegation_to_Abdul_Hamid_II.jpg",
-    "caption": "Delegation of the Ottoman Parliament to Abdul Hamid II.",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Postcard-from-1908-celebrating-the-new-parliament.png",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
    },
    {
     "file": "Postcard_parliament.jpg",
@@ -4212,6 +4251,18 @@
   "en": "Ottoman Military College",
   "tr": "Mekteb-i Erkân-ı Harbiye",
   "images": [
+   {
+    "file": "Enver_Pasha_-_Turkish_Military_Academy,_1901.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ataturk,_Ottoman_War_Academy,_1901.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Khe_logo.png",
     "caption": "",
@@ -4347,13 +4398,13 @@
    {
     "file": "Sadrazamlik-nisanlari.svg",
     "caption": "Osmanlı Sadaret Nişanı",
-    "lang": "tr",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Bab-i_Ali.jpg",
     "caption": "Bâb-ı Âli",
-    "lang": "tr",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -4389,7 +4440,7 @@
    {
     "file": "Emblem_of_the_Special_Organization_of_Ottoman_Empire.svg",
     "caption": "Emblem of the Special Organization",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -4401,8 +4452,8 @@
    {
     "file": "1892_08_18_Serveti_Funun_Osmanli_Bankasi.jpg",
     "caption": "23 Haziran 1892 tarihli Servet-i Fünun dergisinde Osmanlı Bankası Reji İdaresi",
-    "lang": "tr",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    }
   ]
  },
@@ -4411,20 +4462,20 @@
   "tr": "Türk Ocakları",
   "images": [
    {
+    "file": "Türk_Ocakları_Merkez_Binası_Giriş_Tabelası.jpg",
+    "caption": "Türk Ocakları Merkez Binası giriş levhası (2024)",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Ethnography_Museum_of_Ankara,_1930s_(16230092164).jpg",
     "caption": "View of the Turkish Hearths Headquarters in the 1930s",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Atatürk_Adana_Türk_Ocağı_Hatıra_Defteri.jpg",
     "caption": "Atatürk'ün Adana Türk Ocağı hatıra defterine el yazısıyla yazdığı not.",
-    "lang": "tr",
-    "infobox": false
-   },
-   {
-    "file": "Türk_Ocakları_Merkez_Binası_Giriş_Tabelası.jpg",
-    "caption": "Türk Ocakları Merkez Binası giriş levhası (2024)",
     "lang": "tr",
     "infobox": false
    },
@@ -4491,14 +4542,14 @@
    {
     "file": "Greek_lithograph_celebrating_the_Ottoman_Constitution.png",
     "caption": "A lithograph celebrating the Young Turk Revolution featuring the sources of inspiration of the movement, Midhat Pasha, Prince Sabahaddin, Deli Fuad Pasha and Namık Kemal, military leaders Niyazi Bey and Enver Pasha, and the slogan \"Liberty, equality, fraternity\" (hürriyet, müsavat, uhuvvet in Turkish, ελευθερία, ισότης, αδελφότης in Greek)",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "1st_Young_Turk_Congress,_1902.jpg",
     "caption": "Young Turks who attended the congress held in Paris under the chairmanship of Prince Sabahattin between 4–9 February 1902",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "First_Congress_of_the_Young_Turks_in_Paris_(1902).jpg",
@@ -4533,7 +4584,13 @@
    {
     "file": "AtaturkYildirim.jpg",
     "caption": "Mustafa Kemal Atatürk as the last commander of the Yıldırım Army Group, with his adjutants, 1918.",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "V-Falkenheym&Friends.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -4545,13 +4602,13 @@
    {
     "file": "His_Highness_Abbas_Hilmy_II.png",
     "caption": "Abbas Hilmi II in 1909",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Abbas_Hilmi_II.JPG",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -4563,7 +4620,7 @@
    {
     "file": "Abdullah_Dschewdet.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -4587,7 +4644,19 @@
    {
     "file": "Sultan_Abdul_Hamid_II_in_1899.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Sultan_Abdul_Hamid_II_of_the_Ottoman_Empire.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Abdülhamid_II_of_Turkey.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -4677,13 +4746,13 @@
    {
     "file": "Ahmetmithatefendi.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Ahmet_Mithat_Efendi.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -4693,14 +4762,26 @@
   "tr": "Ahmed Rıza",
   "images": [
    {
-    "file": "Ahmed_Riza_Bey.png",
-    "caption": "",
-    "lang": "wd",
+    "file": "Ahmed_Riza_Bey.jpg",
+    "caption": "Rıza in 1909",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Ahmed_Riza_Bey.jpg",
-    "caption": "Rıza in 1909",
+    "file": "Ahmed_riza2.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Young_Turk_Revolution_-_First_president_of_the_Chamber_of_Deputies.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ahmed_Riza_Bey.png",
+    "caption": "",
     "lang": "wd",
     "infobox": true
    }
@@ -4711,15 +4792,15 @@
   "tr": "Ahmed Vefik Paşa",
   "images": [
    {
-    "file": "Ahmed_Vefik_Paşa.jpg",
+    "file": "Ahmet_vefik2.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Ahmet_vefik2.jpg",
+    "file": "Ahmed_Vefik_Paşa.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -4731,7 +4812,13 @@
    {
     "file": "Ahmet_İzzet_Paşa.jpg",
     "caption": "Ahmed İzzet, c. 1918",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ahmed_İzzet_Pasha,_Ottoman_commander_in_the_Caucasus._Die_Kaukasusfront._Grosser_Bilderatlas_des_Weltkrieges,_Bruckmann.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -4771,19 +4858,19 @@
   "tr": "Aleksandr Gorçakov",
   "images": [
    {
-    "file": "AM_Gorchakov_by_Bogatsky_crop.jpg",
+    "file": "Alexander_Mikhailovich_Gorchakov.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Köler_Gorchakov.jpg",
     "caption": "Portrait by Johann Köler (1867)",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Alexander_Mikhailovich_Gorchakov.jpg",
+    "file": "AM_Gorchakov_by_Bogatsky_crop.jpg",
     "caption": "",
     "lang": "wd",
     "infobox": true
@@ -4795,15 +4882,15 @@
   "tr": "II. Aleksandr",
   "images": [
    {
-    "file": "Zar_Alexander_II_(cropped).jpg",
-    "caption": "",
-    "lang": "wd",
+    "file": "Zar_Alexander_II_(cropped)_(cropped).jpg",
+    "caption": "Formal portrait, c. 1874",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Zar_Alexander_II_(cropped)_(cropped).jpg",
-    "caption": "Formal portrait, c. 1874",
-    "lang": "wd",
+    "file": "Zar_Alexander_II_(cropped).jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -4933,6 +5020,24 @@
   "tr": "Andranik Ozanyan",
   "images": [
    {
+    "file": "Andranik_Ozanyan.jpg",
+    "caption": "General Andranik Ozanian, wearing his uniform and medals with a papakha hat",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "General_Andranik.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Andranik_Ozanian_1918.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "AndranikOzanian.jpg",
     "caption": "",
     "lang": "wd",
@@ -4941,12 +5046,6 @@
    {
     "file": "Andranikpasha.JPG",
     "caption": "",
-    "lang": "wd",
-    "infobox": true
-   },
-   {
-    "file": "Andranik_Ozanyan.jpg",
-    "caption": "General Andranik Ozanian, wearing his uniform and medals with a papakha hat",
     "lang": "wd",
     "infobox": true
    }
@@ -4971,13 +5070,13 @@
    {
     "file": "000-Aziz_Ali_al-Misry_Father_of_the_free_officers.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "‘Aziz_‘Ali_al-Misri.png",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -4987,15 +5086,21 @@
   "tr": "Bahâeddin Şâkir",
   "images": [
    {
-    "file": "Bahaeddin_Shakir.png",
+    "file": "Bahaeddinsakir.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Bahaeddinsakir.jpg",
+    "file": "1909_10_01_ServetiFunun_Bahaeddin_Sakir.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Bahaeddin_Shakir.png",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5053,19 +5158,19 @@
   "tr": "Benjamin Disraeli",
   "images": [
    {
-    "file": "Benjamin_Disraeli_(1804–1881)_cropped.png",
-    "caption": "",
-    "lang": "wd",
-    "infobox": true
-   },
-   {
     "file": "Benjamin_Disraeli,_Earl_of_Beaconsfield_(3x4_cropped).jpg",
     "caption": "Disraeli in 1878",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Benjamin_Disraeli_by_Cornelius_Jabez_Hughes,_1878.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Benjamin_Disraeli_(1804–1881)_cropped.png",
     "caption": "",
     "lang": "wd",
     "infobox": true
@@ -5079,7 +5184,7 @@
    {
     "file": "Boghos_Nubar_Pasha_(1906)_-_TIMEA.jpg",
     "caption": "Boghos Nubar in 1906.",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5091,7 +5196,7 @@
    {
     "file": "Mehmed_Kemal_Bey.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5143,15 +5248,27 @@
   "tr": "Cavid Bey",
   "images": [
    {
-    "file": "Djavid_Bey.png",
-    "caption": "",
-    "lang": "wd",
+    "file": "Mehmed_Cavid_Bey.JPG",
+    "caption": "Cavid Bey in 1918",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Mehmed_Cavid_Bey.JPG",
-    "caption": "Cavid Bey in 1918",
-    "lang": "wd",
+    "file": "Djavid_Bey.png",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Maliye-Nazırı-Cavit-Bey.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "1326_08_26_Serveti_Funun.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5179,19 +5296,25 @@
   "tr": "Cemal Paşa",
   "images": [
    {
-    "file": "Ahmed_Djemal_portrait_Project_Gutenberg_eText_10338.png",
+    "file": "Djemal_Pasha2.png",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Djemal_Pasha2.png",
+    "file": "Djemal_Pasha.png",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Cemâl_Paşa.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ahmed_Djemal_portrait_Project_Gutenberg_eText_10338.png",
     "caption": "",
     "lang": "wd",
     "infobox": true
@@ -5210,7 +5333,19 @@
    {
     "file": "Mesopotamian_campaign_General_Townshend.png",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Townshend,_Khalil_Pasha_after_Fall_of_Kut_B.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Charles_Townshend_Mesopotamia.webp",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5240,7 +5375,13 @@
    {
     "file": "Goltz-portrait.jpg",
     "caption": "Colmar von der Goltz",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Colmar_von_der_Goltz.JPG",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -5296,14 +5437,7 @@
  "Doktor Nazım": {
   "en": "Mehmet Nâzım Bey",
   "tr": "Mehmet Nâzım",
-  "images": [
-   {
-    "file": "(Mehmet)_Nâzım_Bey.JPG",
-    "caption": "Mehmet Nazım Bey",
-    "lang": "wd",
-    "infobox": true
-   }
-  ]
+  "images": []
  },
  "Ebüzziya Tevfik": {
   "en": "Ebüzziya Tevfik",
@@ -5312,7 +5446,7 @@
    {
     "file": "EbuzziyaTevfik.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5322,21 +5456,21 @@
   "tr": "Edmund Allenby",
   "images": [
    {
-    "file": "Ed-Allenby.jpg",
-    "caption": "",
-    "lang": "wd",
-    "infobox": true
-   },
-   {
     "file": "Edmund_Allenby.jpg",
     "caption": "Allenby in 1917",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Sir_Edmund_Allenby.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ed-Allenby.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5348,18 +5482,18 @@
    {
     "file": "Edward_Grey_1914.jpg",
     "caption": "",
-    "lang": "wd",
-    "infobox": true
-   },
-   {
-    "file": "Edward_Grey_5_February_1903.jpg",
-    "caption": "Grey caricatured by Spy for Vanity Fair, 1903",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Portrait_of_Edward_Grey,_1st_Viscount_Grey_of_Fallodon.jpg",
     "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Edward_Grey_5_February_1903.jpg",
+    "caption": "Grey caricatured by Spy for Vanity Fair, 1903",
     "lang": "wd",
     "infobox": true
    }
@@ -5414,7 +5548,7 @@
    {
     "file": "Emmanuel_Carasso-1.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5424,20 +5558,26 @@
   "tr": "Enver Paşa",
   "images": [
    {
+    "file": "Enver_Pasha_1911.jpg",
+    "caption": "Enver Bey in 1911",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Ismail_Enver.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "ENPER_PASHA_WARMINISTER.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Ismail_enver1.jpg",
     "caption": "",
-    "lang": "wd",
-    "infobox": true
-   },
-   {
-    "file": "Enver_Pasha_1911.jpg",
-    "caption": "Enver Bey in 1911",
     "lang": "wd",
     "infobox": true
    }
@@ -5448,20 +5588,20 @@
   "tr": "Erich Ludendorff",
   "images": [
    {
-    "file": "Erich_Ludendorff.jpg",
-    "caption": "",
-    "lang": "wd",
-    "infobox": true
-   },
-   {
     "file": "Erich_Ludendorff_1924_Portrait_(3x4_cropped)(2)(b).jpg",
     "caption": "Ludendorff in 1924",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Bundesarchiv_Bild_183-2005-0828-525_Erich_Ludendorff_(cropped)(b).jpg",
     "caption": "Erich Ludendorff (1915)",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Erich_Ludendorff.jpg",
+    "caption": "",
     "lang": "wd",
     "infobox": true
    }
@@ -5472,14 +5612,14 @@
   "tr": "Erich von Falkenhayn",
   "images": [
    {
-    "file": "Bundesarchiv_Bild_146-2004-0023,_Erich_von_Falkenhayn_(2).jpg",
-    "caption": "",
-    "lang": "wd",
+    "file": "Erich_von_Falkenhayn-retouched_(cropped)(2).jpg",
+    "caption": "Falkenhayn, c. 1913",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Erich_von_Falkenhayn-retouched_(cropped)(2).jpg",
-    "caption": "Falkenhayn, c. 1913",
+    "file": "Bundesarchiv_Bild_146-2004-0023,_Erich_von_Falkenhayn_(2).jpg",
+    "caption": "",
     "lang": "wd",
     "infobox": true
    },
@@ -5496,15 +5636,27 @@
   "tr": "Mehmet Esat Bülkat",
   "images": [
    {
-    "file": "Mehmed_Esad_Pasha_(Bülkat).jpg",
-    "caption": "Mehmet Esat Bülkat",
-    "lang": "wd",
+    "file": "Mehmed_Esad_Pasha.jpg",
+    "caption": "Mehmed Esad Pasha in 1915",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Mehmed_Esad_Pasha.jpg",
-    "caption": "Mehmed Esad Pasha in 1915",
-    "lang": "wd",
+    "file": "Mehmed_Esad_Pasha_(Bülkat).jpg",
+    "caption": "Mehmet Esat Bülkat",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Mehmed_Esad_Pasha_and_his_men.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ioannina_liberation_1913.JPG",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5538,9 +5690,21 @@
   "tr": "Ömer Fahreddin Türkkan",
   "images": [
    {
+    "file": "Ömer_Fahreddin_Paşa.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Korgeneral_Ömer_Fahreddin_Türkkan_(1935~1936).jpg",
     "caption": "Korgeneral Türkkan (y. 1935-1936)",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Fahrettin_Paşa_bayramlaşıyor.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5642,7 +5806,19 @@
    {
     "file": "Al1-5235-6C52-7E70.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ahmed_Muhtar_Pasha.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Gazi-ahmed-muhtar-pasa-1.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5654,7 +5830,13 @@
    {
     "file": "Osman_nuripasa.jpg",
     "caption": "Marshal Gazi Osman Pasha, 1895. Photograph by Abdullah Frères.",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "GhaziOsmanPasha.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5702,18 +5884,18 @@
    {
     "file": "Gertrude_Bell_circa_1910.png",
     "caption": "",
-    "lang": "wd",
-    "infobox": true
-   },
-   {
-    "file": "Gertrude_Bell_-_Al-Alam,_V2,_P_115.jpg",
-    "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "BellK_218_Gertrude_Bell_in_Iraq_in_1909_age_41.jpg",
     "caption": "Gertrude Bell in 1909, visiting archaeological excavations in Babylon",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Gertrude_Bell_-_Al-Alam,_V2,_P_115.jpg",
+    "caption": "",
     "lang": "wd",
     "infobox": true
    }
@@ -5726,13 +5908,19 @@
    {
     "file": "Giolitti2.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Portrait_of_Giovanni_Giolitti,_1920.jpg",
     "caption": "Official portrait, 1920",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Giovanni_Giolitti_1905.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5756,7 +5944,13 @@
    {
     "file": "Admiral_v_Usedom.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Kaiser_Wilhelm_II_in_Gallipoli.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5768,7 +5962,13 @@
    {
     "file": "Hafiz_Hakki_Pasha.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Enver_Pasha_-_Turkish_Military_Academy,_1901.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5792,13 +5992,19 @@
    {
     "file": "Halil_Kut.png",
     "caption": "Kut before the end of WWI",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Halil_Pasha.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Townshend,_Khalil_Pasha_after_Fall_of_Kut_B.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5810,7 +6016,19 @@
    {
     "file": "Halil_Mentese.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "1336_12_20_Serveti_Funun_Halil_Bey.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "CUP_leaders_with_Naum_Tyufekchiev,_1915.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5834,7 +6052,7 @@
    {
     "file": "Hans_von_Wangenheim.jpg",
     "caption": "Baron Hans von Wangenheim",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5844,15 +6062,15 @@
   "tr": "Tunuslu Hayreddin Paşa",
   "images": [
    {
-    "file": "Kheireddine_Pacha_high.JPG",
-    "caption": "Portrait of Brigadier General Khair al-Din on horseback",
-    "lang": "wd",
+    "file": "Hayreddin_pasa.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Hayreddin_pasa.jpg",
-    "caption": "",
-    "lang": "wd",
+    "file": "Kheireddine_Pacha_high.JPG",
+    "caption": "Portrait of Brigadier General Khair al-Din on horseback",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5888,7 +6106,7 @@
    {
     "file": "Henry_McMahon.jpeg",
     "caption": "Painting of Henry McMahon by John Collier, c. 1915",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5898,20 +6116,20 @@
   "tr": "Henry Morgenthau",
   "images": [
    {
+    "file": "Henry_Morgenthau_crop.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Henry_Morgenthau.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "MORGENTHAU,_HENRY._HONORABLE_LCCN2016858623_Trim.jpg",
     "caption": "Portrait by Harris & Ewing c. 1920s",
-    "lang": "wd",
-    "infobox": true
-   },
-   {
-    "file": "Henry_Morgenthau_crop.jpg",
-    "caption": "",
     "lang": "wd",
     "infobox": true
    }
@@ -5922,15 +6140,15 @@
   "tr": "Hobart Paşa",
   "images": [
    {
-    "file": "Augustus_Charles_Hobart-Hampden_-_Project_Gutenberg_eText_16296.jpg",
-    "caption": "Hobart Pasha in civilian attire",
-    "lang": "wd",
+    "file": "Hobartpasa.jpg",
+    "caption": "Hobart-Hampden in the 1870s",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Hobartpasa.jpg",
-    "caption": "Hobart-Hampden in the 1870s",
-    "lang": "wd",
+    "file": "Augustus_Charles_Hobart-Hampden_-_Project_Gutenberg_eText_16296.jpg",
+    "caption": "Hobart Pasha in civilian attire",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5976,9 +6194,21 @@
   "tr": "Hüseyin Cahit Yalçın",
   "images": [
    {
+    "file": "Huseyin_cahid.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Serveti_funun-1914-04-16-1_Huseyin_Cahit.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Huseyincihatbey.jpg",
     "caption": "Hüseyin Cahit Bey",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -5990,13 +6220,13 @@
    {
     "file": "Hussein_Hilmi_Pacha.JPG",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Hussein_Hilmi_Pasha,_Inspector-General_of_Macedonia,_1903-1908.jpg",
     "caption": "Hüseyin Hilmi Pasha as Ottoman Inspector General of Macedonia, photograph taken between 1903 and 1908.",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6006,20 +6236,20 @@
   "tr": "II. Wilhelm",
   "images": [
    {
-    "file": "Kaiser_Wilhelm_II_of_Germany_-_1902.jpg",
-    "caption": "1902 yılında II. Wilhelm.",
-    "lang": "wd",
+    "file": "Kaiser_Wilhelm_II_of_Germany_-_1902_(3x4_cropped).jpg",
+    "caption": "Wilhelm in 1902",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Kaiser_Wilhelm_II_of_Germany.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Kaiser_Wilhelm_II_of_Germany_-_1902_(3x4_cropped).jpg",
-    "caption": "Wilhelm in 1902",
+    "file": "Kaiser_Wilhelm_II_of_Germany_-_1902.jpg",
+    "caption": "1902 yılında II. Wilhelm.",
     "lang": "wd",
     "infobox": true
    }
@@ -6032,7 +6262,13 @@
    {
     "file": "Kamil_Pasha.png",
     "caption": "Kâmil Pasha wearing the diplomatic uniform",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Mehmed_Kamil_Pasha.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6068,7 +6304,7 @@
    {
     "file": "Kara_Kemal_Bey.JPG",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6102,9 +6338,15 @@
   "tr": "Ferdinand (Bulgaristan çarı)",
   "images": [
    {
+    "file": "KingFerdinand_I_Portrait.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Zar_Ferdinand_Bulgarien.jpg",
     "caption": "Ferdinand I in 1912",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6134,13 +6376,13 @@
    {
     "file": "Kress_von_Kressenstein_1916.jpg",
     "caption": "While in Ottoman military uniform as commander of the Sinai and Palestine campaign, 1916",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Kress_von_Kressenstein_1916_colorized.png",
     "caption": "Friedrich Kreß von Kressenstein’in Suriye-Filistin Cephesi döneminde çekilmiş fotoğrafı, 1916",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6217,13 +6459,19 @@
    {
     "file": "Kütschük_Said_Pascha.png",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Mehmet_saitpasa.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "1909_05_10_Sait_Pasa_Ayastefanos_Yat_Kulubu_Onunde.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6275,15 +6523,21 @@
   "tr": "Lev Troçki",
   "images": [
    {
-    "file": "Лев_Давидович_Троцкий.jpg",
-    "caption": "",
-    "lang": "wd",
+    "file": "Leon_Trotsky_1918_(3x4_rotated_cropped_b).jpg",
+    "caption": "Trotsky in 1918",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Leon_Trotsky_1918_(3x4_rotated_cropped_b).jpg",
-    "caption": "Trotsky in 1918",
-    "lang": "wd",
+    "file": "Лев_Давидович_Троцкий.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Demyan_Bedny_and_Leon_Trotsky.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6295,7 +6549,25 @@
    {
     "file": "Otto_Liman_Von_Sanders.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Bundesarchiv_Bild_183-R02991,_Otto_Liman_von_Sanders.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Bundesarchiv_Bild_183-2007-0917-501,_Otto_Liman_von_Sanders.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Bundesarchiv_Bild_183-H29994,_Liman_von_Sanders_mit_türkischen_Offizieren.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6325,7 +6597,13 @@
    {
     "file": "Herbert_Kitchener_1914.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Horatio_Herbert_Kitchener,_1st_Earl_Kitchener_of_Khartoum,_1901.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -6349,7 +6627,13 @@
    {
     "file": "Robert-Gascoyne-Cecil-3rd-Marquess-of-Salisbury_(cropped).jpg",
     "caption": "Portrait, 1886",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Robert_Cecil,_Vanity_Fair,_1869-07-10.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6397,19 +6681,19 @@
    {
     "file": "Mahmut_Schevket_Pascha.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Shevket_Pasha.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Mahmud_Şevket_(military_uniform,_full-sized_portrait_photograph).jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6421,7 +6705,13 @@
    {
     "file": "Mark_Sykes00.jpg",
     "caption": "Sykes, c. 1918",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Mark_Sykes,_Vanity_Fair,_1912-06-26.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6445,13 +6735,13 @@
    {
     "file": "Mehmet_akif.jpg",
     "caption": "Ersoy in the 1930s",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Mehmet_Âkif_Ersoy.png",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6463,19 +6753,25 @@
    {
     "file": "Sultan_Mehmed_V_of_the_Ottoman_Empire.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "MehmedV.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Sultan_Muhammed_Chan_V.,_Kaiser_der_Osmanen_1915_C._Pietzner.jpg",
     "caption": "Formal portrait, 1915",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Mehemed_Rechad_Empereur_des_Ottomans_14.27._Avril_1909.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6487,13 +6783,25 @@
    {
     "file": "Sultan_Mehmed_VI_of_the_Ottoman_Empire.jpg",
     "caption": "Mehmed VI in 1918",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Sébah_&_Joaillier_-_Sultan_Mehmed_VI.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "1909_10_Resimli_Kitab_Vahdettin.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Former_Ottoman_Sultan_Mehmed_VI_arrives_in_Malta_on_a_British_warship._9_Dec_1922.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -6527,21 +6835,21 @@
   "tr": "Midhat Paşa",
   "images": [
    {
+    "file": "Nadar_-_Portrait_of_Midhat_Pasha.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Midhat_pasha.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Midhat_Paşa_1877-1.1R_V01-1.1_cleaned.jpg",
     "caption": "Midhat Pasha in Vienna, July 1877",
-    "lang": "wd",
-    "infobox": true
-   },
-   {
-    "file": "Nadar_-_Portrait_of_Midhat_Pasha.jpg",
-    "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6577,7 +6885,13 @@
    {
     "file": "Skobelev,_Michel,_par_Serge_Levitsky,_BNF_Gallica.jpg",
     "caption": "Portrait by Sergey Lvovich Levitsky, 1881",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "General_Skobelev_(Dimitriev-Orenburgsky).jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6589,7 +6903,7 @@
    {
     "file": "Mizanci_murat2.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6601,13 +6915,19 @@
    {
     "file": "Portrait_of_Murad_V.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Sultan_Murad_V_Khan_1867-1.2R_V02-1.1.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "1840_1904_5murat.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6617,14 +6937,26 @@
   "tr": "Mustafa Kemal Atatürk",
   "images": [
    {
-    "file": "Atatürk_Kemal.jpg",
+    "file": "Mustafa_Kemal_Ataturk_1919_Sivas_Congress_(cropped).jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Marshal_Mustafa_Kemal_Pasha.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Ataturk1930s.jpg",
     "caption": "Atatürk in 1932",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Atatürk_Kemal.jpg",
+    "caption": "",
     "lang": "wd",
     "infobox": true
    }
@@ -6673,7 +7005,7 @@
    {
     "file": "Naciye_Sultan_ve_Enver_Paşa'nın_düğünü(1).jpg",
     "caption": "Naciye Sultan ve Enver Paşa'nın düğünü",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6685,7 +7017,19 @@
    {
     "file": "Namık_Kemal_1878-1.1R_V01-1.2.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Namık_Kemal-2.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Namik_kemal2.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -6745,7 +7089,25 @@
    {
     "file": "Nazim_Pascha.png",
     "caption": "Nazim Pasha in his military uniform",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Nazim_pasha.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Salih_Pasha,_Nazim_Pasha.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "1326_04_22_Serveti_Funun_Nazim_Pasa_Bagdat_Valisi.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6785,20 +7147,20 @@
   "tr": "II. Nikolay",
   "images": [
    {
-    "file": "Nicolas_II_de_russie.jpg",
-    "caption": "",
-    "lang": "wd",
+    "file": "Nicholas_II_by_Boissonnas_&_Eggler_c1909.jpg",
+    "caption": "II. Nikolay (1909)",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Mikola_II_(cropped)-2.jpg",
     "caption": "Nicholas in 1912",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Nicholas_II_by_Boissonnas_&_Eggler_c1909.jpg",
-    "caption": "II. Nikolay (1909)",
+    "file": "Nicolas_II_de_russie.jpg",
+    "caption": "",
     "lang": "wd",
     "infobox": true
    }
@@ -6809,9 +7171,15 @@
   "tr": "Nikolay Pavloviç İgnatyev",
   "images": [
    {
+    "file": "Count_Nikolay_Ignatiev.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "General_Nikolay_Ignatev.jpg",
     "caption": "Ignatyev in Beijing, c. 1900",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6821,15 +7189,21 @@
   "tr": "Nuri Conker",
   "images": [
    {
-    "file": "Nuri_Bey_Conker.jpg",
-    "caption": "",
-    "lang": "wd",
+    "file": "Nuri_Conker_(1935).jpg",
+    "caption": "Conker in 1935",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Nuri_Conker_(1935).jpg",
-    "caption": "Conker in 1935",
-    "lang": "wd",
+    "file": "Nuri_Bey_Conker.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Nuri_Bey_and_Gazi_Mustafa_Kemal_in_Istanbul_in_1931.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6839,9 +7213,21 @@
   "tr": "Nuri Killigil",
   "images": [
    {
+    "file": "Nuri_Paşa_(Killigil).jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Nuri_Paşa.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Enver_Bey,_Hacı_Ahmet_Pasha,_Nuri_Bey_1909.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6865,13 +7251,19 @@
    {
     "file": "Osman_Hamdi_Bey.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Osman_Hamdi_Bey_01.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Osman_hamdi_genclik.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6881,19 +7273,19 @@
   "tr": "Otto von Bismarck",
   "images": [
    {
-    "file": "BismarckArbeitszimmer1886.jpg",
+    "file": "Bundesarchiv_Bild_146-2005-0057,_Otto_von_Bismarck.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Otto_von_Bismarck_portrait_1873.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Bundesarchiv_Bild_146-2005-0057,_Otto_von_Bismarck.jpg",
+    "file": "BismarckArbeitszimmer1886.jpg",
     "caption": "",
     "lang": "wd",
     "infobox": true
@@ -6905,14 +7297,20 @@
   "tr": "Paul von Hindenburg",
   "images": [
    {
-    "file": "Bundesarchiv_Bild_183-C06886,_Paul_v._Hindenburg.jpg",
-    "caption": "",
-    "lang": "wd",
+    "file": "Paul_von_Hindenburg_(1914)_von_Nicola_Perscheid_(cropped).jpg",
+    "caption": "Field Marshal Hindenburg in 1914",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Paul_von_Hindenburg_(1914)_von_Nicola_Perscheid_(cropped).jpg",
-    "caption": "Field Marshal Hindenburg in 1914",
+    "file": "Bundesarchiv_Bild_183-C06886,_Paul_v._Hindenburg_(cropped)(2).jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Bundesarchiv_Bild_183-C06886,_Paul_v._Hindenburg.jpg",
+    "caption": "",
     "lang": "wd",
     "infobox": true
    },
@@ -6949,7 +7347,19 @@
    {
     "file": "Sabâhaddin3.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "1946_Prince_Sabahaddin.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Lutfullah_sabahattin.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -6979,7 +7389,13 @@
    {
     "file": "Rahmi_Arslan.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Selanik_mebusu_Rahmi_Bey.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7045,13 +7461,19 @@
    {
     "file": "Resneli_Niyazi_Bey.jpg",
     "caption": "Resneli Niyazi Bey",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Ahmedniyazibey.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ahmed_Niyazi_Bey.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7087,13 +7509,19 @@
    {
     "file": "Großwezir_Prinz_Said_Halim_Pascha_1915_C._Pietzner.png",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Said_Halim.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Saidhalim-1.JPG",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7152,7 +7580,19 @@
    {
     "file": "SSCox.jpg",
     "caption": "Cox c. 1870s",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Samuel_S._Cox_35th_Congress_1859.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Coxturkey.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7186,14 +7626,20 @@
   "tr": "Sergey Sazonov",
   "images": [
    {
-    "file": "Sergei_Dmitrijewitsch_Sasonow.jpg",
-    "caption": "",
-    "lang": "wd",
+    "file": "Sergei_Dmitrievich_Sazonov_(cropped).jpg",
+    "caption": "Sergei Sazonov",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Sergei_Dmitrievich_Sazonov_(cropped).jpg",
-    "caption": "Sergei Sazonov",
+    "file": "Sergey_Sazonov.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Sergei_Dmitrijewitsch_Sasonow.jpg",
+    "caption": "",
     "lang": "wd",
     "infobox": true
    }
@@ -7252,15 +7698,15 @@
   "tr": "Süleyman Hüsnü Paşa",
   "images": [
    {
-    "file": "Suleyman_Husnu.jpg",
-    "caption": "",
-    "lang": "wd",
+    "file": "Suleymanpasa.jpg",
+    "caption": "Photograph c. 1870s",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Suleymanpasa.jpg",
-    "caption": "Photograph c. 1870s",
-    "lang": "wd",
+    "file": "Suleyman_Husnu.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7272,7 +7718,13 @@
    {
     "file": "Te_lawrence.jpg",
     "caption": "Lawrence in 1918",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Lcamel.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7282,15 +7734,27 @@
   "tr": "Talat Paşa",
   "images": [
    {
-    "file": "Mehmed_Talat_Pasha.jpg",
+    "file": "Talat_Pasha.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Talat_Pasha.jpg",
+    "file": "Mehmed_Talat_Pasha.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "CUP_leaders_with_Naum_Tyufekchiev,_1915.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "17-member_Unionists_parliamentary_delegation_to_Westminster_in_1909.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -7308,7 +7772,7 @@
    {
     "file": "Munis_tekinalp.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7320,13 +7784,19 @@
    {
     "file": "Tevfik_Fikret.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Tevfikfikret.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "1920_08_26_Serveti_Funun_Tevfik_Fikret.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7338,7 +7808,13 @@
    {
     "file": "Tevfik_pasha.jpg",
     "caption": "Ahmet Tevfik, c. 1906",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ahmed_Tevfik_Pasha.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7362,7 +7838,13 @@
    {
     "file": "Mehmet_vehip.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Salim-Vehib-Husrev.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7408,21 +7890,21 @@
   "tr": "Wilhelm Souchon",
   "images": [
    {
-    "file": "Wilhelm_Anton_Souchon.jpeg",
-    "caption": "",
-    "lang": "wd",
+    "file": "Vonsouchonadmiral.jpg",
+    "caption": "Souchon probably before World War I",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Vonsouchonadmiral.jpg",
-    "caption": "Souchon probably before World War I",
-    "lang": "wd",
+    "file": "Wilhelm_Anton_Souchon.jpeg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Wilhelm_Anton_Souchon,_1917.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7434,7 +7916,19 @@
    {
     "file": "William_Ewart_Gladstone,_1892_(cropped).jpg",
     "caption": "Gladstone in 1892",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "William_Ewart_Gladstone_CDV_1861_for_infobox.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Gladstone's_Cabinet_of_1868_by_Lowes_Cato_Dickinson.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7446,13 +7940,19 @@
    {
     "file": "Sir_Winston_Churchill_-_19086236948_(restored).jpg",
     "caption": "The Roaring Lion, 1941",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Winston_Churchill_C3519635.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "ChurchillGeorge0001.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -7500,7 +8000,13 @@
    {
     "file": "Yakubcemill.png",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "1934_11_01_Halkin_Sesi_Yakub_Cemil.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7548,13 +8054,19 @@
    {
     "file": "Yusuf_akcura.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Yusuf_akcuraa.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Yusuf_akcura_scan.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7576,15 +8088,15 @@
   "tr": "Ziya Gökalp",
   "images": [
    {
-    "file": "Ziya_Gykalp_Malta_1920_1921.jpg",
+    "file": "Ziya_Gökalp-1.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Ziya_Gökalp-1.jpg",
+    "file": "Ziya_Gykalp_Malta_1920_1921.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7612,20 +8124,20 @@
   "tr": "Zübeyde Hanım",
   "images": [
    {
-    "file": "Annesi_Zübeyde_Hanım.jpg",
-    "caption": "",
-    "lang": "wd",
+    "file": "Atatürk'ün_annesi_Zübeyde_Hanım.jpg",
+    "caption": "Zübeyde Hanım, 1922",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Zübeyde_Hanım.jpg",
     "caption": "",
-    "lang": "wd",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Atatürk'ün_annesi_Zübeyde_Hanım.jpg",
-    "caption": "Zübeyde Hanım, 1922",
+    "file": "Annesi_Zübeyde_Hanım.jpg",
+    "caption": "",
     "lang": "wd",
     "infobox": true
    }
@@ -7732,9 +8244,21 @@
   "tr": "Yusuf İzzeddin Efendi",
   "images": [
    {
+    "file": "1908_10_01_Resimli_Kitab_Yusuf_Izzeddin_Efendi.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Z.K.H._Prins_Yusuf_Izzedidin_van_Turkije_1857-1916.jpg",
     "caption": "At Windsor, 1911",
-    "lang": "wd",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Şehzade_Yusuf_Izzeddin.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    }
   ]
@@ -7742,19 +8266,24 @@
  "Şemsi Paşa": {
   "en": "Şemsi Pasha",
   "tr": "Şemsi Ahmed Paşa",
-  "images": [
-   {
-    "file": "Şemsi_Ahmed_Paşa_(cropped).jpg",
-    "caption": "",
-    "lang": "wd",
-    "infobox": true
-   }
-  ]
+  "images": []
  },
  "Şerif Hüseyin": {
   "en": "Hussein, King of Hejaz",
   "tr": "Hüseyin bin Ali (Hicaz kralı)",
   "images": [
+   {
+    "file": "Sharif_Husayn.jpg",
+    "caption": "King Hussein in 1916",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Hussein_bin_Ali,_Sharif_of_Mecca.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "The_King_of_Hedjaz_and_Arab_Independence_(page_04).png",
     "caption": "",
@@ -7764,12 +8293,6 @@
    {
     "file": "With_Lawrence_in_Arabia_(1924)_page_064.png",
     "caption": "",
-    "lang": "wd",
-    "infobox": true
-   },
-   {
-    "file": "Sharif_Husayn.jpg",
-    "caption": "King Hussein in 1916",
     "lang": "wd",
     "infobox": true
    }
@@ -7820,12 +8343,37 @@
  "Informants and spies (jurnal system)": {
   "en": null,
   "tr": null,
-  "images": []
+  "images": [
+   {
+    "file": "Yildiz_palace_1909.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Punch_magazine_-_Turkey_Ltd_-_1896.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   }
+  ]
  },
  "Adana": {
   "en": "Adana",
   "tr": "Adana",
   "images": [
+   {
+    "file": "Bundesarchiv_Bild_137-012595,_Kleinasien-Adana,_Bahnhof.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Adana_Roman_Bridge_(Taşköprü),_Turkey_(36694356272).jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Adana_Seyhan_River.png",
     "caption": "",
@@ -7839,12 +8387,6 @@
     "infobox": true
    },
    {
-    "file": "Adana_Roman_Bridge_(Taşköprü),_Turkey_(36694356272).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
     "file": "Adana,_Reşatbey_Mh.,_Seyhan-Adana,_Turkey_-_panoramio_(39).jpg",
     "caption": "",
     "lang": "en",
@@ -7852,12 +8394,6 @@
    },
    {
     "file": "Ulu_Cami_mosque_in_Adana9_(34360863926).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Adana_city_emblem.png",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -8079,12 +8615,6 @@
   "tr": "Arnavutluk",
   "images": [
    {
-    "file": "Location_Albania_Europe.png",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
     "file": "Kamenicë_Tumulus,_Albania_2018_02.jpg",
     "caption": "The remains of the Kamenica Tumulus in the county of Korçë",
     "lang": "en",
@@ -8123,7 +8653,7 @@
    {
     "file": "Athens_Acropolis_at_Daybreak.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -8207,7 +8737,7 @@
    {
     "file": "Baku_Montage.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -8247,13 +8777,19 @@
   "tr": "Basra",
   "images": [
    {
-    "file": "Basra_at_night.jpg",
+    "file": "شناشيل_البصرة_القديمة.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Basra_city.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Basra_at_night.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -8271,12 +8807,6 @@
     "infobox": true
    },
    {
-    "file": "شناشيل_البصرة_القديمة.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
     "file": "جامع_المقام.jpg",
     "caption": "",
     "lang": "en",
@@ -8288,6 +8818,12 @@
   "en": "Batumi",
   "tr": "Batum",
   "images": [
+   {
+    "file": "Batumi_Port.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "View_of_Batumi_skyline_from_the_Botanical_Garden_(cropped).jpg",
     "caption": "",
@@ -8302,12 +8838,6 @@
    },
    {
     "file": "Batumi_Boulevard_Colonnades_(cropped).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Batumi_Port.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -8331,6 +8861,12 @@
   "tr": "Bağdat",
   "images": [
    {
+    "file": "Bab_al-Wastani_northern_gate.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "5628442718_b10fc2c47f_o.jpg",
     "caption": "",
     "lang": "en",
@@ -8344,12 +8880,6 @@
    },
    {
     "file": "Al-Mustansriah_School_-_NW_Door_2.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Bab_al-Wastani_northern_gate.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -8373,13 +8903,13 @@
   "tr": "Belgrad",
   "images": [
    {
-    "file": "Panorama_Belgrad.jpg",
+    "file": "Belgrad2006parlament.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Belgrad2006parlament.jpg",
+    "file": "Panorama_Belgrad.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -8415,6 +8945,12 @@
   "tr": "Berlin",
   "images": [
    {
+    "file": "Berlin_-_0266_-_16052015_-_Brandenburger_Tor.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Museumsinsel_Berlin_Juli_2021_1_(cropped)_b.jpg",
     "caption": "",
     "lang": "en",
@@ -8439,12 +8975,6 @@
     "infobox": true
    },
    {
-    "file": "Berlin_-_0266_-_16052015_-_Brandenburger_Tor.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
     "file": "Berliner_Dom_vor_Sonnenuntergang.jpg",
     "caption": "",
     "lang": "en",
@@ -8457,9 +8987,15 @@
   "tr": "Beyoğlu",
   "images": [
    {
+    "file": "Occupation_of_Constantinople_3.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Istanbul_asv2020-02_img46_Galata_Bridge_and_Tower.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -8485,12 +9021,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Overview_of_Galataport_from_Cihangir_showing_Istanbul_Painting_and_Sculpture_Museum_on_left_and_Nusretiye_Mosque_on_right_with_Asian_shore_and_Princes'_Islands_in_the_background.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -8501,7 +9031,7 @@
    {
     "file": "Beyrouth_vue_aérienne.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -8541,6 +9071,18 @@
   "tr": "Bitlis",
   "images": [
    {
+    "file": "Engraving_of_Bitlis_1900.jpg",
+    "caption": "Engraving of Bitlis, 1900",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Bitlis_view.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Bitlis_Montage.jpg",
     "caption": "",
     "lang": "en",
@@ -8559,20 +9101,8 @@
     "infobox": true
    },
    {
-    "file": "Bitlis_view.jpg",
-    "caption": "",
-    "lang": "tr",
-    "infobox": true
-   },
-   {
     "file": "Museum_of_Anatolian_Civilizations_Urartu_Columna_caelata_base_from_Kef_Kalesi_in_2014_01.jpg",
     "caption": "Two winged gods standing on lions are facing each other. The figures are identified as Teişeba, the Storm God. 7th century BC. from Bitlis now in Museum of Anatolian Civilizations",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Engraving_of_Bitlis_1900.jpg",
-    "caption": "Engraving of Bitlis, 1900",
     "lang": "en",
     "infobox": false
    }
@@ -8583,6 +9113,12 @@
   "tr": "Boğazlar Sorunu",
   "images": [
    {
+    "file": "Istanbul_and_Bosporus_big.jpg",
+    "caption": "Satellite image of the Bosphorus, taken from the International Space Station in April 2004. The body of water at the top is the Black Sea, the one at the bottom is the Sea of Marmara, and the Bosphorus is the winding vertical waterway that connects the two. The western banks of the Bosphorus constitute the geographic starting point of the European continent, while the banks to the east are the geographic beginnings of the continent of Asia. The city of Istanbul is visible along both banks.",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Locator_map_of_Turkey.svg",
     "caption": "",
     "lang": "en",
@@ -8591,12 +9127,6 @@
    {
     "file": "Turkish_Strait_disambig.svg",
     "caption": "The Bosphorus (red), the Dardanelles (yellow), and the Sea of Marmara in between, are known collectively as the Turkish straits",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Istanbul_and_Bosporus_big.jpg",
-    "caption": "Satellite image of the Bosphorus, taken from the International Space Station in April 2004. The body of water at the top is the Black Sea, the one at the bottom is the Sea of Marmara, and the Bosphorus is the winding vertical waterway that connects the two. The western banks of the Bosphorus constitute the geographic starting point of the European continent, while the banks to the east are the geographic beginnings of the continent of Asia. The city of Istanbul is visible along both banks.",
     "lang": "en",
     "infobox": false
    },
@@ -8625,9 +9155,9 @@
   "tr": "Bulgaristan",
   "images": [
    {
-    "file": "EU-Bulgaria.svg",
+    "file": "Bulgaria-SanStefano_-(1878)-byTodorBozhinov.png",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -8669,7 +9199,7 @@
    {
     "file": "Bursa_image.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -8751,6 +9281,12 @@
   "tr": "Diyarbakır",
   "images": [
    {
+    "file": "Diyarbakr_Western_City_Wall.JPG",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Goletli_Park,_Diyarbakir.jpg",
     "caption": "",
     "lang": "en",
@@ -8775,12 +9311,6 @@
     "infobox": true
    },
    {
-    "file": "Diyarbakr_Western_City_Wall.JPG",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
     "file": "Seyrangeha_Parkormanê_Amed_2010.JPG",
     "caption": "",
     "lang": "en",
@@ -8795,7 +9325,7 @@
    {
     "file": "Dolmabahce_Istanbul_Turkey.jpg",
     "caption": "A view of Dolmabahçe Palace from the BosporusInteractive map of the Dolmabahçe Palace area",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -8835,6 +9365,18 @@
   "tr": "Edirne",
   "images": [
    {
+    "file": "Edirne_view_Üç_Şerefeli_Mosque.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "KaraağaçRailwayStation_(cropped).JPG",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Selimiye_Mosque_and_The_Statue_of_Architect_Sinan_-_panoramio.jpg",
     "caption": "",
     "lang": "en",
@@ -8848,18 +9390,6 @@
    },
    {
     "file": "Nagymecset_-_Edirne,_2014.10.22_(1).JPG",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "KaraağaçRailwayStation_(cropped).JPG",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Edirne_view_Üç_Şerefeli_Mosque.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -8879,7 +9409,7 @@
    {
     "file": "Erzurum_Citadel_-_Erzurum_Kalesi_01.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -8963,7 +9493,7 @@
    {
     "file": "Historical_boundaries_of_Palestine_(plain).svg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9005,7 +9535,7 @@
    {
     "file": "Island_of_Crete,_Greece.JPG",
     "caption": "NASA photograph of Crete",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9047,7 +9577,7 @@
    {
     "file": "Aleppo_old_city_image.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9087,9 +9617,9 @@
   "tr": "Hicaz",
   "images": [
    {
-    "file": "HAC_2010_KABE_VE_GÖKDELEN_-_panoramio.jpg",
-    "caption": "",
-    "lang": "en",
+    "file": "Al_Ula_(6708283401).jpg",
+    "caption": "The city of al-Ula in 2012. The city's archaeological district is in the foreground, with the Hejaz Mountains in the background.",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9115,12 +9645,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Al_Ula_(6708283401).jpg",
-    "caption": "The city of al-Ula in 2012. The city's archaeological district is in the foreground, with the Hejaz Mountains in the background.",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -9131,7 +9655,7 @@
    {
     "file": "British_Indian_Empire_1909_Imperial_Gazetteer_of_India.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9215,7 +9739,7 @@
    {
     "file": "Haydarpasa_train_station_(cropped).jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9257,7 +9781,7 @@
    {
     "file": "Caucasus_topographic_map-en.svg",
     "caption": "Topography of the Caucasus",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9297,19 +9821,19 @@
   "tr": "Kars",
   "images": [
    {
+    "file": "The_castle_of_Kars.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Kars_Panorama.JPG",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Holy_Apostles_Church_of_Kars_001.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "The_castle_of_Kars.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -9339,9 +9863,15 @@
   "tr": "Kastamonu",
   "images": [
    {
+    "file": "Kastamonu_Governor's_Office.jpg",
+    "caption": "Governor's historical office",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Kastamonu1.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9361,12 +9891,6 @@
     "caption": "",
     "lang": "tr",
     "infobox": true
-   },
-   {
-    "file": "Kastamonu_Governor's_Office.jpg",
-    "caption": "Governor's historical office",
-    "lang": "en",
-    "infobox": false
    },
    {
     "file": "Kastamonu_Şeyh_Şaban-ı_Veli_..._-_panoramio_(1).jpg",
@@ -9423,6 +9947,12 @@
   "tr": "Konya",
   "images": [
    {
+    "file": "Aziziye_Mosque,_Konya_(cropped).JPG",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Konyaaltincarsi.jpg",
     "caption": "",
     "lang": "en",
@@ -9447,12 +9977,6 @@
     "infobox": true
    },
    {
-    "file": "Aziziye_Mosque,_Konya_(cropped).JPG",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
     "file": "Konya_city_emblem.png",
     "caption": "",
     "lang": "en",
@@ -9464,6 +9988,12 @@
   "en": "Jerusalem",
   "tr": "Kudüs",
   "images": [
+   {
+    "file": "16-03-30-Klagemauer_Jerusalem_RalfR-DSCF7704.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Temple_Mount_(Aerial_view,_2007)_07.jpg",
     "caption": "",
@@ -9490,12 +10020,6 @@
    },
    {
     "file": "Old_city_walls_and_mamilla_ave._at_night_-_as_seen_from_\"Rooftop\"_restauran_-_Jerusalem,_Israel.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "16-03-30-Klagemauer_Jerusalem_RalfR-DSCF7704.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -9551,13 +10075,7 @@
    {
     "file": "EU-Cyprus.svg",
     "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Republic_of_Cyprus_in_Cyprus_(de-facto).svg",
-    "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9633,6 +10151,18 @@
   "tr": "Londra",
   "images": [
    {
+    "file": "Westminster_Abbey_St_Peter.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Canary_Wharf.Reza_04.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "London_Skyline_(125508655).jpeg",
     "caption": "",
     "lang": "en",
@@ -9640,12 +10170,6 @@
    },
    {
     "file": "London_Eye_at_sunset_2013-07-19.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Westminster_Abbey_St_Peter.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -9661,12 +10185,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "Canary_Wharf.Reza_04.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
    }
   ]
  },
@@ -9677,7 +10195,13 @@
    {
     "file": "Map_of_Mount_Lebanon_Sanjak_Circa_1900.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "BashirChehab.jpg",
+    "caption": "Painting of the Emir of Mount Lebanon Bashir II",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9685,12 +10209,6 @@
     "caption": "",
     "lang": "en",
     "infobox": true
-   },
-   {
-    "file": "BashirChehab.jpg",
-    "caption": "Painting of the Emir of Mount Lebanon Bashir II",
-    "lang": "en",
-    "infobox": false
    },
    {
     "file": "Muhammad_Ali_Paşa_and_Emir_Bashir_II.jpg",
@@ -9719,7 +10237,13 @@
    {
     "file": "Borders_of_Macedonia_according_authors_(1843-1927).png",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ernst-Ravenstein-Balkans-Ethnic-Map-1880.jpg",
+    "caption": "",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9743,12 +10267,6 @@
    {
     "file": "Balkans_200AD.png",
     "caption": "Roman provinces in the Balkans including Macedonia, c. 200 AD",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Macedonia_ad400.png",
-    "caption": "The late Roman Diocese of Macedonia, including the provinces of Macedonia Prima, Macedonia Secunda or Salutaris (periodically abolished), Thessalia, Epirus vetus, Epirus nova, Achaea, and Crete.",
     "lang": "en",
     "infobox": false
    }
@@ -9801,6 +10319,18 @@
   "tr": "Manastır, Kuzey Makedonya",
   "images": [
    {
+    "file": "Greek_demonastration_Bitola_1908.JPG",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Saat_kula_Bitola011.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Ambientalna_ulica_Marsal_Tito-Bitola_(10).jpg",
     "caption": "",
     "lang": "en",
@@ -9820,18 +10350,6 @@
    },
    {
     "file": "Магаза_(Битола).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Saat_kula_Bitola011.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Bitola_055.JPG",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -9887,7 +10405,7 @@
    {
     "file": "Al-Masjid_An-Nabawi_(Bird's_Eye_View).jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -9929,7 +10447,7 @@
    {
     "file": "Great_Mosque_of_Mecca1.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -10055,7 +10573,7 @@
    {
     "file": "Egypt_under_Muhammad_Ali_Dynasty_map_en.png",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -10070,6 +10588,12 @@
   "en": "Paris",
   "tr": "Paris",
   "images": [
+   {
+    "file": "Arc_de_Triomphe_HDR_2007.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_août_2014_(2).jpg",
     "caption": "",
@@ -10095,12 +10619,6 @@
     "infobox": true
    },
    {
-    "file": "Arc_de_Triomphe_HDR_2007.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
     "file": "Paris_Opera_full_frontal_architecture,_May_2009_sky.JPG",
     "caption": "",
     "lang": "en",
@@ -10113,10 +10631,16 @@
   "tr": "Rumeli",
   "images": [
    {
+    "file": "Turkey_in_Europe_and_the_Balkans,_1910.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Rumelia_map.jpg",
     "caption": "Map of the historical region of Rumelia in 1801",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "William_Faden._European_Dominions_of_the_Ottomans_or_Turkey_in_Europe._1795.jpg",
@@ -10179,6 +10703,18 @@
   "tr": "Sarıkamış",
   "images": [
    {
+    "file": "Sarikamish_market_(1916).png",
+    "caption": "Sarikamish market in March 1916",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Upper_Sarikamish_(1916).png",
+    "caption": "Upper Sarikamish in March 1916",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Turkey_adm_location_map.svg",
     "caption": "",
     "lang": "en",
@@ -10195,18 +10731,6 @@
     "caption": "",
     "lang": "tr",
     "infobox": true
-   },
-   {
-    "file": "Upper_Sarikamish_(1916).png",
-    "caption": "Upper Sarikamish in March 1916",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Sarikamish_market_(1916).png",
-    "caption": "Sarikamish market in March 1916",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -10215,25 +10739,25 @@
   "tr": "Selanik",
   "images": [
    {
+    "file": "Tower_of_Thessaloniki_-_panoramio.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Galerius_Arch_(Thessaloniki)_(cropped).jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Tessaloniki_BW_2017-10-05_18-22-47.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
    },
    {
-    "file": "Tower_of_Thessaloniki_-_panoramio.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
     "file": "Thessaloniki_Heptapyrgion_northeastern_wall_from_the_inner_yard.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Galerius_Arch_(Thessaloniki)_(cropped).jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -10341,13 +10865,13 @@
   "tr": "Sofya",
   "images": [
    {
-    "file": "Panoramic_view_over_central_Sofia_and_the_Vitosha_Mountain_2017-10-08.jpg",
+    "file": "Cathedral_Saint_Alexander_Nevsky_(23997180108).jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Cathedral_Saint_Alexander_Nevsky_(23997180108).jpg",
+    "file": "Panoramic_view_over_central_Sofia_and_the_Vitosha_Mountain_2017-10-08.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -10425,16 +10949,22 @@
   "tr": "Osmanlı Suriyesi",
   "images": [
    {
-    "file": "Ottoman_Syria.png",
+    "file": "Mount_Lebanon,_Ottoman_Syria_1914.png",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Illustration_from_Views_in_the_Ottoman_Dominions_by_Luigi_Mayer,_digitally_enhanced_by_rawpixel-com_46.jpg",
     "caption": "Mosque at Latakia, from Views in the Ottoman Dominions, in Europe, in Asia, and some of the Mediterranean islands (1810) illustrated by Luigi Mayer (1755–1803).",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Ottoman_Syria.png",
+    "caption": "",
     "lang": "en",
-    "infobox": false
+    "infobox": true
    },
    {
     "file": "Illustration_from_Views_in_the_Ottoman_Dominions_by_Luigi_Mayer,_digitally_enhanced_by_rawpixel-com_68.jpg",
@@ -10453,12 +10983,6 @@
     "caption": "1851 map of Ottoman Syria, showing the Eyalets of Aleppo, Damascus, Tripoli, Acre and Gaza.",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Ottoman_Empire_Administrative_Divisions.png",
-    "caption": "A map showing the administrative divisions of the Ottoman Empire in 1317 Hijri, 1899 Gregorian, Including Ottoman Syria.",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -10467,6 +10991,18 @@
   "tr": "Süveyş Kanalı",
   "images": [
    {
+    "file": "SuezCanalKantara.jpg",
+    "caption": "Suez Canal, 1869",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Aerial_view_of_city_of_Suez_and_Suez_Canal.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Suez_Canal,_Egypt_(31596166706).jpg",
     "caption": "The Suez Canal from space, showingthe Great Bitter Lake at the centre (after the 2015 expansion)Interactive map of Suez Canal",
     "lang": "en",
@@ -10474,12 +11010,6 @@
    },
    {
     "file": "Iss016e019375.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Aerial_view_of_city_of_Suez_and_Suez_Canal.jpg",
     "caption": "",
     "lang": "en",
     "infobox": false
@@ -10495,12 +11025,6 @@
     "caption": "Bathymetric chart, northern Gulf of Suez, route to Cairo, 1856",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "SuezCanalKantara.jpg",
-    "caption": "Suez Canal, 1869",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -10509,32 +11033,14 @@
   "tr": "Sırbistan",
   "images": [
    {
-    "file": "Serbia_(orthographic_projection).svg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Europe-Serbia_(2006–2008).svg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "Location_of_Serbia_in_Europe_(2006–2008).png",
-    "caption": "",
-    "lang": "tr",
+    "file": "Felix_Romuliana_1.jpg",
+    "caption": "Ruins of the Felix Romuliana, imperial palace of the Emperor Galerius, 298 AD",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Vinca_clay_figure_02.jpg",
     "caption": "Vinča culture figurine, 4000–4500 BC",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Felix_Romuliana_1.jpg",
-    "caption": "Ruins of the Felix Romuliana, imperial palace of the Emperor Galerius, 298 AD",
     "lang": "en",
     "infobox": false
    },
@@ -10551,6 +11057,12 @@
   "tr": "Tiflis",
   "images": [
    {
+    "file": "2014_Tbilisi,_Widoki_z_Twierdzy_Narikala_(36).jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg",
     "caption": "",
     "lang": "en",
@@ -10558,12 +11070,6 @@
    },
    {
     "file": "Freedom_Square,_Tbilisi,_Georgia.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": true
-   },
-   {
-    "file": "2014_Tbilisi,_Widoki_z_Twierdzy_Narikala_(36).jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
@@ -10635,6 +11141,12 @@
   "tr": "Trablusgarp (eyalet)",
   "images": [
    {
+    "file": "Tripolitania_Vilayet,_Ottoman_Empire_(1900).png",
+    "caption": "The Tripolitania Vilayet in 1900",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Maritime_flag_of_Regency_of_Tripoli_(18th_century).svg",
     "caption": "",
     "lang": "en",
@@ -10649,12 +11161,6 @@
    {
     "file": "Royaume_de_Tripoli_1707.jpg",
     "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Tripolitania_Vilayet,_Ottoman_Empire_(1900).png",
-    "caption": "The Tripolitania Vilayet in 1900",
     "lang": "en",
     "infobox": false
    },
@@ -10676,6 +11182,12 @@
   "en": "Trabzon",
   "tr": "Trabzon",
   "images": [
+   {
+    "file": "Hagia_Sophia_Trabzon.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Trabzon_Kalesi.jpeg",
     "caption": "",
@@ -10701,12 +11213,6 @@
     "infobox": false
    },
    {
-    "file": "Hagia_Sophia_Trabzon.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "Trabzon,AtatürkAlani.jpg",
     "caption": "",
     "lang": "en",
@@ -10721,7 +11227,7 @@
    {
     "file": "Thrace_region.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -10761,14 +11267,20 @@
   "tr": "Tuna",
   "images": [
    {
-    "file": "View_from_Gellért_Hill_to_the_Danube,_Hungary_-_Budapest_(28493220635).jpg",
+    "file": "Silistra_River_Danube.jpg",
     "caption": "",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Danube_basin.png",
     "caption": "The Danube basin",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "View_from_Gellért_Hill_to_the_Danube,_Hungary_-_Budapest_(28493220635).jpg",
+    "caption": "",
     "lang": "en",
     "infobox": false
    },
@@ -10789,12 +11301,6 @@
     "caption": "The Tisza is the longest tributary of the Danube.",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Donaueschingen_Donauzusammenfluss_20080714.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -10805,8 +11311,8 @@
    {
     "file": "Guillaume_Delisle_Tunis_1707.jpg",
     "caption": "",
-    "lang": "tr",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    }
   ]
  },
@@ -10857,25 +11363,25 @@
   "tr": "Van",
   "images": [
    {
+    "file": "Van_Fortress_From_Northwest.JPG",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Akhtamar_Island_on_Lake_Van_with_the_Armenian_Cathedral_of_the_Holy_Cross.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Hoşap_24_05_2010_Burg.jpg",
     "caption": "",
     "lang": "en",
     "infobox": true
    },
    {
-    "file": "Van_Fortress_From_Northwest.JPG",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "Insel_Akdamar_Աղթամար,_armenische_Kirche_zum_Heiligen_Kreuz_Սուրբ_խաչ_(um_920)_(39526195355).jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Akhtamar_Island_on_Lake_Van_with_the_Armenian_Cathedral_of_the_Holy_Cross.jpg",
     "caption": "",
     "lang": "en",
     "infobox": false
@@ -10983,14 +11489,20 @@
   "tr": "Yemen Vilayeti",
   "images": [
    {
-    "file": "Map_of_vilayet_of_Yemen.png",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "Turkish_Yemeni_soldiers.jpg",
     "caption": "Turkish officers with Yemeni soldiers and militiamen prior to World War I",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Yemen_Vilayet,_Ottoman_Empire_(1900)_v2.png",
+    "caption": "Yemen Vilayeti harita üzerinde",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Map_of_vilayet_of_Yemen.png",
+    "caption": "",
     "lang": "en",
     "infobox": false
    },
@@ -10998,12 +11510,6 @@
     "file": "Hussein_Hilmi_Pacha.JPG",
     "caption": "Huseyin Hilmi Pasha, Governor of Yemen Vilayet before Grand Viziers of the Ottoman Empire",
     "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Yemen_Vilayet,_Ottoman_Empire_(1900)_v2.png",
-    "caption": "Yemen Vilayeti harita üzerinde",
-    "lang": "tr",
     "infobox": false
    }
   ]
@@ -11013,20 +11519,20 @@
   "tr": "Yeşilköy",
   "images": [
    {
+    "file": "Ayastefanos_Rus_Abidesi'nin_yıkılmış_hali.jpg",
+    "caption": "1914 yılında yıkılan Ayastefanos Rus Abidesi'nin bir görüntüsü.",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "HouseOfSanStefanoTreaty.jpg",
     "caption": "",
-    "lang": "tr",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Yesilkoy_Haritasi.jpg",
     "caption": "",
-    "lang": "tr",
-    "infobox": false
-   },
-   {
-    "file": "Ayastefanos_Rus_Abidesi'nin_yıkılmış_hali.jpg",
-    "caption": "1914 yılında yıkılan Ayastefanos Rus Abidesi'nin bir görüntüsü.",
     "lang": "tr",
     "infobox": false
    },
@@ -11055,6 +11561,12 @@
   "tr": "Yunanistan Krallığı",
   "images": [
    {
+    "file": "Royaume_de_Grece_1832-1921_Expansion_(Kingdom_of_Greece_Map_Detail).jpg",
+    "caption": "Kingdom of Greece 1832-1921 expansion",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "State_Flag_of_Greece_(1863-1924_and_1935-1973).svg",
     "caption": "",
     "lang": "en",
@@ -11073,18 +11585,6 @@
     "infobox": false
    },
    {
-    "file": "Royaume_de_Grece_1832-1921_Expansion_(Kingdom_of_Greece_Map_Detail).jpg",
-    "caption": "Kingdom of Greece 1832-1921 expansion",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "King_George_of_Hellenes.jpg",
-    "caption": "King George I of the Hellenes",
-    "lang": "en",
-    "infobox": false
-   },
-   {
     "file": "The_Hellenic_Parliament_by_N._Orlof_(1930)_on_November_3,_2022.jpg",
     "caption": "The Hellenic Parliament in the 1880s, with PM Charilaos Trikoupis standing at the podium",
     "lang": "en",
@@ -11097,22 +11597,22 @@
   "tr": "Yıldız Sarayı",
   "images": [
    {
-    "file": "İstanbul_5717.jpg",
-    "caption": "",
-    "lang": "en",
+    "file": "Yildiz_palace_1909.jpg",
+    "caption": "Yıldız Palace, Büyük Mabeyn Köşkü, in 1909",
+    "lang": "lead",
     "infobox": true
    },
    {
-    "file": "Yildiz_palace_1909.jpg",
-    "caption": "Yıldız Palace, Büyük Mabeyn Köşkü, in 1909",
-    "lang": "en",
-    "infobox": false
+    "file": "İstanbul_5717.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Istanbul_Yildiz_Palace_and_Park_May_2014_8173.jpg",
     "caption": "A view of the outer gardens at Yıldız Palace",
-    "lang": "en",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "İstanbul_5716.jpg",
@@ -11139,9 +11639,15 @@
   "tr": "Gelibolu Yarımadası",
   "images": [
    {
+    "file": "Port_de_Gallipoli.JPG",
+    "caption": "The port of Gallipoli, c. 1880",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Gallipoli_peninsula_from_space.png",
     "caption": "Satellite image of the Gallipoli peninsula and surrounding area",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -11153,12 +11659,6 @@
    {
     "file": "Gallipolimap2.png",
     "caption": "Map of the peninsula and its surroundings",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Port_de_Gallipoli.JPG",
-    "caption": "The port of Gallipoli, c. 1880",
     "lang": "en",
     "infobox": false
    },
@@ -11180,6 +11680,12 @@
   "en": "Üsküdar",
   "tr": "Üsküdar",
   "images": [
+   {
+    "file": "Beylerbeyi_Palace_in_October_2023.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
    {
     "file": "Kuleli_Military_High_School_in_April_2024.jpg",
     "caption": "",
@@ -11209,12 +11715,6 @@
     "caption": "",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "Beylerbeyi_Palace_in_October_2023.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -11223,15 +11723,21 @@
   "tr": "Üsküp",
   "images": [
    {
-    "file": "Skopje_view_from_Kale_3.jpg",
+    "file": "Shkup1912.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Arheo_Museum_of_Macedonia_(13).JPG",
     "caption": "",
-    "lang": "tr",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
+    "file": "Skopje_view_from_Kale_3.jpg",
+    "caption": "",
+    "lang": "en",
     "infobox": true
    },
    {
@@ -11251,12 +11757,6 @@
     "caption": "",
     "lang": "en",
     "infobox": false
-   },
-   {
-    "file": "St._Clement_Church_Skopje_3.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
    }
   ]
  },
@@ -11267,17 +11767,11 @@
    {
     "file": "Map_Iran_1900-en.png",
     "caption": "",
-    "lang": "tr",
-    "infobox": false
+    "lang": "lead",
+    "infobox": true
    },
    {
     "file": "Mahmud_al-Kashgari_map.jpg",
-    "caption": "",
-    "lang": "tr",
-    "infobox": false
-   },
-   {
-    "file": "Caucasian_albanian_stone_azerbaijan_mingechaur2.jpg",
     "caption": "",
     "lang": "tr",
     "infobox": false
@@ -11309,7 +11803,7 @@
    {
     "file": "Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
@@ -11349,19 +11843,19 @@
   "tr": "İzmir",
   "images": [
    {
+    "file": "TR_Izmir_asv2020-02_img30_Konak_Clock_Tower.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Cumhuriyet_Square.jpg",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "A_panoramic_view_of_the_Alsancak_quarter_in_Izmir.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "TR_Izmir_asv2020-02_img30_Konak_Clock_Tower.jpg",
     "caption": "",
     "lang": "en",
     "infobox": false
@@ -11433,16 +11927,16 @@
   "tr": "Şam",
   "images": [
    {
+    "file": "Damascus,_Syria,_Panoramic_view_of_Damascus.jpg",
+    "caption": "",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "Damascus_coll.jpg",
     "caption": "",
     "lang": "tr",
     "infobox": true
-   },
-   {
-    "file": "Damascus,_Syria,_Panoramic_view_of_Damascus.jpg",
-    "caption": "",
-    "lang": "en",
-    "infobox": false
    },
    {
     "file": "Umayyad_Square,_Damascus.jpg",
@@ -11475,20 +11969,20 @@
   "tr": "Şipka Geçidi",
   "images": [
    {
+    "file": "Cannons_on_Shipka_pass.jpg",
+    "caption": "Cannons on Shipka pass",
+    "lang": "lead",
+    "infobox": true
+   },
+   {
     "file": "View_from_Shipka.JPG",
     "caption": "",
-    "lang": "en",
+    "lang": "lead",
     "infobox": true
    },
    {
     "file": "Snow_Scene_at_Shipka_Pass_1.JPG",
     "caption": "Snow scene at Shipka Pass",
-    "lang": "en",
-    "infobox": false
-   },
-   {
-    "file": "Cannons_on_Shipka_pass.jpg",
-    "caption": "Cannons on Shipka pass",
     "lang": "en",
     "infobox": false
    },

@@ -13,9 +13,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1875–1926 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **31** sources on **681** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[1326 08 26 Serveti Funun.jpg|320]]
-*Mehmed Cavid delivering a lecture as Finance Minister, 26 August 1910, Salonica* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Djavid Bey.png|320]]
+*Djavid Bey* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -227,13 +228,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Son Osmanlılar (Murat Bardakçı)|Bardakçı, *Son Osmanlılar*]]** (Turkish, 1 p): [[Son Osmanlılar (Murat Bardakçı)#p. 113|113]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 152|152]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmed_Cavid) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Cavid_Bey)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
+![[Djavid Bey.png|480]]
+*Djavid Bey*
+
 ![[1326 08 26 Serveti Funun.jpg|480]]
-*Mehmed Cavid delivering a lecture as Finance Minister, 26 August 1910, Salonica*
+*1326 08 26 Serveti Funun*
 
 ## Related
 

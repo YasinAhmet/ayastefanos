@@ -12,9 +12,10 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1916–1917 · Found in **21** sources on **127** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[EasternFront1916b.jpg|320]]
-*EasternFront1916b* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Defenders NGM-v31-p369-A.jpg|320]]
+*Russian infantry* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -171,22 +172,23 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Brusilov_offensive) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Brusilov_Taarruzu)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[EasternFront1916b.jpg|480]]
-*EasternFront1916b*
+![[Defenders NGM-v31-p369-A.jpg|480]]
+*Russian infantry*
 
 ![[Brusilov offensive.jpg|480]]
 *Brusilov offensive*
 
+![[EasternFront1916b.jpg|480]]
+*EasternFront1916b*
+
 ![[EasternFront1916a2.jpg|480]]
 *Blue and red lines: Eastern Front in 1916. Brusilov offensive takes place in lower right corner.*
-
-![[Defenders NGM-v31-p369-A.jpg|480]]
-*Russian infantry*
 
 ## Related
 

@@ -13,8 +13,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[Abdülhamid II of Turkey.jpg|320]]
-*Prince Abdul Hamid at Balmoral Castle in 1867, accompanying his uncle Sultan Abdulaziz during his visit to Western Europe between 21 June 1867 – 7 August 1867.* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*Abdülhamid II of Turkey* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -326,16 +327,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)|Aralov, *Bir Sovyet Diplomatının Türkiye Anıları*]]** (Russian, 1 loc): [[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)#loc. 118|118]]
 - **[[Plevne'de Bir Avustralyalı (Charles S. Ryan)|Ryan, *Plevne'de Bir Avustralyalı*]]** (Australian, 1 p): [[Plevne'de Bir Avustralyalı (Charles S. Ryan)#p. 290|290]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Abdul_Hamid_II) · [TR Wikipedia](https://tr.wikipedia.org/wiki/II._Abd%C3%BClhamid)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[Abdülhamid II of Turkey.jpg|480]]
-*Prince Abdul Hamid at Balmoral Castle in 1867, accompanying his uncle Sultan Abdulaziz during his visit to Western Europe between 21 June 1867 – 7 August 1867.*
-
-![[Grivita 1877.jpg|480]]
-*Ottoman troops under Romanian attack at the Siege of Plevna (1877) in the Russo-Turkish War (1877–78)*
+*Abdülhamid II of Turkey*
 
 ## Related
 

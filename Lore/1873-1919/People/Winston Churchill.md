@@ -11,9 +11,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **16** sources on **85** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Jennie Churchill with her sons.jpg|320]]
-*Jennie Spencer Churchill with her two sons, Jack (left) and Winston (right) in 1889* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[ChurchillGeorge0001.jpg|320]]
+*ChurchillGeorge0001* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -144,13 +145,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 471|471]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 9|9]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Winston_Churchill) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Winston_Churchill)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Jennie Churchill with her sons.jpg|480]]
-*Jennie Spencer Churchill with her two sons, Jack (left) and Winston (right) in 1889*
+![[ChurchillGeorge0001.jpg|480]]
+*ChurchillGeorge0001*
 
 ## Related
 

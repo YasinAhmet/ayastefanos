@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 Italy attacked Ottoman Tripoli (Libya) in October 1911 (Akşin). Officers volunteered: Mustafa Kemal became chief of staff of the Benghazi forces (Kemal), and Enver and Fethi led the resistance (see those notes). The war's diplomacy is studied by Childs (American view; see [[Giovanni Giolitti]]). Akşin says it began the empire's 'days of disaster' and speeded up the Turkist movement. While it was still on, Montenegro declared war on 8 October 1912 (Hochwächter), and peace talks with Italy followed (Akyıldız).
@@ -141,6 +142,7 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -149,11 +151,11 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Italo-Turkish war collage.jpg|480]]
 *Italo-Turkish war collage*
 
-![[Giovanni Giolitti 1905.jpg|480]]
-*Italian Prime Minister Giovanni Giolitti, 1905*
-
 ![[Ismail Enver Bey in Cyrenaica.jpg|480]]
 *Ismail Enver Bey in Cyrenaica, 1911*
+
+![[Giovanni Giolitti 1905.jpg|480]]
+*Italian Prime Minister Giovanni Giolitti, 1905*
 
 ![[Assalam, La Paz, año IX, n 879.jpg|480]]
 *Argentine newspaper Assalam discussing the occupation of Tripoli (30 September 1911).*

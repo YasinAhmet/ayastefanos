@@ -16,6 +16,7 @@ tags: [event, "1873-1919"]
 *Grivita 1877* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Plevne (Pleven) in Bulgaria was held by [[Gazi Osman Paşa]] against Russian assaults in 1877 (Bardakçı). Kemal calls it 'the most brilliant historical example': an unimportant, badly placed position turned into a fortress by resolve. Ryan (Australian view) describes the first battle and was the only Briton in Osman's army ('Plevna Ryan', Hobart-Hampden). On 7 December 1877 the Armenian National Assembly decided that non-Muslims too would do their patriotic duty (Gürün). After Plevne fell, Abdülhamid feared the army regrouping and did not trust Süleyman Paşa (video transcripts). Bardakçı notes defeat did not stop the legend of its commander.
@@ -159,6 +160,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Mahşerin İki Gemisi - Part I (Video transcript)|Video, *Mahşerin İki Gemisi - Part I*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part I (Video transcript)#loc. 18|18]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 647|647]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -167,11 +169,11 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Grivita 1877.jpg|480]]
 *Grivita 1877*
 
-![[General Skobelev (Dimitriev-Orenburgsky).jpg|480]]
-*General Mikhail Skobelev on horseback, by Nikolai Dmitriev-Orenburgsky*
-
 ![[Dmitriev 004.jpg|480]]
 *The artillery battle at Pleven. The battery of siege guns on the Grand Duke Mount, by Nikolai Dmitriev-Orenburgsky*
+
+![[General Skobelev (Dimitriev-Orenburgsky).jpg|480]]
+*General Mikhail Skobelev on horseback, by Nikolai Dmitriev-Orenburgsky*
 
 ## Related
 

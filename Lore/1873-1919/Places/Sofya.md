@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Cathedral Saint Alexander Nevsky (23997180108)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Sofya (Sofia) became Bulgaria's capital. In the Balkan War its hospitals filled with wounded (Trotsky, Russian view). In autumn 1913 Fethi became ambassador and Mustafa Kemal military attaché there, which Akşin reads as a sign of Enver's renewed power. [[Cemal Paşa]] describes waiting in vain for news from Sofia on an alliance. Ortaylı quotes Mustafa Kemal's remarks after an opera in Sofia. (Massie's 'Sofya' is Tsarevna Sophia of Russia.)
@@ -267,6 +268,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 106|106]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 12|12]]
 - **[[Çariçe Katerina (Robert K. Massie)|Massie, *Çariçe Katerina*]]** (American, 1 p): [[Çariçe Katerina (Robert K. Massie)#p. 474|474]]
+
 
 ## Images
 

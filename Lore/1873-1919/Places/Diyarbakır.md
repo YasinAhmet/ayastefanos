@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **39** sources on **357** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Goletli Park, Diyarbakir.jpg|320]]
-*Goletli Park, Diyarbakir* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Diyarbakr Western City Wall.jpg|320]]
+*Diyarbakr Western City Wall* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -262,10 +263,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kim Hain, Kim Kahraman (Video transcript)|Video, *Kim Hain, Kim Kahraman*]]** (Turkish, 1 loc): [[Kim Hain, Kim Kahraman (Video transcript)#loc. 9|9]]
 - **[[Osmanlı Piyadesi 1914-1918 (David Nicolle)|Nicolle, *Osmanlı Piyadesi 1914-1918*]]** (British, 1 p): [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 10|10]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Diyarbak%C4%B1r) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Diyarbak%C4%B1r)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Diyarbakr Western City Wall.jpg|480]]
+*Diyarbakr Western City Wall*
 
 ![[Goletli Park, Diyarbakir.jpg|480]]
 *Goletli Park, Diyarbakir*
@@ -275,9 +280,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Karasanserai Diyarbakir.png|480]]
 *Karasanserai Diyarbakir*
-
-![[Diyarbakr Western City Wall.jpg|480]]
-*Diyarbakr Western City Wall*
 
 ## Related
 

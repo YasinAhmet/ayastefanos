@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Baku Montage* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Bakü (Baku) was the Azerbaijani oil city. Nuri Paşa held it only a month and a half in 1918 (Bardakçı). [[Bahaeddin Şakir]] stayed in Baku after the war (Erdinç). In September 1920 it hosted a Bolshevik congress; Hafız Mehmet attended as a delegate from [[Trabzon]] (Goloğlu). On 15 June 1920 [[Mustafa Suphi]] wrote to Mustafa Kemal from Baku (Akşin). In 1926 it hosted the Turcology Congress (Ortaylı).
@@ -189,6 +190,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 128|128]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 79|79]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 313|313]]
+
 
 ## Images
 

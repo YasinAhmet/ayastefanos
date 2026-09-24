@@ -16,6 +16,7 @@ tags: [person, "1873-1919"]
 *Hafiz Hakki Pasha* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Hafız (İsmail) Hakkı Paşa was a staff officer and one of the planners of the [[Sarıkamış Operation (1914-1915)]]. Bardakçı says he was born in [[Manastır]] in 1879, the son of a cavalry lieutenant, and was in Vienna until December 1910. In 1910 he married a granddaughter of [[Murad V]]. In 1914 he and Halil were sent to German headquarters to argue for six more months of Ottoman neutrality ([[Cemal Paşa]]). His diary, published in *Hakkı Paşa*, records how the war began on 29 October 1914.
@@ -98,6 +99,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 3 ps): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 67|67]] · [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 81|81]] · [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 474|474]]
 - **[[Bir Yedek Subayın Anıları (Faik Tonguç)|Tonguç, *Bir Yedek Subayın Anıları*]]** (Turkish, 1 p): [[Bir Yedek Subayın Anıları (Faik Tonguç)#p. 35|35]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -107,7 +109,7 @@ Every page where this subject is named. Each number links to that page in the co
 *Hafiz Hakki Pasha*
 
 ![[Enver Pasha - Turkish Military Academy, 1901.jpg|480]]
-*Harp Akademisi ikinci sınıf öğrencisi Hakkı Hafız Efendi (önde sol başta) ve İsmail Enver Efendi (önde sağdan ikinci) arkadaşlarıyla birlikte süvari stajı sırasında (1901)*
+*Enver Pasha - Turkish Military Academy, 1901*
 
 ## Related
 

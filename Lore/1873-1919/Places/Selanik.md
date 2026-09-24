@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Galerius Arch (Thessaloniki) (cropped)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Selanik (Salonika) was the birthplace of Mustafa Kemal (1881, by his own account, Goloğlu) and the cradle of the [[Committee of Union and Progress]]. The CUP's second congress met there in September 1909, where the main split came (Bardakçı). Akşin compares school numbers across the [[Rumeli]] provinces, including Selanik. It had a Jewish population; one Salonika deputy, Avram Efendi, represented [[Manastır]]–Selanik in 1877 (Ortaylı). A hospital network served the Selanik theatre of war in the Balkan War (Durgun).
@@ -295,6 +296,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 272|272]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 163|163]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 576|576]]
+
 
 ## Images
 

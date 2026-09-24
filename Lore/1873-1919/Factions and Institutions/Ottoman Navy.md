@@ -11,9 +11,10 @@ tags: [faction, "1873-1919"]
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **40** sources on **391** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Battle of Zonchio 1499.jpg|320]]
-*The Battle of Zonchio in 1499.* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Battlecruiser SMS Goeben transfered to the Ottoman Empire and renamed the Yavuz 1914 (49911053158).jpg|320]]
+*Battlecruiser SMS Goeben transfered to the Ottoman Empire and renamed the Yavuz 1914 (49911053158)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -263,16 +264,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)|Childs, *Trablusgarp Savaşı ve Türk-İtalyan İlişkileri*]]** (American, 1 p): [[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)#p. 334|334]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 6|6]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ottoman_Navy) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Osmanl%C4%B1_donanmas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Battle of Zonchio 1499.jpg|480]]
-*The Battle of Zonchio in 1499.*
-
-![[Battle of Preveza (1538).jpg|480]]
-*Ottoman admiral Hayreddin Barbarossa defeated the Holy League of Charles V under the command of Andrea Doria at the Battle of Preveza in 1538.*
+![[Battlecruiser SMS Goeben transfered to the Ottoman Empire and renamed the Yavuz 1914 (49911053158).jpg|480]]
+*Battlecruiser SMS Goeben transfered to the Ottoman Empire and renamed the Yavuz 1914 (49911053158)*
 
 ## Related
 

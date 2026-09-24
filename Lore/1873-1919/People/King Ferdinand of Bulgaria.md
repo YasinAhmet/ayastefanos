@@ -12,9 +12,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** b. 1861 · Found in **11** sources on **39** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[5 leva Ferdinand I - 1894.png|320]]
-*Silver coin: 5 leva, Ferdinand I, 1894* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[KingFerdinand I Portrait.jpg|320]]
+*KingFerdinand I Portrait* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -115,16 +116,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 21|21]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 202|202]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ferdinand_I_of_Bulgaria) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Ferdinand_%28Bulgaristan_%C3%A7ar%C4%B1%29)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[5 leva Ferdinand I - 1894.png|480]]
-*Silver coin: 5 leva, Ferdinand I, 1894*
-
 ![[KingFerdinand I Portrait.jpg|480]]
-*WWI-era portrait of Ferdinand I*
+*KingFerdinand I Portrait*
 
 ## Related
 

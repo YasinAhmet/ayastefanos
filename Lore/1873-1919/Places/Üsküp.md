@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Arheo Museum of Macedonia (13)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Üsküp (Skopje) was a Macedonian city on the Belgrade–Salonika road (Durgun). In 1859 the Porte reported on so-called Muslims around Üsküp and Prizren (Ortaylı). In 1908 the Unionist Necib Draga helped win the Albanians there for the constitution (Akşin). Austrian gendarmerie officers were stationed there before 1908 (Bardakçı). It had a chamber of commerce by 1908 (Toprak). In 1912 Trotsky (Russian view) travelled towards it with the Serbian army.
@@ -126,6 +127,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 2 locs): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 51|51]] · [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 137|137]]
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 2 ps): [[Sultanın Paşaları (Olivier Bouquet)#p. 78|78]] · [[Sultanın Paşaları (Olivier Bouquet)#p. 392|392]]
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 172|172]]
+
 
 ## Images
 

@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Haydarpasa train station (cropped)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Kadıköy, Moda and Kızıltoprak are neighbourhoods on [[İstanbul]]'s Asian shore. In November 1918 [[Kara Kemal]] saw the CUP leaders off from the Moda shore (Erdinç). The Unionists had a Kızıltoprak branch (Neyzi). The [[English Friendship Society]]'s Kadıköy branch planned an English college in the old German school (Akşin). Sorguç was sent from the Kadıköy recruiting office in 1916.
@@ -216,6 +217,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 509|509]]
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 9|9]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 45|45]]
+
 
 ## Images
 

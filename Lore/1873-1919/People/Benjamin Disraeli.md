@@ -16,6 +16,7 @@ tags: [person, "1873-1919"]
 *Disraeli in 1878* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Benjamin Disraeli (1804–1881) was the Conservative British Prime Minister, known as a friend of the Turks. He was attacked for silence over the Bulgarian killings (video transcripts). He threatened Russia that Britain did not fear war (Mantran). With Bismarck he pushed the diplomacy of [[Berlin]], and on returning to London he claimed to bring 'peace with honour' (Cox, American view). His government considered the Baghdad railway (Ortaylı). Cox also quotes his novel *Vivian Grey*.
@@ -69,6 +70,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Değişim ve Anayasal Rejim Sorunu (İlber Ortaylı)|Ortaylı, *Osmanlı'da Değişim ve Anayasal Rejim Sorunu*]]** (Turkish, 2 ps): [[Osmanlı'da Değişim ve Anayasal Rejim Sorunu (İlber Ortaylı)#p. 228|228]] · [[Osmanlı'da Değişim ve Anayasal Rejim Sorunu (İlber Ortaylı)#p. 343|343]]
 - **[[Mahşerin İki Gemisi - Part I (Video transcript)|Video, *Mahşerin İki Gemisi - Part I*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part I (Video transcript)#loc. 18|18]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -80,17 +82,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Benjamin Disraeli by Cornelius Jabez Hughes, 1878.jpg|480]]
 *Benjamin Disraeli by Cornelius Jabez Hughes, 1878*
 
-![[Francis Grant (1803-1878) - Benjamin Disraeli (1804–1881), Earl of Beaconsfield, PC, FRS, KG, as a Young Man - 428984 - .jpg|480]]
-*Portrait of Benjamin Disraeli by Francis Grant. Disraeli as a young man—a retrospective portrayal painted in 1852*
-
-![[John Murray b1788.jpg|480]]
-*John Murray b1788*
-
-![[John Gibson Lockhart.jpg|480]]
-*John Gibson Lockhart*
-
-![[Croker-lyndhurst-henrietta-ladylondonderry.jpg|480]]
-*Friends and allies of Disraeli in the 1830s: clockwise from top left—Croker, Lyndhurst, Henrietta Sykes and Lady Londonderry*
+![[Benjamin Disraeli (1804–1881) cropped.png|480]]
+*Benjamin Disraeli (1804–1881) cropped*
 
 ## Related
 

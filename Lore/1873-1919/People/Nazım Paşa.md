@@ -12,8 +12,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[1326 04 22 Serveti Funun Nazim Pasa Bagdat Valisi.jpg|320]]
-*A photo from the Servet-i Fünun magazine, dated April 22, 1910, from the time when Nazım Pasha was the Governor of Baghdad.* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*1326 04 22 Serveti Funun Nazim Pasa Bagdat Valisi* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -152,13 +153,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Mahşerin İki Gemisi - Part II (Video transcript)|Video, *Mahşerin İki Gemisi - Part II*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 6|6]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 114|114]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Naz%C4%B1m_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[1326 04 22 Serveti Funun Nazim Pasa Bagdat Valisi.jpg|480]]
-*A photo from the Servet-i Fünun magazine, dated April 22, 1910, from the time when Nazım Pasha was the Governor of Baghdad.*
+*1326 04 22 Serveti Funun Nazim Pasa Bagdat Valisi*
 
 ## Related
 

@@ -12,9 +12,10 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1915 · Found in **30** sources on **168** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[G.C. 18 March 1915 Gallipoli Campaign Article.jpg|320]]
-*G.C. 18 March 1915 Gallipoli Campaign Article* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[HMS Irresistible abandoned 18 March 1915.jpg|320]]
+*HMS Irresistible abandoned 18 March 1915* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -203,25 +204,23 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Gallipoli_campaign) · [TR Wikipedia](https://tr.wikipedia.org/wiki/%C3%87anakkale_Sava%C5%9F%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[HMS Irresistible abandoned 18 March 1915.jpg|480]]
+*HMS Irresistible abandoned 18 March 1915*
+
+![[Dardanelles fleet-2.jpg|480]]
+*Panoramic view of the Entente fleet in the Dardanelles*
 
 ![[G.C. 18 March 1915 Gallipoli Campaign Article.jpg|480]]
 *G.C. 18 March 1915 Gallipoli Campaign Article*
 
 ![[Graphic map of the Dardanelles (cropped).jpg|480]]
 *Graphic map of the Dardanelles and Gallipoli, showing the Entente bridgeheads at Cape Helles and ANZAC Cove before the Suvla Bay landing*
-
-![[Dardanelles fleet-2.jpg|480]]
-*Panoramic view of the Entente fleet in the Dardanelles*
-
-![[Landing French-Gallipoli April 1915.jpg|480]]
-*French troops land at Lemnos, 1915.*
-
-![[ANZAC Mudros harbourl 1915 SLNSW FL685794.jpg|480]]
-*Australian troops, Port Mudros, Greece, 20 April 1915*
 
 ## Related
 

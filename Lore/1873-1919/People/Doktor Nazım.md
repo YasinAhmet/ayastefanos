@@ -12,10 +12,6 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1870–1926 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **20** sources on **269** pages · [[Home]] · [[Timeline]]
 
-<!-- images:start -->
-![[2 20240425 133134 Mehmet Nazim.jpg|320]]
-*Devlet Büyükleri Anıt Mezarlığı'nda Mehmet Nazım Bey'in kabri* — ⚠ Not from vault sources (image: Wikimedia Commons)
-<!-- images:end -->
 
 ## Summary
 
@@ -170,16 +166,6 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 2 ps): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 179|179]] · [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 475|475]]
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 201|201]]
 
-## Images
-
-> [!info] ⚠ Not from vault sources
-> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmet_N%C3%A2z%C4%B1m_Bey) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mehmet_N%C3%A2z%C4%B1m)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
-
-![[2 20240425 133134 Mehmet Nazim.jpg|480]]
-*Devlet Büyükleri Anıt Mezarlığı'nda Mehmet Nazım Bey'in kabri*
-
-![[(Mehmet) Nâzım Bey.jpg|480]]
-*Mehmet Nazım Bey*
 
 ## Related
 

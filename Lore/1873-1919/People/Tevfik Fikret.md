@@ -14,8 +14,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[1920 08 26 Serveti Funun Tevfik Fikret.jpg|320]]
-*26 Ağustos 1920 tarihli Servet-i Fünun mecmuasında Tevfik Fikret* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*1920 08 26 Serveti Funun Tevfik Fikret* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -98,16 +99,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kumandanım Galiçya Ne Yana Düşer (M. Şevki Yazman)|Yazman, *Kumandanım Galiçya Ne Yana Düşer*]]** (Turkish, 1 p): [[Kumandanım Galiçya Ne Yana Düşer (M. Şevki Yazman)#p. 263|263]]
 - **[[Mahşerin İki Gemisi - Part II (Video transcript)|Video, *Mahşerin İki Gemisi - Part II*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 1|1]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Tevfik_Fikret) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Tevfik_Fikret)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[1920 08 26 Serveti Funun Tevfik Fikret.jpg|480]]
-*26 Ağustos 1920 tarihli Servet-i Fünun mecmuasında Tevfik Fikret*
-
-![[Galatasaray SK 1908-1909.jpg|480]]
-*Tevfik Fikret, Galatasaray Futbol Takımında, 1910 yılı şampiyonluk şildi ile - orta sıranın ortasında*
+*1920 08 26 Serveti Funun Tevfik Fikret*
 
 ## Related
 

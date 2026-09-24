@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The First Constitutional Era began with the 1876 constitution (*Kanun-ı Esasi*, 1293 by the Rumi calendar). Mantran says Midhat, 'father of the 1876 constitution', listened to the provinces. The first Ottoman parliament opened on 19 March 1877 (Bardakçı). Abdülhamid dissolved it, and Akşin says the constitution's rule that a new parliament meet within four months was broken. Restoring the 1293 constitution became the [[Young Turks]]' goal (Bardakçı). Emrence notes that revolts taught officers new tactics in defending the constitution.
@@ -177,6 +178,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 205|205]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 5|5]]
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 293|293]]
+
 
 
 

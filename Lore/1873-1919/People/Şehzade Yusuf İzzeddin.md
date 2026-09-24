@@ -13,8 +13,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[1908 10 01 Resimli Kitab Yusuf Izzeddin Efendi.jpg|320]]
-*Şehzade Yusuf Izzeddin in 1908* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*1908 10 01 Resimli Kitab Yusuf Izzeddin Efendi* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -62,19 +63,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Enver (Murat Bardakçı)|Bardakçı, *Enver*]]** (Turkish, 1 p): [[Enver (Murat Bardakçı)#p. 118|118]]
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 67|67]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/%C5%9Eehzade_Yusuf_Izzeddin) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Yusuf_%C4%B0zzeddin_Efendi)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[1908 10 01 Resimli Kitab Yusuf Izzeddin Efendi.jpg|480]]
-*Şehzade Yusuf Izzeddin in 1908*
-
-![[1909 05 10 Sehzade Yusuf Izzettin.jpg|480]]
-*15 Mayıs 1909 tarihli Şehbal dergisinde Şehzade Yusuf İzzettin*
-
-![[1326 04 14 Serveti Funun Yusuf Izzeddin Sirbistan Krali Ziyareti.jpg|480]]
-*14 Nisan 1910 tarihli Servet-i Fünun dergisinde Sırbistan Kralı'nın Yusuf İzzettin Efendi'yi ziyaretinden bir kare.*
+*1908 10 01 Resimli Kitab Yusuf Izzeddin Efendi*
 
 ## Related
 

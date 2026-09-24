@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Canary Wharf.Reza 04* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Londra (London) was the British capital. In 1869 [[Ziya Paşa]] and [[Namık Kemal]] published *Hürriyet* there (Akyıldız). Ottoman envoys such as Kostaki Musurus wrote from London (Ortaylı, 1853). In February 1921 the Allies invited both [[İstanbul]] and [[Ankara]] to another London Conference (Goloğlu). In 1932 the last caliph Abdülmecid planned to go to London to open a mosque (Bardakçı).
@@ -322,6 +323,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 2 ps): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 80|80]] · [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 129|129]]
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 2 ps): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 18|18]] · [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 479|479]]
 - **[[Neden Biz (Video transcript)|Video, *Neden Biz*]]** (Turkish, 1 loc): [[Neden Biz (Video transcript)#loc. 11|11]]
+
 
 ## Images
 

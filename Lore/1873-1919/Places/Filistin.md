@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Historical boundaries of Palestine (plain)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Filistin (Palestine) was part of Ottoman Syria. After the Hamburg Zionist Congress, Zionist policy on Palestine changed (Akşin). In 1830, 90% of Arab Christians belonged to the Greek Orthodox Church (Ortaylı). In the World War it was a major front ([[Palestine and Sinai Front]]); [[Cemal Paşa]] complained that plans elsewhere drained it. Allawi (Iraqi view) quotes the argument that Palestine's majority was Arab. In 1941 some 4,400 Jews fleeing the Nazis passed through Turkey to Palestine (Reisman).
@@ -276,6 +277,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kırım Savaşı ve Osmanlılar (Candan Badem)|Badem, *Kırım Savaşı ve Osmanlılar*]]** (Turkish, 1 p): [[Kırım Savaşı ve Osmanlılar (Candan Badem)#p. 89|89]]
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 186|186]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 44|44]]
+
 
 ## Images
 

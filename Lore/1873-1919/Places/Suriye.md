@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Mosque at Latakia, from Views in the Ottoman Dominions, in Europe, in Asia, and some of the Mediterranean islands (1810) illustrated by Luigi Mayer (1755–1803).* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Suriye (Syria) was the Ottoman Levant. In the 18th century local strongmen like Şeyh Zahir and Cezzar Ahmed Paşa dominated it (Mantran). [[Ottomanism]] attracted Syrians such as Bustani because it promised Syrian unity in a land divided by religion (Ortaylı). Early Arab state projects included Syria and Iraq (Akyıldız). In the war [[Cemal Paşa]] ruled it, and deportations reached it (Erdinç). After 1918 [[Faysal]] was king there until the French took over, and de Bon admitted difficulties (Akşin).
@@ -311,6 +312,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 241|241]]
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 45|45]]
 - **[[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)|Kemal, *Zabit ve Kumandan ile Hasbihal*]]** (Turkish, 1 p): [[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)#p. 12|12]]
+
 
 ## Images
 

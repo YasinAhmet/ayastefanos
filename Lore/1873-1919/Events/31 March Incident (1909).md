@@ -12,9 +12,10 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** April 1909 · Found in **36** sources on **203** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Jungtürkische Parlamentsmitglieder in Saloniki, 1909.jpg|320]]
-*Jungtürkische Parlamentsmitglieder in Saloniki, 1909* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Action Army marching on Makri Keuy.jpg|320]]
+*Action Army forces marching on Bakırköy* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -229,19 +230,20 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/31_March_incident) · [TR Wikipedia](https://tr.wikipedia.org/wiki/31_Mart_Vakas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Action Army marching on Makri Keuy.jpg|480]]
+*Action Army forces marching on Bakırköy*
 
 ![[Jungtürkische Parlamentsmitglieder in Saloniki, 1909.jpg|480]]
 *Jungtürkische Parlamentsmitglieder in Saloniki, 1909*
 
 ![[Greek lithograph celebrating the Ottoman Constitution.png|480]]
 *A Greek lithograph celebrating "freedom, equality, brotherhood" among Ottoman subjects following the 1908 revolution*
-
-![[Action Army marching on Makri Keuy.jpg|480]]
-*Action Army forces marching on Bakırköy*
 
 ## Related
 

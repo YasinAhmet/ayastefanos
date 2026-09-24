@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **37** sources on **366** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Basra at night.jpg|320]]
-*Basra at night* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Basra city.jpg|320]]
+*Basra city* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -245,16 +246,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 1 p): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 164|164]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 40|40]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Basra) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Basra)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Basra at night.jpg|480]]
-*Basra at night*
-
 ![[Basra city.jpg|480]]
 *Basra city*
+
+![[Basra at night.jpg|480]]
+*Basra at night*
 
 ## Related
 

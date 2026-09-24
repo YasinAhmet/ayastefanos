@@ -16,6 +16,7 @@ tags: [person, "1873-1919"]
 *Rıza in 1909* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Ahmed Rıza was the positivist leader of the Young Turk exiles in [[Paris]]. His father had been a deputy in the 1877–78 parliament and was later exiled to [[Konya]] (Georgeon). In Paris, Ahmed Rıza joined Auguste Comte's positivist movement (Akşin). He accepted the young conspirators' request to lead them on condition that the society be renamed 'İttihad ve Terakki', Union and Progress (Güneş; see [[Committee of Union and Progress]]).
@@ -191,6 +192,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 7|7]]
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 374|374]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -199,17 +201,11 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Ahmed Riza Bey.jpg|480]]
 *Rıza in 1909*
 
-![[Auguste Comte(1).jpg|480]]
-*Rıza was highly influenced by Auguste Comte's and his works*
-
-![[1st Young Turk Congress, 1902.jpg|480]]
-*The First Young Turk Congress*
-
-![[Ahrar-i Osmaniye Heyeti.jpg|480]]
-*With other members of the Committee of Union and Progress, 1908*
-
 ![[Ahmed riza2.jpg|480]]
-*Like many of his other contemporary European progressives, Ahmet Rıza was opposed to colonialism, as well as class privilege.*
+*Ahmed riza2*
+
+![[Ahmed Riza Bey.png|480]]
+*Ahmed Riza Bey*
 
 ## Related
 

@@ -17,6 +17,7 @@ tags: [person, "1873-1919"]
 *Halil Pasha* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Halil Paşa (Kut) was [[Enver Paşa]]'s uncle, though only a year older. He was a Unionist officer who later called himself 'the victor of Kut'. He commanded the Sixth Army in Iraq. It was to him that Townshend surrendered at Kut in 1916 ([[Siege of Kut (1916)]]; Talat's memoir). Cemal planned to place his army under the 'Yıldırım' group to retake Baghdad. According to the Iraqi view (Allawi), when Baghdad's forward defences collapsed in February 1917, Halil ordered the city evacuated. [[Liman von Sanders]] (German view) cites his German chief of staff, Colonel von Gleich, begging Germany to stop interfering in Iran.
@@ -167,6 +168,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 246|246]]
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 1 p): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 162|162]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 194|194]]
+
 
 ## Images
 

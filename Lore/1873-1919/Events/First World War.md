@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The First World War ('Harb-i Umumi', 'Cihan Harbi') brought the empire's end. After mobilisation, the Dardanelles were closed (Erdinç). Italy declared war on the Ottomans three months after joining the Allies (Akyıldız). The war opened a 'window of opportunity' for [[Şerif Hüseyin]] (Emrence). Turks in Russia were arrested as enemy aliens (Goloğlu). After the war the Assembly spoke of the 'Harb-i Umumi disasters' whose plaintiff was the whole nation (Erdinç). Toprak notes that since the 1980s its history has focused on social and cultural aspects. See the fronts: [[Gallipoli Campaign (1915)]], [[Caucasus Front]], [[Palestine and Sinai Front]], [[Mesopotamian Front]], [[Galician Front (1916-1917)]].
@@ -314,6 +315,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 1 p): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 204|204]]
 - **[[Türk Halkbilimi (Sedat Veyis Örnek)|Örnek, *Türk Halkbilimi*]]** (Turkish, 1 p): [[Türk Halkbilimi (Sedat Veyis Örnek)#p. 157|157]]
 - **[[Çariçe Katerina (Robert K. Massie)|Massie, *Çariçe Katerina*]]** (American, 1 p): [[Çariçe Katerina (Robert K. Massie)#p. 648|648]]
+
 
 
 

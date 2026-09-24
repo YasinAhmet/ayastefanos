@@ -16,6 +16,7 @@ tags: [event, "1873-1919"]
 *Signing of the armistice between Russia and Germany on 15 December 1917. Prince Leopold of Bavaria signing the treaty* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The Brest-Litovsk peace between the Central Powers and Soviet Russia was signed on 3 March 1918 (Gürün), after an Ottoman–Russian armistice there in December 1917 (Nicolle). It returned [[Kars]], [[Batum]] and Ardahan, lost in 1878, to the Ottomans (Akşin), meeting a key Turkish demand, a return to the pre-1876 borders (Mantran). Talat met Trotsky there and disliked him (Talat's memoir). After Mudros the Ottoman army evacuated these areas in favour of Armenia and Georgia (Akşin).
@@ -122,6 +123,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Naciyem, Ruhum, Efendim (Murat Bardakçı)|Bardakçı, *Naciyem, Ruhum, Efendim*]]** (Turkish, 1 p): [[Naciyem, Ruhum, Efendim (Murat Bardakçı)#p. 113|113]]
 - **[[Osmanlı Piyadesi 1914-1918 (David Nicolle)|Nicolle, *Osmanlı Piyadesi 1914-1918*]]** (British, 1 p): [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 11|11]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 368|368]]
+
 
 ## Images
 

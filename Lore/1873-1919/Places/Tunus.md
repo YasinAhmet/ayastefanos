@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Guillaume Delisle Tunis 1707* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Tunus (Tunisia) was an Ottoman province ruled by its beys. Valensi (French view) studies its early modern history; in 1622 renegades traded there. A 1727 treaty tried to stop corsair raids from Algiers and Tunis (Ortaylı). Its beys kept good relations with [[İstanbul]] in the 1830s (Mantran). In the Crimean War it was asked for troops (Badem). Georgeon compares Ramadan in modern Tunisia.
@@ -222,6 +223,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Değişim ve Anayasal Rejim Sorunu (İlber Ortaylı)|Ortaylı, *Osmanlı'da Değişim ve Anayasal Rejim Sorunu*]]** (Turkish, 1 p): [[Osmanlı'da Değişim ve Anayasal Rejim Sorunu (İlber Ortaylı)#p. 327|327]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 33|33]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 456|456]]
+
 
 ## Images
 

@@ -17,6 +17,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The Caucasus (Eastern) Front covers fighting against Russia in the east. In the [[First World War]] it included the [[Sarıkamış Operation (1914-1915)]]; wounded officers from the front arrived in the west (Tonguç). Sanders wanted the army moved east along the railway after Gallipoli. In 1920 the Eastern Front under Karabekir attacked Armenia after Atatürk's order of 20 September 1920 (Akşin). Badem notes Soviet histories of the Crimean-war Caucasus front. Ryan served in the east in 1877–78.
@@ -126,6 +127,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Plevne'de Bir Avustralyalı (Charles S. Ryan)|Ryan, *Plevne'de Bir Avustralyalı*]]** (Australian, 1 p): [[Plevne'de Bir Avustralyalı (Charles S. Ryan)#p. 328|328]]
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 1 p): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 201|201]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 455|455]]
+
 
 
 

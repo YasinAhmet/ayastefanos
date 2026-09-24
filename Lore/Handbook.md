@@ -131,8 +131,14 @@ How to find things in this vault, answer questions from it, and add to it. Writt
 7. **Timeline:** add dated events, each with its page link, in date order.
 8. **Images for new notes:** add a line `Note name<TAB>English Wikipedia title` (or `tr:Türkçe başlık`, or `-`) to `tools/wiki/titles.tsv`, then run:
    ```bash
-   py tools/wiki_images.py titles && py tools/wiki_images.py fetch-rest && py tools/wiki_images.py portraits && py tools/wiki_images.py download && py tools/wiki_images.py insert && py tools/wiki_images.py prune
+   py tools/wiki_images.py titles && py tools/wiki_images.py fetch-rest && py tools/wiki_images.py portraits && py tools/wiki_images.py lead && py tools/wiki_images.py download && py tools/wiki_images.py insert && py tools/wiki_images.py prune
    ```
+   To choose a note's lead picture by hand, add a line to `tools/wiki/lead.tsv`: `Note name<TAB>File.jpg | Other.jpg | search:terms | -Unwanted.jpg` (Commons file names, best first). The lead is the first of them that has been downloaded. What each type gets:
+   - **People:** a close-up portrait; if none exists, a picture that includes the person (never a grave, statue, house or relative).
+   - **Events:** an iconic picture of the event.
+   - **Factions and institutions:** their symbol (emblem, flag, seal).
+   - **Places:** the place around 1873–1919; if none, a generic view.
+   - **Concepts:** a related picture.
 9. **Check links:** `py tools/check_links.py`. It must report 0 broken links, except the Obsidian `Welcome` note.
 10. **Log it:** add a dated line to §8 below.
 
@@ -198,7 +204,7 @@ Every page where this subject is named. Each number links to that page in the co
 | `build_lexicon.py` | Rebuilds `lexicon.json` (word counts from the clean books). `valid_words.txt` is a general Turkish word list (OpenSubtitles frequency list, hermitdave/FrequencyWords) |
 | `mentions.py` | Finds pages naming a note or terms; `--scan-book` lists notes a book mentions |
 | `check_links.py` | Verifies every `[[link]]` and `#heading` in the vault |
-| `wiki_images.py titles/fetch-rest/portraits/download/insert/prune` | Maps notes to Wikipedia (`wiki/titles.tsv`); collects images and captions; `portraits` limits **People** notes to portraits of the person (Wikidata P18 + each article's infobox image; no tughras, graves, buildings, relatives); downloads to `Attachments/Images/` (gently: Wikimedia rate-limits per IP); inserts them and writes [[Image credits]]; `prune` deletes unused files |
+| `wiki_images.py titles/fetch-rest/portraits/lead/download/insert/prune` | Maps notes to Wikipedia (`wiki/titles.tsv`); collects images and captions; `portraits` limits **People** notes to portraits of the person (Wikidata P18 + each article's infobox image; no tughras, graves, buildings, relatives); `lead` puts the hand-picked images of `wiki/lead.tsv` first; downloads to `Attachments/Images/` (gently: Wikimedia rate-limits per IP); inserts them (`insert 1873-1919` limits it to one period folder) and writes [[Image credits]]; `prune` deletes unused files |
 | `refresh_quotes.py` | Re-syncs the quotes in notes with the cleaned book text |
 
 Python 3.14 via the `py` launcher. Packages: `pymupdf`, `rapidfuzz`, `rapidocr`, `onnxruntime-directml`. The GPU is an RTX 3050 (DirectML). Godot ignores `Lore/` and `tools/` (`.gdignore`).
@@ -229,3 +235,5 @@ Python 3.14 via the `py` launcher. Packages: `pymupdf`, `rapidfuzz`, `rapidocr`,
   - About 10,900 quotes in the notes re-synced with the cleaned text. 452 could not be matched safely and were left as they were (listed in `Raw/OCR corrections/_quotes.tsv`).
   - Wikipedia/Commons images added to the notes, with [[Image credits]].
   - This handbook, `CLAUDE.md` and `tools/` created.
+  - Lead pictures of all 239 notes in `1873-1919` reviewed one by one and chosen by type (list in `tools/wiki/lead.tsv`). Wrong pictures removed: graves, statues, houses, other people (e.g. the "Nâzım Bey" photo in [[Doktor Nazım]] shows a different Nazım), maps or modern views where a period picture exists.
+  - The earlier image download had stopped at file names beginning with "M", so no file from N to Z was on disk. 47 notes in `1873-1919` wait for their pictures until `lead`, `download`, `insert 1873-1919` and `prune` are run with Wikimedia reachable (the Commons searches in `lead.tsv` also need it).

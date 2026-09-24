@@ -12,9 +12,10 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1916 · Found in **8** sources on **73** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[François Georges-Picot cropped.jpg|320]]
-*François Georges-Picot cropped* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[1919 British map ahead of Paris Peace Conference - extract regarding 1915 Constantinople Agreement.png|320]]
+*1919 British map ahead of Paris Peace Conference - extract regarding 1915 Constantinople Agreement* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -100,19 +101,20 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Cemal Paşa Hatıralar (Cemal Paşa)|Cemal Paşa, *Cemal Paşa Hatıralar*]]** (Turkish, 1 p): [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 333|333]]
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 98|98]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Sykes%E2%80%93Picot_Agreement) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Sykes-Picot_Anla%C5%9Fmas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[1919 British map ahead of Paris Peace Conference - extract regarding 1915 Constantinople Agreement.png|480]]
+*1919 British map ahead of Paris Peace Conference - extract regarding 1915 Constantinople Agreement*
 
 ![[François Georges-Picot cropped.jpg|480]]
 *François Georges-Picot cropped*
 
 ![[Edward Grey 1914 cropped.jpg|480]]
 *Top: Mark Sykes and François Georges-PicotBottom: Paul Cambon and Edward Grey*
-
-![[1919 British map ahead of Paris Peace Conference - extract regarding 1915 Constantinople Agreement.png|480]]
-*1919 British map ahead of Paris Peace Conference - extract regarding 1915 Constantinople Agreement*
 
 ## Related
 

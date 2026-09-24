@@ -17,6 +17,7 @@ tags: [faction, "1873-1919"]
 
 
 
+
 ## Summary
 
 The Sublime Porte (*Bâbıâli*) was the office of the grand vizier and, by extension, the Ottoman government. Goloğlu quotes the view that the ignorance and pleasure-seeking of the palace and the Porte had brought great disasters. The Porte handled diplomacy with Europe, for example on Egypt (Akyıldız) and the Armenian question ([[Cemal Paşa]]). The [[Raid on the Sublime Porte (1913)]] made it the scene of the CUP's coup (Erdinç). After 1908 it took an interest in cooperatives (Toprak).
@@ -280,6 +281,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Plevne'de Bir Avustralyalı (Charles S. Ryan)|Ryan, *Plevne'de Bir Avustralyalı*]]** (Australian, 1 p): [[Plevne'de Bir Avustralyalı (Charles S. Ryan)#p. 25|25]]
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 13|13]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 550|550]]
+
 
 
 

@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **47** sources on **598** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Konyaaltincarsi.jpg|320]]
-*Konyaaltincarsi* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Aziziye Mosque, Konya (cropped).jpg|320]]
+*Aziziye Mosque, Konya (cropped)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -282,19 +283,20 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Avrupa ve Biz (İlber Ortaylı)|Ortaylı, *Avrupa ve Biz*]]** (Turkish, 1 p): [[Avrupa ve Biz (İlber Ortaylı)#p. 66|66]]
 - **[[Balkan Savaşı Günlüğü (Gustav von Hochwächter)|Hochwächter, *Balkan Savaşı Günlüğü*]]** (German, 1 p): [[Balkan Savaşı Günlüğü (Gustav von Hochwächter)#p. 78|78]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Konya) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Konya)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Aziziye Mosque, Konya (cropped).jpg|480]]
+*Aziziye Mosque, Konya (cropped)*
 
 ![[Konyaaltincarsi.jpg|480]]
 *Konyaaltincarsi*
 
 ![[Konyatropicalbutterflygarden.jpg|480]]
 *Konyatropicalbutterflygarden*
-
-![[Aziziye Mosque, Konya (cropped).jpg|480]]
-*Aziziye Mosque, Konya (cropped)*
 
 ![[Konya city emblem.png|480]]
 *Konya city emblem*

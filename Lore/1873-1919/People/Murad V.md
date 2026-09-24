@@ -12,9 +12,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** reigned 30 May – 31 Aug 1876 · Found in **13** sources on **58** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Ali Suavi-2.jpg|320]]
-*Ali Suavi, an Ottoman political activist, journalist, educator, theologian and reformer, involved in the incident* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[1840 1904 5murat.jpg|320]]
+*1840 1904 5murat* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -96,16 +97,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 372|372]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 58|58]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Murad_V) · [TR Wikipedia](https://tr.wikipedia.org/wiki/V._Murad)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Ali Suavi-2.jpg|480]]
-*Ali Suavi, an Ottoman political activist, journalist, educator, theologian and reformer, involved in the incident*
-
-![[Istanbul Çırağan Palace (239841121).jpeg|480]]
-*Çırağan Palace, where Murad and his family were confined by Sultan Abdul Hamid for twenty-eight years until Murad's death in 1904*
+![[1840 1904 5murat.jpg|480]]
+*1840 1904 5murat*
 
 ## Related
 

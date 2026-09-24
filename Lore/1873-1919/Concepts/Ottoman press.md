@@ -11,9 +11,10 @@ tags: [concept, "1873-1919"]
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **48** sources on **617** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Akhtar - 1294.jpg|320]]
-*Reprint of year three (January 1877-January 1878) of Akhtar ("The Star"), a newspaper in Persian* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[L'Étoile du Bosphore 6 janvier 1892.jpg|320]]
+*L'Étoile du Bosphore'un 6 Ocak 1892 tarihli sayısının ilk sayfası* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -287,22 +288,23 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Media_of_the_Ottoman_Empire) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Osmanl%C4%B1_%C4%B0mparatorlu%C4%9Fu%27nda_bas%C4%B1n)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Akhtar - 1294.jpg|480]]
-*Reprint of year three (January 1877-January 1878) of Akhtar ("The Star"), a newspaper in Persian*
-
-![[EPTALOFOS-NEA-1865-Jul-Dec.jpg|480]]
-*Dönemin Yunan gazetesi Konstantinoupolis*
-
 ![[L'Étoile du Bosphore 6 janvier 1892.jpg|480]]
 *L'Étoile du Bosphore'un 6 Ocak 1892 tarihli sayısının ilk sayfası*
 
-![[Description de l´Egypte 1.jpg|480]]
-*Mısır'daki Fransız hakimiyeti sırasında birçok eserin çıkmasından sorumlu olan Mısır Bilim ve Sanat Komisyonu (Commission des sciences et arts d'Egypte)50*
+![[Akhtar - 1294.jpg|480]]
+*Reprint of year three (January 1877-January 1878) of Akhtar ("The Star"), a newspaper in Persian*
+
+![[Epoca 1902 Issue.jpg|480]]
+*A 1902 Issue of La Epoka, a Ladino newspaper from Salonica (Thessaloniki)*
+
+![[EPTALOFOS-NEA-1865-Jul-Dec.jpg|480]]
+*Dönemin Yunan gazetesi Konstantinoupolis*
 
 ## Related
 

@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Ludendorff in 1924* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 General Erich Ludendorff was Germany's First Quartermaster-General. After reports from Sanders, he forbade sending Turkish troops to Europe (telegram of 28 November 1916, Yazman). [[Cemal Paşa]] took his objections to Falkenhayn's plan to him and Hindenburg. Bardakçı says he forced himself to give a positive answer to reassure the Turks, and Mustafa Kemal saw through his arguments. Toprak says he named the war the 'First' World War in the 1920s. After Talat's murder he called it 'a black stain on Germany' (Bardakçı).
@@ -92,6 +93,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 135|135]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 538|538]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -103,14 +105,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Bundesarchiv Bild 183-2005-0828-525 Erich Ludendorff (cropped)(b).jpg|480]]
 *Erich Ludendorff (1915)*
 
-![[Hindenburg-ludendorff.jpg|480]]
-*Hindenburg (seated) and Ludendorff. Painting by Hugo Vogel*
-
-![[Bundesarchiv Bild 183-1992-0707-500, Erich Ludendorff.jpg|480]]
-*Ludendorff in his study at the General Headquarters, 1918*
-
-![[Hindenburg, Kaiser, Ludendorff HD-SN-99-02150.jpg|480]]
-*Hindenburg, Kaiser Wilhelm II, and Ludendorff, January 1917*
+![[Erich Ludendorff.jpg|480]]
+*Erich Ludendorff*
 
 ## Related
 

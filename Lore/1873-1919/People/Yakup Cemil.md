@@ -14,8 +14,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[1934 11 01 Halkin Sesi Yakub Cemil.jpg|320]]
-*1 Kasım 1934 tarihli Halkın Sesi gazetesinde Yakub Cemil Bey'in bir fotoğrafı.* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*1934 11 01 Halkin Sesi Yakub Cemil* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -96,13 +97,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 66|66]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 23|23]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Yakub_Cemil) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Yakub_Cemil)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[1934 11 01 Halkin Sesi Yakub Cemil.jpg|480]]
-*1 Kasım 1934 tarihli Halkın Sesi gazetesinde Yakub Cemil Bey'in bir fotoğrafı.*
+*1934 11 01 Halkin Sesi Yakub Cemil*
 
 ## Related
 

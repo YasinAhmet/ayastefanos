@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The [[Adana]] events of April 1909 were killings of Armenians in Adana during the 31 March crisis. On 19 April 1909 the US envoy Leishman reported that Americans were somewhat in danger (Akşin). Views differ. [[Cemal Paşa]], then governor, blamed Bishop Mushegh, author of *Les Vêpres Ciliciennes*, who fled to Alexandria on a foreign ship. Talat's memoir says the [[Adana]] events were the work of Armenian committees, later blamed on the Muslim people. Feroz Ahmad (cited by Akşin) suggests liberals may have hoped to provoke foreign intervention. A former consul blamed Fitzmaurice's mistaken strategy.
@@ -82,6 +83,7 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -90,14 +92,14 @@ Every page where this subject is named. Each number links to that page in the co
 ![[AdanaChristianQuarter.jpg|480]]
 *AdanaChristianQuarter*
 
+![[Adanamass.png|480]]
+*An Armenian town pillaged and destroyed during the Adana massacre.*
+
 ![[Adana massacre - Ադանայի կոտորած (1909) 01JPG.jpg|480]]
 *Adana massacre - Ադանայի կոտորած (1909) 01JPG*
 
 ![[Henry K. Carroll of the Boards of Foreign Missions pleading to the secretary of state for protection of Christians with .png|480]]
 *Henry K. Carroll of the Boards of Foreign Missions pleading to the US Secretary of State for protection of Christians with the Ottoman Empire.*
-
-![[Adanamass.png|480]]
-*An Armenian town pillaged and destroyed during the Adana massacre.*
 
 ![[Armenian woman after Adana massacre.jpg|480]]
 *An Armenian woman from Adana, tortured and maimed by knife wounds*

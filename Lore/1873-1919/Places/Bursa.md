@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Bursa image* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Bursa was the early Ottoman capital. In 1403 Mehmed Çelebi attacked his brother İsa, who held Bursa (Mantran). In the 19th century its Türkmenköy Armenians converted to Catholicism under French influence (Ortaylı). Sultan Reşad visited in 1909 (Akşin; Bardakçı). A 'national' exhibition in Bursa was hugely popular and its lottery sold well (Toprak).
@@ -285,6 +286,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Bir Yedek Subayın Anıları (Faik Tonguç)|Tonguç, *Bir Yedek Subayın Anıları*]]** (Turkish, 1 p): [[Bir Yedek Subayın Anıları (Faik Tonguç)#p. 288|288]]
 - **[[Kırım Savaşı ve Osmanlılar (Candan Badem)|Badem, *Kırım Savaşı ve Osmanlılar*]]** (Turkish, 1 p): [[Kırım Savaşı ve Osmanlılar (Candan Badem)#p. 303|303]]
 - **[[Mahşerin İki Gemisi - Part I (Video transcript)|Video, *Mahşerin İki Gemisi - Part I*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part I (Video transcript)#loc. 18|18]]
+
 
 ## Images
 

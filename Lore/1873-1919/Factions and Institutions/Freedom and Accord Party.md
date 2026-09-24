@@ -11,6 +11,11 @@ tags: [faction, "1873-1919"]
 
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1911– · Found in **22** sources on **231** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Damad Ferid Pasha 1919.jpg|320]]
+*Damad Ferid Pasha 1919* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
 ## Summary
 
 The Freedom and Accord Party (*Hürriyet ve İtilaf*) was founded on 21 November 1911, about 50 days after the Italian war began, uniting most opposition parties against the CUP (Akşin). Toprak says it drew old officials who had lost their posts after 1908. Mantran (French view) says the CUP used the press and assembly laws against it. After 1918 it revived as the Istanbul government's party. The national movement said the British, the [[English Friendship Society]], Freedom and Accord and others worked together against it (Kansu). See [[Damat Ferit Paşa]], [[Rıza Tevfik]] and [[Refik Halid]].
@@ -180,6 +185,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Son Osmanlılar (Murat Bardakçı)|Bardakçı, *Son Osmanlılar*]]** (Turkish, 1 p): [[Son Osmanlılar (Murat Bardakçı)#p. 74|74]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 83|83]]
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 1 p): [[The Armenian File (Kâmuran Gürün)#p. 315|315]]
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Freedom_and_Accord_Party) · [TR Wikipedia](https://tr.wikipedia.org/wiki/H%C3%BCrriyet_ve_%C4%B0tilaf_F%C4%B1rkas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Damad Ferid Pasha 1919.jpg|480]]
+*Damad Ferid Pasha 1919*
 
 ## Related
 

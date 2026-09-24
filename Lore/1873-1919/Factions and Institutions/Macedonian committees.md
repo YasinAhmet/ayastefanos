@@ -17,6 +17,7 @@ tags: [faction, "1873-1919"]
 *Emblem of the IMRO* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The Macedonian committees were Bulgarian, Greek and other armed bands (*komitacı*, *çete*) in Macedonia. In 1867 a secret Bulgarian committee presented [[Abdülaziz]] with a 21-article constitution draft (Ortaylı). [[Cemal Paşa]] lists the Bulgarian Macedonian committee and the Greek committee run by Ethniki Etaireia. After 1908 the bands disappeared for a time (Akşin). Enver planned to use bands 'like the Bulgarian ones' to rouse Anatolia (Bardakçı). An Armenian komitaji repeated a Bulgarian's motto: 'A terrible end is better than endless terror' (Neyzi). (This entity also catches later 'çete' bands of 1919–21.)
@@ -244,6 +245,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)|Childs, *Trablusgarp Savaşı ve Türk-İtalyan İlişkileri*]]** (American, 1 p): [[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)#p. 86|86]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 94|94]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -254,6 +256,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Apostol Petkov cheta.jpg|480]]
 *Apostol Petkov (far left) and his band.*
+
+![[G Delchev.jpg|480]]
+*Gotse Delchev*
 
 ## Related
 

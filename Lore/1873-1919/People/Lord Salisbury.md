@@ -10,10 +10,6 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **13** sources on **44** pages · [[Home]] · [[Timeline]]
 
-<!-- images:start -->
-![[14th Earl of Derby.jpg|320]]
-*Lord Derby. Salisbury resigned from his government in protest against proposals for parliamentary reform.* — ⚠ Not from vault sources (image: Wikimedia Commons)
-<!-- images:end -->
 
 ## Summary
 
@@ -117,13 +113,6 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Plevne'de Bir Avustralyalı (Charles S. Ryan)|Ryan, *Plevne'de Bir Avustralyalı*]]** (Australian, 1 p): [[Plevne'de Bir Avustralyalı (Charles S. Ryan)#p. 290|290]]
 - **[[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)|Childs, *Trablusgarp Savaşı ve Türk-İtalyan İlişkileri*]]** (American, 1 p): [[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)#p. 23|23]]
 
-## Images
-
-> [!info] ⚠ Not from vault sources
-> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Robert_Gascoyne-Cecil%2C_3rd_Marquess_of_Salisbury) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Robert_Gascoyne-Cecil%2C_3._Salisbury_Markisi)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
-
-![[14th Earl of Derby.jpg|480]]
-*Lord Derby. Salisbury resigned from his government in protest against proposals for parliamentary reform.*
 
 ## Related
 

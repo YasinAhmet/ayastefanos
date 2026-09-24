@@ -17,6 +17,7 @@ tags: [person, "1873-1919"]
 *Kâmil Pasha wearing the diplomatic uniform* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Kıbrıslı (the Cypriot) Mehmed Kâmil Paşa was an old Hamidian grand vizier known as 'pro-English' (Akşin). After the 1908 revolution the [[Committee of Union and Progress]] dropped [[Küçük Said Paşa]] and brought Kâmil in. Talat's memoir notes that Bulgaria's union with Eastern Rumelia and its declaration of independence happened in his time. He was ousted in 1909 and replaced by [[Hüseyin Hilmi Paşa]]. [[Faik Tonguç]], a schoolboy then, describes him visiting with Niyazi and Enver: 'a bag of bones, jaw forever moving, sunk in his armchair'.
@@ -187,6 +188,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 292|292]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 11|11]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -195,17 +197,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Kamil Pasha.png|480]]
 *Kâmil Pasha wearing the diplomatic uniform*
 
-![[Kamil bey.jpg|480]]
-*Kâmil Pasha, 1860s*
-
 ![[Mehmed Kamil Pasha.jpg|480]]
-*Kâmil Pasha in 1909.*
-
-![[In 1911 brengt het Engelse Koningspaar, Koning George V en zijn echtgenote Koningin Mary (Mary van, SFA022001910.jpg|480]]
-*With British, Turkish, Egyptian royalty, 1911*
-
-![[Enver kamil.jpg|480]]
-*Enver Bey asking Kâmil Pasha to resign during the raid on the Sublime Porte.*
+*Mehmed Kamil Pasha*
 
 ## Related
 

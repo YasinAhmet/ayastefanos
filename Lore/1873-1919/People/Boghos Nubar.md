@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Boghos Nubar in 1906.* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Boghos Nubar Paşa, son of the Egyptian prime minister Nubar Paşa (Cox), led the Armenian national delegation in Europe. According to Talat's memoir, a committee under him and the Catholicos was sent to [[Paris]] to seek Armenian autonomy. The Russian ambassador reported him saying the Turkish Armenians did not want autonomy or a change of allegiance ([[Cemal Paşa]]). He asked France to send General [[Andranik]] to the region (Akşin). On 20 November 1919 he signed an agreement with Şerif Paşa (for the Kurds) on independent Armenian and Kurdish states (Akşin; Bardakçı). Gürün says no document confirms his claim that Picot had promised him an Armenian state.
@@ -117,6 +118,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Naciyem, Ruhum, Efendim (Murat Bardakçı)|Bardakçı, *Naciyem, Ruhum, Efendim*]]** (Turkish, 1 p): [[Naciyem, Ruhum, Efendim (Murat Bardakçı)#p. 193|193]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 52|52]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -124,9 +126,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Boghos Nubar Pasha (1906) - TIMEA.jpg|480]]
 *Boghos Nubar in 1906.*
-
-![[Boghos Nubar Pacha Buste.jpg|480]]
-*Boghos Nubar's bust in Paris. Sculpture by Raffy Sarkissian, 1974.*
 
 ## Related
 

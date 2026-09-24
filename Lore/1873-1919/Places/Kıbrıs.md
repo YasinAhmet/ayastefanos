@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *EU-Cyprus* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Kıbrıs (Cyprus) was handed over to Britain. Cox (American view) records the talk that Cyprus had been surrendered and Egypt had in effect slipped from Ottoman hands. From 1880/81 Cyprus paid a fixed tribute of 13 million kuruş (Güran). [[Şerif Hüseyin]] later took refuge there ([[Cemal Paşa]]'s editor). In the Republic, Cyprus became a central issue with Greece (Reisman; Akşin).
@@ -204,6 +205,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Mahşerin İki Gemisi - Part I (Video transcript)|Video, *Mahşerin İki Gemisi - Part I*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part I (Video transcript)#loc. 19|19]]
 - **[[Son Osmanlılar (Murat Bardakçı)|Bardakçı, *Son Osmanlılar*]]** (Turkish, 1 p): [[Son Osmanlılar (Murat Bardakçı)#p. 144|144]]
 - **[[Türk Halkbilimi (Sedat Veyis Örnek)|Örnek, *Türk Halkbilimi*]]** (Turkish, 1 p): [[Türk Halkbilimi (Sedat Veyis Örnek)#p. 158|158]]
+
 
 ## Images
 

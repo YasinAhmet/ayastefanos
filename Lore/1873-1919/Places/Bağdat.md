@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **53** sources on **617** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[5628442718 b10fc2c47f o.jpg|320]]
-*5628442718 b10fc2c47f o* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Bab al-Wastani northern gate.jpg|320]]
+*Bab al-Wastani northern gate* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -302,19 +303,20 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları III*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)#p. 10|10]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 463|463]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Baghdad) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Ba%C4%9Fdat)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Bab al-Wastani northern gate.jpg|480]]
+*Bab al-Wastani northern gate*
 
 ![[5628442718 b10fc2c47f o.jpg|480]]
 *5628442718 b10fc2c47f o*
 
 ![[Al-Mustansriah School - NW Door 2.jpg|480]]
 *Al-Mustansriah School - NW Door 2*
-
-![[Bab al-Wastani northern gate.jpg|480]]
-*Bab al-Wastani northern gate*
 
 ## Related
 

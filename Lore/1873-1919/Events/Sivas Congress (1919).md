@@ -16,6 +16,7 @@ tags: [event, "1873-1919"]
 *Prominent nationalists at the Sivas Congress. Left to right: Muzaffer Kılıç, Rauf (Orbay), Bekir Sami (Kunduh), Mustafa Kemal (Atatürk), Ruşen Eşref Ünaydın, Cemil Cahit (Toydemir), Cevat Abbas (Gürer)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The [[Sivas]] Congress held its first session on 4 September 1919, and its first act was a telegram of loyalty to the Sultan (Goloğlu). The Damat Ferit government planned to break it up; Ali Galip was sent to do so (Akşin). Delegates such as [[Kara Vasıf]] for [[Antep]] swore against any occupation (Akşin). [[Kılıç Ali]] divides the period into [[Erzurum]]-to-Sivas and Sivas-to-23 April 1920. The Erzurum and Sivas demand for elections led to a parliament dominated by the Defence of Rights movement (Akşin).
@@ -142,6 +143,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Enver (Murat Bardakçı)|Bardakçı, *Enver*]]** (Turkish, 1 p): [[Enver (Murat Bardakçı)#p. 642|642]]
 - **[[Osmanlı İmparatorluğu Tarihi (Robert Mantran)|Mantran, *Osmanlı İmparatorluğu Tarihi*]]** (French, 1 p): [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 910|910]]
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 241|241]]
+
 
 ## Images
 

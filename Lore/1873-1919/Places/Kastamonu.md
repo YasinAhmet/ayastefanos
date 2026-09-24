@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **36** sources on **287** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Kastamonu1.jpg|320]]
-*Kastamonu1* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Kastamonu Governor's Office.jpg|320]]
+*Governor's historical office* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -223,10 +224,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Naciyem, Ruhum, Efendim (Murat Bardakçı)|Bardakçı, *Naciyem, Ruhum, Efendim*]]** (Turkish, 1 p): [[Naciyem, Ruhum, Efendim (Murat Bardakçı)#p. 514|514]]
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 69|69]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Kastamonu) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Kastamonu)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Kastamonu Governor's Office.jpg|480]]
+*Governor's historical office*
 
 ![[Kastamonu1.jpg|480]]
 *Kastamonu1*
@@ -236,9 +241,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Kaleden Cumhuriyet Meydanı ve Çevresi.jpg|480]]
 *Kaleden Cumhuriyet Meydanı ve Çevresi*
-
-![[Kastamonu Governor's Office.jpg|480]]
-*Governor's historical office*
 
 ![[Kastamonu Şeyh Şaban-ı Veli ... - panoramio (1).jpg|480]]
 *Kastamonu old Ottoman houses*

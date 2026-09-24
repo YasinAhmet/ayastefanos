@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Istanbul asv2020-02 img46 Galata Bridge and Tower* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Beyoğlu (Pera) and Galata were [[İstanbul]]'s European quarter across the Golden Horn. In the [[Tanzimat]] the first model municipality was set up there, led by minorities (Mantran). Ryan landed at Galata and went to Misserie's hotel (Australian view); Cox wintered at Pera's Hotel Royal in 1885–86 (American view). Georgeon describes wartime nights in Pera with its embassies and Russian 'princesses'. Fires repeatedly burned its houses (Çelik). The Pera Palas housed the Jewish Agency in the Second World War (Reisman).
@@ -277,6 +278,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi (Ali Akyıldız)|Akyıldız, *Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi*]]** (Turkish, 1 p): [[Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi (Ali Akyıldız)#p. 344|344]]
 - **[[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)|Childs, *Trablusgarp Savaşı ve Türk-İtalyan İlişkileri*]]** (American, 1 p): [[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)#p. 311|311]]
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 226|226]]
+
 
 ## Images
 

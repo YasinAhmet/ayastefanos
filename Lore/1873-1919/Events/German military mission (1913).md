@@ -11,6 +11,11 @@ tags: [event, "1873-1919"]
 
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1913–1918 · Found in **9** sources on **75** pages · [[Home]] · [[Timeline]]
 
+<!-- images:start -->
+![[Bundesarchiv Bild 183-H29994, Liman von Sanders mit türkischen Offizieren.jpg|320]]
+*Bundesarchiv Bild 183-H29994, Liman von Sanders mit türkischen Offizieren* — ⚠ Not from vault sources (image: Wikimedia Commons)
+<!-- images:end -->
+
 ## Summary
 
 The German military mission under [[Liman von Sanders]] came to [[İstanbul]] in late 1913 with 42 officers (video transcripts). In war, the agreement said, the mission would be in Ottoman service, dealing directly with the War Minister (Yalman). Sanders later appealed to his rights under the mission agreement and the alliance of 2 August 1914. Akşin notes that the constitutional period lasted only six years if one counts from 1914, when the Unionists went to war under German command. Wallach's book on Prussian-German missions (1835–1919) is cited by Durgun.
@@ -91,6 +96,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Balkan Harbi'nde Ulaştırma (Bülent Durgun)|Durgun, *Balkan Harbi'nde Ulaştırma*]]** (Turkish, 1 p): [[Balkan Harbi'nde Ulaştırma (Bülent Durgun)#p. 78|78]]
 - **[[Enver (Murat Bardakçı)|Bardakçı, *Enver*]]** (Turkish, 1 p): [[Enver (Murat Bardakçı)#p. 69|69]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 183|183]]
+
+## Images
+
+> [!info] ⚠ Not from vault sources
+> Illustrations only, from Wikipedia and Wikimedia Commons (). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Bundesarchiv Bild 183-H29994, Liman von Sanders mit türkischen Offizieren.jpg|480]]
+*Bundesarchiv Bild 183-H29994, Liman von Sanders mit türkischen Offizieren*
+
+![[1909 05 01 Resimli Kitab Goltz Pasaya Yemek.jpg|480]]
+*1909 05 01 Resimli Kitab Goltz Pasaya Yemek*
 
 ## Related
 

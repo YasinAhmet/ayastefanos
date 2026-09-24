@@ -16,6 +16,7 @@ tags: [faction, "1873-1919"]
 *Officers of the Karapapakh Hamidiye cavalry* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The Hamidiye Regiments were Kurdish tribal cavalry units set up by [[Abdülhamid II]] (Mantran; Yalman). Mantran says they were part of his Kurdish policy to strengthen Muslim solidarity. Yalman says he tolerated tribal chiefs' local independence and organised some as Hamidiye Regiments. Their tribes used legal immunity to seize land (Emrence). Akşin says the policy increased hostility among peoples and led to Hamidiye massacres in the 1890s. Reform plans of 1895 and 1914 called for disarming or converting them to reserve cavalry ([[Cemal Paşa]]'s documents). A survivor, Şahan Natali, said his family was killed by them (Bardakçı).
@@ -85,6 +86,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kızıltoprak Anıları (Nezih H. Neyzi)|Neyzi, *Kızıltoprak Anıları*]]** (Turkish, 1 p): [[Kızıltoprak Anıları (Nezih H. Neyzi)#p. 445|445]]
 - **[[Mahşerin İki Gemisi - Part II (Video transcript)|Video, *Mahşerin İki Gemisi - Part II*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 6|6]]
 - **[[Sultanın Paşaları (Olivier Bouquet)|Bouquet, *Sultanın Paşaları*]]** (French, 1 p): [[Sultanın Paşaları (Olivier Bouquet)#p. 291|291]]
+
 
 ## Images
 

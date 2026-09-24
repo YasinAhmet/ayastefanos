@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 In 1894 Armenians in Sasun suffered a massacre, after the Dashnaktsutyun set up an armed band in the Muş valley (Trotsky's editor, Russian view). Emrence notes peasant revolts in Sasun, the Druze mountains and southern Iraq. Gürün and Talat's memoir, from the Turkish side, stress Armenian armed actions, such as at Zeitun. [[Cemal Paşa]] calls the 1915 Zeitun and [[Urfa]] events 'an armed Armenian revolution'. See also [[Armenian revolutionary committees]]. (Several extracted quotes concern 'Sason Efendi', an Iraqi minister, and are unrelated.)
@@ -143,6 +144,7 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -150,6 +152,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[1895erzurum-victims.jpg|480]]
 *A photograph taken in November 1895 by William Sachtleben of Armenians killed in Erzurum1*
+
+![[Hamidianmassacres.jpg|480]]
+*An 1896 depiction of fanatical "Softas" massacring Armenians.25*
 
 ![[Group portrait of eight Circassian men in uniform, with another man, possibly an Ottoman official LCCN2003677081.jpg|480]]
 *Ottoman-Circassian soldiers*
@@ -159,9 +164,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Armenian woman and her children from Geghi, 1899 (edit).jpg|480]]
 *An Armenian woman and her children who were refugees of the massacres and sought help from missionaries by walking great distances.*
-
-![[Hamidianmassacres.jpg|480]]
-*An 1896 depiction of fanatical "Softas" massacring Armenians.25*
 
 ![[Armenia22hamidian.jpg|480]]
 *Armenian victims of the massacres being buried in a mass grave at Erzerum cemetery.*

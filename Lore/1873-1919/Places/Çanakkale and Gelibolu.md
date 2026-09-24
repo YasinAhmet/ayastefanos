@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Satellite image of the Gallipoli peninsula and surrounding area* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Çanakkale (the Dardanelles) and the Gelibolu (Gallipoli) peninsula guard the way to [[İstanbul]]. A British visitor in 1836 already judged the defences of the Dardanelles (video transcripts). In 1914 the Allies tried to force the straits with battleships; two sank and they failed (Ortaylı). On 25 April 1915 they landed on the peninsula (Akşin). In November 1915 Britain and France decided to give up and evacuate (Yazman). Talat's memoir says the Çanakkale battle weighed heavily in memory. See [[Gallipoli Campaign (1915)]].
@@ -322,6 +323,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 93|93]]
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 174|174]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 127|127]]
+
 
 ## Images
 

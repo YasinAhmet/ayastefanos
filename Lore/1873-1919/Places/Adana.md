@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **46** sources on **434** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Adana Seyhan River.png|320]]
-*Adana Seyhan River* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Bundesarchiv Bild 137-012595, Kleinasien-Adana, Bahnhof.jpg|320]]
+*Bundesarchiv Bild 137-012595, Kleinasien-Adana, Bahnhof* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -271,10 +272,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)|Kemal, *Zabit ve Kumandan ile Hasbihal*]]** (Turkish, 1 p): [[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)#p. 75|75]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 17|17]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Adana) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Adana)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Bundesarchiv Bild 137-012595, Kleinasien-Adana, Bahnhof.jpg|480]]
+*Bundesarchiv Bild 137-012595, Kleinasien-Adana, Bahnhof*
+
+![[Adana Roman Bridge (Taşköprü), Turkey (36694356272).jpg|480]]
+*Adana Roman Bridge (Taşköprü), Turkey (36694356272)*
 
 ![[Adana Seyhan River.png|480]]
 *Adana Seyhan River*
@@ -282,14 +290,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Büyük Saat (214879961).jpeg|480]]
 *Büyük Saat (214879961)*
 
-![[Adana Roman Bridge (Taşköprü), Turkey (36694356272).jpg|480]]
-*Adana Roman Bridge (Taşköprü), Turkey (36694356272)*
-
 ![[Adana, Reşatbey Mh., Seyhan-Adana, Turkey - panoramio (39).jpg|480]]
 *Adana, Reşatbey Mh., Seyhan-Adana, Turkey - panoramio (39)*
-
-![[Adana city emblem.png|480]]
-*Adana city emblem*
 
 ## Related
 

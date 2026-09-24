@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Allenby in 1917* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 General Edmund Allenby commanded the British forces in Egypt and Palestine from 1917. His offensive of November 1917 forced [[Kress von Kressenstein]] back (Bardakçı). [[Cemal Paşa]] says he would not attack again until he had four British soldiers for every Turk. [[Kılıç Ali]] notes the Ottomans had not even 20,000 men against his 80,000. His army was reinforced with Indian troops suited to the Jordan valley (Sanders). The Arab government in Damascus answered to his headquarters (Allawi). Bardakçı says Lloyd George called him a crusader commander, and Ali Şükrü repeated this in the Assembly (Akşin).
@@ -128,6 +129,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 2 ps): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 127|127]] · [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 443|443]]
 - **[[Cemal Paşa Hatıralar (Cemal Paşa)|Cemal Paşa, *Cemal Paşa Hatıralar*]]** (Turkish, 1 p): [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 217|217]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -136,14 +138,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Edmund Allenby.jpg|480]]
 *Allenby in 1917*
 
-![[British and French Officers at French Manoeuvres 1914 (cropped).png|480]]
-*British and French officers at French manoeuvres, 1914. Major General Allenby is seated in the front row on the extreme left, with Lieutenant General Sir James Grierson to his left.*
-
-![[Gen. Allenby, King Albert LOC 20560673772.jpg|480]]
-*Allenby and King Albert I of Belgium.*
-
-![[General Sir Edmund H H Allenby, Kcb Art.IWMART1781.jpg|480]]
-*Drawing of Allenby by Francis Dodd, February 1917*
+![[Ed-Allenby.jpg|480]]
+*Ed-Allenby*
 
 ## Related
 

@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *EbuzziyaTevfik* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Ebüzziya Tevfik was a [[Young Ottomans]] publisher, printer and historian. His *Yeni Osmanlılar Tarihi* is a standard source for the movement (Akşin, Güneş, Georgeon). He published at the Matbaa-i Ebüzziya the 1887 third edition of [[Şinasi]]'s proverb collection, adding 1504 proverbs (Oy). Akşin notes his 1888 pamphlet *Millet-i İsrâiliye*, the first Turkish work on Jewish history, but Ortaylı says he and the paper *Alemdar* kept up an anti-Semitic and anti-Zionist line. His son Velid Bey edited *Tasvir-i Efkâr* in 1919–20 (Goloğlu).
@@ -110,6 +111,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Değişim ve Anayasal Rejim Sorunu (İlber Ortaylı)|Ortaylı, *Osmanlı'da Değişim ve Anayasal Rejim Sorunu*]]** (Turkish, 1 p): [[Osmanlı'da Değişim ve Anayasal Rejim Sorunu (İlber Ortaylı)#p. 339|339]]
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 46|46]]
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 144|144]]
+
 
 ## Images
 

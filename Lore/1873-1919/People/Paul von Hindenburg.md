@@ -12,8 +12,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[Bundesarchiv Bild 183-C06886, Paul v. Hindenburg (cropped)(2).jpg|320]]
-*Hindenburg in 1925* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*Bundesarchiv Bild 183-C06886, Paul v. Hindenburg (cropped)(2)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -85,13 +86,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 5|5]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 399|399]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Paul_von_Hindenburg) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Paul_von_Hindenburg)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[Bundesarchiv Bild 183-C06886, Paul v. Hindenburg (cropped)(2).jpg|480]]
-*Hindenburg in 1925*
+*Bundesarchiv Bild 183-C06886, Paul v. Hindenburg (cropped)(2)*
+
+![[Bundesarchiv Bild 183-C06886, Paul v. Hindenburg.jpg|480]]
+*Bundesarchiv Bild 183-C06886, Paul v. Hindenburg*
 
 ## Related
 

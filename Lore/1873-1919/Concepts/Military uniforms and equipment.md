@@ -11,9 +11,10 @@ tags: [concept, "1873-1919"]
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **47** sources on **279** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Coat of arms of the Ottoman Empire (1882–1922).png|320]]
-*Coat of arms of the Ottoman Empire (1882–1922)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Battle Sarikamis winter gear.png|320]]
+*Battle Sarikamis winter gear* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -274,16 +275,17 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ottoman_Army_%281861%E2%80%931922%29) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Osmanl%C4%B1_ordusu_%28modern_d%C3%B6nem%29)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Coat of arms of the Ottoman Empire (1882–1922).png|480]]
-*Coat of arms of the Ottoman Empire (1882–1922)*
+![[Battle Sarikamis winter gear.png|480]]
+*Battle Sarikamis winter gear*
 
-![[Distribution of the Medjidie, After the Battle of Citate.jpg|480]]
-*Distribution of the Medjidie, After the Battle of Citate*
+![[Israel in World War I - Ottomans soldiers with machine gun H OP 039.jpg|480]]
+*Israel in World War I - Ottomans soldiers with machine gun H OP 039*
 
 ## Related
 

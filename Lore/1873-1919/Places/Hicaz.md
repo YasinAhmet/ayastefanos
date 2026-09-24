@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **38** sources on **462** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[HAC 2010 KABE VE GÖKDELEN - panoramio.jpg|320]]
-*HAC 2010 KABE VE GÖKDELEN - panoramio* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Al Ula (6708283401).jpg|320]]
+*The city of al-Ula in 2012. The city's archaeological district is in the foreground, with the Hejaz Mountains in the background.* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -259,13 +260,11 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Cumhuriyete Doğru (Mahmut Goloğlu)|Goloğlu, *Cumhuriyete Doğru*]]** (Turkish, 1 loc): [[Cumhuriyete Doğru (Mahmut Goloğlu)#loc. 310|310]]
 - **[[Türk Halkbilimi (Sedat Veyis Örnek)|Örnek, *Türk Halkbilimi*]]** (Turkish, 1 p): [[Türk Halkbilimi (Sedat Veyis Örnek)#p. 98|98]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Hejaz) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Hicaz)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
-
-![[HAC 2010 KABE VE GÖKDELEN - panoramio.jpg|480]]
-*HAC 2010 KABE VE GÖKDELEN - panoramio*
 
 ![[Al Ula (6708283401).jpg|480]]
 *The city of al-Ula in 2012. The city's archaeological district is in the foreground, with the Hejaz Mountains in the background.*

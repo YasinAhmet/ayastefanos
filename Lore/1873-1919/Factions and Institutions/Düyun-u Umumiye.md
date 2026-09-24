@@ -16,6 +16,7 @@ tags: [faction, "1873-1919"]
 *The Istanbul High School building was originally constructed as the Ottoman Public Debt Administration (OPDA) headquarters.* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The Düyun-u Umumiye (Public Debt Administration) was set up by the Muharrem Decree of 1881, which wrote off part of the debt but made the administration a 'state within the state', taking part of tax revenue (Durgun). From its building in [[İstanbul]], 6,000 staff reached across the empire (Çelik). Akşin says it created two tax systems in Turkey from the 1880s. Germany's share rose from 7.5% in 1881 (Mantran). It received the Régie's revenue (Goloğlu). In the war it handled German loans (Yalman). In March 1920 [[Ankara]] ordered its branches to cut ties with İstanbul (Akşin).
@@ -178,6 +179,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Milli İktisat (Zafer Toprak)|Toprak, *Türkiye'de Milli İktisat*]]** (Turkish, 1 p): [[Türkiye'de Milli İktisat (Zafer Toprak)#p. 719|719]]
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 201|201]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 79|79]]
+
 
 ## Images
 

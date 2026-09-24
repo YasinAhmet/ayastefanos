@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *General Andranik Ozanian, wearing his uniform and medals with a papakha hat* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Andranik was an Armenian partisan leader. His first armed action was in 1895–96, when he led a band protecting Armenian villages (Trotsky's editor). Trotsky (Russian view) heard Armenian volunteers in the Balkan War singing songs about him. In the [[First World War]] he led Armenian volunteers. Gürün calls him 'a bloodthirsty adventurer' and quotes a Russian officer's memoirs on the cruelties of the Armenian units. On 17 February 1918 he came to [[Erzurum]]. Talat's memoir says he promised to punish every killer, Armenian or Muslim, but also rode out to stop deserters fleeing the front.
@@ -80,6 +81,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 13 ps): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 90|90]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 97|97]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 100|100]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 101|101]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 102|102]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 103|103]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 104|104]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 106|106]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 107|107]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 110|110]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 111|111]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 112|112]] · [[Talat Paşa'nın Anıları (Talat Paşa)#p. 191|191]]
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 3 ps): [[The Armenian File (Kâmuran Gürün)#p. 298|298]] · [[The Armenian File (Kâmuran Gürün)#p. 311|311]] · [[The Armenian File (Kâmuran Gürün)#p. 370|370]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -91,14 +93,14 @@ Every page where this subject is named. Each number links to that page in the co
 ![[General Andranik.jpg|480]]
 *General Andranik*
 
-![[Armenian monastery of s apostles in moush.jpg|480]]
-*The Holy Apostles Monastery of Mush*
-
 ![[Andranik Ozanian 1918.jpg|480]]
-*Andranik as the commander of the first Armenian volunteer battalion*
+*Andranik Ozanian 1918*
 
-![[Armenia-1916-front.jpg|480]]
-*The extent of the Russian occupation of Turkish Armenia during World War I, 1916*
+![[AndranikOzanian.jpg|480]]
+*AndranikOzanian*
+
+![[Andranikpasha.jpg|480]]
+*Andranikpasha*
 
 ## Related
 

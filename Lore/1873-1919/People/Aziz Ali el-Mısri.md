@@ -11,9 +11,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **4** sources on **15** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Al-Banna and al-Masri.jpg|320]]
-*Political and religious figures attending a reception for Mohamed Ali Eltaher at the Continental Hotel in Cairo. From left to right: Shaykh Mohamed Sabri al-Din of Hebron, Shaykh Ibrahim Tfayyesh of Algeria, Muslim Broth* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[000-Aziz Ali al-Misry Father of the free officers.jpg|320]]
+*000-Aziz Ali al-Misry Father of the free officers* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -79,16 +80,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Arap İsyanı 1916-1918 (David Murphy)|Murphy, *Arap İsyanı 1916-1918*]]** (Irish, 2 ps): [[Arap İsyanı 1916-1918 (David Murphy)#p. 16|16]] · [[Arap İsyanı 1916-1918 (David Murphy)#p. 92|92]]
 - **[[Osmanlı İmparatorluğu Tarihi (Robert Mantran)|Mantran, *Osmanlı İmparatorluğu Tarihi*]]** (French, 2 ps): [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 764|764]] · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 941|941]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Aziz_Ali_al-Misri) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Aziz_Ali_%28M%C4%B1s%C4%B1rl%C4%B1%29)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Al-Banna and al-Masri.jpg|480]]
-*Political and religious figures attending a reception for Mohamed Ali Eltaher at the Continental Hotel in Cairo. From left to right: Shaykh Mohamed Sabri al-Din of Hebron, Shaykh Ibrahim Tfayyesh of Algeria, Muslim Broth*
-
-![[Fareq Aziz Ali el-Masry street.jpg|480]]
-*Fareq Aziz Ali el-Masry Street (Gisr el-Suez St.), Cairo Egypt.*
+![[000-Aziz Ali al-Misry Father of the free officers.jpg|480]]
+*000-Aziz Ali al-Misry Father of the free officers*
 
 ## Related
 

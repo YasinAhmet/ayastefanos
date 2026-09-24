@@ -14,8 +14,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[1909 05 10 Sait Pasa Ayastefanos Yat Kulubu Onunde.jpg|320]]
-*Said Pasha in front of the San Stefanos Yacht Club, 10 May 1909* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*1909 05 10 Sait Pasa Ayastefanos Yat Kulubu Onunde* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -154,13 +155,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı Piyadesi 1914-1918 (David Nicolle)|Nicolle, *Osmanlı Piyadesi 1914-1918*]]** (British, 1 p): [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 48|48]]
 - **[[Plevne'de Bir Avustralyalı (Charles S. Ryan)|Ryan, *Plevne'de Bir Avustralyalı*]]** (Australian, 1 p): [[Plevne'de Bir Avustralyalı (Charles S. Ryan)#p. 93|93]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmed_Said_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/K%C3%BC%C3%A7%C3%BCk_Said_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[1909 05 10 Sait Pasa Ayastefanos Yat Kulubu Onunde.jpg|480]]
-*Said Pasha in front of the San Stefanos Yacht Club, 10 May 1909*
+*1909 05 10 Sait Pasa Ayastefanos Yat Kulubu Onunde*
 
 ## Related
 

@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Egypt under Muhammad Ali Dynasty map en* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Mısır (Egypt) was an autonomous Ottoman province under the dynasty of [[Kavalalı Mehmed Ali Paşa]], who built a European-style army there (Akyıldız). The 'Egyptian question' shaped Ottoman diplomacy in the 1830s–40s (Ortaylı; see [[Egyptian Question (1831-1841)]]). Britain occupied it in 1882 (see [[British occupation of Egypt (1882)]]). Under the British High Commissioner Kitchener it was a base for Arab policy (Akşin). In 1915 [[Cemal Paşa]]'s Suez Canal campaign failed to wrest it from Britain (Bardakçı). After 1924 King Fuad would not let the exiled Ottoman dynasty settle there, fearing a caliph in Cairo (Bardakçı).
@@ -325,6 +326,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 135|135]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 5|5]]
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 179|179]]
+
 
 ## Images
 

@@ -12,9 +12,10 @@ tags: [faction, "1873-1919"]
 > **Faction** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1899– · Found in **33** sources on **140** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[CIOB map.png|320]]
-*CIOB in red (CFOA route to Istanbul in blue)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Bagdadbahn 1903.jpg|320]]
+*Share of the Baghdad railway, issued 31 December 19031* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -209,22 +210,23 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 135|135]]
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 73|73]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Berlin%E2%80%93Baghdad_railway) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Ba%C4%9Fdat_Demiryolu)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[CIOB map.png|480]]
-*CIOB in red (CFOA route to Istanbul in blue)*
+![[Bagdadbahn 1903.jpg|480]]
+*Share of the Baghdad railway, issued 31 December 19031*
 
 ![[Baghdad Railway LOC 04665u.jpg|480]]
 *Baghdad railway c. 1900–10*
 
+![[CIOB map.png|480]]
+*CIOB in red (CFOA route to Istanbul in blue)*
+
 ![[BagdadRailwayMapEn.png|480]]
 *BagdadRailwayMapEn*
-
-![[Bagdadbahn 1903.jpg|480]]
-*Share of the Baghdad railway, issued 31 December 19031*
 
 ![[Bundesarchiv Bild 137-012595, Kleinasien-Adana, Bahnhof.jpg|480]]
 *Central Station in Adana, Turkey, 1913*

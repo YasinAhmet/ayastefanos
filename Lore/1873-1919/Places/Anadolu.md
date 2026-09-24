@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *The henges in Göbekli Tepe were erected as far back as 9,600 BCE.* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Anadolu (Anatolia) is the heartland of modern Turkey and the setting for much of the vault. Fifty or sixty years before the 1870s it had sent much grain to Europe (Güran). American missionaries opened schools and hospitals across it (Akşin). After 1918 it became the base of the national movement (Goloğlu), and even the Sultan's accession day was celebrated there with Mustafa Kemal receiving congratulations on his behalf (Bardakçı). The video transcripts quote British officers on the massacres, rapes and destruction Turks suffered as the Greek army advanced.
@@ -338,6 +339,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Büyük Petro (Robert K. Massie)|Massie, *Büyük Petro*]]** (American, 2 ps): [[Büyük Petro (Robert K. Massie)#p. 123|123]] · [[Büyük Petro (Robert K. Massie)#p. 657|657]]
 - **[[Çariçe Katerina (Robert K. Massie)|Massie, *Çariçe Katerina*]]** (American, 2 ps): [[Çariçe Katerina (Robert K. Massie)#p. 442|442]] · [[Çariçe Katerina (Robert K. Massie)#p. 635|635]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 80|80]]
+
 
 ## Images
 

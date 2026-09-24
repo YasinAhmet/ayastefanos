@@ -17,6 +17,7 @@ tags: [person, "1873-1919"]
 *Ahmed İzzet, c. 1918* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Ahmed İzzet Paşa (Furgaç) was a German-trained general and chief of staff, war minister after the Balkan War, and grand vizier in October 1918. His short cabinet signed the [[Armistice of Mudros (1918)]] and then resigned (Goloğlu). Vahdettin thought his government unsuitable for dealing with the Entente (Akşin). He later pressed Germany to hand back the fled Unionists (Bardakçı).
@@ -223,6 +224,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 88|88]]
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 307|307]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -232,13 +234,7 @@ Every page where this subject is named. Each number links to that page in the co
 *Ahmed İzzet, c. 1918*
 
 ![[Ahmed İzzet Pasha, Ottoman commander in the Caucasus. Die Kaukasusfront. Grosser Bilderatlas des Weltkrieges, Bruckmann.jpg|480]]
-*İzzet Pasha's general staff of the Caucasus front*
-
-![[Izzat Pasha Commander of Caucasus Front arriving in Jerusalem, 1917.jpg|480]]
-*Ahmed Izzet Pasha and Djemal Pasha arriving in Jerusalem in 1917*
-
-![[Ahmet İzzet Furgaç aile kabristanı.jpg|480]]
-*Ahmet İzzet Furgaç'ın Karacaahmet Mezarlığı'ndaki aile kabristanı*
+*Ahmed İzzet Pasha, Ottoman commander in the Caucasus. Die Kaukasusfront. Grosser Bilderatlas des Weltkrieges, Bruckmann*
 
 ## Related
 

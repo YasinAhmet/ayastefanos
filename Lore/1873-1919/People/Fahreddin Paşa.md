@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Korgeneral Türkkan (y. 1935-1936)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Fahreddin (Fahri) Paşa was the defender of Medina in the [[Arab Revolt (1916-1918)]]. After [[Şerif Hüseyin]]'s rising, [[Cemal Paşa]] appointed him commander at Medina with 15–16 battalions. [[Faysal]] sent letters to him through a Turkish officer, calling on him to join against 'the men in the government' (Allawi, Iraqi view). Murphy (Irish view) shows how rebel threats to the railway stopped his counter-attack. Sanders (German view) notes his troops were strong enough to hold out and had their own food sources, although he kept telegraphing that they were starving. The Unionists later planned to make him ambassador to Afghanistan (Bardakçı).
@@ -140,6 +141,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı Piyadesi 1914-1918 (David Nicolle)|Nicolle, *Osmanlı Piyadesi 1914-1918*]]** (British, 1 p): [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 41|41]]
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 130|130]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -147,9 +149,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Korgeneral Ömer Fahreddin Türkkan (1935~1936).jpg|480]]
 *Korgeneral Türkkan (y. 1935-1936)*
-
-![[Fahrettin Pasa with his children.jpg|480]]
-*Fakhri Pasha with his children*
 
 ![[Fahrettin Paşa bayramlaşıyor.jpg|480]]
 *Fahrettin Paşa bayramlaşıyor*

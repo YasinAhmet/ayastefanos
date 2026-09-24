@@ -12,8 +12,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[Charles Townshend Mesopotamia.webp|320]]
-*Major General Townshend, GOC 6th Indian Division, and members of his divisional staff in Mesopotamia, 1915/1916.* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*Charles Townshend Mesopotamia* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -92,13 +93,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 1 p): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 162|162]]
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 324|324]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Charles_Townshend_%28British_Army_officer%29) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Charles_Vere_Ferrers_Townshend)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[Charles Townshend Mesopotamia.webp|480]]
-*Major General Townshend, GOC 6th Indian Division, and members of his divisional staff in Mesopotamia, 1915/1916.*
+*Charles Townshend Mesopotamia*
 
 ## Related
 

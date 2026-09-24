@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Kars Panorama* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Kars was the fortress city on the Caucasus frontier. In September 1855 the Ottomans won a battle at Kars against Muravyov (Badem), though it fell later. It fell to the Russians on 18 November 1877 (see [[Gazi Ahmed Muhtar Paşa]]). Ortaylı notes that under Russia it was one of the least educated regions of the Caucasus (1898). The Russians built a humiliating monument there (video transcripts). The [[Sarıkamış Operation (1914-1915)]] aimed first to take Kars ([[Cemal Paşa]]). After Karabekir's victory, the Treaty of Kars was signed on 13 October 1921 (Goloğlu). In 1945 the USSR's claim to Kars and Ardahan pushed Turkey towards the West (Akşin).
@@ -267,6 +268,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 117|117]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 138|138]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 30|30]]
+
 
 ## Images
 

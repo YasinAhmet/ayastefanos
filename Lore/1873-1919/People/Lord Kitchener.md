@@ -11,9 +11,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **9** sources on **28** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Kitchener & family.jpg|320]]
-*Kitchener on his mother's lap, with his brother and sister* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Horatio Herbert Kitchener, 1st Earl Kitchener of Khartoum, 1901.jpg|320]]
+*Horatio Herbert Kitchener, 1st Earl Kitchener of Khartoum, 1901* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -107,19 +108,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı Piyadesi 1914-1918 (David Nicolle)|Nicolle, *Osmanlı Piyadesi 1914-1918*]]** (British, 1 p): [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 24|24]]
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 1 p): [[The Armenian File (Kâmuran Gürün)#p. 280|280]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Herbert_Kitchener%2C_1st_Earl_Kitchener) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Horatio_Herbert_Kitchener)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Kitchener & family.jpg|480]]
-*Kitchener on his mother's lap, with his brother and sister*
-
-![[General Kitchener and the Anglo-egyptian Nile Campaign, 1898 HU93828.jpg|480]]
-*Kitchener, Commander of the Egyptian Army (centre right), 1898*
-
 ![[Horatio Herbert Kitchener, 1st Earl Kitchener of Khartoum, 1901.jpg|480]]
-*Duffus Bros, platinum print/NPG P403. Horatio Herbert Kitchener, 1st Earl Kitchener of Khartoum, 1901*
+*Horatio Herbert Kitchener, 1st Earl Kitchener of Khartoum, 1901*
 
 ## Related
 

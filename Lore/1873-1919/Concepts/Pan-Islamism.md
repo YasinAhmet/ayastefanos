@@ -11,9 +11,10 @@ tags: [concept, "1873-1919"]
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **19** sources on **103** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Islam by country.png|320]]
-*Islam by country: .mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:c* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Hejaz railway.png|320]]
+*Hejaz railway* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -165,13 +166,14 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Pan-Islamism) · [TR Wikipedia](https://tr.wikipedia.org/wiki/%C3%9Cmmet%C3%A7ilik)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Islam by country.png|480]]
-*Islam by country: .mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:c*
+![[Hejaz railway.png|480]]
+*Hejaz railway*
 
 ## Related
 

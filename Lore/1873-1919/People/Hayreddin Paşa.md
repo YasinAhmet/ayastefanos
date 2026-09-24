@@ -13,9 +13,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** c.1820–1890 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **12** sources on **39** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Kheireddine Pacha high.jpg|320]]
-*Portrait of Brigadier General Khair al-Din on horseback* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Hayreddin pasa.jpg|320]]
+*Hayreddin pasa* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -111,19 +112,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 94|94]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 48|48]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Hayreddin_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Tunuslu_Hayreddin_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Kheireddine Pacha high.jpg|480]]
-*Portrait of Brigadier General Khair al-Din on horseback*
-
 ![[Hayreddin pasa.jpg|480]]
 *Hayreddin pasa*
 
-![[20 TND obverse.jpg|480]]
-*Kheireddine Ettounsi on Tunisian 20 dinar note (1992).*
+![[Kheireddine Pacha high.jpg|480]]
+*Portrait of Brigadier General Khair al-Din on horseback*
 
 ## Related
 

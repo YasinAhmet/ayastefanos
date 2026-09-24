@@ -17,6 +17,7 @@ tags: [faction, "1873-1919"]
 
 
 
+
 ## Summary
 
 The Hejaz Railway ran about 1,900 km from Damascus to Medina, meant to serve the pilgrimage (Emrence; Murphy). Money was collected across the Muslim world in the name of pan-Islam (Ortaylı). In the Arab Revolt it was the target of raids by Newcombe, Lawrence and others (Murphy). Sanders doubted it could be fully protected. [[Cemal Paşa]] made agreements on its Haifa–Der'a branch.
@@ -151,6 +152,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 29|29]]
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 198|198]]
 - **[[İttihadçı'nın Sandığı (Murat Bardakçı)|Bardakçı, *İttihadçı'nın Sandığı*]]** (Turkish, 1 p): [[İttihadçı'nın Sandığı (Murat Bardakçı)#p. 63|63]]
+
 
 
 

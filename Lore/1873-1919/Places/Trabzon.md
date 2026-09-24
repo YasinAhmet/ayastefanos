@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **49** sources on **755** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Atatürkköskü - panoramio.jpg|320]]
-*Atatürkköskü - panoramio* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Hagia Sophia Trabzon.jpg|320]]
+*Hagia Sophia Trabzon* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -291,16 +292,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı Piyadesi 1914-1918 (David Nicolle)|Nicolle, *Osmanlı Piyadesi 1914-1918*]]** (British, 1 p): [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 10|10]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 182|182]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Trabzon) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Trabzon)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Atatürkköskü - panoramio.jpg|480]]
-*Atatürkköskü - panoramio*
-
 ![[Hagia Sophia Trabzon.jpg|480]]
 *Hagia Sophia Trabzon*
+
+![[Atatürkköskü - panoramio.jpg|480]]
+*Atatürkköskü - panoramio*
 
 ## Related
 

@@ -17,6 +17,7 @@ tags: [concept, "1873-1919"]
 
 
 
+
 ## Summary
 
 The capitulations were privileges granted to foreigners. Mantran (French view) says those of 1569 laid the legal basis of France's presence in the Middle East. Embassy protection and the capitulations gave foreigners immunity (Ortaylı). Ottoman governments knew they hindered trade (Güneş). In September–October 1914 the Ottomans abolished them unilaterally (Akşin); [[Cemal Paşa]] saw the German alliance as a way to be rid of 'the curse of capitulations'. Germany accepted their abolition in January 1917, but after the war the Allies wanted them back (Akşin). The Soviet treaty renounced them (Goloğlu).
@@ -229,6 +230,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 154|154]]
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 216|216]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 80|80]]
+
 
 
 

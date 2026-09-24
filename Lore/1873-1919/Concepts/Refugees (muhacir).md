@@ -17,6 +17,7 @@ tags: [concept, "1873-1919"]
 
 
 
+
 ## Summary
 
 Refugees (*muhacir*) poured into Anatolia from lost lands. Mantran (French view) says their arrival changed Anatolia's human geography and economy. The state encouraged them to settle along the railway (Ortaylı, 1908). Balkan refugees helped create a more homogeneous population (Akşin). Emrence notes conflicts between newcomers and locals, such as Muslims settled near Ayvalık. Tonguç met a refugee from Narman who had left family in enemy hands. Western Thrace refugees were resettled after 1922 (Goloğlu). Reisman (American view) describes a different wave: German refugees from Nazism watched by the Nazi regime.
@@ -314,6 +315,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 1 p): [[The Armenian File (Kâmuran Gürün)#p. 420|420]]
 - **[[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)|Childs, *Trablusgarp Savaşı ve Türk-İtalyan İlişkileri*]]** (American, 1 p): [[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)#p. 63|63]]
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 279|279]]
+
 
 
 

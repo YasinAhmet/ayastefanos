@@ -18,6 +18,7 @@ tags: [faction, "1873-1919"]
 
 
 
+
 ## Summary
 
 The Ottoman Parliament (*Meclis-i Mebusan* and *Meclis-i Âyan*) first sat in 1877 (see [[First Constitutional Era (1876-1878)]]). After 1908 elections speeded up and the chamber opened on 17 December 1908 (Güneş). In 1909 it made major constitutional changes (Akşin). In 1877 the Senate had non-Muslim members such as Musurus Paşa (Ortaylı). In November 1918 its Fifth Section investigated the wartime cabinets (Erdinç; Talat's memoir). The last chamber adopted the [[Misak-ı Milli (1920)]] (Goloğlu).
@@ -265,6 +266,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 38|38]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 15|15]]
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 267|267]]
+
 
 
 

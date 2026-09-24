@@ -11,9 +11,10 @@ tags: [concept, "1873-1919"]
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **11** sources on **33** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[London news c1877 - scanned constantinopole(1996)-Opening of the first parlement.png|320]]
-*Opening of the first Ottoman Parliament after the proclamation of the Ottoman Constitution of 1876* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Declaration of the 1908 Revolution in Ottoman Empire.png|320]]
+*Declaration of the 1908 Revolution in Ottoman Empire* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -121,10 +122,17 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ottomanism) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Osmanl%C4%B1c%C4%B1l%C4%B1k)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Declaration of the 1908 Revolution in Ottoman Empire.png|480]]
+*Declaration of the 1908 Revolution in Ottoman Empire*
+
+![[Greek lithograph celebrating the Ottoman Constitution.png|480]]
+*Greek lithograph celebrating the Ottoman Constitution*
 
 ![[London news c1877 - scanned constantinopole(1996)-Opening of the first parlement.png|480]]
 *Opening of the first Ottoman Parliament after the proclamation of the Ottoman Constitution of 1876*

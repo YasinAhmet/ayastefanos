@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **45** sources on **284** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Hoşap 24 05 2010 Burg.jpg|320]]
-*Hoşap 24 05 2010 Burg* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Akhtamar Island on Lake Van with the Armenian Cathedral of the Holy Cross.jpg|320]]
+*Akhtamar Island on Lake Van with the Armenian Cathedral of the Holy Cross* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -258,19 +259,20 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 117|117]]
 - **[[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları III*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları III (Erol Şadi Erdinç)#p. 1033|1033]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Van%2C_Turkey) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Van)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Akhtamar Island on Lake Van with the Armenian Cathedral of the Holy Cross.jpg|480]]
+*Akhtamar Island on Lake Van with the Armenian Cathedral of the Holy Cross*
 
 ![[Hoşap 24 05 2010 Burg.jpg|480]]
 *Hoşap 24 05 2010 Burg*
 
 ![[Insel Akdamar Աղթամար, armenische Kirche zum Heiligen Kreuz Սուրբ խաչ (um 920) (39526195355).jpg|480]]
 *Insel Akdamar Աղթամար, armenische Kirche zum Heiligen Kreuz Սուրբ խաչ (um 920) (39526195355)*
-
-![[Akhtamar Island on Lake Van with the Armenian Cathedral of the Holy Cross.jpg|480]]
-*Akhtamar Island on Lake Van with the Armenian Cathedral of the Holy Cross*
 
 ![[Iskele St. Van.jpg|480]]
 *Iskele St. Van*

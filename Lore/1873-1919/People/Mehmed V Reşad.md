@@ -11,10 +11,6 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** reigned 1909–1918 · Found in **25** sources on **117** pages · [[Home]] · [[Timeline]]
 
-<!-- images:start -->
-![[1909 05 10 Sultan Resat Yevmi Culus.jpg|320]]
-*Padişah Reşad's Cülûs ceremony* — ⚠ Not from vault sources (image: Wikimedia Commons)
-<!-- images:end -->
 
 ## Summary
 
@@ -187,13 +183,6 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Talat Paşa'nın Anıları (Talat Paşa)|Talat Paşa, *Talat Paşa'nın Anıları*]]** (Turkish, 1 p): [[Talat Paşa'nın Anıları (Talat Paşa)#p. 14|14]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 11|11]]
 
-## Images
-
-> [!info] ⚠ Not from vault sources
-> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmed_V) · [TR Wikipedia](https://tr.wikipedia.org/wiki/V._Mehmed)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
-
-![[1909 05 10 Sultan Resat Yevmi Culus.jpg|480]]
-*Padişah Reşad's Cülûs ceremony*
 
 ## Related
 

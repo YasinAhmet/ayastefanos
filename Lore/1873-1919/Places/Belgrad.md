@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Belgrad2006parlament* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Belgrad (Belgrade) was an Ottoman fortress until the 19th century; in 1851 the Ottoman commandant of Belgrade still sat in the castle (Ortaylı). Kula calls Rhodes, Belgrade and Budapest the 'shields of European Christianity'. The Austrian victory at Slankamen near Belgrade in 1697 (Valensi) and the Treaty of Belgrade, which returned Oltenia to Wallachia (Mantran), mark its history. Trotsky (Russian view) describes it as a middling town in 1912. Yazman toured its wooden-paved main street with an Austrian guide during the war.
@@ -195,6 +196,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Mahşerin İki Gemisi - Part I (Video transcript)|Video, *Mahşerin İki Gemisi - Part I*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part I (Video transcript)#loc. 17|17]]
 - **[[Çariçe Katerina (Robert K. Massie)|Massie, *Çariçe Katerina*]]** (American, 1 p): [[Çariçe Katerina (Robert K. Massie)#p. 686|686]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 254|254]]
+
 
 ## Images
 

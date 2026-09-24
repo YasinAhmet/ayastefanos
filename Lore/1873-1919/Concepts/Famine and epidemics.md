@@ -11,9 +11,10 @@ tags: [concept, "1873-1919"]
 > **Concept** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **48** sources on **261** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Epidemic typhus Burundi.jpg|320]]
-*Rash caused by epidemic typhus in Burundi* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Bulgaristan'dan göç eden Türkler (1912).jpg|320]]
+*Bulgaristan'dan göç eden Türkler (1912)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -276,13 +277,20 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Epidemic_typhus)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Epidemic typhus Burundi.jpg|480]]
-*Rash caused by epidemic typhus in Burundi*
+![[Bulgaristan'dan göç eden Türkler (1912).jpg|480]]
+*Bulgaristan'dan göç eden Türkler (1912)*
+
+![[Epidemic Typhus. Macular rash.png|480]]
+*Epidemic Typhus. Macular rash*
+
+![[DDT WWII soldier.jpg|480]]
+*A U.S. soldier demonstrating DDT-hand spraying equipment. DDT was used to control the spread of typhus-carrying lice during WWII.*
 
 ## Related
 

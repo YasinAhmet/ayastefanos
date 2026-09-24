@@ -13,8 +13,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[1909 10 Resimli Kitab Vahdettin.jpg|320]]
-*Prince Vahdeddin, Resimli Kitab magazine* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*1909 10 Resimli Kitab Vahdettin* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -246,13 +247,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 274|274]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 11|11]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmed_VI) · [TR Wikipedia](https://tr.wikipedia.org/wiki/VI._Mehmed)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[1909 10 Resimli Kitab Vahdettin.jpg|480]]
-*Prince Vahdeddin, Resimli Kitab magazine*
+*1909 10 Resimli Kitab Vahdettin*
+
+![[Former Ottoman Sultan Mehmed VI arrives in Malta on a British warship. 9 Dec 1922.jpg|480]]
+*Former Ottoman Sultan Mehmed VI arrives in Malta on a British warship. 9 Dec 1922*
 
 ## Related
 

@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The Greco-Turkish War of 1897 was an Ottoman victory under Ethem Paşa at Pharsala, Velestino and Domokos (Dömeke) (Hochwächter). Ethem's small army acted on Moltke's principles. Refik Bey married a daughter of 'Domokos hero' Gazi Ethem Paşa (Bardakçı). The Red Crescent ran hospitals for the wounded and refugees (Yalman). Durgun says that in the Balkan War the army could not even match its 1897 performance, and no reform was made in the eleven years after. The Kaiser's second visit came after it, in 1898 (video transcripts).
@@ -76,6 +77,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Enver (Murat Bardakçı)|Bardakçı, *Enver*]]** (Turkish, 1 p): [[Enver (Murat Bardakçı)#p. 69|69]]
 - **[[Mahşerin İki Gemisi - Part II (Video transcript)|Video, *Mahşerin İki Gemisi - Part II*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 14|14]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 644|644]]
+
 
 
 

@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **32** sources on **273** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Bitlis Montage.jpg|320]]
-*Bitlis Montage* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Engraving of Bitlis 1900.jpg|320]]
+*Engraving of Bitlis, 1900* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -217,22 +218,23 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı Ortadoğu'sunu Yeniden Düşünmek (Cem Emrence)|Emrence, *Osmanlı Ortadoğu'sunu Yeniden Düşünmek*]]** (Turkish, 1 p): [[Osmanlı Ortadoğu'sunu Yeniden Düşünmek (Cem Emrence)#p. 145|145]]
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 400|400]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Bitlis) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Bitlis)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Engraving of Bitlis 1900.jpg|480]]
+*Engraving of Bitlis, 1900*
+
+![[Bitlis view.jpg|480]]
+*Bitlis view*
 
 ![[Bitlis Montage.jpg|480]]
 *Bitlis Montage*
 
 ![[Bitlis Belediyesi logo.png|480]]
 *Bitlis Belediyesi logo*
-
-![[Bitlis view.jpg|480]]
-*Bitlis view*
-
-![[Engraving of Bitlis 1900.jpg|480]]
-*Engraving of Bitlis, 1900*
 
 ## Related
 

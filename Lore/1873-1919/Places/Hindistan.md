@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *British Indian Empire 1909 Imperial Gazetteer of India* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Hindistan (India), under British rule from the 17th century onwards (Bardakçı), mattered to the Ottomans because of its Muslims and the caliphate. The British feared the caliph could stir up India's Muslims from [[İstanbul]] (Bardakçı). Indian Muslims arranged Ottoman dynastic marriages after 1924. Hobart (British view) compares Indian officers. Cox (American view) notes railways as the route to India.
@@ -302,6 +303,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı Ortadoğu'sunu Yeniden Düşünmek (Cem Emrence)|Emrence, *Osmanlı Ortadoğu'sunu Yeniden Düşünmek*]]** (Turkish, 1 p): [[Osmanlı Ortadoğu'sunu Yeniden Düşünmek (Cem Emrence)#p. 120|120]]
 - **[[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)|Bardakçı, *Talât Paşa'nın Evrak-ı Metrukesi*]]** (Turkish, 1 p): [[Talât Paşa'nın Evrak-ı Metrukesi (Murat Bardakçı)#p. 81|81]]
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 189|189]]
+
 
 ## Images
 

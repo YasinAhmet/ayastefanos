@@ -16,6 +16,7 @@ tags: [faction, "1873-1919"]
 *View of the Turkish Hearths Headquarters in the 1930s* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The Türk Ocağı ('Turkish Hearth') began work on 3 July 1911 at the Military Medical School, where the CUP had been founded (Akşin). Its aim was to strengthen national feeling among members (Tonguç). It held Ramazan lectures (Georgeon) and was a source for feminist movements (Ortaylı). [[Hamdullah Suphi]] presided for years. Its youth spoke at protests against the occupation (Goloğlu). In [[Ankara]], Ahmet Ağaoğlu spoke at its opening about Marx and Lenin (Aralov). After the Hearths dissolved themselves, the People's Houses were founded on 19 February 1932 (Örnek).
@@ -143,6 +144,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Cemal Paşa Hatıralar (Cemal Paşa)|Cemal Paşa, *Cemal Paşa Hatıralar*]]** (Turkish, 1 p): [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 382|382]]
 - **[[Cumhuriyete Doğru (Mahmut Goloğlu)|Goloğlu, *Cumhuriyete Doğru*]]** (Turkish, 1 loc): [[Cumhuriyete Doğru (Mahmut Goloğlu)#loc. 375|375]]
 - **[[Türk Halkbilimi (Sedat Veyis Örnek)|Örnek, *Türk Halkbilimi*]]** (Turkish, 1 p): [[Türk Halkbilimi (Sedat Veyis Örnek)#p. 123|123]]
+
 
 ## Images
 

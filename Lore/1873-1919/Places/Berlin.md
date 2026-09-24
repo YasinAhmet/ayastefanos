@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **56** sources on **941** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Berlin - Schloss Charlottenburg Reiterstandbild & Schlossturm.jpg|320]]
-*Berlin - Schloss Charlottenburg Reiterstandbild & Schlossturm* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Berlin - 0266 - 16052015 - Brandenburger Tor.jpg|320]]
+*Berlin - 0266 - 16052015 - Brandenburger Tor* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -311,10 +312,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 8|8]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 264|264]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Berlin) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Berlin)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[Berlin - 0266 - 16052015 - Brandenburger Tor.jpg|480]]
+*Berlin - 0266 - 16052015 - Brandenburger Tor*
 
 ![[Berlin - Schloss Charlottenburg Reiterstandbild & Schlossturm.jpg|480]]
 *Berlin - Schloss Charlottenburg Reiterstandbild & Schlossturm*
@@ -324,9 +329,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Berlin-Mitte, het Berliner Schloss Dm IMG 5754 2024-09-07 12.46.jpg|480]]
 *Berlin-Mitte, het Berliner Schloss Dm IMG 5754 2024-09-07 12.46*
-
-![[Berlin - 0266 - 16052015 - Brandenburger Tor.jpg|480]]
-*Berlin - 0266 - 16052015 - Brandenburger Tor*
 
 ![[Berliner Dom vor Sonnenuntergang.jpg|480]]
 *Berliner Dom vor Sonnenuntergang*

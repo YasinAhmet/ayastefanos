@@ -10,10 +10,6 @@ tags: [person, "1873-1919"]
 
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **6** sources on **11** pages · [[Home]] · [[Timeline]]
 
-<!-- images:start -->
-![[Grand prince Alexander Nikolaevich (F. Krüger, 1830).jpg|320]]
-*Grand Duke Alexander Nikolayevich, by Franz Krüger, 1830* — ⚠ Not from vault sources (image: Wikimedia Commons)
-<!-- images:end -->
 
 ## Summary
 
@@ -59,16 +55,6 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kızıltoprak Anıları (Nezih H. Neyzi)|Neyzi, *Kızıltoprak Anıları*]]** (Turkish, 1 p): [[Kızıltoprak Anıları (Nezih H. Neyzi)#p. 91|91]]
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 165|165]]
 
-## Images
-
-> [!info] ⚠ Not from vault sources
-> Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Alexander_II_of_Russia) · [TR Wikipedia](https://tr.wikipedia.org/wiki/II._Aleksandr)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
-
-![[Grand prince Alexander Nikolaevich (F. Krüger, 1830).jpg|480]]
-*Grand Duke Alexander Nikolayevich, by Franz Krüger, 1830*
-
-![[Grigoriy Myasoyedov Reading of the 1861 Manifesto 1873.jpg|480]]
-*Russian peasants reading the Emancipation Manifesto, an 1873 painting by Grigory Myasoyedov*
 
 ## Related
 

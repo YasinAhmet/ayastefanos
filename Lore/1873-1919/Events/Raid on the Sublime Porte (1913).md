@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 On 23 January 1913 the CUP carried out the coup known as the Raid on the [[Sublime Porte]]. A large crowd of Unionists marched with slogans about [[Edirne]] (Akşin). Enver and Talat were among the raiders (Talat's memoir). War Minister [[Nazım Paşa]] was shot, and the government of [[Kamil Paşa]] fell; he had to go abroad, first to Egypt and then France (Akşin). [[Mahmud Şevket Paşa]] became grand vizier (Bardakçı). Toprak says power then passed directly to the CUP, which went on to apply Turkist ideas (Akşin). Later, Atatürk declared there would be no 'Bab-ı Ali raid' in his movement (Goloğlu).
@@ -137,6 +138,7 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -144,6 +146,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[1913 Ottoman coup d'état.png|480]]
 *1913 Ottoman coup d'état*
+
+![[Enver kamil.jpg|480]]
+*Enver kamil*
 
 ![[Der türkische Kriegsminister Enver Pascha.png|480]]
 *Prior to World War I, Enver Pasha was hailed at home as the hero of the revolution.*

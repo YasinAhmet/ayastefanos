@@ -12,9 +12,10 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1877–1878 · Found in **28** sources on **95** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Europe 1871 map en.png|320]]
-*Europe before the Balkan crisis* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[1878 Vereshchagin Schlachtfeld am Schipkapass anagoria.jpg|320]]
+*1878 Vereshchagin Schlachtfeld am Schipkapass anagoria* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -201,16 +202,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 184|184]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 269|269]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Russo-Turkish_War_%281877%E2%80%931878%29) · [TR Wikipedia](https://tr.wikipedia.org/wiki/93_Harbi)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Europe 1871 map en.png|480]]
-*Europe before the Balkan crisis*
+![[1878 Vereshchagin Schlachtfeld am Schipkapass anagoria.jpg|480]]
+*1878 Vereshchagin Schlachtfeld am Schipkapass anagoria*
 
-![[Hercegovci u zasedi, Srbadija.jpg|480]]
-*Herzegovinian Serb insurgents in 1875*
+![[Grivita 1877.jpg|480]]
+*Grivita 1877*
 
 ## Related
 

@@ -16,6 +16,7 @@ tags: [faction, "1873-1919"]
 *Armenian Revolutionary Federation Flag* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The Armenian revolutionary committees were the Hunchak party (founded 1887) and the Dashnaktsutyun (1890) (Akşin). Akşin says they followed a 'Bulgarian model'. In August 1896 the Dashnaks seized the [[Ottoman Bank]] in [[İstanbul]] (Mantran). After 1908 the Dashnaks worked with the CUP (Trotsky's editor); [[Cemal Paşa]] quotes their offer of cooperation. Talat's memoir quotes the Hunchak congress of 17 September 1913. In 1915 Talat ordered the closure of Hunchak and Dashnak branches and seizure of their papers (Bardakçı). Aralov (Russian view) notes limits on the Dashnak government's army. See [[Armenian deportation (1915)]].
@@ -160,6 +161,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Son Meşrutiyet (Sina Akşin)|Akşin, *Son Meşrutiyet*]]** (Turkish, 1 loc): [[Son Meşrutiyet (Sina Akşin)#loc. 469|469]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 338|338]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -176,6 +178,9 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Armenian Fedayees 1890-1896.jpg|480]]
 *Fedayi group fighting under the ARF banner. Text in Armenian reads Azatutyun kam Mah (Liberty or Death)*
+
+![[Armen Garo 1918.jpg|480]]
+*Armen Garo (Karekin Pastermadjian), an ARF member of Chamber of Deputies from Erzurum during the Second Constitutional Era.90*
 
 ## Related
 

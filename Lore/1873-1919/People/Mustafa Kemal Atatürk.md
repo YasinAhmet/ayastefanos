@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Atatürk in 1932* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Mustafa Kemal (Atatürk) is the most-cited person in the vault (51 books). As a young officer in Salonika in autumn 1907 he joined the Committee through [[Fethi Okyar]], and had his first clash with [[Enver Paşa]] (Bardakçı). At Gallipoli his division was the only Turkish unit close enough to act on the first day of the landings. According to the video transcripts (Lord Kinross), he was proved right against his superiors, and [[Esat Paşa]] congratulated him on 30 April 1915. In 1917 he resigned his army command after 'bitter exchanges' with [[Cemal Paşa]]. After the armistice he went to the Bekirağa prison to support arrested officers (video transcripts).
@@ -318,6 +319,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Değişim ve Anayasal Rejim Sorunu (İlber Ortaylı)|Ortaylı, *Osmanlı'da Değişim ve Anayasal Rejim Sorunu*]]** (Turkish, 1 p): [[Osmanlı'da Değişim ve Anayasal Rejim Sorunu (İlber Ortaylı)#p. 319|319]]
 - **[[Tarih Boyunca Türk Atasözleri (Aydın Oy)|Oy, *Tarih Boyunca Türk Atasözleri*]]** (Turkish, 1 p): [[Tarih Boyunca Türk Atasözleri (Aydın Oy)#p. 119|119]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -326,8 +328,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Ataturk1930s.jpg|480]]
 *Atatürk in 1932*
 
-![[Atatürk'ün 993 814 seri numaralı nüfus cüzdanı.jpg|480]]
-*Atatürk's identity document with serial number 993 814*
+![[Atatürk Kemal.jpg|480]]
+*Atatürk Kemal*
 
 ## Related
 

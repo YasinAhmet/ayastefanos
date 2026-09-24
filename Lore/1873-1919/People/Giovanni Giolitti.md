@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Giolitti2* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Giovanni Giolitti was Italian Prime Minister during the [[Italo-Turkish War (1911-1912)]]. Childs (American view) is the main source: Giolitti wrote that San Giuliano wanted to act before the Moroccan question was settled. He used the businessman Volpi, who had close Ottoman trade ties, to open secret contacts in [[İstanbul]] in June 1912. He did not shrink from concessions that might be unpopular at home. He directed the Ouchy talks. In his 1922 memoirs he insisted Italy's position never changed between July and October 1912. After 1918 he told Lloyd George that Mustafa Kemal was 'almost' finished (Akşin).
@@ -67,6 +68,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 2 ps): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 229|229]] · [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 446|446]]
 - **[[Enver (Murat Bardakçı)|Bardakçı, *Enver*]]** (Turkish, 1 p): [[Enver (Murat Bardakçı)#p. 536|536]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -75,11 +77,8 @@ Every page where this subject is named. Each number links to that page in the co
 ![[Giolitti2.jpg|480]]
 *Giolitti2*
 
-![[2671MondoviCasaGiolitti.jpg|480]]
-*Giolitti's house in Mondovì*
-
-![[Banca Romana Asino.jpg|480]]
-*Cartoon in the satirical magazine L'Asino (The Donkey) in June 1893, with Giolitti and Tanlongo. "Savings and loans: the coup succeeded."*
+![[Giovanni Giolitti 1905.jpg|480]]
+*Giovanni Giolitti 1905*
 
 ## Related
 

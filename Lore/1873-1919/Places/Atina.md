@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Athens Acropolis at Daybreak* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Atina (Athens) became the Greek capital. After Yanya fell, the Morea and Athens were already in rebel hands (Akşin). Relations with Athens included a trade treaty that Athens was slow to ratify; in 1840 the Porte sent Kostaki Musurus there (Ortaylı). King Edward of Britain visited Athens (Akyıldız). In 1941 the Germans took Athens on 27 April (Reisman).
@@ -260,6 +261,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'de Hükümetler (İhsan Güneş)|Güneş, *Türkiye'de Hükümetler*]]** (Turkish, 1 p): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 124|124]]
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 231|231]]
 - **[[Çariçe Katerina (Robert K. Massie)|Massie, *Çariçe Katerina*]]** (American, 1 p): [[Çariçe Katerina (Robert K. Massie)#p. 3|3]]
+
 
 ## Images
 

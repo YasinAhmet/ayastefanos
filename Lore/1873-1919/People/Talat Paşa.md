@@ -12,9 +12,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1874–1921 · Found in **35** sources on **812** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[17-member Unionists parliamentary delegation to Westminster in 1909.jpg|320]]
-*Talaat Bey, British Foreign Minister Lord Grey, London Ambassador Ahmet Tevfik Pasha, Aga Khan, 1909* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[CUP leaders with Naum Tyufekchiev, 1915.jpg|320]]
+*CUP leaders with Naum Tyufekchiev, 1915* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -274,16 +275,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)|Aralov, *Bir Sovyet Diplomatının Türkiye Anıları*]]** (Russian, 1 loc): [[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)#loc. 47|47]]
 - **[[Kim Hain, Kim Kahraman (Video transcript)|Video, *Kim Hain, Kim Kahraman*]]** (Turkish, 1 loc): [[Kim Hain, Kim Kahraman (Video transcript)#loc. 10|10]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Talaat_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Talat_Pa%C5%9Fa)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[17-member Unionists parliamentary delegation to Westminster in 1909.jpg|480]]
-*Talaat Bey, British Foreign Minister Lord Grey, London Ambassador Ahmet Tevfik Pasha, Aga Khan, 1909*
-
 ![[CUP leaders with Naum Tyufekchiev, 1915.jpg|480]]
-*Talaat with CUP leaders Halil Bey and Enver Pasha and Naum Tyufekchiev, 1915*
+*CUP leaders with Naum Tyufekchiev, 1915*
+
+![[17-member Unionists parliamentary delegation to Westminster in 1909.jpg|480]]
+*17-member Unionists parliamentary delegation to Westminster in 1909*
 
 ## Related
 

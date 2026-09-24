@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **26** sources on **145** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Freedom Square, Tbilisi, Georgia.jpg|320]]
-*Freedom Square, Tbilisi, Georgia* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[2014 Tbilisi, Widoki z Twierdzy Narikala (36).jpg|320]]
+*2014 Tbilisi, Widoki z Twierdzy Narikala (36)* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -189,16 +190,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 62|62]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 562|562]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Tbilisi) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Tiflis)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Freedom Square, Tbilisi, Georgia.jpg|480]]
-*Freedom Square, Tbilisi, Georgia*
-
 ![[2014 Tbilisi, Widoki z Twierdzy Narikala (36).jpg|480]]
 *2014 Tbilisi, Widoki z Twierdzy Narikala (36)*
+
+![[Freedom Square, Tbilisi, Georgia.jpg|480]]
+*Freedom Square, Tbilisi, Georgia*
 
 ## Related
 

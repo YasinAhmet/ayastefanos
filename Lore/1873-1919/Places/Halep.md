@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Aleppo old city image* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Halep (Aleppo) was a major Syrian city and trading centre. Its 18th-century textile and cotton industry served the internal market (Mantran). In autumn 1853 tensions between Christians and Muslims led to incidents (Ortaylı). In 1895 the Zeitun rebels told the British consul in Aleppo they were low on ammunition (Gürün). In the World War it was a railway and supply hub for the Baghdad and Palestine fronts ([[Cemal Paşa]]; Durgun). In 1919 Governor Ali Galip fled there before going to [[İstanbul]] (Goloğlu).
@@ -274,6 +275,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Değişen İstanbul (Zeynep Çelik)|Çelik, *Değişen İstanbul*]]** (Turkish, 1 p): [[Değişen İstanbul (Zeynep Çelik)#p. 234|234]]
 - **[[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)|Childs, *Trablusgarp Savaşı ve Türk-İtalyan İlişkileri*]]** (American, 1 p): [[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)#p. 150|150]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 16|16]]
+
 
 ## Images
 

@@ -13,9 +13,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1875–1957 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **20** sources on **211** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[1923 11 17 Resimli Gazete Huseyin Cahid.jpg|320]]
-*17 Kasım 1923 tarihli Resimli Gazete'nin 11. sayısında Hüseyin Cahit Bey'e dair bir çizim.* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Huseyin cahid.jpg|320]]
+*Huseyin cahid* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -169,22 +170,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)|Childs, *Trablusgarp Savaşı ve Türk-İtalyan İlişkileri*]]** (American, 2 ps): [[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)#p. 187|187]] · [[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)#p. 329|329]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 277|277]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/H%C3%BCseyin_Cahit_Yal%C3%A7%C4%B1n) · [TR Wikipedia](https://tr.wikipedia.org/wiki/H%C3%BCseyin_Cahit_Yal%C3%A7%C4%B1n)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[1923 11 17 Resimli Gazete Huseyin Cahid.jpg|480]]
-*17 Kasım 1923 tarihli Resimli Gazete'nin 11. sayısında Hüseyin Cahit Bey'e dair bir çizim.*
-
 ![[Huseyin cahid.jpg|480]]
-*Hüseyin Cahit Bey*
+*Huseyin cahid*
 
 ![[Huseyincihatbey.jpg|480]]
 *Hüseyin Cahit Bey*
-
-![[Family graveyard of Hüseyin Cahit Yalçın.jpg|480]]
-*Hüseyin Cahit Yalçın'ın Feriköy Mezarlığı'nda bulunan kabri, İstanbul*
 
 ## Related
 

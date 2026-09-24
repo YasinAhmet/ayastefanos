@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The Armistice of Mudros was signed on 30 October 1918; the Ottoman state accepted defeat, and Enver and the other CUP leaders fled (Goloğlu). Navy Minister Rauf dealt with Admiral Calthorpe (see [[Rauf Orbay]]; [[Arthur Calthorpe]]). The Allies then occupied more and more territory, which the nationalists said broke the armistice (Goloğlu). The [[Misak-ı Milli (1920)]] claimed the unoccupied Turkish lands as they stood at the armistice (Mantran). İnan says Anatolia was to be broken up under Mudros and Sèvres. Post-war governments (Ahmet İzzet, Tevfik, Ali Rıza) presented programmes to parliament (Güneş).
@@ -204,6 +205,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı Piyadesi 1914-1918 (David Nicolle)|Nicolle, *Osmanlı Piyadesi 1914-1918*]]** (British, 1 p): [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 12|12]]
 - **[[The Armenian File (Kâmuran Gürün)|Gürün, *The Armenian File*]]** (Turkish, 1 p): [[The Armenian File (Kâmuran Gürün)#p. 313|313]]
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 294|294]]
+
 
 
 

@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The Russian Revolutions of 1917 changed the war in the east. Even the 1905 revolution had influenced the Ottoman border provinces (Akşin). The 1917 revolution threw the Turkic khanates into confusion (Bardakçı) and brought a new wave of refugees to Turkey (Reisman). Black Sea shipping became free again (Yalman). The Russian Church split between exiles in [[Paris]] and New York and the Moscow patriarchate (Ortaylı). [[Kılıç Ali]] visited Moscow for its fifteenth anniversary.
@@ -168,6 +169,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kırım Savaşı ve Osmanlılar (Candan Badem)|Badem, *Kırım Savaşı ve Osmanlılar*]]** (Turkish, 1 p): [[Kırım Savaşı ve Osmanlılar (Candan Badem)#p. 44|44]]
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 13|13]]
 - **[[Çariçe Katerina (Robert K. Massie)|Massie, *Çariçe Katerina*]]** (American, 1 p): [[Çariçe Katerina (Robert K. Massie)#p. 480|480]]
+
 
 
 

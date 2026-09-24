@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **55** sources on **634** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[KaraağaçRailwayStation (cropped).jpg|320]]
-*KaraağaçRailwayStation (cropped)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Edirne view Üç Şerefeli Mosque.jpg|320]]
+*Edirne view Üç Şerefeli Mosque* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -308,16 +309,17 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 15|15]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 24|24]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Edirne) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Edirne)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[KaraağaçRailwayStation (cropped).jpg|480]]
-*KaraağaçRailwayStation (cropped)*
-
 ![[Edirne view Üç Şerefeli Mosque.jpg|480]]
 *Edirne view Üç Şerefeli Mosque*
+
+![[KaraağaçRailwayStation (cropped).jpg|480]]
+*KaraağaçRailwayStation (cropped)*
 
 ![[Edirne city emblem.png|480]]
 *Edirne city emblem*

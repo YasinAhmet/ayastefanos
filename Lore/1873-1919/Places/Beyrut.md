@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Beyrouth vue aérienne* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Beyrut (Beirut) was the port of Syria and Lebanon. In September 1840 the allies bombarded it and landed troops (Mantran). American missionary institutions there imported goods without customs (Ortaylı). In 1912 the US consul noted Britain still led its imports despite famine (Ortaylı). The French paper *Le Réveil* ran an Arab separatist campaign there (Akşin). In 1913 the French consul reported to [[Paris]] ([[Cemal Paşa]]).
@@ -266,6 +267,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı Piyadesi 1914-1918 (David Nicolle)|Nicolle, *Osmanlı Piyadesi 1914-1918*]]** (British, 1 p): [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 12|12]]
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 90|90]]
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 419|419]]
+
 
 ## Images
 

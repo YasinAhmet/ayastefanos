@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Erzurum Citadel - Erzurum Kalesi 01* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Erzurum was the chief city of eastern Anatolia. In the Crimean War General Muravyov held the roads between Erzurum and [[Kars]] (Badem). In September 1914 its governor warned of Russian moves (Gürün). Under Russian occupation in 1918, Talat's memoir says, it was only thanks to certain officers that any Turk survived when the city was retaken. In 1919 it hosted the [[Erzurum Congress (1919)]], opened on 23 July (Akşin); Kansu calls it a basic stage in deciding the nation's future. Mustafa Kemal led the Erzurum branch of the Eastern Provinces Defence of Rights Society (Goloğlu).
@@ -293,6 +294,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Avrupa ve Biz (İlber Ortaylı)|Ortaylı, *Avrupa ve Biz*]]** (Turkish, 1 p): [[Avrupa ve Biz (İlber Ortaylı)#p. 82|82]]
 - **[[Mahşerin İki Gemisi - Part I (Video transcript)|Video, *Mahşerin İki Gemisi - Part I*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part I (Video transcript)#loc. 20|20]]
 - **[[Mahşerin İki Gemisi - Part II (Video transcript)|Video, *Mahşerin İki Gemisi - Part II*]]** (Turkish, 1 loc): [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 6|6]]
+
 
 ## Images
 

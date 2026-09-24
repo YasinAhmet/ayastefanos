@@ -17,6 +17,7 @@ tags: [person, "1873-1919"]
 *Bahaeddinsakir* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Doctor Bahaeddin Şakir was a member of the Unionist Central Committee and head of the [[Teşkilat-ı Mahsusa]] (Akşin). In December 1914, on the Caucasus front, he received orders from Hafız Hakkı: his bands were to cut the Sarıkamış–[[Kars]] railway telegraphs and the Oltu lines ([[Sarıkamış Operation (1914-1915)]]). [[Cemal Paşa]] records him beside Talat in pre-war talks with [[Prens Sabahaddin]] and the Armenian committees.
@@ -111,6 +112,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kısa Türkiye Tarihi (Sina Akşin)|Akşin, *Kısa Türkiye Tarihi*]]** (Turkish, 1 loc): [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 89|89]]
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 1 loc): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 15|15]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -120,19 +122,10 @@ Every page where this subject is named. Each number links to that page in the co
 *Bahaeddinsakir*
 
 ![[1909 10 01 ServetiFunun Bahaeddin Sakir.jpg|480]]
-*Portrait from the October 1909 issue of Servet-i Fünun*
+*1909 10 01 ServetiFunun Bahaeddin Sakir*
 
-![[Bahaeddin Şakir telegram 4 July 1915.png|480]]
-*Encrypted telegram from Şakir dated 4 July 1915 found by Taner Akçam. He asks "Were the Armenians deported from there eliminated? Were those harmful elements removed through deportation liquidated or simply deported? Ple*
-
-![[Berlin - Şehitlik Moschee - 6.jpg|480]]
-*Graves honoring Armenian Genocide perpetrators Şakir and Cemal Azmi in the cemetery of Şehitlik Mosque in Berlin (foreground left).21*
-
-![[Bahaeddin Sakir.jpg|480]]
-*Bahaeddin Şakir Bey'in Resimli Kitab dergisinde yayınlanan bir yazısı. Altta "Refikimiz Şurayı Ümmet gazetesi sahib-i imtiyazı, vatanperver muhterem Doktor Bahaeddin Şakir Bey" yazılı.*
-
-![[1934 04 03 Milliyet Baha Sakir.jpg|480]]
-*3 Nisan 1934 tarihli Milliyet gazetesinde Bahâeddin Şâkir*
+![[Bahaeddin Shakir.png|480]]
+*Bahaeddin Shakir*
 
 ## Related
 

@@ -17,6 +17,7 @@ tags: [person, "1873-1919"]
 *Enver Bey in 1911* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 İsmail Enver was the officer-hero of the 1908 revolution and war minister in the [[First World War]]. More than any other figure, he is the man the sources blame and admire for the empire's last war.
@@ -316,6 +317,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türk Halkbilimi (Sedat Veyis Örnek)|Örnek, *Türk Halkbilimi*]]** (Turkish, 1 p): [[Türk Halkbilimi (Sedat Veyis Örnek)#p. 157|157]]
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 32|32]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -326,15 +328,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[ENPER PASHA WARMINISTER.jpg|480]]
 *ENPER PASHA WARMINISTER*
-
-![[Enver Bey, Hacı Ahmet Pasha, Nuri Bey 1909.jpg|480]]
-*Enver (left) with his father, Ahmed Bey (center), and half-brother Nuri Pasha (later Nuri Killigil; right)*
-
-![[1908-mesrutiyet.jpg|480]]
-*Enver Pasha (then Enver Bey) depicted on a Young Turks flyer with the slogan Long live the fatherland, long live the nation, long live liberty written in Ottoman Turkish and French*
-
-![[Greek lithograph celebrating the Ottoman Constitution.png|480]]
-*Greek lithograph celebrating the 1908 revolution. Enver is depicted in the lower right hand corner with a large hammer freeing Lady Liberty from her chains.41*
 
 ## Related
 

@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **35** sources on **353** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Europe-Serbia (2006–2008).png|320]]
-*Europe-Serbia (2006–2008)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Felix Romuliana 1.jpg|320]]
+*Ruins of the Felix Romuliana, imperial palace of the Emperor Galerius, 298 AD* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -243,13 +244,11 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kılıç Ali'nin Anıları (Kılıç Ali)|Kılıç Ali, *Kılıç Ali'nin Anıları*]]** (Turkish, 1 p): [[Kılıç Ali'nin Anıları (Kılıç Ali)#p. 21|21]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 119|119]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Serbia) · [TR Wikipedia](https://tr.wikipedia.org/wiki/S%C4%B1rbistan)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
-
-![[Europe-Serbia (2006–2008).png|480]]
-*Europe-Serbia (2006–2008)*
 
 ![[Felix Romuliana 1.jpg|480]]
 *Ruins of the Felix Romuliana, imperial palace of the Emperor Galerius, 298 AD*

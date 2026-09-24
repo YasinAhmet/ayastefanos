@@ -12,8 +12,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[Ioannina liberation 1913.jpg|320]]
-*Yanya'nın Yunanlara teslimi, Yunanistan Krallığı veliahdı Konstantin'e kılıcı teslim eden Esad Paşa (21 Şubat 1913)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*Ioannina liberation 1913* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -107,16 +108,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 2 locs): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 58|58]] · [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 217|217]]
 - **[[Balkan Harbi'nde Ulaştırma (Bülent Durgun)|Durgun, *Balkan Harbi'nde Ulaştırma*]]** (Turkish, 1 p): [[Balkan Harbi'nde Ulaştırma (Bülent Durgun)#p. 183|183]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Mehmet_Esat_B%C3%BClkat) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Mehmet_Esat_B%C3%BClkat)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[Ioannina liberation 1913.jpg|480]]
-*Yanya'nın Yunanlara teslimi, Yunanistan Krallığı veliahdı Konstantin'e kılıcı teslim eden Esad Paşa (21 Şubat 1913)*
-
-![[Bundesarchiv Bild 146-2005-0083, Kaiser Wilhelm II. auf Gallipoli.jpg|480]]
-*Esad Paşa (arkada) ve II. Wilhelm (Çanakkale, Ekim 1917)*
+*Ioannina liberation 1913*
 
 ## Related
 

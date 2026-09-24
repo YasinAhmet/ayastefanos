@@ -15,6 +15,7 @@ tags: [person, "1873-1919"]
 *Henry Morgenthau crop* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Henry Morgenthau was the US ambassador in [[İstanbul]] in the [[First World War]]. Colonel House suggested him to [[Woodrow Wilson]] (Gürün). His rank was raised to ambassador, a sign of America's rise (Ortaylı). On 16 September 1914 he conveyed the US objection to the abolition of the capitulations (Akşin). Talat told him that fear of Russia forced them to work with Germany (video transcripts). His book *Ambassador Morgenthau's Story* is disputed. Reisman (American view) stresses his lasting work on the Armenian catastrophe, while Talat's memoirs and [[Cemal Paşa]] reject his account. Ortaylı notes the Ottoman government did not block his and Wangenheim's support for Zionist immigration.
@@ -120,6 +121,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 46|46]]
 - **[[Türkiye'de Beş Yıl (Liman von Sanders)|Sanders, *Türkiye'de Beş Yıl*]]** (German, 1 p): [[Türkiye'de Beş Yıl (Liman von Sanders)#p. 480|480]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
@@ -127,18 +129,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Henry Morgenthau crop.jpg|480]]
 *Henry Morgenthau crop*
-
-![[Henry Morgenthau, lawyer Trim Edit.jpg|480]]
-*Morgenthau c. 1899*
-
-![[H. Morgenthau, Prof. Sam'l Dutton, Cleveland H. Dodge LCCN2014701044 trim.jpg|480]]
-*Morgenthau (left), Samuel Train Dutton (center) and Cleveland Hoadley Dodge c. 1915–1920*
-
-![[AmbassadorMorgenthautelegram.jpg|480]]
-*A telegram written by Morgenthau to the State Department in 1915 described the massacres of Armenians in the Ottoman Empire as a "campaign of race extermination."Audio recording of Chapter 24, "The Murder of a Nation", f*
-
-![[Aid to refugees mapped at White House. Washington, D.C., April 13. Henry Morgenthau, left; and Rabbi Stephen S. Wise, sh.jpg|480]]
-*Morgenthau (left) and Rabbi Stephen Samuel Wise leave the White House after a meeting with President Franklin D. Roosevelt on the resettlement of refugees from Nazi Germany, April 13, 1938*
 
 ## Related
 

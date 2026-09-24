@@ -13,9 +13,10 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** Dec 1915 – April 1916 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **6** sources on **15** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Iraq physical map.png|320]]
-*Iraq physical map* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Kiazim Karabekir Bey at Kut in 1916.jpg|320]]
+*Kiazim Karabekir Bey at Kut in 1916* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 
 
@@ -89,13 +90,14 @@ Every page where this subject is named. Each number links to that page in the co
 
 
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Siege_of_Kut) · [TR Wikipedia](https://tr.wikipedia.org/wiki/K%C3%BBt%27%C3%BCl-Am%C3%A2re_Ku%C5%9Fatmas%C4%B1)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Iraq physical map.png|480]]
-*Iraq physical map*
+![[Kiazim Karabekir Bey at Kut in 1916.jpg|480]]
+*Kiazim Karabekir Bey at Kut in 1916*
 
 ![[Kut1915.jpg|480]]
 *Situation at Kut on 28 September 1915*

@@ -16,6 +16,7 @@ tags: [faction, "1873-1919"]
 *7, rue Meyerbeer, the bank's Paris office from 1870 to 1975* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 The Ottoman Bank was founded in 1856 in London by British bankers and kept its head office there (video transcripts). It acted almost as the state bank (Yalman). The Dashnaks seized its [[İstanbul]] headquarters in August 1896 (Mantran). Its note-issuing privilege ended officially in 1926 (Toprak). In 1920 [[Ankara]] told its branches to cut ties with İstanbul (Akşin). Georgeon notes the state's concern to pay salaries before Ramazan.
@@ -195,6 +196,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Sivas Kongresi (Mahmut Goloğlu)|Goloğlu, *Sivas Kongresi*]]** (Turkish, 1 loc): [[Sivas Kongresi (Mahmut Goloğlu)#loc. 48|48]]
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 128|128]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 429|429]]
+
 
 ## Images
 

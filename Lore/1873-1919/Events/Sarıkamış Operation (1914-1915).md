@@ -18,6 +18,7 @@ tags: [event, "1873-1919"]
 
 
 
+
 ## Summary
 
 The [[Sarıkamış]] operation was [[Enver Paşa]]'s winter offensive in the Caucasus. Begun on 18 December 1914 and expected to bring brilliant results, it ended in a terrible fiasco on 10 January 1915 (Akşin). [[Cemal Paşa]] says it destroyed the whole Caucasus army, which never regained the same strength. See [[Hafız Hakkı Paşa]] for one of its planners. At the same time there were defeats in Egypt and Iraq (Bardakçı). The public learned the details only seven years later, in 1922 (Hakkı Paşa). In 1918 the Ottomans retook [[Erzurum]] (12 March), Sarıkamış (5 April) and [[Kars]] (25 April) (Gürün).
@@ -180,6 +181,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Balkan Harbi'nde Ulaştırma (Bülent Durgun)|Durgun, *Balkan Harbi'nde Ulaştırma*]]** (Turkish, 1 p): [[Balkan Harbi'nde Ulaştırma (Bülent Durgun)#p. 200|200]]
 - **[[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)|Yalman, *Birinci Dünya Savaşı'nda Türkiye*]]** (Turkish, 1 p): [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 382|382]]
 - **[[Son Meşrutiyet (Sina Akşin)|Akşin, *Son Meşrutiyet*]]** (Turkish, 1 loc): [[Son Meşrutiyet (Sina Akşin)#loc. 150|150]]
+
 
 
 

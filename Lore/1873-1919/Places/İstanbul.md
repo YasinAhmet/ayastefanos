@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Historical peninsula and modern skyline of Istanbul* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 İstanbul, the Ottoman capital, is the most-cited place in the vault (66 books, over 7,000 pages). This note gathers key moments; the 'All mentions' list points to the full material. In 1909 the first 'national' enterprise societies were founded here (Toprak). In 1915 [[Mark Sykes]] discussed Prince Sabahaddin's coup-and-peace plan in the city (Akşin). After 1918 it was occupied (see [[Occupation of İstanbul (1918-1923)]]): the British arrested the city's commandant, Ali Sait Paşa, and Fevzi Paşa protested (Akşin). A 'nightmare' pamphlet of the time imagined a Russian occupation of İstanbul like a novel (video transcripts). The 'Istanbul Government' and the [[Ankara]] government became rivals, and Ankara drafted plans for a Sultan in İstanbul and an Assembly in Ankara (Goloğlu). Reisman (American view) sees the city as evidence that 'Turkifying İstanbul' by pressure on minorities failed.
@@ -351,6 +352,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Çanakkale'yi Almanlar mı Kazandı (Video transcript)|Video, *Çanakkale'yi Almanlar mı Kazandı*]]** (Turkish, 6 locs): [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 2|2]] · [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 4|4]] · [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 6|6]] · [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 8|8]] · [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 15|15]] · [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 17|17]]
 - **[[Kim Hain, Kim Kahraman (Video transcript)|Video, *Kim Hain, Kim Kahraman*]]** (Turkish, 5 locs): [[Kim Hain, Kim Kahraman (Video transcript)#loc. 5|5]] · [[Kim Hain, Kim Kahraman (Video transcript)#loc. 6|6]] · [[Kim Hain, Kim Kahraman (Video transcript)#loc. 8|8]] · [[Kim Hain, Kim Kahraman (Video transcript)#loc. 9|9]] · [[Kim Hain, Kim Kahraman (Video transcript)#loc. 10|10]]
 - **[[Neden Biz (Video transcript)|Video, *Neden Biz*]]** (Turkish, 4 locs): [[Neden Biz (Video transcript)#loc. 3|3]] · [[Neden Biz (Video transcript)#loc. 7|7]] · [[Neden Biz (Video transcript)#loc. 11|11]] · [[Neden Biz (Video transcript)#loc. 12|12]]
+
 
 ## Images
 

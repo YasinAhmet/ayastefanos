@@ -11,9 +11,10 @@ tags: [place, "1873-1919"]
 > **Place** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **52** sources on **697** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[EU-Bulgaria.png|320]]
-*EU-Bulgaria* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Bulgaria-SanStefano -(1878)-byTodorBozhinov.png|320]]
+*Bulgaria-SanStefano -(1878)-byTodorBozhinov* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -303,13 +304,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türk Halkbilimi (Sedat Veyis Örnek)|Örnek, *Türk Halkbilimi*]]** (Turkish, 1 p): [[Türk Halkbilimi (Sedat Veyis Örnek)#p. 35|35]]
 - **[[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)|Argun, *İstiklal Harbi ve Anadolu*]]** (Turkish, 1 p): [[İstiklal Harbi ve Anadolu (Mehmet Turgut Argun)#p. 210|210]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Bulgaria) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Bulgaristan)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[EU-Bulgaria.png|480]]
-*EU-Bulgaria*
+![[Bulgaria-SanStefano -(1878)-byTodorBozhinov.png|480]]
+*Bulgaria-SanStefano -(1878)-byTodorBozhinov*
 
 ![[Car Simeon Bulharsky - Alfons Mucha.jpg|480]]
 *Emperor Simeon I: The Morning Star of Slavonic Literature, The Slav Epic cycle by Alfons Mucha*

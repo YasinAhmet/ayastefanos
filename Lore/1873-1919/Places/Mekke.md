@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *Great Mosque of Mecca1* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Mekke (Mecca) was Islam's holiest city, ruled by the Şerif under Ottoman sovereignty. In November 1908 Abdülhamid signed the firman giving the emirate to [[Şerif Hüseyin]] (Allawi). When the Porte made the Emir stop the slave trade, there was resentment (Akşin). The [[Hicaz]] railway ran from Damascus to Medina, the last station toward Mecca (Murphy). In 1916 it was the centre of the [[Arab Revolt (1916-1918)]]. In 1922 'King Hussein' wrote from Mecca to the exiled Vahdettin in [[Malta]] (Bardakçı). Tonguç recalls how people competed to host a 'guide' who came from Mecca each year.
@@ -228,6 +229,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Naciyem, Ruhum, Efendim (Murat Bardakçı)|Bardakçı, *Naciyem, Ruhum, Efendim*]]** (Turkish, 1 p): [[Naciyem, Ruhum, Efendim (Murat Bardakçı)#p. 209|209]]
 - **[[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)|Ortaylı, *Osmanlı'da Milletler ve Diplomasi*]]** (Turkish, 1 loc): [[Osmanlı'da Milletler ve Diplomasi (İlber Ortaylı)#loc. 75|75]]
 - **[[Türkiye'de Milli İktisat (Zafer Toprak)|Toprak, *Türkiye'de Milli İktisat*]]** (Turkish, 1 p): [[Türkiye'de Milli İktisat (Zafer Toprak)#p. 686|686]]
+
 
 ## Images
 

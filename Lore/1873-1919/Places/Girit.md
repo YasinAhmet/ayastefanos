@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *NASA photograph of Crete* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Girit (Crete) was taken from Venice in the 1645–1669 war (Mantran). Under the [[Berlin]] Treaty the Porte promised reforms there (Trotsky's editor). It revolted repeatedly (Cox), and Hobart and Ali Paşa were sent there. On 18 December 1897 it was given autonomy, and it remained the empire's greatest problem until it joined Greece in 1908 (Bardakçı). In 1910 meetings in Aydın and Nazilli protested at wrongs done to Muslims in Crete (Akşin).
@@ -229,6 +230,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[İstanbul'da Ramazan (François Georgeon)|Georgeon, *İstanbul'da Ramazan*]]** (French, 1 p): [[İstanbul'da Ramazan (François Georgeon)#p. 151|151]]
 - **[[İç Savaş ve Sevr'de Ölüm (Sina Akşin)|Akşin, *İç Savaş ve Sevr'de Ölüm*]]** (Turkish, 1 p): [[İç Savaş ve Sevr'de Ölüm (Sina Akşin)#p. 160|160]]
 - **[[Şahbaba (Murat Bardakçı)|Bardakçı, *Şahbaba*]]** (Turkish, 1 p): [[Şahbaba (Murat Bardakçı)#p. 98|98]]
+
 
 ## Images
 

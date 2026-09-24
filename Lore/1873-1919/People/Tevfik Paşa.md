@@ -13,9 +13,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 1845–1936 ⚠ Not from vault sources (from my general knowledge; not found in the quoted pages) · Found in **29** sources on **236** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[1918 10 Ati Sedad Nuri Karikatur.jpg|320]]
-*Cartoon titled "Rest" İstirhat by Sedat Nuri. Talât Pasha says "God bless you, Tevfik Pasha!", depicted as a black servant girl* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Ahmed Tevfik Pasha.jpg|320]]
+*Ahmed Tevfik Pasha* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -217,22 +218,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Kırım Savaşı ve Osmanlılar (Candan Badem)|Badem, *Kırım Savaşı ve Osmanlılar*]]** (Turkish, 1 p): [[Kırım Savaşı ve Osmanlılar (Candan Badem)#p. 359|359]]
 - **[[Son Osmanlılar (Murat Bardakçı)|Bardakçı, *Son Osmanlılar*]]** (Turkish, 1 p): [[Son Osmanlılar (Murat Bardakçı)#p. 37|37]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Ahmet_Tevfik_Pasha) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Ahmet_Tevfik_Okday)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[1918 10 Ati Sedad Nuri Karikatur.jpg|480]]
-*Cartoon titled "Rest" İstirhat by Sedat Nuri. Talât Pasha says "God bless you, Tevfik Pasha!", depicted as a black servant girl*
-
-![[(Ahmed) Tevfik Pasha, remise du traité (de paix) aux délégués turcs, 11-5-20 (quai d'Orsay, ministère des Affaires étran.jpg|480]]
-*11 May 1920, presentation of peace terms to the Turkish delegation*
-
-![[Gravestone of Ahmed Tevfik Pasha.jpg|480]]
-*Gravestone of Ahmet Tevfik Pasha, Edirnekapı Martyr's Cemetery, Istanbul*
-
 ![[Ahmed Tevfik Pasha.jpg|480]]
-*Tevfik Pasha and his daughters*
+*Ahmed Tevfik Pasha*
 
 ## Related
 

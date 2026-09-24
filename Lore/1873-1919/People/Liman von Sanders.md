@@ -11,9 +11,10 @@ tags: [person, "1873-1919"]
 > **Person** · Period: [[_Ledger 1873-1919|1873-1919]] · Found in **19** sources on **119** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Bundesarchiv Bild 183-H29994, Liman von Sanders mit türkischen Offizieren.jpg|320]]
-*Ottoman general staff of the Sinai and Palestine Campaign, 1914 (Sanders sitting middle)* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[Bundesarchiv Bild 183-R02991, Otto Liman von Sanders.jpg|320]]
+*Bundesarchiv Bild 183-R02991, Otto Liman von Sanders* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -176,22 +177,20 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)|Aralov, *Bir Sovyet Diplomatının Türkiye Anıları*]]** (Russian, 1 loc): [[Bir Sovyet Diplomatının Türkiye Anıları (S. İ. Aralov)#loc. 134|134]]
 - **[[Bu Defa Niçin Harp Edeceğimi Biliyorum (İbrahim Sorguç)|Sorguç, *Bu Defa Niçin Harp Edeceğimi Biliyorum*]]** (Turkish, 1 p): [[Bu Defa Niçin Harp Edeceğimi Biliyorum (İbrahim Sorguç)#p. 14|14]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Otto_Liman_von_Sanders) · [TR Wikipedia](https://tr.wikipedia.org/wiki/Otto_Liman_von_Sanders)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
-![[Bundesarchiv Bild 183-H29994, Liman von Sanders mit türkischen Offizieren.jpg|480]]
-*Ottoman general staff of the Sinai and Palestine Campaign, 1914 (Sanders sitting middle)*
-
-![[Bundesarchiv Bild 183-S60853, Buddecke, Liman von Sanders und Boelcke.jpg|480]]
-*Hans-Joachim Buddecke, Otto Liman von Sanders, and Oswald Boelcke in Ottoman Turkey, 1916*
+![[Bundesarchiv Bild 183-R02991, Otto Liman von Sanders.jpg|480]]
+*Bundesarchiv Bild 183-R02991, Otto Liman von Sanders*
 
 ![[Bundesarchiv Bild 183-2007-0917-501, Otto Liman von Sanders.jpg|480]]
 *Bundesarchiv Bild 183-2007-0917-501, Otto Liman von Sanders*
 
-![[Bundesarchiv Bild 183-R02991, Otto Liman von Sanders.jpg|480]]
-*Bundesarchiv Bild 183-R02991, Otto Liman von Sanders*
+![[Bundesarchiv Bild 183-H29994, Liman von Sanders mit türkischen Offizieren.jpg|480]]
+*Bundesarchiv Bild 183-H29994, Liman von Sanders mit türkischen Offizieren*
 
 ## Related
 

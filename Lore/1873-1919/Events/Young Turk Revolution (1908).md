@@ -12,9 +12,10 @@ tags: [event, "1873-1919"]
 > **Event** · Period: [[_Ledger 1873-1919|1873-1919]] · **Dates:** 23 July 1908 · Found in **35** sources on **382** pages · [[Home]] · [[Timeline]]
 
 <!-- images:start -->
-![[Declaration of the 1908 Revolution in Ottoman Empire.png|320]]
-*Declaration of the 1908 Revolution in Ottoman Empire* — ⚠ Not from vault sources (image: Wikimedia Commons)
+![[1908-mesrutiyet.jpg|320]]
+*Postcard for the new constitution in Ottoman Turkish and French* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -219,10 +220,14 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)|Childs, *Trablusgarp Savaşı ve Türk-İtalyan İlişkileri*]]** (American, 1 p): [[Trablusgarp Savaşı ve Türk-İtalyan İlişkileri (Timothy W. Childs)#p. 44|44]]
 - **[[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)|Erdinç, *İttihad ve Terakki Yargılamaları I*]]** (Turkish, 1 p): [[İttihad ve Terakki Yargılamaları I (Erol Şadi Erdinç)#p. 12|12]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Young_Turk_Revolution) · [TR Wikipedia](https://tr.wikipedia.org/wiki/J%C3%B6n_T%C3%BCrk_Devrimi)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
+
+![[1908-mesrutiyet.jpg|480]]
+*Postcard for the new constitution in Ottoman Turkish and French*
 
 ![[Declaration of the 1908 Revolution in Ottoman Empire.png|480]]
 *Declaration of the 1908 Revolution in Ottoman Empire*
@@ -232,9 +237,6 @@ Every page where this subject is named. Each number links to that page in the co
 
 ![[Enver bey and Niyazi bey postcard 1908.jpg|480]]
 *Enver Bey and Niyazi Bey from a postcard in 1908.*
-
-![[1908-mesrutiyet.jpg|480]]
-*Postcard for the new constitution in Ottoman Turkish and French*
 
 ## Related
 

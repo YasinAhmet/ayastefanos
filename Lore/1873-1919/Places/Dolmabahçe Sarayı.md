@@ -15,6 +15,7 @@ tags: [place, "1873-1919"]
 *A view of Dolmabahçe Palace from the BosporusInteractive map of the Dolmabahçe Palace area* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
 
+
 ## Summary
 
 Dolmabahçe Palace on the Bosphorus grew from a 17th-century garden (Çelik). The Sultan held Bayram receptions there (Cox, American view). After 1924 the dynasty left via the Feriye palaces nearby (Bardakçı). In the Republic Atatürk worked there on the new alphabet before the Assembly adopted it on 1 November (Akşin), and received hafızes there for the Turkish call to prayer (Georgeon). İnan describes his sea-facing room.
@@ -176,6 +177,7 @@ Every page where this subject is named. Each number links to that page in the co
 - **[[Türkiye'nin Modernleşmesi (Arnold Reisman)|Reisman, *Türkiye'nin Modernleşmesi*]]** (American, 1 loc): [[Türkiye'nin Modernleşmesi (Arnold Reisman)#loc. 139|139]]
 - **[[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)|Kemal, *Zabit ve Kumandan ile Hasbihal*]]** (Turkish, 1 p): [[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)#p. 75|75]]
 - **[[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)|Grosser-Rilke, *İstanbul'da Hoş Bir Sada*]]** (German, 1 p): [[İstanbul'da Hoş Bir Sada (Anna Grosser-Rilke)#p. 151|151]]
+
 
 ## Images
 

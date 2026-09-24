@@ -6,6 +6,9 @@ Stages (each caches its result, so it can be re-run):
     py tools/wiki_images.py download   save images to Lore/Attachments/Images/
     py tools/wiki_images.py insert     add the images to the notes + write the credits page
 
+    py tools/wiki_images.py lead       put the hand-picked images of tools/wiki/lead.tsv first (see stage_lead)
+    py tools/wiki_images.py insert 1873-1919   insert into one period folder only (credits always cover the whole vault)
+
 Manual fixes to the article mapping go in tools/wiki/overrides.json:
     {"Note name": {"en": "English title" | null, "tr": "Türkçe başlık" | null}}
 Images and captions come from the web, so notes mark them "⚠ Not from vault sources".
@@ -34,7 +37,8 @@ MAX_IMAGES = 6  # per note, lead image included
 
 def api(lang, **params):
     params.update(format="json", formatversion="2")
-    url = f"https://{lang}.wikipedia.org/w/api.php?" + urllib.parse.urlencode(params)
+    host = "commons.wikimedia.org" if lang == "commons" else f"{lang}.wikipedia.org"
+    url = f"https://{host}/w/api.php?" + urllib.parse.urlencode(params)
     for attempt in range(8):
         try:
             time.sleep(0.8)
@@ -371,6 +375,93 @@ def prune_unused():
     print(removed, "unused image files removed")
 
 
+RASTER = (".jpg", ".jpeg", ".png", ".tif", ".tiff", ".webp")
+
+
+def _online():
+    try:
+        req = urllib.request.Request("https://commons.wikimedia.org/w/api.php?action=query&format=json",
+                                     headers={"User-Agent": UA})
+        urllib.request.urlopen(req, timeout=15).read()
+        return True
+    except Exception:  # noqa: BLE001
+        return False
+
+
+def _commons_file(f):
+    """The file's current Commons name (following renames), or None if it does not exist."""
+    r = api("commons", action="query", titles="File:" + f, redirects=1, prop="imageinfo")
+    for p in r.get("query", {}).get("pages", []):
+        if p.get("imageinfo") or not p.get("missing"):
+            return p["title"].split(":", 1)[1].replace(" ", "_")
+    return None
+
+
+def _commons_search(q):
+    r = api("commons", action="query", list="search", srsearch=q, srnamespace=6, srlimit=20)
+    for hit in r.get("query", {}).get("search", []):
+        f = hit["title"].split(":", 1)[1].replace(" ", "_")
+        if f.lower().endswith(RASTER) and not BAD_FILE.search(f):
+            return f
+    return None
+
+
+def stage_lead():
+    """Hand-picked images from tools/wiki/lead.tsv:  Note<TAB>File1 | File2 | search:terms | -Unwanted.jpg
+
+    Tokens are Commons file names, best first. The insert stage uses the first one that has been downloaded
+    as the lead image, so a well-chosen file that is not downloaded yet can sit in front of a weaker local one.
+    'search:terms' adds the first bitmap hit of a Commons file search; '-File' removes a file from the note.
+    Names already in files.json are known to exist; others (and searches) are checked online and cached in
+    tools/wiki/lead_cache.json. Offline, unchecked tokens are skipped and reported."""
+    imgs = load("images.json", {})
+    meta = {k.lower(): k for k in load("files.json", {})}
+    cache = load("lead_cache.json", {})
+    rows = [l.rstrip("\n").split("\t") for l in open(os.path.join(WIKI, "lead.tsv"), encoding="utf-8")
+            if "\t" in l and not l.startswith("#")]
+    online = _online()
+    print("Commons reachable:", online)
+    by_name = {n["name"] for n in notes()}
+    pending = []
+    for name, spec in rows:
+        if name not in by_name:
+            print("  ! no such note:", name)
+            continue
+        tokens = [t.strip() for t in spec.split("|") if t.strip()]
+        drop = {t[1:].strip().replace(" ", "_").lower() for t in tokens if t.startswith("-")}
+        picks = []
+        for t in tokens:
+            if t.startswith("-"):
+                continue
+            if t in cache:
+                f = cache[t]
+            elif not t.startswith("search:") and t.replace(" ", "_").lower() in meta:
+                f = meta[t.replace(" ", "_").lower()]
+            elif online:
+                f = _commons_search(t[7:]) if t.startswith("search:") else _commons_file(t.replace(" ", "_"))
+                cache[t] = f
+                save("lead_cache.json", cache)
+                if not f:
+                    print(f"  ! {name}: nothing for {t}")
+            else:
+                pending.append((name, t))
+                continue
+            if f and f.lower() not in {p.lower() for p in picks}:
+                picks.append(f)
+        e = imgs.setdefault(name, dict(en=None, tr=None, images=[]))
+        key = lambda f: f.replace(" ", "_").lower()  # noqa: E731
+        old = {key(it["file"]): it for it in e.get("images", [])}
+        new = [dict(file=f, caption=old.get(key(f), {}).get("caption", ""), lang="lead", infobox=True) for f in picks]
+        rest = [it for it in e.get("images", []) if key(it["file"]) not in {key(p) for p in picks} | drop]
+        e["images"] = (new + rest)[:max(MAX_IMAGES, len(new) + 1)]
+    save("images.json", imgs)
+    print(len(rows), "notes given lead images")
+    if pending:
+        print(len(pending), "tokens need Commons (run again online):")
+        for name, t in pending:
+            print("   ", name, "->", t)
+
+
 def stage_fetch():
     m = load("map.json", {})
     ov = load("overrides.json", {})
@@ -479,14 +570,13 @@ def caption_text(it, info):
     return cap[:220]
 
 
-def stage_insert():
+def stage_insert(folder=None):
     imgs = load("images.json", {})
     meta = load("files.json", {})
     by_name = {n["name"]: n for n in notes()}
-    credits = {}
     for name, e in imgs.items():
         n = by_name.get(name)
-        if not n:
+        if not n or (folder and os.sep + folder + os.sep not in n["path"]):
             continue
         pics = []
         for it in e["images"]:
@@ -517,13 +607,27 @@ def stage_insert():
             gallery.append(f"![[{info['local']}|480]]")
             gallery.append(f"*{cap}*" if cap else f"*{name}*")
             gallery.append("")
-            credits[info["local"]] = (info, name)
         block = "\n".join(gallery)
         if "\n## Related" in text:
             text = text.replace("\n## Related", block + "\n## Related", 1)
         else:
             text = text.rstrip() + "\n" + block + "\n"
         open(n["path"], "w", encoding="utf-8").write(text)
+    write_credits(meta)
+
+
+def write_credits(meta):
+    """Credits for every image the notes embed (any period), from files.json."""
+    by_local = {}
+    for f, info in meta.items():
+        if info.get("url"):
+            by_local[local_name(f, info)] = info
+    credits = {}
+    for n in notes():
+        body = open(n["path"], encoding="utf-8").read()
+        for local in re.findall(r"!\[\[([^\]|]+)\|480\]\]", body):
+            if local in by_local:
+                credits[local] = (by_local[local], n["name"])
     lines = ["---", "tags: [meta, credits]", "---", "# Image credits", "",
              "Every image in `Attachments/Images/` comes from Wikimedia Commons or Wikipedia. "
              "This page lists the source page, author and licence of each file, as those licences require. ",
@@ -537,4 +641,5 @@ def stage_insert():
 
 
 if __name__ == "__main__":
-    {"map": stage_map, "portraits": stage_portraits, "prune": prune_unused, "titles": stage_titles, "fetch-rest": stage_fetch_rest, "fetch": stage_fetch, "download": stage_download, "insert": stage_insert}[sys.argv[1]]()
+    {"map": stage_map, "portraits": stage_portraits, "prune": prune_unused, "titles": stage_titles, "fetch-rest": stage_fetch_rest,
+     "fetch": stage_fetch, "lead": stage_lead, "download": stage_download, "insert": stage_insert}[sys.argv[1]](*sys.argv[2:])

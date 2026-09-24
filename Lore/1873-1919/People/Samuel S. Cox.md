@@ -12,8 +12,9 @@ tags: [person, "1873-1919"]
 
 <!-- images:start -->
 ![[Coxturkey.jpg|320]]
-*"New Use For Our Minister to Turkey"* — ⚠ Not from vault sources (image: Wikimedia Commons)
+*Coxturkey* — ⚠ Not from vault sources (image: Wikimedia Commons)
 <!-- images:end -->
+
 
 ## Summary
 
@@ -32,16 +33,14 @@ Every page where this subject is named. Each number links to that page in the co
 
 - **[[Bir Amerikan Diplomatının İstanbul Anıları (Samuel S. Cox)|Cox, *Bir Amerikan Diplomatının İstanbul Anıları*]]** (American, 3 ps): [[Bir Amerikan Diplomatının İstanbul Anıları (Samuel S. Cox)#p. 5|5]] · [[Bir Amerikan Diplomatının İstanbul Anıları (Samuel S. Cox)#p. 770|770]] · [[Bir Amerikan Diplomatının İstanbul Anıları (Samuel S. Cox)#p. 792|792]]
 
+
 ## Images
 
 > [!info] ⚠ Not from vault sources
 > Illustrations only, from Wikipedia and Wikimedia Commons ([EN Wikipedia](https://en.wikipedia.org/wiki/Samuel_S._Cox)). Captions are Wikipedia's, not the books'. Credits: [[Image credits]].
 
 ![[Coxturkey.jpg|480]]
-*"New Use For Our Minister to Turkey"*
-
-![[(King1893NYC) pg184 COX STATUE, IN ASTOR PLACE.jpg|480]]
-*COX STATUE, IN ASTOR PLACE*
+*Coxturkey*
 
 ## Related
 
