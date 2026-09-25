@@ -1,0 +1,146 @@
+# Görsel kaynakları
+
+Bu görseller Wikimedia Commons / Wikipedia'dandır; kasa kaynağı değildir (⚠ Not from vault sources).
+
+| Dosya | Özgün ad | Yazar | Lisans | Kaynak |
+|---|---|---|---|---|
+| 000_Aziz_Ali_al_Misry_Father_of_the_free_officers_cf4eef.jpg | 000-Aziz Ali al-Misry Father of the free officers.jpg | ? | ? | ? |
+| 030Arab_4cef5b.jpg | 030Arab.jpg | Maurice Bauche (1878–1956) | Public domain | [link](https://commons.wikimedia.org/wiki/File:030Arab.jpg) |
+| 16_03_30_Klagemauer_Jerusalem_RalfR_DSCF7704_ff515d.jpg | 16-03-30-Klagemauer Jerusalem RalfR-DSCF7704.jpg | Ralf Roletschek | GFDL 1.2 | [link](https://commons.wikimedia.org/wiki/File:16-03-30-Klagemauer_Jerusalem_RalfR-DSCF7704.jpg) |
+| 1892_08_18_Serveti_Funun_Osmanli_Bankasi_d7ce6e.jpg | 1892 08 18 Serveti Funun Osmanli Bankasi.jpg | Servet-i Fünun Dergisi | Public domain | [link](https://commons.wikimedia.org/wiki/File:1892_08_18_Serveti_Funun_Osmanli_Bankasi.jpg) |
+| 1908_10_01_Resimli_Kitab_Yusuf_Izzeddin_Efendi_5ebb75.jpg | 1908 10 01 Resimli Kitab Yusuf Izzeddin Efendi.jpg | Resimli Kitab Dergisi | Public domain | [link](https://commons.wikimedia.org/wiki/File:1908_10_01_Resimli_Kitab_Yusuf_Izzeddin_Efendi.jpg) |
+| 1909_05_10_Sultan_Resat_Yevmi_Culus_e8998b.jpg | 1909 05 10 Sultan Resat Yevmi Culus.jpg | Şehbal dergisi | Public domain | [link](https://commons.wikimedia.org/wiki/File:1909_05_10_Sultan_Resat_Yevmi_Culus.jpg) |
+| 1909_10_Resimli_Kitab_Vahdettin_204ab1.jpg | 1909 10 Resimli Kitab Vahdettin.jpg | Resimli Kitab Dergisi | Public domain | [link](https://commons.wikimedia.org/wiki/File:1909_10_Resimli_Kitab_Vahdettin.jpg) |
+| 19170704_Riot_on_Nevsky_prosp_Petrograd_5270a7.jpg | 19170704 Riot on Nevsky prosp Petrograd.jpg | Viktor Bulla | Public domain | [link](https://commons.wikimedia.org/wiki/File:19170704_Riot_on_Nevsky_prosp_Petrograd.jpg) |
+| 1920_08_26_Serveti_Funun_Tevfik_Fikret_366a3d.jpg | 1920 08 26 Serveti Funun Tevfik Fikret.jpg | Servet-i Fünun Mecmuası | Public domain | [link](https://commons.wikimedia.org/wiki/File:1920_08_26_Serveti_Funun_Tevfik_Fikret.jpg) |
+| 1st_Herts_Yeomanry_in_the_Suez_Canal_trenches_1915_IWM_Q1556_03d3bc.jpg | 1st Herts Yeomanry in the Suez Canal trenches 1915 IWM Q15566.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:1st_Herts_Yeomanry_in_the_Suez_Canal_trenches_1915_IWM_Q15566.jpg) |
+| 5_Turkish_Liras_1927_3345c3.jpg | 5 Turkish Liras (1927).jpg | Türkiye Cumhuriyet Merkez Bankası | Public domain | [link](https://commons.wikimedia.org/wiki/File:5_Turkish_Liras_(1927).jpg) |
+| A_Holy_Carpet_brought_to_Jerusalem_by_the_Sherif_of_Medina_t_b370c1.jpg | A Holy Carpet brought to Jerusalem by the Sherif of Medina; the Grand Mufti and Sherif in carriage LOC matpc.11472.jpg | Matson Collection | Public domain | [link](https://commons.wikimedia.org/wiki/File:A_Holy_Carpet_brought_to_Jerusalem_by_the_Sherif_of_Medina;_the_Grand_Mufti_and_Sherif_in_carriage_LOC_matpc.11472.jpg) |
+| A_Sitting_of_the_New_Turkish_Parliament_at_Constantinople_IL_7679d9.jpg | A Sitting of the New Turkish Parliament at Constantinople - ILN 1877.jpg | The Illustrated London News | Public domain | [link](https://commons.wikimedia.org/wiki/File:A_Sitting_of_the_New_Turkish_Parliament_at_Constantinople_-_ILN_1877.jpg) |
+| A_Turkish_Red_Crescent_Staff_23fdab.jpg | A Turkish Red Crescent Staff.jpg | Charismaniac | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:A_Turkish_Red_Crescent_Staff.jpg) |
+| A_panoramic_view_of_the_Alsancak_quarter_in_Izmir_c61013.jpg | A panoramic view of the Alsancak quarter in Izmir.jpg | A.Savin | FAL | [link](https://commons.wikimedia.org/wiki/File:A_panoramic_view_of_the_Alsancak_quarter_in_Izmir.jpg) |
+| Abdulaziz_Sultan_of_the_Ottoman_Empire_7dc7ae.jpg | Abdulaziz (Sultan of the Ottoman Empire).jpg | Ankara Resim ve Heykel Müzesi | Public domain | [link](https://commons.wikimedia.org/wiki/File:Abdulaziz_(Sultan_of_the_Ottoman_Empire).jpg) |
+| Abd_lhamid_II_of_Turkey_c4e286.jpg | Abdülhamid II of Turkey.jpg | W.& D. DOWNEY Photographers | Public domain | [link](https://commons.wikimedia.org/wiki/File:Abd%C3%BClhamid_II_of_Turkey.jpg) |
+| Action_Army_marching_on_Makri_Keuy_251a24.jpg | Action Army marching on Makri Keuy.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Action_Army_marching_on_Makri_Keuy.jpg) |
+| Adana_Seyhan_River_b32258.png | Adana Seyhan River.png | Hustle77 | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Adana_Seyhan_River.png) |
+| Aerial_view_of_city_of_Suez_and_Suez_Canal_8bd74f.jpg | Aerial view of city of Suez and Suez Canal.jpg | Baycrest | CC BY-SA 2.5 | [link](https://commons.wikimedia.org/wiki/File:Aerial_view_of_city_of_Suez_and_Suez_Canal.jpg) |
+| Agamemnon_at_Mudros_140da0.jpg | Agamemnon at Mudros.jpg |  | Public domain | [link](https://commons.wikimedia.org/wiki/File:Agamemnon_at_Mudros.jpg) |
+| Ahmed_Djemal_portrait_Project_Gutenberg_eText_10338_7d82c7.png | Ahmed Djemal portrait Project Gutenberg eText 10338.png | ? | ? | ? |
+| Ahmed_Niyazi_Bey_a8c94f.jpg | Ahmed Niyazi Bey.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmed_Niyazi_Bey.jpg) |
+| Ahmed_Riza_Bey_f6b896.jpg | Ahmed Riza Bey.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmed_Riza_Bey.jpg) |
+| Ahmet_Cemal_Pa_a_on_the_shore_of_the_Dead_Sea2_ba6bbe.jpg | Ahmet Cemal Paşa on the shore of the Dead Sea2.jpg | American Colony (Jerusalem). Photo Department, photographer | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmet_Cemal_Pa%C5%9Fa_on_the_shore_of_the_Dead_Sea2.jpg) |
+| Ahmet_zzet_Pa_a_7b09df.jpg | Ahmet İzzet Paşa.jpg | Granger Art on Demand | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmet_%C4%B0zzet_Pa%C5%9Fa.jpg) |
+| Al1_5235_6C52_7E70_4f0ad3.jpg | Al1-5235-6C52-7E70.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Al1-5235-6C52-7E70.jpg) |
+| Ali_Suavi_2_b991a3.jpg | Ali Suavi-2.jpg | E. Bocourt - L. Chapon | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ali_Suavi-2.jpg) |
+| Amasya_Genelgesi_4f57b4.jpg | Amasya Genelgesi.jpg | Hüsrev Bey, Kâzım Paşa, Ali Fuad Paşa, Hüseyin Rauf Paşa, Mustafa Kemal Paşa | Public domain | [link](https://commons.wikimedia.org/wiki/File:Amasya_Genelgesi.pdf) |
+| Amasya_in_Turkey_79a61b.png | Amasya in Turkey.png | TUBS | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Amasya_in_Turkey.svg) |
+| Armenian_Revolutionary_Federation_Flag_53492c.png | Armenian Revolutionary Federation Flag.png | Jeromi Mikhael | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Armenian_Revolutionary_Federation_Flag.svg) |
+| Arms_of_Sykes_baronet_of_Sledmere_18afbf.png | Arms of Sykes baronet, of Sledmere.png | MostEpic | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Arms_of_Sykes_baronet,_of_Sledmere.svg) |
+| Atat_rk_Kemal_974c7f.jpg | Atatürk Kemal.jpg | ? | ? | ? |
+| Augustus_Charles_Hobart_Hampden_Project_Gutenberg_eText_1629_7c8725.jpg | Augustus Charles Hobart-Hampden - Project Gutenberg eText 16296.jpg |  | Public domain | [link](https://commons.wikimedia.org/wiki/File:Augustus_Charles_Hobart-Hampden_-_Project_Gutenberg_eText_16296.jpg) |
+| Averof_painting_1919_Bosporus_5e0740.jpg | Averof painting 1919 Bosporus.jpg | Lykourgos Kogevinas | Public domain | [link](https://commons.wikimedia.org/wiki/File:Averof_painting_1919_Bosporus.jpg) |
+| Ayastefanos_Rus_Abidesi_nin_y_k_lm_hali_9a08b0.jpg | Ayastefanos Rus Abidesi'nin yıkılmış hali.jpg | Rahmizâde Bâhâeddin | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ayastefanos_Rus_Abidesi%27nin_y%C4%B1k%C4%B1lm%C4%B1%C5%9F_hali.jpg) |
+| Bab_i_Ali_05ee7f.jpg | Bab-i Ali.jpg |  | Public domain | [link](https://commons.wikimedia.org/wiki/File:Bab-i_Ali.jpg) |
+| BagdadRailwayMapEn_e07be6.png | BagdadRailwayMapEn.png | User:Martin von Gagern | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:BagdadRailwayMapEn.png) |
+| Bagdadbahn_1903_a9e400.jpg | Bagdadbahn 1903.jpg | Unbekannte Autoren und Grafiker; Scan vom EDHAC e.V. | Public domain | [link](https://commons.wikimedia.org/wiki/File:Bagdadbahn_1903.JPG) |
+| Baghdad_Railway_LOC_04665u_8c183d.jpg | Baghdad Railway LOC 04665u.jpg | G. Eric and Edith Matson Photograph Collection | Public domain | [link](https://commons.wikimedia.org/wiki/File:Baghdad_Railway_LOC_04665u.jpg) |
+| Baku_Montage_3ba26c.jpg | Baku Montage.jpg | See above. Compilation by Interfase | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Baku_Montage.jpg) |
+| Balkan_Wars_Boundaries_c3d9f6.jpg | Balkan Wars Boundaries.jpg |  | Public domain | [link](https://commons.wikimedia.org/wiki/File:Balkan_Wars_Boundaries.jpg) |
+| Balkan_troubles1_b892f9.jpg | Balkan troubles1.jpg | Leonard Raven-Hill | Public domain | [link](https://commons.wikimedia.org/wiki/File:Balkan_troubles1.jpg) |
+| Balkans1878_1912_4da61c.jpg | Balkans1878 -1912.jpg | Spiridon Ion Cepleanu | Public domain | [link](https://commons.wikimedia.org/wiki/File:Balkans1878_-1912.jpg) |
+| Basra_city_48c61e.jpg | Basra city.jpg | File:Basra city.jpg | Public domain | [link](https://commons.wikimedia.org/wiki/File:Basra_city.jpg) |
+| Battle_Sarikamis_winter_gear_5c91d4.png | Battle Sarikamis winter gear.png | It is government property, which original photographer may not be listed. Origin | Public domain | [link](https://commons.wikimedia.org/wiki/File:Battle_Sarikamis_winter_gear.png) |
+| Battle_of_Sarikamis_Enver_Feldmann_inspection_1914_8f90b2.png | Battle of Sarikamis Enver Feldmann inspection 1914.png | It is government property, which original photographer may not be listed. Origin | Public domain | [link](https://commons.wikimedia.org/wiki/File:Battle_of_Sarikamis_Enver_Feldmann_inspection_1914.png) |
+| Battlecruiser_SMS_Goeben_transfered_to_the_Ottoman_Empire_an_50ec54.jpg | Battlecruiser SMS Goeben transfered to the Ottoman Empire and renamed the Yavuz 1914 (49911053158).jpg | Wilhelm Malchin | Public domain | [link](https://commons.wikimedia.org/wiki/File:Battlecruiser_SMS_Goeben_transfered_to_the_Ottoman_Empire_and_renamed_the_Yavuz_1914_(49911053158).jpg) |
+| Batumi_Port_673807.jpg | Batumi Port.jpg | Zviad Avaliani | Attribution | [link](https://commons.wikimedia.org/wiki/File:Batumi_Port.jpg) |
+| Beirut_Zaituna_Bay_2760bc.jpg | Beirut Zaituna Bay.jpg | Choinowski | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Beirut_Zaituna_Bay.jpg) |
+| Bekir_Sami_Mustafa_Kemal_081871.jpg | Bekir Sami Mustafa Kemal.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Bekir_Sami_Mustafa_Kemal.jpg) |
+| Benjamin_Disraeli_by_Cornelius_Jabez_Hughes_1878_f4a218.jpg | Benjamin Disraeli by Cornelius Jabez Hughes, 1878.jpg | Cornelius Jabez Hughes | Public domain | [link](https://commons.wikimedia.org/wiki/File:Benjamin_Disraeli_by_Cornelius_Jabez_Hughes,_1878.jpg) |
+| Bitlis_view_708db3.jpg | Bitlis view.jpg | Ahzaryamed | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Bitlis_view.jpg) |
+| British_Air_Section_at_the_1919_Paris_Peace_Conference_be4bf1.jpg | British Air Section at the 1919 Paris Peace Conference.jpg | photographer not identified. British Government. | Public domain | [link](https://commons.wikimedia.org/wiki/File:British_Air_Section_at_the_1919_Paris_Peace_Conference.jpg) |
+| Bulgaria_SanStefano_1878_byTodorBozhinov_19b753.png | Bulgaria-SanStefano -(1878)-byTodorBozhinov.png |  | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Bulgaria-SanStefano_-(1878)-byTodorBozhinov.png) |
+| Bulgarian_army_adrinople_e69f09.jpg | Bulgarian army adrinople.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Bulgarian_army_adrinople.jpg) |
+| Bundesarchiv_Bild_146_2005_0057_Otto_von_Bismarck_917252.jpg | Bundesarchiv Bild 146-2005-0057, Otto von Bismarck.jpg | Jacques Pilartz | Public domain | [link](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-2005-0057,_Otto_von_Bismarck.jpg) |
+| Bundesarchiv_Bild_183_2007_0917_501_Otto_Liman_von_Sanders_c69241.jpg | Bundesarchiv Bild 183-2007-0917-501, Otto Liman von Sanders.jpg | UnknownUnknown | CC BY-SA 3.0 de | [link](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-2007-0917-501,_Otto_Liman_von_Sanders.jpg) |
+| Bundesarchiv_Bild_183_R92623_Brest_Litowsk_Waffenstillstands_9d7d8d.jpg | Bundesarchiv Bild 183-R92623, Brest-Litowsk, Waffenstillstandsabkommen.jpg | UnknownUnknown | CC BY-SA 3.0 de | [link](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R92623,_Brest-Litowsk,_Waffenstillstandsabkommen.jpg) |
+| Cannons_on_Shipka_pass_2b5718.jpg | Cannons on Shipka pass.jpg | Vislupus | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Cannons_on_Shipka_pass.jpg) |
+| Carte_d_gypte_pour_suivre_les_op_rations_militaires_dit_e_pa_ce4a7d.jpg | Carte d'Égypte, pour suivre les opérations militaires, éditée par l'Armée française et la Petite République française - .jpg |  | Public domain | [link](https://commons.wikimedia.org/wiki/File:Carte_d%27%C3%89gypte,_pour_suivre_les_op%C3%A9rations_militaires,_%C3%A9dit%C3%A9e_par_%22l%27Arm%C3%A9e_fran%C3%A7aise%22_et_%22la_Petite_R%C3%A9publique_fran%C3%A7aise%22_-_btv1b8438932f.jpg) |
+| Colmar_von_der_Goltz_78bf7e.jpg | Colmar von der Goltz.jpg | Bauernfreund | Public domain | [link](https://commons.wikimedia.org/wiki/File:Colmar_von_der_Goltz.JPG) |
+| Column_of_deportees_walking_through_Harput_vilayet_during_th_39e1b9.jpg | Column of deportees walking through Harput vilayet during the Armenian genocide (cropped).jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Column_of_deportees_walking_through_Harput_vilayet_during_the_Armenian_genocide_(cropped).jpg) |
+| Congress_of_Berlin_13_July_1878_by_Anton_von_Werner_12299d.jpg | Congress of Berlin, 13 July 1878, by Anton von Werner.jpg | Anton von Werner | Public domain | [link](https://commons.wikimedia.org/wiki/File:Congress_of_Berlin,_13_July_1878,_by_Anton_von_Werner.jpg) |
+| Damad_Ferid_Pasha_1919_0c8649.jpg | Damad Ferid Pasha 1919.jpg | Agence de presse Meurisse | Public domain | [link](https://commons.wikimedia.org/wiki/File:Damad_Ferid_Pasha_1919.jpg) |
+| Damascus_Hejaz_railway_station_7615_f472ee.jpg | Damascus Hejaz railway station 7615.jpg | Dosseman | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Damascus_Hejaz_railway_station_7615.jpg) |
+| Damascus_coll_cb61ed.jpg | Damascus coll.jpg | See above. | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Damascus_coll.jpg) |
+| Danube_basin_69cb9e.png | Danube basin.png |  | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Danube_basin.png) |
+| Dardanelles_fleet_2_2278b5.jpg | Dardanelles fleet-2.jpg | British Navy photographer | Public domain | [link](https://commons.wikimedia.org/wiki/File:Dardanelles_fleet-2.jpg) |
+| De_Eerste_Balkanoorlog_1912_SFA022816221_35cd6c.jpg | De Eerste Balkanoorlog 1912, SFA022816221.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:De_Eerste_Balkanoorlog_1912,_SFA022816221.jpg) |
+| Declaration_of_the_1908_Revolution_in_Ottoman_Empire_5056dd.png | Declaration of the 1908 Revolution in Ottoman Empire.png | Charles Roden Buxton | Public domain | [link](https://commons.wikimedia.org/wiki/File:Declaration_of_the_1908_Revolution_in_Ottoman_Empire.png) |
+| Die_Kaukasusfront_Grosser_Bilderatlas_des_Weltkrieges_Bruckm_9e5d30.jpg | Die Kaukasusfront. Grosser Bilderatlas des Weltkrieges, Bruckmann. 1.jpg | Bruckmann, F. | Public domain | [link](https://commons.wikimedia.org/wiki/File:Die_Kaukasusfront._Grosser_Bilderatlas_des_Weltkrieges,_Bruckmann._1.jpg) |
+| Distribution_of_clothing_to_Turkish_Refugees_at_Shumla_c15a76.png | Distribution of clothing to Turkish Refugees at Shumla.png | Illustrated London News | Public domain | [link](https://commons.wikimedia.org/wiki/File:Distribution_of_clothing_to_Turkish_Refugees_at_Shumla.png) |
+| Districts_of_Samsun_Blank_1ea09e.png | Districts of Samsun (Blank).png |  | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Districts_of_Samsun_(Blank).png) |
+| Djavid_Bey_96153d.png | Djavid Bey.png | ? | ? | ? |
+| Djemal_Pasha2_acb86e.png | Djemal Pasha2.png | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Djemal_Pasha2.png) |
+| Dolmabahce_Istanbul_Turkey_60af5c.jpg | Dolmabahce Istanbul Turkey.jpg | flowcomm | CC BY 2.0 | [link](https://commons.wikimedia.org/wiki/File:Dolmabahce_Istanbul_Turkey.jpg) |
+| D_meke_Harbi_Zonaro_e3ddd6.jpg | Dömeke Harbi Zonaro.jpg | Fausto Zonaro | Public domain | [link](https://commons.wikimedia.org/wiki/File:D%C3%B6meke_Harbi_Zonaro.jpg) |
+| ENPER_PASHA_WARMINISTER_1a6fb6.jpg | ENPER PASHA WARMINISTER.jpg | Nicola Perscheid | Public domain | [link](https://commons.wikimedia.org/wiki/File:ENPER_PASHA_WARMINISTER.jpg) |
+| Edirne_view_erefeli_Mosque_7a7cfd.jpg | Edirne view Üç Şerefeli Mosque.jpg | User:Ggia | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Edirne_view_%C3%9C%C3%A7_%C5%9Eerefeli_Mosque.jpg) |
+| Edward_Stanford_1877_d3270f.jpg | Edward Stanford 1877.jpg | Edward Stanford, 1877 | Public domain | [link](https://commons.wikimedia.org/wiki/File:Edward_Stanford_1877.jpg) |
+| Egypt_under_Muhammad_Ali_Dynasty_map_en_656300.png | Egypt under Muhammad Ali Dynasty map en.png | Don-kun, Eric Gaba (Sting - fr:Sting) | CC BY 3.0 | [link](https://commons.wikimedia.org/wiki/File:Egypt_under_Muhammad_Ali_Dynasty_map_en.png) |
+| Enver_Pasha_1911_624c82.jpg | Enver Pasha 1911.jpg | Nicola Perscheid | Public domain | [link](https://commons.wikimedia.org/wiki/File:Enver_Pasha_1911.jpg) |
+| Enver_kamil_8a4491.jpg | Enver kamil.jpg | Source: Bulgarian postcard (Mehmed Nail Bey collection) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Enver_kamil.jpg) |
+| Ernst_Ravenstein_Balkans_Ethnic_Map_1880_516c36.jpg | Ernst-Ravenstein-Balkans-Ethnic-Map-1880.jpg | ? | ? | ? |
+| Erzurum_Cifte_Minareli_Sunrise_ad4f05.jpg | Erzurum Cifte Minareli Sunrise.jpg | Bjørn Christian Tørrissen | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Erzurum_Cifte_Minareli_Sunrise.JPG) |
+| Erzurum_Citadel_Erzurum_Kalesi_01_2d4ef4.jpg | Erzurum Citadel - Erzurum Kalesi 01.jpg | Zeynel Cebeci | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Erzurum_Citadel_-_Erzurum_Kalesi_01.jpg) |
+| Erzurum_Kongresi_Beyannamesi_6b2512.jpg | Erzurum Kongresi Beyannamesi.jpg | Erzurum Kongresi Heyeti | Public domain | [link](https://commons.wikimedia.org/wiki/File:Erzurum_Kongresi_Beyannamesi.pdf) |
+| First_Congress_of_the_Young_Turks_in_Paris_1902_83f09d.jpg | First Congress of the Young Turks in Paris (1902).jpg | Archive of Ottoman Empire | Public domain | [link](https://commons.wikimedia.org/wiki/File:First_Congress_of_the_Young_Turks_in_Paris_(1902).jpg) |
+| Gallipoli_ANZAC_Cove_Sphinx_2_813869.jpg | Gallipoli ANZAC Cove Sphinx 2.jpg | Julian Nyča | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Gallipoli_ANZAC_Cove_Sphinx_2.JPG) |
+| Gallipolimap2_4c20fa.png | Gallipolimap2.png |  | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Gallipolimap2.png) |
+| Gazi_ahmed_muhtar_pasa_1_603edc.jpg | Gazi-ahmed-muhtar-pasa-1.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Gazi-ahmed-muhtar-pasa-1.jpg) |
+| General_Nikolay_Ignatev_ba9be4.jpg | General Nikolay Ignatev.jpg | ? | ? | ? |
+| GhaziOsmanPasha_7b73f0.jpg | GhaziOsmanPasha.jpg | Abdullah frères | Public domain | [link](https://commons.wikimedia.org/wiki/File:GhaziOsmanPasha.jpg) |
+| Giolitti2_93dfa4.jpg | Giolitti2.jpg |  | Public domain | [link](https://commons.wikimedia.org/wiki/File:Giolitti2.jpg) |
+| Gladstone_s_Cabinet_of_1868_by_Lowes_Cato_Dickinson_41f519.jpg | Gladstone's Cabinet of 1868 by Lowes Cato Dickinson.jpg | Lowes Cato Dickinson | Public domain | [link](https://commons.wikimedia.org/wiki/File:Gladstone%27s_Cabinet_of_1868_by_Lowes_Cato_Dickinson.jpg) |
+| Goltz_portrait_4c862d.jpg | Goltz-portrait.jpg |  | Public domain | [link](https://commons.wikimedia.org/wiki/File:Goltz-portrait.jpg) |
+| Grivita_1877_c42491.jpg | Grivita 1877.jpg | Henryk Dembitzky (1830-1906) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Grivita_1877.jpg) |
+| Group_of_Karapapakh_Hamidiyeh_Cavalry_b33511.jpg | Group of Karapapakh Hamidiyeh Cavalry.jpg | H. F. B. Lynch | Public domain | [link](https://commons.wikimedia.org/wiki/File:Group_of_Karapapakh_Hamidiyeh_Cavalry.jpg) |
+| Guillaume_Delisle_Tunis_1707_c3df1b.jpg | Guillaume Delisle Tunis 1707.jpg | Guillaume de L'Isle | Public domain | [link](https://commons.wikimedia.org/wiki/File:Guillaume_Delisle_Tunis_1707.jpg) |
+| Hafiz_Hakki_Pasha_45bdef.jpg | Hafiz Hakki Pasha.jpg | NA | Public domain | [link](https://commons.wikimedia.org/wiki/File:Hafiz_Hakki_Pasha.jpg) |
+| Hagia_Sophia_Trabzon_56d24d.jpg | Hagia Sophia Trabzon.jpg | İhsan Deniz Kılıçoğlu | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Trabzon.jpg) |
+| Halil_Kut_0ce07a.png | Halil Kut.png | ? | ? | ? |
+| Hali_zinciri_2_020bb5.jpg | Haliç zinciri (2).jpg | Cobija | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Hali%C3%A7_zinciri_(2).jpg) |
+| Hamidi_Croiseur_de_1_re_classe_c56b59.jpg | Hamidié, Croiseur de 1ère classe.jpg | M.J.C. | Public domain | [link](https://commons.wikimedia.org/wiki/File:Hamidi%C3%A9,_Croiseur_de_1%C3%A8re_classe.jpg) |
+| Haydarpasa_train_station_cropped_d5bbae.jpg | Haydarpasa train station (cropped).jpg | Starliner | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Haydarpasa_train_station_(cropped).jpg) |
+| Hejaz_railway_600522.png | Hejaz railway.png | Goran_tek-en | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Hejaz_railway.svg) |
+| Hercegovci_u_zasedi_Srbadija_eae104.jpg | Hercegovci u zasedi, Srbadija.jpg | See source | Public domain | [link](https://commons.wikimedia.org/wiki/File:Hercegovci_u_zasedi,_Srbadija.jpg) |
+| HouseOfSanStefanoTreaty_7acea5.jpg | HouseOfSanStefanoTreaty.jpg | A. Fabbretti | Public domain | [link](https://commons.wikimedia.org/wiki/File:HouseOfSanStefanoTreaty.jpg) |
+| Ho_ap_24_05_2010_Burg_4d1164.jpg | Hoşap 24 05 2010 Burg.jpg | Volker Höhfeld | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Ho%C5%9Fap_24_05_2010_Burg.jpg) |
+| Huseyin_avni_pasha_6270e0.jpg | Huseyin avni pasha.jpg | Baron Paul des Granges | Public domain | [link](https://commons.wikimedia.org/wiki/File:Huseyin_avni_pasha.jpg) |
+| Hussein_bin_Ali_Sharif_of_Mecca_80303e.jpg | Hussein bin Ali, Sharif of Mecca.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Hussein_bin_Ali,_Sharif_of_Mecca.jpg) |
+| H_seyin_Rauf_Orbay_763474.jpg | Hüseyin Rauf Orbay.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:H%C3%BCseyin_Rauf_Orbay.jpg) |
+| IMRO_badge_006681.png | IMRO badge.png | Maxim Bluecher | Public domain | [link](https://commons.wikimedia.org/wiki/File:IMRO_badge.svg) |
+| Inseguimento_della_Goeben_e_della_Breslau_560cfa.png | Inseguimento della Goeben e della Breslau.png | Jtorquy | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Inseguimento_della_Goeben_e_della_Breslau.svg) |
+| Iskele_St_Van_af09a2.jpg | Iskele St. Van.jpg | Myararat83 | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Iskele_St._Van.JPG) |
+| Island_of_Crete_Greece_22cb14.jpg | Island of Crete, Greece.jpg | ISS Expedition 28 crew | Public domain | [link](https://commons.wikimedia.org/wiki/File:Island_of_Crete,_Greece.JPG) |
+| Ismail_Enver_Bey_in_Cyrenaica_8cdd03.jpg | Ismail Enver Bey in Cyrenaica.jpg | Kâmil Efendi | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ismail_Enver_Bey_in_Cyrenaica.jpg) |
+| Israel_in_World_War_I_Ottomans_soldiers_with_machine_gun_H_O_df051a.jpg | Israel in World War I - Ottomans soldiers with machine gun H OP 039.jpg | National Library of Israel | Public domain | [link](https://commons.wikimedia.org/wiki/File:Israel_in_World_War_I_-_Ottomans_soldiers_with_machine_gun_H_OP_039.JPG) |
+| Istanbul_Yildiz_Palace_and_Park_May_2014_8168_381f7c.jpg | Istanbul Yildiz Palace and Park May 2014 8168.jpg | Dosseman | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Istanbul_Yildiz_Palace_and_Park_May_2014_8168.jpg) |
+| Istanbul_Yildiz_Palace_and_Park_May_2014_8173_0186a7.jpg | Istanbul Yildiz Palace and Park May 2014 8173.jpg | Dosseman | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Istanbul_Yildiz_Palace_and_Park_May_2014_8173.jpg) |
+| Istanbul_and_Bosporus_big_8aa667.jpg | Istanbul and Bosporus big.jpg | Astronaut photograph ISS008-E-21752 | Public domain | [link](https://commons.wikimedia.org/wiki/File:Istanbul_and_Bosporus_big.jpg) |
+| Istanbul_ra_an_Palace_239841121_788be7.jpg | Istanbul Çırağan Palace (239841121).jpeg | Alexxx Malev | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Istanbul_%C3%87%C4%B1ra%C4%9Fan_Palace_(239841121).jpeg) |
+| Italo_Turkish_war_collage_8d2c3f.jpg | Italo-Turkish war collage.jpg | File:Turkish prisoners Rhodes 1912.jpg: L'Illustrazione italiana, 16 June 1912. | Public domain | [link](https://commons.wikimedia.org/wiki/File:Italo-Turkish_war_collage.jpg) |
+| Jon_turkler_1_02687c.jpg | Jon-turkler-1.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Jon-turkler-1.jpg) |
+| Jungt_rkische_Parlamentsmitglieder_in_Saloniki_1909_2fec5c.jpg | Jungtürkische Parlamentsmitglieder in Saloniki, 1909.jpg | photographer not credited | Public domain | [link](https://commons.wikimedia.org/wiki/File:Jungt%C3%BCrkische_Parlamentsmitglieder_in_Saloniki,_1909.jpg) |
+| Kaiser_Wilhelm_II_of_Germany_1902_3x4_cropped_849cbf.jpg | Kaiser Wilhelm II of Germany - 1902 (3x4 cropped).jpg | Studio of Thomas Heinrich Voigt | Public domain | [link](https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902_(3x4_cropped).jpg) |
+| Kaiser_Wilhelm_II_of_Germany_1902_c7efb9.jpg | Kaiser Wilhelm II of Germany - 1902.jpg | Studio of Thomas Heinrich Voigt | Public domain | [link](https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902.jpg) |
+| Kanun_i_Esasi_a90f0e.jpg | Kanun-i Esasi.jpg | Published by Ahmed Kamil Printing House, Istanbul (Ottoman Turkish: Matbaa-ı Ahm | Public domain | [link](https://commons.wikimedia.org/wiki/File:Kanun-i_Esasi.jpg) |
+| Kars_Panorama_218c16.jpg | Kars Panorama.jpg | Bjørn Christian Tørrissen | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Kars_Panorama.JPG) |
+| KingFerdinand_I_Portrait_3cf9b0.jpg | KingFerdinand I Portrait.jpg | International News Service; Scan by Pritzker Military Library | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:KingFerdinand_I_Portrait.jpg) |
+| Korgeneral_mer_Fahreddin_T_rkkan_1935_1936_87da77.jpg | Korgeneral Ömer Fahreddin Türkkan (1935~1936).jpg | Bilinmiyor | CC0 | [link](https://commons.wikimedia.org/wiki/File:Korgeneral_%C3%96mer_Fahreddin_T%C3%BCrkkan_(1935~1936).jpg) |
+| L_toile_du_Bosphore_6_janvier_1892_026a27.jpg | L'Étoile du Bosphore 6 janvier 1892.jpg | L'Etoile du Bosphore | Public domain | [link](https://commons.wikimedia.org/wiki/File:L%27%C3%89toile_du_Bosphore_6_janvier_1892.jpg) |
+| Landing_French_Gallipoli_April_1915_ddc5b8.jpg | Landing French-Gallipoli April 1915.jpg | Ernest Brooks | Public domain | [link](https://commons.wikimedia.org/wiki/File:Landing_French-Gallipoli_April_1915.jpg) |
+| London_news_c1877_scanned_constantinopole_1996_Opening_of_th_0bfd37.png | London news c1877 - scanned constantinopole(1996)-Opening of the first parlement.png | The Illustrated London News, 7 April 1877. | Public domain | [link](https://commons.wikimedia.org/wiki/File:London_news_c1877_-_scanned_constantinopole(1996)-Opening_of_the_first_parlement.png) |
+| Luleburgaz_Battle_Postcard_607930.jpg | Luleburgaz Battle Postcard.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Luleburgaz_Battle_Postcard.jpg) |
+| Map_of_Ottoman_Empire_1900_2b85d6.png | Map-of-Ottoman-Empire-1900.png | Julieta39 | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Map-of-Ottoman-Empire-1900.png) |
+| Marcharmenians_754a3d.jpg | Marcharmenians.jpg | Armin T. Wegner | Public domain | [link](https://commons.wikimedia.org/wiki/File:Marcharmenians.jpg) |
+| Mehmed_Kamil_Pasha_94864a.jpg | Mehmed Kamil Pasha.jpg | Edward Frederick Knight | Public domain | [link](https://commons.wikimedia.org/wiki/File:Mehmed_Kamil_Pasha.jpg) |
+| Mesopotamian_campaign_6th_Army_Siege_of_Kut_908751.png | Mesopotamian campaign 6th Army Siege of Kut.png | It is government property, which original photographer may not be listed. Origin | Public domain | [link](https://commons.wikimedia.org/wiki/File:Mesopotamian_campaign_6th_Army_Siege_of_Kut.png) |
