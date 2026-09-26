@@ -35,6 +35,15 @@ func _run() -> void:
 				print("choosing option ", i, " of ", ev["id"])
 				st.choose(ev["id"], i)
 				break
+	desk.show_place("babiali")
+	desk.show_place("galata")
+	desk.show_province("misir")
+	desk.show_nation("RU")
+	desk.close_inspector()
+	desk.panels.defter()
+	for d in st.decisions:
+		desk._open_event(d)
+		break
 	desk.panels.payitaht()
 	desk.panels.codex()
 	if not st.codex.is_empty():

@@ -875,6 +875,27 @@
    "region": "Arabistan"
   },
   {
+   "id": "lahsa",
+   "name": "el-Ahsa",
+   "own": "OS",
+   "ctl": "OS",
+   "region": "Arabistan"
+  },
+  {
+   "id": "kuveyt",
+   "name": "Kuveyt",
+   "own": "OS",
+   "ctl": "OS",
+   "region": "Arabistan"
+  },
+  {
+   "id": "umman",
+   "name": "Umman ve Körfez şeyhlikleri",
+   "own": "IN",
+   "ctl": "IN",
+   "region": "Arabistan"
+  },
+  {
    "id": "trablusgarp",
    "name": "Trablusgarp ve Bingazi",
    "own": "OS",
@@ -956,6 +977,13 @@
    "name": "Almanya",
    "own": "AL",
    "ctl": "AL",
+   "region": "Komşular"
+  },
+  {
+   "id": "fransa",
+   "name": "Fransa",
+   "own": "FR",
+   "ctl": "FR",
    "region": "Komşular"
   },
   {

@@ -392,8 +392,19 @@ func _set_province(id: String, nation: String, cede: bool) -> void:
 	if cede:
 		prov_owner[id] = nation
 	if old_ctl != nation or (cede and old_own != nation):
-		chronicle.append({"kind": "prov", "key": id, "from": old_ctl, "to": nation, "own": prov_owner[id],
-			"y": year, "m": month, "by": _acting})
+		chronicle.append({"kind": "prov", "key": id, "from": old_ctl, "to": nation, "from_own": old_own,
+			"own": prov_owner[id], "y": year, "m": month, "by": _acting})
+
+
+## Plain-language line for a province change in the chronicle ("Kars: Devlet-i Aliyye → Rusya").
+func province_change_text(c: Dictionary) -> String:
+	var nm := func(code): return str(nations.get(str(code), {}).get("name", code))
+	if str(c["from"]) != str(c["to"]):
+		var t: String = "%s → %s" % [nm.call(c["from"]), nm.call(c["to"])]
+		if str(c.get("own", c["to"])) != str(c["to"]):
+			t += " (hukuken %s)" % nm.call(c["own"])
+		return t
+	return "hukuken %s → %s" % [nm.call(c.get("from_own", "")), nm.call(c.get("own", ""))]
 
 
 func _add(id: String, d: int) -> void:

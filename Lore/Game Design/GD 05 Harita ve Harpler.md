@@ -58,6 +58,9 @@ Başlangıç 1873'tür.
 | hicaz | Hicaz | OS | OS | Arabistan |
 | yemen | Yemen | OS | OS | Arabistan |
 | necd | Necd | AR | AR | Arabistan |
+| lahsa | el-Ahsa | OS | OS | Arabistan |
+| kuveyt | Kuveyt | OS | OS | Arabistan |
+| umman | Umman ve Körfez şeyhlikleri | IN | IN | Arabistan |
 | trablusgarp | Trablusgarp ve Bingazi | OS | OS | Afrika |
 | tunus | Tunus | OS | OS | Afrika |
 | misir | Mısır ve Sudan | OS | MI | Afrika |
@@ -70,6 +73,7 @@ Başlangıç 1873'tür.
 | avusturya | Avusturya-Macaristan | AV | AV | Komşular |
 | italya | İtalya | IT | IT | Komşular |
 | almanya | Almanya | AL | AL | Komşular |
+| fransa | Fransa | FR | FR | Komşular |
 | rusya | Rusya | RU | RU | Komşular |
 | kafkasya | Kafkasya (Tiflis, Revan) | RU | RU | Komşular |
 | iran | İran | IR | IR | Komşular |
