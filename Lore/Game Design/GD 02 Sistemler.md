@@ -359,7 +359,7 @@ Hazine boş. Maaş günü geldi; altı yüz bin lirayı bulmak Maliye Nazırı'n
 💬 Maliye: "Efendimiz, faizi ağır ama başka kapı yok."
 💬 Harbiye: "Askerin maaşı bir ay daha gecikirse kışlalarda ses çıkar."
 > Kaynak: [[Enver (Murat Bardakçı)#p. 66|Bardakçı, *Enver*, p. 66]] · *Türk kaynağı* · [[Düyun-u Umumiye]]
-1. **Avansı al.** `Para +20 · avrupa_baskisi +5` — Para bulundu; faizi de, alacaklıların sözü de büyüdü.
+1. **Avansı al.** (tarihî) `Para +20 · avrupa_baskisi +5` — Para bulundu; faizi de, alacaklıların sözü de büyüdü.
 2. **Milli Tütün İdaresi'nin kasasından borç al.** [koşul: reji = milli] (ipucu: Tekel devletin elindeyse) `Para +14 · avrupa_baskisi -1` — Tütünün kârı maaşlara yetti; bu kez Galata'ya gidilmedi.
 3. **Maaşları geciktir.** `Para +10 · Harbiye -5 · jon_turk +3` — Hazine nefes aldı; kışlalarda homurtu başladı.
 4. **Berlin'den iste.** [koşul: alman_nufuzu >= 20] `Para +15 · alman_nufuzu +5` — Alman bankaları yardım etti; karşılığını da isteyecekler.

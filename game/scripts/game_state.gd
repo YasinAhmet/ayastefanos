@@ -170,8 +170,11 @@ func event_hidden(ev: Dictionary) -> bool:
 	return historical() and ev["tags"].has("alternatif")
 
 
+## Tarihî mod shows only what happened: the one (tarihî) option. Fantezi shows everything.
 func option_visible(opt: Dictionary) -> bool:
-	return not (historical() and opt.get("alt", false))
+	if historical():
+		return opt.get("hist") != null
+	return true
 
 
 ## Indices of the options this mode shows.
@@ -201,6 +204,8 @@ func value_of(id: String) -> int:
 		return year
 	if id == "month":
 		return month
+	if id == "hist_mode":
+		return 1 if historical() else 0
 	return int(values.get(id, 0))
 
 
@@ -274,6 +279,8 @@ func open_events() -> Array:
 ## Player-initiated decisions (tür: karar) available now, optionally only those at one landmark.
 func open_decisions(place := "") -> Array:
 	var out: Array = []
+	if historical():
+		return out  # decisions are the player's own initiative, not history
 	for ev in decisions:
 		if answered.has(ev["id"]) or event_hidden(ev):
 			continue
@@ -293,6 +300,8 @@ func can_advance() -> bool:
 
 
 func option_enabled(opt: Dictionary) -> bool:
+	if historical() and opt.get("hist") != null:
+		return true  # history happened whatever our numbers say
 	return Logic.eval_cond(opt.get("cond"), self)
 
 

@@ -35,7 +35,7 @@ KINDS = {"zorunlu", "isteğe bağlı", "geçici", "ara", "kural", "manşet", "ep
 PLAYABLE = ("zorunlu", "isteğe bağlı", "geçici", "ara")
 TAGS = {"zincir", "alternatif"}
 SEATS = {"maliye": "maliye", "harbiye": "harbiye", "bahriye": "bahriye"}
-TIME_VARS = {"yıl": "year", "yil": "year", "ay": "month"}
+TIME_VARS = {"yıl": "year", "yil": "year", "ay": "month", "tarihî_mod": "hist_mode", "tarihi_mod": "hist_mode"}
 MAX_IMG = 1280
 
 errors, warnings = [], []
@@ -287,7 +287,7 @@ def cond_hidden(node, visible):
         return cond_hidden(node["arg"], visible)
     if op in ("flag", "state", "prov"):
         return True
-    return any(n not in visible and n not in ("year", "month") for _, n in node["left"])
+    return any(n not in visible and n not in ("year", "month", "hist_mode") for _, n in node["left"])
 
 
 # ---------------------------------------------------------------- parsing
@@ -386,7 +386,7 @@ def main():
     for k, v in TIME_VARS.items():
         names[k] = v
     display = {r["id"]: r["name"] for r in resources}
-    display.update({"year": "yıl", "month": "ay"})
+    display.update({"year": "yıl", "month": "ay", "hist_mode": "Tarihî mod"})
     visible = {r["id"] for r in resources if r["visible"]}
 
     def resolve(tok):
@@ -797,10 +797,24 @@ def main():
                 err(f"{e['file']}:{e['line']}", f"yuva '{slot}': only the last (historical) version may be unconditional")
         for i, e in enumerate(evs):
             e["slot_rank"] = i
+    hist_basis = defaultdict(int)
     for ev in events:
         if ev["kind"] in PLAYABLE + ("karar",) and "alternatif" not in ev["tags"]:
             if ev["options"] and all(o["alt"] for o in ev["options"]):
                 err(f"{ev['file']}:{ev['line']}", f"{ev['id']}: every option is (alternatif); Tarihî mod would be stuck")
+        for o in ev["options"]:
+            o.setdefault("hist", None)
+        if ev["kind"] in PLAYABLE and "alternatif" not in ev["tags"]:
+            hs = [o for o in ev["options"] if o["hist"]]
+            if len(ev["options"]) == 1 and not hs:
+                ev["options"][0]["hist"] = "kasa"  # a single option ("Devam.") is what happened
+                hs = ev["options"]
+            if len(hs) != 1:
+                err(f"{ev['file']}:{ev['line']}", f"{ev['id']}: needs exactly one (tarihî) option, has {len(hs)}")
+            elif hs[0]["alt"]:
+                err(f"{ev['file']}:{ev['line']}", f"{ev['id']}: the (tarihî) option cannot also be (alternatif)")
+            else:
+                hist_basis[hs[0]["hist"]] += 1
         if "alternatif" not in ev["tags"] and ev["kind"] in PLAYABLE + ("karar",):
             by_id = {e["id"]: e for e in events}
             for n, o in enumerate(ev["options"], 1):
@@ -858,6 +872,7 @@ def main():
     opts = [o for e in play for o in e["options"] if o["label"] != "Devam."]
     stat_only = sum(all(x["t"] in ("res", "set") for x in flat_effects(o["effects"])) for o in opts)
     reactive = sum(1 for e in play if e["slot"] or e["cond"] is not None or any(isinstance(t, dict) for t in e["text"]))
+    print(f"Tarihî mod dayanakları: " + ", ".join(f"{k} {v}" for k, v in sorted(hist_basis.items())))
     print(f"branching: {stat_only}/{len(opts)} options only move numbers; {reactive}/{len(play)} events react to earlier choices")
     limit = None if "--warnings" in sys.argv else 60
     print(f"\n{len(errors)} errors")
@@ -879,6 +894,11 @@ def parse_option(where, ev_id, om, parse_cond, resolve, flags_set, flags_read, q
     if re.search(r"\(alternatif\)", rest):
         opt["alt"] = True
         rest = re.sub(r"\s*\(alternatif\)", "", rest)
+    hm0 = re.search(r"\(tarihî(?::\s*(wiki|varsayım))?\)", rest)
+    opt["hist"] = None
+    if hm0:
+        opt["hist"] = hm0.group(1) or "kasa"
+        rest = rest[:hm0.start()] + rest[hm0.end():]
     cm = re.search(r"\[koşul:\s*(.+?)\]", rest)
     if cm:
         opt["cond"], fl = parse_cond(where, cm.group(1))
