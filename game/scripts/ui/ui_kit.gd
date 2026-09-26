@@ -103,9 +103,32 @@ static func rich(bbcode: String, size := FONT) -> RichTextLabel:
 	r.add_theme_font_size_override("bold_font_size", size)
 	r.add_theme_font_size_override("italics_font_size", size)
 	r.add_theme_color_override("default_color", INK)
-	r.text = bbcode
 	r.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	if not bbcode.contains("{i:"):
+		r.text = bbcode
+		return r
+	# source icons: {i:book} vault, {i:wiki} Wikipedia, {i:guess} assumption / alternative history
+	var re := RegEx.new()
+	re.compile("\\{i:(book|wiki|guess)\\}")
+	var pos := 0
+	for m in re.search_all(bbcode):
+		if m.get_start() > pos:
+			r.append_text(bbcode.substr(pos, m.get_start() - pos))
+		var tex := icon(m.get_string(1))
+		if tex:
+			r.add_image(tex, size + 2, size + 2)
+		pos = m.get_end()
+	r.append_text(bbcode.substr(pos))
 	return r
+
+
+static var _icons := {}
+
+
+static func icon(name: String) -> Texture2D:
+	if not _icons.has(name):
+		_icons[name] = Logic.load_texture("res://game/assets/ui/%s.png" % name)
+	return _icons[name]
 
 
 static func button(text: String, color := PANEL_2, size := FONT) -> Button:

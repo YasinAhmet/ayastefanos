@@ -132,6 +132,22 @@ def to_bbcode(s, codex_refs=None):
     return s
 
 
+def src_line(s):
+    """A source line → BBCode with its kind as icon markers ({i:book} vault books and notes, {i:wiki} Wikipedia,
+    {i:guess} assumption or alternative history); the game draws the icons (UIKit.rich)."""
+    icons = []
+    has_link = bool(LINK.search(s))
+    if has_link:
+        icons.append("book")
+    if "Wikipedia" in s or "⚠" in s:
+        icons.append("wiki")
+    if re.search(r"varsayım|tahmin|Alternatif tarih|tasarım", s, re.I) and not has_link:
+        icons.append("guess")
+    if not icons:
+        icons.append("guess")
+    return "".join("{i:%s}" % i for i in icons) + " " + to_bbcode(s)
+
+
 # ---------------------------------------------------------------- conditions
 
 TOKEN = re.compile(r"\s*(>=|<=|!=|=|>|<|&|\||!|\(|\)|\+|-|⚑\s*[\wçğıöşüÇĞİÖŞÜ]+|f:[\wçğıöşüÇĞİÖŞÜ]+|(?:il|sahip):[a-z0-9_]+|\d+|[\wçğıöşüÇĞİÖŞÜ]+)")
@@ -575,7 +591,7 @@ def main():
                                            "images": sorted(dated, key=lambda d: d["from"]),
                                            "role": fields.get("rol", ""), "image": image(where, fields.get("görsel")),
                                            "text": to_bbcode(para, codex_refs),
-                                           "sources": [to_bbcode(s) for s in srcs]}
+                                           "sources": [src_line(s) for s in srcs]}
                 continue
             if "devlet" in fields:
                 title = header.split("·", 1)[-1].strip()
@@ -617,7 +633,7 @@ def main():
                                "provinces": [x.strip() for x in fields.get("iller", "").split(",") if x.strip()],
                                "border": [x.strip() for x in fields.get("sınır", "").split(",") if x.strip()],
                                "results": [x.strip() for x in fields.get("sonuç", "").split(",") if x.strip()],
-                               "text": to_bbcode(para, codex_refs), "sources": [to_bbcode(x) for x in srcs],
+                               "text": to_bbcode(para, codex_refs), "sources": [src_line(x) for x in srcs],
                                "_where": where}
                 continue
             if "yer" in fields and "id" not in fields:
@@ -634,7 +650,7 @@ def main():
                                             "icon": fields.get("simge", "yer"),
                                             "image": image(where, fields.get("görsel")),
                                             "text": to_bbcode(para, codex_refs),
-                                            "sources": [to_bbcode(x) for x in srcs]}
+                                            "sources": [src_line(x) for x in srcs]}
                 continue
             if "son" in fields and "id" not in fields:
                 title = header.split("·", 1)[-1].strip()
@@ -649,7 +665,7 @@ def main():
                 endings[fields["son"]] = {"id": fields["son"], "title": title, "alternative": "alternatif" in tags,
                                           "image": image(where, fields.get("görsel")),
                                           "text": [to_bbcode(p, codex_refs) for p in paras],
-                                          "sources": [to_bbcode(s) for s in srcs]}
+                                          "sources": [src_line(s) for s in srcs]}
                 continue
             if "id" not in fields:
                 continue
@@ -729,13 +745,13 @@ def main():
                 if s.startswith(">"):
                     q = s[1:].strip()
                     if q.startswith("Kaynak:"):
-                        ev["sources"].append(to_bbcode(q[len("Kaynak:"):].strip()))
+                        ev["sources"].append(src_line(q[len("Kaynak:"):].strip()))
                         ev.setdefault("_src_raw", []).append(q)
                     elif q[:1] in "“\"":
                         ev["quotes"].append(q.strip("“”\""))
                         ev["sources"].append("“" + q.strip("“”\"") + "”")
                     elif q.startswith("—"):
-                        ev["sources"].append(to_bbcode(q))
+                        ev["sources"].append(src_line(q))
                         ev.setdefault("_src_raw", []).append(q)
                     else:
                         ev["sources"].append(to_bbcode(q))
@@ -796,7 +812,7 @@ def main():
                 span.append(int(mm.group(1)) * 12 + int(mm.group(2)) - 1)
         place = r.get("Yer", "").strip()
         fig = {"person": pid, "from": span[0], "to": span[1], "place": "", "label": "", "lonlat": [0.0, 0.0],
-               "cond": None, "source": to_bbcode(r.get("Dayanak", "").replace("\\|", "|"))}
+               "cond": None, "source": src_line(r.get("Dayanak", "").replace("\\|", "|"))}
         if "@" in place:
             label, _, ll = place.partition("@")
             try:

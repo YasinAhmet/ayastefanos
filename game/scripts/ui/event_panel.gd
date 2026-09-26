@@ -10,9 +10,9 @@ const SEAT_RES := {"maliye": "para", "harbiye": "harbiye", "bahriye": "bahriye"}
 const SEAT_NAME := {"maliye": "Maliye Nazırı", "harbiye": "Harbiye Nazırı", "bahriye": "Bahriye Nazırı"}
 const WIDTH := 580
 const HIST_BASIS := {
-	"kasa": "Tarihte olan: kasadaki kitaplara göre.",
-	"wiki": "Tarihte olan: Wikipedia'ya göre (⚠ kasa dışı kaynak; Kaynakça'da bağlantısı var).",
-	"varsayım": "Tarihte olan: kaynak bulunamadı, varsayım.",
+	"kasa": "{i:book} Tarihte olan: kasadaki kitaplara göre.",
+	"wiki": "{i:wiki} Tarihte olan: Wikipedia'ya göre (⚠ kasa dışı kaynak; Kaynakça'da bağlantısı var).",
+	"varsayım": "{i:guess} Tarihte olan: kaynak bulunamadı, varsayım.",
 }
 
 var state: GameState
@@ -84,9 +84,8 @@ func open(ev: Dictionary) -> void:
 		b.pressed.connect(_choose.bind(ev, i, opts_box, outcome_box))
 		opts_box.add_child(b)
 		if state.historical() and opt.get("hist") != null and UIKit.show_sources:
-			var basis := UIKit.label(str(HIST_BASIS.get(str(opt["hist"]), "")), 10,
-				UIKit.MUTED if str(opt["hist"]) == "kasa" else Color("d9b26a"), true)
-			opts_box.add_child(basis)
+			var col := "#ab9d82" if str(opt["hist"]) == "kasa" else "#d9b26a"
+			opts_box.add_child(UIKit.rich("[color=%s]%s[/color]" % [col, HIST_BASIS.get(str(opt["hist"]), "")], 10))
 	m["opts_box"] = opts_box
 	if not ev["sources"].is_empty() and UIKit.show_sources:
 		var src_btn := UIKit.button("Kaynakça ▾", UIKit.PANEL, 11)
@@ -161,5 +160,5 @@ func _rich(bb: String, size: int) -> RichTextLabel:
 
 static func _plain(bb: String) -> String:
 	var re := RegEx.new()
-	re.compile("\\[/?[a-z]+(=[^\\]]*)?\\]")
+	re.compile("\\[/?[a-z]+(=[^\\]]*)?\\]|\\{i:[a-z]+\\} ?")
 	return re.sub(bb, "", true)
