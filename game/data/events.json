@@ -185,9 +185,14 @@
    "id": "talat",
    "name": "Talat",
    "title": "Talat Bey, Dahiliye Nazırı (1917'den Sadrazam Talat Paşa)",
-   "images": [],
+   "images": [
+    {
+     "from": 1917,
+     "image": "res://game/assets/images/Talat_Pasha_d131f6.jpg"
+    }
+   ],
    "role": "hükümdar",
-   "image": "res://game/assets/images/Talat_Pasha_d131f6.jpg",
+   "image": "res://game/assets/images/Idman19140528TalatBey_97205d.jpg",
    "text": "Edirneli bir posta memurunun oğlu; Selanik posta idaresinde memurken 1906'da Osmanlı Hürriyet Cemiyeti'ni kurar ve İttihat ve Terakki'nin sivil lideri olur. 1908'den sonra Dahiliye Nazırı, 1917–1918'de sadrazamdır. Büyük Harp'te iktidar Talat, Enver ve Cemal üçlüsündedir; iç cepheyi, iaşeyi ve 1915 tehcirini yöneten Dahiliye odur. Mütarekeden sonra bir Alman gemisiyle kaçar; 15 Mart 1921'de Berlin'de bir Ermeni tarafından vurulur.",
    "sources": [
     "Kaynak: Talat Paşa · Mantran, p. 766 · [i]Fransız kaynağı[/i] · Yalman, [i]Birinci Dünya Savaşı'nda Türkiye[/i], p. 98 · [i]Türk kaynağı[/i]"
@@ -360,6 +365,10 @@
    "title": "Mustafa Kemal Bey (Paşa)",
    "images": [
     {
+     "from": 1915,
+     "image": "res://game/assets/images/Mustafa_Kemal_1916_66f14f.png"
+    },
+    {
      "from": 1917,
      "image": "res://game/assets/images/Mustafa_Kemal_1917_AtaturkYildirim_k_rp_lm_0267f8.jpg"
     }
@@ -389,7 +398,7 @@
    "title": "Gazi Osman Paşa",
    "images": [],
    "role": "figür",
-   "image": "res://game/assets/images/Gazi_Osman_Pa_a_Heykeli_9a0d26.jpg",
+   "image": "res://game/assets/images/Osman_Pascha_Gazi_Osman_Pa_a_551b6a.jpg",
    "text": "Plevne'nin müdafii. 1877'de Vidin'den Plevne'ye yetişir ve beş ay boyunca, Bardakçı'nın deyişiyle \"bir avuç askerle yüz binlerce kişilik bir Rus ordusunu durdurur\"; İngiliz ve Amerikalı gözlemciler de onu över. Aralık 1877'de yaralı olarak teslim olur. Esaretten dönünce Abdülhamid onu yanında, Yıldız'da Mabeyn müşiri olarak tutar; hem şerefini kullanır hem de onun bir muhalefet odağı olmasını önler. Askerin tanıdığı \"son kahraman\" diye anılır.",
    "sources": [
     "Kaynak: Gazi Osman Paşa · [i]Türk kaynağı[/i]"
@@ -413,7 +422,7 @@
    "title": "Midhat Paşa",
    "images": [],
    "role": "figür",
-   "image": null,
+   "image": "res://game/assets/images/Nadar_Portrait_of_Midhat_Pasha_4e6ce2.jpg",
    "text": "Büyük ıslahatçı vali ve \"Kanun-ı Esasi'nin babası\". Tuna ve Bağdat valiliklerinde memleket sandıklarını ve ilk vilayet gazetelerini kurar. Sadrazam olarak Abdülaziz'in ve V. Murad'ın tahttan indirilmesinde ve Meşrutiyet'in ilanında rol oynar. Abdülhamid onu beş ay sonra sürgüne gönderir; Suriye ve İzmir valiliklerinden sonra Yıldız'da yargılanır, idama mahkûm edilir, ceza sürgüne çevrilir. 1884'te Taif'te, söylentiye göre öldürülerek, ölür.",
    "sources": [
     "Kaynak: Midhat Paşa · [i]Türk kaynağı[/i]"
@@ -449,7 +458,7 @@
    "title": "Fahreddin Paşa, Medine muhafızı",
    "images": [],
    "role": "figür",
-   "image": "res://game/assets/images/Korgeneral_mer_Fahreddin_T_rkkan_1935_1936_87da77.jpg",
+   "image": "res://game/assets/images/mer_Fahreddin_Pa_a_eeb949.jpg",
    "text": "Fahreddin (Fahri) Paşa, Medine'nin müdafii. Şerif Hüseyin'in isyanından sonra Cemal Paşa onu 15–16 taburla Medine'ye kumandan atar. Faysal ona \"hükümetteki adamlara karşı\" katılması için mektuplar gönderir; o reddeder. Demiryoluna yapılan baskınlar karşı taarruzunu durdurur, ama şehri mütarekeden sonra da bir süre tutar.",
    "sources": [
     "Kaynak: Fahreddin Paşa · [i]Türk kaynağı[/i]"

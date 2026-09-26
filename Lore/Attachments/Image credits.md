@@ -937,3 +937,7 @@ Images are illustrations only and are ⚠ not from vault sources.
 | Mahmud Shevket Pasha.png | [[Mahmud Şevket Paşa]] | Boghos Tarkulian | Public domain | [link](https://commons.wikimedia.org/wiki/File:Mahmud_Shevket_Pasha.png) |
 | Mustafa Kemal 1917 (AtaturkYildirim, kırpılmış).jpg | [[Mustafa Kemal Atatürk]] | Unknown author (kırpma: AtaturkYildirim.jpg) | Public domain | [link](https://commons.wikimedia.org/wiki/File:AtaturkYildirim.jpg) |
 | Idman19140528TalatBey.jpg | [[Talat Paşa]] | İdman (Spordan Bahseder On Beş Günde Bir Çıkar Resimli Mecmua) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Idman19140528TalatBey.jpg) |
+| Nadar - Portrait of Midhat Pasha.jpg | [[Midhat Paşa]] | Nadar | Public domain | [link](https://commons.wikimedia.org/wiki/File:Nadar_-_Portrait_of_Midhat_Pasha.jpg) |
+| Mustafa Kemal, 1916.png | [[Mustafa Kemal Atatürk]] | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Mustafa_Kemal,_1916.png) |
+| Osman Pascha (Gazi Osman Paşa).jpg | [[Gazi Osman Paşa]] | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Osman_Pascha_(Gazi_Osman_Pa%C5%9Fa).jpg) |
+| Ömer Fahreddin Paşa.jpg | [[Fahreddin Paşa]] | Yuotka | Public domain | [link](https://commons.wikimedia.org/wiki/File:%C3%96mer_Fahreddin_Pa%C5%9Fa.jpg) |

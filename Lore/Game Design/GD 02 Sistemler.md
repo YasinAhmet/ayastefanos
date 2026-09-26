@@ -54,7 +54,7 @@ Masadaki Payitaht düğmesi hükümdarı ve üç nazırı gösterir. Bir nazır�
 > Kaynak: [[Abdülhamid II]] · [[Enver (Murat Bardakçı)#p. 62|Bardakçı, *Enver*, p. 62]] · *Türk kaynağı* · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 654|Mantran, *Osmanlı İmparatorluğu Tarihi*, p. 654]] · *Fransız kaynağı*
 
 ### Kişi · Talat
-`kişi: talat` · `unvan: Talat Bey, Dahiliye Nazırı (1917'den Sadrazam Talat Paşa)` · `görsel: Talat Pasha.jpg` · `rol: hükümdar`
+`kişi: talat` · `unvan: Talat Bey, Dahiliye Nazırı (1917'den Sadrazam Talat Paşa)` · `görsel: Idman19140528TalatBey.jpg` · `görseller: 1917=Talat Pasha.jpg` · `rol: hükümdar`
 Edirneli bir posta memurunun oğlu; Selanik posta idaresinde memurken 1906'da Osmanlı Hürriyet Cemiyeti'ni kurar ve İttihat ve Terakki'nin sivil lideri olur. 1908'den sonra Dahiliye Nazırı, 1917–1918'de sadrazamdır. Büyük Harp'te iktidar Talat, Enver ve Cemal üçlüsündedir; iç cepheyi, iaşeyi ve 1915 tehcirini yöneten Dahiliye odur. Mütarekeden sonra bir Alman gemisiyle kaçar; 15 Mart 1921'de Berlin'de bir Ermeni tarafından vurulur.
 > Kaynak: [[Talat Paşa]] · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 766|Mantran, p. 766]] · *Fransız kaynağı* · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 98|Yalman, *Birinci Dünya Savaşı'nda Türkiye*, p. 98]] · *Türk kaynağı*
 
@@ -124,7 +124,7 @@ Hüseyin Rauf (Orbay), Balkan Harbi'nin "Hamidiye kahramanı" deniz subayı. 191
 > Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 178|Güneş, p. 178]] · [[Şahbaba (Murat Bardakçı)#p. 116|Bardakçı, *Şahbaba*, p. 116]] · *Türk kaynağı*
 
 ### Kişi · Mustafa Kemal
-`kişi: mustafa_kemal` · `unvan: Mustafa Kemal Bey (Paşa)` · `görsel: Ataturk, Ottoman War Academy, 1901.jpg` · `görseller: 1917=Mustafa Kemal 1917 (AtaturkYildirim, kırpılmış).jpg` · `rol: figür`
+`kişi: mustafa_kemal` · `unvan: Mustafa Kemal Bey (Paşa)` · `görsel: Ataturk, Ottoman War Academy, 1901.jpg` · `görseller: 1915=Mustafa Kemal, 1916.png · 1917=Mustafa Kemal 1917 (AtaturkYildirim, kırpılmış).jpg` · `rol: figür`
 Selanikli genç bir kurmay. 1905–1907'de Şam'da Vatan ve Hürriyet'i kurar, 1907 sonbaharında Selanik'te İttihat ve Terakki'ye girer ve Enver'le ilk anlaşmazlığını yaşar. Trablusgarp'ta Enver'in emrinde Derne'de, Balkan Harbi'nde Bolayır'da savaşır, 1913–1915'te Sofya'da ataşemiliterdir. Çanakkale'de Arıburnu ve Anafartalar'ın kumandanı olarak adını duyurur; 1916'da Bitlis ve Muş'u geri alır, 1917'de Cemal Paşa'yla çatışıp istifa eder. 19 Mayıs 1919'da Samsun'a çıkar.
 > Kaynak: [[Mustafa Kemal Atatürk]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 86|İnan, *Atatürk Hakkında Hatıralar ve Belgeler*, p. 86]] · [[Enver (Murat Bardakçı)#p. 115|Bardakçı, *Enver*, p. 115]] · *Türk kaynağı*
 
@@ -134,7 +134,7 @@ Resneli Kolağası Ahmed Niyazi, Arnavut bir subay. 3 Temmuz 1908'de 160 kişili
 > Kaynak: [[Resneli Niyazi]] · *Türk kaynağı*
 
 ### Kişi · Gazi Osman Paşa
-`kişi: osman_pasa` · `unvan: Gazi Osman Paşa` · `görsel: Gazi Osman Paşa Heykeli.jpg` · `rol: figür`
+`kişi: osman_pasa` · `unvan: Gazi Osman Paşa` · `görsel: Osman Pascha (Gazi Osman Paşa).jpg` · `rol: figür`
 Plevne'nin müdafii. 1877'de Vidin'den Plevne'ye yetişir ve beş ay boyunca, Bardakçı'nın deyişiyle "bir avuç askerle yüz binlerce kişilik bir Rus ordusunu durdurur"; İngiliz ve Amerikalı gözlemciler de onu över. Aralık 1877'de yaralı olarak teslim olur. Esaretten dönünce Abdülhamid onu yanında, Yıldız'da Mabeyn müşiri olarak tutar; hem şerefini kullanır hem de onun bir muhalefet odağı olmasını önler. Askerin tanıdığı "son kahraman" diye anılır.
 > Kaynak: [[Gazi Osman Paşa]] · *Türk kaynağı*
 
@@ -144,7 +144,7 @@ Mareşal ve sadrazam. '93 Harbi'nde Kafkas cephesinde birkaç zafer kazanır, am
 > Kaynak: [[Gazi Ahmed Muhtar Paşa]] · *Türk kaynağı*
 
 ### Kişi · Midhat Paşa
-`kişi: midhat` · `unvan: Midhat Paşa` · `rol: figür`
+`kişi: midhat` · `unvan: Midhat Paşa` · `görsel: Nadar - Portrait of Midhat Pasha.jpg` · `rol: figür`
 Büyük ıslahatçı vali ve "Kanun-ı Esasi'nin babası". Tuna ve Bağdat valiliklerinde memleket sandıklarını ve ilk vilayet gazetelerini kurar. Sadrazam olarak Abdülaziz'in ve V. Murad'ın tahttan indirilmesinde ve Meşrutiyet'in ilanında rol oynar. Abdülhamid onu beş ay sonra sürgüne gönderir; Suriye ve İzmir valiliklerinden sonra Yıldız'da yargılanır, idama mahkûm edilir, ceza sürgüne çevrilir. 1884'te Taif'te, söylentiye göre öldürülerek, ölür.
 > Kaynak: [[Midhat Paşa]] · *Türk kaynağı*
 
@@ -159,7 +159,7 @@ Otto Liman von Sanders, Aralık 1913'te gelen Alman askerî heyetinin başı. Ru
 > Kaynak: [[Liman von Sanders]] · *Alman kaynağı*
 
 ### Kişi · Fahreddin Paşa
-`kişi: fahreddin` · `unvan: Fahreddin Paşa, Medine muhafızı` · `görsel: Korgeneral Ömer Fahreddin Türkkan (1935~1936).jpg` · `rol: figür`
+`kişi: fahreddin` · `unvan: Fahreddin Paşa, Medine muhafızı` · `görsel: Ömer Fahreddin Paşa.jpg` · `rol: figür`
 Fahreddin (Fahri) Paşa, Medine'nin müdafii. Şerif Hüseyin'in isyanından sonra Cemal Paşa onu 15–16 taburla Medine'ye kumandan atar. Faysal ona "hükümetteki adamlara karşı" katılması için mektuplar gönderir; o reddeder. Demiryoluna yapılan baskınlar karşı taarruzunu durdurur, ama şehri mütarekeden sonra da bir süre tutar.
 > Kaynak: [[Fahreddin Paşa]] · *Türk kaynağı*
 
