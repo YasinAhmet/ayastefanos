@@ -38,6 +38,8 @@ var outcomes := {}      # world key -> {value -> count}, at the end of random ru
 var worlds_1900 := {}   # signature -> count
 var front_ends := {}    # front id -> {result event id -> count}
 var snapshot := ""
+var figure_log := {}    # "YYYY-MM" -> ["person@label"], filled on the Tarihî path
+const FIGURE_DATES := [Vector2i(1877, 9), Vector2i(1908, 7), Vector2i(1912, 3), Vector2i(1915, 5), Vector2i(1919, 6)]
 
 
 func _initialize() -> void:
@@ -67,6 +69,24 @@ func _initialize() -> void:
 	print("%s tarihî yol    → %s (wanted son3) at %s · steps %d · %s" % [hmark, h["ending"], h["date"], h["steps"], h["summary"]])
 	for m in many:
 		print("  more than one option shown in Tarihî mode: ", m)
+	print("  population at the end (all provinces, thousands, vs 1873):")
+	for g in ["ermeni", "turk", "arap", "rum", "bulgar"]:
+		var now: float = gs.group_total(g, true)
+		var then: float = gs.group_total(g, true, true)
+		print("    %-7s %6.0f / %6.0f  (%3.0f%%)" % [g, now, then, 100.0 * now / maxf(then, 1.0)])
+	var dogu_now := 0.0
+	var dogu_then := 0.0
+	for pid in gs.population:
+		if str(gs.provinces[pid]["region"]) == "Doğu":
+			dogu_now += float(gs.population[pid].get("ermeni", 0.0))
+			dogu_then += float(gs.pop_start[pid].get("ermeni", 0.0))
+	print("    ermeni in Doğu: %.0f / %.0f (%.0f%%)" % [dogu_now, dogu_then, 100.0 * dogu_now / maxf(dogu_then, 1.0)])
+	print("  figures on the map (Tarihî path):")
+	for k in figure_log:
+		print("    %s  %s" % [k, ", ".join(figure_log[k])])
+	if not str(figure_log.get("1912-03", [])).contains("enver@Derne"):
+		ok = false
+		print("  FAIL Enver should be at Derne in 1912")
 	var hist_seen := reached.duplicate()
 	var missed: Array = []
 	for ev in gs.event_order:
@@ -135,6 +155,15 @@ func play(strategy, rng, mode := "serbest", many = null) -> Dictionary:
 		steps += 1
 		if snapshot == "" and gs.year >= 1900:
 			snapshot = _signature()
+		if mode == "tarihi":
+			for d in FIGURE_DATES:
+				var ym := "%d-%02d" % [d.x, d.y]
+				if figure_log.has(ym) or gs.year * 12 + gs.month < d.x * 12 + d.y:
+					continue
+				var names: Array = ["(%d-%02d)" % [gs.year, gs.month]]
+				for f in gs.figure_places():
+					names.append("%s@%s" % [f["person"], f["label"]])
+				figure_log[ym] = names
 		var open: Array = gs.open_events()
 		for ev in open:
 			reached[ev["id"]] = true

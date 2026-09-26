@@ -332,6 +332,94 @@
    "sources": [
     "Kaynak: Güneş, p. 178 · Bardakçı, [i]Şahbaba[/i], p. 116 · [i]Türk kaynağı[/i]"
    ]
+  },
+  "mustafa_kemal": {
+   "id": "mustafa_kemal",
+   "name": "Mustafa Kemal",
+   "title": "Mustafa Kemal Bey (Paşa)",
+   "role": "figür",
+   "image": "res://game/assets/images/Atat_rk_Kemal_974c7f.jpg",
+   "text": "Selanikli genç kurmay. Şam'da Vatan ve Hürriyet'i kurar, Trablus'ta Enver'in emrinde Derne'de savaşır, Sofya'da ataşemiliterdir; Arıburnu ve Anafartalar'ın komutanı, 1919'da Samsun'a çıkar.",
+   "sources": [
+    "Kaynak: Mustafa Kemal Atatürk · İnan, [i]Atatürk Hakkında Hatıralar ve Belgeler[/i], p. 86 · Bardakçı, [i]Enver[/i], p. 115 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "niyazi": {
+   "id": "niyazi",
+   "name": "Resneli Niyazi",
+   "title": "Kolağası Resneli Niyazi Bey",
+   "role": "figür",
+   "image": "res://game/assets/images/Ahmedniyazibey_cc2ab6.jpg",
+   "text": "Temmuz 1908'de taburuyla Resne'den dağa çıkan subay; Enver'le birlikte \"hürriyet kahramanı\".",
+   "sources": [
+    "Kaynak: Resneli Niyazi · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "osman_pasa": {
+   "id": "osman_pasa",
+   "name": "Gazi Osman Paşa",
+   "title": "Gazi Osman Paşa",
+   "role": "figür",
+   "image": "res://game/assets/images/Gazi_Osman_Pa_a_Heykeli_9a0d26.jpg",
+   "text": "Vidin'den Plevne'ye yetişip beş ay Rus ordusunu durduran müşir; esaretten dönünce Abdülhamid'in yanında, Yıldız'da Mabeyn müşiridir.",
+   "sources": [
+    "Kaynak: Gazi Osman Paşa · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "ahmed_muhtar": {
+   "id": "ahmed_muhtar",
+   "name": "Gazi Ahmed Muhtar Paşa",
+   "title": "Gazi Ahmed Muhtar Paşa",
+   "role": "figür",
+   "image": "res://game/assets/images/Ahmet_muhtar_1df0be.jpg",
+   "text": "'93 Harbi'nde Kafkas cephesinin kumandanı; sonra yirmi yıl Mısır fevkalade komiseri, 1912'de sadrazam.",
+   "sources": [
+    "Kaynak: Gazi Ahmed Muhtar Paşa · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "midhat": {
+   "id": "midhat",
+   "name": "Midhat Paşa",
+   "title": "Midhat Paşa",
+   "role": "figür",
+   "image": null,
+   "text": "Kanun-ı Esasi'nin babası; sürgün, Suriye ve İzmir valilikleri, Yıldız'daki muhakeme ve Taif.",
+   "sources": [
+    "Kaynak: Midhat Paşa · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "goltz": {
+   "id": "goltz",
+   "name": "Goltz Paşa",
+   "title": "Colmar von der Goltz Paşa",
+   "role": "figür",
+   "image": "res://game/assets/images/Colmar_von_der_Goltz_78bf7e.jpg",
+   "text": "Harbiye Mektebi'nin Alman hocası (1883–1895); Büyük Harp'te Irak'ta 6. Ordu kumandanı, Nisan 1916'da Bağdat'ta ölür.",
+   "sources": [
+    "Kaynak: Colmar von der Goltz · [i]Alman kaynağı[/i]"
+   ]
+  },
+  "liman": {
+   "id": "liman",
+   "name": "Liman von Sanders",
+   "title": "Liman von Sanders Paşa",
+   "role": "figür",
+   "image": "res://game/assets/images/Bundesarchiv_Bild_183_2007_0917_501_Otto_Liman_von_Sanders_c69241.jpg",
+   "text": "Aralık 1913'te gelen Alman askerî heyetinin başı; Gelibolu'da 5. Ordu'nun, 1918'de Filistin'de Yıldırım Ordular Grubu'nun kumandanı.",
+   "sources": [
+    "Kaynak: Liman von Sanders · [i]Alman kaynağı[/i]"
+   ]
+  },
+  "fahreddin": {
+   "id": "fahreddin",
+   "name": "Fahreddin Paşa",
+   "title": "Fahreddin Paşa, Medine muhafızı",
+   "role": "figür",
+   "image": "res://game/assets/images/Korgeneral_mer_Fahreddin_T_rkkan_1935_1936_87da77.jpg",
+   "text": "Şerif Hüseyin'in isyanından mütarekeden sonrasına kadar kuşatılmış Medine'yi tutan paşa.",
+   "sources": [
+    "Kaynak: Fahreddin Paşa · [i]Türk kaynağı[/i]"
+   ]
   }
  },
  "nations": {
@@ -1938,6 +2026,1175 @@
    ]
   }
  },
+ "pop_groups": [
+  {
+   "id": "turk",
+   "name": "Türk ve Müslüman",
+   "power": null,
+   "leave": 35,
+   "press": null,
+   "revolt": null
+  },
+  {
+   "id": "kurt",
+   "name": "Kürt",
+   "power": "kurtler",
+   "leave": 10,
+   "press": null,
+   "revolt": null
+  },
+  {
+   "id": "arap",
+   "name": "Arap",
+   "power": "araplar",
+   "leave": 0,
+   "press": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     },
+     {
+      "op": "cmp",
+      "cmp": "<",
+      "left": [
+       [
+        1,
+        "araplar"
+       ]
+      ],
+      "right": 30
+     }
+    ]
+   },
+   "revolt": {
+    "op": "flag",
+    "name": "arap_isyani"
+   }
+  },
+  {
+   "id": "arnavut",
+   "name": "Arnavut",
+   "power": null,
+   "leave": 10,
+   "press": null,
+   "revolt": null
+  },
+  {
+   "id": "bosnak",
+   "name": "Boşnak",
+   "power": null,
+   "leave": 20,
+   "press": null,
+   "revolt": null
+  },
+  {
+   "id": "rum",
+   "name": "Rum",
+   "power": null,
+   "leave": 0,
+   "press": null,
+   "revolt": null
+  },
+  {
+   "id": "ermeni",
+   "name": "Ermeni",
+   "power": "ermeniler",
+   "leave": 0,
+   "press": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "hamidiye_kuruldu"
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "yol_ittihat"
+      }
+     }
+    ]
+   },
+   "revolt": null
+  },
+  {
+   "id": "bulgar",
+   "name": "Bulgar",
+   "power": null,
+   "leave": 0,
+   "press": null,
+   "revolt": null
+  },
+  {
+   "id": "sirp",
+   "name": "Sırp",
+   "power": null,
+   "leave": 0,
+   "press": null,
+   "revolt": null
+  },
+  {
+   "id": "yahudi",
+   "name": "Yahudi",
+   "power": null,
+   "leave": 0,
+   "press": null,
+   "revolt": null
+  },
+  {
+   "id": "diger",
+   "name": "Diğer (Çerkes, Tatar, Süryani, Ulah, Kıpti…)",
+   "power": null,
+   "leave": 20,
+   "press": null,
+   "revolt": null
+  }
+ ],
+ "population": {
+  "istanbul": {
+   "turk": 380.0,
+   "rum": 150.0,
+   "ermeni": 150.0,
+   "bulgar": 5.0,
+   "yahudi": 45.0,
+   "diger": 130.0
+  },
+  "edirne": {
+   "turk": 500.0,
+   "rum": 300.0,
+   "ermeni": 20.0,
+   "bulgar": 350.0,
+   "yahudi": 15.0,
+   "diger": 30.0
+  },
+  "dogu_rumeli": {
+   "turk": 200.0,
+   "rum": 50.0,
+   "bulgar": 600.0,
+   "diger": 30.0
+  },
+  "tuna": {
+   "turk": 700.0,
+   "rum": 20.0,
+   "bulgar": 1100.0,
+   "yahudi": 15.0,
+   "diger": 150.0
+  },
+  "selanik": {
+   "turk": 400.0,
+   "arnavut": 20.0,
+   "rum": 300.0,
+   "bulgar": 300.0,
+   "yahudi": 80.0,
+   "diger": 50.0
+  },
+  "manastir": {
+   "turk": 150.0,
+   "arnavut": 250.0,
+   "rum": 100.0,
+   "bulgar": 250.0,
+   "diger": 60.0
+  },
+  "kosova": {
+   "turk": 100.0,
+   "arnavut": 400.0,
+   "bosnak": 30.0,
+   "bulgar": 100.0,
+   "sirp": 200.0
+  },
+  "iskodra": {
+   "arnavut": 250.0,
+   "sirp": 20.0,
+   "diger": 10.0
+  },
+  "yanya": {
+   "arnavut": 300.0,
+   "rum": 250.0,
+   "yahudi": 5.0,
+   "diger": 40.0
+  },
+  "teselya": {
+   "turk": 40.0,
+   "rum": 300.0,
+   "diger": 20.0
+  },
+  "bosna": {
+   "bosnak": 500.0,
+   "sirp": 500.0,
+   "yahudi": 5.0,
+   "diger": 200.0
+  },
+  "nis": {
+   "turk": 60.0,
+   "arnavut": 40.0,
+   "sirp": 180.0
+  },
+  "dobruca": {
+   "turk": 60.0,
+   "rum": 10.0,
+   "bulgar": 40.0,
+   "diger": 80.0
+  },
+  "girit": {
+   "turk": 80.0,
+   "rum": 200.0
+  },
+  "ege_adalari": {
+   "turk": 20.0,
+   "rum": 200.0
+  },
+  "oniki_ada": {
+   "turk": 10.0,
+   "rum": 120.0,
+   "yahudi": 3.0
+  },
+  "kibris": {
+   "turk": 45.0,
+   "rum": 140.0
+  },
+  "hudavendigar": {
+   "turk": 1200.0,
+   "rum": 80.0,
+   "ermeni": 60.0,
+   "diger": 30.0
+  },
+  "aydin": {
+   "turk": 1100.0,
+   "rum": 250.0,
+   "ermeni": 15.0,
+   "yahudi": 25.0,
+   "diger": 30.0
+  },
+  "konya": {
+   "turk": 900.0,
+   "rum": 60.0,
+   "ermeni": 15.0
+  },
+  "ankara": {
+   "turk": 800.0,
+   "rum": 40.0,
+   "ermeni": 80.0
+  },
+  "kastamonu": {
+   "turk": 900.0,
+   "rum": 20.0
+  },
+  "adana": {
+   "turk": 250.0,
+   "arap": 30.0,
+   "ermeni": 80.0,
+   "diger": 30.0
+  },
+  "sivas": {
+   "turk": 800.0,
+   "rum": 60.0,
+   "ermeni": 150.0
+  },
+  "trabzon": {
+   "turk": 850.0,
+   "rum": 150.0,
+   "ermeni": 50.0
+  },
+  "erzurum": {
+   "turk": 350.0,
+   "kurt": 100.0,
+   "ermeni": 130.0,
+   "diger": 10.0
+  },
+  "kars": {
+   "turk": 60.0,
+   "kurt": 20.0,
+   "ermeni": 30.0,
+   "diger": 20.0
+  },
+  "batum": {
+   "turk": 80.0,
+   "diger": 20.0
+  },
+  "van": {
+   "turk": 30.0,
+   "kurt": 180.0,
+   "ermeni": 130.0,
+   "diger": 20.0
+  },
+  "bitlis": {
+   "turk": 30.0,
+   "kurt": 220.0,
+   "ermeni": 130.0
+  },
+  "diyarbakir": {
+   "turk": 70.0,
+   "kurt": 250.0,
+   "ermeni": 70.0,
+   "diger": 50.0
+  },
+  "mamuretulaziz": {
+   "turk": 250.0,
+   "kurt": 100.0,
+   "ermeni": 90.0
+  },
+  "halep": {
+   "turk": 250.0,
+   "arap": 450.0,
+   "ermeni": 50.0,
+   "diger": 60.0
+  },
+  "suriye": {
+   "arap": 600.0,
+   "yahudi": 10.0,
+   "diger": 70.0
+  },
+  "beyrut": {
+   "arap": 500.0,
+   "diger": 60.0
+  },
+  "kudus": {
+   "arap": 230.0,
+   "yahudi": 25.0
+  },
+  "musul": {
+   "turk": 20.0,
+   "kurt": 180.0,
+   "arap": 150.0,
+   "diger": 50.0
+  },
+  "bagdat": {
+   "kurt": 20.0,
+   "arap": 700.0,
+   "yahudi": 50.0
+  },
+  "basra": {
+   "arap": 450.0
+  },
+  "hicaz": {
+   "arap": 400.0
+  },
+  "yemen": {
+   "arap": 1500.0
+  },
+  "lahsa": {
+   "arap": 100.0
+  },
+  "kuveyt": {
+   "arap": 30.0
+  },
+  "trablusgarp": {
+   "arap": 800.0,
+   "yahudi": 20.0
+  },
+  "tunus": {
+   "arap": 1100.0,
+   "yahudi": 30.0,
+   "diger": 20.0
+  },
+  "misir": {
+   "arap": 5500.0,
+   "diger": 700.0
+  }
+ },
+ "figures": [
+  {
+   "person": "midhat",
+   "from": 22476,
+   "to": 22524,
+   "place": "babiali",
+   "label": "Babıâli",
+   "lonlat": [
+    28.976,
+    41.011
+   ],
+   "cond": null,
+   "source": "Midhat Paşa"
+  },
+  {
+   "person": "midhat",
+   "from": 22546,
+   "to": 22566,
+   "place": "sam",
+   "label": "Şam",
+   "lonlat": [
+    36.29,
+    33.51
+   ],
+   "cond": null,
+   "source": "Midhat Paşa (Suriye valisi)"
+  },
+  {
+   "person": "midhat",
+   "from": 22567,
+   "to": 22575,
+   "place": "",
+   "label": "İzmir",
+   "lonlat": [
+    27.14,
+    38.42
+   ],
+   "cond": null,
+   "source": "Midhat Paşa (Aydın valisi)"
+  },
+  {
+   "person": "midhat",
+   "from": 22576,
+   "to": 22577,
+   "place": "yildiz",
+   "label": "Yıldız Sarayı",
+   "lonlat": [
+    29.01,
+    41.049
+   ],
+   "cond": null,
+   "source": "Midhat Paşa (Yıldız muhakemesi)"
+  },
+  {
+   "person": "midhat",
+   "from": 22578,
+   "to": 22611,
+   "place": "",
+   "label": "Taif",
+   "lonlat": [
+    40.42,
+    21.27
+   ],
+   "cond": null,
+   "source": "Midhat Paşa"
+  },
+  {
+   "person": "hobart",
+   "from": 22476,
+   "to": 22636,
+   "place": "halic",
+   "label": "Haliç",
+   "lonlat": [
+    28.955,
+    41.04
+   ],
+   "cond": null,
+   "source": "Hobart Paşa"
+  },
+  {
+   "person": "osman_pasa",
+   "from": 22518,
+   "to": 22529,
+   "place": "",
+   "label": "Vidin",
+   "lonlat": [
+    22.88,
+    43.99
+   ],
+   "cond": null,
+   "source": "Gazi Osman Paşa"
+  },
+  {
+   "person": "osman_pasa",
+   "from": 22530,
+   "to": 22535,
+   "place": "plevne",
+   "label": "Plevne",
+   "lonlat": [
+    24.617,
+    43.417
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "harp_93"
+   },
+   "source": "Gazi Osman Paşa · Siege of Plevne (1877)"
+  },
+  {
+   "person": "osman_pasa",
+   "from": 22539,
+   "to": 22803,
+   "place": "yildiz",
+   "label": "Yıldız Sarayı",
+   "lonlat": [
+    29.01,
+    41.049
+   ],
+   "cond": null,
+   "source": "Gazi Osman Paşa (Mabeyn müşiri)"
+  },
+  {
+   "person": "ahmed_muhtar",
+   "from": 22527,
+   "to": 22533,
+   "place": "kars",
+   "label": "Kars",
+   "lonlat": [
+    43.09,
+    40.6
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "harp_93"
+   },
+   "source": "Gazi Ahmed Muhtar Paşa"
+  },
+  {
+   "person": "ahmed_muhtar",
+   "from": 22534,
+   "to": 22538,
+   "place": "erzurum",
+   "label": "Erzurum",
+   "lonlat": [
+    41.27,
+    39.9
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "harp_93"
+   },
+   "source": "Gazi Ahmed Muhtar Paşa"
+  },
+  {
+   "person": "ahmed_muhtar",
+   "from": 22629,
+   "to": 22903,
+   "place": "kahire",
+   "label": "Kahire",
+   "lonlat": [
+    31.24,
+    30.04
+   ],
+   "cond": null,
+   "source": "Gazi Ahmed Muhtar Paşa (fevkalade komiser)"
+  },
+  {
+   "person": "ahmed_muhtar",
+   "from": 22950,
+   "to": 22953,
+   "place": "babiali",
+   "label": "Babıâli",
+   "lonlat": [
+    28.976,
+    41.011
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Gazi Ahmed Muhtar Paşa (sadrazam)"
+  },
+  {
+   "person": "goltz",
+   "from": 22601,
+   "to": 22749,
+   "place": "harbiye_mektebi",
+   "label": "Harbiye Mektebi",
+   "lonlat": [
+    28.987,
+    41.046
+   ],
+   "cond": null,
+   "source": "Colmar von der Goltz"
+  },
+  {
+   "person": "goltz",
+   "from": 22991,
+   "to": 22995,
+   "place": "bagdat",
+   "label": "Bağdat",
+   "lonlat": [
+    44.36,
+    33.31
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     }
+    ]
+   },
+   "source": "Colmar von der Goltz · ölümü `goltz_olum` olayında"
+  },
+  {
+   "person": "talat",
+   "from": 22776,
+   "to": 22902,
+   "place": "selanik",
+   "label": "Selanik",
+   "lonlat": [
+    22.944,
+    40.64
+   ],
+   "cond": null,
+   "source": "Talat Paşa (Selanik posta idaresi, Cemiyet'in merkezi)"
+  },
+  {
+   "person": "talat",
+   "from": 22903,
+   "to": 23025,
+   "place": "babiali",
+   "label": "Babıâli",
+   "lonlat": [
+    28.976,
+    41.011
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Talat Paşa"
+  },
+  {
+   "person": "enver",
+   "from": 22880,
+   "to": 22902,
+   "place": "selanik",
+   "label": "Selanik",
+   "lonlat": [
+    22.944,
+    40.64
+   ],
+   "cond": null,
+   "source": "Enver Paşa (Üçüncü Ordu kurmayı)"
+  },
+  {
+   "person": "enver",
+   "from": 22903,
+   "to": 22909,
+   "place": "selanik",
+   "label": "Selanik",
+   "lonlat": [
+    22.944,
+    40.64
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Enver Paşa"
+  },
+  {
+   "person": "enver",
+   "from": 22910,
+   "to": 22940,
+   "place": "",
+   "label": "Berlin",
+   "lonlat": [
+    13.4,
+    52.52
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Enver Paşa (ataşemiliter)"
+  },
+  {
+   "person": "enver",
+   "from": 22941,
+   "to": 22953,
+   "place": "",
+   "label": "Derne",
+   "lonlat": [
+    22.64,
+    32.77
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "gonullu_trablus"
+   },
+   "source": "Bardakçı, [i]Enver[/i], p. 113"
+  },
+  {
+   "person": "enver",
+   "from": 22954,
+   "to": 22978,
+   "place": "babiali",
+   "label": "Babıâli",
+   "lonlat": [
+    28.976,
+    41.011
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Enver Paşa (Babıâli Baskını, Harbiye Nezareti)"
+  },
+  {
+   "person": "enver",
+   "from": 22979,
+   "to": 22980,
+   "place": "sarikamis",
+   "label": "Sarıkamış",
+   "lonlat": [
+    42.59,
+    40.33
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     }
+    ]
+   },
+   "source": "Sarıkamış Operation (1914-1915)"
+  },
+  {
+   "person": "enver",
+   "from": 22981,
+   "to": 23025,
+   "place": "babiali",
+   "label": "Babıâli",
+   "lonlat": [
+    28.976,
+    41.011
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Enver Paşa"
+  },
+  {
+   "person": "cemal",
+   "from": 22915,
+   "to": 22939,
+   "place": "",
+   "label": "Adana",
+   "lonlat": [
+    35.32,
+    37.0
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Cemal Paşa (Adana valisi) ⚠ Wikipedia: [i]Djemal Pasha[/i]"
+  },
+  {
+   "person": "cemal",
+   "from": 22940,
+   "to": 22950,
+   "place": "bagdat",
+   "label": "Bağdat",
+   "lonlat": [
+    44.36,
+    33.31
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Cemal Paşa (Bağdat valisi) ⚠ Wikipedia: [i]Djemal Pasha[/i]"
+  },
+  {
+   "person": "cemal",
+   "from": 22956,
+   "to": 22978,
+   "place": "babiali",
+   "label": "Babıâli",
+   "lonlat": [
+    28.976,
+    41.011
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Cemal Paşa"
+  },
+  {
+   "person": "cemal",
+   "from": 22979,
+   "to": 23015,
+   "place": "sam",
+   "label": "Şam",
+   "lonlat": [
+    36.29,
+    33.51
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     }
+    ]
+   },
+   "source": "Cemal Paşa, p. 234"
+  },
+  {
+   "person": "cemal",
+   "from": 23016,
+   "to": 23025,
+   "place": "babiali",
+   "label": "Babıâli",
+   "lonlat": [
+    28.976,
+    41.011
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Cemal Paşa"
+  },
+  {
+   "person": "niyazi",
+   "from": 22901,
+   "to": 22907,
+   "place": "",
+   "label": "Resne",
+   "lonlat": [
+    21.0,
+    41.07
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Resneli Niyazi"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 22861,
+   "to": 22892,
+   "place": "sam",
+   "label": "Şam",
+   "lonlat": [
+    36.29,
+    33.51
+   ],
+   "cond": null,
+   "source": "İnan, p. 86"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 22893,
+   "to": 22940,
+   "place": "selanik",
+   "label": "Selanik",
+   "lonlat": [
+    22.944,
+    40.64
+   ],
+   "cond": null,
+   "source": "Bardakçı, [i]Enver[/i], p. 16"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 22941,
+   "to": 22953,
+   "place": "",
+   "label": "Tobruk",
+   "lonlat": [
+    23.96,
+    32.08
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "gonullu_trablus"
+   },
+   "source": "Bardakçı, [i]Enver[/i], p. 115 · Cemal Paşa, p. 84"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 22954,
+   "to": 22964,
+   "place": "",
+   "label": "Bolayır",
+   "lonlat": [
+    26.77,
+    40.51
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "⚠ Wikipedia: [i]Mustafa Kemal Atatürk[/i]"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 22965,
+   "to": 22980,
+   "place": "",
+   "label": "Sofya",
+   "lonlat": [
+    23.32,
+    42.7
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Bardakçı, [i]Enver[/i], p. 77 · Kemal, p. 10"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 22981,
+   "to": 22991,
+   "place": "canakkale",
+   "label": "Çanakkale",
+   "lonlat": [
+    26.4,
+    40.15
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     }
+    ]
+   },
+   "source": "Video, loc. 12"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 22994,
+   "to": 23009,
+   "place": "",
+   "label": "Muş",
+   "lonlat": [
+    41.49,
+    38.74
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     }
+    ]
+   },
+   "source": "⚠ Wikipedia: [i]Mustafa Kemal Atatürk[/i] (16. Kolordu; Bitlis ve Muş)"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 23010,
+   "to": 23013,
+   "place": "",
+   "label": "Halep",
+   "lonlat": [
+    37.16,
+    36.2
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     }
+    ]
+   },
+   "source": "Cemal Paşa, p. 234 (7. Ordu, istifa)"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 23014,
+   "to": 23022,
+   "place": "harbiye_mektebi",
+   "label": "Harbiye Mektebi",
+   "lonlat": [
+    28.987,
+    41.046
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "⚠ Wikipedia: [i]Mustafa Kemal Atatürk[/i]"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 23023,
+   "to": 23025,
+   "place": "",
+   "label": "Nablus",
+   "lonlat": [
+    35.26,
+    32.22
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     }
+    ]
+   },
+   "source": "⚠ Wikipedia: [i]Mustafa Kemal Atatürk[/i] (7. Ordu)"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 23026,
+   "to": 23031,
+   "place": "harbiye_mektebi",
+   "label": "Harbiye Mektebi",
+   "lonlat": [
+    28.987,
+    41.046
+   ],
+   "cond": null,
+   "source": "Mustafa Kemal Atatürk (Bekirağa ziyareti)"
+  },
+  {
+   "person": "mustafa_kemal",
+   "from": 23032,
+   "to": 23039,
+   "place": "",
+   "label": "Samsun",
+   "lonlat": [
+    36.33,
+    41.29
+   ],
+   "cond": null,
+   "source": "Akşin, p. 450"
+  },
+  {
+   "person": "liman",
+   "from": 22967,
+   "to": 22981,
+   "place": "harbiye_mektebi",
+   "label": "Harbiye Mektebi",
+   "lonlat": [
+    28.987,
+    41.046
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Liman von Sanders"
+  },
+  {
+   "person": "liman",
+   "from": 22982,
+   "to": 22992,
+   "place": "canakkale",
+   "label": "Çanakkale",
+   "lonlat": [
+    26.4,
+    40.15
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     }
+    ]
+   },
+   "source": "Liman von Sanders (5. Ordu)"
+  },
+  {
+   "person": "liman",
+   "from": 22993,
+   "to": 23017,
+   "place": "harbiye_mektebi",
+   "label": "Harbiye Mektebi",
+   "lonlat": [
+    28.987,
+    41.046
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "source": "Liman von Sanders"
+  },
+  {
+   "person": "liman",
+   "from": 23018,
+   "to": 23025,
+   "place": "",
+   "label": "Nasıra",
+   "lonlat": [
+    35.3,
+    32.7
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     }
+    ]
+   },
+   "source": "Liman von Sanders (Yıldırım Ordular Grubu)"
+  },
+  {
+   "person": "fahreddin",
+   "from": 22997,
+   "to": 23028,
+   "place": "",
+   "label": "Medine",
+   "lonlat": [
+    39.61,
+    24.47
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "arap_isyani"
+     }
+    ]
+   },
+   "source": "Fahreddin Paşa"
+  }
+ ],
  "cabinets": [
   {
    "from": "1873-01",
@@ -2073,7 +3330,7 @@
   {
    "id": "k_gelir",
    "file": "GD 02 Sistemler",
-   "line": 256,
+   "line": 297,
    "date": {
     "y": 1873,
     "m": 1,
@@ -2117,7 +3374,7 @@
   {
    "id": "k_dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 270,
+   "line": 311,
    "date": {
     "y": 1873,
     "m": 1,
@@ -2170,7 +3427,7 @@
   {
    "id": "k_bahriye_bakim",
    "file": "GD 02 Sistemler",
-   "line": 290,
+   "line": 331,
    "date": {
     "y": 1873,
     "m": 1,
@@ -2225,7 +3482,7 @@
   {
    "id": "dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 352,
+   "line": 393,
    "date": {
     "y": 1873,
     "m": 1,
@@ -2441,7 +3698,7 @@
   {
    "id": "m_para",
    "file": "GD 02 Sistemler",
-   "line": 388,
+   "line": 429,
    "date": {
     "y": 1873,
     "m": 1,
@@ -2480,7 +3737,7 @@
   {
    "id": "m_avrupa",
    "file": "GD 02 Sistemler",
-   "line": 393,
+   "line": 434,
    "date": {
     "y": 1873,
     "m": 1,
@@ -3401,7 +4658,7 @@
   {
    "id": "k_iflas",
    "file": "GD 02 Sistemler",
-   "line": 260,
+   "line": 301,
    "date": {
     "y": 1875,
     "m": 1,
@@ -6940,7 +8197,7 @@
   {
    "id": "k_halic",
    "file": "GD 02 Sistemler",
-   "line": 285,
+   "line": 326,
    "date": {
     "y": 1878,
     "m": 1,
@@ -6987,7 +8244,7 @@
   {
    "id": "k_jurnal",
    "file": "GD 02 Sistemler",
-   "line": 295,
+   "line": 336,
    "date": {
     "y": 1878,
     "m": 1,
@@ -7061,7 +8318,7 @@
   {
    "id": "m_hakimiyet",
    "file": "GD 02 Sistemler",
-   "line": 371,
+   "line": 412,
    "date": {
     "y": 1878,
     "m": 1,
@@ -7114,7 +8371,7 @@
   {
    "id": "m_jon_turk",
    "file": "GD 02 Sistemler",
-   "line": 377,
+   "line": 418,
    "date": {
     "y": 1878,
     "m": 1,
@@ -7165,7 +8422,7 @@
   {
    "id": "m_halic",
    "file": "GD 02 Sistemler",
-   "line": 382,
+   "line": 423,
    "date": {
     "y": 1878,
     "m": 1,
@@ -7389,6 +8646,49 @@
      "hint": null,
      "effects": [
       {
+       "t": "pop",
+       "g": "turk",
+       "d": -20.0,
+       "pct": true,
+       "to": [
+        "tuna"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": -25.0,
+       "pct": true,
+       "to": [
+        "dogu_rumeli"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": 150.0,
+       "pct": false,
+       "to": [
+        "hudavendigar",
+        "aydin",
+        "konya",
+        "ankara",
+        "kastamonu",
+        "adana",
+        "sivas",
+        "trabzon"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": 60.0,
+       "pct": false,
+       "to": [
+        "istanbul"
+       ]
+      },
+      {
        "t": "res",
        "id": "para",
        "d": -8
@@ -7414,6 +8714,49 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": -20.0,
+       "pct": true,
+       "to": [
+        "tuna"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": -25.0,
+       "pct": true,
+       "to": [
+        "dogu_rumeli"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": 150.0,
+       "pct": false,
+       "to": [
+        "hudavendigar",
+        "aydin",
+        "konya",
+        "ankara",
+        "kastamonu",
+        "adana",
+        "sivas",
+        "trabzon"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": 60.0,
+       "pct": false,
+       "to": [
+        "istanbul"
+       ]
+      },
       {
        "t": "res",
        "id": "para",
@@ -7441,6 +8784,49 @@
      "hint": null,
      "effects": [
       {
+       "t": "pop",
+       "g": "turk",
+       "d": -20.0,
+       "pct": true,
+       "to": [
+        "tuna"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": -25.0,
+       "pct": true,
+       "to": [
+        "dogu_rumeli"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": 150.0,
+       "pct": false,
+       "to": [
+        "hudavendigar",
+        "aydin",
+        "konya",
+        "ankara",
+        "kastamonu",
+        "adana",
+        "sivas",
+        "trabzon"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": 60.0,
+       "pct": false,
+       "to": [
+        "istanbul"
+       ]
+      },
+      {
        "t": "res",
        "id": "para",
        "d": -3
@@ -7465,7 +8851,7 @@
   {
    "id": "donanma_halic",
    "file": "GD 1878",
-   "line": 36,
+   "line": 37,
    "date": {
     "y": 1878,
     "m": 2,
@@ -7594,7 +8980,7 @@
   {
    "id": "ayastefanos_muzakere",
    "file": "GD 1878",
-   "line": 66,
+   "line": 67,
    "date": {
     "y": 1878,
     "m": 2,
@@ -7775,7 +9161,7 @@
   {
    "id": "ayastefanos_16",
    "file": "GD 1878",
-   "line": 85,
+   "line": 86,
    "date": {
     "y": 1878,
     "m": 2,
@@ -7902,7 +9288,7 @@
   {
    "id": "meclis_tatil",
    "file": "GD 1878",
-   "line": 51,
+   "line": 52,
    "date": {
     "y": 1878,
     "m": 2,
@@ -8034,7 +9420,7 @@
   {
    "id": "ayastefanos_imza",
    "file": "GD 1878",
-   "line": 98,
+   "line": 99,
    "date": {
     "y": 1878,
     "m": 3,
@@ -8396,7 +9782,7 @@
   {
    "id": "ciragan_baskini",
    "file": "GD 1878",
-   "line": 117,
+   "line": 118,
    "date": {
     "y": 1878,
     "m": 5,
@@ -8515,7 +9901,7 @@
   {
    "id": "prizren_birligi",
    "file": "GD 1878",
-   "line": 143,
+   "line": 144,
    "date": {
     "y": 1878,
     "m": 6,
@@ -8623,7 +10009,7 @@
   {
    "id": "berlin_batum",
    "file": "GD 1878",
-   "line": 178,
+   "line": 179,
    "date": {
     "y": 1878,
     "m": 6,
@@ -8805,7 +10191,7 @@
   {
    "id": "berlin_bosna",
    "file": "GD 1878",
-   "line": 189,
+   "line": 190,
    "date": {
     "y": 1878,
     "m": 6,
@@ -9070,7 +10456,7 @@
   {
    "id": "kibris",
    "file": "GD 1878",
-   "line": 131,
+   "line": 132,
    "date": {
     "y": 1878,
     "m": 6,
@@ -9199,7 +10585,7 @@
   {
    "id": "berlin_kongresi",
    "file": "GD 1878",
-   "line": 155,
+   "line": 156,
    "date": {
     "y": 1878,
     "m": 6,
@@ -9456,7 +10842,7 @@
   {
    "id": "berlin_ermeni_maddesi",
    "file": "GD 1878",
-   "line": 209,
+   "line": 210,
    "date": {
     "y": 1878,
     "m": 7,
@@ -9595,7 +10981,7 @@
   {
    "id": "k_harbiye_curume",
    "file": "GD 02 Sistemler",
-   "line": 275,
+   "line": 316,
    "date": {
     "y": 1879,
     "m": 1,
@@ -9944,7 +11330,7 @@
   {
    "id": "m_alman",
    "file": "GD 02 Sistemler",
-   "line": 398,
+   "line": 439,
    "date": {
     "y": 1880,
     "m": 1,
@@ -9983,7 +11369,7 @@
   {
    "id": "m_ermeni",
    "file": "GD 02 Sistemler",
-   "line": 403,
+   "line": 444,
    "date": {
     "y": 1880,
     "m": 1,
@@ -10022,7 +11408,7 @@
   {
    "id": "m_arap",
    "file": "GD 02 Sistemler",
-   "line": 408,
+   "line": 449,
    "date": {
     "y": 1880,
     "m": 1,
@@ -10467,7 +11853,7 @@
   {
    "id": "k_duyun",
    "file": "GD 02 Sistemler",
-   "line": 265,
+   "line": 306,
    "date": {
     "y": 1881,
     "m": 1,
@@ -10845,7 +12231,7 @@
   {
    "id": "k_misir_osmanli",
    "file": "GD 02 Sistemler",
-   "line": 340,
+   "line": 381,
    "date": {
     "y": 1882,
     "m": 1,
@@ -11748,7 +13134,7 @@
   {
    "id": "k_goltz",
    "file": "GD 02 Sistemler",
-   "line": 280,
+   "line": 321,
    "date": {
     "y": 1883,
     "m": 1,
@@ -11812,7 +13198,7 @@
   {
    "id": "m_misir",
    "file": "GD 02 Sistemler",
-   "line": 434,
+   "line": 475,
    "date": {
     "y": 1883,
     "m": 1,
@@ -12300,7 +13686,7 @@
   {
    "id": "k_reji_milli",
    "file": "GD 02 Sistemler",
-   "line": 335,
+   "line": 376,
    "date": {
     "y": 1884,
     "m": 1,
@@ -13108,7 +14494,7 @@
   {
    "id": "m_reji",
    "file": "GD 02 Sistemler",
-   "line": 423,
+   "line": 464,
    "date": {
     "y": 1885,
     "m": 1,
@@ -13155,7 +14541,7 @@
   {
    "id": "m_reji_milli",
    "file": "GD 02 Sistemler",
-   "line": 429,
+   "line": 470,
    "date": {
     "y": 1885,
     "m": 1,
@@ -15270,7 +16656,7 @@
   {
    "id": "k_hamidiye",
    "file": "GD 02 Sistemler",
-   "line": 300,
+   "line": 341,
    "date": {
     "y": 1891,
     "m": 1,
@@ -15339,7 +16725,7 @@
   {
    "id": "k_dogu_jandarma",
    "file": "GD 02 Sistemler",
-   "line": 305,
+   "line": 346,
    "date": {
     "y": 1891,
     "m": 1,
@@ -15396,7 +16782,7 @@
   {
    "id": "m_kurt",
    "file": "GD 02 Sistemler",
-   "line": 413,
+   "line": 454,
    "date": {
     "y": 1891,
     "m": 1,
@@ -16505,6 +17891,15 @@
      "hint": null,
      "effects": [
       {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -3.0,
+       "pct": true,
+       "to": [
+        "bitlis"
+       ]
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": 4
@@ -16536,6 +17931,15 @@
      "hint": null,
      "effects": [
       {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -3.0,
+       "pct": true,
+       "to": [
+        "bitlis"
+       ]
+      },
+      {
        "t": "res",
        "id": "avrupa_baskisi",
        "d": -5
@@ -16564,6 +17968,15 @@
      "lock": "Yeterli nüfuzunuz yok.",
      "hint": "Hamidiye alayları bölgede zaten var",
      "effects": [
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -3.0,
+       "pct": true,
+       "to": [
+        "bitlis"
+       ]
+      },
       {
        "t": "res",
        "id": "kurtler",
@@ -16850,6 +18263,46 @@
      "hint": null,
      "effects": [
       {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -6.0,
+       "pct": true,
+       "to": [
+        "erzurum",
+        "kars",
+        "batum",
+        "van",
+        "bitlis",
+        "diyarbakir",
+        "mamuretulaziz"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -4.0,
+       "pct": true,
+       "to": [
+        "hudavendigar",
+        "aydin",
+        "konya",
+        "ankara",
+        "kastamonu",
+        "adana",
+        "sivas",
+        "trabzon"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -2.0,
+       "pct": true,
+       "to": [
+        "istanbul"
+       ]
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": 3
@@ -16875,6 +18328,46 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -6.0,
+       "pct": true,
+       "to": [
+        "erzurum",
+        "kars",
+        "batum",
+        "van",
+        "bitlis",
+        "diyarbakir",
+        "mamuretulaziz"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -4.0,
+       "pct": true,
+       "to": [
+        "hudavendigar",
+        "aydin",
+        "konya",
+        "ankara",
+        "kastamonu",
+        "adana",
+        "sivas",
+        "trabzon"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -2.0,
+       "pct": true,
+       "to": [
+        "istanbul"
+       ]
+      },
       {
        "t": "res",
        "id": "hakimiyet",
@@ -23467,7 +24960,7 @@
   {
    "id": "k_ittihat_ordu",
    "file": "GD 02 Sistemler",
-   "line": 310,
+   "line": 351,
    "date": {
     "y": 1909,
     "m": 1,
@@ -25153,7 +26646,7 @@
   {
    "id": "m_dogu",
    "file": "GD 02 Sistemler",
-   "line": 418,
+   "line": 459,
    "date": {
     "y": 1910,
     "m": 1,
@@ -26580,6 +28073,11 @@
        "t": "res",
        "id": "trablus",
        "d": 10
+      },
+      {
+       "t": "flag",
+       "name": "gonullu_trablus",
+       "on": true
       }
      ],
      "outcome": "Genç subaylar kılık değiştirip Mısır ve Tunus yolunu tuttu. Trablus halkı onları bekliyor.",
@@ -26862,6 +28360,11 @@
        "t": "res",
        "id": "trablus",
        "d": 12
+      },
+      {
+       "t": "flag",
+       "name": "gonullu_trablus",
+       "on": true
       }
      ],
      "outcome": "Derne'de İtalyanlar kıyıdan içeri giremedi. Enver, Talat'ın parasını unutmayacak.",
@@ -26888,6 +28391,11 @@
        "t": "res",
        "id": "trablus",
        "d": 5
+      },
+      {
+       "t": "flag",
+       "name": "gonullu_trablus",
+       "on": true
       }
      ],
      "outcome": "Enver mukavvaya mühür basıp para diye dağıttı. Çöl bu parayı kabul etti.",
@@ -31026,7 +32534,7 @@
   {
    "id": "k_harp",
    "file": "GD 02 Sistemler",
-   "line": 315,
+   "line": 356,
    "date": {
     "y": 1914,
     "m": 1,
@@ -31073,7 +32581,7 @@
   {
    "id": "m_cokus",
    "file": "GD 02 Sistemler",
-   "line": 439,
+   "line": 480,
    "date": {
     "y": 1914,
     "m": 1,
@@ -31885,7 +33393,7 @@
   {
    "id": "hamid_1914_temmuz",
    "file": "GD 1914",
-   "line": 355,
+   "line": 356,
    "date": {
     "y": 1914,
     "m": 7,
@@ -32150,7 +33658,7 @@
   {
    "id": "hamid_harp_karari",
    "file": "GD 1914",
-   "line": 369,
+   "line": 370,
    "date": {
     "y": 1914,
     "m": 8,
@@ -33711,7 +35219,7 @@
   {
    "id": "hamid_1914_kafkas",
    "file": "GD 1914",
-   "line": 383,
+   "line": 384,
    "date": {
     "y": 1914,
     "m": 11,
@@ -33841,7 +35349,7 @@
   {
    "id": "hamid_1914_tarafsiz",
    "file": "GD 1914",
-   "line": 394,
+   "line": 395,
    "date": {
     "y": 1914,
     "m": 11,
@@ -34833,6 +36341,21 @@
      "hint": null,
      "effects": [
       {
+       "t": "pop",
+       "g": "turk",
+       "d": -3.0,
+       "pct": true,
+       "to": [
+        "erzurum",
+        "kars",
+        "batum",
+        "van",
+        "bitlis",
+        "diyarbakir",
+        "mamuretulaziz"
+       ]
+      },
+      {
        "t": "flag",
        "name": "sarikamis_felaket",
        "on": true
@@ -34868,6 +36391,21 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": -3.0,
+       "pct": true,
+       "to": [
+        "erzurum",
+        "kars",
+        "batum",
+        "van",
+        "bitlis",
+        "diyarbakir",
+        "mamuretulaziz"
+       ]
+      },
       {
        "t": "flag",
        "name": "sarikamis_felaket",
@@ -34909,6 +36447,21 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": -3.0,
+       "pct": true,
+       "to": [
+        "erzurum",
+        "kars",
+        "batum",
+        "van",
+        "bitlis",
+        "diyarbakir",
+        "mamuretulaziz"
+       ]
+      },
       {
        "t": "flag",
        "name": "sarikamis_felaket",
@@ -35101,7 +36654,7 @@
   {
    "id": "k_cokus_agir",
    "file": "GD 02 Sistemler",
-   "line": 320,
+   "line": 361,
    "date": {
     "y": 1915,
     "m": 1,
@@ -35168,7 +36721,7 @@
   {
    "id": "k_cokus",
    "file": "GD 02 Sistemler",
-   "line": 325,
+   "line": 366,
    "date": {
     "y": 1915,
     "m": 1,
@@ -35235,7 +36788,7 @@
   {
    "id": "k_cokus_deniz",
    "file": "GD 02 Sistemler",
-   "line": 330,
+   "line": 371,
    "date": {
     "y": 1915,
     "m": 1,
@@ -35808,6 +37361,24 @@
        "t": "res",
        "id": "harbiye",
        "d": 3
+      },
+      {
+       "t": "pop",
+       "g": "arap",
+       "d": -15.0,
+       "pct": true,
+       "to": [
+        "beyrut"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "arap",
+       "d": -8.0,
+       "pct": true,
+       "to": [
+        "suriye"
+       ]
       }
      ],
      "outcome": "Menzil depoları dolu kaldı; Şam ve Beyrut sokaklarında açlık haberleri çoğaldı.",
@@ -35829,6 +37400,15 @@
        "t": "res",
        "id": "dogu_hazirligi",
        "d": -3
+      },
+      {
+       "t": "pop",
+       "g": "arap",
+       "d": -5.0,
+       "pct": true,
+       "to": [
+        "beyrut"
+       ]
       }
      ],
      "outcome": "Şehirlerde ekmek fırınları açık kaldı; cephedeki tayınlar inceldi.",
@@ -35860,6 +37440,15 @@
        "t": "res",
        "id": "araplar",
        "d": 2
+      },
+      {
+       "t": "pop",
+       "g": "arap",
+       "d": -7.0,
+       "pct": true,
+       "to": [
+        "beyrut"
+       ]
       }
      ],
      "outcome": "Birkaç trenle buğday geldi; Toroslar'ın eksik tünelleri yüzünden nakliye çok yavaş.",
@@ -36440,6 +38029,64 @@
        "t": "flag",
        "name": "tehcir",
        "on": true
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -85.0,
+       "pct": true,
+       "to": [
+        "erzurum",
+        "kars",
+        "batum",
+        "van",
+        "bitlis",
+        "diyarbakir",
+        "mamuretulaziz"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -75.0,
+       "pct": true,
+       "to": [
+        "hudavendigar",
+        "aydin",
+        "konya",
+        "ankara",
+        "kastamonu",
+        "adana",
+        "sivas",
+        "trabzon"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -10.0,
+       "pct": true,
+       "to": [
+        "istanbul"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": 100.0,
+       "pct": false,
+       "to": [
+        "halep"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": 50.0,
+       "pct": false,
+       "to": [
+        "suriye"
+       ]
       }
      ],
      "outcome": "Kervanlar yola çıktı. Yolda açlık, tifüs ve yağma can aldı; 3. Ordu'nun geri hizmetini tutan Ermeni erler de yollardaydı artık. Bu kararın hesabı barışta, divan-ı harplerde sorulacak.",
@@ -36476,6 +38123,48 @@
        "t": "flag",
        "name": "dogu_guvenlik_1915",
        "on": true
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -35.0,
+       "pct": true,
+       "to": [
+        "erzurum"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -35.0,
+       "pct": true,
+       "to": [
+        "van"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -35.0,
+       "pct": true,
+       "to": [
+        "bitlis"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -10.0,
+       "pct": true,
+       "to": [
+        "erzurum",
+        "kars",
+        "batum",
+        "van",
+        "bitlis",
+        "diyarbakir",
+        "mamuretulaziz"
+       ]
       }
      ],
      "outcome": "Hareket cephe hattıyla sınırlı tutuldu; yine de zorla göç, yine de ölüm oldu, ama Suriye'ye giden büyük kervanlar bu kez yok.",
@@ -36512,6 +38201,15 @@
        "t": "flag",
        "name": "yerinde_tedbir",
        "on": true
+      },
+      {
+       "t": "pop",
+       "g": "ermeni",
+       "d": -30.0,
+       "pct": true,
+       "to": [
+        "van"
+       ]
       }
      ],
      "outcome": "Yalnız Van çevresi boşaltıldı. Cemiyet'in içindeki sertlik yanlıları bunu bir zaaf sayıyor; doğu vilayetlerindeki gerginlik dinmiyor.",
@@ -37154,6 +38852,24 @@
      "hint": null,
      "effects": [
       {
+       "t": "pop",
+       "g": "turk",
+       "d": -30.0,
+       "pct": true,
+       "to": [
+        "erzurum"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "kurt",
+       "d": -20.0,
+       "pct": true,
+       "to": [
+        "erzurum"
+       ]
+      },
+      {
        "t": "prov",
        "id": "erzurum",
        "v": "RU",
@@ -37180,6 +38896,24 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": -30.0,
+       "pct": true,
+       "to": [
+        "erzurum"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "kurt",
+       "d": -20.0,
+       "pct": true,
+       "to": [
+        "erzurum"
+       ]
+      },
       {
        "t": "prov",
        "id": "erzurum",
@@ -37416,7 +39150,7 @@
   {
    "id": "hamid_karadeniz_cikarma",
    "file": "GD 1915",
-   "line": 220,
+   "line": 221,
    "date": {
     "y": 1915,
     "m": 11,
@@ -37612,7 +39346,7 @@
   {
    "id": "k_suriye",
    "file": "GD 02 Sistemler",
-   "line": 345,
+   "line": 386,
    "date": {
     "y": 1916,
     "m": 1,
@@ -37974,7 +39708,7 @@
   {
    "id": "kafkas_ileri",
    "file": "GD 1916",
-   "line": 54,
+   "line": 55,
    "date": {
     "y": 1916,
     "m": 2,
@@ -38107,7 +39841,7 @@
   {
    "id": "hamid_trabzon_dustu",
    "file": "GD 1916",
-   "line": 192,
+   "line": 194,
    "date": {
     "y": 1916,
     "m": 2,
@@ -38165,6 +39899,15 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "pop",
+       "g": "turk",
+       "d": -20.0,
+       "pct": true,
+       "to": [
+        "trabzon"
+       ]
+      },
       {
        "t": "prov",
        "id": "trabzon",
@@ -38273,6 +40016,24 @@
      "hint": null,
      "effects": [
       {
+       "t": "pop",
+       "g": "turk",
+       "d": -30.0,
+       "pct": true,
+       "to": [
+        "erzurum"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "kurt",
+       "d": -20.0,
+       "pct": true,
+       "to": [
+        "erzurum"
+       ]
+      },
+      {
        "t": "prov",
        "id": "erzurum",
        "v": "RU",
@@ -38300,6 +40061,24 @@
      "hint": null,
      "effects": [
       {
+       "t": "pop",
+       "g": "turk",
+       "d": -30.0,
+       "pct": true,
+       "to": [
+        "erzurum"
+       ]
+      },
+      {
+       "t": "pop",
+       "g": "kurt",
+       "d": -20.0,
+       "pct": true,
+       "to": [
+        "erzurum"
+       ]
+      },
+      {
        "t": "prov",
        "id": "erzurum",
        "v": "RU",
@@ -38325,7 +40104,7 @@
   {
    "id": "goltz_olum",
    "file": "GD 1916",
-   "line": 66,
+   "line": 67,
    "date": {
     "y": 1916,
     "m": 4,
@@ -38417,7 +40196,7 @@
   {
    "id": "trabzon_1916",
    "file": "GD 1916",
-   "line": 76,
+   "line": 77,
    "date": {
     "y": 1916,
     "m": 4,
@@ -38499,6 +40278,15 @@
      "hint": null,
      "effects": [
       {
+       "t": "pop",
+       "g": "turk",
+       "d": -20.0,
+       "pct": true,
+       "to": [
+        "trabzon"
+       ]
+      },
+      {
        "t": "prov",
        "id": "trabzon",
        "v": "RU",
@@ -38526,6 +40314,15 @@
      "hint": null,
      "effects": [
       {
+       "t": "pop",
+       "g": "turk",
+       "d": -20.0,
+       "pct": true,
+       "to": [
+        "trabzon"
+       ]
+      },
+      {
        "t": "prov",
        "id": "trabzon",
        "v": "RU",
@@ -38551,7 +40348,7 @@
   {
    "id": "kut_zafer",
    "file": "GD 1916",
-   "line": 87,
+   "line": 89,
    "date": {
     "y": 1916,
     "m": 4,
@@ -38653,7 +40450,7 @@
   {
    "id": "sykes_picot",
    "file": "GD 1916",
-   "line": 97,
+   "line": 99,
    "date": {
     "y": 1916,
     "m": 5,
@@ -38752,7 +40549,7 @@
   {
    "id": "avrupa_tumenleri",
    "file": "GD 1916",
-   "line": 108,
+   "line": 110,
    "date": {
     "y": 1916,
     "m": 5,
@@ -38849,7 +40646,7 @@
   {
    "id": "arap_isyani",
    "file": "GD 1916",
-   "line": 128,
+   "line": 130,
    "date": {
     "y": 1916,
     "m": 6,
@@ -39003,7 +40800,7 @@
   {
    "id": "arap_isyani_onlendi",
    "file": "GD 1916",
-   "line": 139,
+   "line": 141,
    "date": {
     "y": 1916,
     "m": 6,
@@ -39124,7 +40921,7 @@
   {
    "id": "milli_iktisat",
    "file": "GD 1916",
-   "line": 150,
+   "line": 152,
    "date": {
     "y": 1916,
     "m": 6,
@@ -39212,7 +41009,7 @@
   {
    "id": "hamid_bogaz_filosu",
    "file": "GD 1916",
-   "line": 202,
+   "line": 205,
    "date": {
     "y": 1916,
     "m": 6,
@@ -39316,7 +41113,7 @@
   {
    "id": "galicya",
    "file": "GD 1916",
-   "line": 118,
+   "line": 120,
    "date": {
     "y": 1916,
     "m": 6,
@@ -39418,7 +41215,7 @@
   {
    "id": "suveys_2",
    "file": "GD 1916",
-   "line": 160,
+   "line": 162,
    "date": {
     "y": 1916,
     "m": 8,
@@ -39510,7 +41307,7 @@
   {
    "id": "mus_bitlis",
    "file": "GD 1916",
-   "line": 170,
+   "line": 172,
    "date": {
     "y": 1916,
     "m": 8,
@@ -39619,7 +41416,7 @@
   {
    "id": "medine_mudafaa",
    "file": "GD 1916",
-   "line": 180,
+   "line": 182,
    "date": {
     "y": 1916,
     "m": 9,

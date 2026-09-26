@@ -266,4 +266,5 @@ static func section(text: String) -> Label:
 
 static func clear(node: Node) -> void:
 	for c in node.get_children():
+		node.remove_child(c)  # out of the layout now (its size must not count), freed at the end of the frame
 		c.queue_free()

@@ -39,6 +39,7 @@ TIME_VARS = {"yıl": "year", "yil": "year", "ay": "month", "tarihî_mod": "hist_
 MAX_IMG = 1280
 
 errors, warnings = [], []
+POP = {"groups": {}, "regions": {}, "provinces": set()}  # filled in main(); read by parse_effects for 👥
 
 
 def err(where, msg):
@@ -423,6 +424,44 @@ def main():
         if w["id"] in names.values() or tr_lower(w["id"]) in names:
             err("GD 04", f"world key '{w['id']}' clashes with a resource name")
     prov_ids = {p["id"] for p in provinces}
+
+    # ---- population (GD 05 ## Nüfus): groups, 1873 table; regions come from the İller table
+    map_lines = open(os.path.join(DESIGN, "GD 05 Harita ve Harpler.md"), encoding="utf-8").read().split("\n")
+    pop_groups, population, figure_rows = [], {}, []
+    for i, line in enumerate(map_lines):
+        s = line.strip()
+        if s == "### Nüfus grupları":
+            for r in parse_table(map_lines, i + 1):
+                pop_groups.append({"id": r["id"], "name": r["Ad"], "power": r.get("Güç", "-"),
+                                   "leave": int(r.get("Göç", "0") or 0), "_press": r.get("Baskı", "-"),
+                                   "_revolt": r.get("Ayaklanma", "-")})
+        elif s == "### Nüfus tablosu":
+            for r in parse_table(map_lines, i + 1):
+                pid = r.pop("il")
+                if pid not in prov_ids:
+                    err("GD 05 Nüfus", f"unknown il '{pid}'")
+                row = {}
+                for g, v in r.items():
+                    v = v.strip()
+                    if v:
+                        try:
+                            row[g] = float(v)
+                        except ValueError:
+                            err("GD 05 Nüfus", f"{pid}/{g}: '{v}' is not a number")
+                population[pid] = row
+        elif s == "## Kişiler haritada":
+            figure_rows = parse_table(map_lines, i + 1)
+    gids = {g["id"] for g in pop_groups}
+    for pid, row in population.items():
+        for g in row:
+            if g not in gids:
+                err("GD 05 Nüfus", f"{pid}: unknown group column '{g}'")
+    POP["groups"] = {g["id"]: g for g in pop_groups}
+    POP["provinces"] = set(population)
+    POP["regions"] = defaultdict(list)
+    for p in provinces:
+        if p["id"] in population and p["region"]:
+            POP["regions"][tr_lower(p["region"])].append(p["id"])
     nation_codes = set()
     for path in gd_files:
         nation_codes |= set(re.findall(r"`devlet:\s*([A-Z]{2})`", open(path, encoding="utf-8").read()))
@@ -713,6 +752,60 @@ def main():
                 err(where, f"karar '{ev_id}' needs a yer: field")
             events.append(ev)
 
+    # ---- population groups' power and conditions; figures on the map
+    for g in pop_groups:
+        where = "GD 05 Nüfus grupları"
+        if g["power"] in ("-", ""):
+            g["power"] = None
+        else:
+            rid = resolve(g["power"])
+            if rid is None:
+                err(where, f"{g['id']}: Güç '{g['power']}' is not a resource")
+            g["power"] = rid
+        for key, out in (("_press", "press"), ("_revolt", "revolt")):
+            src = g.pop(key).strip()
+            g[out] = None
+            if src and src != "-":
+                g[out], fl = parse_cond(where, src)
+                for f in fl:
+                    flags_read[f].append("nüfus " + g["id"])
+    figures = []
+    for r in figure_rows:
+        where = "GD 05 Kişiler haritada"
+        pid = r.get("Kişi", "")
+        if pid not in persons:
+            err(where, f"unknown person '{pid}'")
+        span = []
+        for col in ("Başlangıç", "Bitiş"):
+            mm = re.fullmatch(r"(\d{4})-(\d{2})", r.get(col, ""))
+            if not mm:
+                err(where, f"{pid}: {col} must be YYYY-MM")
+                span.append(0)
+            else:
+                span.append(int(mm.group(1)) * 12 + int(mm.group(2)) - 1)
+        place = r.get("Yer", "").strip()
+        fig = {"person": pid, "from": span[0], "to": span[1], "place": "", "label": "", "lonlat": [0.0, 0.0],
+               "cond": None, "source": to_bbcode(r.get("Dayanak", "").replace("\\|", "|"))}
+        if "@" in place:
+            label, _, ll = place.partition("@")
+            try:
+                fig["lonlat"] = [float(x) for x in ll.split(",")]
+            except ValueError:
+                err(where, f"{pid}: '{place}' must be 'Ad @ lon,lat'")
+            fig["label"] = label.strip()
+        elif place in landmarks:
+            fig["place"] = place
+            fig["label"] = landmarks[place]["name"]
+            fig["lonlat"] = landmarks[place]["lonlat"]
+        else:
+            err(where, f"{pid}: unknown yer '{place}'")
+        c = r.get("Koşul", "-").strip()
+        if c and c != "-":
+            fig["cond"], fl = parse_cond(where, c)
+            for f in fl:
+                flags_read[f].append("kişi " + pid)
+        figures.append(fig)
+
     # ---- cross checks
     ids = defaultdict(list)
     for ev in events:
@@ -850,6 +943,7 @@ def main():
     os.makedirs(OUT_DATA, exist_ok=True)
     data = {"version": 2, "resources": resources, "persons": persons, "nations": nations, "endings": endings,
             "world": world, "provinces": provinces, "landmarks": landmarks, "fronts": fronts,
+            "pop_groups": pop_groups, "population": population, "figures": figures,
             "cabinets": [{"from": r["Başlangıç"], "to": r["Bitiş"], "cond": r["cond"], "ruler": r["Hükümdar"],
                           "maliye": r["Maliye"], "harbiye": r["Harbiye"], "bahriye": r["Bahriye"]} for r in cabinets],
             "events": sorted(events, key=lambda e: (e["date"]["y"], e["date"]["m"], e["date"]["d"])),
@@ -868,6 +962,10 @@ def main():
           f"{len(codex)} codex entries, {len(used_images)} images")
     print(f"{len(flags_set)} flags set, {len(flags_read)} read; {len(world)} world keys, {len(provinces)} provinces, "
           f"{len(landmarks)} landmarks, {len(slots)} slots, {len(fronts)} fronts")
+    pop_effects = sum(1 for e in events for o in e["options"] for x in flat_effects(o["effects"]) if x["t"] == "pop")
+    total = sum(sum(r.values()) for r in population.values())
+    print(f"population: {len(population)} provinces, {len(pop_groups)} groups, {total:.0f} thousand in 1873; "
+          f"{pop_effects} 👥 effects; {len(figures)} figure rows")
     play = [e for e in events if e["kind"] in PLAYABLE]
     opts = [o for e in play for o in e["options"] if o["label"] != "Devam."]
     stat_only = sum(all(x["t"] in ("res", "set") for x in flat_effects(o["effects"])) for o in opts)
@@ -948,6 +1046,19 @@ def parse_effects(where, ev_id, segments, resolve, parse_cond, flags_set, flags_
                 elif eff["v"] not in world_values[eff["id"]]:
                     err(where, f"'{eff['v']}' is not a value of {eff['id']} in {ev_id}")
                 world_set[(eff["id"], eff["v"])].append(where)
+            if eff["t"] == "pop":
+                if eff["g"] not in POP["groups"]:
+                    err(where, f"unknown population group '{eff['g']}' in {ev_id} (GD 05 Nüfus grupları)")
+                target = tr_lower(eff["to"])
+                if target == "imparatorluk":
+                    eff["to"] = ["*"]
+                elif eff["to"] in POP["provinces"]:
+                    eff["to"] = [eff["to"]]
+                elif target in POP["regions"]:
+                    eff["to"] = POP["regions"][target]
+                else:
+                    err(where, f"👥 target '@{eff['to']}' is not a province with population, a region or imparatorluk")
+                    eff["to"] = []
             if eff["t"] == "prov":
                 if eff["id"] not in prov_ids:
                     err(where, f"unknown province '{eff['id']}' in {ev_id} (register it in GD 05)")
@@ -988,6 +1099,10 @@ def parse_effect(tok, resolve):
     m = re.fullmatch(r"(?:👤\s*|@)([a-z0-9_]+)", tok)
     if m:
         return {"t": "persona", "id": m.group(1)}
+    m = re.fullmatch(r"(?:👥\s*|pop:)([a-z_]+)\s+([+-−]\s*\d+(?:[.,]\d+)?)\s*(%?)(?:\s+@\s*(\S+))?", tok)
+    if m:
+        return {"t": "pop", "g": m.group(1), "d": float(m.group(2).replace("−", "-").replace(" ", "").replace(",", ".")),
+                "pct": m.group(3) == "%", "to": m.group(4) or "imparatorluk"}
     m = re.fullmatch(r"(?:☠\s*|end:)([a-z0-9_]+)", tok)
     if m:
         return {"t": "end", "id": m.group(1)}

@@ -67,6 +67,22 @@ func _ready() -> void:
 		var last: Dictionary = steps[-1]
 		v.add_child(UIKit.label("%d · %s" % [int(last["y"]), str(last.get("by", ""))], 11, UIKit.MUTED, true))
 		grid.add_child(c)
+	# the peoples of the empire: how many of each were still living in its lands (all 1873 provinces)
+	body.add_child(UIKit.section("Nüfus (tahminî, 1873'teki bütün iller)"))
+	var pop := UIKit.panel(UIKit.PANEL_2)
+	var pv := UIKit.vbox(3)
+	pop.add_child(pv)
+	for g in state.pop_order:
+		var then := state.group_total(g, true, true)
+		if then < 1.0:
+			continue
+		var now := state.group_total(g, true)
+		var ratio := now / then
+		var line := "%s: %d bin → %d bin (%%%d) · %s" % [state.pop_groups[g]["name"], int(round(then)), int(round(now)),
+			int(round(ratio * 100.0)), state.group_status(g, ratio)]
+		pv.add_child(UIKit.label(line, 13, UIKit.INK if ratio >= 0.85 else Color("e0a080")))
+	pv.add_child(UIKit.label("Rakamlar tahminîdir; bkz. GD 05 Nüfus.", 10, UIKit.MUTED))
+	body.add_child(pop)
 	var stats := UIKit.hbox(16)
 	for id in state.resource_order:
 		if state.resources[id]["visible"]:

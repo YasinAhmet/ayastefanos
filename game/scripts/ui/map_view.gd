@@ -1,7 +1,9 @@
 extends Control
 ## The atlas: provinces painted in the colour of whoever holds them, hatched with the owner's colour where the
-## two differ (Egypt after 1882), pan (drag) and zoom (wheel). Markers (landmarks, papers, fronts) are child
-## controls pinned to a lon/lat and moved with the camera.
+## two differ (Egypt after 1882), pan (drag) and zoom (wheel). Markers (landmarks, papers, fronts, people) are
+## child controls pinned to a lon/lat and moved with the camera. Nothing overlaps: after every move the markers
+## are laid out by priority and a marker that would cover a more important one is hidden (its name stays in the
+## tooltip of its dot); province names are drawn only where they fit between the markers and each other.
 
 const UIKit := preload("res://game/scripts/ui/ui_kit.gd")
 const MAP_PATH := "res://game/data/map/provinces.json"
@@ -20,7 +22,11 @@ var zoom := 1.0
 var offset := Vector2.ZERO             # screen position of world origin
 var selected := ""
 var highlight: Dictionary = {}         # province id -> Color (front lines, events)
-var markers: Array = []                # [{node: Control, lonlat: Vector2, px: Vector2 (pixel offset), min_zoom}]
+var markers: Array = []                # [{node, lonlat, px (pixel offset), min_zoom, prio, group}]
+var left_inset := 0.0                  # width covered by the desk's left column: fit() frames the map beside it
+var pulse = null                       # lon/lat of a ring drawn while the pointer rests on a paper card
+var _occupied: Array = []              # screen rects of the markers shown, for the province names
+var _resolve_queued := false
 var _hatch: ImageTexture
 var _dragging := false
 var _drag_moved := 0.0
@@ -103,8 +109,9 @@ func fit() -> void:
 	var a := _world(Vector2(16.0, 47.5))
 	var c := _world(Vector2(50.0, 27.0))
 	var r := Rect2(a, c - a)
-	zoom = minf(size.x / r.size.x, size.y / r.size.y)
-	offset = size / 2.0 - (r.position + r.size / 2.0) * zoom
+	var view := Rect2(left_inset, 38.0, size.x - left_inset, size.y - 38.0)
+	zoom = minf(view.size.x / r.size.x, view.size.y / r.size.y)
+	offset = view.get_center() - (r.position + r.size / 2.0) * zoom
 	_clamp()
 	queue_redraw()
 	_place_markers()
@@ -237,6 +244,10 @@ func _draw() -> void:
 			draw_polyline(_closed(pl), outline, w, true)
 	draw_set_transform(Vector2.ZERO)
 	_draw_labels()
+	if pulse != null:
+		var c := lonlat_to_screen(pulse)
+		draw_arc(c, 22.0, 0, TAU, 48, Color("f6e7b0"), 3.0, true)
+		draw_arc(c, 28.0, 0, TAU, 48, Color(UIKit.RED, 0.8), 2.0, true)
 	draw_rect(Rect2(Vector2.ZERO, size), UIKit.BORDER, false, 3.0)
 
 
@@ -248,7 +259,10 @@ func _closed(pts: PackedVector2Array) -> PackedVector2Array:
 
 func _draw_labels() -> void:
 	var font := get_theme_default_font()
-	for id in provinces:
+	var taken: Array = _occupied.duplicate()
+	var ids := provinces.keys()
+	ids.sort_custom(func(a, b): return provinces[a]["area"] > provinces[b]["area"])  # big provinces first
+	for id in ids:
 		var p: Dictionary = provinces[id]
 		# bigger provinces get their name earlier while zooming in
 		if p["area"] * zoom * zoom < 18.0:
@@ -259,6 +273,10 @@ func _draw_labels() -> void:
 		var pos: Vector2 = offset + p["label"] * zoom
 		var fs := int(clampf(9.0 + zoom * 1.2, 10.0, 15.0))
 		var w := font.get_string_size(name, HORIZONTAL_ALIGNMENT_LEFT, -1, fs).x
+		var r := Rect2(pos.x - w / 2.0 - 2.0, pos.y - fs * 0.7, w + 4.0, fs * 1.2)
+		if taken.any(func(o): return o.intersects(r)):
+			continue
+		taken.append(r)
 		draw_string(font, pos - Vector2(w / 2.0, -4.0), name, HORIZONTAL_ALIGNMENT_LEFT, -1, fs, Color(UIKit.BORDER, 0.75))
 
 
@@ -272,15 +290,57 @@ func clear_markers() -> void:
 
 
 ## Pin a control at a lon/lat; `px` shifts it in screen pixels (used to fan out İstanbul's landmarks).
-func add_marker(node: Control, lonlat: Vector2, px := Vector2.ZERO, min_zoom := 0.0) -> void:
+## `prio` decides who stays when two markers overlap; markers of the same `group` (one place) may overlap.
+## `alts` are other pixel shifts to try before hiding it (people step aside instead of vanishing).
+func add_marker(node: Control, lonlat: Vector2, px := Vector2.ZERO, min_zoom := 0.0, prio := 0, group := "",
+		alts: Array = []) -> void:
 	add_child(node)
-	markers.append({"node": node, "lonlat": lonlat, "px": px, "min_zoom": min_zoom})
+	markers.append({"node": node, "lonlat": lonlat, "px": px, "min_zoom": min_zoom, "prio": prio, "group": group,
+		"alts": alts})
 	_place_marker(markers[-1])
+	if not _resolve_queued:
+		_resolve_queued = true
+		(func():
+			_resolve_queued = false
+			_resolve()).call_deferred()
 
 
 func _place_markers() -> void:
 	for m in markers:
 		_place_marker(m)
+	_resolve()
+
+
+## Hide every marker that would cover a more important one; remember what is shown for the province names.
+func _resolve() -> void:
+	var order: Array = markers.filter(func(m): return is_instance_valid(m["node"]) and m["node"].visible)
+	order.sort_custom(func(a, b): return a["prio"] > b["prio"])
+	var shown: Array = []   # [rect, group]
+	var view := Rect2(Vector2.ZERO, size)
+	for m in order:
+		var n: Control = m["node"]
+		var base := n.position
+		var placed := false
+		for shift in [Vector2.ZERO] + m.get("alts", []):
+			var r := Rect2(base + shift, n.size).grow(-1.0)
+			if not view.intersects(r):
+				placed = true
+				break
+			var hit := false
+			for s in shown:
+				if s[1] != m["group"] or m["group"] == "":
+					if s[0].intersects(r):
+						hit = true
+						break
+			if not hit:
+				n.position = base + shift
+				shown.append([r, m["group"]])
+				placed = true
+				break
+		if not placed:
+			n.visible = false
+	_occupied = shown.map(func(s): return s[0])
+	queue_redraw()
 
 
 func _place_marker(m: Dictionary) -> void:

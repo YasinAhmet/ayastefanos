@@ -35,10 +35,18 @@ func _run() -> void:
 				print("choosing option ", i, " of ", ev["id"])
 				st.choose(ev["id"], i)
 				break
+	print("cards in the left column: ", desk.cards.get_child_count())
 	desk.show_place("babiali")
 	desk.show_place("galata")
 	desk.show_province("misir")
+	desk.show_province("erzurum")
 	desk.show_nation("RU")
+	desk.show_nation("OS")
+	desk.show_person("mustafa_kemal")
+	desk._collapsed = true
+	desk._layout_left()
+	desk._collapsed = false
+	desk._layout_left()
 	for fid in st.fronts:
 		desk.show_front(fid)
 	desk.close_inspector()
@@ -52,6 +60,20 @@ func _run() -> void:
 		desk.panels.codex(st.codex.keys()[0])
 	desk.panels.nation("RU")
 	desk.panels.gazette({"year": st.year, "paper": st.gazette_name(), "decisions": st.history, "headlines": ["deneme"]})
+	await process_frame
+	# debug autoplay: 50 quick steps without letters, then a few with the letters shown
+	desk.auto_bar.visible = true
+	desk._auto_start()
+	for i in 50:
+		desk._auto_tick()
+		if st.ending_id != "" or not desk.is_autoplaying():
+			break
+	print("autoplay reached ", st.year, "-", st.month, " figures on the map: ", st.figure_places().size())
+	desk.auto_show.button_pressed = true
+	for i in 9:
+		desk._auto_tick()
+		await process_frame
+	desk._auto_stop()
 	await process_frame
 	st.ending_id = "son3"
 	main.show_ending()

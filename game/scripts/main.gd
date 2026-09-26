@@ -42,18 +42,20 @@ func show_menu() -> void:
 	box.add_child(UIKit.label("Ayastefanos Utancı", 44, UIKit.GOLD))
 	box.add_child(UIKit.label("1873 – 1919", 20, UIKit.MUTED))
 	box.add_child(UIKit.label("Masada bir padişah, önünde bir harita, kapıda bir imparatorluğun çöküşü.", 14, UIKit.INK, true))
-	var b_new := UIKit.button("Yeni Oyun · Serbest", UIKit.PANEL_2, 17)
-	b_new.tooltip_text = "Bütün seçenekler açık; tarihten ayrılan dallar \"Alternatif tarih\" diye işaretli."
-	b_new.pressed.connect(func():
-		state.new_game("serbest")
-		show_desk())
-	box.add_child(b_new)
-	var b_hist := UIKit.button("Yeni Oyun · Tarihî", UIKit.PANEL_2, 17)
-	b_hist.tooltip_text = "Yalnız tarihte masada olan seçenekler: alternatif tarih olayları ve seçenekleri gizlenir."
-	b_hist.pressed.connect(func():
-		state.new_game("tarihi")
-		show_desk())
-	box.add_child(b_hist)
+	for spec in [["Yeni Oyun · Fantezi", "serbest", false, "Bütün seçenekler açık; tarihten ayrılan dallar \"Alternatif tarih\" diye işaretli."],
+			["Yeni Oyun · Tarihî", "tarihi", false, "Her olayda yalnız tarihte olan seçenek; alternatif tarih olayları gizlenir."]]:
+		var b := UIKit.button(spec[0], UIKit.PANEL_2, 17)
+		b.tooltip_text = spec[3]
+		b.pressed.connect(_start.bind(spec[1], spec[2]))
+		box.add_child(b)
+	var auto_row := UIKit.hbox(8)
+	for spec in [["Otomatik: Tarihî", "tarihi"], ["Otomatik: Fantezi", "serbest"]]:
+		var b := UIKit.button(spec[0], Color("2a2330"), 13)
+		b.tooltip_text = "Debug: masa kendi kendine oynar; hız ve durdurma sağ alttaki çubukta (F9)."
+		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		b.pressed.connect(_start.bind(spec[1], true))
+		auto_row.add_child(b)
+	box.add_child(auto_row)
 	var b_load := UIKit.button("Devam Et", UIKit.PANEL_2, 17)
 	b_load.disabled = not state.has_save()
 	b_load.pressed.connect(func():
@@ -70,10 +72,16 @@ func show_menu() -> void:
 	_swap(root)
 
 
-func show_desk() -> void:
+func _start(game_mode: String, auto: bool) -> void:
+	state.new_game(game_mode)
+	show_desk(auto)
+
+
+func show_desk(auto := false) -> void:
 	var d := Desk.new()
 	d.state = state
 	d.main = self
+	d.autoplay_on_start = auto
 	_swap(d)
 
 

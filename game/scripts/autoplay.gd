@@ -40,8 +40,9 @@ static func _leads_elsewhere(state, opt: Dictionary) -> bool:
 	return false
 
 
-## One step of play. Returns {kind: "choose"|"decision"|"advance"|"end"|"stuck", ev, option}.
-static func step(state, policy: String, rng: RandomNumberGenerator) -> Dictionary:
+## What the next step would be, without doing it: {kind: "choose"|"decision"|"advance"|"end"|"stuck", ev, option}.
+## Split from step() so the desk can show the letter before the choice is made.
+static func plan(state, policy: String, rng: RandomNumberGenerator) -> Dictionary:
 	if state.ending_id != "":
 		return {"kind": "end"}
 	var decisions: Array = state.open_decisions()
@@ -50,7 +51,6 @@ static func step(state, policy: String, rng: RandomNumberGenerator) -> Dictionar
 		var d: Dictionary = decisions[rng.randi_range(0, decisions.size() - 1)]
 		var di := pick(state, d, policy, rng)
 		if di >= 0:
-			state.choose(d["id"], di)
 			return {"kind": "decision", "ev": d, "option": di}
 	var open: Array = state.open_events()
 	if not open.is_empty():
@@ -61,16 +61,30 @@ static func step(state, policy: String, rng: RandomNumberGenerator) -> Dictionar
 				break
 		# a player sometimes leaves optional papers on the desk (never in Tarihî mode: history answered them)
 		if policy != "tarihi" and not (ev["kind"] in GameState.MANDATORY) and rng.randf() < 0.3 and state.can_advance():
-			state.advance()
 			return {"kind": "advance"}
 		var i := pick(state, ev, policy, rng)
-		if i < 0 or state.choose(ev["id"], i).is_empty():
+		if i < 0:
 			return {"kind": "stuck", "ev": ev}
 		return {"kind": "choose", "ev": ev, "option": i}
 	if not state.can_advance():
 		return {"kind": "stuck"}
-	var before := Vector2i(state.year, state.month)
-	state.advance()
-	if Vector2i(state.year, state.month) == before and state.ending_id == "":
-		return {"kind": "stuck"}
 	return {"kind": "advance"}
+
+
+## Carry out a planned step. Returns the plan, with kind "stuck" when it could not be done.
+static func perform(state, p: Dictionary) -> Dictionary:
+	match p["kind"]:
+		"choose", "decision":
+			if state.choose(p["ev"]["id"], int(p["option"])).is_empty():
+				return {"kind": "stuck", "ev": p["ev"]}
+		"advance":
+			var before := Vector2i(state.year, state.month)
+			state.advance()
+			if Vector2i(state.year, state.month) == before and state.ending_id == "":
+				return {"kind": "stuck"}
+	return p
+
+
+## One step of play. Returns {kind: "choose"|"decision"|"advance"|"end"|"stuck", ev, option}.
+static func step(state, policy: String, rng: RandomNumberGenerator) -> Dictionary:
+	return perform(state, plan(state, policy, rng))

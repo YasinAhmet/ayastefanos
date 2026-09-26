@@ -28,7 +28,9 @@ Bu görseller Wikimedia Commons / Wikipedia'dandır; kasa kaynağı değildir (�
 | Ahmed_Djemal_portrait_Project_Gutenberg_eText_10338_7d82c7.png | Ahmed Djemal portrait Project Gutenberg eText 10338.png | ? | ? | ? |
 | Ahmed_Niyazi_Bey_a8c94f.jpg | Ahmed Niyazi Bey.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmed_Niyazi_Bey.jpg) |
 | Ahmed_Riza_Bey_f6b896.jpg | Ahmed Riza Bey.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmed_Riza_Bey.jpg) |
+| Ahmedniyazibey_cc2ab6.jpg | Ahmedniyazibey.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmedniyazibey.jpg) |
 | Ahmet_Cemal_Pa_a_on_the_shore_of_the_Dead_Sea2_ba6bbe.jpg | Ahmet Cemal Paşa on the shore of the Dead Sea2.jpg | American Colony (Jerusalem). Photo Department, photographer | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmet_Cemal_Pa%C5%9Fa_on_the_shore_of_the_Dead_Sea2.jpg) |
+| Ahmet_muhtar_1df0be.jpg | Ahmet muhtar.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmet_muhtar.jpg) |
 | Ahmet_zzet_Pa_a_7b09df.jpg | Ahmet İzzet Paşa.jpg | Granger Art on Demand | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmet_%C4%B0zzet_Pa%C5%9Fa.jpg) |
 | Al1_5235_6C52_7E70_4f0ad3.jpg | Al1-5235-6C52-7E70.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Al1-5235-6C52-7E70.jpg) |
 | Ali_Suavi_2_b991a3.jpg | Ali Suavi-2.jpg | E. Bocourt - L. Chapon | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ali_Suavi-2.jpg) |
@@ -95,6 +97,7 @@ Bu görseller Wikimedia Commons / Wikipedia'dandır; kasa kaynağı değildir (�
 | First_Congress_of_the_Young_Turks_in_Paris_1902_83f09d.jpg | First Congress of the Young Turks in Paris (1902).jpg | Archive of Ottoman Empire | Public domain | [link](https://commons.wikimedia.org/wiki/File:First_Congress_of_the_Young_Turks_in_Paris_(1902).jpg) |
 | Gallipoli_ANZAC_Cove_Sphinx_2_813869.jpg | Gallipoli ANZAC Cove Sphinx 2.jpg | Julian Nyča | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Gallipoli_ANZAC_Cove_Sphinx_2.JPG) |
 | Gallipolimap2_4c20fa.png | Gallipolimap2.png |  | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Gallipolimap2.png) |
+| Gazi_Osman_Pa_a_Heykeli_9a0d26.jpg | Gazi Osman Paşa Heykeli.jpg | Cobija | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Gazi_Osman_Pa%C5%9Fa_Heykeli.JPG) |
 | Gazi_ahmed_muhtar_pasa_1_603edc.jpg | Gazi-ahmed-muhtar-pasa-1.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Gazi-ahmed-muhtar-pasa-1.jpg) |
 | General_Nikolay_Ignatev_ba9be4.jpg | General Nikolay Ignatev.jpg | ? | ? | ? |
 | GhaziOsmanPasha_7b73f0.jpg | GhaziOsmanPasha.jpg | Abdullah frères | Public domain | [link](https://commons.wikimedia.org/wiki/File:GhaziOsmanPasha.jpg) |

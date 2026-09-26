@@ -35,6 +35,10 @@ var landmarks: Dictionary = {}      # id -> {id, name, province, nation, lonlat,
 var decisions: Array = []           # karar events
 var fronts: Dictionary = {}         # front id -> {id, name, war, value, enemy, lonlat, cond, start, strength, opposition, win, lose, provinces, results}
 var _front_by_value: Dictionary = {}  # resource id -> front id
+var pop_groups: Dictionary = {}     # group id -> {id, name, power, leave, press, revolt}
+var pop_order: Array = []
+var pop_start: Dictionary = {}      # province -> {group: thousands} in 1873 (GD 05 Nüfus)
+var figures: Array = []             # [{person, from, to, place, label, lonlat, cond, source}] (GD 05 Kişiler haritada)
 
 # ---- dynamic state
 var year := START.x
@@ -58,6 +62,7 @@ var slot_done: Dictionary = {}      # yuva -> true once one of its versions was 
 var mode := "serbest"               # "tarihi" hides alternatif events and options
 var _acting := ""                   # title of the event whose effects are being applied (for the chronicle)
 var front_log: Dictionary = {}      # front id -> [{y, m, d, by}]: every change to the front's balance and its cause
+var population: Dictionary = {}     # province -> {group: thousands}, changed by 👥 effects and cessions
 const DRIFT_BY := "Cephenin kendi seyri"
 
 
@@ -91,6 +96,13 @@ func load_data(path := DATA_PATH) -> bool:
 		provinces[p["id"]] = p
 	landmarks = data.get("landmarks", {})
 	fronts = data.get("fronts", {})
+	pop_groups.clear()
+	pop_order.clear()
+	for g in data.get("pop_groups", []):
+		pop_groups[g["id"]] = g
+		pop_order.append(g["id"])
+	pop_start = data.get("population", {})
+	figures = data.get("figures", [])
 	_front_by_value.clear()
 	for id in fronts:
 		_front_by_value[str(fronts[id]["value"])] = id
@@ -124,6 +136,7 @@ func new_game(game_mode := "serbest") -> void:
 	chronicle.clear()
 	slot_done.clear()
 	front_log.clear()
+	population = pop_start.duplicate(true)
 	year = START.x
 	month = START.y
 	values.clear()
@@ -387,6 +400,8 @@ func _apply(effects: Array) -> void:
 				_set_world(str(e["id"]), str(e["v"]))
 			"prov":
 				_set_province(str(e["id"]), str(e["v"]), bool(e.get("own", true)))
+			"pop":
+				_pop_change(str(e["g"]), float(e["d"]), bool(e["pct"]), e["to"])
 			"persona":
 				persona = e["id"]
 			"end":
@@ -409,6 +424,8 @@ func _set_province(id: String, nation: String, cede: bool) -> void:
 	prov_ctl[id] = nation
 	if cede:
 		prov_owner[id] = nation
+		if old_own == "OS" and nation != "OS":
+			_emigrate(id)
 	if old_ctl != nation or (cede and old_own != nation):
 		chronicle.append({"kind": "prov", "key": id, "from": old_ctl, "to": nation, "from_own": old_own,
 			"own": prov_owner[id], "y": year, "m": month, "by": _acting})
@@ -576,6 +593,124 @@ func epilog_cards() -> Array:
 
 # ---------------------------------------------------------------- save / load
 
+# ---------------------------------------------------------------- population and figures
+
+## Provinces a 👥 target names: ["*"] is every province the empire owns right now.
+func _pop_targets(to: Array) -> Array:
+	if to.has("*"):
+		return population.keys().filter(func(p): return province_holder(p, "own") == "OS")
+	return to.filter(func(p): return population.has(p))
+
+
+## 👥 group ±N% (a share of the group in each target) or ±N (thousands, spread over the targets by their size).
+func _pop_change(g: String, d: float, pct: bool, to: Array) -> void:
+	var targets := _pop_targets(to)
+	if pct:
+		for p in targets:
+			var row: Dictionary = population[p]
+			if row.has(g):
+				row[g] = maxf(0.0, float(row[g]) * (1.0 + d / 100.0))
+		return
+	var total := 0.0
+	for p in targets:
+		total += province_pop(p)
+	for p in targets:
+		var share := province_pop(p) / total if total > 0.0 else 1.0 / targets.size()
+		var row: Dictionary = population[p]
+		row[g] = maxf(0.0, float(row.get(g, 0.0)) + d * share)
+
+
+## A province leaves the empire: each group's Göç share moves to Anatolia and the capital (the muhacirs).
+func _emigrate(id: String) -> void:
+	if not population.has(id):
+		return
+	var dest: Array = population.keys().filter(func(p):
+		return p != id and province_holder(p, "own") == "OS" and str(provinces[p]["region"]) in ["Anadolu", "Payitaht"])
+	var row: Dictionary = population[id]
+	for g in row.keys():
+		var leave := float(pop_groups.get(g, {}).get("leave", 0)) / 100.0
+		if leave <= 0.0:
+			continue
+		var n := float(row[g]) * leave
+		row[g] = float(row[g]) - n
+		if not dest.is_empty():
+			_pop_change(g, n, false, dest)
+
+
+func province_pop(id: String) -> float:
+	var s := 0.0
+	for v in population.get(id, {}).values():
+		s += float(v)
+	return s
+
+
+## The groups living in a province, largest first: [{id, name, n, start, ratio, status, power}].
+func province_groups(id: String) -> Array:
+	var out: Array = []
+	var row: Dictionary = population.get(id, {})
+	var start: Dictionary = pop_start.get(id, {})
+	for g in pop_order:
+		var n := float(row.get(g, 0.0))
+		var s := float(start.get(g, 0.0))
+		if n < 0.5 and s < 0.5:
+			continue
+		var ratio := n / s if s > 0.0 else 2.0
+		out.append({"id": g, "name": pop_groups[g]["name"], "n": n, "start": s, "ratio": ratio,
+			"status": group_status(g, ratio), "power": group_power(g)})
+	out.sort_custom(func(a, b): return a["n"] > b["n"])
+	return out
+
+
+## A group's total across the empire's provinces (owned now), or everywhere with `all`.
+func group_total(g: String, all := false, start := false) -> float:
+	var s := 0.0
+	for p in population:
+		if all or province_holder(p, "own") == "OS":
+			s += float((pop_start if start else population)[p].get(g, 0.0))
+	return s
+
+
+## The group's resource value (Ermeniler, Araplar, Kürtler), or -1 when it has none.
+func group_power(g: String) -> int:
+	var r = pop_groups.get(g, {}).get("power")
+	return value_of(str(r)) if r != null else -1
+
+
+func group_status(g: String, ratio: float) -> String:
+	if ratio < 0.05:
+		return "yok edildi"
+	if ratio < 0.35:
+		return "sürüldü"
+	if ratio < 0.85:
+		return "azalıyor"
+	if ratio > 1.15:
+		return "muhacirle artıyor"
+	var gd: Dictionary = pop_groups.get(g, {})
+	if gd.get("revolt") != null and Logic.eval_cond(gd["revolt"], self):
+		return "ayaklandı"
+	if gd.get("press") != null and Logic.eval_cond(gd["press"], self):
+		return "baskı altında"
+	return "yerleşik"
+
+
+## Where the notable people are this month: [{person, lonlat, label, place, source}]. The one whose medallion
+## stands at the Porte (the ruler, or Talat at the head of the government) is left out.
+func figure_places() -> Array:
+	var out: Array = []
+	var key := now_key()
+	var skip := persona
+	var taken := {}
+	for f in figures:
+		var pid := str(f["person"])
+		if pid == skip or taken.has(pid) or key < int(f["from"]) or key > int(f["to"]):
+			continue
+		if f.get("cond") != null and not Logic.eval_cond(f["cond"], self):
+			continue
+		taken[pid] = true
+		out.append(f)
+	return out
+
+
 func save_game() -> void:
 	var f := FileAccess.open(SAVE_PATH, FileAccess.WRITE)
 	if f == null:
@@ -583,7 +718,8 @@ func save_game() -> void:
 	f.store_string(JSON.stringify({"version": SAVE_VERSION, "year": year, "month": month, "values": values,
 		"flags": flags, "persona": persona, "answered": answered, "queued": queued, "dropped": dropped,
 		"history": history, "year_log": year_log, "ending": ending_id, "world": world, "owner": prov_owner, "ctl": prov_ctl,
-		"chronicle": chronicle, "slot_done": slot_done, "mode": mode, "front_log": front_log}))
+		"chronicle": chronicle, "slot_done": slot_done, "mode": mode, "front_log": front_log,
+		"population": population}))
 
 
 func has_save() -> bool:
@@ -629,5 +765,7 @@ func load_game() -> bool:
 	chronicle = s.get("chronicle", [])
 	slot_done = s.get("slot_done", {})
 	front_log = s.get("front_log", {})
+	population = pop_start.duplicate(true)
+	population.merge(s.get("population", {}), true)
 	changed.emit()
 	return true
