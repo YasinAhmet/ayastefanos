@@ -600,33 +600,39 @@ Gazi Ahmed Muhtar Paşa Kars ile Erzurum arasında Rus kollarını karşılıyor
 Kırkkilise, Lüleburgaz, Çatalca; ve kuşatılmış Edirne.
 > Kaynak: [[Edirne]]
 
+### Cephe · Trakya (İtilaf yolu)
+`cephe: trakya_itilaf` · `harp: Büyük Harp` · `değer: trakya` · `düşman: BU` · `konum: 26.90,41.70` · `iller: edirne, tekfurdagi` · `sınır: edirne, tekfurdagi` · `güç: harbiye` · `karşı: 50` · `başlangıç: 1915-10` · `zafer: 60` · `yenilgi: 30` · `sonuç: itilaf_son`
+`koşul: ⚑bulgar_harbi & ⚑itilaf_yolu`
+Alternatif tarih. İtilaf safındaki Osmanlı ordusu Bulgaristan'a karşı Meriç boyunda; Edirne üçüncü kez cephe.
+> Kaynak: [[Edirne]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 105|Yalman, p. 105]]
+
 ### Cephe · Kafkas
-`cephe: kafkas` · `harp: Büyük Harp` · `değer: kafkas` · `düşman: RU` · `konum: 42.40,40.20` · `iller: kars, batum, erzurum` · `sınır: kars, batum, erzurum, trabzon` · `güç: harbiye, dogu_hazirligi` · `karşı: 45` · `başlangıç: 1914-11` · `zafer: 65` · `yenilgi: 30` · `sonuç: sarikamis_zafer, kafkas_bahar_zafer, sarikamis_felaket, kafkas_cikmaz, hamid_erzurum_dustu`
-`koşul: ⚑harpte & (⚑yol_ittihat | ⚑yol_hamid) & !⚑mondros`
+`cephe: kafkas` · `harp: Büyük Harp` · `değer: kafkas` · `düşman: RU` · `konum: 42.40,40.20` · `iller: kars, batum, erzurum` · `sınır: kars, batum, erzurum, trabzon` · `güç: harbiye, dogu_hazirligi` · `karşı: 45` · `başlangıç: 1914-11` · `zafer: 65` · `yenilgi: 30` · `sonuç: sarikamis_zafer, kafkas_bahar_zafer, sarikamis_felaket, kafkas_cikmaz, hamid_erzurum_dustu, hamid_kafkas_zafer`
+`koşul: (⚑ittifak_harbi | (⚑yol_hamid & ⚑harpte)) & !⚑mondros`
 Sarıkamış'ın karlı dağları; Erzurum'un ardında beş yüz kilometrelik bir ikmal yolu.
 > Kaynak: [[Sarıkamış Operation (1914-1915)]]
 
 ### Cephe · Çanakkale
 `cephe: canakkale` · `harp: Büyük Harp` · `değer: canakkale` · `düşman: IN` · `konum: 26.30,40.15` · `iller: edirne, hudavendigar` · `güç: harbiye, bahriye` · `karşı: 45` · `başlangıç: 1915-02` · `zafer: 65` · `yenilgi: 30` · `sonuç: gelibolu_tahliye`
-`koşul: ⚑harpte & ⚑yol_ittihat & !⚑mondros`
+`koşul: ⚑ittifak_harbi & !⚑mondros`
 Boğaz'ın tabyaları, sonra Gelibolu'nun siperleri.
 > Kaynak: [[Çanakkale and Gelibolu]]
 
 ### Cephe · Irak
 `cephe: irak` · `harp: Büyük Harp` · `değer: irak` · `düşman: IN` · `konum: 46.20,31.60` · `iller: basra, bagdat` · `güç: harbiye` · `karşı: 40` · `başlangıç: 1914-11` · `zafer: 65` · `yenilgi: 30` · `sonuç: bagdat_tutuldu, bagdat_dustu`
-`koşul: ⚑harpte & ⚑yol_ittihat & !⚑mondros`
+`koşul: ⚑ittifak_harbi & !⚑mondros`
 Basra'dan Dicle boyunca Bağdat'a.
 > Kaynak: [[Bağdat]] · [[Basra]]
 
 ### Cephe · Filistin ve Süveyş
 `cephe: filistin` · `harp: Büyük Harp` · `değer: filistin` · `düşman: IN` · `konum: 33.60,30.90` · `iller: kudus, misir` · `güç: harbiye` · `karşı: 45` · `başlangıç: 1915-01` · `zafer: 65` · `yenilgi: 30` · `sonuç: kudus_tutuldu, kudus_dustu`
-`koşul: ⚑harpte & ⚑yol_ittihat & !⚑mondros`
+`koşul: ⚑ittifak_harbi & !⚑mondros`
 Sina çölü, Süveyş Kanalı, sonra Gazze ve Kudüs.
 > Kaynak: [[Süveyş Kanalı]] · [[Kudüs]]
 
 ### Cephe · Hicaz
 `cephe: hicaz` · `harp: Büyük Harp` · `değer: hicaz` · `düşman: AR` · `konum: 39.60,24.50` · `iller: hicaz` · `güç: harbiye` · `karşı: 45` · `başlangıç: 1916-06` · `zafer: 65` · `yenilgi: 30` · `sonuç: arap_isyani_onlendi, medine_mudafaa`
-`koşul: ⚑harpte & ⚑yol_ittihat & ⚑arap_isyani & !⚑mondros`
+`koşul: ⚑ittifak_harbi & ⚑arap_isyani & !⚑mondros`
 Şerif Hüseyin'in isyanı; Medine'de Fahreddin Paşa.
 > Kaynak: [[Hicaz]] · [[Medine]]
 
@@ -651,11 +657,11 @@ Her ilde hangi toplulukların, kaç bin kişiyle yaşadığı. Sol alttaki il pa
 |---|---|---|---|---|---|
 | turk | Türk ve Müslüman | - | 35 | - | - |
 | kurt | Kürt | Kürtler | 10 | - | - |
-| arap | Arap | Araplar | 0 | ⚑yol_ittihat & ⚑harpte & Araplar < 30 | ⚑arap_isyani |
+| arap | Arap | Araplar | 0 | ⚑ittifak_harbi & Araplar < 30 | ⚑arap_isyani |
 | arnavut | Arnavut | - | 10 | - | - |
 | bosnak | Boşnak | - | 20 | - | - |
 | rum | Rum | - | 0 | - | - |
-| ermeni | Ermeni | Ermeniler | 0 | ⚑hamidiye_kuruldu & !⚑yol_ittihat | - |
+| ermeni | Ermeni | Ermeniler | 0 | ⚑hamidiye_kuruldu & !⚑yol_ittihat & !⚑yol_ahrar | - |
 | bulgar | Bulgar | - | 0 | - | - |
 | sirp | Sırp | - | 0 | - | - |
 | yahudi | Yahudi | - | 0 | - | - |
@@ -742,8 +748,10 @@ Bin kişi, 1873. Boş hücre sıfırdır. Komşu devletlerin illeri tutulmaz.
 | ahmed_muhtar | 1877-11 | 1878-03 | erzurum | ⚑harp_93 | [[Gazi Ahmed Muhtar Paşa]] |
 | ahmed_muhtar | 1885-10 | 1908-08 | kahire | - | [[Gazi Ahmed Muhtar Paşa]] (fevkalade komiser) |
 | ahmed_muhtar | 1912-07 | 1912-10 | babiali | ⚑yol_ittihat | [[Gazi Ahmed Muhtar Paşa]] (sadrazam) |
+| kamil | 1913-01 | 1913-10 | babiali | ⚑yol_ahrar | [[Kamil Paşa]] (Ahrar yolunda sadrazam; Alternatif tarih) |
+| ahmed_muhtar | 1913-11 | 1919-12 | babiali | ⚑yol_ahrar | [[Gazi Ahmed Muhtar Paşa]] (Ahrar yolunda sadrazam; Alternatif tarih) |
 | goltz | 1883-06 | 1895-10 | harbiye_mektebi | - | [[Colmar von der Goltz]] |
-| goltz | 1915-12 | 1916-04 | bagdat | ⚑yol_ittihat & ⚑harpte | [[Colmar von der Goltz]] · ölümü `goltz_olum` olayında |
+| goltz | 1915-12 | 1916-04 | bagdat | ⚑ittifak_harbi | [[Colmar von der Goltz]] · ölümü `goltz_olum` olayında |
 | talat | 1898-01 | 1908-07 | selanik | - | [[Talat Paşa]] (Selanik posta idaresi, Cemiyet'in merkezi) |
 | talat | 1908-08 | 1918-10 | babiali | ⚑yol_ittihat | [[Talat Paşa]] |
 | enver | 1906-09 | 1908-07 | selanik | - | [[Enver Paşa]] (Üçüncü Ordu kurmayı) |
@@ -751,12 +759,12 @@ Bin kişi, 1873. Boş hücre sıfırdır. Komşu devletlerin illeri tutulmaz.
 | enver | 1909-03 | 1911-09 | Berlin @ 13.40,52.52 | ⚑yol_ittihat | [[Enver Paşa]] (ataşemiliter) |
 | enver | 1911-10 | 1912-10 | Derne @ 22.64,32.77 | ⚑gonullu_trablus | [[Enver (Murat Bardakçı)#p. 113\|Bardakçı, *Enver*, p. 113]] |
 | enver | 1912-11 | 1914-11 | babiali | ⚑yol_ittihat | [[Enver Paşa]] (Babıâli Baskını, Harbiye Nezareti) |
-| enver | 1914-12 | 1915-01 | sarikamis | ⚑yol_ittihat & ⚑harpte | [[Sarıkamış Operation (1914-1915)]] |
+| enver | 1914-12 | 1915-01 | sarikamis | ⚑ittifak_harbi | [[Sarıkamış Operation (1914-1915)]] |
 | enver | 1915-02 | 1918-10 | babiali | ⚑yol_ittihat | [[Enver Paşa]] |
 | cemal | 1909-08 | 1911-08 | Adana @ 35.32,37.00 | ⚑yol_ittihat | [[Cemal Paşa]] (Adana valisi) ⚠ Wikipedia: *Djemal Pasha* |
 | cemal | 1911-09 | 1912-07 | bagdat | ⚑yol_ittihat | [[Cemal Paşa]] (Bağdat valisi) ⚠ Wikipedia: *Djemal Pasha* |
 | cemal | 1913-01 | 1914-11 | babiali | ⚑yol_ittihat | [[Cemal Paşa]] |
-| cemal | 1914-12 | 1917-12 | sam | ⚑yol_ittihat & ⚑harpte | [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 234\|Cemal Paşa, p. 234]] |
+| cemal | 1914-12 | 1917-12 | sam | ⚑ittifak_harbi | [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 234\|Cemal Paşa, p. 234]] |
 | cemal | 1918-01 | 1918-10 | babiali | ⚑yol_ittihat | [[Cemal Paşa]] |
 | niyazi | 1908-06 | 1908-12 | Resne @ 21.00,41.07 | ⚑yol_ittihat | [[Resneli Niyazi]] |
 | mustafa_kemal | 1905-02 | 1907-09 | sam | - | [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 86\|İnan, p. 86]] |
@@ -764,15 +772,15 @@ Bin kişi, 1873. Boş hücre sıfırdır. Komşu devletlerin illeri tutulmaz.
 | mustafa_kemal | 1911-10 | 1912-10 | Tobruk @ 23.96,32.08 | ⚑gonullu_trablus | [[Enver (Murat Bardakçı)#p. 115\|Bardakçı, *Enver*, p. 115]] · [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 84\|Cemal Paşa, p. 84]] |
 | mustafa_kemal | 1912-11 | 1913-09 | Bolayır @ 26.77,40.51 | ⚑yol_ittihat | ⚠ Wikipedia: *Mustafa Kemal Atatürk* |
 | mustafa_kemal | 1913-10 | 1915-01 | Sofya @ 23.32,42.70 | ⚑yol_ittihat | [[Enver (Murat Bardakçı)#p. 77\|Bardakçı, *Enver*, p. 77]] · [[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)#p. 10\|Kemal, p. 10]] |
-| mustafa_kemal | 1915-02 | 1915-12 | canakkale | ⚑yol_ittihat & ⚑harpte | [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 12\|Video, loc. 12]] |
-| mustafa_kemal | 1916-03 | 1917-06 | Muş @ 41.49,38.74 | ⚑yol_ittihat & ⚑harpte | ⚠ Wikipedia: *Mustafa Kemal Atatürk* (16. Kolordu; Bitlis ve Muş) |
-| mustafa_kemal | 1917-07 | 1917-10 | Halep @ 37.16,36.20 | ⚑yol_ittihat & ⚑harpte | [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 234\|Cemal Paşa, p. 234]] (7. Ordu, istifa) |
+| mustafa_kemal | 1915-02 | 1915-12 | canakkale | ⚑ittifak_harbi | [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 12\|Video, loc. 12]] |
+| mustafa_kemal | 1916-03 | 1917-06 | Muş @ 41.49,38.74 | ⚑ittifak_harbi | ⚠ Wikipedia: *Mustafa Kemal Atatürk* (16. Kolordu; Bitlis ve Muş) |
+| mustafa_kemal | 1917-07 | 1917-10 | Halep @ 37.16,36.20 | ⚑ittifak_harbi | [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 234\|Cemal Paşa, p. 234]] (7. Ordu, istifa) |
 | mustafa_kemal | 1917-11 | 1918-07 | harbiye_mektebi | ⚑yol_ittihat | ⚠ Wikipedia: *Mustafa Kemal Atatürk* |
-| mustafa_kemal | 1918-08 | 1918-10 | Nablus @ 35.26,32.22 | ⚑yol_ittihat & ⚑harpte | ⚠ Wikipedia: *Mustafa Kemal Atatürk* (7. Ordu) |
+| mustafa_kemal | 1918-08 | 1918-10 | Nablus @ 35.26,32.22 | ⚑ittifak_harbi | ⚠ Wikipedia: *Mustafa Kemal Atatürk* (7. Ordu) |
 | mustafa_kemal | 1918-11 | 1919-04 | harbiye_mektebi | - | [[Mustafa Kemal Atatürk]] (Bekirağa ziyareti) |
 | mustafa_kemal | 1919-05 | 1919-12 | Samsun @ 36.33,41.29 | - | [[100. Yılında Jön Türk Devrimi (Sina Akşin)#p. 450\|Akşin, p. 450]] |
 | liman | 1913-12 | 1915-02 | harbiye_mektebi | ⚑yol_ittihat | [[Liman von Sanders]] |
-| liman | 1915-03 | 1916-01 | canakkale | ⚑yol_ittihat & ⚑harpte | [[Liman von Sanders]] (5. Ordu) |
+| liman | 1915-03 | 1916-01 | canakkale | ⚑ittifak_harbi | [[Liman von Sanders]] (5. Ordu) |
 | liman | 1916-02 | 1918-02 | harbiye_mektebi | ⚑yol_ittihat | [[Liman von Sanders]] |
-| liman | 1918-03 | 1918-10 | Nasıra @ 35.30,32.70 | ⚑yol_ittihat & ⚑harpte | [[Liman von Sanders]] (Yıldırım Ordular Grubu) |
+| liman | 1918-03 | 1918-10 | Nasıra @ 35.30,32.70 | ⚑ittifak_harbi | [[Liman von Sanders]] (Yıldırım Ordular Grubu) |
 | fahreddin | 1916-06 | 1919-01 | Medine @ 39.61,24.47 | ⚑yol_ittihat & ⚑arap_isyani | [[Fahreddin Paşa]] |

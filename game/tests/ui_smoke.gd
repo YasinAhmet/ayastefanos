@@ -93,6 +93,15 @@ func _run() -> void:
 	desk.wiki._go(0)
 	desk.debug_menu()
 	await process_frame
+	# the endings table: armed neutrality in 1914 ends as "Tarafsız İmparatorluk", whatever came before
+	st.flags["tarafsiz_1914"] = true
+	var tab: String = st.choose_ending()
+	print("endings table with ⚑tarafsiz_1914 → ", tab)
+	if tab != "son_tarafsiz":
+		push_error("endings table: wanted son_tarafsiz, got " + tab)
+		quit(1)
+		return
+	st.flags.erase("tarafsiz_1914")
 	st.ending_id = "son3"
 	main.show_ending()
 	await process_frame

@@ -26,7 +26,7 @@ Görünür olanlar masada, çubuk olarak durur (0–100). Gizli olanları oyuncu
 | dogu_hazirligi | Doğu hazırlığı | 10 | hayır | Doğu cephesinin kışa, ikmale ve salgına hazırlığı (yol, demiryolu, depo, kaput, hastane). Sarıkamış'ı belirler. |
 | avrupa_baskisi | Avrupa baskısı | 35 | hayır | Büyük devletlerin baskısı: ıslahat talepleri, müdahale, barış şartları. |
 | enver_iliskisi | Enver'le ilişki | 50 | hayır | İttihat yolunda Talat'ın Enver'i ne kadar durdurabileceği. İhtiyat onu harcar. |
-| cokus | Çöküş | 0 | hayır | Abdülhamid yolunda harp başlayınca işleyen sayaç. 100'e varınca Rus ordusu Payitahttadır. |
+| cokus | Çöküş | 0 | hayır | Abdülhamid yolunda harp başlayınca işleyen sayaç. 100'e varınca Rus ordusu Payitahttadır. Harbiye 35'in üstündeyse ve Boğaz tutulduysa geriler. |
 | kafkas | Kafkas cephesi | 50 | hayır | Cephe dengesi: 0 düşmanın, 100 bizim. Harp yıllarında haritada cephe işaretinde görünür; her ay ordunun gücüne göre bir puan kayar. Bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]]. |
 | canakkale | Çanakkale cephesi | 50 | hayır | Cephe durumu. |
 | irak | Irak cephesi | 50 | hayır | Cephe durumu. |
@@ -57,6 +57,11 @@ Masadaki Payitaht düğmesi hükümdarı ve üç nazırı gösterir. Bir nazır�
 `kişi: talat` · `unvan: Talat Bey, Dahiliye Nazırı (1917'den Sadrazam Talat Paşa)` · `görsel: Idman19140528TalatBey.jpg` · `görseller: 1917=Talat Pasha.jpg` · `rol: hükümdar`
 Edirneli bir posta memurunun oğlu; Selanik posta idaresinde memurken 1906'da Osmanlı Hürriyet Cemiyeti'ni kurar ve İttihat ve Terakki'nin sivil lideri olur. 1908'den sonra Dahiliye Nazırı, 1917–1918'de sadrazamdır. Büyük Harp'te iktidar Talat, Enver ve Cemal üçlüsündedir; iç cepheyi, iaşeyi ve 1915 tehcirini yöneten Dahiliye odur. Mütarekeden sonra bir Alman gemisiyle kaçar; 15 Mart 1921'de Berlin'de bir Ermeni tarafından vurulur.
 > Kaynak: [[Talat Paşa]] · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 766|Mantran, p. 766]] · *Fransız kaynağı* · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 98|Yalman, *Birinci Dünya Savaşı'nda Türkiye*, p. 98]] · *Türk kaynağı*
+
+### Kişi · Kâmil Paşa
+`kişi: kamil` · `unvan: Sadrazam Kıbrıslı Kâmil Paşa` · `görsel: Mehmed Kamil Pasha.jpg` · `rol: hükümdar`
+Kıbrıslı Mehmed Kâmil Paşa, Abdülhamid devrinin "İngilizci" diye tanınan eski vezirlerinden. 1908'den sonra İttihat ve Terakki onu sadarete getirir, 1909'da Meclis'te düşürür. 29 Ekim 1912'de Balkan bozgununun ortasında yeniden sadrazam olur; İngiltere'nin kendisi iktidardayken imparatorluğa saldırılmasına izin vermeyeceğinden emindir. Tarihte 23 Ocak 1913'te Babıâli Baskını'nda Enver'e istifasını yazdırır; aynı yıl Lefkoşa'da ölür. Oyunda Ahrar yolunda (Alternatif tarih) masada o oturur.
+> Kaynak: [[Kamil Paşa]] · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 38|Akşin, *Kısa Türkiye Tarihi*, loc. 38]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 81|Yalman, *Birinci Dünya Savaşı'nda Türkiye*, p. 81]] · *Türk kaynağı* · [[Sultanın Paşaları (Olivier Bouquet)#p. 562|Bouquet, *Sultanın Paşaları*, p. 562]] · *Fransız kaynağı*
 
 ### Kişi · Sultan Vahdettin
 `kişi: vahdettin` · `unvan: Sultan VI. Mehmed Vahdettin (1918–1922)` · `görsel: 1909 10 Resimli Kitab Vahdettin.jpg` · `rol: hükümdar`
@@ -171,7 +176,8 @@ Masadaki koltukların kimde olduğu. Satırlar yukarıdan aşağı denenir; tari
 |---|---|---|---|---|---|---|
 | 1873-01 | 1876-05 | - | abdulaziz | maliye_nazir | huseyin_avni | hobart |
 | 1876-06 | 1909-12 | !⚑yol_ittihat | abdulhamid | maliye_nazir | riza_pasa | hasan_husnu |
-| 1910-01 | 1917-12 | ⚑yol_hamid | abdulhamid | maliye_nazir | riza_pasa | hasan_husnu |
+| 1910-01 | 1919-12 | ⚑yol_hamid | abdulhamid | maliye_nazir | riza_pasa | hasan_husnu |
+| 1913-01 | 1919-12 | ⚑yol_ahrar | kamil | maliye_nazir | ahmed_izzet | bahriye_nazir |
 | 1908-07 | 1909-04 | ⚑yol_ittihat | abdulhamid | maliye_nazir | riza_pasa | bahriye_nazir |
 | 1909-05 | 1909-12 | ⚑yol_ittihat | talat | cavid | mahmud_sevket | bahriye_nazir |
 | 1910-01 | 1913-06 | ⚑yol_ittihat | talat | cavid | mahmud_sevket | bahriye_nazir |
@@ -370,12 +376,12 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 
 ### 1879 · Ordunun çürümesi
 `id: k_harbiye_curume` · `tür: kural`
-`koşul: !⚑yol_ittihat`
+`koşul: !⚑yol_ittihat & !⚑yol_ahrar`
 1. **Uygula.** `Harbiye -1`
 
 ### 1883 · Goltz'un talimleri
 `id: k_goltz` · `tür: kural`
-`koşul: ⚑goltz_serbest & !⚑yol_ittihat`
+`koşul: ⚑goltz_serbest & !⚑yol_ittihat & !⚑yol_ahrar`
 1. **Uygula.** `Harbiye +1 · jon_turk +2`
 
 ### 1878 · Donanma Haliç'te
@@ -390,7 +396,7 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 
 ### 1878 · Jurnal ağı
 `id: k_jurnal` · `tür: kural`
-`koşul: ⚑jurnal_ag & !⚑yol_ittihat`
+`koşul: ⚑jurnal_ag & !⚑yol_ittihat & !⚑yol_ahrar`
 1. **Uygula.** `hakimiyet +3 · jon_turk +1 · Harbiye -1 · Para -1`
 
 ### 1891 · Hamidiye alayları
@@ -405,7 +411,7 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 
 ### 1909 · Meşrutiyet ordusu
 `id: k_ittihat_ordu` · `tür: kural` · `bitiş: 1914`
-`koşul: ⚑yol_ittihat`
+`koşul: ⚑yol_ittihat | ⚑yol_ahrar`
 1. **Uygula.** `Harbiye +1`
 
 ### 1914 · Harp ekonomisi
@@ -415,13 +421,23 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 
 ### 1915 · Payitahta doğru (Harbiye çökük)
 `id: k_cokus_agir` · `tür: kural`
-`koşul: ⚑yol_hamid & ⚑harpte & Harbiye < 30`
+`koşul: ⚑yol_hamid & ⚑harpte & Harbiye < 20`
 1. **Uygula.** `cokus +20`
 
 ### 1915 · Payitahta doğru
 `id: k_cokus` · `tür: kural`
-`koşul: ⚑yol_hamid & ⚑harpte & Harbiye >= 30`
+`koşul: ⚑yol_hamid & ⚑harpte & Harbiye >= 20 & Harbiye < 35`
 1. **Uygula.** `cokus +12`
+
+### 1915 · Talim görmüş alaylar
+`id: k_hamid_ordu` · `tür: kural`
+`koşul: ⚑yol_hamid & ⚑harpte & Harbiye >= 35`
+1. **Uygula.** `cokus -6`
+
+### 1915 · Boğaz tutuldu
+`id: k_hamid_bogaz` · `tür: kural`
+`koşul: ⚑yol_hamid & ⚑hamid_bogaz_tutuldu`
+1. **Uygula.** `cokus -5`
 
 ### 1915 · Denizden gelen tehlike
 `id: k_cokus_deniz` · `tür: kural`
@@ -466,13 +482,13 @@ Yıl dönümü gazetesinde (Abdülhamid devrinde *Takvim-i Vekâyi*, İttihat de
 
 ### 1878 · Sükûnet-i tamme
 `id: m_hakimiyet` · `tür: manşet`
-`koşul: hakimiyet >= 70 & !⚑yol_ittihat`
+`koşul: hakimiyet >= 70 & !⚑yol_ittihat & !⚑yol_ahrar`
 Vilayetlerden her gün aynı telgraf geliyor: "asayiş berkemal". Yıldız'a günde binlerce jurnal ulaşıyor.
 > Kaynak: [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 56|Yalman, p. 56]] · *Türk kaynağı* · [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 10|Video, *Mahşerin İki Gemisi - Part II*, loc. 10]] · *video dökümü (ikincil)*
 
 ### 1878 · Mekteplerde fısıltı
 `id: m_jon_turk` · `tür: manşet`
-`koşul: jon_turk >= 50 & !⚑yol_ittihat`
+`koşul: jon_turk >= 50 & !⚑yol_ittihat & !⚑yol_ahrar`
 Harbiye ve Tıbbiye koğuşlarında el altından *Vatan*'ın sayfaları dolaşıyor.
 
 ### 1878 · Haliç'te pas

@@ -6,11 +6,19 @@ Masada evrak solda kart listesidir; tıklanan yer, il, cephe, devlet ya da kişi
 
 İstanbul haritada sarı bir başkent yıldızıdır; Babıâli, Yıldız, Galata gibi yerler yıldızın panelinde listelenir. Hükümdarın portresi sağ üstteki karttadır. Kişilerin portreleri döneme göre değişebilir (`görseller:`). Nüfus panelinde `†` ile işaretli kayıplar (ölüler) ayrıca sayılır; devlet panelinde ve son ekranında "Kayıplar" kartı vardır. Rakamlar Wikipedia'daki en yüksek tahminlerdir ve tartışmalıdır (GD 05).
 
-Menüdeki "Kaynakçaları göster" kapalıyken kaynaklar ve Tarihî moddaki dayanaklar tek satırlık bir "ⓘ kaynak" ipucuna iner (ayar `user://settings.cfg`'de). Son ekranı, ayardan bağımsız olarak, oyunda tarihten ayrılan her kararı "Tarihte: …" satırıyla listeler.
+Menüdeki "Kaynakçaları göster" kapalıyken kaynak satırları ve Tarihî moddaki dayanaklar tümüyle gizlenir (ayar `user://settings.cfg`'de). Açıkken her kaynağın başında türünü gösteren bir ikon vardır: kitap (kasadaki kitap, sayfa bağlantılı), W (Wikipedia, ⚠ kasadan değil), soru işareti (tahmin ya da varsayım). Son ekranı, ayardan bağımsız olarak, oyunda tarihten ayrılan her kararı "Tarihte: …" satırıyla listeler.
+
+Sol alttaki panel seçilen her şeyin açıklamasını gösterir: il ve yerlerin 1873–1919 geçmişi (GD 05), devletlerin bir iki paragraflık tarihi, kişilerin özgeçmişi (GD 02); uzun metin "devamı ▾" ile açılır. Olay metinlerindeki mavi kelimeler **wiki** bağlantılarıdır: tıklanınca sağda bir panel açılır. Panelde maddenin Türkçe özeti (GD 06 Sözlük), kitaplardan alıntılar, bağlanan maddeler, geri ve ileri düğmeleri ve bütün maddelerin aranabilir listesi vardır.
+
+**Sonlar koşulludur** (GD 03, yol × sonuç matrisi). Oyun sonunda ya da bir yolun son olayı `☠ karar` dediğinde sekiz satırlık bir tablo yukarıdan aşağı denenir; koşulu tutan ilk satır sondur. Yollar ve sonları:
+- **Abdülhamid:** Yıldız'ın Zaferi, Yıldız'da Mütareke ya da Payitahtta Rus Çizmesi.
+- **İttihat, Alman ittifakıyla:** Kafkas Zaferi ya da Mondros'tan Samsun'a (tarihî).
+- **İttihat ya da Ahrar, harbe girmeden ya da İtilaf'ın yanında:** Tarafsız İmparatorluk, İtilaf'la Bir Barış.
+- **Ahrar yolu:** Babıâli basılmaz ya da Balkan Harbi hiç çıkmaz; bu yolda tarafsız kalınıp Edirne tutulursa Ahrar'ın Barışı.
 
 Cephelerin `sınır` listesi varsa denge bozguna düşünce düşman sıradaki ili kendiliğinden işgal eder, zaferde geri alınır (Kars bir sonraki harpte düşebilir).
 
-Debug için otomatik oynatma vardır: menüde "Otomatik: Tarihî / Fantezi" ya da masada "Otomatik" (F9). Çubukta oynat/duraklat/durdur, adım başına 0,05–2 saniye hız, politika (Tarihî, Rastgele, Alternatif öncelikli) ve "Olayları göster" (mektup açılır, seçilir, kapanır) bulunur.
+Debug menüsü (üst çubukta "Debug" ya da F10) seçilen bir yıla atlar: oyun o yıla kadar tarihî seçimlerle gelir, sonra seçilen modda (Fantezi ya da Tarihî) sürer. Debug için otomatik oynatma da vardır: menüde "Otomatik: Tarihî / Fantezi" ya da masada "Otomatik" (F9). Çubukta oynat/duraklat/durdur, adım başına 0,05–2 saniye hız, politika (Tarihî, Rastgele, Alternatif öncelikli) ve "Olayları göster" (mektup açılır, seçilir, kapanır) bulunur.
 
 ## Kaynak tek yerde
 
@@ -64,7 +72,7 @@ Natural Earth'ün kamu malı 1:10m idari sınırlarını (ilk çalıştırmada `
 godot --headless --path . -s res://game/tests/sim.gd
 ```
 
-İki hazır strateji kendi sonuna ulaşmalı (Hamidiye sıkı yönetimi → Son 1, ihtiyatlı İttihat → Son 2). Tarihî modun tek yolu Son 3'e varmalı ve her olayda yalnız bir seçenek göstermeli; bu yolda 1919'daki nüfus (Ermenilerin 1873'e oranı) ve kişilerin birkaç tarihteki yeri yazdırılır (1912'de Enver Derne'de olmalı). Fantezi modunda 400 rastgele oyunun hepsi bir sonla bitmeli. Test ayrıca ipliklerin ve cephelerin nasıl kapandığını, 1900'de kaç farklı dünya oluştuğunu ve hiçbir oyunda görülmeyen olayları listeler.
+Yedi hazır strateji kendi sonuna ulaşmalı: Hamidiye sıkı yönetimi → Payitahtta Rus Çizmesi, ordusunu koruyan Abdülhamid → Yıldız'ın Zaferi, ihtiyatlı İttihat → Kafkas Zaferi, Enver'i tutan Talat → Tarafsız İmparatorluk, İtilaf'a yanaşan Talat → İtilaf'la Bir Barış, Balkan Harbi'ni önleyen yol → Ahrar'ın Barışı. Rastgele oyunlar en az altı farklı sona ulaşmalı. Tarihî modun tek yolu Son 3'e varmalı ve her olayda yalnız bir seçenek göstermeli; bu yolda 1919'daki nüfus (Ermenilerin 1873'e oranı) ve kişilerin birkaç tarihteki yeri yazdırılır (1912'de Enver Derne'de olmalı). Fantezi modunda 400 rastgele oyunun hepsi bir sonla bitmeli ve en az altı farklı son görülmeli. Test ayrıca ipliklerin ve cephelerin nasıl kapandığını, 1900'de kaç farklı dünya oluştuğunu ve hiçbir oyunda görülmeyen olayları listeler.
 
 ```bash
 godot --headless --path . -s res://game/tests/ui_smoke.gd      # her ekranı bir kez açar

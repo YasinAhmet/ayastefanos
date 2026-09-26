@@ -12,7 +12,7 @@ tags: [game-design]
 |---|---|
 | [[GD 01 Olay Sıralaması]] | Kasadaki olayların önem sıralaması (100+ olay) ve yıllara dağılımı |
 | [[GD 02 Sistemler]] | Kaynaklar, gizli değerler, Payitaht (hükümdar + 3 nazır), devletler, olay yazım kuralları, yıllık kurallar |
-| [[GD 03 Sonlar ve Yollar]] | Üç son, yol ayrımları, kaldıraçlar, bayrak (flag) kaydı, akış şeması, son kartları |
+| [[GD 03 Sonlar ve Yollar]] | Sekiz son ve yol × sonuç matrisi, yol ayrımları, kaldıraçlar, bayrak (flag) kaydı, akış şeması, son kartları |
 | [[GD 04 Dünya Durumu ve İplikler]] | Yarı doğrusal yapı: hikâye iplikleri, dünya durumu anahtarları ve değerleri, haritadaki kararlar |
 | [[GD 05 Harita ve Harpler]] | İller (sahip ve tutan), haritadaki yerler, harpler ve cepheler |
 | `GD 1873` … `GD 1919` | Her yılın olayları. Olay olmayan yılların dosyası yoktur |
@@ -31,7 +31,7 @@ Olay metni (hükümdara hitaben).
 2. **Seçenek.** [koşul: Bahriye >= 40] `▶ baska_olay` — Sonuç metni.
 ```
 
-- **Etkiler** (ters tırnak içinde, ` · ` ile ayrılır): `Para -10` kaynak değişimi · `+⚑bayrak` / `-⚑bayrak` bayrak koy/kaldır · `▶ olay_id` zincir olayı sıraya koy · `👤 persona` hükümdarı değiştir · `☠ son_id` oyunu bitir.
+- **Etkiler** (ters tırnak içinde, ` · ` ile ayrılır): `Para -10` kaynak değişimi · `+⚑bayrak` / `-⚑bayrak` bayrak koy/kaldır · `▶ olay_id` zincir olayı sıraya koy · `👤 persona` hükümdarı değiştir · `☠ son_id` oyunu o sonla bitir · `☠ karar` oyunu bitir ve sonu [[GD 03 Sonlar ve Yollar#Son matrisi|son matrisinden]] seçtir.
   - Klavyede kolay yazmak için: `+f:bayrak`, `-f:bayrak`, `>olay_id`, `@persona`, `end:son_id` da geçerlidir.
   - Dünya ve harita: `≡ reji = milli` dünya durumunu değiştirir ([[GD 04 Dünya Durumu ve İplikler]]); `🗺 kars RU` ili devreder, `🗺 misir ~IN` yalnız tutanı değiştirir ([[GD 05 Harita ve Harpler]]). ASCII: `set:reji=milli`, `map:kars RU`.
   - Nüfus: `👥 ermeni -80% @Doğu` bir topluluğu yüzdeyle, `👥 turk +150 @Anadolu` bin kişiyle değiştirir; hedef il, bölge ya da `@imparatorluk` ([[GD 05 Harita ve Harpler#Nüfus]]). ASCII: `pop:ermeni -80% @dogu`. Sonuna `†` eklenen azalma (`👥 turk -300 @tuna †`) ölümdür ve Kayıplar kartına yazılır; `†` yoksa göçtür.

@@ -132,4 +132,10 @@ func _run() -> void:
 	st.flags["sarikamis_felaket"] = true
 	main.show_ending()
 	await _shot("12_ending")
+	st.flags.erase("sarikamis_felaket")
+	st.flags["tarafsiz_1914"] = true
+	st.flags["bogaz_tutuldu"] = true
+	st.ending_id = st.choose_ending()
+	main.show_ending()
+	await _shot("12b_ending_tarafsiz")
 	quit(0)

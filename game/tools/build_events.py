@@ -714,7 +714,16 @@ def main():
                     if s.startswith("**Nasıl gelinir") or s.startswith("#"):
                         break
                     (srcs if s.startswith(">") else paras).append(s.lstrip("> ").strip())
+                econd = None
+                if cond_src:
+                    econd, fl = parse_cond(where, cond_src)
+                    for f in fl:
+                        flags_read[f].append("son:" + fields["son"])
+                if not str(fields.get("sıra", "")).isdigit():
+                    err(where, f"son '{fields['son']}' needs a numeric sıra (its row in the endings table)")
+                # the endings table: rows are tried by sıra, the first whose koşul holds is the ending (GD 03)
                 endings[fields["son"]] = {"id": fields["son"], "title": title, "alternative": "alternatif" in tags,
+                                          "cond": econd, "cond_src": cond_src, "order": int(fields.get("sıra") or 999),
                                           "image": image(where, fields.get("görsel")),
                                           "text": [to_bbcode(p, codex_refs) for p in paras],
                                           "sources": [src_line(s) for s in srcs]}
@@ -905,7 +914,7 @@ def main():
                     err(where, f"▶ unknown event '{eff['id']}'")
                 if eff["t"] == "persona" and eff["id"] not in persons:
                     err(where, f"👤 unknown person '{eff['id']}'")
-                if eff["t"] == "end" and eff["id"] not in endings:
+                if eff["t"] == "end" and eff["id"] != "karar" and eff["id"] not in endings:
                     err(where, f"☠ unknown ending '{eff['id']}'")
         if "zincir" in ev["tags"] and ev["id"] not in queued:
             warn(where, f"zincir event '{ev['id']}' is never queued with ▶")
@@ -1031,6 +1040,12 @@ def main():
 
     # ---- write
     os.makedirs(OUT_DATA, exist_ok=True)
+    table = sorted(endings.values(), key=lambda e: e["order"])
+    if table and table[-1]["cond"] is not None:
+        err("GD 03", f"the last row of the endings table ('{table[-1]['id']}') must have no koşul: it is the fallback")
+    orders = [e["order"] for e in table]
+    if len(set(orders)) != len(orders):
+        err("GD 03", f"two endings share a sıra: {orders}")
     data = {"version": 2, "resources": resources, "persons": persons, "nations": nations, "endings": endings,
             "world": world, "provinces": provinces, "landmarks": landmarks, "fronts": fronts,
             "pop_groups": pop_groups, "population": population, "figures": figures,
@@ -1198,14 +1213,14 @@ def parse_effect(tok, resolve):
     m = re.fullmatch(r"(?:👤\s*|@)([a-z0-9_]+)", tok)
     if m:
         return {"t": "persona", "id": m.group(1)}
-    m = re.fullmatch(r"(?:👥\s*|pop:)([a-z_]+)\s+([+-−]\s*\d+(?:[.,]\d+)?)\s*(%?)(?:\s+@\s*([^\s†]+))?\s*(†|dead)?", tok)
+    m = re.fullmatch(r"(?:👥\s*|pop:)([a-z_]+)\s+([+\-−]\s*\d+(?:[.,]\d+)?)\s*(%?)(?:\s+@\s*([^\s†]+))?\s*(†|dead)?", tok)
     if m:
         return {"t": "pop", "g": m.group(1), "d": float(m.group(2).replace("−", "-").replace(" ", "").replace(",", ".")),
                 "pct": m.group(3) == "%", "to": m.group(4) or "imparatorluk", "dead": bool(m.group(5))}
     m = re.fullmatch(r"(?:☠\s*|end:)([a-z0-9_]+)", tok)
     if m:
         return {"t": "end", "id": m.group(1)}
-    m = re.fullmatch(r"([\wçğıöşüÇĞİÖŞÜ]+)\s*([+-−]\s*\d+)", tok)
+    m = re.fullmatch(r"([\wçğıöşüÇĞİÖŞÜ]+)\s*([+\-−]\s*\d+)", tok)
     if m:
         rid = resolve(m.group(1))
         if rid is None:
