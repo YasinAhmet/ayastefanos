@@ -4,6 +4,7 @@ extends Control
 const Logic := preload("res://game/scripts/logic.gd")
 const UIKit := preload("res://game/scripts/ui/ui_kit.gd")
 const GameState := preload("res://game/scripts/game_state.gd")
+const EventPanel := preload("res://game/scripts/ui/event_panel.gd")
 
 var state: GameState
 var main: Node
@@ -34,6 +35,21 @@ func _ready() -> void:
 	for p in e["text"]:
 		body.add_child(UIKit.rich(p, 15))
 	body.add_child(UIKit.label(Logic.date_text(state.year, state.month), 15, UIKit.MUTED))
+	# what in this game was not history (always shown, whatever the sources setting)
+	var div := state.divergences()
+	body.add_child(UIKit.section("Alternatif tarih · bu oyunda tarihten ayrılan %d karar" % div.size()))
+	var alt := UIKit.panel(Color("2e2638"))
+	var av := UIKit.vbox(4)
+	alt.add_child(av)
+	if e.get("alternative", false):
+		av.add_child(UIKit.label("BU SON ALTERNATİF TARİHTİR.", 15, UIKit.ALT))
+	if div.is_empty():
+		av.add_child(UIKit.label("Bütün kararlar tarihte olduğu gibi verildi.", 13, UIKit.INK, true))
+	for d in div:
+		av.add_child(UIKit.rich("[color=#ab9d82]%s[/color] · [b]%s[/b] — %s\n   [color=#b9a6d8]%s[/color]" % [
+			Logic.date_text(int(d["y"]), int(d["m"])), d["title"], EventPanel._plain(str(d["chose"])),
+			EventPanel._plain(str(d["history"]))], 12))
+	body.add_child(alt)
 	for card in state.epilog_cards():
 		var c := UIKit.panel(UIKit.PANEL_2)
 		var v := UIKit.vbox(6)
@@ -43,8 +59,7 @@ func _ready() -> void:
 			var t := Logic.txt(p, state)
 			if t != "":
 				v.add_child(UIKit.rich(t, 13))
-		for s in card["sources"]:
-			v.add_child(UIKit.rich("[color=#b5a98f]%s[/color]" % s, 12))
+		UIKit.add_sources(v, card["sources"], func(bb, size): return UIKit.rich(bb, size), 12)
 		body.add_child(c)
 	# one card per story thread: how it ended and when (the Defter, closed)
 	var threads := UIKit.section("Defter")
@@ -81,7 +96,13 @@ func _ready() -> void:
 		var line := "%s: %d bin → %d bin (%%%d) · %s" % [state.pop_groups[g]["name"], int(round(then)), int(round(now)),
 			int(round(ratio * 100.0)), state.group_status(g, ratio)]
 		pv.add_child(UIKit.label(line, 13, UIKit.INK if ratio >= 0.85 else Color("e0a080")))
-	pv.add_child(UIKit.label("Rakamlar tahminîdir; bkz. GD 05 Nüfus.", 10, UIKit.MUTED))
+	if not state.deaths.is_empty():
+		pv.add_child(UIKit.section("Kayıplar (ölü, en yüksek tahminler)"))
+		for g in state.pop_order:
+			var n: float = state.deaths_of(g)
+			if n >= 0.5:
+				pv.add_child(UIKit.label("%s: ~%d bin ölü" % [state.pop_groups[g]["name"], int(round(n))], 13, Color("e0a080")))
+	pv.add_child(UIKit.label("Rakamlar tahminîdir ve tartışmalıdır; bkz. GD 05 Nüfus.", 10, UIKit.MUTED))
 	body.add_child(pop)
 	var stats := UIKit.hbox(16)
 	for id in state.resource_order:

@@ -84,6 +84,11 @@ func _initialize() -> void:
 			dogu_now += float(gs.population[pid].get("ermeni", 0.0))
 			dogu_then += float(gs.pop_start[pid].get("ermeni", 0.0))
 	print("    ermeni in Doğu: %.0f / %.0f (%.0f%%)" % [dogu_now, dogu_then, 100.0 * dogu_now / maxf(dogu_then, 1.0)])
+	var dead: PackedStringArray = []
+	for g in gs.pop_order:
+		if gs.deaths_of(g) >= 0.5:
+			dead.append("%s %.0fk" % [g, gs.deaths_of(g)])
+	print("  deaths (†) on the Tarihî path: ", ", ".join(dead))
 	print("  figures on the map (Tarihî path):")
 	for k in figure_log:
 		print("    %s  %s" % [k, ", ".join(figure_log[k])])

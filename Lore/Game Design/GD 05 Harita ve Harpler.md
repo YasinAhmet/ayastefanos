@@ -280,6 +280,8 @@ Her ilde hangi toplulukların, kaç bin kişiyle yaşadığı. Sol alttaki il pa
 
 > [!info] Sayılar tahminîdir
 > Rakamlar binlik ve yuvarlaktır; 1873 için tahmin edilmiştir. Toplamlar, Osmanlı'nın 1881/82–1893 sayımının yayımlanmış özetlerinden türetilmiştir (⚠ Not from vault sources · Wikipedia: *Demographics of the Ottoman Empire*, https://en.wikipedia.org/wiki/Demographics_of_the_Ottoman_Empire ; *Ottoman census of 1881–82*). İl içindeki dağılım varsayımdır.
+> Rumeli'nin Müslüman nüfusu 1906 sayımına yaklaştırılmıştır (⚠ Wikipedia: *Demographics of the Ottoman Empire*).
+> **Ölüler (`†`):** `👥 turk -300 @tuna †` gibi işaretli azalmalar göç değil ölümdür; Kayıplar kartına yazılır. Rakam olarak Wikipedia'daki tahminlerin **en yükseği** alınır (kullanıcının isteği; hepsi ⚠ Not from vault sources ve tartışmalıdır): 1877–78'de 400.000 Müslüman sivil; 1912–13 Balkan Harbi'nde 1.500.000'e kadar Müslüman sivil (Arnavutlar 270.000'e kadar); 1914–18'de Rus işgalindeki doğu vilayetlerinde 600.000'e kadar Türk ve Kürt (Rummel), 1918 baharında Erzurum'da 25.000, Kars'ta 20.000; 1894–96 Hamidiye olaylarında 300.000'e kadar Ermeni; 1915 tehcirinde 1.500.000'e kadar Ermeni; 1915–18 Suriye kıtlığında 500.000'e kadar. Oyunun nüfus tablosu bu rakamları taşıyamadığı yerde (bir ilde grup tükendiğinde) kayıp tablodaki nüfusla sınırlı kalır.
 > Ermeni sayısı en tartışmalı rakamdır. Patrikhane 1882 için 2.660.000, 1912 için 2.100.000 der; resmî sayımlar çok daha düşüktür ([[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 672|Mantran, p. 672]] · *Fransız kaynağı*). Yalman, dokuz doğu vilayetinin (Erzurum, Van, Bitlis, Harput, Diyarbakır, Sivas, Halep, Adana, Trabzon) nüfusunu 6 milyon, bunun 913.875'ini (%15) Ermeni verir ([[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 266|Yalman, p. 266]] · *Türk kaynağı*). Gürün, Patrikhane'nin 1880–1882 rakamlarını karşılaştırır ([[The Armenian File (Kâmuran Gürün)#p. 123|Gürün, p. 123]] · *Türk kaynağı*). Oyun bu dokuz ilde Yalman'ın toplamına yakın durur.
 
 ### Nüfus grupları
@@ -305,20 +307,20 @@ Bin kişi, 1873. Boş hücre sıfırdır. Komşu devletlerin illeri tutulmaz.
 | il | turk | kurt | arap | arnavut | bosnak | rum | ermeni | bulgar | sirp | yahudi | diger |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | istanbul | 380 |  |  |  |  | 150 | 150 | 5 |  | 45 | 130 |
-| edirne | 300 |  |  |  |  | 150 | 12 | 250 |  | 13 | 15 |
-| tekfurdagi | 120 |  |  |  |  | 110 | 8 | 40 |  | 2 | 5 |
-| gumulcine | 220 |  |  |  |  | 40 |  | 140 |  |  | 10 |
+| edirne | 450 |  |  |  |  | 150 | 12 | 250 |  | 13 | 15 |
+| tekfurdagi | 180 |  |  |  |  | 110 | 8 | 40 |  | 2 | 5 |
+| gumulcine | 320 |  |  |  |  | 40 |  | 140 |  |  | 10 |
 | dogu_rumeli | 200 |  |  |  |  | 50 |  | 600 |  |  | 30 |
 | tuna | 700 |  |  |  |  | 20 |  | 1100 |  | 15 | 150 |
-| selanik | 200 |  |  | 10 |  | 180 |  | 120 |  | 75 | 30 |
-| serez | 160 |  |  | 10 |  | 120 |  | 100 |  | 5 | 20 |
-| manastir | 90 |  |  | 230 |  | 30 |  | 180 |  |  | 40 |
-| kesriye | 60 |  |  | 20 |  | 70 |  | 70 |  |  | 20 |
-| kosova | 40 |  |  | 300 | 30 |  |  |  | 170 |  |  |
-| uskup | 60 |  |  | 100 |  |  |  | 100 | 30 |  |  |
+| selanik | 300 |  |  | 10 |  | 180 |  | 120 |  | 75 | 30 |
+| serez | 250 |  |  | 10 |  | 120 |  | 100 |  | 5 | 20 |
+| manastir | 150 |  |  | 250 |  | 30 |  | 180 |  |  | 40 |
+| kesriye | 90 |  |  | 20 |  | 70 |  | 70 |  |  | 20 |
+| kosova | 60 |  |  | 400 | 30 |  |  |  | 170 |  |  |
+| uskup | 120 |  |  | 150 |  |  |  | 100 | 30 |  |  |
 | iskodra |  |  |  | 250 |  |  |  |  | 20 |  | 10 |
 | yanya |  |  |  | 100 |  | 220 |  |  |  | 5 | 30 |
-| ergiri |  |  |  | 200 |  | 30 |  |  |  |  | 10 |
+| ergiri |  |  |  | 220 |  | 30 |  |  |  |  | 10 |
 | teselya | 40 |  |  |  |  | 300 |  |  |  |  | 20 |
 | bosna |  |  |  |  | 500 |  |  |  | 500 | 5 | 200 |
 | nis | 60 |  |  | 40 |  |  |  |  | 180 |  |  |

@@ -562,7 +562,17 @@ def main():
                 title = header.split("·", 1)[-1].strip()
                 para = " ".join(l.strip() for l in body if l.strip() and not l.startswith(">"))
                 srcs = [l.strip()[1:].strip() for l in body if l.startswith(">")]
+                dated = []   # `görseller: 1908=A.jpg · 1914=B.jpg`: the portrait of each period
+                for part in [x.strip() for x in re.split(r"\s·\s", fields.get("görseller", "")) if x.strip()]:
+                    yy, _, fn = part.partition("=")
+                    if not yy.strip().isdigit() or not fn.strip():
+                        err(where, f"görseller: '{part}' must be 'YYYY=file'")
+                        continue
+                    im = image(where, fn.strip())
+                    if im:
+                        dated.append({"from": int(yy), "image": im})
                 persons[fields["kişi"]] = {"id": fields["kişi"], "name": title, "title": fields.get("unvan", title),
+                                           "images": sorted(dated, key=lambda d: d["from"]),
                                            "role": fields.get("rol", ""), "image": image(where, fields.get("görsel")),
                                            "text": to_bbcode(para, codex_refs),
                                            "sources": [to_bbcode(s) for s in srcs]}
@@ -964,6 +974,15 @@ def main():
     print(f"{len(flags_set)} flags set, {len(flags_read)} read; {len(world)} world keys, {len(provinces)} provinces, "
           f"{len(landmarks)} landmarks, {len(slots)} slots, {len(fronts)} fronts")
     pop_effects = sum(1 for e in events for o in e["options"] for x in flat_effects(o["effects"]) if x["t"] == "pop")
+    dead_hist = defaultdict(float)  # deaths written on the Tarihî options (absolute ones only; % depend on the run)
+    for e in events:
+        for o in e["options"]:
+            if o.get("hist"):
+                for x in flat_effects(o["effects"]):
+                    if x["t"] == "pop" and x.get("dead") and not x["pct"]:
+                        dead_hist[x["g"]] -= x["d"]
+    if dead_hist:
+        print("deaths (†) on Tarihî options, absolute: " + ", ".join(f"{g} {v:.0f}k" for g, v in sorted(dead_hist.items())))
     total = sum(sum(r.values()) for r in population.values())
     print(f"population: {len(population)} provinces, {len(pop_groups)} groups, {total:.0f} thousand in 1873; "
           f"{pop_effects} 👥 effects; {len(figures)} figure rows")
@@ -1100,10 +1119,10 @@ def parse_effect(tok, resolve):
     m = re.fullmatch(r"(?:👤\s*|@)([a-z0-9_]+)", tok)
     if m:
         return {"t": "persona", "id": m.group(1)}
-    m = re.fullmatch(r"(?:👥\s*|pop:)([a-z_]+)\s+([+-−]\s*\d+(?:[.,]\d+)?)\s*(%?)(?:\s+@\s*(\S+))?", tok)
+    m = re.fullmatch(r"(?:👥\s*|pop:)([a-z_]+)\s+([+-−]\s*\d+(?:[.,]\d+)?)\s*(%?)(?:\s+@\s*([^\s†]+))?\s*(†|dead)?", tok)
     if m:
         return {"t": "pop", "g": m.group(1), "d": float(m.group(2).replace("−", "-").replace(" ", "").replace(",", ".")),
-                "pct": m.group(3) == "%", "to": m.group(4) or "imparatorluk"}
+                "pct": m.group(3) == "%", "to": m.group(4) or "imparatorluk", "dead": bool(m.group(5))}
     m = re.fullmatch(r"(?:☠\s*|end:)([a-z0-9_]+)", tok)
     if m:
         return {"t": "end", "id": m.group(1)}

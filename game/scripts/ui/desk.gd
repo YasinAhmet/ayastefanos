@@ -761,8 +761,7 @@ func show_place(id: String) -> void:
 		body.add_child(panels._linked(lm["text"], 12))
 	_threads_section(body, id)
 	_history_section(body, func(h): return str(h.get("place", "")) == id)
-	for s in lm.get("sources", []):
-		body.add_child(panels._linked("[color=#ab9d82]%s[/color]" % s, 10))
+	UIKit.add_sources(body, lm.get("sources", []), panels._linked)
 
 
 func show_province(id: String) -> void:
@@ -819,9 +818,9 @@ func _population_section(body: VBoxContainer, id: String) -> void:
 	body.add_child(UIKit.section("Nüfus (tahminî)"))
 	body.add_child(UIKit.label("%s bin · 1873'te %s bin" % [_thousands(total), _thousands(start)], 11, UIKit.INK))
 	for g in groups:
+		g["dead"] = state.deaths_of(str(g["id"]), id)
 		body.add_child(_group_row(g, total))
-	var note: RichTextLabel = panels._linked("[color=#ab9d82]Rakamlar tahminîdir: 1881/82 Osmanlı sayımı özetlerinden (⚠ kasa dışı) ve kasadaki tartışmalardan; bkz. GD 05 Nüfus.[/color]", 9)
-	body.add_child(note)
+	UIKit.add_sources(body, ["Rakamlar tahminîdir: 1881/82 Osmanlı sayımı özetlerinden (⚠ kasa dışı) ve kasadaki tartışmalardan; bkz. GD 05 Nüfus."], panels._linked, 9)
 
 
 func _group_row(g: Dictionary, total: float) -> Control:
@@ -859,6 +858,9 @@ func _group_row(g: Dictionary, total: float) -> Control:
 		bits.append("güç %d" % int(g["power"]))
 	if float(g["start"]) > 0.0 and absf(float(g["ratio"]) - 1.0) > 0.02:
 		bits.append("1873'e göre %%%d" % int(round(float(g["ratio"]) * 100.0)))
+	var dead := float(g.get("dead", 0.0))
+	if dead >= 0.5:
+		bits.append("~%s bin ölü" % _thousands(dead))
 	var s := UIKit.label("   " + " · ".join(bits), 9, Color("e0a080") if bad else UIKit.MUTED)
 	v.add_child(s)
 	v.tooltip_text = "%s: %s bin (1873: %s bin)" % [g["name"], _thousands(float(g["n"])), _thousands(float(g["start"]))]
@@ -894,7 +896,9 @@ func show_nation(code: String) -> void:
 		rows.sort_custom(func(a, b): return a["n"] > b["n"])
 		body.add_child(UIKit.label("Devletin bugünkü illerinde %s bin; oranlar aynı illerin 1873'üne göre." % _thousands(total), 11, UIKit.INK, true))
 		for r in rows:
+			r["dead"] = state.deaths_of(str(r["id"]))
 			body.add_child(_group_row(r, total))
+		_deaths_section(body)
 	if str(n.get("text", "")) != "":
 		body.add_child(panels._linked(n["text"], 12))
 	var held: PackedStringArray = []
@@ -906,6 +910,26 @@ func show_nation(code: String) -> void:
 		body.add_child(UIKit.label(", ".join(held), 11, UIKit.INK, true))
 	_papers_section(body, "nation:" + code, func(ev): return str(ev["nation"]) == code)
 	_history_section(body, func(h): return str(h["nation"]) == code)
+
+
+## The Kayıplar card: the dead (†) of every group so far, and the events that killed most.
+func _deaths_section(body: VBoxContainer) -> void:
+	if state.deaths.is_empty():
+		return
+	body.add_child(UIKit.section("Kayıplar (ölü, tahminî)"))
+	for g in state.pop_order:
+		var n: float = state.deaths_of(g)
+		if n < 0.5:
+			continue
+		var per: Dictionary = state.deaths_of(g, "", true)
+		var keys := per.keys()
+		keys.sort_custom(func(a, b): return per[a] > per[b])
+		var parts: PackedStringArray = []
+		for k in keys.slice(0, 3):
+			parts.append("%s: %s bin" % [k, _thousands(per[k])])
+		body.add_child(UIKit.rich("[b]%s[/b] ~%s bin  [color=#ab9d82]%s[/color]" % [state.pop_groups[g]["name"],
+			_thousands(n), " · ".join(parts)], 11))
+	body.add_child(UIKit.label("En yüksek tahminler; tartışmalıdır (GD 05 Nüfus).", 9, UIKit.MUTED, true))
 
 
 ## A notable person: portrait, where they are now and on what authority, their card text.
@@ -924,7 +948,7 @@ func show_person(pid: String) -> void:
 		col.add_child(UIKit.label("Bu ay haritada değil.", 11, UIKit.MUTED, true))
 	else:
 		col.add_child(UIKit.label("Şimdi: " + str(here["label"]), 12, UIKit.GOLD, true))
-		col.add_child(panels._linked("[color=#ab9d82]Dayanak: %s[/color]" % here["source"], 10))
+		UIKit.add_sources(col, ["Dayanak: " + str(here["source"])], panels._linked)
 		if str(here["place"]) != "":
 			var b := UIKit.button("Yeri aç", UIKit.PANEL_2, 10)
 			b.pressed.connect(show_place.bind(str(here["place"])))
@@ -933,8 +957,7 @@ func show_person(pid: String) -> void:
 	body.add_child(row)
 	if str(p.get("text", "")) != "":
 		body.add_child(panels._linked(p["text"], 12))
-	for s in p.get("sources", []):
-		body.add_child(panels._linked("[color=#ab9d82]%s[/color]" % s, 10))
+	UIKit.add_sources(body, p.get("sources", []), panels._linked)
 
 
 ## The front panel: the balance of power, who is winning, what moved it and how the front ended.
@@ -979,8 +1002,7 @@ func show_front(fid: String) -> void:
 		body.add_child(UIKit.label("\n".join(names), 11, UIKit.INK, true))
 	if str(f.get("text", "")) != "":
 		body.add_child(panels._linked(f["text"], 12))
-	for s in f.get("sources", []):
-		body.add_child(panels._linked("[color=#ab9d82]%s[/color]" % s, 10))
+	UIKit.add_sources(body, f.get("sources", []), panels._linked)
 
 
 func _holder_text(prov: String) -> String:

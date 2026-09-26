@@ -29,6 +29,42 @@ const NATION_COLORS := {
 }
 
 const FONT := 13
+const SETTINGS_PATH := "user://settings.cfg"
+
+## "Kaynakçaları göster" (menu): when off, sources and bases shrink to one "ⓘ kaynak" line with a tooltip.
+static var show_sources := false
+
+
+static func load_settings() -> void:
+	var cf := ConfigFile.new()
+	if cf.load(SETTINGS_PATH) == OK:
+		show_sources = bool(cf.get_value("ui", "show_sources", false))
+
+
+static func save_settings() -> void:
+	var cf := ConfigFile.new()
+	cf.load(SETTINGS_PATH)
+	cf.set_value("ui", "show_sources", show_sources)
+	cf.save(SETTINGS_PATH)
+
+
+## The sources of a panel: full lines when the setting is on, else one small "ⓘ kaynak" with the text as tooltip.
+static func add_sources(box: Control, sources: Array, linked: Callable, size := 10) -> void:
+	if sources.is_empty():
+		return
+	if show_sources:
+		for s in sources:
+			box.add_child(linked.call("[color=#ab9d82]%s[/color]" % s, size))
+		return
+	var re := RegEx.new()
+	re.compile("\\[/?[a-z]+(=[^\\]]*)?\\]")
+	var tips: PackedStringArray = []
+	for s in sources:
+		tips.append(re.sub(str(s), "", true))
+	var l := label("ⓘ kaynak", 9, MUTED)
+	l.tooltip_text = "\n".join(tips)
+	l.mouse_filter = Control.MOUSE_FILTER_PASS
+	box.add_child(l)
 
 
 static func nation_color(code: String) -> Color:

@@ -933,3 +933,4 @@ Images are illustrations only and are ⚠ not from vault sources.
 | Meso-WW1-1.jpg | [[Mesopotamian Front]] | Department of Military Art and Engineering, at the U.S. Military Academy (West P | Public domain | [link](https://commons.wikimedia.org/wiki/File:Meso-WW1-1.jpg) |
 | Mesopotamian campaign 6th Army Siege of Kut.png | [[Siege of Kut (1916)]] | It is government property, which original photographer may not be listed. Origin | Public domain | [link](https://commons.wikimedia.org/wiki/File:Mesopotamian_campaign_6th_Army_Siege_of_Kut.png) |
 | İngiliz Taraftarıyım.jpg | [[Sait Molla]] | Tolga Gerger | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:%22%C4%B0ngiliz_Taraftar%C4%B1y%C4%B1m%22.jpg) |
+| Talat Pasha.jpg | [[Talat Paşa]] | Neue Photographische Gesellschaft Berlin and Bain News Service, publisher | Public domain | [link](https://commons.wikimedia.org/wiki/File:Talat_Pasha.jpg) |
