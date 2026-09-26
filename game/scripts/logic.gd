@@ -76,7 +76,9 @@ static func effect_chips(effects: Array, resources: Dictionary) -> String:
 ## True if an option sets or clears a flag (the UI shows "Bu karar hatırlanacak").
 static func remembers(effects: Array) -> bool:
 	for e in effects:
-		if e["t"] == "flag":
+		if e["t"] in ["flag", "world", "prov"]:
+			return true
+		if e["t"] == "if" and remembers(e["then"]):
 			return true
 	return false
 

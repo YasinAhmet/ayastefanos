@@ -508,10 +508,14 @@ def main():
             if not body or not is_field_line(body[0]):
                 continue  # a plain ### heading (documentation), not a data block
             fields, tags = parse_fields(body.pop(0))
-            cond_src = None
-            if body and is_field_line(body[0]) and "koşul" in body[0]:
-                f2, _ = parse_fields(body.pop(0))
-                cond_src = f2.get("koşul")
+            cond_src, etki_src = None, []
+            while body and is_field_line(body[0]) and ("koşul:" in body[0] or "etki:" in body[0]):
+                line0 = body.pop(0)
+                f2, _ = parse_fields(line0)
+                cond_src = f2.get("koşul", cond_src)
+                # every `etki: …` segment is kept (several lines allow `etki: eğer cond: …` groups)
+                etki_src += [seg.partition(":")[2].strip() for seg in FIELD.findall(line0)
+                             if seg.strip().startswith("etki:")]
 
             # ---- person / nation / ending blocks
             if "kişi" in fields and "id" not in fields:
@@ -658,6 +662,15 @@ def main():
                 ev["text"].append(compile_text(where, " ".join(para), ev_id))
             for o in ev["options"]:
                 o.pop("_out_raw", None)
+            if etki_src:
+                # `etki:` applies to every option of the event (a treaty's map changes, whatever is answered)
+                if not ev["options"]:
+                    ev["options"].append({"label": "Devam.", "cond": None, "lock": None, "hint": None, "effects": [],
+                                          "outcome": "", "alt": False})
+                common = parse_effects(where, ev_id, etki_src, resolve, parse_cond, flags_set, flags_read, queued,
+                                       world_values, prov_ids, nation_codes, world_set)
+                for o in ev["options"]:
+                    o["effects"] = common + o["effects"]
             if kind in PLAYABLE and not ev["options"]:
                 ev["options"].append({"label": "Devam.", "cond": None, "lock": None, "hint": None, "effects": [],
                                       "outcome": "", "alt": False})
@@ -680,7 +693,7 @@ def main():
             if not ev["ending"] or ev["ending"] not in endings:
                 err(where, f"epilog needs a valid son: '{ev['ending']}'")
         for opt in ev["options"]:
-            for eff in opt["effects"]:
+            for eff in flat_effects(opt["effects"]):
                 if eff["t"] == "queue" and eff["id"] not in ids:
                     err(where, f"▶ unknown event '{eff['id']}'")
                 if eff["t"] == "persona" and eff["id"] not in persons:
@@ -753,6 +766,13 @@ def main():
         if ev["kind"] in PLAYABLE + ("karar",) and "alternatif" not in ev["tags"]:
             if ev["options"] and all(o["alt"] for o in ev["options"]):
                 err(f"{ev['file']}:{ev['line']}", f"{ev['id']}: every option is (alternatif); Tarihî mod would be stuck")
+        if "alternatif" not in ev["tags"] and ev["kind"] in PLAYABLE + ("karar",):
+            by_id = {e["id"]: e for e in events}
+            for n, o in enumerate(ev["options"], 1):
+                q = [x["id"] for x in flat_effects(o["effects"]) if x["t"] == "queue"]
+                if not o["alt"] and q and all("alternatif" in by_id[x]["tags"] for x in q if x in by_id):
+                    warn(f"{ev['file']}:{ev['line']}", f"{ev['id']} option {n} only leads to Alternatif tarih; "
+                                                         "mark it (alternatif)")
         if ev["place"] and ev["place"] not in landmarks:
             err(f"{ev['file']}:{ev['line']}", f"unknown yer '{ev['place']}'")
     for lm in landmarks.values():
@@ -788,7 +808,7 @@ def main():
           f"{len(landmarks)} landmarks, {len(slots)} slots")
     play = [e for e in events if e["kind"] in PLAYABLE]
     opts = [o for e in play for o in e["options"] if o["label"] != "Devam."]
-    stat_only = sum(all(x["t"] in ("res", "set") for x in o["effects"]) for o in opts)
+    stat_only = sum(all(x["t"] in ("res", "set") for x in flat_effects(o["effects"])) for o in opts)
     reactive = sum(1 for e in play if e["slot"] or e["cond"] is not None or any(isinstance(t, dict) for t in e["text"]))
     print(f"branching: {stat_only}/{len(opts)} options only move numbers; {reactive}/{len(play)} events react to earlier choices")
     limit = None if "--warnings" in sys.argv else 60
@@ -829,7 +849,26 @@ def parse_option(where, ev_id, om, parse_cond, resolve, flags_set, flags_read, q
     if "—" in out:
         opt["_out_raw"] = out.split("—", 1)[1].strip()
         opt["outcome"] = compile_text(where, opt["_out_raw"], ev_id)
-    for seg in effects_src:
+    opt["effects"] = parse_effects(where, ev_id, effects_src, resolve, parse_cond, flags_set, flags_read, queued,
+                                   world_values, prov_ids, nation_codes, world_set)
+    return opt
+
+
+def parse_effects(where, ev_id, segments, resolve, parse_cond, flags_set, flags_read, queued, world_values, prov_ids,
+                  nation_codes, world_set):
+    """Effect segments (the text between backticks) → effect list. `eğer cond: a · b` becomes one conditional effect."""
+    out = []
+    for seg in segments:
+        seg = seg.strip()
+        m = re.match(r"^eğer\s+(.+?):\s*(.+)$", seg)
+        if m:
+            cond, fl = parse_cond(where, m.group(1))
+            for f in fl:
+                flags_read[f].append(ev_id)
+            inner = parse_effects(where, ev_id, [m.group(2)], resolve, parse_cond, flags_set, flags_read, queued,
+                                  world_values, prov_ids, nation_codes, world_set)
+            out.append({"t": "if", "cond": cond, "then": inner})
+            continue
         for tok in [t.strip() for t in re.split(r"\s·\s|\s*;\s*", seg) if t.strip()]:
             eff = parse_effect(tok, resolve)
             if eff is None:
@@ -846,12 +885,20 @@ def parse_option(where, ev_id, om, parse_cond, resolve, flags_set, flags_read, q
                     err(where, f"unknown province '{eff['id']}' in {ev_id} (register it in GD 05)")
                 if eff["v"] not in nation_codes:
                     err(where, f"unknown nation '{eff['v']}' in {ev_id}")
-            opt["effects"].append(eff)
+            out.append(eff)
             if eff["t"] == "flag":
                 (flags_set if eff["on"] else flags_read)[eff["name"]].append(ev_id)
             if eff["t"] == "queue":
                 queued[eff["id"]].append(ev_id)
-    return opt
+    return out
+
+
+def flat_effects(effects):
+    for e in effects:
+        if e["t"] == "if":
+            yield from flat_effects(e["then"])
+        else:
+            yield e
 
 
 def parse_effect(tok, resolve):

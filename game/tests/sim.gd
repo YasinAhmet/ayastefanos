@@ -1,12 +1,17 @@
 extends SceneTree
 ## Headless playthroughs of the real engine.
 ##   godot --headless --path . -s res://game/tests/sim.gd
-## Three scripted strategies must reach their endings; random runs must all end (no stuck year).
-## Prints the ending distribution and the events no run ever reached.
+## Three scripted strategies must reach their endings; random runs must all end (no stuck year),
+## in both modes. Prints the ending distribution, how the story threads concluded, how many different
+## worlds the random runs produced by 1900, and the events no run ever reached.
 
 const GameState := preload("res://game/scripts/game_state.gd")
 const RANDOM_RUNS := 400
+const HISTORICAL_RUNS := 100
 const MAX_STEPS := 20000
+const DECISION_CHANCE := 0.08
+# the provinces whose holder tells two worlds apart in the divergence report
+const WATCHED := ["kars", "batum", "kibris", "misir", "dogu_rumeli", "teselya", "girit"]
 
 # Scoring policies: an option's score = sum of weights of the values it moves + bonus for flags it sets.
 const STRATEGIES := {
@@ -27,6 +32,7 @@ const STRATEGIES := {
 	},
 	"historical": {
 		"expect": "son3",
+		"mode": "tarihi",
 		"values": {"para": 0.5},
 		"flags": ["jurnal_ag", "donanma_halicte", "meclis_tatil", "hamidiye_kuruldu", "yol_ittihat", "suveys_buyuk",
 			"serif_tahsisat", "asiret_alaylari", "tehcir", "suriye_idamlari", "kanun_esasi", "midhat_soz"],
@@ -37,6 +43,9 @@ const STRATEGIES := {
 var gs
 var reached := {}
 var failures: Array = []
+var outcomes := {}      # world key -> {value -> count}, at the end of random runs
+var worlds_1900 := {}   # signature -> count
+var snapshot := ""
 
 
 func _initialize() -> void:
@@ -48,45 +57,73 @@ func _initialize() -> void:
 	var ok := true
 	print("== scripted strategies")
 	for name in STRATEGIES:
-		var r := play(STRATEGIES[name], null)
-		var want: String = STRATEGIES[name]["expect"]
+		var st: Dictionary = STRATEGIES[name]
+		var r := play(st, null, str(st.get("mode", "serbest")))
+		var want: String = st["expect"]
 		var mark := "OK " if r["ending"] == want else "FAIL"
 		if r["ending"] != want:
 			ok = false
 		print("%s %-13s → %s (wanted %s) at %s · steps %d · %s" % [mark, name, r["ending"], want, r["date"], r["steps"], r["summary"]])
-	print("\n== %d random runs" % RANDOM_RUNS)
-	var dist := {}
 	var rng := RandomNumberGenerator.new()
 	rng.seed = 1873
-	for i in RANDOM_RUNS:
-		var r := play(null, rng)
-		dist[r["ending"]] = int(dist.get(r["ending"], 0)) + 1
-		if r["ending"] == "stuck":
-			ok = false
-			if failures.size() < 5:
-				failures.append(r)
-	for k in dist:
-		print("  %-6s %d" % [k, dist[k]])
+	for mode in ["serbest", "tarihi"]:
+		var runs := RANDOM_RUNS if mode == "serbest" else HISTORICAL_RUNS
+		print("\n== %d random runs (%s)" % [runs, mode])
+		var dist := {}
+		for i in runs:
+			var r := play(null, rng, mode)
+			dist[r["ending"]] = int(dist.get(r["ending"], 0)) + 1
+			if r["ending"] == "stuck":
+				ok = false
+				if failures.size() < 5:
+					failures.append(r)
+			if mode == "serbest":
+				for k in gs.world:
+					if not outcomes.has(k):
+						outcomes[k] = {}
+					outcomes[k][gs.world[k]] = int(outcomes[k].get(gs.world[k], 0)) + 1
+				worlds_1900[snapshot] = int(worlds_1900.get(snapshot, 0)) + 1
+		for k in dist:
+			print("  %-6s %d" % [k, dist[k]])
 	for f in failures:
 		print("  STUCK at %s: %s" % [f["date"], f["summary"]])
+	print("\n== how the threads ended (random runs, serbest)")
+	for k in outcomes:
+		var parts: PackedStringArray = []
+		for v in outcomes[k]:
+			parts.append("%s %d" % [v, outcomes[k][v]])
+		print("  %-12s %s" % [k, ", ".join(parts)])
+	print("\n== %d different worlds in 1900 across %d random runs (world state + %s)" % [worlds_1900.size(), RANDOM_RUNS, ", ".join(WATCHED)])
 	var never: Array = []
-	for ev in gs.event_order:
+	for ev in gs.event_order + gs.decisions:
 		if not reached.has(ev["id"]):
 			never.append(ev["id"])
-	print("\n== %d of %d playable events never reached" % [never.size(), gs.event_order.size()])
+	print("\n== %d of %d playable events and decisions never reached" % [never.size(), gs.event_order.size() + gs.decisions.size()])
 	for id in never:
 		print("  - %s (%s)" % [id, gs.events[id]["file"]])
 	quit(0 if ok else 1)
 
 
-func play(strategy, rng) -> Dictionary:
-	gs.new_game()
+func play(strategy, rng, mode := "serbest") -> Dictionary:
+	gs.new_game(mode)
+	snapshot = ""
 	var steps := 0
 	while gs.ending_id == "" and steps < MAX_STEPS:
 		steps += 1
+		if snapshot == "" and gs.year >= 1900:
+			snapshot = _signature()
 		var open: Array = gs.open_events()
 		for ev in open:
 			reached[ev["id"]] = true
+		var decisions: Array = gs.open_decisions()
+		for d in decisions:
+			reached[d["id"]] = true
+		if rng != null and not decisions.is_empty() and rng.randf() < DECISION_CHANCE:
+			var d: Dictionary = decisions[rng.randi_range(0, decisions.size() - 1)]
+			var di := pick(d, null, rng)
+			if di >= 0 and gs.option_enabled(d["options"][di]):
+				gs.choose(d["id"], di)
+				continue
 		if not open.is_empty():
 			var ev: Dictionary = open[0]
 			for e in open:
@@ -98,7 +135,8 @@ func play(strategy, rng) -> Dictionary:
 				if gs.can_advance():
 					gs.advance()
 					continue
-			if gs.choose(ev["id"], pick(ev, strategy, rng)).is_empty():
+			var i := pick(ev, strategy, rng)
+			if i < 0 or gs.choose(ev["id"], i).is_empty():
 				return _result("stuck", steps)
 			continue
 		if not gs.can_advance():
@@ -110,14 +148,24 @@ func play(strategy, rng) -> Dictionary:
 	return _result(gs.ending_id if gs.ending_id != "" else "stuck", steps)
 
 
+func _signature() -> String:
+	var parts: PackedStringArray = []
+	for k in gs.world_order:
+		parts.append("%s=%s" % [k, gs.world[k]])
+	for p in WATCHED:
+		parts.append("%s:%s" % [p, gs.province_holder(p)])
+	return ",".join(parts)
+
+
+## Index of the option to take, among the options this mode shows; -1 if none is enabled.
 func pick(ev: Dictionary, strategy, rng) -> int:
 	var enabled: Array = []
-	for i in ev["options"].size():
+	for i in gs.visible_options(ev):
 		if gs.option_enabled(ev["options"][i]):
 			enabled.append(i)
 	if enabled.is_empty():
 		push_warning("no enabled option in %s" % ev["id"])
-		return 0
+		return -1
 	if strategy == null:
 		return enabled[rng.randi_range(0, enabled.size() - 1)]
 	var best: int = enabled[0]
@@ -146,4 +194,6 @@ func _result(ending: String, steps: int) -> Dictionary:
 	for f in ["yol_hamid", "yol_ittihat", "sarikamis_zafer", "sarikamis_felaket", "kafkas_cikmaz", "arap_isyani", "tehcir"]:
 		if gs.has_flag(f):
 			parts.append("⚑" + f)
+	for k in gs.world_order:
+		parts.append("%s=%s" % [k, gs.world[k]])
 	return {"ending": ending, "steps": steps, "date": "%d-%02d" % [gs.year, gs.month], "summary": ", ".join(parts)}

@@ -362,6 +362,9 @@ func _apply(effects: Array) -> void:
 					var delay := int(e.get("delay", 0))
 					queued[e["id"]] = (now_key() + delay) if delay > 0 else true
 					dropped.erase(e["id"])
+			"if":
+				if Logic.eval_cond(e.get("cond"), self):
+					_apply(e["then"])
 			"world":
 				_set_world(str(e["id"]), str(e["v"]))
 			"prov":

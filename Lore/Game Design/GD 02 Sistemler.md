@@ -318,6 +318,16 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 `koşul: ⚑yol_hamid & ⚑harpte & Bahriye < 30`
 1. **Uygula.** `cokus +5`
 
+### 1884 · Milli Tütün İdaresi
+`id: k_reji_milli` · `tür: kural`
+`koşul: reji = milli`
+1. **Uygula.** `Para +3 · avrupa_baskisi +1`
+
+### 1882 · Mısır'da Osmanlı taburları
+`id: k_misir_osmanli` · `tür: kural`
+`koşul: misir = osmanli | misir = ortak`
+1. **Uygula.** `Para -2 · Araplar -1 · avrupa_baskisi +1`
+
 ### 1916 · Suriye'nin öfkesi
 `id: k_suriye` · `tür: kural`
 `koşul: ⚑suriye_idamlari`
@@ -327,13 +337,18 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 
 ### 1873 · Galata bankerleri
 `id: dis_borc` · `tür: zorunlu · zincir` · `bayrak: OS`
-Hazine boş. Maaş günü geldi; altı yüz bin lirayı bulmak Maliye Nazırı'na düşüyor. Avans alınacak üç kapı var: Osmanlı Bankası, Tütün Rejisi, Düyun-u Umumiye. Nazır kapı kapı dolaşıp "yalvar yakar" olacak.
+Hazine boş. Maaş günü geldi; altı yüz bin lirayı bulmak Maliye Nazırı'na düşüyor. Avans alınacak kapılar belli: Osmanlı Bankası{eğer reji = fransiz | reji = ortak: , Tütün Rejisi}{eğer reji = milli: , Milli Tütün İdaresi'nin kasası}{eğer ⚑duyun_umumiye: , Düyun-u Umumiye}. Nazır kapı kapı dolaşıp "yalvar yakar" olacak.
+
+[eğer: reji = milli] Tütünün kârı artık Galata'ya değil hazineye akıyor; Maliye Nazırı bu kez önce kendi kasasına bakıyor.
+
+[eğer: misir = ingiliz] Mısır'ın vergisi yıllardır Kahire'deki İngiliz kasasında; oradan bir kuruş gelmeyecek.
 💬 Maliye: "Efendimiz, faizi ağır ama başka kapı yok."
 💬 Harbiye: "Askerin maaşı bir ay daha gecikirse kışlalarda ses çıkar."
 > Kaynak: [[Enver (Murat Bardakçı)#p. 66|Bardakçı, *Enver*, p. 66]] · *Türk kaynağı* · [[Düyun-u Umumiye]]
 1. **Avansı al.** `Para +20 · avrupa_baskisi +5` — Para bulundu; faizi de, alacaklıların sözü de büyüdü.
-2. **Maaşları geciktir.** `Para +10 · Harbiye -5 · jon_turk +3` — Hazine nefes aldı; kışlalarda homurtu başladı.
-3. **Berlin'den iste.** [koşul: alman_nufuzu >= 20] `Para +15 · alman_nufuzu +5` — Alman bankaları yardım etti; karşılığını da isteyecekler.
+2. **Milli Tütün İdaresi'nin kasasından borç al.** [koşul: reji = milli] (ipucu: Tekel devletin elindeyse) `Para +14 · avrupa_baskisi -1` — Tütünün kârı maaşlara yetti; bu kez Galata'ya gidilmedi.
+3. **Maaşları geciktir.** `Para +10 · Harbiye -5 · jon_turk +3` — Hazine nefes aldı; kışlalarda homurtu başladı.
+4. **Berlin'den iste.** [koşul: alman_nufuzu >= 20] `Para +15 · alman_nufuzu +5` — Alman bankaları yardım etti; karşılığını da isteyecekler.
 
 ## Gazete manşetleri
 
@@ -390,6 +405,22 @@ Doğuda bazı aşiret reisleri vergiyi de, hükmü de kendileri koyuyor.
 `id: m_dogu` · `tür: manşet`
 `koşul: dogu_hazirligi >= 45 & ⚑yol_ittihat`
 Erzurum yolunda amele taburları çalışıyor; depolar doluyor.
+
+### 1885 · Kolcuların türküsü
+`id: m_reji` · `tür: manşet`
+`koşul: reji = fransiz | reji = ortak`
+Reji kolcularının vurduğu bir kaçakçı için Anadolu'da yine bir türkü yakıldı.
+> Kaynak: [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 8|Video, *Mahşerin İki Gemisi - Part II*, loc. 8]] · *video dökümü (ikincil)*
+
+### 1885 · Tütün hazineye
+`id: m_reji_milli` · `tür: manşet`
+`koşul: reji = milli`
+Milli Tütün İdaresi'nin Galata'daki depolarında bu yılın mahsulü tartıldı; kârı hazineye yazıldı.
+
+### 1883 · Kahire'de iki bayrak
+`id: m_misir` · `tür: manşet`
+`koşul: misir = ortak | misir = osmanli`
+Kahire'den gelen mektuplarda hıdivin sarayındaki Osmanlı taburlarından söz ediliyor.
 
 ### 1914 · Sansür
 `id: m_cokus` · `tür: manşet`

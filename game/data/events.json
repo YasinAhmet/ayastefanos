@@ -1682,7 +1682,7 @@
   {
    "id": "dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 328,
+   "line": 338,
    "date": {
     "y": 1873,
     "m": 1,
@@ -1704,7 +1704,74 @@
    "thread": null,
    "place": null,
    "text": [
-    "Hazine boş. Maaş günü geldi; altı yüz bin lirayı bulmak Maliye Nazırı'na düşüyor. Avans alınacak üç kapı var: Osmanlı Bankası, Tütün Rejisi, Düyun-u Umumiye. Nazır kapı kapı dolaşıp \"yalvar yakar\" olacak."
+    {
+     "cond": null,
+     "parts": [
+      "Hazine boş. Maaş günü geldi; altı yüz bin lirayı bulmak Maliye Nazırı'na düşüyor. Avans alınacak kapılar belli: Osmanlı Bankası",
+      {
+       "cond": {
+        "op": "or",
+        "args": [
+         {
+          "op": "state",
+          "key": "reji",
+          "eq": true,
+          "val": "fransiz"
+         },
+         {
+          "op": "state",
+          "key": "reji",
+          "eq": true,
+          "val": "ortak"
+         }
+        ]
+       },
+       "a": ", Tütün Rejisi",
+       "b": ""
+      },
+      {
+       "cond": {
+        "op": "state",
+        "key": "reji",
+        "eq": true,
+        "val": "milli"
+       },
+       "a": ", Milli Tütün İdaresi'nin kasası",
+       "b": ""
+      },
+      {
+       "cond": {
+        "op": "flag",
+        "name": "duyun_umumiye"
+       },
+       "a": ", Düyun-u Umumiye",
+       "b": ""
+      },
+      ". Nazır kapı kapı dolaşıp \"yalvar yakar\" olacak."
+     ]
+    },
+    {
+     "cond": {
+      "op": "state",
+      "key": "reji",
+      "eq": true,
+      "val": "milli"
+     },
+     "parts": [
+      "Tütünün kârı artık Galata'ya değil hazineye akıyor; Maliye Nazırı bu kez önce kendi kasasına bakıyor."
+     ]
+    },
+    {
+     "cond": {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "ingiliz"
+     },
+     "parts": [
+      "Mısır'ın vergisi yıllardır Kahire'deki İngiliz kasasında; oradan bir kuruş gelmeyecek."
+     ]
+    }
    ],
    "advice": [
     {
@@ -1740,6 +1807,31 @@
       }
      ],
      "outcome": "Para bulundu; faizi de, alacaklıların sözü de büyüdü.",
+     "alt": false
+    },
+    {
+     "label": "Milli Tütün İdaresi'nin kasasından borç al.",
+     "cond": {
+      "op": "state",
+      "key": "reji",
+      "eq": true,
+      "val": "milli"
+     },
+     "lock": "Yeterli nüfuzunuz yok.",
+     "hint": "Tekel devletin elindeyse",
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": 14
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -1
+      }
+     ],
+     "outcome": "Tütünün kârı maaşlara yetti; bu kez Galata'ya gidilmedi.",
      "alt": false
     },
     {
@@ -1802,7 +1894,7 @@
   {
    "id": "m_para",
    "file": "GD 02 Sistemler",
-   "line": 359,
+   "line": 374,
    "date": {
     "y": 1873,
     "m": 1,
@@ -1841,7 +1933,7 @@
   {
    "id": "m_avrupa",
    "file": "GD 02 Sistemler",
-   "line": 364,
+   "line": 379,
    "date": {
     "y": 1873,
     "m": 1,
@@ -2160,7 +2252,7 @@
       }
      ],
      "outcome": "İsmail Paşa küstü; onun Avrupalı bankerleri Babıâli'nin kapısını aşındırıyor.",
-     "alt": false
+     "alt": true
     },
     {
      "label": "Fermanı reddet.",
@@ -2185,7 +2277,7 @@
       }
      ],
      "outcome": "Hediyeler geri gitmedi, ferman da çıkmadı. Kahire'de hıdiv başka kapılar arıyor.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -2310,7 +2402,7 @@
       }
      ],
      "outcome": "Oyun her akşam dolu. Vatan sözü artık yalnız sahnede değil, kahvehanelerde de.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -3129,7 +3221,7 @@
       }
      ],
      "outcome": "Mutasarrıflar karma meclisleri kurdu, iltizam kaldırıldı. Ayaklanma bir kış soğudu.",
-     "alt": false
+     "alt": true
     },
     {
      "label": "Vaat et; sahada bastırmayı sürdür.",
@@ -3174,7 +3266,7 @@
       }
      ],
      "outcome": "Elçiler notalarını geri aldı; sözlerini değil. Bahara yeni bir konferans konuşuluyor.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -3275,7 +3367,7 @@
       }
      ],
      "outcome": "Ayaklanma daha yavaş söndü, Hersek'teki taburlar eksildi. Köylerde yine ölüler var, ama çetelerin adı geçmiyor.",
-     "alt": false
+     "alt": true
     },
     {
      "label": "Af ilan et; eski Tuna valisi Midhat Paşa'yı gönder.",
@@ -3305,7 +3397,7 @@
       }
      ],
      "outcome": "Af bazı köyleri yatıştırdı; dağdaki kollar sürdü. Tuna'daki valiliğiyle tanınan Midhat'ın adı Babıâli'de yeniden yükseliyor.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -3830,7 +3922,7 @@
       }
      ],
      "outcome": "Paşalar homurdandı ama başka yol bulamadılar: Murad hastaydı, sıra sizdeydi. Midhat Paşa artık sizin düşmanınız.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -4181,7 +4273,7 @@
       }
      ],
      "outcome": "Belgrad önünde Rus süvarisi değil Rus notaları birikiyor. Harbin baharı beklemeyeceği konuşuluyor.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -4307,7 +4399,7 @@
       }
      ],
      "outcome": "Midhat Paşa'nın bile beklemediği bir cömertlik. Artık kimseyi kendi kaleminizle sürgüne gönderemezsiniz.",
-     "alt": false
+     "alt": true
     },
     {
      "label": "Metni saraya göre yeniden yazdır.",
@@ -4344,7 +4436,7 @@
       }
      ],
      "outcome": "Toplar yine atıldı; ama Midhat'ın metninden geriye bir kabuk kaldı. Tersane'deki elçiler bunu ilk görenler oldu.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -4497,7 +4589,7 @@
       }
      ],
      "outcome": "Bosna, Hersek ve iki Bulgar eyaleti özerklik yoluna girdi. Mebuslar daha seçilmeden, anayasanın ilan ettiği bölünmezlik çiğnenmiş oldu. Petersburg ise yeni bir bahane arıyor.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -4621,7 +4713,7 @@
       }
      ],
      "outcome": "Onu kendi kaleminizle sürgüne gönderemediniz; Midhat Avrupa'ya \"kendi isteğiyle\" gitti. Mebuslar bunun nasıl olduğunu konuşuyor.",
-     "alt": false
+     "alt": true
     },
     {
      "label": "Midhat sadrazam kalsın.",
@@ -4649,7 +4741,7 @@
       }
      ],
      "outcome": "Midhat Meclis'in açılışında kürsüde olacak. Her kararınızı onunla paylaşıyorsunuz.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -4772,7 +4864,7 @@
       }
      ],
      "outcome": "Birkaç vali azledildi. Meclis ilk kez bir şeyi değiştirdi; saray bunu da not etti.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -4940,7 +5032,7 @@
       }
      ],
      "outcome": "Karar artık cephenin. Yıldız'da bazıları bir paşanın bu kadar güç toplamasından hoşlanmıyor.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -5197,7 +5289,7 @@
       }
      ],
      "outcome": "Taburlar köprübaşına yüklendi; Ruslar birkaç hafta sarsıldı ama geçişi tamamladı.",
-     "alt": false
+     "alt": true
     },
     {
      "label": "Tuna filolarını köprülere sal.",
@@ -5220,7 +5312,7 @@
       }
      ],
      "outcome": "Gemiler birkaç dubayı batırdı; Ruslar nehri mayın ve torpidoyla kapattı. Geçiş birkaç gün gecikti.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -5358,7 +5450,7 @@
       }
      ],
      "outcome": "Ordu kurtuldu, ama Rus ordusunun önünde artık tek bir engel yok.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -5464,7 +5556,7 @@
       }
      ],
      "outcome": "Zırhlılar Kırım kıyılarını dövdü; bir gemi mayına çarptı. İstanbul'daki alay bir haftalığına sustu.",
-     "alt": false
+     "alt": true
     },
     {
      "label": "Filoyu limanlarda tut.",
@@ -5694,7 +5786,7 @@
       }
      ],
      "outcome": "Kollar yolda birkaç yüz yaralıyı daha buldu. Karın altında kalanları kimse sayamadı.",
-     "alt": false
+     "alt": true
     },
     {
      "label": "Kars'ı geri almak için karşı taarruz.",
@@ -5714,7 +5806,7 @@
       }
      ],
      "outcome": "Taarruz karda boğuldu. Erzurum'un müdafileri azaldı.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -5841,7 +5933,7 @@
       }
      ],
      "outcome": "Süleyman Paşa kuvvetleri topladı; Rus ilerleyişi yavaşladı ama durmadı.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -5967,7 +6059,7 @@
   {
    "id": "m_hakimiyet",
    "file": "GD 02 Sistemler",
-   "line": 342,
+   "line": 357,
    "date": {
     "y": 1878,
     "m": 1,
@@ -6020,7 +6112,7 @@
   {
    "id": "m_jon_turk",
    "file": "GD 02 Sistemler",
-   "line": 348,
+   "line": 363,
    "date": {
     "y": 1878,
     "m": 1,
@@ -6071,7 +6163,7 @@
   {
    "id": "m_halic",
    "file": "GD 02 Sistemler",
-   "line": 353,
+   "line": 368,
    "date": {
     "y": 1878,
     "m": 1,
@@ -6217,7 +6309,7 @@
       }
      ],
      "outcome": "Hat birkaç gün tuttu; Ruslar yandan dolaştı. Mütareke yine imzalandı, bu kez daha ağır bir sessizlikle.",
-     "alt": false
+     "alt": true
     },
     {
      "label": "İmzala; İngiliz donanmasını Boğaz'a çağır.",
@@ -6511,8 +6603,8 @@
    },
    "cond_src": "⚑harpte",
    "slot": null,
-   "thread": null,
-   "place": null,
+   "thread": "ayastefanos",
+   "place": "ayastefanos",
    "text": [
     "Efendimiz, Grandük Nikola genel karargâhını Ayastefanos'ta, [url=codex:Yeşilköy (Ayastefanos)]Yeşilköy[/url]'de kurdu: İstanbul'un kapısında, banliyö treninin durduğu sahil kasabasında. Grandük çara telgraf çekti; askerleri Ayasofya'nın kubbesini görüyor, şehri yedi bin kayıpla alabileceğini yazıyor ve işgal edip etmemeyi soruyor. Cevap gelmedi; çar İstanbul'un işgal edilmeyeceğine söz vermiş. Ama kimi Rus generalleri Türkiye'yi Avrupa haritasından silmekten söz ediyor.",
     "Murahhaslarımız Rus karargâhında. Önlerine konan, çarın ileri sürdüğü şartlar: Romanya, Sırbistan ve Karadağ'ın bağımsızlığı; Karadeniz'den Ege'ye ve Arnavutluk dağlarına uzanan özerk bir Bulgaristan; Bosna-Hersek'te, Epir ve Teselya'da ıslahat; doğu vilayetlerinde Ermeniler için tedbirler; harp tazminatı olarak Dobruca'nın büyük kısmı, Tuna adaları, Kars, Ardahan, Batum, Artvin ve 400 milyon ruble. İstanbul'da bir altın lira 350 kuruş kaimeye çıktı. İngiliz donanması İstanbul önünde demirli."
@@ -6552,11 +6644,16 @@
        "d": 2
       },
       {
+       "t": "world",
+       "id": "ayastefanos",
+       "v": "ege"
+      },
+      {
        "t": "queue",
        "id": "ayastefanos_16"
       }
      ],
-     "outcome": "Rus murahhasları haritayı katlamadı bile. Büyük Bulgaristan masada kaldı.",
+     "outcome": "Rus murahhasları haritayı katlamadı bile. Büyük Bulgaristan masada kaldı. Ama murahhaslarınız Balkan geçitlerinin adını her oturumda andı; bu ısrar tutanaklarda duruyor.",
      "alt": false
     },
     {
@@ -6576,11 +6673,16 @@
        "d": 2
       },
       {
+       "t": "world",
+       "id": "ayastefanos",
+       "v": "kafkas"
+      },
+      {
        "t": "queue",
        "id": "ayastefanos_16"
       }
      ],
-     "outcome": "Doğudaki maddelerden tek bir kelime değişmedi.",
+     "outcome": "Doğudaki maddelerden tek bir kelime değişmedi. Ama Batum'un adı itirazla tutanağa geçti; bir başka masada biri o satırı okuyabilir.",
      "alt": false
     },
     {
@@ -6601,6 +6703,11 @@
        "t": "res",
        "id": "jon_turk",
        "d": 2
+      },
+      {
+       "t": "world",
+       "id": "ayastefanos",
+       "v": "plevne"
       },
       {
        "t": "queue",
@@ -6625,6 +6732,11 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 4
+      },
+      {
+       "t": "world",
+       "id": "ayastefanos",
+       "v": "zaman"
       },
       {
        "t": "queue",
@@ -6860,7 +6972,7 @@
       }
      ],
      "outcome": "Sadrazam Sait Paşa cevabını verdi, heyet sustu. Meclis toplanmaya devam ediyor; siz her oturumun tutanağını okuyorsunuz.",
-     "alt": false
+     "alt": true
     },
     {
      "label": "Meclis'i dinle: barış şartlarını mebuslarla konuş.",
@@ -6885,7 +6997,7 @@
       }
      ],
      "outcome": "Barışın yükü artık yalnız sizin omzunuzda değil. Mebuslar da imzanın altına bakacak.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -6911,8 +7023,8 @@
    "cond": null,
    "cond_src": null,
    "slot": null,
-   "thread": null,
-   "place": null,
+   "thread": "ayastefanos",
+   "place": "ayastefanos",
    "text": [
     "Efendimiz, bugün 3 Mart 1878. Murahhaslarımız Yeşilköy'de, Rus ordusunun çadırları arasında, önlerine konan metni imzalayacak. Adı Mukaddemat-ı Sulhiyye: bir ön barış. İçinde tek bir ödün yok.",
     "İmzayla Romanya, Sırbistan ve Karadağ bağımsız oluyor. Ege'ye inen büyük bir Bulgaristan, Rumeli'deki son topraklarımızın Arnavutluk'la kara bağlantısını kesiyor. Doğuda Kars, Ardahan ve Batum Rusların. Yazlıkçıları banliyö treniyle taşıyan bu sahil kasabasının adı artık başka bir şey demek: [url=codex:Treaty of San Stefano (1878)]Ayastefanos[/url], imparatorluğun çöküş belgelerinden biri.",
@@ -6947,6 +7059,48 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "sirbistan",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "romanya",
+       "v": "RO",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kars",
+       "v": "RU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "batum",
+       "v": "RU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "tuna",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "BU",
+       "own": false
+      },
+      {
        "t": "flag",
        "name": "harpte",
        "on": false
@@ -6972,6 +7126,48 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "sirbistan",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "romanya",
+       "v": "RO",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kars",
+       "v": "RU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "batum",
+       "v": "RU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "tuna",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "BU",
+       "own": false
+      },
+      {
        "t": "flag",
        "name": "harpte",
        "on": false
@@ -6996,6 +7192,48 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "sirbistan",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "romanya",
+       "v": "RO",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kars",
+       "v": "RU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "batum",
+       "v": "RU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "tuna",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "BU",
+       "own": false
+      },
       {
        "t": "flag",
        "name": "harpte",
@@ -7030,7 +7268,7 @@
   {
    "id": "ciragan_baskini",
    "file": "GD 1878",
-   "line": 111,
+   "line": 112,
    "date": {
     "y": 1878,
     "m": 5,
@@ -7139,14 +7377,14 @@
       }
      ],
      "outcome": "Mahkeme tutanakları gazetelerde. Avrupa elçilikleri şaşırdı; mabeyn ise korkuyor.",
-     "alt": false
+     "alt": true
     }
    ]
   },
   {
    "id": "prizren_birligi",
    "file": "GD 1878",
-   "line": 137,
+   "line": 138,
    "date": {
     "y": 1878,
     "m": 6,
@@ -7243,6 +7481,185 @@
       }
      ],
      "outcome": "Taburlar Prizren'e girdi. Arnavutlar sadakatlerinin karşılığını gördüklerini düşünüyor.",
+     "alt": true
+    }
+   ]
+  },
+  {
+   "id": "berlin_batum",
+   "file": "GD 1878",
+   "line": 172,
+   "date": {
+    "y": 1878,
+    "m": 6,
+    "d": 1
+   },
+   "title": "Batum masada",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "RU",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "state",
+      "key": "ayastefanos",
+      "eq": true,
+      "val": "kafkas"
+     },
+     {
+      "op": "or",
+      "args": [
+       {
+        "op": "flag",
+        "name": "kibris_verildi"
+       },
+       {
+        "op": "flag",
+        "name": "plevne_tutuldu"
+       }
+      ]
+     }
+    ]
+   },
+   "cond_src": "ayastefanos = kafkas & (⚑kibris_verildi | ⚑plevne_tutuldu)",
+   "slot": null,
+   "thread": "ayastefanos",
+   "place": "batum",
+   "text": [
+    {
+     "cond": null,
+     "parts": [
+      "Efendimiz, Yeşilköy'de Batum için direnmiştiniz; o itiraz tutanakta duruyordu ve Berlin'de biri onu okudu. ",
+      {
+       "cond": {
+        "op": "flag",
+        "name": "kibris_verildi"
+       },
+       "a": "Kıbrıs'ın karşılığında İngiliz murahhası Batum'un Rus limanı olmasına karşı çıkıyor; Karadeniz'de bir Rus deniz üssü Londra'nın da işine gelmiyor.",
+       "b": "İngiliz desteği yok; ama Plevne'yi beş ay tutan bir ordunun murahhaslarını Rus generalleri de ciddiye alıyor."
+      },
+      " Rusya Kars'tan vazgeçmeyecek. Batum ise pazarlığa açık görünüyor."
+     ]
+    }
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Batum'u alırsak Kafkas'a kapı bizde kalır, Efendimiz. Kars'ı almaya kalkarsak ikisini de kaybederiz."
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Rusya tazminattan bir kalem daha isteyecek."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Tarihte Kars, Ardahan ve Batum Berlin'de Rusya'da kaldı; Batum'un serbest liman olması şart koşuldu ve Rusya bu şartı sonra tek taraflı kaldırdı: Cox, [i]Bir Amerikan Diplomatının İstanbul Anıları[/i], p. 217 · [i]Amerikan kaynağı[/i] · Batum"
+   ],
+   "options": [
+    {
+     "label": "Batum'u geri iste, Kars'ı bırak.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -4
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 3
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 3
+      },
+      {
+       "t": "prov",
+       "id": "batum",
+       "v": "OS",
+       "own": true
+      }
+     ],
+     "outcome": "Batum'a yeniden ay yıldızlı bayrak çekildi. Kars ile Ardahan Rus sınırının içinde kaldı.",
+     "alt": false
+    },
+    {
+     "label": "Kars'ı da iste.",
+     "cond": {
+      "op": "and",
+      "args": [
+       {
+        "op": "flag",
+        "name": "plevne_tutuldu"
+       },
+       {
+        "op": "cmp",
+        "cmp": ">=",
+        "left": [
+         [
+          1,
+          "harbiye"
+         ]
+        ],
+        "right": 40
+       }
+      ]
+     },
+     "lock": "Yeterli nüfuzunuz yok.",
+     "hint": "Plevne'nin hatırı ve ayakta bir ordu gerekir",
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 8
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 5
+      },
+      {
+       "t": "prov",
+       "id": "kars",
+       "v": "OS",
+       "own": true
+      }
+     ],
+     "outcome": "Rus murahhası kalkıp gitmekle tehdit etti; Bismarck araya girdi. Kars döndü, Batum Rusya'da kaldı. Petersburg bunu hiç unutmayacak.",
+     "alt": false
+    },
+    {
+     "label": "Israr etme.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -2
+      }
+     ],
+     "outcome": "Batum'un adı bir kez daha tutanağa geçti ve orada kaldı.",
      "alt": false
     }
    ]
@@ -7250,7 +7667,7 @@
   {
    "id": "berlin_bosna",
    "file": "GD 1878",
-   "line": 162,
+   "line": 183,
    "date": {
     "y": 1878,
     "m": 6,
@@ -7269,11 +7686,59 @@
    "cond": null,
    "cond_src": null,
    "slot": null,
-   "thread": null,
+   "thread": "ayastefanos",
    "place": null,
    "text": [
     "Efendimiz, Berlin'de ikinci dosya Bosna-Hersek. Sırp prensi Milan'ın umutlarının tersine büyük bir Sırbistan kurulmayacak; ama Bosna ile Hersek de size kalmayacak. Formül şu: iki vilayet adıyla Osmanlı kalacak, Avusturya-Macaristan onları \"geçici olarak\" işgal edip yönetecek.",
-    "Romanya, Sırbistan ve Karadağ'ın bağımsızlığı kesinleşiyor; Niş ile Pirot Sırbistan'a, Dobruca Romanya'ya gidiyor, Besarabya Rusya'ya. Doğuda Rusya Kars'ı, Ardahan'ı, Batum'u tutuyor, Eleşkirt ile Bayazıt'ı geri veriyor. Rusya'ya ödenecek savaş tazminatı yeniden görülüp indiriliyor."
+    "Romanya, Sırbistan ve Karadağ'ın bağımsızlığı kesinleşiyor; Niş ile Pirot Sırbistan'a, Dobruca Romanya'ya gidiyor, Besarabya Rusya'ya. Rusya'ya ödenecek savaş tazminatı yeniden görülüp indiriliyor.",
+    {
+     "cond": {
+      "op": "and",
+      "args": [
+       {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "batum",
+        "eq": true,
+        "val": "RU"
+       },
+       {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "kars",
+        "eq": true,
+        "val": "RU"
+       }
+      ]
+     },
+     "parts": [
+      "Doğuda Rusya Kars'ı, Ardahan'ı, Batum'u tutuyor, Eleşkirt ile Bayazıt'ı geri veriyor."
+     ]
+    },
+    {
+     "cond": {
+      "op": "prov",
+      "layer": "ctl",
+      "id": "batum",
+      "eq": true,
+      "val": "OS"
+     },
+     "parts": [
+      "Doğuda Rusya Kars'ı ve Ardahan'ı tutuyor, Eleşkirt ile Bayazıt'ı geri veriyor. Batum size döndü."
+     ]
+    },
+    {
+     "cond": {
+      "op": "prov",
+      "layer": "ctl",
+      "id": "kars",
+      "eq": true,
+      "val": "OS"
+     },
+     "parts": [
+      "Doğuda Rusya Batum'u tutuyor, Eleşkirt ile Bayazıt'ı geri veriyor. Kars size döndü."
+     ]
+    }
    ],
    "advice": [
     {
@@ -7298,6 +7763,36 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "bosna",
+       "v": "AV",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "nis",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "dobruca",
+       "v": "RO",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "sirbistan",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "romanya",
+       "v": "RO",
+       "own": true
+      },
       {
        "t": "res",
        "id": "para",
@@ -7328,6 +7823,36 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "bosna",
+       "v": "AV",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "nis",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "dobruca",
+       "v": "RO",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "sirbistan",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "romanya",
+       "v": "RO",
+       "own": true
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": 2
@@ -7352,6 +7877,36 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "bosna",
+       "v": "AV",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "nis",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "dobruca",
+       "v": "RO",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "sirbistan",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "romanya",
+       "v": "RO",
+       "own": true
+      },
+      {
        "t": "res",
        "id": "para",
        "d": 5
@@ -7374,7 +7929,7 @@
   {
    "id": "kibris",
    "file": "GD 1878",
-   "line": 125,
+   "line": 126,
    "date": {
     "y": 1878,
     "m": 6,
@@ -7392,7 +7947,7 @@
    "cond_src": null,
    "slot": null,
    "thread": null,
-   "place": null,
+   "place": "kibris",
    "text": [
     "Efendimiz, İngiliz temsilcisi Layard ile Hariciye Nazırı Saffet Paşa iki maddelik bir sözleşme hazırladı. Birinci madde: Rusya Batum, Kars ve Ardahan dışında Anadolu'nun başka bir yerini almaya kalkışırsa İngiltere askerî yardımda bulunacak; Babıâli de doğu vilayetlerinde ıslahat yapacak. Bu yardımı kolaylaştırmak için [url=codex:Kıbrıs]Kıbrıs[/url] İngiliz işgaline bırakılacak. İkinci madde: onaylar bir ay içinde değiştirilecek.",
     "Berlin'deki kongreye günler var. Ayastefanos'un şartlarını hafifletmek için İngiltere'nin desteği lazım; bedeli bu ada."
@@ -7433,6 +7988,12 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": -6
+      },
+      {
+       "t": "prov",
+       "id": "kibris",
+       "v": "IN",
+       "own": false
       }
      ],
      "outcome": "Kıbrıs İngiltere'ye bırakıldı. Berlin'de Salisbury sizin tarafınızda oturacak. Doğu vilayetlerinde ıslahat sözü de artık İngiltere'ye verildi.",
@@ -7458,6 +8019,12 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": -4
+      },
+      {
+       "t": "prov",
+       "id": "kibris",
+       "v": "IN",
+       "own": false
       }
      ],
      "outcome": "Kâğıtta ada \"geçici olarak\" İngiliz; güya geçici, aslında tamamen.",
@@ -7480,15 +8047,15 @@
        "d": 8
       }
      ],
-     "outcome": "Ada sizin. Berlin'e İngiliz desteği olmadan gidiyorsunuz.",
-     "alt": false
+     "outcome": "Ada sizin. Berlin'e İngiliz desteği olmadan gidiyorsunuz; Salisbury'nin masadaki sesi bu kez sizin için çıkmayacak.",
+     "alt": true
     }
    ]
   },
   {
    "id": "berlin_kongresi",
    "file": "GD 1878",
-   "line": 148,
+   "line": 149,
    "date": {
     "y": 1878,
     "m": 6,
@@ -7505,11 +8072,54 @@
    "cond": null,
    "cond_src": null,
    "slot": null,
-   "thread": null,
+   "thread": "ayastefanos",
    "place": null,
    "text": [
     "Efendimiz, Ayastefanos'un şartları duyulur duyulmaz Avusturya ile İngiltere itiraz etti, Fransa da onlara katıldı. Avusturya ordusunu seferber etti, Rusya'ya savaş açmaya hazır olduğunu ilan etti; Sırbistan, Romanya, Yunanistan da hoşnutsuz. Sonunda Çar II. Aleksandr, [url=codex:Otto von Bismarck]Bismarck[/url]'ın önerisini kabul etti: Doğu dosyası [url=codex:Berlin]Berlin[/url]'de bir kongrede baştan görülecek. Kongre bugün açılıyor.",
-    "Murahhaslarımızın karşısında Avrupa'nın bütün büyük devletleri. Masadaki ilk dosya, çarın düşlediği büyük Bulgaristan."
+    "Murahhaslarımızın karşısında Avrupa'nın bütün büyük devletleri. Masadaki ilk dosya, çarın düşlediği büyük Bulgaristan.",
+    {
+     "cond": {
+      "op": "state",
+      "key": "ayastefanos",
+      "eq": true,
+      "val": "plevne"
+     },
+     "parts": [
+      "Yeşilköy'de Plevne'nin hatırını masaya koymuştunuz. Berlin'de de Osman Paşa'nın adı geçiyor; murahhaslarınız yenilmiş bir devletin değil, direnmiş bir ordunun temsilcisi gibi oturuyor. Şartlara bu yetmez, ama saygıya yeter."
+     ]
+    },
+    {
+     "cond": {
+      "op": "state",
+      "key": "ayastefanos",
+      "eq": true,
+      "val": "zaman"
+     },
+     "parts": [
+      "Yeşilköy'de zaman kazanmaya çalışmıştınız; Rus öncüleri o günlerde bir adım daha ilerledi. Petersburg bunu unutmadı: Rus murahhası Berlin'de sizin murahhaslarınıza bir kez bile dönüp bakmıyor."
+     ]
+    },
+    {
+     "cond": {
+      "op": "flag",
+      "name": "kibris_verildi"
+     },
+     "parts": [
+      "Kıbrıs Sözleşmesi dün imzalandı; Salisbury'nin masadaki yeri sizin yanınız."
+     ]
+    },
+    {
+     "cond": {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "kibris_verildi"
+      }
+     },
+     "parts": [
+      "Kıbrıs'ı İngiltere'ye vermediniz. Salisbury nezaketle selam veriyor; o kadar."
+     ]
+    }
    ],
    "advice": [
     {
@@ -7535,6 +8145,27 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "manastir",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "OS",
+       "own": false
+      },
+      {
+       "t": "queue",
+       "id": "berlin_batum"
+      },
+      {
+       "t": "queue",
+       "id": "berlin_bosna",
+       "delay": 1
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": 3
@@ -7543,10 +8174,6 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": -4
-      },
-      {
-       "t": "queue",
-       "id": "berlin_bosna"
       }
      ],
      "outcome": "Büyük Bulgaristan bölündü: kuzeyde Sofya merkezli özerk bir prenslik, güneyde padişahın siyasi ve askerî otoritesi altında, idari özerkliği olan Doğu Rumeli. Makedonya geri geldi.",
@@ -7562,6 +8189,27 @@
      "hint": "Kıbrıs'ı bırakmıştınız",
      "effects": [
       {
+       "t": "prov",
+       "id": "manastir",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "OS",
+       "own": false
+      },
+      {
+       "t": "queue",
+       "id": "berlin_batum"
+      },
+      {
+       "t": "queue",
+       "id": "berlin_bosna",
+       "delay": 1
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": -2
@@ -7570,10 +8218,6 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": -8
-      },
-      {
-       "t": "queue",
-       "id": "berlin_bosna"
       }
      ],
      "outcome": "İngiliz murahhas sizin yerinize konuştu. Bulgaristan bölündü, Makedonya geri geldi; Londra bunu kendi zaferi sayıyor.",
@@ -7589,6 +8233,27 @@
      "hint": "Bulgar vahşeti suçlaması hâlâ masada",
      "effects": [
       {
+       "t": "prov",
+       "id": "manastir",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "OS",
+       "own": false
+      },
+      {
+       "t": "queue",
+       "id": "berlin_batum"
+      },
+      {
+       "t": "queue",
+       "id": "berlin_bosna",
+       "delay": 1
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": 3
@@ -7597,10 +8262,6 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 3
-      },
-      {
-       "t": "queue",
-       "id": "berlin_bosna"
       }
      ],
      "outcome": "Defter okundu, soğuk karşılandı. Bulgaristan yine bölündü; ama sizin sözünüz yüzünden değil, İngiltere'nin hesabı yüzünden.",
@@ -7613,13 +8274,30 @@
      "hint": null,
      "effects": [
       {
-       "t": "res",
-       "id": "avrupa_baskisi",
-       "d": -2
+       "t": "prov",
+       "id": "manastir",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "OS",
+       "own": false
       },
       {
        "t": "queue",
-       "id": "berlin_bosna"
+       "id": "berlin_batum"
+      },
+      {
+       "t": "queue",
+       "id": "berlin_bosna",
+       "delay": 1
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -2
       }
      ],
      "outcome": "Murahhaslarımız dinledi, not aldı. Kararlar başkalarının masasında verildi; Bulgaristan bölündü, Makedonya geri geldi.",
@@ -7630,7 +8308,7 @@
   {
    "id": "berlin_ermeni_maddesi",
    "file": "GD 1878",
-   "line": 175,
+   "line": 203,
    "date": {
     "y": 1878,
     "m": 7,
@@ -7759,7 +8437,7 @@
       }
      ],
      "outcome": "Salisbury maddeyi geri çekti; Ermeni meselesi Berlin'den Avrupa'nın değil Rusya'nın dosyası olarak çıktı. Patrik bir kez daha Petersburg'a döndü. 13 Temmuz'da antlaşma imzalandı.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -7808,6 +8486,91 @@
       }
      ],
      "outcome": "",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "karar_donanma",
+   "file": "GD 04 Dünya Durumu ve İplikler",
+   "line": 38,
+   "date": {
+    "y": 1879,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Donanmayı Haliç'ten çıkar",
+   "kind": "karar",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": {
+    "y": 1896,
+    "m": 12
+   },
+   "ending": null,
+   "cond": {
+    "op": "flag",
+    "name": "donanma_halicte"
+   },
+   "cond_src": "⚑donanma_halicte",
+   "slot": null,
+   "thread": null,
+   "place": "halic",
+   "text": [
+    "Zırhlılar '93 Harbi'nden beri Haliç'te demirli; padişah bir darbeden korktuğu için donanmanın Haliç'in dışına çıkmasına izin vermiyor. Bir emirle kazanlar yakılabilir, gemiler Marmara'ya çıkabilir. Bedeli hazineden ve sarayın uykusundan ödenir."
+   ],
+   "advice": [
+    {
+     "seat": "bahriye",
+     "cond": null,
+     "text": "Bir kez açık denize çıkarsak, gemiler de mürettebat da yeniden donanma olur."
+    },
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Topları Yıldız'a dönük bir zırhlı Boğaz'da demirlerse, saray bir daha uyuyamaz."
+    }
+   ],
+   "sources": [
+    "Yalman, [i]Birinci Dünya Savaşı'nda Türkiye[/i], p. 56 · Bardakçı, [i]Enver[/i], p. 69 · [i]Türk kaynağı[/i] · Ottoman Navy",
+    "“Bu korku yüzünden orduya talim yaptırmıyor, donanmanın ise Haliç'in dışına çıkmasına izin vermiyordu.”"
+   ],
+   "options": [
+    {
+     "label": "Donanmayı Marmara'ya çıkarın.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "flag",
+       "name": "donanma_halicte",
+       "on": false
+      },
+      {
+       "t": "res",
+       "id": "para",
+       "d": -10
+      },
+      {
+       "t": "res",
+       "id": "bahriye",
+       "d": 6
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": -4
+      },
+      {
+       "t": "res",
+       "id": "jon_turk",
+       "d": 2
+      }
+     ],
+     "outcome": "Zırhlılar dumanlarını tüttürerek Haliç'ten çıktı. Yıldız'dan dürbünle izlendi; o gece sarayın muhafız taburu iki katına çıkarıldı.",
      "alt": false
     }
    ]
@@ -8023,7 +8786,7 @@
   {
    "id": "m_alman",
    "file": "GD 02 Sistemler",
-   "line": 369,
+   "line": 384,
    "date": {
     "y": 1880,
     "m": 1,
@@ -8062,7 +8825,7 @@
   {
    "id": "m_ermeni",
    "file": "GD 02 Sistemler",
-   "line": 374,
+   "line": 389,
    "date": {
     "y": 1880,
     "m": 1,
@@ -8101,7 +8864,7 @@
   {
    "id": "m_arap",
    "file": "GD 02 Sistemler",
-   "line": 379,
+   "line": 394,
    "date": {
     "y": 1880,
     "m": 1,
@@ -8136,6 +8899,197 @@
    "advice": [],
    "sources": [],
    "options": []
+  },
+  {
+   "id": "karar_manevra",
+   "file": "GD 04 Dünya Durumu ve İplikler",
+   "line": 48,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Büyük manevra",
+   "kind": "karar",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": {
+    "y": 1907,
+    "m": 12
+   },
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "yol_ittihat"
+      }
+     },
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "para"
+       ]
+      ],
+      "right": 8
+     }
+    ]
+   },
+   "cond_src": "!⚑yol_ittihat & Para >= 8",
+   "slot": null,
+   "thread": null,
+   "place": "harbiye_mektebi",
+   "text": [
+    "Yıllardır büyük manevra yapılmadı; gelecek vaat eden subaylar izleniyor, çünkü bir darbeye yardım edeceklerinden korkuluyor. Bir emirle Trakya'da kolordular birlikte yürüyebilir."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Subay savaşı kitaptan öğrenmesin, Efendimiz."
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Bir manevra bir yılın talim tahsisatını yer."
+    }
+   ],
+   "sources": [
+    "Nicolle, [i]Osmanlı Piyadesi 1914-1918[/i], p. 19 · [i]İngiliz kaynağı[/i] · Ottoman War Academy"
+   ],
+   "options": [
+    {
+     "label": "Trakya'da büyük manevra emredin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": 6
+      },
+      {
+       "t": "res",
+       "id": "jon_turk",
+       "d": 4
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": -3
+      }
+     ],
+     "outcome": "Kolordular ilk kez yıllar sonra birlikte yürüdü. Harbiyeli genç subaylar bir haftalığına gerçek bir ordunun içinde olduklarını hissetti; birbirlerini de tanıdılar.",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "karar_jurnal",
+   "file": "GD 04 Dünya Durumu ve İplikler",
+   "line": 57,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Jurnal ağını dağıt",
+   "kind": "karar",
+   "tags": [
+    "alternatif"
+   ],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": {
+    "y": 1907,
+    "m": 12
+   },
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "jurnal_ag"
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "yol_ittihat"
+      }
+     }
+    ]
+   },
+   "cond_src": "⚑jurnal_ag & !⚑yol_ittihat",
+   "slot": null,
+   "thread": null,
+   "place": "yildiz",
+   "text": [
+    "Yıldız'a her gün düzinelerce jurnal geliyor; kimisi saçma. Hafiye ağı sarayın gözü ama subayların, mekteplilerin ve memurların küskünlüğü de ondan doğuyor."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Jurnalci subay, jurnallenen subaydan çoktur artık, Efendimiz."
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Hafiye tahsisatı kalkarsa hazine nefes alır."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Yıldız Sarayı · Informants and spies (jurnal system)"
+   ],
+   "options": [
+    {
+     "label": "Hafiye tahsisatını kesin, jurnal ağını dağıtın.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "flag",
+       "name": "jurnal_ag",
+       "on": false
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": -8
+      },
+      {
+       "t": "res",
+       "id": "jon_turk",
+       "d": -4
+      },
+      {
+       "t": "res",
+       "id": "para",
+       "d": 3
+      }
+     ],
+     "outcome": "Yıldız'ın kapısındaki kalabalık seyreldi. Saray artık vilayetleri valilerin raporlarından okuyacak; subaylar ise ilk kez birbirinden korkmadan konuşuyor.",
+     "alt": false
+    }
+   ]
   },
   {
    "id": "beyrut_1880",
@@ -8412,7 +9366,7 @@
    "cond_src": null,
    "slot": null,
    "thread": null,
-   "place": null,
+   "place": "tunus",
    "text": [
     "Efendimiz, 12 Mayıs 1881 antlaşmasıyla Tunus Fransa'nın himayesine girdi; bey nominal hükümdar olarak kaldı, ama Babıâli ile ilişkisi artık bir borazanın çaldığı şeref işaretinden ibaret. Amerikan sefiri bile \"süzerenlik yalnızca görünüşte\" diye yazıyor. Trablusgarp'ın da aynı akıbete uğramaması için elde ne var, bilinmiyor."
    ],
@@ -8440,6 +9394,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "tunus",
+       "v": "FR",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 2
@@ -8460,6 +9420,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "tunus",
+       "v": "FR",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "avrupa_baskisi",
        "d": -2
@@ -8478,7 +9444,7 @@
   {
    "id": "teselya",
    "file": "GD 1881",
-   "line": 18,
+   "line": 19,
    "date": {
     "y": 1881,
     "m": 7,
@@ -8523,6 +9489,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "teselya",
+       "v": "YU",
+       "own": true
+      },
+      {
        "t": "res",
        "id": "para",
        "d": -3
@@ -8542,6 +9514,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "teselya",
+       "v": "YU",
+       "own": true
+      },
       {
        "t": "res",
        "id": "avrupa_baskisi",
@@ -8566,7 +9544,7 @@
   {
    "id": "muharrem_kararnamesi",
    "file": "GD 1881",
-   "line": 27,
+   "line": 29,
    "date": {
     "y": 1881,
     "m": 12,
@@ -8687,6 +9665,75 @@
       }
      ],
      "outcome": "Alacaklılar sabırsızlandı, faiz büyüdü; sonunda aynı kurul, daha ağır şartlarla kuruldu.",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "k_misir_osmanli",
+   "file": "GD 02 Sistemler",
+   "line": 326,
+   "date": {
+    "y": 1882,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Mısır'da Osmanlı taburları",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "or",
+    "args": [
+     {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "osmanli"
+     },
+     {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "ortak"
+     }
+    ]
+   },
+   "cond_src": "misir = osmanli | misir = ortak",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -2
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": -1
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 1
+      }
+     ],
+     "outcome": "",
      "alt": false
     }
    ]
@@ -8849,8 +9896,8 @@
    "cond": null,
    "cond_src": null,
    "slot": null,
-   "thread": null,
-   "place": null,
+   "thread": "misir",
+   "place": "kahire",
    "text": [
     "Efendimiz, Mısır'da Miralay Ahmed Urabi Bey'in başında bulunduğu bir komisyon, Riyaz Paşa hükümetini \"ecnebilere müsait bir alet\" olmakla suçlayan bildiriler dağıtıyor; nazırların düşmesi ve meşrutiyet isteniyor. İngiliz ve Fransız savaş gemileri İskenderiye önünde demirledi. Abdurrahman Paşa hemen asker gönderilmesini istiyor; ama İstanbul'un korkusu Kahire'den değil, kendi kışlasından geliyor."
    ],
@@ -8917,13 +9964,254 @@
      ],
      "outcome": "Babıâli'nin sessizliği her iki tarafı da kızdırdı.",
      "alt": false
+    },
+    {
+     "label": "Abdurrahman Paşa'yı dinleyin: İngiliz gemileri çıkarma yapmadan asker gönderin.",
+     "cond": {
+      "op": "and",
+      "args": [
+       {
+        "op": "cmp",
+        "cmp": ">=",
+        "left": [
+         [
+          1,
+          "harbiye"
+         ]
+        ],
+        "right": 35
+       },
+       {
+        "op": "or",
+        "args": [
+         {
+          "op": "not",
+          "arg": {
+           "op": "flag",
+           "name": "jurnal_ag"
+          }
+         },
+         {
+          "op": "cmp",
+          "cmp": ">=",
+          "left": [
+           [
+            1,
+            "hakimiyet"
+           ],
+           [
+            -1,
+            "jon_turk"
+           ]
+          ],
+          "right": 25
+         }
+        ]
+       }
+      ]
+     },
+     "lock": "Yeterli nüfuzunuz yok.",
+     "hint": "Ordu yeterince güçlü olmalı; taburlar payitahttan uzaklaşınca tahtın güvende kalması da gerekir",
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "para",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": 4
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 4
+      },
+      {
+       "t": "queue",
+       "id": "misir_osmanli_kuvvet",
+       "delay": 2
+      }
+     ],
+     "outcome": "Rumeli taburları vapurlara bindi. İskenderiye önündeki İngiliz amirali, Osmanlı bayrağını taşıyan nakliye gemilerine ateş etmeye cesaret edemedi.",
+     "alt": true
+    }
+   ]
+  },
+  {
+   "id": "misir_osmanli_kuvvet",
+   "file": "GD 1882",
+   "line": 40,
+   "date": {
+    "y": 1882,
+    "m": 6,
+    "d": 1
+   },
+   "title": "Osmanlı taburları Kahire'de",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "MI",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": null,
+   "cond_src": null,
+   "slot": null,
+   "thread": "misir",
+   "place": "kahire",
+   "text": [
+    "Efendimiz, Rumeli taburları İngiliz çıkarmasından önce İskenderiye'ye ulaştı ve Kahire'ye girdi. Urabi Bey'in askerleri Osmanlı bayrağını selamladı; hıdiv sarayından çıkmaya cesaret ediyor. İskenderiye önündeki İngiliz ve Fransız gemileri demirli; Londra, padişahın askerinin Mısır'da ne arayacağını soruyor. Karar sizin: bu kuvvet bir asayiş kuvveti mi, yoksa Mısır'ın yeni sahibi mi?"
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Taburlar Kahire'de, Efendimiz. Ama İngiliz donanması denizde; ikmal yolumuz onların topunun menzilinde."
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Mısır'ın vergisi yeniden İstanbul'a akabilir. Yeter ki bu iş bir harbe dönmesin."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Tarihte padişah asker göndermekte geç kaldı; 1885'te bile İngiliz murahhası hıdivin yanında iki tabur Türk askeri bulundurulmasını önerdi ve padişah bunu reddetti: Akyıldız, [i]Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi[/i], p. 442 · [i]Türk kaynağı[/i] · British occupation of Egypt (1882)"
+   ],
+   "options": [
+    {
+     "label": "Urabi'yi tasfiye edin, hıdivi güçlendirin, İngiltere'ye ortak denetim önerin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": -2
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -4
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "ortak"
+      }
+     ],
+     "outcome": "Urabi Bey sürgüne gönderildi. Kahire'de iki bayrak dalgalanıyor: hıdivin sarayında Osmanlı taburları, Düyun İdaresi'nde İngiliz müfettişleri. Mısır'ın vergisi yarı yarıya İstanbul'a dönüyor.",
+     "alt": false
+    },
+    {
+     "label": "Kahire'de kalın; İngiliz'e çıkarma yapmamasını bildirin.",
+     "cond": {
+      "op": "or",
+      "args": [
+       {
+        "op": "cmp",
+        "cmp": ">=",
+        "left": [
+         [
+          1,
+          "bahriye"
+         ]
+        ],
+        "right": 45
+       },
+       {
+        "op": "cmp",
+        "cmp": ">=",
+        "left": [
+         [
+          1,
+          "harbiye"
+         ]
+        ],
+        "right": 50
+       }
+      ]
+     },
+     "lock": "(Bahriye ≥ 45 ya da Harbiye ≥ 50) gerekir.",
+     "hint": "İngiliz'i caydırmak için denizde ya da karada güç gerekir",
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": 5
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 10
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "osmanli"
+      },
+      {
+       "t": "prov",
+       "id": "misir",
+       "v": "OS",
+       "own": false
+      }
+     ],
+     "outcome": "İngiliz amirali çıkarma emrini beklerken Londra geri adım attı: bir Osmanlı ordusuyla açık harbe girmek istemedi. Mısır yeniden fiilen Osmanlı. Ama Londra bunu bir hesap olarak defterine yazdı.",
+     "alt": false
+    },
+    {
+     "label": "Taburları geri çekin, İngiliz'le çatışmayın.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": 3
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": -6
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "ingiliz"
+      },
+      {
+       "t": "prov",
+       "id": "misir",
+       "v": "IN",
+       "own": false
+      }
+     ],
+     "outcome": "Taburlar vapurlara bindi. Birkaç hafta sonra İngiliz kuvvetleri İskenderiye'ye çıktı ve Kahire'ye yürüdü.",
+     "alt": false
     }
    ]
   },
   {
    "id": "misir_isgali",
    "file": "GD 1882",
-   "line": 29,
+   "line": 30,
    "date": {
     "y": 1882,
     "m": 7,
@@ -8942,8 +10230,8 @@
    "cond": null,
    "cond_src": null,
    "slot": null,
-   "thread": null,
-   "place": null,
+   "thread": "misir",
+   "place": "kahire",
    "text": [
     "Efendimiz, İngiliz donanması İskenderiye'yi bombaladı, kara kuvvetleri Mısır'a çıktı. Harbiye Nazırı, hıdive kuvvetü'z-zahr olmak üzere Rumeli'den on beş tabur asker sevkini öneriyor. Ama saray biliyor: ordu payitahttan uzaklaşırsa, kışlada kim kalır?"
    ],
@@ -8995,10 +10283,20 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 5
+      },
+      {
+       "t": "queue",
+       "id": "misir_taburlar_kabul",
+       "delay": 2
+      },
+      {
+       "t": "queue",
+       "id": "misir_taburlar_gec",
+       "delay": 2
       }
      ],
-     "outcome": "Kuvvet Mısır'a ulaştı; ama İngiliz donanmasının topları karşısında az geldi. Yine de Kahire, İstanbul'un kendini unutmadığını gördü.",
-     "alt": false
+     "outcome": "Taburlar vapurlara bindi. Kahire, İstanbul'un kendini unutmadığını gördü; İngiliz karargâhı ise bu gemilerin ne zaman ve nereye çıkacağını hesaplıyor.",
+     "alt": true
     },
     {
      "label": "Askeri payitahtta tutun, yalnızca protesto edin.",
@@ -9020,9 +10318,240 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 5
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "ingiliz"
+      },
+      {
+       "t": "prov",
+       "id": "misir",
+       "v": "IN",
+       "own": false
       }
      ],
      "outcome": "İskenderiye düştü, İngiliz kuvvetleri Kahire'ye yürüdü. Mısır fiilen elden gitti; ama Yıldız'ın kışlaları dolu kaldı.",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "misir_taburlar_kabul",
+   "file": "GD 1882",
+   "line": 50,
+   "date": {
+    "y": 1882,
+    "m": 9,
+    "d": 1
+   },
+   "title": "Taburlar Tel-el-Kebir'e yetişiyor",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "IN",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "harbiye"
+       ]
+      ],
+      "right": 40
+     },
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "bahriye"
+       ]
+      ],
+      "right": 35
+     }
+    ]
+   },
+   "cond_src": "Harbiye >= 40 & Bahriye >= 35",
+   "slot": null,
+   "thread": "misir",
+   "place": "kahire",
+   "text": [
+    "Efendimiz, Rumeli'den gelen on beş tabur İngiliz kuvvetleri Kahire'ye yürürken Nil deltasına ulaştı. İngiliz komutanı bir Osmanlı ordusuyla çarpışmak yerine müzakereyi seçti: hıdivin otoritesi yeniden kurulacak, İngiliz askeri Süveyş'te kalacak, Osmanlı taburları Kahire'de."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Taburlar yetişti, Efendimiz. Az kalsın geç kalıyorduk."
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Ortaklık da bir kayıptır; ama Mısır'ın tamamını kaybetmekten iyidir."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. British occupation of Egypt (1882) · Akyıldız, p. 442 · [i]Türk kaynağı[/i]"
+   ],
+   "options": [
+    {
+     "label": "Ortak denetimi kabul edin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -3
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": 2
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "ortak"
+      }
+     ],
+     "outcome": "Mısır'da iki kuvvet, bir hıdiv. Kahire'nin sokaklarında Osmanlı neferi ile İngiliz askeri yan yana nöbet tutuyor.",
+     "alt": false
+    },
+    {
+     "label": "İngiliz'in Süveyş'ten de çekilmesini isteyin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 8
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "ortak"
+      },
+      {
+       "t": "queue",
+       "id": "misir_ingiliz_hesap",
+       "delay": 24
+      }
+     ],
+     "outcome": "İngiliz komutanı cevap vermedi; Süveyş'teki kuvvetini de azaltmadı. Londra bu talebi unutmayacak.",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "misir_taburlar_gec",
+   "file": "GD 1882",
+   "line": 60,
+   "date": {
+    "y": 1882,
+    "m": 9,
+    "d": 1
+   },
+   "title": "Tel-el-Kebir",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "IN",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "or",
+    "args": [
+     {
+      "op": "cmp",
+      "cmp": "<",
+      "left": [
+       [
+        1,
+        "harbiye"
+       ]
+      ],
+      "right": 40
+     },
+     {
+      "op": "cmp",
+      "cmp": "<",
+      "left": [
+       [
+        1,
+        "bahriye"
+       ]
+      ],
+      "right": 35
+     }
+    ]
+   },
+   "cond_src": "Harbiye < 40 | Bahriye < 35",
+   "slot": null,
+   "thread": "misir",
+   "place": "kahire",
+   "text": [
+    "Efendimiz, taburlar yola çıktı ama yetişemedi. Nakliye gemileri İngiliz donanmasının gözetiminde İskenderiye'de bekletildi; bu sırada İngiliz kuvvetleri Tel-el-Kebir'de Urabi'nin ordusunu dağıttı ve Kahire'ye girdi. Taburlar Mısır'a çıktığında, çıkacak bir harp kalmamıştı."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Ordu hazır olsaydı, Efendimiz, bu haberi başka türlü okurduk."
+    }
+   ],
+   "sources": [
+    "British occupation of Egypt (1882) · Akyıldız, p. 552 · [i]Türk kaynağı[/i]"
+   ],
+   "options": [
+    {
+     "label": "Taburları geri çağırın.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -3
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": -4
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "ingiliz"
+      },
+      {
+       "t": "prov",
+       "id": "misir",
+       "v": "IN",
+       "own": false
+      }
+     ],
+     "outcome": "Taburlar geri döndü. Mısır fiilen İngiliz; Kahire'de bu gecikme uzun süre konuşulacak.",
      "alt": false
     }
    ]
@@ -9089,6 +10618,51 @@
      "alt": false
     }
    ]
+  },
+  {
+   "id": "m_misir",
+   "file": "GD 02 Sistemler",
+   "line": 420,
+   "date": {
+    "y": 1883,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Kahire'de iki bayrak",
+   "kind": "manşet",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "or",
+    "args": [
+     {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "ortak"
+     },
+     {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "osmanli"
+     }
+    ]
+   },
+   "cond_src": "misir = ortak | misir = osmanli",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [
+    "Kahire'den gelen mektuplarda hıdivin sarayındaki Osmanlı taburlarından söz ediliyor."
+   ],
+   "advice": [],
+   "sources": [],
+   "options": []
   },
   {
    "id": "goltz_heyeti",
@@ -9213,8 +10787,8 @@
    "cond": null,
    "cond_src": null,
    "slot": null,
-   "thread": null,
-   "place": null,
+   "thread": "reji",
+   "place": "galata",
    "text": [
     "Efendimiz, Maliye Nazırı bir teklifle geldi: tütün ve sigara tekelini yabancı sermayeli bir şirkete, Reji'ye devretmek. Geliri doğrudan Düyun-u Umumiye'ye akacak, dış borcun bir kısmı böylece güvenceye bağlanacak. Karşılığında köylü artık tütününü devlete değil, silahlı kolcuları olan bir şirkete satacak."
    ],
@@ -9249,6 +10823,16 @@
        "t": "res",
        "id": "hakimiyet",
        "d": -2
+      },
+      {
+       "t": "world",
+       "id": "reji",
+       "v": "fransiz"
+      },
+      {
+       "t": "queue",
+       "id": "reji_kolcular",
+       "delay": 12
       }
      ],
      "outcome": "Reji kuruldu, geliri Düyun-u Umumiye'ye gidiyor. Kolcu kadrosuna kimin gireceğine şirket kendi karar verdi; Ermeni kolcu sayısı arttıkça köylerde gerginlik de arttı.",
@@ -9274,6 +10858,16 @@
        "t": "res",
        "id": "kurtler",
        "d": 2
+      },
+      {
+       "t": "world",
+       "id": "reji",
+       "v": "ortak"
+      },
+      {
+       "t": "queue",
+       "id": "reji_kolcular",
+       "delay": 12
       }
      ],
      "outcome": "Reji tekeli yine kuruldu; ama kolcu kadrosu karıştırıldı, azınlıkları kışkırtma şikâyetleri bir nebze azaldı.",
@@ -9294,9 +10888,722 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 3
+      },
+      {
+       "t": "queue",
+       "id": "reji_nota",
+       "delay": 4
       }
      ],
-     "outcome": "Tahsilat yine aksadı; alacaklılar yeni bir teminat istedi.",
+     "outcome": "Tahsilat yine aksadı; alacaklılar yeni bir teminat istedi. Galata'da Osmanlı Bankası'nın kapısı bir süre sizin murahhaslarınıza kapalı kalacak.",
+     "alt": true
+    },
+    {
+     "label": "Tekeli devlet eliyle kurun: bir Milli Tütün İdaresi.",
+     "cond": {
+      "op": "and",
+      "args": [
+       {
+        "op": "cmp",
+        "cmp": ">=",
+        "left": [
+         [
+          1,
+          "para"
+         ]
+        ],
+        "right": 20
+       },
+       {
+        "op": "cmp",
+        "cmp": ">=",
+        "left": [
+         [
+          1,
+          "hakimiyet"
+         ]
+        ],
+        "right": 45
+       }
+      ]
+     },
+     "lock": "Yeterli nüfuzunuz yok.",
+     "hint": "Kuruluş masrafı ve alacaklılara karşı durabilecek bir saray gerekir",
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -8
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 3
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 6
+      },
+      {
+       "t": "world",
+       "id": "reji",
+       "v": "milli"
+      },
+      {
+       "t": "queue",
+       "id": "reji_nota",
+       "delay": 4
+      }
+     ],
+     "outcome": "Tekel kuruldu, ama bir şirketin değil devletin elinde. Kolcular Maliye'nin memuru; tütünün kârı Galata'ya değil hazineye akacak. Alacaklılar bunu bir teminatın elden kaçması sayıyor.",
+     "alt": true
+    }
+   ]
+  },
+  {
+   "id": "reji_nota",
+   "file": "GD 1883",
+   "line": 28,
+   "date": {
+    "y": 1883,
+    "m": 9,
+    "d": 1
+   },
+   "title": "Galata'dan gelen nota",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "FR",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": null,
+   "cond_src": null,
+   "slot": null,
+   "thread": "reji",
+   "place": "galata",
+   "text": [
+    {
+     "cond": null,
+     "parts": [
+      "Efendimiz, Osmanlı Bankası'nın müdürü ile Düyun-u Umumiye meclisinin Fransız ve İngiliz üyeleri Babıâli'ye ortak bir nota bıraktı. Muharrem Kararnamesi tütün gelirini alacaklılara bağlamıştı; ",
+      {
+       "cond": {
+        "op": "state",
+        "key": "reji",
+        "eq": true,
+        "val": "milli"
+       },
+       "a": "bir Milli Tütün İdaresi kurmakla",
+       "b": "tekeli bir şirkete vermeyi reddetmekle"
+      },
+      " bu teminatı elinizde tuttuğunuzu söylüyorlar. Banka yeni avans açmayacağını bildirdi; Fransız sefiri notanın altına kendi imzasını da koydu."
+     ]
+    }
+   ],
+   "advice": [
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Efendimiz, maaş günü Galata'nın kapısı kapalı olursa başka kapı kalmaz."
+    },
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Bir şirketin kolcusu köylünün evine girecekse, o kapı hiç açılmasın."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Tütün gelirinin Düyun'a devri: Mantran, [i]Osmanlı İmparatorluğu Tarihi[/i], p. 665 · [i]Fransız kaynağı[/i] · Reji gelirinin Düyun'a gitmesi: Goloğlu, [i]Cumhuriyete Doğru[/i], loc. 177 · [i]Türk kaynağı[/i] · Tobacco Régie · Ottoman Bank"
+   ],
+   "options": [
+    {
+     "label": "Tütün gelirini teminat olarak Düyun'a bırakın, idare sizde kalsın.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -3
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -4
+      }
+     ],
+     "outcome": "Uzun bir pazarlıktan sonra bir formül bulundu: tütünün geliri alacaklılara, tütünün kendisi devlete. Galata'nın kapısı aralandı.",
+     "alt": false
+    },
+    {
+     "label": "Direnin; notayı cevapsız bırakın.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 8
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 3
+      },
+      {
+       "t": "queue",
+       "id": "reji_midilli",
+       "delay": 12
+      }
+     ],
+     "outcome": "Nota cevapsız kaldı. Fransız sefareti Paris'e \"Babıâli'yi başka bir dille ikna etmek gerekecek\" diye yazdı.",
+     "alt": false
+    },
+    {
+     "label": "Geri adım atın, Reji'yi kurun.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": 6
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": -4
+      },
+      {
+       "t": "world",
+       "id": "reji",
+       "v": "fransiz"
+      },
+      {
+       "t": "queue",
+       "id": "reji_kolcular",
+       "delay": 12
+      }
+     ],
+     "outcome": "Tekel yabancı sermayeli şirkete devredildi; banka ertesi gün avansı açtı.",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "k_reji_milli",
+   "file": "GD 02 Sistemler",
+   "line": 321,
+   "date": {
+    "y": 1884,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Milli Tütün İdaresi",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "state",
+    "key": "reji",
+    "eq": true,
+    "val": "milli"
+   },
+   "cond_src": "reji = milli",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": 3
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 1
+      }
+     ],
+     "outcome": "",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "misir_ingiliz_hesap",
+   "file": "GD 1882",
+   "line": 68,
+   "date": {
+    "y": 1884,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Londra'nın hesabı",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "IN",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "or",
+    "args": [
+     {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "ortak"
+     },
+     {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "osmanli"
+     }
+    ]
+   },
+   "cond_src": "misir = ortak | misir = osmanli",
+   "slot": null,
+   "thread": "misir",
+   "place": "kahire",
+   "text": [
+    "Efendimiz, İngiliz sefiri Babıâli'ye bir nota bıraktı: Mısır'daki Osmanlı kuvveti \"asayiş için\" geçici olarak kabul edilmişti; Londra şimdi bu kuvvetin ne zaman döneceğini soruyor. Notanın altında Düyun İdaresi'ndeki İngiliz üyenin imzası da var: Mısır'ın borcunu ödeyemediği yıl, İngiltere kendi askerini çıkarmakta serbest olacak."
+   ],
+   "advice": [
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Mısır'ın borcu bizim borcumuz değil ama faizi bizim kapımızı çalıyor, Efendimiz."
+    },
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Taburları çekersek İngiliz girer. Tutarsak Londra başka yerden vurur."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. British occupation of Egypt (1882)"
+   ],
+   "options": [
+    {
+     "label": "Mısır'ın borcuna kefil olun.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -10
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -4
+      }
+     ],
+     "outcome": "Hazine bir yük daha aldı; Kahire'deki taburlar yerinde kaldı.",
+     "alt": false
+    },
+    {
+     "label": "Taburları tutun, notayı cevapsız bırakın.",
+     "cond": {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "harbiye"
+       ]
+      ],
+      "right": 45
+     },
+     "lock": "Harbiye ≥ 45 gerekir.",
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 8
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": 3
+      }
+     ],
+     "outcome": "Londra bekledi. Mısır'daki bayrak yerinde.",
+     "alt": false
+    },
+    {
+     "label": "Taburları çekin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": 3
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": -5
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "ingiliz"
+      },
+      {
+       "t": "prov",
+       "id": "misir",
+       "v": "IN",
+       "own": false
+      }
+     ],
+     "outcome": "Son Osmanlı taburu İskenderiye'den ayrılırken bir İngiliz alayı rıhtıma çıkıyordu.",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "reji_kolcular",
+   "file": "GD 1883",
+   "line": 49,
+   "date": {
+    "y": 1884,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Kolcular ve kaçakçılar",
+   "kind": "zorunlu",
+   "tags": [
+    "zincir"
+   ],
+   "nation": "FR",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "or",
+    "args": [
+     {
+      "op": "state",
+      "key": "reji",
+      "eq": true,
+      "val": "fransiz"
+     },
+     {
+      "op": "state",
+      "key": "reji",
+      "eq": true,
+      "val": "ortak"
+     }
+    ]
+   },
+   "cond_src": "reji = fransiz | reji = ortak",
+   "slot": null,
+   "thread": "reji",
+   "place": "galata",
+   "text": [
+    "Efendimiz, Reji'nin ilk yılı doldu. Tütün üreticisi ruhsatını şirketten alıyor, tütününü şirketin koyduğu fiyattan şirkete satıyor; kendi içeceği tütünü bile izinsiz saklayamıyor. Köylü bir gecede kaçakçı oldu. Reji'nin silahlı kolcuları dükkânları, evleri, yolcuların üstünü arıyor; vilayetlerden gelen raporlarda kolcularla kaçakçıların çatışması her ay biraz daha sık geçiyor. Çankırı'da, Manisa'da vurulan kaçakçılar için türküler yakılıyor.",
+    {
+     "cond": {
+      "op": "state",
+      "key": "reji",
+      "eq": true,
+      "val": "ortak"
+     },
+     "parts": [
+      "Kolcu kadrosu kuruluşta karıştırılmıştı; şikâyetlerde \"azınlıkları kışkırtma\" sözü bu yüzden daha seyrek geçiyor. Ama köylünün derdi kolcunun kim olduğu değil, kapısını çalması."
+     ]
+    }
+   ],
+   "advice": [
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Reji'nin tuttuğu istatistik devletin tuttuğundan doğru, Efendimiz; gelir de artıyor."
+    },
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Jandarmayı kolcunun arkasına koyarsak köylü devleti de şirketle bir sayar."
+    }
+   ],
+   "sources": [
+    "Video, [i]Mahşerin İki Gemisi - Part II[/i], loc. 7 · Video, [i]Mahşerin İki Gemisi - Part II[/i], loc. 8 · [i]video dökümü (ikincil)[/i] · Yalman, [i]Birinci Dünya Savaşı'nda Türkiye[/i], p. 152 · [i]Türk kaynağı[/i] · Tobacco Régie",
+    "Video dökümü kolcuların 40.000'in üzerinde köylüyü vurduğunu yazan \"bazı kaynaklar\"dan söz eder; kasadaki kitaplarda bu sayıyı doğrulayan bir kayıt yoktur."
+   ],
+   "options": [
+    {
+     "label": "Kolculara jandarma desteği verin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": 3
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": -2
+      },
+      {
+       "t": "res",
+       "id": "jon_turk",
+       "d": 2
+      }
+     ],
+     "outcome": "Reji'nin geliri arttı, kaçakçılık bir süre azaldı. Köylerde yakılan türkülerde artık jandarmanın adı da geçiyor.",
+     "alt": false
+    },
+    {
+     "label": "Kolcuların arama yetkisini valinin iznine bağlatın.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -2
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 2
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 4
+      }
+     ],
+     "outcome": "Şirket Düyun meclisine şikâyet etti; ama vilayetlerde kolcular artık vali konağına hesap veriyor.",
+     "alt": false
+    },
+    {
+     "label": "Kaçakçılığa göz yumun.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -3
+      },
+      {
+       "t": "res",
+       "id": "kurtler",
+       "d": 2
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 2
+      }
+     ],
+     "outcome": "Dağ yollarında tütün yükü taşıyan katırların sayısı arttı; Reji'nin geliri, dolayısıyla Düyun'un payı düştü.",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "karar_reji_milli",
+   "file": "GD 1883",
+   "line": 63,
+   "date": {
+    "y": 1884,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Reji'yi millileştir",
+   "kind": "karar",
+   "tags": [
+    "alternatif"
+   ],
+   "nation": "FR",
+   "image": null,
+   "rank": null,
+   "until": {
+    "y": 1912,
+    "m": 12
+   },
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "or",
+      "args": [
+       {
+        "op": "state",
+        "key": "reji",
+        "eq": true,
+        "val": "fransiz"
+       },
+       {
+        "op": "state",
+        "key": "reji",
+        "eq": true,
+        "val": "ortak"
+       }
+      ]
+     },
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "para"
+       ]
+      ],
+      "right": 30
+     },
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "hakimiyet"
+       ]
+      ],
+      "right": 45
+     }
+    ]
+   },
+   "cond_src": "(reji = fransiz | reji = ortak) & Para >= 30 & hakimiyet >= 45",
+   "slot": null,
+   "thread": "reji",
+   "place": "galata",
+   "text": [
+    "Reji'nin imtiyazı otuz yıllıktır. Hazinede yeterli para ve sarayda yeterli kararlılık varsa, imtiyaz süresi dolmadan satın alınabilir ya da feshedilebilir."
+   ],
+   "advice": [
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Tazminatı ödersek alacaklılar susar, Efendimiz. Feshedersek susmazlar."
+    },
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Kolcuların silahı Maliye'nin deposuna girer; o da bir kazançtır."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Goloğlu, [i]Cumhuriyete Doğru[/i], loc. 177 · [i]Türk kaynağı[/i] · Tobacco Régie"
+   ],
+   "options": [
+    {
+     "label": "İmtiyazı tazminatla satın alın.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -30
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 4
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 2
+      },
+      {
+       "t": "world",
+       "id": "reji",
+       "v": "milli"
+      }
+     ],
+     "outcome": "Şirketin hissedarları tazminatı aldı, kolcular Maliye'nin memuru oldu. Tütünün kârı artık hazineye akıyor.",
+     "alt": false
+    },
+    {
+     "label": "İmtiyazı feshedin.",
+     "cond": {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "hakimiyet"
+       ]
+      ],
+      "right": 65
+     },
+     "lock": "Yeterli nüfuzunuz yok.",
+     "hint": "Ancak sarayın elinin çok güçlü olduğu bir devirde",
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -8
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 15
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 4
+      },
+      {
+       "t": "world",
+       "id": "reji",
+       "v": "milli"
+      },
+      {
+       "t": "queue",
+       "id": "reji_midilli",
+       "delay": 6
+      }
+     ],
+     "outcome": "Fesih fermanı okundu; Reji'nin depoları mühürlendi. Paris'ten gelen ilk telgraf bir tehditti.",
      "alt": false
     }
    ]
@@ -9416,6 +11723,256 @@
    ]
   },
   {
+   "id": "reji_midilli",
+   "file": "GD 1883",
+   "line": 38,
+   "date": {
+    "y": 1884,
+    "m": 10,
+    "d": 1
+   },
+   "title": "Midilli önünde Fransız filosu",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "FR",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "or",
+    "args": [
+     {
+      "op": "state",
+      "key": "reji",
+      "eq": true,
+      "val": "milli"
+     },
+     {
+      "op": "state",
+      "key": "reji",
+      "eq": true,
+      "val": "devlet"
+     }
+    ]
+   },
+   "cond_src": "reji = milli | reji = devlet",
+   "slot": null,
+   "thread": "reji",
+   "place": "galata",
+   "text": [
+    "Efendimiz, bir Fransız filosu Midilli önüne demirledi ve adanın gümrük dairesini \"alacaklıların hakkına teminat olarak\" işgal etti. Amiral, tütün meselesinde Babıâli bir uzlaşmaya varana kadar gümrük gelirini kendisinin toplayacağını ilan ediyor. Avrupa gazeteleri bunu bir borç tahsilatı diye yazıyor; İstanbul'da bir hakaret diye okunuyor."
+   ],
+   "advice": [
+    {
+     "seat": "bahriye",
+     "cond": null,
+     "text": "Donanma hazırsa, Efendimiz, bir Fransız filosu Midilli'de o kadar rahat oturamaz."
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Gümrüğün geliri zaten azdır; ama ödemezsek sırada başka ada var."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Tobacco Régie"
+   ],
+   "options": [
+    {
+     "label": "Alacağı Midilli gümrüğünden ödeyin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -12
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -6
+      }
+     ],
+     "outcome": "Fransız filosu demir aldı. Tütün devletin elinde kaldı; bedeli bir yılın gümrüğü oldu.",
+     "alt": false
+    },
+    {
+     "label": "Donanmayı Midilli'ye gönderin.",
+     "cond": {
+      "op": "and",
+      "args": [
+       {
+        "op": "cmp",
+        "cmp": ">=",
+        "left": [
+         [
+          1,
+          "bahriye"
+         ]
+        ],
+        "right": 50
+       },
+       {
+        "op": "not",
+        "arg": {
+         "op": "flag",
+         "name": "donanma_halicte"
+        }
+       }
+      ]
+     },
+     "lock": "Yeterli nüfuzunuz yok.",
+     "hint": "Haliç'ten çıkabilen ve kazanı yanan bir donanma gerekir",
+     "effects": [
+      {
+       "t": "res",
+       "id": "bahriye",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "para",
+       "d": -4
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 6
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 5
+      },
+      {
+       "t": "res",
+       "id": "jon_turk",
+       "d": 2
+      }
+     ],
+     "outcome": "Osmanlı zırhlıları Midilli'ye vardığında Fransız amirali Paris'ten talimat bekledi; talimat geri çekilmekti. İstanbul'da gazeteler günlerce bu haberi yazdı.",
+     "alt": false
+    },
+    {
+     "label": "Reji'yi kurun.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": 4
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": -6
+      },
+      {
+       "t": "world",
+       "id": "reji",
+       "v": "fransiz"
+      },
+      {
+       "t": "queue",
+       "id": "reji_kolcular",
+       "delay": 12
+      }
+     ],
+     "outcome": "Filo gümrük dairesinden çekildi; tekel ertesi ay yabancı sermayeli şirkete devredildi.",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "m_reji",
+   "file": "GD 02 Sistemler",
+   "line": 409,
+   "date": {
+    "y": 1885,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Kolcuların türküsü",
+   "kind": "manşet",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "or",
+    "args": [
+     {
+      "op": "state",
+      "key": "reji",
+      "eq": true,
+      "val": "fransiz"
+     },
+     {
+      "op": "state",
+      "key": "reji",
+      "eq": true,
+      "val": "ortak"
+     }
+    ]
+   },
+   "cond_src": "reji = fransiz | reji = ortak",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [
+    "Reji kolcularının vurduğu bir kaçakçı için Anadolu'da yine bir türkü yakıldı."
+   ],
+   "advice": [],
+   "sources": [
+    "Video, [i]Mahşerin İki Gemisi - Part II[/i], loc. 8 · [i]video dökümü (ikincil)[/i]"
+   ],
+   "options": []
+  },
+  {
+   "id": "m_reji_milli",
+   "file": "GD 02 Sistemler",
+   "line": 415,
+   "date": {
+    "y": 1885,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Tütün hazineye",
+   "kind": "manşet",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "state",
+    "key": "reji",
+    "eq": true,
+    "val": "milli"
+   },
+   "cond_src": "reji = milli",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [
+    "Milli Tütün İdaresi'nin Galata'daki depolarında bu yılın mahsulü tartıldı; kârı hazineye yazıldı."
+   ],
+   "advice": [],
+   "sources": [],
+   "options": []
+  },
+  {
    "id": "armenakan",
    "file": "GD 1885",
    "line": 8,
@@ -9521,16 +12078,31 @@
    "cond": null,
    "cond_src": null,
    "slot": null,
-   "thread": null,
-   "place": null,
+   "thread": "dogu_rumeli",
+   "place": "filibe",
    "text": [
-    "Efendimiz, Filibe'de bir darbeyle Doğu Rumeli'nin valisi devrildi, bölge fiilen Bulgaristan Prensliği'ne katıldı. Berlin Antlaşması'nın \"özerk Türk vilayeti\" diye çizdiği hat, yedi yıl bile dolmadan bir oldu bittiyle silindi. Sırbistan bu birleşmeyi kendi payına bir tehdit sayıp Bulgaristan'a savaş açacak; ama bu, sizin toprağınızı geri getirmeyecek."
+    "Efendimiz, Filibe'de bir darbeyle Doğu Rumeli'nin valisi devrildi, bölge fiilen Bulgaristan Prensliği'ne katıldı. Berlin Antlaşması'nın \"özerk Türk vilayeti\" diye çizdiği hat, yedi yıl bile dolmadan bir oldu bittiyle silindi. Sırbistan bu birleşmeyi kendi payına bir tehdit sayıp Bulgaristan'a savaş açacak; ama bu, sizin toprağınızı geri getirmeyecek. [eğer: ayastefanos = ege] Yeşilköy'de Balkan geçitleri için direnmiştiniz; Berlin, padişahın Doğu Rumeli'de asker bulundurma hakkını tanıdı. Bu hak bugün kâğıttan fazlası olabilir."
    ],
    "advice": [
     {
      "seat": "harbiye",
      "cond": null,
      "text": "Sınıra kuvvet göndersek bile, efendimiz, Büyük Devletler yine oldu bitti'yi tanıyacak."
+    },
+    {
+     "seat": "harbiye",
+     "cond": {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "harbiye"
+       ]
+      ],
+      "right": 45
+     },
+     "text": "Ama geçitlere bizden önce varan olmazsa, oldu bitti bizim lehimize de olabilir."
     },
     {
      "seat": "maliye",
@@ -9557,6 +12129,17 @@
        "t": "res",
        "id": "hakimiyet",
        "d": -2
+      },
+      {
+       "t": "world",
+       "id": "dogu_rumeli",
+       "v": "bulgar"
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "BU",
+       "own": false
       }
      ],
      "outcome": "Prens Aleksandr aynı zamanda \"Doğu Rumeli genel valisi\" sanını da aldı — kâğıt üstünde. Toprak elden gitti, unvan kaldı.",
@@ -9582,17 +12165,468 @@
        "t": "res",
        "id": "hakimiyet",
        "d": 2
+      },
+      {
+       "t": "world",
+       "id": "dogu_rumeli",
+       "v": "bulgar"
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "BU",
+       "own": false
       }
      ],
      "outcome": "Taburlar sınırda beklerken Sırbistan Bulgaristan'a savaş açtı; Büyük Devletler oldu bitti'yi zaten tanıdı. Gösteri kaldı elde, toprak yine gitti.",
+     "alt": false
+    },
+    {
+     "label": "Berlin'in verdiği hakla Balkan geçitlerine asker sokun.",
+     "cond": {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "harbiye"
+       ]
+      ],
+      "right": 40
+     },
+     "lock": "Harbiye ≥ 40 gerekir.",
+     "hint": "Harekete hazır bir ordu gerekir; Yeşilköy'deki ısrarınız işe yarayabilir",
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "para",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 6
+      },
+      {
+       "t": "queue",
+       "id": "dogu_rumeli_tutuldu",
+       "delay": 1
+      },
+      {
+       "t": "queue",
+       "id": "dogu_rumeli_geri",
+       "delay": 1
+      }
+     ],
+     "outcome": "Edirne'den trenler kalktı; taburlar Filibe yoluna çıktı.",
+     "alt": true
+    }
+   ]
+  },
+  {
+   "id": "dogu_rumeli_tutuldu",
+   "file": "GD 1885",
+   "line": 31,
+   "date": {
+    "y": 1885,
+    "m": 10,
+    "d": 1
+   },
+   "title": "Filibe'ye giren taburlar",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "BU",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "or",
+    "args": [
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "harbiye"
+       ]
+      ],
+      "right": 50
+     },
+     {
+      "op": "and",
+      "args": [
+       {
+        "op": "state",
+        "key": "ayastefanos",
+        "eq": true,
+        "val": "ege"
+       },
+       {
+        "op": "cmp",
+        "cmp": ">=",
+        "left": [
+         [
+          1,
+          "harbiye"
+         ]
+        ],
+        "right": 40
+       }
+      ]
+     }
+    ]
+   },
+   "cond_src": "Harbiye >= 50 | (ayastefanos = ege & Harbiye >= 40)",
+   "slot": null,
+   "thread": "dogu_rumeli",
+   "place": "filibe",
+   "text": [
+    "Efendimiz, Osmanlı taburları Balkan geçitlerini Bulgar milisinden önce tuttu ve Filibe'ye girdi. Sırbistan, Bulgaristan'a savaş açmak üzere; Sofya iki cephede birden savaşamaz. Büyük Devletler, Berlin Antlaşması'nın padişaha tanıdığı hakkı hatırlıyor: Doğu Rumeli'de asker bulundurmak."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Geçitler bizde, Efendimiz. Kışı burada geçirebiliriz."
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Vilayetin vergisi yeniden gelsin; ama bir valiyi Sofya'nın adamlarına karşı korumak da masraf."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Bulgaristan · Trotsky, [i]Balkan Savaşları (Troçki)[/i], loc. 16 · [i]Rus kaynağı[/i]"
+   ],
+   "options": [
+    {
+     "label": "Doğu Rumeli'yi özerk bir vilayet olarak yeniden kurun.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -2
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 3
+      },
+      {
+       "t": "world",
+       "id": "dogu_rumeli",
+       "v": "osmanli"
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "OS",
+       "own": false
+      }
+     ],
+     "outcome": "Filibe'ye yeni bir vali atandı. Berlin'in çizdiği hat yeniden haritada.",
+     "alt": false
+    },
+    {
+     "label": "Vilayeti Bulgar prensine bırakın, karşılığında Balkan geçitlerindeki garnizonu tutun.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -5
+      },
+      {
+       "t": "res",
+       "id": "para",
+       "d": 2
+      },
+      {
+       "t": "world",
+       "id": "dogu_rumeli",
+       "v": "bulgar"
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "BU",
+       "own": false
+      }
+     ],
+     "outcome": "Prens Aleksandr \"genel vali\" sanını aldı; Osmanlı taburları geçitlerde kaldı.",
      "alt": false
     }
    ]
   },
   {
-   "id": "muhtar_misir",
+   "id": "dogu_rumeli_geri",
+   "file": "GD 1885",
+   "line": 41,
+   "date": {
+    "y": 1885,
+    "m": 10,
+    "d": 1
+   },
+   "title": "Geçitlerde çamur",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "BU",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "cmp",
+      "cmp": "<",
+      "left": [
+       [
+        1,
+        "harbiye"
+       ]
+      ],
+      "right": 50
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "and",
+       "args": [
+        {
+         "op": "state",
+         "key": "ayastefanos",
+         "eq": true,
+         "val": "ege"
+        },
+        {
+         "op": "cmp",
+         "cmp": ">=",
+         "left": [
+          [
+           1,
+           "harbiye"
+          ]
+         ],
+         "right": 40
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "cond_src": "Harbiye < 50 & !(ayastefanos = ege & Harbiye >= 40)",
+   "slot": null,
+   "thread": "dogu_rumeli",
+   "place": "filibe",
+   "text": [
+    "Efendimiz, taburlar Balkan geçitlerine vardığında Bulgar milisi oradaydı. İkmal kolları çamurda kaldı; Büyük Devletlerin elçileri Babıâli'ye birer birer gelip itidal istedi."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Ordu yola çıktı ama varamadı, Efendimiz."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Bulgaristan"
+   ],
+   "options": [
+    {
+     "label": "Taburları geri çekin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -2
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 2
+      },
+      {
+       "t": "world",
+       "id": "dogu_rumeli",
+       "v": "bulgar"
+      },
+      {
+       "t": "prov",
+       "id": "dogu_rumeli",
+       "v": "BU",
+       "own": false
+      }
+     ],
+     "outcome": "Taburlar Edirne'ye döndü. Doğu Rumeli fiilen Bulgaristan'ın.",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "misir_1886_ortak",
    "file": "GD 1886",
    "line": 8,
+   "date": {
+    "y": 1886,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Kahire'de iki bayrak",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif"
+   ],
+   "nation": "MI",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "or",
+    "args": [
+     {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "ortak"
+     },
+     {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "osmanli"
+     }
+    ]
+   },
+   "cond_src": "misir = ortak | misir = osmanli",
+   "slot": "misir_1886",
+   "thread": "misir",
+   "place": "kahire",
+   "text": [
+    {
+     "cond": null,
+     "parts": [
+      "Efendimiz, Gazi Ahmed Muhtar Paşa Kahire'ye vardı; ama bu kez bir İngiliz işgal komutanının değil, ",
+      {
+       "cond": {
+        "op": "state",
+        "key": "misir",
+        "eq": true,
+        "val": "osmanli"
+       },
+       "a": "kendi taburlarımızın",
+       "b": "Osmanlı taburları ile İngiliz müfettişlerinin"
+      },
+      " şehrine. Güneyde Sudan'da bir Mehdi ayaklanması Hartum'u aldı; İngilizler Mısır askerini Vadi-i Halfa'ya çekmeyi öneriyor. Muhtar Paşa, Sudan'ın Mısır'ın mütemmim cüzü olduğunu, Nil'in kaynağının denetim altında tutulması gerektiğini söylüyor. Bu kez sözünün arkasında asker var."
+     ]
+    }
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Sudan'a gidecek taburlar Kahire'den çıkarsa, Kahire'yi kim tutar, Efendimiz?"
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Mısır'ın vergisi bize dönüyorsa, Sudan'ın masrafını da o vergi karşılasın."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Gazi Ahmed Muhtar Paşa · Akyıldız, [i]Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi[/i], p. 439 · [i]Türk kaynağı[/i]"
+   ],
+   "options": [
+    {
+     "label": "Taburları Sudan'a gönderin, Nil'i tutun.",
+     "cond": {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "harbiye"
+       ]
+      ],
+      "right": 40
+     },
+     "lock": "Harbiye ≥ 40 gerekir.",
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -5
+      },
+      {
+       "t": "res",
+       "id": "para",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": 4
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 2
+      }
+     ],
+     "outcome": "Osmanlı taburları Nil boyunca güneye yürüdü; Vadi-i Halfa'nın ötesinde bir hat tutuldu.",
+     "alt": false
+    },
+    {
+     "label": "Sudan'ı Mehdi'ye bırakın, Mısır'ı koruyun.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": -2
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -2
+      }
+     ],
+     "outcome": "Güney hattı çekildi. Kahire'de bayrak yerinde; Hartum başkasının.",
+     "alt": false
+    }
+   ],
+   "slot_rank": 0
+  },
+  {
+   "id": "muhtar_misir",
+   "file": "GD 1886",
+   "line": 18,
    "date": {
     "y": 1886,
     "m": 1,
@@ -9608,9 +12642,9 @@
    "ending": null,
    "cond": null,
    "cond_src": null,
-   "slot": null,
-   "thread": null,
-   "place": null,
+   "slot": "misir_1886",
+   "thread": "misir",
+   "place": "kahire",
    "text": [
     "Efendimiz, Gazi Ahmed Muhtar Paşa Mısır'a fevkalade komiser olarak gitti; İngiliz komiserle birlikte icra-yı vazifeye başladı. İlk işi bir itiraz oldu: İngilizler, Mısır askerini Vadi-i Halfa'ya, kendi askerlerini Asvan'a çekmeyi öneriyor — Sudan'ı fiilen terk etmek demek bu. Muhtar Paşa, Sudan'ın Mısır'ın mütemmim cüzü olduğunu, Nil'in kaynağının denetim altında tutulması gerektiğini söyleyerek karşı çıktı."
    ],
@@ -9676,12 +12710,13 @@
      "outcome": "Sudan fiilen bırakıldı; birkaç yıl sonra oradaki isyan (Mehdi hareketi) hiç Osmanlı sesine muhtaç kalmayacak.",
      "alt": false
     }
-   ]
+   ],
+   "slot_rank": 1
   },
   {
    "id": "halic_teftisi_1886",
    "file": "GD 1886",
-   "line": 30,
+   "line": 44,
    "date": {
     "y": 1886,
     "m": 1,
@@ -9789,13 +12824,13 @@
   {
    "id": "butce_1886",
    "file": "GD 1886",
-   "line": 18,
+   "line": 28,
    "date": {
     "y": 1886,
     "m": 2,
     "d": 1
    },
-   "title": "Bütçe: Mısır'ı kaybettikten sonra",
+   "title": "Bütçe: Kahire'nin hesabı",
    "kind": "zorunlu",
    "tags": [],
    "nation": "OS",
@@ -9809,18 +12844,69 @@
    "thread": null,
    "place": null,
    "text": [
-    "Efendimiz, Mısır'ın gelirinden artık pek bir şey kalmıyor hazineye; Muhtar Paşa'nın Kahire'deki itirazı masraf istiyor, doğu vilayetlerinde huzursuzluk sürüyor. Maliye Nazırı yine dört kapıdan birini seçmenizi bekliyor."
+    {
+     "cond": {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "ingiliz"
+     },
+     "parts": [
+      "Efendimiz, Mısır'ın gelirinden artık pek bir şey kalmıyor hazineye; Muhtar Paşa'nın Kahire'deki itirazı masraf istiyor, doğu vilayetlerinde huzursuzluk sürüyor. Maliye Nazırı yine dört kapıdan birini seçmenizi bekliyor."
+     ]
+    },
+    {
+     "cond": {
+      "op": "state",
+      "key": "misir",
+      "eq": false,
+      "val": "ingiliz"
+     },
+     "parts": [
+      "Efendimiz, Mısır'ın vergisi yeniden İstanbul'a akıyor, ama Kahire'deki taburların masrafı da ondan ödeniyor. Doğu vilayetlerinde huzursuzluk sürüyor. Maliye Nazırı yine dört kapıdan birini seçmenizi bekliyor."
+     ]
+    }
    ],
    "advice": [
     {
      "seat": "maliye",
-     "cond": null,
+     "cond": {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "ingiliz"
+     },
      "text": "Mısır'ın vergisi artık bize değil, Kahire'deki İngiliz kasasına gidiyor, efendimiz. Kalanla idare edeceğiz."
     },
     {
+     "seat": "maliye",
+     "cond": {
+      "op": "state",
+      "key": "misir",
+      "eq": false,
+      "val": "ingiliz"
+     },
+     "text": "Kahire'nin vergisi geliyor, efendimiz; ama taburların ekmeği de oradan çıkıyor."
+    },
+    {
      "seat": "harbiye",
-     "cond": null,
+     "cond": {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "ingiliz"
+     },
      "text": "Ordu Mısır'ı göremedi bile, efendimiz; hiç değilse kendi kışlasını onarsın."
+    },
+    {
+     "seat": "harbiye",
+     "cond": {
+      "op": "state",
+      "key": "misir",
+      "eq": false,
+      "val": "ingiliz"
+     },
+     "text": "Kahire'deki taburlar yıprandı, efendimiz; nöbet değiştirmek gerek."
     },
     {
      "seat": "bahriye",
@@ -10032,6 +13118,126 @@
      ],
      "outcome": "Hınçak örgütlenmesini sürdürdü; birkaç yıl içinde doğu vilayetlerinde ilk eylemlerini yapacak.",
      "alt": false
+    }
+   ]
+  },
+  {
+   "id": "wolff_1887",
+   "file": "GD 1887",
+   "line": 18,
+   "date": {
+    "y": 1887,
+    "m": 5,
+    "d": 1
+   },
+   "title": "Drummond Wolff Sözleşmesi",
+   "kind": "zorunlu",
+   "tags": [],
+   "nation": "IN",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "state",
+    "key": "misir",
+    "eq": true,
+    "val": "ingiliz"
+   },
+   "cond_src": "misir = ingiliz",
+   "slot": null,
+   "thread": "misir",
+   "place": "kahire",
+   "text": [
+    "Efendimiz, İngiliz murahhası Sir Drummond Wolff ile iki yıldır süren müzakere bir sözleşmeye bağlandı. İngiliz askeri üç yıl içinde Mısır'dan çekilecek. Ama beşinci madde bir kapı açık bırakıyor: Mısır'da iç karışıklık ya da dış tehlike çıkarsa İngiltere geri dönebilecek. 22 Mayıs'ta teati edilen notaya göre, Akdeniz'e sahili olan büyük devletlerden biri sözleşmeyi kabul etmezse, bu da bir \"dış tehlike\" sayılacak.",
+    "Fransa ile Rusya itiraz ediyor; Almanya, İtalya ve Avusturya'nın tercümanları ise birbiri ardınca Mabeyn'e gelip tasdiki tavsiye ediyor. Kraliçe Viktorya'nın tasdik ettiği nüsha İstanbul'da. Lord Salisbury mühleti uzatmayacağını, Wolff'un gideceğini bildirdi."
+   ],
+   "advice": [
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Üç yıl sonra Mısır'ın vergisi yeniden bizimdir, Efendimiz. Beşinci madde ise bir gün bizim aleyhimize okunur."
+    },
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Rusya ile Fransa'yı kızdırırsak Boğaz'da ve Suriye'de bedelini öderiz."
+    }
+   ],
+   "sources": [
+    "Akyıldız, [i]Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi[/i], p. 445 · p. 446 · p. 449 · p. 450 · p. 451 · [i]Türk kaynağı[/i] · British occupation of Egypt (1882)",
+    "“Mısır'dan İngiliz asakirinin geri alınması hususunda mukavelede beyan edilen üç senenin inkızasında”"
+   ],
+   "options": [
+    {
+     "label": "Tasdik etmeyin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 2
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 2
+      }
+     ],
+     "outcome": "Wolff İstanbul'dan ayrıldı. Rusya ile Fransa memnun; İngiliz askeri Mısır'da kaldı ve bir daha tahliyeden söz edilmedi.",
+     "alt": false
+    },
+    {
+     "label": "Beşinci maddenin değiştirilmesini isteyin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 1
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 1
+      }
+     ],
+     "outcome": "15 Haziran'da İngiliz sefiri ile Wolff Mabeyn'e çağrıldı: Mısır'da bir karışıklık çıkarsa önce Osmanlı askeri gidecek, İngiltere'ye ancak sonra başvurulacaktı. Londra reddetti; Wolff yine gitti.",
+     "alt": false
+    },
+    {
+     "label": "Tasdik edin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -5
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": -2
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "tahliye"
+      },
+      {
+       "t": "queue",
+       "id": "misir_tahliye",
+       "delay": 36
+      }
+     ],
+     "outcome": "Sözleşme tasdik edildi. Petersburg'dan ve Paris'ten sert notalar geldi; ama saat işliyor: üç yıl sonra İngiliz askeri Mısır'dan çekilecek.",
+     "alt": true
     }
    ]
   },
@@ -10673,6 +13879,139 @@
    ]
   },
   {
+   "id": "misir_tahliye",
+   "file": "GD 1887",
+   "line": 32,
+   "date": {
+    "y": 1890,
+    "m": 6,
+    "d": 1
+   },
+   "title": "İngiliz askeri Mısır'dan çekiliyor",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "MI",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "state",
+    "key": "misir",
+    "eq": true,
+    "val": "tahliye"
+   },
+   "cond_src": "misir = tahliye",
+   "slot": null,
+   "thread": "misir",
+   "place": "kahire",
+   "text": [
+    "Efendimiz, Drummond Wolff Sözleşmesi'nin üç yılı doldu. İngiliz alayları İskenderiye'de vapurlara biniyor. Hıdiv, Mısır ordusunun düzenlenmesi için İstanbul'dan subay istiyor; sözleşme, Mısır ordusu için başka vilayetlerden asker yazılmasına ve Osmanlı subaylarının atanmasına izin veriyordu. Beşinci madde ise hâlâ yürürlükte."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Subayları verelim, Efendimiz; Mısır ordusu bizim terbiyemizle yetişsin."
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Kahire'nin vergisi yeniden gelecek. Ama bir karışıklık çıkarsa İngiliz yine gelir."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Sözleşmenin ordu maddesi: Akyıldız, [i]Osmanlı Arap Coğrafyası ve Avrupa Emperyalizmi[/i], p. 439 · [i]Türk kaynağı[/i]"
+   ],
+   "options": [
+    {
+     "label": "Osmanlı subaylarıyla Mısır ordusunu düzenleyin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -3
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": 4
+      },
+      {
+       "t": "res",
+       "id": "para",
+       "d": 4
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "hidiv"
+      },
+      {
+       "t": "prov",
+       "id": "misir",
+       "v": "MI",
+       "own": false
+      },
+      {
+       "t": "queue",
+       "id": "misir_geri_donus",
+       "delay": 24
+      }
+     ],
+     "outcome": "Kahire'deki kışlalarda Osmanlı subayları talim yaptırıyor. Mısır yeniden hıdivin ve padişahın.",
+     "alt": false
+    },
+    {
+     "label": "Hıdivin yanına iki tabur Türk askeri bırakın.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -2
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": 2
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 3
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "hidiv"
+      },
+      {
+       "t": "prov",
+       "id": "misir",
+       "v": "MI",
+       "own": false
+      },
+      {
+       "t": "queue",
+       "id": "misir_geri_donus",
+       "delay": 24
+      }
+     ],
+     "outcome": "İki tabur Kahire'de kaldı; İngiliz sefiri bunu sözleşmenin ruhuna aykırı buldu, ama itiraz etmedi.",
+     "alt": false
+    }
+   ]
+  },
+  {
    "id": "k_hamidiye",
    "file": "GD 02 Sistemler",
    "line": 286,
@@ -10799,7 +14138,7 @@
   {
    "id": "m_kurt",
    "file": "GD 02 Sistemler",
-   "line": 384,
+   "line": 399,
    "date": {
     "y": 1891,
     "m": 1,
@@ -11210,6 +14549,155 @@
       }
      ],
      "outcome": "Doğu vilayetlerinde asayiş eskisi gibi zayıf kaldı; ne aşiret gücü büyüdü, ne devletin eli uzandı.",
+     "alt": false
+    }
+   ]
+  },
+  {
+   "id": "misir_geri_donus",
+   "file": "GD 1887",
+   "line": 42,
+   "date": {
+    "y": 1892,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Beşinci madde",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "IN",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "state",
+      "key": "misir",
+      "eq": true,
+      "val": "hidiv"
+     },
+     {
+      "op": "or",
+      "args": [
+       {
+        "op": "cmp",
+        "cmp": ">=",
+        "left": [
+         [
+          1,
+          "avrupa_baskisi"
+         ]
+        ],
+        "right": 55
+       },
+       {
+        "op": "cmp",
+        "cmp": ">=",
+        "left": [
+         [
+          1,
+          "araplar"
+         ]
+        ],
+        "right": 60
+       }
+      ]
+     }
+    ]
+   },
+   "cond_src": "misir = hidiv & (avrupa_baskisi >= 55 | Araplar >= 60)",
+   "slot": null,
+   "thread": "misir",
+   "place": "kahire",
+   "text": [
+    "Efendimiz, İskenderiye'de bir çarşı kavgası iki gün süren bir ayaklanmaya döndü; birkaç Avrupalı öldürüldü. Londra, Drummond Wolff Sözleşmesi'nin beşinci maddesini hatırlattı: Mısır'da iç karışıklık var; İngiliz donanması İskenderiye önünde."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Önce biz gidelim, Efendimiz; madde de bunu istiyordu."
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Bir sefer daha, bir borç daha."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih."
+   ],
+   "options": [
+    {
+     "label": "Asayişi Osmanlı taburlarıyla sağlayın.",
+     "cond": {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "harbiye"
+       ]
+      ],
+      "right": 45
+     },
+     "lock": "Harbiye ≥ 45 gerekir.",
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -5
+      },
+      {
+       "t": "res",
+       "id": "para",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 4
+      }
+     ],
+     "outcome": "Taburlar İngiliz donanmasından önce karaya çıktı; ayaklanma bastırıldı. İngiliz amirali demir aldı.",
+     "alt": false
+    },
+    {
+     "label": "İngiliz'in dönüşünü kabul edin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -4
+      },
+      {
+       "t": "world",
+       "id": "misir",
+       "v": "ingiliz"
+      },
+      {
+       "t": "prov",
+       "id": "misir",
+       "v": "IN",
+       "own": false
+      }
+     ],
+     "outcome": "İngiliz alayları yeniden İskenderiye'ye çıktı. Bu kez tahliyeden hiç söz edilmeyecek.",
      "alt": false
     }
    ]
@@ -12668,7 +16156,7 @@
   {
    "id": "mizanci_af",
    "file": "GD 1897",
-   "line": 50,
+   "line": 52,
    "date": {
     "y": 1897,
     "m": 1,
@@ -12955,7 +16443,7 @@
    "cond": null,
    "cond_src": null,
    "slot": null,
-   "thread": null,
+   "thread": "girit",
    "place": null,
    "text": [
     "Efendimiz, Girit meselesi savaşa dönüştü. Serdar Ethem Paşa'nın ordusu Farsala, Velestin ve Dömeke'de art arda zafer kazandı; Alman gözlemciye göre bu küçük ordu bile Moltke'nin ilkelerine göre davranabiliyordu. Ama birlik kumandanlarının emirleri uygulamadaki gecikmeleri, savaşın tam bir zafere dönüşmesini engelledi."
@@ -13002,13 +16490,13 @@
        "d": 10
       },
       {
-       "t": "res",
-       "id": "araplar",
-       "d": 0
+       "t": "queue",
+       "id": "teselya_1897",
+       "delay": 1
       }
      ],
-     "outcome": "Ordu Dömeke'nin ötesine geçti; ama Büyük Devletler araya girip ateşkes dayattı. Sahadaki zafer, masada küçük bir sınır düzeltmesine indirgendi.",
-     "alt": false
+     "outcome": "Ordu Dömeke'nin ötesine geçti ve Lamia yolunda. Büyük Devletler araya girip ateşkes dayatıyor; ama bu kez masaya, Atina'ya bir günlük yolda duran bir orduyla oturuyorsunuz.",
+     "alt": true
     },
     {
      "label": "Ateşkesi kabul edin, kazanımı diplomasiyle koruyun.",
@@ -13064,6 +16552,149 @@
    ]
   },
   {
+   "id": "teselya_1897",
+   "file": "GD 1897",
+   "line": 62,
+   "date": {
+    "y": 1897,
+    "m": 6,
+    "d": 1
+   },
+   "title": "Teselya masada",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif",
+    "zincir"
+   ],
+   "nation": "YU",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": null,
+   "cond_src": null,
+   "slot": null,
+   "thread": "girit",
+   "place": "girit",
+   "text": [
+    "Efendimiz, ateşkes masasında ordunuzun durduğu yer bir pazarlık kozu. Büyük Devletler Girit'e özerklik istiyor; Yunanistan ise Teselya'nın boşaltılmasını. On altı yıl önce Berlin'in çizgisiyle bırakılan Teselya'da şimdi Osmanlı taburları var."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Teselya'yı tutarsak Yunanistan bir daha Girit için harbe girmeye cesaret edemez."
+    },
+    {
+     "seat": "bahriye",
+     "cond": null,
+     "text": "Girit'i tutmak denizde güç ister, Efendimiz. Teselya'yı tutmak karada."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Greco-Turkish War of 1897 · Girit · Bardakçı, [i]Enver[/i], p. 64 · [i]Türk kaynağı[/i]"
+   ],
+   "options": [
+    {
+     "label": "Teselya'yı geri isteyin, Girit'e özerkliği kabul edin.",
+     "cond": {
+      "op": "cmp",
+      "cmp": "<=",
+      "left": [
+       [
+        1,
+        "avrupa_baskisi"
+       ]
+      ],
+      "right": 70
+     },
+     "lock": "Yeterli nüfuzunuz yok.",
+     "hint": "Büyük Devletlerin sabrı tükenmemiş olmalı",
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 6
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 4
+      },
+      {
+       "t": "prov",
+       "id": "teselya",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "world",
+       "id": "girit",
+       "v": "ozerk"
+      },
+      {
+       "t": "prov",
+       "id": "girit",
+       "v": "YU",
+       "own": false
+      }
+     ],
+     "outcome": "Teselya yeniden Osmanlı. Girit'te bir Hıristiyan genel vali işbaşına geliyor.",
+     "alt": false
+    },
+    {
+     "label": "Teselya'dan çekilin, karşılığında Girit'te egemenliğinizi kabul ettirin.",
+     "cond": {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "bahriye"
+       ]
+      ],
+      "right": 40
+     },
+     "lock": "Bahriye ≥ 40 gerekir.",
+     "hint": "Adayı denizden tutabilecek bir donanma gerekir",
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 4
+      },
+      {
+       "t": "res",
+       "id": "bahriye",
+       "d": -3
+      },
+      {
+       "t": "world",
+       "id": "girit",
+       "v": "korundu"
+      }
+     ],
+     "outcome": "Taburlar Teselya'dan çekildi; Girit'teki Osmanlı valisi yerinde kaldı. Adanın Hıristiyanları bunu kabullenmedi.",
+     "alt": false
+    },
+    {
+     "label": "Büyük Devletlerin hattını kabul edin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -2
+      }
+     ],
+     "outcome": "Küçük bir sınır düzeltmesi ve bir tazminat. Girit'in dosyası Büyük Devletlerin masasında.",
+     "alt": false
+    }
+   ]
+  },
+  {
    "id": "girit_ozerklik",
    "file": "GD 1897",
    "line": 40,
@@ -13080,11 +16711,16 @@
    "rank": "170",
    "until": null,
    "ending": null,
-   "cond": null,
-   "cond_src": null,
+   "cond": {
+    "op": "state",
+    "key": "girit",
+    "eq": true,
+    "val": "osmanli"
+   },
+   "cond_src": "girit = osmanli",
    "slot": null,
-   "thread": null,
-   "place": null,
+   "thread": "girit",
+   "place": "girit",
    "text": [
     "Efendimiz, savaşı sahada kazanmanıza rağmen, Büyük Devletlerin baskısıyla Girit'e özerklik verildi. Ada, imparatorluğun en büyük derdi olmaya 1908'e kadar devam edecek."
    ],
@@ -13112,6 +16748,17 @@
      "hint": null,
      "effects": [
       {
+       "t": "world",
+       "id": "girit",
+       "v": "ozerk"
+      },
+      {
+       "t": "prov",
+       "id": "girit",
+       "v": "YU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "avrupa_baskisi",
        "d": -4
@@ -13131,6 +16778,17 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "world",
+       "id": "girit",
+       "v": "ozerk"
+      },
+      {
+       "t": "prov",
+       "id": "girit",
+       "v": "YU",
+       "own": false
+      },
       {
        "t": "res",
        "id": "avrupa_baskisi",
@@ -16866,7 +20524,7 @@
       }
      ],
      "outcome": "Sadık taburlara emir gitti. Rumeli'nin telgrafhaneleri kapatıldı; Selanik'te ve Manastır'da kapılar çalınıyor.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -16981,7 +20639,7 @@
   {
    "id": "hamid_tevkifat",
    "file": "GD 1908",
-   "line": 152,
+   "line": 155,
    "date": {
     "y": 1908,
     "m": 8,
@@ -17322,7 +20980,7 @@
   {
    "id": "hamid_avrupa_1908",
    "file": "GD 1908",
-   "line": 163,
+   "line": 166,
    "date": {
     "y": 1908,
     "m": 9,
@@ -17463,7 +21121,43 @@
    "thread": null,
    "place": null,
    "text": [
-    "Efendimiz, Avusturya Bosna-Hersek'i kendi topraklarına kattı. Berlin Antlaşması'nın 25. maddesiyle orada askerini ve idaresini bulunduruyordu, ama eyaletler ismen hâlâ Osmanlı toprağıydı. Meşrutiyetten sonra orada da seçim yapılacağından, Bosna mebuslarının Meclis-i Mebusan'a gideceğinden çekindi. Felaket bununla bitmiyor: aynı gün [url=codex:Bulgaristan]Bulgaristan[/url] bağımsızlığını ilan etti, [url=codex:Girit]Girit[/url] de Yunanistan'a katılma kararını alıyor.",
+    {
+     "cond": null,
+     "parts": [
+      "Efendimiz, Avusturya Bosna-Hersek'i kendi topraklarına kattı. Berlin Antlaşması'nın 25. maddesiyle orada askerini ve idaresini bulunduruyordu, ama eyaletler ismen hâlâ Osmanlı toprağıydı. Meşrutiyetten sonra orada da seçim yapılacağından, Bosna mebuslarının Meclis-i Mebusan'a gideceğinden çekindi. Felaket bununla bitmiyor: aynı gün [url=codex:Bulgaristan]Bulgaristan[/url] bağımsızlığını ilan etti",
+      {
+       "cond": {
+        "op": "state",
+        "key": "dogu_rumeli",
+        "eq": true,
+        "val": "osmanli"
+       },
+       "a": "; Filibe'deki Osmanlı valisi ise yerinde, Doğu Rumeli'nin taburları geçitlerde",
+       "b": ""
+      },
+      {
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": true,
+        "val": "ozerk"
+       },
+       "a": ", [url=codex:Girit]Girit[/url] de Yunanistan'a katılma kararını alıyor",
+       "b": ""
+      },
+      {
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": true,
+        "val": "korundu"
+       },
+       "a": "; Girit'te ise Osmanlı valisi 1897'den beri yerinde ve adanın meclisi toplanamıyor",
+       "b": ""
+      },
+      "."
+     ]
+    },
     "Haberler 6 Ekim gazetelerinde çıkar çıkmaz İstanbul'da kalabalıklar İngiliz sefaretinin önünde gösteri yaptı, Borsa'da tahvil fiyatları düştü. İzmir'de bir Boykotaj Cemiyeti kuruldu: Avusturya şekeri yenmesin, Avusturya elbisesi giyilmesin."
    ],
    "advice": [
@@ -17490,6 +21184,51 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "bosna",
+       "v": "AV",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "tuna",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "dogu_rumeli",
+        "eq": true,
+        "val": "bulgar"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "dogu_rumeli",
+         "v": "BU",
+         "own": true
+        }
+       ]
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": true,
+        "val": "ozerk"
+       },
+       "then": [
+        {
+         "t": "world",
+         "id": "girit",
+         "v": "yunan"
+        }
+       ]
+      },
+      {
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 3
@@ -17514,6 +21253,51 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "bosna",
+       "v": "AV",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "tuna",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "dogu_rumeli",
+        "eq": true,
+        "val": "bulgar"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "dogu_rumeli",
+         "v": "BU",
+         "own": true
+        }
+       ]
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": true,
+        "val": "ozerk"
+       },
+       "then": [
+        {
+         "t": "world",
+         "id": "girit",
+         "v": "yunan"
+        }
+       ]
+      },
       {
        "t": "res",
        "id": "avrupa_baskisi",
@@ -17545,6 +21329,51 @@
      "hint": "Harbe hazır bir ordu gerekir.",
      "effects": [
       {
+       "t": "prov",
+       "id": "bosna",
+       "v": "AV",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "tuna",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "dogu_rumeli",
+        "eq": true,
+        "val": "bulgar"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "dogu_rumeli",
+         "v": "BU",
+         "own": true
+        }
+       ]
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": true,
+        "val": "ozerk"
+       },
+       "then": [
+        {
+         "t": "world",
+         "id": "girit",
+         "v": "yunan"
+        }
+       ]
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -6
@@ -17573,7 +21402,7 @@
   {
    "id": "hamid_bosna_1908",
    "file": "GD 1908",
-   "line": 174,
+   "line": 177,
    "date": {
     "y": 1908,
     "m": 10,
@@ -17598,7 +21427,32 @@
    "thread": null,
    "place": null,
    "text": [
-    "Alternatif tarih. Efendimiz, Kanun-ı Esasi ilan edilmedi, Bosna'da seçim yapılmayacak; ama Viyana ve Sofya, Rumeli'deki kanlı bastırmayı ve Babıâli'nin Avrupa'daki yalnızlığını fırsat bildi. Darbe tarihteki gününde geldi: Avusturya, Berlin Antlaşması'ndan beri askerini ve idaresini bulundurduğu ama ismen Osmanlı toprağı sayılan Bosna-Hersek'i kendi topraklarına kattı; [url=codex:Bulgaristan]Bulgaristan[/url] bağımsızlığını ilan etti. [url=codex:Girit]Girit[/url] de Yunanistan'a katılma kararını alıyor."
+    {
+     "cond": null,
+     "parts": [
+      "Alternatif tarih. Efendimiz, Kanun-ı Esasi ilan edilmedi, Bosna'da seçim yapılmayacak; ama Viyana ve Sofya, Rumeli'deki kanlı bastırmayı ve Babıâli'nin Avrupa'daki yalnızlığını fırsat bildi. Darbe tarihteki gününde geldi: Avusturya, Berlin Antlaşması'ndan beri askerini ve idaresini bulundurduğu ama ismen Osmanlı toprağı sayılan Bosna-Hersek'i kendi topraklarına kattı; [url=codex:Bulgaristan]Bulgaristan[/url] bağımsızlığını ilan etti.",
+      {
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": true,
+        "val": "ozerk"
+       },
+       "a": "[url=codex:Girit]Girit[/url] de Yunanistan'a katılma kararını alıyor.",
+       "b": ""
+      },
+      {
+       "cond": {
+        "op": "state",
+        "key": "dogu_rumeli",
+        "eq": true,
+        "val": "osmanli"
+       },
+       "a": "Doğu Rumeli'deki taburlar ise yerinde.",
+       "b": ""
+      }
+     ]
+    }
    ],
    "advice": [
     {
@@ -17622,6 +21476,51 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "bosna",
+       "v": "AV",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "tuna",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "dogu_rumeli",
+        "eq": true,
+        "val": "bulgar"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "dogu_rumeli",
+         "v": "BU",
+         "own": true
+        }
+       ]
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": true,
+        "val": "ozerk"
+       },
+       "then": [
+        {
+         "t": "world",
+         "id": "girit",
+         "v": "yunan"
+        }
+       ]
+      },
       {
        "t": "res",
        "id": "hakimiyet",
@@ -17653,6 +21552,51 @@
      "hint": "Subaysız taburlar ancak güçlü bir orduyla yürür.",
      "effects": [
       {
+       "t": "prov",
+       "id": "bosna",
+       "v": "AV",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "tuna",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "dogu_rumeli",
+        "eq": true,
+        "val": "bulgar"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "dogu_rumeli",
+         "v": "BU",
+         "own": true
+        }
+       ]
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": true,
+        "val": "ozerk"
+       },
+       "then": [
+        {
+         "t": "world",
+         "id": "girit",
+         "v": "yunan"
+        }
+       ]
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -6
@@ -17683,6 +21627,51 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "bosna",
+       "v": "AV",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "tuna",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "dogu_rumeli",
+        "eq": true,
+        "val": "bulgar"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "dogu_rumeli",
+         "v": "BU",
+         "own": true
+        }
+       ]
+      },
+      {
+       "t": "if",
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": true,
+        "val": "ozerk"
+       },
+       "then": [
+        {
+         "t": "world",
+         "id": "girit",
+         "v": "yunan"
+        }
+       ]
+      },
+      {
        "t": "res",
        "id": "avrupa_baskisi",
        "d": -4
@@ -17701,7 +21690,7 @@
   {
    "id": "hamid_jurnal_1908",
    "file": "GD 1908",
-   "line": 185,
+   "line": 191,
    "date": {
     "y": 1908,
     "m": 11,
@@ -17834,7 +21823,7 @@
   {
    "id": "serif_atama",
    "file": "GD 1908",
-   "line": 129,
+   "line": 132,
    "date": {
     "y": 1908,
     "m": 11,
@@ -17918,7 +21907,7 @@
   {
    "id": "meclis_1908",
    "file": "GD 1908",
-   "line": 139,
+   "line": 142,
    "date": {
     "y": 1908,
     "m": 12,
@@ -19686,7 +23675,7 @@
   {
    "id": "m_dogu",
    "file": "GD 02 Sistemler",
-   "line": 389,
+   "line": 404,
    "date": {
     "y": 1910,
     "m": 1,
@@ -20008,7 +23997,23 @@
    "thread": null,
    "place": null,
    "text": [
-    "Efendimiz, ihtilal bastırıldı ama hazine boş. Maliye Nazırı maaş günü için yine bankalara, Reji'ye, Düyun-u Umumiye'ye avans dilenecek. İstanbul'daki memurların maaşı taşradakinden düzenli ödeniyor; taşrada ise asker de, memur da aylarca bekliyor.",
+    {
+     "cond": null,
+     "parts": [
+      "Efendimiz, ihtilal bastırıldı ama hazine boş. Maliye Nazırı maaş günü için yine bankalara, ",
+      {
+       "cond": {
+        "op": "state",
+        "key": "reji",
+        "eq": true,
+        "val": "milli"
+       },
+       "a": "Milli Tütün İdaresi'nin kasasına",
+       "b": "Reji'ye"
+      },
+      ", Düyun-u Umumiye'ye avans dilenecek. İstanbul'daki memurların maaşı taşradakinden düzenli ödeniyor; taşrada ise asker de, memur da aylarca bekliyor."
+     ]
+    },
     "Nazır, bu yıl kimin bekleyeceğini soruyor."
    ],
    "advice": [
@@ -23293,7 +27298,34 @@
    "thread": null,
    "place": null,
    "text": [
-    "Beyefendi, büyük devletler Edirne'yi dışarıda bırakan Midye–Enez sınırında ısrar etti; 1 Nisan'da kabul edildi. Bugün Londra'da barış imzalanıyor. İmparatorluk bütün Balkan topraklarını, Girit'i ve Ege adalarını kaybediyor. Adalar harp boyunca gitti: tek bir Yunan gemisi, Averof, donanmayı Marmara'ya kapatmıştı.",
+    {
+     "cond": null,
+     "parts": [
+      "Beyefendi, büyük devletler Edirne'yi dışarıda bırakan Midye–Enez sınırında ısrar etti; 1 Nisan'da kabul edildi. Bugün Londra'da barış imzalanıyor. İmparatorluk bütün Balkan topraklarını",
+      {
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": false,
+        "val": "korundu"
+       },
+       "a": ", Girit'i",
+       "b": ""
+      },
+      " ve Ege adalarını kaybediyor.",
+      {
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": true,
+        "val": "korundu"
+       },
+       "a": "Girit, 1897'de Teselya'dan çekilmenin bedeli olarak tutulan ada, masada bir kez daha Osmanlı kalıyor; ama Yunan donanması etrafında.",
+       "b": ""
+      },
+      " Adalar harp boyunca gitti: tek bir Yunan gemisi, Averof, donanmayı Marmara'ya kapatmıştı."
+     ]
+    },
     "Tarihte kaynaklar ayrılıyor: Türk tarafında Akşin ve Rus tarafında Troçki'nin editörü 30 Mayıs 1913 der; Iraklı Allawi 9 Haziran der."
    ],
    "advice": [
@@ -23319,6 +27351,34 @@
      "hint": null,
      "effects": [
       {
+       "t": "if",
+       "cond": {
+        "op": "or",
+        "args": [
+         {
+          "op": "state",
+          "key": "girit",
+          "eq": true,
+          "val": "yunan"
+         },
+         {
+          "op": "state",
+          "key": "girit",
+          "eq": true,
+          "val": "ozerk"
+         }
+        ]
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "girit",
+         "v": "YU",
+         "own": true
+        }
+       ]
+      },
+      {
        "t": "res",
        "id": "avrupa_baskisi",
        "d": -5
@@ -23338,6 +27398,34 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "if",
+       "cond": {
+        "op": "or",
+        "args": [
+         {
+          "op": "state",
+          "key": "girit",
+          "eq": true,
+          "val": "yunan"
+         },
+         {
+          "op": "state",
+          "key": "girit",
+          "eq": true,
+          "val": "ozerk"
+         }
+        ]
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "girit",
+         "v": "YU",
+         "own": true
+        }
+       ]
+      },
       {
        "t": "res",
        "id": "avrupa_baskisi",
@@ -23362,7 +27450,7 @@
   {
    "id": "hamid_1913_londra",
    "file": "GD 1913",
-   "line": 117,
+   "line": 118,
    "date": {
     "y": 1913,
     "m": 5,
@@ -23387,7 +27475,23 @@
    "thread": null,
    "place": null,
    "text": [
-    "Efendimiz, Londra'da barış imzalanıyor. İmparatorluk bütün Balkan topraklarını, Girit'i, Ege adalarını ve Edirne'yi kaybediyor. Edirne halkı ağaç kabuğu yiyerek dayandıktan sonra açlıktan teslim oldu; Rumeli'nin Türk köylüleri Anadolu yollarında.",
+    {
+     "cond": null,
+     "parts": [
+      "Efendimiz, Londra'da barış imzalanıyor. İmparatorluk bütün Balkan topraklarını",
+      {
+       "cond": {
+        "op": "state",
+        "key": "girit",
+        "eq": false,
+        "val": "korundu"
+       },
+       "a": ", Girit'i",
+       "b": ""
+      },
+      ", Ege adalarını ve Edirne'yi kaybediyor. Edirne halkı ağaç kabuğu yiyerek dayandıktan sonra açlıktan teslim oldu; Rumeli'nin Türk köylüleri Anadolu yollarında."
+     ]
+    },
     "Saray, bu yenilginin hesabını kime soracağını düşünüyor. Harbiye mekteplerinden çıkmış subaylar ise hesabın saraya sorulması gerektiğini fısıldıyor."
    ],
    "advice": [
@@ -23419,6 +27523,34 @@
      "hint": "Çatalca pazarlıksız tutulduysa",
      "effects": [
       {
+       "t": "if",
+       "cond": {
+        "op": "or",
+        "args": [
+         {
+          "op": "state",
+          "key": "girit",
+          "eq": true,
+          "val": "yunan"
+         },
+         {
+          "op": "state",
+          "key": "girit",
+          "eq": true,
+          "val": "ozerk"
+         }
+        ]
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "girit",
+         "v": "YU",
+         "own": true
+        }
+       ]
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": -6
@@ -23441,6 +27573,34 @@
      "lock": "Yeterli nüfuzunuz yok.",
      "hint": "mütareke ne pahasına olursa olsun istendiyse",
      "effects": [
+      {
+       "t": "if",
+       "cond": {
+        "op": "or",
+        "args": [
+         {
+          "op": "state",
+          "key": "girit",
+          "eq": true,
+          "val": "yunan"
+         },
+         {
+          "op": "state",
+          "key": "girit",
+          "eq": true,
+          "val": "ozerk"
+         }
+        ]
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "girit",
+         "v": "YU",
+         "own": true
+        }
+       ]
+      },
       {
        "t": "res",
        "id": "hakimiyet",
@@ -23467,6 +27627,34 @@
      "hint": null,
      "effects": [
       {
+       "t": "if",
+       "cond": {
+        "op": "or",
+        "args": [
+         {
+          "op": "state",
+          "key": "girit",
+          "eq": true,
+          "val": "yunan"
+         },
+         {
+          "op": "state",
+          "key": "girit",
+          "eq": true,
+          "val": "ozerk"
+         }
+        ]
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "girit",
+         "v": "YU",
+         "own": true
+        }
+       ]
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": 4
@@ -23490,7 +27678,7 @@
   {
    "id": "el_ahd",
    "file": "GD 1913",
-   "line": 51,
+   "line": 52,
    "date": {
     "y": 1913,
     "m": 6,
@@ -23601,7 +27789,7 @@
   {
    "id": "mahmud_sevket_suikast",
    "file": "GD 1913",
-   "line": 62,
+   "line": 63,
    "date": {
     "y": 1913,
     "m": 6,
@@ -23723,7 +27911,7 @@
   {
    "id": "hamid_1913_edirne",
    "file": "GD 1913",
-   "line": 130,
+   "line": 132,
    "date": {
     "y": 1913,
     "m": 7,
@@ -23831,7 +28019,7 @@
   {
    "id": "edirne_geri",
    "file": "GD 1913",
-   "line": 76,
+   "line": 77,
    "date": {
     "y": 1913,
     "m": 7,
@@ -23941,9 +28129,142 @@
    ]
   },
   {
+   "id": "reji_1913",
+   "file": "GD 1913",
+   "line": 156,
+   "date": {
+    "y": 1913,
+    "m": 8,
+    "d": 1
+   },
+   "title": "Reji'nin süresi doluyor",
+   "kind": "zorunlu",
+   "tags": [],
+   "nation": "FR",
+   "image": "res://game/assets/images/1892_08_18_Serveti_Funun_Osmanli_Bankasi_d7ce6e.jpg",
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "or",
+    "args": [
+     {
+      "op": "state",
+      "key": "reji",
+      "eq": true,
+      "val": "fransiz"
+     },
+     {
+      "op": "state",
+      "key": "reji",
+      "eq": true,
+      "val": "ortak"
+     }
+    ]
+   },
+   "cond_src": "reji = fransiz | reji = ortak",
+   "slot": null,
+   "thread": "reji",
+   "place": "galata",
+   "text": [
+    {
+     "cond": null,
+     "parts": [
+      {
+       "cond": {
+        "op": "flag",
+        "name": "yol_ittihat"
+       },
+       "a": "Beyefendi",
+       "b": "Efendimiz"
+      },
+      ", tütün tekelinin otuz yıllık imtiyazı bu yıl sona eriyor. Reji'nin geliri Muharrem Kararnamesi'nden beri Düyun-u Umumiye'ye gidiyor; hükümet eski idare zamanında alacaklıların elinden kurtulamamıştı. Şirket imtiyazın yenilenmesini istiyor; alacaklılar da. Balkan Harbi'nin masrafı hazineyi kurutmuşken bu, yeni bir avans demek."
+     ]
+    }
+   ],
+   "advice": [
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Yenilersek avans gelir. Yenilemezsek şirketin tazminatını ve alacaklıların öfkesini aynı anda öderiz."
+    },
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Kolcuların tüfekleri bir ordu donatır."
+    }
+   ],
+   "sources": [
+    "Goloğlu, [i]Cumhuriyete Doğru[/i], loc. 177 · [i]Türk kaynağı[/i] · Tobacco Régie",
+    "“bu idarenin süresi 1913’te sona erdiği halde, Osmanlı hükümetince yenilenip uzatılmıştır”"
+   ],
+   "options": [
+    {
+     "label": "İmtiyazı yenileyin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": 8
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -3
+      }
+     ],
+     "outcome": "Reji'nin süresi uzatıldı; şirket ilk taksitle bir avans açtı. Tütün yine Galata'nın.",
+     "alt": false
+    },
+    {
+     "label": "İmtiyazı yenilemeyin; tekeli devlete alın.",
+     "cond": {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "para"
+       ]
+      ],
+      "right": 20
+     },
+     "lock": "Para ≥ 20 gerekir.",
+     "hint": "Şirkete tazminat ödenecek",
+     "effects": [
+      {
+       "t": "res",
+       "id": "para",
+       "d": -15
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 10
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 3
+      },
+      {
+       "t": "world",
+       "id": "reji",
+       "v": "milli"
+      }
+     ],
+     "outcome": "Reji'nin tabelası indirildi, yerine Milli Tütün İdaresi yazıldı. Alacaklılar Düyun meclisinde sert bir karar aldı.",
+     "alt": true
+    }
+   ]
+  },
+  {
    "id": "dogu_hatti_2",
    "file": "GD 1913",
-   "line": 89,
+   "line": 90,
    "date": {
     "y": 1913,
     "m": 9,
@@ -24046,7 +28367,7 @@
   {
    "id": "hamid_1913_alman",
    "file": "GD 1913",
-   "line": 140,
+   "line": 142,
    "date": {
     "y": 1913,
     "m": 11,
@@ -24190,7 +28511,7 @@
   {
    "id": "liman_heyeti",
    "file": "GD 1913",
-   "line": 101,
+   "line": 102,
    "date": {
     "y": 1913,
     "m": 12,
@@ -24368,7 +28689,7 @@
   {
    "id": "m_cokus",
    "file": "GD 02 Sistemler",
-   "line": 394,
+   "line": 425,
    "date": {
     "y": 1914,
     "m": 1,
@@ -24696,7 +29017,7 @@
       }
      ],
      "outcome": "Emirlik Şerif'in büyük oğluna geçecek. Cemiyet'in merkezinde halifeliğin Mekke'yi bir aileye bıraktığını söyleyenler var; İngilizlerin Mekke'de söyleyecek bir şeyi kalmadı.",
-     "alt": false
+     "alt": true
     }
    ]
   },
@@ -30745,7 +35066,7 @@
   {
    "id": "k_suriye",
    "file": "GD 02 Sistemler",
-   "line": 321,
+   "line": 331,
    "date": {
     "y": 1916,
     "m": 1,
