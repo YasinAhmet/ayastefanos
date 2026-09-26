@@ -102,6 +102,9 @@ func _run() -> void:
 		p.m["scroll"].scroll_vertical = 2000
 		break
 	await _shot("06_tarihi_event_1877")
+	desk.open_wiki("Siege of Plevne (1877)")
+	await _shot("06b_wiki")
+	desk.wiki.visible = false
 	UIKit.show_sources = false
 	await _close_modals()
 	desk.show_province("tuna")

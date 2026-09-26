@@ -88,6 +88,9 @@ func _run() -> void:
 	for y in [1908, 1914]:
 		desk.jump_to(y, 1)
 		print("debug jump → ", st.year, "-", st.month, " mode ", st.mode)
+	desk.open_wiki("Cemal Paşa")
+	desk.open_wiki("")
+	desk.wiki._go(0)
 	desk.debug_menu()
 	await process_frame
 	st.ending_id = "son3"

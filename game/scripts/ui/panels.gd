@@ -122,6 +122,13 @@ func _nation(code: String) -> String:
 
 
 func codex(entry := "") -> void:
+	if parent.has_method("open_wiki"):
+		parent.open_wiki(entry)
+		return
+	_codex_modal(entry)
+
+
+func _codex_modal(entry := "") -> void:
 	var m := UIKit.modal(parent, Vector2(0.0, 0.84), 560)
 	var body: VBoxContainer = m["body"]
 	if entry != "" and state.codex.has(entry):
@@ -135,7 +142,7 @@ func codex(entry := "") -> void:
 		var back := UIKit.button("Bütün maddeler", UIKit.PANEL, 11)
 		back.pressed.connect(func():
 			m["layer"].queue_free()
-			codex())
+			_codex_modal())
 		body.add_child(back)
 	else:
 		_title(body, "Kaynakça ve sözlük", "Olay metinlerindeki altı çizili adlar buraya açılır. Görseller Wikimedia'dandır (game/assets/images/CREDITS.md); harita sınırları Natural Earth'ten sadeleştirilmiştir. İkisi de kasa kaynağı değildir.")
@@ -149,7 +156,7 @@ func codex(entry := "") -> void:
 			b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 			b.pressed.connect(func():
 				m["layer"].queue_free()
-				codex(k))
+				_codex_modal(k))
 			grid.add_child(b)
 	body.add_child(_close_button(m))
 

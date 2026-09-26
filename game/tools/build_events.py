@@ -124,7 +124,7 @@ def to_bbcode(s, codex_refs=None):
             and os.sep + "Game Design" + os.sep not in path
         if codex_refs is not None and is_lore_note:
             codex_refs.add(note)
-            return f"[url=codex:{note}]{label}[/url]"
+            return f"[url=codex:{note}][color=#8db4e2]{label}[/color][/url]"
         return label
     s = LINK.sub(repl, s)
     s = re.sub(r"\*\*(.+?)\*\*", r"[b]\1[/b]", s)
@@ -528,6 +528,7 @@ def main():
     flags_set, flags_read = defaultdict(list), defaultdict(list)
     queued = defaultdict(list)
     codex_refs = set()
+    wiki_pages = {}
     used_images = {}
 
     def image(where, name):
@@ -573,6 +574,28 @@ def main():
                 etki_src += [seg.partition(":")[2].strip() for seg in FIELD.findall(line0)
                              if seg.strip().startswith("etki:")]
 
+            # ---- wiki pages (GD 06 Sözlük): a Turkish summary of a vault note
+            if "madde" in fields and "id" not in fields:
+                note = fields["madde"]
+                if not FILES.get(note):
+                    err(where, f"madde: no vault note '{note}'")
+                paras, cur, srcs = [], [], []
+                for l in body:
+                    s = l.strip()
+                    if s.startswith(">"):
+                        srcs.append(s[1:].strip().removeprefix("Kaynak:").strip())
+                    elif not s:
+                        if cur:
+                            paras.append(" ".join(cur))
+                            cur = []
+                    else:
+                        cur.append(s)
+                if cur:
+                    paras.append(" ".join(cur))
+                wiki_pages[note] = {"name": header.split("·", 1)[-1].strip(),
+                                    "text": [to_bbcode(x, codex_refs) for x in paras],
+                                    "sources": [src_line(x) for x in srcs]}
+                continue
             # ---- person / nation / ending blocks
             if "kişi" in fields and "id" not in fields:
                 title = header.split("·", 1)[-1].strip()
@@ -963,8 +986,15 @@ def main():
 
     # ---- codex from lore notes' Interesting details
     codex = {}
-    for note in sorted(codex_refs):
+    for note in sorted(codex_refs | set(wiki_pages)):
         codex[note] = codex_entry(note)
+        page = wiki_pages.get(note, {})
+        codex[note].update({"name": page.get("name", note), "text": page.get("text", []),
+                            "sources": page.get("sources", [])})
+    missing_pages = sorted(n for n in codex if not codex[n]["text"])
+    if missing_pages:
+        warn("GD 06", f"{len(missing_pages)} wiki pages without a Türkçe summary: " + ", ".join(missing_pages[:12])
+             + (" …" if len(missing_pages) > 12 else ""))
 
     # ---- write
     os.makedirs(OUT_DATA, exist_ok=True)
@@ -1168,6 +1198,12 @@ def fuzzy(q, page):
     return fuzz.partial_ratio(qn, pn)
 
 
+SIDES = {"Turkish source": "Türk kaynağı", "Russian source": "Rus kaynağı", "German source": "Alman kaynağı",
+         "British source": "İngiliz kaynağı", "French source": "Fransız kaynağı", "American source": "Amerikan kaynağı",
+         "Iraqi source": "Iraklı kaynağı", "Australian source": "Avustralyalı kaynağı", "Austrian source": "Avusturyalı kaynağı",
+         "Irish source": "İrlandalı kaynağı", "Soviet source": "Sovyet kaynağı", "video transcript": "video dökümü"}
+
+
 def codex_entry(note):
     path = FILES.get(note)
     text = open(path, encoding="utf-8").read()
@@ -1178,8 +1214,12 @@ def codex_entry(note):
         for i, line in enumerate(lines):
             s = line.strip()
             if s.startswith("> “") or s.startswith('> "'):
+                if s.count("•") > 3:
+                    continue  # a table of contents, not a quote
                 attr = lines[i + 1].strip()[1:].strip() if i + 1 < len(lines) and lines[i + 1].strip().startswith("> —") else ""
-                entry["quotes"].append({"text": s[1:].strip(), "source": to_bbcode(attr.lstrip("— ").strip())})
+                for en, tr in SIDES.items():
+                    attr = attr.replace(en, tr)
+                entry["quotes"].append({"text": s[1:].strip(), "source": src_line(attr.lstrip("— ").strip())})
             if len(entry["quotes"]) >= 3:
                 break
     return entry

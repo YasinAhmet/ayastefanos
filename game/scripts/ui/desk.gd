@@ -11,6 +11,7 @@ const MapView := preload("res://game/scripts/ui/map_view.gd")
 const EventPanel := preload("res://game/scripts/ui/event_panel.gd")
 const Panels := preload("res://game/scripts/ui/panels.gd")
 const Autoplay := preload("res://game/scripts/autoplay.gd")
+const WikiPanel := preload("res://game/scripts/ui/wiki_panel.gd")
 
 const CARDS_W := 272
 const PANEL_W := 344
@@ -43,6 +44,7 @@ var cards: VBoxContainer
 var toasts: VBoxContainer
 var inspector: PanelContainer
 var ruler_card: PanelContainer
+var wiki: WikiPanel
 var inspector_title: Label
 var inspector_tabs: HBoxContainer
 var inspector_scroll: ScrollContainer
@@ -91,6 +93,9 @@ func _ready() -> void:
 	add_child(_inspector())
 	add_child(_bottom_right())
 	add_child(_auto_bar())
+	wiki = WikiPanel.new()
+	wiki.state = state
+	add_child(wiki)
 	state.changed.connect(refresh)
 	resized.connect(_layout_left)
 	refresh()
@@ -772,6 +777,21 @@ func _place_tabs(place: String, prov: String, on_place: bool) -> Array:
 		["İl ve nüfus: " + str(state.provinces.get(prov, {}).get("name", prov)).split(" (")[0], show_province.bind(prov), not on_place]]
 
 
+## Open a wiki page ("" = the list of pages) in the panel on the right.
+func open_wiki(page := "") -> void:
+	wiki.open(page)
+
+
+## A "Wiki" button for the first of `names` that has a page.
+func _wiki_button(body: Control, names: Array) -> void:
+	for n in names:
+		if state.codex.has(str(n)):
+			var b := UIKit.button("Wiki: " + str(state.codex[n].get("name", n)), UIKit.PANEL_2, 10)
+			b.pressed.connect(open_wiki.bind(str(n)))
+			body.add_child(b)
+			return
+
+
 ## The capital: its landmarks as buttons, the papers and the people there.
 func show_istanbul() -> void:
 	var body := _begin("istanbul", "istanbul", "İstanbul", "Dersaadet · Payitaht", [["İstanbul", show_istanbul, true],
@@ -824,6 +844,7 @@ func show_place(id: String) -> void:
 		body.add_child(img)
 	if str(lm.get("text", "")) != "":
 		body.add_child(panels._linked(lm["text"], 12))
+	_wiki_button(body, [lm.get("name", ""), lm.get("wiki", "")])
 	_threads_section(body, id)
 	_history_section(body, func(h): return str(h.get("place", "")) == id)
 	UIKit.add_sources(body, lm.get("sources", []), panels._linked)
@@ -966,6 +987,7 @@ func show_nation(code: String) -> void:
 		_deaths_section(body)
 	if str(n.get("text", "")) != "":
 		body.add_child(panels._linked(n["text"], 12))
+	_wiki_button(body, [n.get("short", ""), n.get("name", ""), n.get("wiki", "")])
 	var held: PackedStringArray = []
 	for pid in state.provinces:
 		if state.province_holder(pid, "ctl") == code and state.provinces[pid]["region"] != "Komşular":
@@ -1022,6 +1044,7 @@ func show_person(pid: String) -> void:
 	body.add_child(row)
 	if str(p.get("text", "")) != "":
 		body.add_child(panels._linked(p["text"], 12))
+	_wiki_button(body, [p.get("name", ""), p.get("wiki", "")])
 	UIKit.add_sources(body, p.get("sources", []), panels._linked)
 
 
