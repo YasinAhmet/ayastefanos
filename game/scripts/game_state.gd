@@ -12,6 +12,7 @@ const START := Vector2i(1873, 1)
 const LAST_YEAR := 1919
 const MANDATORY := ["zorunlu", "ara"]
 const PLAYABLE := ["zorunlu", "isteğe bağlı", "geçici", "ara"]
+const SAVE_VERSION := 2
 
 # ---- static data (from events.json)
 var data: Dictionary = {}
@@ -27,6 +28,13 @@ var nations: Dictionary = {}
 var endings: Dictionary = {}
 var cabinets: Array = []
 var codex: Dictionary = {}
+var world_defs: Dictionary = {}     # world-state key -> {id, name, start, values:{v: label}, desc}
+var world_order: Array = []
+var provinces: Dictionary = {}      # id -> {id, name, own, ctl, region}
+var landmarks: Dictionary = {}      # id -> {id, name, province, nation, lonlat, icon, image, text, sources}
+var decisions: Array = []           # karar events
+var fronts: Dictionary = {}         # front id -> {id, name, war, value, enemy, lonlat, cond, start, strength, opposition, win, lose, provinces, results}
+var _front_by_value: Dictionary = {}  # resource id -> front id
 
 # ---- dynamic state
 var year := START.x
@@ -42,6 +50,15 @@ var year_log: Array = []            # this year's decisions, for the gazette
 var ending_id := ""
 var last_gazettes: Array = []       # filled by advance()
 var seen: Dictionary = {}           # event ids that were ever offered (for the simulation report)
+var world: Dictionary = {}          # world-state key -> value id (GD 04)
+var prov_owner: Dictionary = {}          # province -> nation code (de jure)
+var prov_ctl: Dictionary = {}            # province -> nation code (de facto)
+var chronicle: Array = []           # [{kind:"world"|"prov", key, from, to, y, m, by}] for the Defter
+var slot_done: Dictionary = {}      # yuva -> true once one of its versions was answered
+var mode := "serbest"               # "tarihi" hides alternatif events and options
+var _acting := ""                   # title of the event whose effects are being applied (for the chronicle)
+var front_log: Dictionary = {}      # front id -> [{y, m, d, by}]: every change to the front's balance and its cause
+const DRIFT_BY := "Cephenin kendi seyri"
 
 
 func load_data(path := DATA_PATH) -> bool:
@@ -64,22 +81,49 @@ func load_data(path := DATA_PATH) -> bool:
 	endings = data.get("endings", {})
 	cabinets = data.get("cabinets", [])
 	codex = data.get("codex", {})
+	world_defs.clear()
+	world_order.clear()
+	for w in data.get("world", []):
+		world_defs[w["id"]] = w
+		world_order.append(w["id"])
+	provinces.clear()
+	for p in data.get("provinces", []):
+		provinces[p["id"]] = p
+	landmarks = data.get("landmarks", {})
+	fronts = data.get("fronts", {})
+	_front_by_value.clear()
+	for id in fronts:
+		_front_by_value[str(fronts[id]["value"])] = id
 	events.clear()
 	event_order.clear()
 	rules.clear()
 	headlines.clear()
 	epilogs.clear()
+	decisions.clear()
 	for ev in data["events"]:
 		events[ev["id"]] = ev
 		match ev["kind"]:
 			"kural": rules.append(ev)
 			"manşet": headlines.append(ev)
 			"epilog": epilogs.append(ev)
+			"karar": decisions.append(ev)
 			_: event_order.append(ev)
 	return true
 
 
-func new_game() -> void:
+func new_game(game_mode := "serbest") -> void:
+	mode = game_mode
+	world.clear()
+	for id in world_order:
+		world[id] = str(world_defs[id]["start"])
+	prov_owner.clear()
+	prov_ctl.clear()
+	for id in provinces:
+		prov_owner[id] = str(provinces[id]["own"])
+		prov_ctl[id] = str(provinces[id]["ctl"])
+	chronicle.clear()
+	slot_done.clear()
+	front_log.clear()
 	year = START.x
 	month = START.y
 	values.clear()
@@ -104,6 +148,54 @@ func has_flag(name: String) -> bool:
 	return flags.has(name)
 
 
+func world_value(key: String) -> String:
+	return str(world.get(key, ""))
+
+
+func world_label(key: String, value := "") -> String:
+	var v := value if value != "" else world_value(key)
+	var def: Dictionary = world_defs.get(key, {})
+	return str(def.get("values", {}).get(v, v))
+
+
+func province_holder(id: String, layer := "ctl") -> String:
+	return str((prov_ctl if layer == "ctl" else prov_owner).get(id, ""))
+
+
+func historical() -> bool:
+	return mode == "tarihi"
+
+
+func event_hidden(ev: Dictionary) -> bool:
+	return historical() and ev["tags"].has("alternatif")
+
+
+func option_visible(opt: Dictionary) -> bool:
+	return not (historical() and opt.get("alt", false))
+
+
+## Indices of the options this mode shows.
+func visible_options(ev: Dictionary) -> Array:
+	var out: Array = []
+	for i in ev["options"].size():
+		if option_visible(ev["options"][i]):
+			out.append(i)
+	return out
+
+
+## The landmark an event is shown at: its own `yer`, else its nation's home landmark.
+func event_place(ev: Dictionary) -> String:
+	var p = ev.get("place")
+	if p != null and str(p) != "":
+		return str(p)
+	return nation_place(str(ev["nation"]))
+
+
+## Events of a nation without their own `yer`: the Porte for the Ottoman state, else the nation's map point.
+func nation_place(code: String) -> String:
+	return "babiali" if code == "OS" and landmarks.has("babiali") else "nation:" + code
+
+
 func value_of(id: String) -> int:
 	if id == "year":
 		return year
@@ -116,45 +208,79 @@ func now_key() -> int:
 	return Logic.date_key(year, month)
 
 
+## A queued event's due date (date key), or -1 when it was queued without a delay.
+func _due(id: String) -> int:
+	var q = queued.get(id, true)
+	if typeof(q) == TYPE_INT or typeof(q) == TYPE_FLOAT:
+		return int(q)
+	return -1
+
+
 func _in_window(ev: Dictionary, key: int) -> bool:
 	var d: Dictionary = ev["date"]
 	var start := Logic.date_key(int(d["y"]), int(d["m"]))
-	if key < start:
-		return false
 	var chain: bool = ev["tags"].has("zincir")
 	if chain and not queued.has(ev["id"]):
+		return false
+	var due := _due(ev["id"]) if chain else -1
+	start = maxi(start, due)
+	if key < start:
 		return false
 	if ev.get("until") != null:
 		var u: Dictionary = ev["until"]
 		return key <= Logic.date_key(int(u["y"]), int(u["m"]))
+	if ev["kind"] == "karar":
+		return true
 	if ev["kind"] == "geçici":
 		return key == start
 	if chain and ev["kind"] in MANDATORY:
 		return true  # an unlocked mandatory chain event waits until it is answered
+	if due >= 0:
+		return key <= start + 11  # a delayed optional follow-up stays on the desk for a year
 	return year == int(d["y"])
 
 
 func is_open(ev: Dictionary) -> bool:
-	if answered.has(ev["id"]) or dropped.has(ev["id"]):
-		return false
-	if not _in_window(ev, now_key()):
-		return false
-	return Logic.eval_cond(ev.get("cond"), self)
+	if ev["kind"] == "karar":
+		return open_decisions().has(ev)
+	return open_events().has(ev)
 
 
 ## Events on the desk right now. Queued events whose condition fails when due are dropped.
+## Of the events sharing a yuva (slot), only the first whose condition holds is offered.
 func open_events() -> Array:
 	var out: Array = []
+	var slot_taken := {}
 	for ev in event_order:
-		if answered.has(ev["id"]) or dropped.has(ev["id"]):
+		if answered.has(ev["id"]) or dropped.has(ev["id"]) or event_hidden(ev):
+			continue
+		var slot = ev.get("slot")
+		if slot != null and slot_done.has(slot):
 			continue
 		if not _in_window(ev, now_key()):
 			continue
 		if Logic.eval_cond(ev.get("cond"), self):
+			if slot != null:
+				if slot_taken.has(slot):
+					continue
+				slot_taken[slot] = true
 			out.append(ev)
 			seen[ev["id"]] = true
 		elif queued.has(ev["id"]):
 			dropped[ev["id"]] = true
+	return out
+
+
+## Player-initiated decisions (tür: karar) available now, optionally only those at one landmark.
+func open_decisions(place := "") -> Array:
+	var out: Array = []
+	for ev in decisions:
+		if answered.has(ev["id"]) or event_hidden(ev):
+			continue
+		if place != "" and str(ev.get("place", "")) != place:
+			continue
+		if _in_window(ev, now_key()) and Logic.eval_cond(ev.get("cond"), self):
+			out.append(ev)
 	return out
 
 
@@ -207,17 +333,24 @@ func choose(ev_id: String, index: int) -> Dictionary:
 	if index < 0 or index >= opts.size():
 		return {}
 	var opt: Dictionary = opts[index]
+	if not option_visible(opt):
+		return {}
 	answered[ev_id] = index
 	queued.erase(ev_id)
+	if ev.get("slot") != null:
+		slot_done[ev["slot"]] = true
+	_acting = ev["title"]
 	_apply(opt["effects"])
+	_acting = ""
 	var rec := {"id": ev_id, "title": ev["title"], "nation": ev["nation"], "y": year, "m": month,
-		"option": opt["label"], "outcome": opt.get("outcome", "")}
+		"option": opt["label"], "outcome": Logic.txt(opt.get("outcome", ""), self), "place": event_place(ev),
+		"thread": ev.get("thread")}
 	history.append(rec)
 	year_log.append(rec)
 	changed.emit()
 	if ending_id != "":
 		ended.emit(ending_id)
-	return {"outcome": opt.get("outcome", ""), "remembered": Logic.remembers(opt["effects"])}
+	return {"outcome": rec["outcome"], "remembered": Logic.remembers(opt["effects"])}
 
 
 func _apply(effects: Array) -> void:
@@ -235,8 +368,16 @@ func _apply(effects: Array) -> void:
 					flags.erase(e["name"])
 			"queue":
 				if not answered.has(e["id"]):
-					queued[e["id"]] = true
+					var delay := int(e.get("delay", 0))
+					queued[e["id"]] = (now_key() + delay) if delay > 0 else true
 					dropped.erase(e["id"])
+			"if":
+				if Logic.eval_cond(e.get("cond"), self):
+					_apply(e["then"])
+			"world":
+				_set_world(str(e["id"]), str(e["v"]))
+			"prov":
+				_set_province(str(e["id"]), str(e["v"]), bool(e.get("own", true)))
 			"persona":
 				persona = e["id"]
 			"end":
@@ -245,9 +386,109 @@ func _apply(effects: Array) -> void:
 		ending_id = end
 
 
+func _set_world(key: String, v: String) -> void:
+	var old := world_value(key)
+	if old == v:
+		return
+	world[key] = v
+	chronicle.append({"kind": "world", "key": key, "from": old, "to": v, "y": year, "m": month, "by": _acting})
+
+
+func _set_province(id: String, nation: String, cede: bool) -> void:
+	var old_ctl := province_holder(id, "ctl")
+	var old_own := province_holder(id, "own")
+	prov_ctl[id] = nation
+	if cede:
+		prov_owner[id] = nation
+	if old_ctl != nation or (cede and old_own != nation):
+		chronicle.append({"kind": "prov", "key": id, "from": old_ctl, "to": nation, "from_own": old_own,
+			"own": prov_owner[id], "y": year, "m": month, "by": _acting})
+
+
+## Plain-language line for a province change in the chronicle ("Kars: Devlet-i Aliyye → Rusya").
+func province_change_text(c: Dictionary) -> String:
+	var nm := func(code): return str(nations.get(str(code), {}).get("name", code))
+	if str(c["from"]) != str(c["to"]):
+		var t: String = "%s → %s" % [nm.call(c["from"]), nm.call(c["to"])]
+		if str(c.get("own", c["to"])) != str(c["to"]):
+			t += " (hukuken %s)" % nm.call(c["own"])
+		return t
+	return "hukuken %s → %s" % [nm.call(c.get("from_own", "")), nm.call(c.get("own", ""))]
+
+
 func _add(id: String, d: int) -> void:
 	var lo := -50 if id == "para" else 0
-	values[id] = clampi(int(values.get(id, 0)) + d, lo, 100)
+	var before := int(values.get(id, 0))
+	values[id] = clampi(before + d, lo, 100)
+	if _front_by_value.has(id) and values[id] != before:
+		_log_front(_front_by_value[id], values[id] - before)
+
+
+## Remember what moved a front's balance: the event, or the front's own monthly course (summed per year).
+func _log_front(fid: String, d: int) -> void:
+	if not front_log.has(fid):
+		front_log[fid] = []
+	var log: Array = front_log[fid]
+	var by := _acting if _acting != "" else DRIFT_BY
+	if by == DRIFT_BY and not log.is_empty() and log[-1]["by"] == DRIFT_BY and int(log[-1]["y"]) == year:
+		log[-1]["d"] = int(log[-1]["d"]) + d
+		return
+	log.append({"y": year, "m": month, "d": d, "by": by})
+
+
+# ---------------------------------------------------------------- fronts
+
+## A front is on the map while its war is on (its condition holds) and its start date has come.
+func front_visible(fid: String) -> bool:
+	var f: Dictionary = fronts[fid]
+	if now_key() < Logic.date_key(int(f["start"]["y"]), int(f["start"]["m"])):
+		return false
+	return Logic.eval_cond(f.get("cond"), self)
+
+
+## The first of the front's result events that was answered: {id, title, option, y, m}; {} while undecided.
+func front_result(fid: String) -> Dictionary:
+	for rid in fronts[fid]["results"]:
+		if answered.has(rid):
+			for h in history:
+				if h["id"] == rid:
+					return h
+	return {}
+
+
+func front_active(fid: String) -> bool:
+	return front_visible(fid) and front_result(fid).is_empty()
+
+
+## "Who is winning" in one word, from the front's balance (0 = the enemy's, 100 = ours).
+func front_status(fid: String) -> String:
+	var v := value_of(str(fronts[fid]["value"]))
+	var f: Dictionary = fronts[fid]
+	if v >= int(f["win"]):
+		return "Osmanlı ordusu üstün"
+	if v >= 55:
+		return "Osmanlı ordusu hafif üstün"
+	if v > 45:
+		return "Denge"
+	if v > int(f["lose"]):
+		return "Düşman hafif üstün"
+	return "Düşman üstün"
+
+
+## Once a month an undecided front drifts one point toward whoever is stronger (army vs. the enemy's pressure).
+func _front_tick() -> void:
+	for fid in fronts:
+		if not front_active(fid):
+			continue
+		var f: Dictionary = fronts[fid]
+		var total := 0.0
+		for sid in f["strength"]:
+			total += value_of(str(sid))
+		var ours := total / maxf(1.0, float(f["strength"].size()))
+		var d := clampi(roundi((ours - float(f["opposition"])) / 20.0), -1, 1)
+		if d != 0:
+			_add(str(f["value"]), d)
+
 
 
 ## Move to the next month that has something on the desk, passing year turns on the way.
@@ -269,6 +510,7 @@ func advance() -> bool:
 				return true
 		else:
 			month += 1
+		_front_tick()
 		for ev in open_events():
 			if not before.has(ev["id"]):
 				changed.emit()
@@ -285,12 +527,19 @@ func _year_turn() -> void:
 		if r.get("until") != null and int(r["until"]["y"]) < finished:
 			continue
 		if Logic.eval_cond(r.get("cond"), self):
+			_acting = r["title"]
 			for opt in r["options"]:
 				_apply(opt["effects"])
+			_acting = ""
 	var lines: Array = []
 	for h in headlines:
 		if int(h["date"]["y"]) <= finished and Logic.eval_cond(h.get("cond"), self):
-			lines.append(" ".join(h["text"]))
+			var parts: PackedStringArray = []
+			for t in h["text"]:
+				var line := Logic.txt(t, self)
+				if line != "":
+					parts.append(line)
+			lines.append(" ".join(parts))
 	last_gazettes.append({"year": finished, "paper": gazette_name(), "decisions": year_log.duplicate(), "headlines": lines})
 	year_log.clear()
 	year = finished + 1
@@ -322,9 +571,10 @@ func save_game() -> void:
 	var f := FileAccess.open(SAVE_PATH, FileAccess.WRITE)
 	if f == null:
 		return
-	f.store_string(JSON.stringify({"year": year, "month": month, "values": values, "flags": flags,
-		"persona": persona, "answered": answered, "queued": queued, "dropped": dropped,
-		"history": history, "year_log": year_log, "ending": ending_id}))
+	f.store_string(JSON.stringify({"version": SAVE_VERSION, "year": year, "month": month, "values": values,
+		"flags": flags, "persona": persona, "answered": answered, "queued": queued, "dropped": dropped,
+		"history": history, "year_log": year_log, "ending": ending_id, "world": world, "owner": prov_owner, "ctl": prov_ctl,
+		"chronicle": chronicle, "slot_done": slot_done, "mode": mode, "front_log": front_log}))
 
 
 func has_save() -> bool:
@@ -351,5 +601,24 @@ func load_game() -> bool:
 	history = s["history"]
 	year_log = s.get("year_log", [])
 	ending_id = s.get("ending", "")
+	for k in queued.keys():
+		if typeof(queued[k]) == TYPE_FLOAT:
+			queued[k] = int(queued[k])
+	# version 1 saves have no world state: start from the defaults
+	mode = str(s.get("mode", "serbest"))
+	world.clear()
+	for id in world_order:
+		world[id] = str(world_defs[id]["start"])
+	world.merge(s.get("world", {}), true)
+	prov_owner.clear()
+	prov_ctl.clear()
+	for id in provinces:
+		prov_owner[id] = str(provinces[id]["own"])
+		prov_ctl[id] = str(provinces[id]["ctl"])
+	prov_owner.merge(s.get("owner", {}), true)
+	prov_ctl.merge(s.get("ctl", {}), true)
+	chronicle = s.get("chronicle", [])
+	slot_done = s.get("slot_done", {})
+	front_log = s.get("front_log", {})
 	changed.emit()
 	return true

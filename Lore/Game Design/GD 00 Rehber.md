@@ -13,6 +13,8 @@ tags: [game-design]
 | [[GD 01 Olay Sıralaması]] | Kasadaki olayların önem sıralaması (100+ olay) ve yıllara dağılımı |
 | [[GD 02 Sistemler]] | Kaynaklar, gizli değerler, Payitaht (hükümdar + 3 nazır), devletler, olay yazım kuralları, yıllık kurallar |
 | [[GD 03 Sonlar ve Yollar]] | Üç son, yol ayrımları, kaldıraçlar, bayrak (flag) kaydı, akış şeması, son kartları |
+| [[GD 04 Dünya Durumu ve İplikler]] | Yarı doğrusal yapı: hikâye iplikleri, dünya durumu anahtarları ve değerleri, haritadaki kararlar |
+| [[GD 05 Harita ve Harpler]] | İller (sahip ve tutan), haritadaki yerler, harpler ve cepheler |
 | `GD 1873` … `GD 1919` | Her yılın olayları. Olay olmayan yılların dosyası yoktur |
 | [[GD 99 Açık Sorular]] | İncelemen için açık bıraktığım tasarım soruları |
 
@@ -31,8 +33,15 @@ Olay metni (hükümdara hitaben).
 
 - **Etkiler** (ters tırnak içinde, ` · ` ile ayrılır): `Para -10` kaynak değişimi · `+⚑bayrak` / `-⚑bayrak` bayrak koy/kaldır · `▶ olay_id` zincir olayı sıraya koy · `👤 persona` hükümdarı değiştir · `☠ son_id` oyunu bitir.
   - Klavyede kolay yazmak için: `+f:bayrak`, `-f:bayrak`, `>olay_id`, `@persona`, `end:son_id` da geçerlidir.
-- **Koşullar:** `⚑bayrak`, `!⚑bayrak`, `Para >= 20`, `hakimiyet - jon_turk >= 20`, `yıl >= 1900`, `&` (ve), `|` (veya), parantez.
-- **Tür:** `zorunlu` (cevaplanmadan zaman ilerlemez) · `isteğe bağlı` (yıl sonuna kadar açık) · `geçici` (sadece o ay) · `ara` (yalnız metin, "Devam") · `kural` (yıl dönümünde kendiliğinden işler, oyuncu görmez) · `manşet` (yıl sonu gazetesinde bir satır) · `epilog` (son kartı). Ek işaretler: `zincir` (sadece `▶` ile açılır), `alternatif` (Alternatif tarih).
+  - Dünya ve harita: `≡ reji = milli` dünya durumunu değiştirir ([[GD 04 Dünya Durumu ve İplikler]]); `🗺 kars RU` ili devreder, `🗺 misir ~IN` yalnız tutanı değiştirir ([[GD 05 Harita ve Harpler]]). ASCII: `set:reji=milli`, `map:kars RU`.
+  - Gecikmeli zincir: `▶ reji_nota +4ay`, `▶ misir_tahliye +3yıl` (alt olay, karardan bu kadar sonra gelir).
+  - Koşullu etki: ayrı bir ters tırnak içinde `eğer il:edirne = BU: 🗺 edirne BU`.
+  - Olayın her seçeneğine uygulanan etki, başlığın altındaki ayrı bir satırda: `` `etki: 🗺 tunus ~FR` `` (antlaşmaların harita maddeleri).
+- **Koşullar:** `⚑bayrak`, `!⚑bayrak`, `Para >= 20`, `hakimiyet - jon_turk >= 20`, `yıl >= 1900`, `reji = milli`, `il:kars = RU` (tutan), `sahip:misir = OS`, `&` (ve), `|` (veya), parantez.
+- **Metin varyantları:** paragraf başında `[eğer: reji = milli]` (paragraf yalnız koşul tutarsa görünür; görüş satırında `💬 [eğer: …] Maliye: "…"`), satır içinde `{eğer reji = milli: Milli Tütün İdaresi / aksi: Reji}`.
+- **Tür:** `zorunlu` (cevaplanmadan zaman ilerlemez) · `isteğe bağlı` (yıl sonuna kadar açık) · `geçici` (sadece o ay) · `ara` (yalnız metin, "Devam") · `karar` (oyuncunun haritadaki bir yerden başlattığı eylem; `yer:` ister) · `kural` (yıl dönümünde kendiliğinden işler, oyuncu görmez) · `manşet` (yıl sonu gazetesinde bir satır) · `epilog` (son kartı). Ek işaretler: `zincir` (sadece `▶` ile açılır), `alternatif` (Alternatif tarih).
+- **Başka alanlar:** `yer:` olayın haritadaki yeri ([[GD 05 Harita ve Harpler#Yerler]]) · `iplik:` bağlı olduğu hikâye ipliği · `yuva:` aynı tarihî anın sürümleri (koşulu tutan ilki gelir; tarihî sürüm en sonda).
+- **Seçenek işareti:** `(alternatif)` yazılan seçenek Alternatif tarihtir; Tarihî modda gizlenir.
 - **bayrak:** olay düğmesinde görünen devlet (ör. `RU` Rusya, `OS` Osmanlı/Payitaht). Liste [[GD 02 Sistemler#Devletler]]'de.
 - **sıra:** [[GD 01 Olay Sıralaması]]'ndaki sıra numarası.
 

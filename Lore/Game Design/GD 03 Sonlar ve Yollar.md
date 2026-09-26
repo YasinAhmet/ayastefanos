@@ -160,6 +160,12 @@ Bütün yazarlar bu adları kullanır. Yeni bir bayrak gerekirse yıl dosyasın�
 | `kafkas_ileri` | `kafkas_ileri` (1915–16, zafer yolu) | `onurlu_mutareke` | Kars, Ardahan, Batum alındı |
 | `talat_gitti` | `talat_istifa` (1918-10) | kabine | Masayı Vahdettin devraldı |
 | `mondros` | `mondros` | 1919 olayları | Mütareke imzalandı |
+| `kars_tutuldu` | `kars_tutuldu` (1877, Alternatif tarih) | `ayastefanos_imza`, `ayastefanos_muzakere` | Kars 1877'de düşmedi |
+| `balkan_tutuldu` | `balkan_tutuldu` (1877, Alternatif tarih) | `ayastefanos_imza`, `ayastefanos_muzakere` | Rus ordusu Balkanlar'ın kuzeyinde kaldı |
+| `trablus_harbi` | `trablus_1911`, `hamid_1911_trablus` (kaldırılır: `usi`, `hamid_1912_usi`, `trablus_tutuldu`) | Trablusgarp cephesi | İtalya harbi sürüyor |
+| `balkan_harbi_on` | `balkan_harbi`, `hamid_1912_balkan` (kaldırılır: `londra_1913`, `hamid_1913_londra`) | Trakya cephesi | Balkan Harbi sürüyor |
+
+Bayrakların yanında artık **dünya durumu** anahtarları da vardır (`reji`, `misir`, `ayastefanos`, `girit`, `dogu_rumeli`): bir hikâye ipliğinin sonucunu adıyla tutarlar. Kayıtları [[GD 04 Dünya Durumu ve İplikler]]'dedir; illerin kimde olduğu [[GD 05 Harita ve Harpler]]'dedir. Son ekranı, kapanan her iplik için bir kart gösterir.
 
 ## Son kartları
 

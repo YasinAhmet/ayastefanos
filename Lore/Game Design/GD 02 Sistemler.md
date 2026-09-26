@@ -27,11 +27,15 @@ Görünür olanlar masada, çubuk olarak durur (0–100). Gizli olanları oyuncu
 | avrupa_baskisi | Avrupa baskısı | 35 | hayır | Büyük devletlerin baskısı: ıslahat talepleri, müdahale, barış şartları. |
 | enver_iliskisi | Enver'le ilişki | 50 | hayır | İttihat yolunda Talat'ın Enver'i ne kadar durdurabileceği. İhtiyat onu harcar. |
 | cokus | Çöküş | 0 | hayır | Abdülhamid yolunda harp başlayınca işleyen sayaç. 100'e varınca Rus ordusu Payitahttadır. |
-| kafkas | Kafkas cephesi | 50 | hayır | Cephe durumu (harp yıllarında cephe kartında "sağlam / sarsılıyor / çöktü" olarak görünür). |
+| kafkas | Kafkas cephesi | 50 | hayır | Cephe dengesi: 0 düşmanın, 100 bizim. Harp yıllarında haritada cephe işaretinde görünür; her ay ordunun gücüne göre bir puan kayar. Bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]]. |
 | canakkale | Çanakkale cephesi | 50 | hayır | Cephe durumu. |
 | irak | Irak cephesi | 50 | hayır | Cephe durumu. |
 | filistin | Filistin cephesi | 50 | hayır | Cephe durumu. |
 | hicaz | Hicaz cephesi | 50 | hayır | Cephe durumu. |
+| tuna_93 | Tuna ve Balkan cephesi ('93) | 50 | hayır | 93 Harbi'nin Rumeli cephesi (bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]]). |
+| kafkas_93 | Kafkas cephesi ('93) | 50 | hayır | 93 Harbi'nin doğu cephesi. |
+| trablus | Trablusgarp cephesi | 50 | hayır | 1911–12 İtalya harbi. |
+| trakya | Trakya cephesi | 50 | hayır | 1912–13 Balkan Harbi. |
 
 **Denge ölçüsü (yazarlar için):** küçük etki ±3–5 · orta ±8–12 · büyük ±15–25. Yıllık gelir +10'dur; bir yılda iki büyük harcama yapan oyuncu ertesi yıl darda kalmalıdır. Her seçenek bir şey verir, bir şey alır: bedava seçenek ancak bir emirle çözülen durumlarda olur (ör. depodaki kaputların dağıtılması).
 
@@ -140,66 +144,76 @@ Mütareke sonrası Harbiye koltuğu kasadaki uzun listeden sadeleştirilecek: bk
 
 ## Devletler
 
-Masada her devletin bayraklı yuvarlak bir düğmesi vardır; olay düğmeleri de ilgili devletin bayrağıyla çıkar. `konum` haritadaki yeri (0–1 arası x,y), `bayrak` şimdilik harf kısaltmasıdır. Payitaht bloğundaki `görsel` masadaki haritanın arka planıdır (şimdilik 1900 tarihli bir Wikimedia haritası; gerçek harita 2.5D masayla gelecek).
+Masada her devletin bayraklı yuvarlak bir düğmesi vardır; olay düğmeleri de ilgili devletin bayrağıyla çıkar. `konum` haritadaki yeri (boylam,enlem; o devletin olayları başka bir `yer` verilmemişse burada görünür), `bayrak` şimdilik harf kısaltmasıdır. Payitaht bloğundaki `görsel` masadaki haritanın arka planıdır (şimdilik 1900 tarihli bir Wikimedia haritası; gerçek harita 2.5D masayla gelecek).
 
 ### Devlet · Payitaht
-`devlet: OS` · `ad: Devlet-i Aliyye` · `konum: 0.55,0.45` · `görsel: Map-of-Ottoman-Empire-1900.png`
+`devlet: OS` · `ad: Devlet-i Aliyye` · `konum: 28.976,41.011` · `görsel: Map-of-Ottoman-Empire-1900.png`
 İstanbul, Babıâli, saray. Payitaht düğmesi hükümdarı ve nazırları açar.
 
 ### Devlet · Rusya
-`devlet: RU` · `ad: Rusya İmparatorluğu` · `konum: 0.70,0.18`
+`devlet: RU` · `ad: Rusya İmparatorluğu` · `konum: 33.50,46.60`
 Karadeniz'in ve Boğazlar'ın öbür ucundaki asıl tehdit. İki yüzyıllık savaşların karşı tarafı.
 
 ### Devlet · İngiltere
-`devlet: IN` · `ad: Büyük Britanya` · `konum: 0.10,0.15`
+`devlet: IN` · `ad: Büyük Britanya` · `konum: 14.50,35.90`
 Kıbrıs'ı alan, Mısır'a yerleşen, Hindistan yolunu kollayan deniz gücü.
 
 ### Devlet · Fransa
-`devlet: FR` · `ad: Fransa` · `konum: 0.12,0.30`
+`devlet: FR` · `ad: Fransa` · `konum: 8.60,36.50`
 Tunus'u alan, Suriye ve Lübnan'da gözü olan alacaklı.
 
 ### Devlet · Almanya
-`devlet: AL` · `ad: Alman İmparatorluğu` · `konum: 0.28,0.12`
+`devlet: AL` · `ad: Alman İmparatorluğu` · `konum: 13.40,51.50`
 Önce danışman, sonra demiryolu sahibi, en sonunda müttefik.
 
 ### Devlet · Avusturya-Macaristan
-`devlet: AV` · `ad: Avusturya-Macaristan` · `konum: 0.30,0.25`
+`devlet: AV` · `ad: Avusturya-Macaristan` · `konum: 16.37,48.21`
 Bosna-Hersek'i önce işgal, sonra ilhak eden komşu.
 
 ### Devlet · İtalya
-`devlet: IT` · `ad: İtalya` · `konum: 0.22,0.38`
+`devlet: IT` · `ad: İtalya` · `konum: 12.50,41.90`
 1911'de Trablusgarp'a çıkan genç devlet.
 
 ### Devlet · Yunanistan
-`devlet: YU` · `ad: Yunanistan` · `konum: 0.40,0.48`
+`devlet: YU` · `ad: Yunanistan` · `konum: 23.73,37.98`
 Girit'i ve adaları isteyen komşu; 1919'da İzmir'e çıkar.
 
 ### Devlet · Bulgaristan
-`devlet: BU` · `ad: Bulgaristan` · `konum: 0.46,0.34`
+`devlet: BU` · `ad: Bulgaristan` · `konum: 23.32,42.70`
 Ayastefanos'un doğurduğu prenslik, Balkan Harbi'nin Çatalca'ya dayanan ordusu, sonra Büyük Harp'te müttefik.
 
 ### Devlet · Sırbistan ve Karadağ
-`devlet: SR` · `ad: Sırbistan ve Karadağ` · `konum: 0.38,0.30`
+`devlet: SR` · `ad: Sırbistan ve Karadağ` · `konum: 20.46,44.82`
 1876'da savaş açan, 1912'de Balkan ittifakına giren komşular.
 
+### Devlet · Romanya
+`devlet: RO` · `ad: Romanya` · `konum: 26.10,44.43`
+1878'e kadar kâğıt üstünde Osmanlı'ya bağlı prenslik; Ayastefanos ve Berlin'le bağımsız, Dobruca'yı alır.
+> Kaynak: [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 644|Mantran, *Osmanlı İmparatorluğu Tarihi*, p. 644]] · *Fransız kaynağı*
+
+### Devlet · Arnavutluk
+`devlet: AB` · `ad: Arnavutluk` · `konum: 19.82,41.33`
+Balkan Harbi'nin sonunda Londra'da bağımsızlığı tanınan prenslik.
+> Kaynak: [[Arnavutluk]]
+
 ### Devlet · Mısır
-`devlet: MI` · `ad: Mısır Hıdivliği` · `konum: 0.50,0.78`
+`devlet: MI` · `ad: Mısır Hıdivliği` · `konum: 31.24,30.04`
 Kâğıt üstünde Osmanlı, 1882'den sonra fiilen İngiliz.
 
 ### Devlet · İran
-`devlet: IR` · `ad: İran` · `konum: 0.88,0.55`
+`devlet: IR` · `ad: İran` · `konum: 51.40,35.70`
 Doğudaki komşu ve rakip.
 
 ### Devlet · Ermeniler
-`devlet: ER` · `ad: Ermeni cemaati ve komiteler` · `konum: 0.80,0.38`
+`devlet: ER` · `ad: Ermeni cemaati ve komiteler` · `konum: 42.60,39.20`
 Bir devlet değil, bir güç. Doğu vilayetleri, Hınçak ve Taşnak komiteleri, Avrupa'daki temsilcileri.
 
 ### Devlet · Araplar
-`devlet: AR` · `ad: Arap vilayetleri ve Hicaz` · `konum: 0.66,0.78`
+`devlet: AR` · `ad: Arap vilayetleri ve Hicaz` · `konum: 41.00,25.50`
 Bir devlet değil, bir güç. Suriye, Irak, Hicaz; Mekke Şerifi ve aşiretler.
 
 ### Devlet · Kürtler
-`devlet: KU` · `ad: Kürt aşiretleri` · `konum: 0.84,0.48`
+`devlet: KU` · `ad: Kürt aşiretleri` · `konum: 42.20,37.70`
 Bir devlet değil, bir güç. Doğu vilayetlerinin aşiret reisleri; Hamidiye alayları.
 
 ## Olay yazım kuralları
@@ -229,6 +243,11 @@ Oyun her şeyi bu klasördeki dosyalardan okur. `py game/tools/build_events.py -
 - `▶` ile sıraya konan olay koşulu tutuyorsa hemen (tarihi gelmemişse tarihinde) açılır; tutmuyorsa düşer. Böylece aynı `▶` iki olaya birden işaret edebilir, hangisinin koşulu tutarsa o çıkar (ör. Sarıkamış'ın sonucu).
 - **Yıl dönümü:** önce `kural` olayları sırayla uygulanır, sonra yılın gazetesi çıkar (o yıl verilen kararların başlıkları + koşulu tutan `manşet` satırları). Olay olmayan yıllar atlanır ama kuralları yine işler.
 - Oyun `☠` ile biter; son ekranı o sonun `epilog` kartlarından koşulu tutanları sırayla gösterir.
+- `▶ olay +6ay` ile sıraya konan olay, karardan altı ay sonra açılır (olayın kendi tarihi daha geçse o tarihte). Zorunlu değilse bir yıl masada kalır.
+- `yuva:` paylaşan olaylardan yalnız biri masaya gelir: tarih sırasında koşulu tutan ilki; biri cevaplanınca ötekiler düşer. Tarihî sürüm en sonda yazılır ([[GD 04 Dünya Durumu ve İplikler]]).
+- **Kararlar** (`tür: karar`) masadaki evrak sayılmaz ve zamanı durdurmaz; haritadaki yerinin panelinde, tarihi ile `bitiş` arasında ve koşulu tuttukça açıktır.
+- **Cepheler:** harp açıkken karara bağlanmamış her cephe her ay bir puan kayar ([[GD 05 Harita ve Harpler#Harpler ve cepheler]]).
+- **Modlar:** Serbest modda her şey açıktır. Tarihî mod `alternatif` etiketli olayları, kararları ve `(alternatif)` işaretli seçenekleri gizler.
 
 ## Yıllık kurallar
 
@@ -313,6 +332,16 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 `koşul: ⚑yol_hamid & ⚑harpte & Bahriye < 30`
 1. **Uygula.** `cokus +5`
 
+### 1884 · Milli Tütün İdaresi
+`id: k_reji_milli` · `tür: kural`
+`koşul: reji = milli`
+1. **Uygula.** `Para +3 · avrupa_baskisi +1`
+
+### 1882 · Mısır'da Osmanlı taburları
+`id: k_misir_osmanli` · `tür: kural`
+`koşul: misir = osmanli | misir = ortak`
+1. **Uygula.** `Para -2 · Araplar -1 · avrupa_baskisi +1`
+
 ### 1916 · Suriye'nin öfkesi
 `id: k_suriye` · `tür: kural`
 `koşul: ⚑suriye_idamlari`
@@ -322,13 +351,18 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 
 ### 1873 · Galata bankerleri
 `id: dis_borc` · `tür: zorunlu · zincir` · `bayrak: OS`
-Hazine boş. Maaş günü geldi; altı yüz bin lirayı bulmak Maliye Nazırı'na düşüyor. Avans alınacak üç kapı var: Osmanlı Bankası, Tütün Rejisi, Düyun-u Umumiye. Nazır kapı kapı dolaşıp "yalvar yakar" olacak.
+Hazine boş. Maaş günü geldi; altı yüz bin lirayı bulmak Maliye Nazırı'na düşüyor. Avans alınacak kapılar belli: Osmanlı Bankası{eğer reji = fransiz | reji = ortak: , Tütün Rejisi}{eğer reji = milli: , Milli Tütün İdaresi'nin kasası}{eğer ⚑duyun_umumiye: , Düyun-u Umumiye}. Nazır kapı kapı dolaşıp "yalvar yakar" olacak.
+
+[eğer: reji = milli] Tütünün kârı artık Galata'ya değil hazineye akıyor; Maliye Nazırı bu kez önce kendi kasasına bakıyor.
+
+[eğer: misir = ingiliz] Mısır'ın vergisi yıllardır Kahire'deki İngiliz kasasında; oradan bir kuruş gelmeyecek.
 💬 Maliye: "Efendimiz, faizi ağır ama başka kapı yok."
 💬 Harbiye: "Askerin maaşı bir ay daha gecikirse kışlalarda ses çıkar."
 > Kaynak: [[Enver (Murat Bardakçı)#p. 66|Bardakçı, *Enver*, p. 66]] · *Türk kaynağı* · [[Düyun-u Umumiye]]
 1. **Avansı al.** `Para +20 · avrupa_baskisi +5` — Para bulundu; faizi de, alacaklıların sözü de büyüdü.
-2. **Maaşları geciktir.** `Para +10 · Harbiye -5 · jon_turk +3` — Hazine nefes aldı; kışlalarda homurtu başladı.
-3. **Berlin'den iste.** [koşul: alman_nufuzu >= 20] `Para +15 · alman_nufuzu +5` — Alman bankaları yardım etti; karşılığını da isteyecekler.
+2. **Milli Tütün İdaresi'nin kasasından borç al.** [koşul: reji = milli] (ipucu: Tekel devletin elindeyse) `Para +14 · avrupa_baskisi -1` — Tütünün kârı maaşlara yetti; bu kez Galata'ya gidilmedi.
+3. **Maaşları geciktir.** `Para +10 · Harbiye -5 · jon_turk +3` — Hazine nefes aldı; kışlalarda homurtu başladı.
+4. **Berlin'den iste.** [koşul: alman_nufuzu >= 20] `Para +15 · alman_nufuzu +5` — Alman bankaları yardım etti; karşılığını da isteyecekler.
 
 ## Gazete manşetleri
 
@@ -385,6 +419,22 @@ Doğuda bazı aşiret reisleri vergiyi de, hükmü de kendileri koyuyor.
 `id: m_dogu` · `tür: manşet`
 `koşul: dogu_hazirligi >= 45 & ⚑yol_ittihat`
 Erzurum yolunda amele taburları çalışıyor; depolar doluyor.
+
+### 1885 · Kolcuların türküsü
+`id: m_reji` · `tür: manşet`
+`koşul: reji = fransiz | reji = ortak`
+Reji kolcularının vurduğu bir kaçakçı için Anadolu'da yine bir türkü yakıldı.
+> Kaynak: [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 8|Video, *Mahşerin İki Gemisi - Part II*, loc. 8]] · *video dökümü (ikincil)*
+
+### 1885 · Tütün hazineye
+`id: m_reji_milli` · `tür: manşet`
+`koşul: reji = milli`
+Milli Tütün İdaresi'nin Galata'daki depolarında bu yılın mahsulü tartıldı; kârı hazineye yazıldı.
+
+### 1883 · Kahire'de iki bayrak
+`id: m_misir` · `tür: manşet`
+`koşul: misir = ortak | misir = osmanli`
+Kahire'den gelen mektuplarda hıdivin sarayındaki Osmanlı taburlarından söz ediliyor.
 
 ### 1914 · Sansür
 `id: m_cokus` · `tür: manşet`

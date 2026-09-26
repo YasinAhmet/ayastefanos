@@ -41,13 +41,20 @@ func show_menu() -> void:
 	root.add_child(box)
 	box.add_child(UIKit.label("Ayastefanos Utancı", 44, UIKit.GOLD))
 	box.add_child(UIKit.label("1873 – 1919", 20, UIKit.MUTED))
-	box.add_child(UIKit.label("Masada bir padişah, önünde bir harita, kapıda bir imparatorluğun çöküşü.", 16, UIKit.INK, true))
-	var b_new := UIKit.button("Yeni Oyun", UIKit.PANEL_2, 20)
+	box.add_child(UIKit.label("Masada bir padişah, önünde bir harita, kapıda bir imparatorluğun çöküşü.", 14, UIKit.INK, true))
+	var b_new := UIKit.button("Yeni Oyun · Serbest", UIKit.PANEL_2, 17)
+	b_new.tooltip_text = "Bütün seçenekler açık; tarihten ayrılan dallar \"Alternatif tarih\" diye işaretli."
 	b_new.pressed.connect(func():
-		state.new_game()
+		state.new_game("serbest")
 		show_desk())
 	box.add_child(b_new)
-	var b_load := UIKit.button("Devam Et", UIKit.PANEL_2, 20)
+	var b_hist := UIKit.button("Yeni Oyun · Tarihî", UIKit.PANEL_2, 17)
+	b_hist.tooltip_text = "Yalnız tarihte masada olan seçenekler: alternatif tarih olayları ve seçenekleri gizlenir."
+	b_hist.pressed.connect(func():
+		state.new_game("tarihi")
+		show_desk())
+	box.add_child(b_hist)
+	var b_load := UIKit.button("Devam Et", UIKit.PANEL_2, 17)
 	b_load.disabled = not state.has_save()
 	b_load.pressed.connect(func():
 		if state.load_game():
@@ -56,10 +63,10 @@ func show_menu() -> void:
 			else:
 				show_desk())
 	box.add_child(b_load)
-	var b_quit := UIKit.button("Çıkış", UIKit.PANEL_2, 20)
+	var b_quit := UIKit.button("Çıkış", UIKit.PANEL_2, 17)
 	b_quit.pressed.connect(func(): get_tree().quit())
 	box.add_child(b_quit)
-	box.add_child(UIKit.label("Tarihî bilgiler Lore/ kasasındaki kitaplardan, sayfa bağlantılarıyla. \"Alternatif tarih\" etiketli olaylar tasarımdır.", 13, UIKit.MUTED, true))
+	box.add_child(UIKit.label("Tarihî bilgiler Lore/ kasasındaki kitaplardan, sayfa bağlantılarıyla. \"Alternatif tarih\" etiketli olaylar ve seçenekler tasarımdır.", 11, UIKit.MUTED, true))
 	_swap(root)
 
 
