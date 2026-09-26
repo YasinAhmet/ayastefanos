@@ -40,7 +40,9 @@ func _ready() -> void:
 		c.add_child(v)
 		v.add_child(UIKit.label(card["title"], 20, UIKit.GOLD))
 		for p in card["text"]:
-			v.add_child(UIKit.rich(p, 16))
+			var t := Logic.txt(p, state)
+			if t != "":
+				v.add_child(UIKit.rich(t, 16))
 		for s in card["sources"]:
 			v.add_child(UIKit.rich("[color=#b5a98f]%s[/color]" % s, 12))
 		body.add_child(c)

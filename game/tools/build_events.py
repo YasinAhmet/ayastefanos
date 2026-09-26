@@ -31,7 +31,8 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 sys.dont_write_bytecode = True  # never write into tools/__pycache__
 from check_links import LINK, HEAD, norm  # noqa: E402  (reuse the vault's link checker rules)
 
-KINDS = {"zorunlu", "isteğe bağlı", "geçici", "ara", "kural", "manşet", "epilog"}
+KINDS = {"zorunlu", "isteğe bağlı", "geçici", "ara", "kural", "manşet", "epilog", "karar"}
+PLAYABLE = ("zorunlu", "isteğe bağlı", "geçici", "ara")
 TAGS = {"zincir", "alternatif"}
 SEATS = {"maliye": "maliye", "harbiye": "harbiye", "bahriye": "bahriye"}
 TIME_VARS = {"yıl": "year", "yil": "year", "ay": "month"}
@@ -132,7 +133,7 @@ def to_bbcode(s, codex_refs=None):
 
 # ---------------------------------------------------------------- conditions
 
-TOKEN = re.compile(r"\s*(>=|<=|!=|=|>|<|&|\||!|\(|\)|\+|-|⚑\s*[\wçğıöşüÇĞİÖŞÜ]+|f:[\wçğıöşüÇĞİÖŞÜ]+|\d+|[\wçğıöşüÇĞİÖŞÜ]+)")
+TOKEN = re.compile(r"\s*(>=|<=|!=|=|>|<|&|\||!|\(|\)|\+|-|⚑\s*[\wçğıöşüÇĞİÖŞÜ]+|f:[\wçğıöşüÇĞİÖŞÜ]+|(?:il|sahip):[a-z0-9_]+|\d+|[\wçğıöşüÇĞİÖŞÜ]+)")
 
 
 class CondError(Exception):
@@ -152,11 +153,15 @@ def tokenize(s):
 
 
 class Parser:
-    def __init__(self, text, resolve):
+    def __init__(self, text, resolve, world=None, provinces=None, nation_codes=None):
         self.t = tokenize(text)
         self.i = 0
         self.resolve = resolve
         self.flags = set()
+        self.world = world or {}            # world-state key -> set of values
+        self.provinces = provinces or set()
+        self.nation_codes = nation_codes or set()
+        self.world_read = set()             # (key, value) pairs this condition compares
 
     def peek(self):
         return self.t[self.i] if self.i < len(self.t) else None
@@ -203,7 +208,27 @@ class Parser:
             name = tok[1:].strip() if tok.startswith("⚑") else tok[2:]
             self.flags.add(name)
             return {"op": "flag", "name": name}
+        nxt = self.t[self.i + 1] if self.i + 1 < len(self.t) else None
+        if tok and nxt in ("=", "!=") and (tok in self.world or tok.startswith("il:") or tok.startswith("sahip:")):
+            return self.state_compare()
         return self.compare()
+
+    def state_compare(self):
+        """`reji = milli`, `il:kars = RU` (who holds it), `sahip:misir != OS` (who owns it)."""
+        key = self.take()
+        eq = self.take() == "="
+        val = self.take()
+        if key.startswith("il:") or key.startswith("sahip:"):
+            layer, _, prov = key.partition(":")
+            if prov not in self.provinces:
+                raise CondError(f"unknown province '{prov}'")
+            if val not in self.nation_codes:
+                raise CondError(f"unknown nation '{val}'")
+            return {"op": "prov", "layer": "ctl" if layer == "il" else "own", "id": prov, "eq": eq, "val": val}
+        if val not in self.world[key]:
+            raise CondError(f"'{val}' is not a value of {key} ({', '.join(sorted(self.world[key]))})")
+        self.world_read.add((key, val))
+        return {"op": "state", "key": key, "eq": eq, "val": val}
 
     def term_list(self):
         terms = [[1, self.name()]]
@@ -245,7 +270,7 @@ def cond_text(node, names):
         return "(" + " ya da ".join(cond_text(a, names) for a in node["args"]) + ")"
     if op == "not":
         return "değil: " + cond_text(node["arg"], names)
-    if op == "flag":
+    if op in ("flag", "state", "prov"):
         return "önceki bir karar"
     left = " ".join(("" if i == 0 and s > 0 else ("+ " if s > 0 else "− ")) + names.get(n, n)
                     for i, (s, n) in enumerate(node["left"]))
@@ -260,7 +285,7 @@ def cond_hidden(node, visible):
         return any(cond_hidden(a, visible) for a in node["args"])
     if op == "not":
         return cond_hidden(node["arg"], visible)
-    if op == "flag":
+    if op in ("flag", "state", "prov"):
         return True
     return any(n not in visible and n not in ("year", "month") for _, n in node["left"])
 
@@ -271,7 +296,9 @@ FIELD = re.compile(r"`([^`]+)`")
 HEADER = re.compile(r"^###\s+(.+?)\s*$")
 EVENT_TITLE = re.compile(r"^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?\s*·\s*(.+)$")
 OPTION = re.compile(r"^\s*(\d+)\.\s+\*\*(.+?)\*\*\s*(.*)$")
-ADVICE = re.compile(r"^(?:💬|say)\s*([^:]+):\s*(.+)$")
+ADVICE = re.compile(r"^(?:💬|say)\s*(?:\[eğer:\s*(.+?)\]\s*)?([^:]+):\s*(.+)$")
+IF_PREFIX = re.compile(r"^\[eğer:\s*(.+?)\]\s*")
+IF_INLINE = re.compile(r"\{eğer\s+(.+?):\s*(.*?)(?:\s*/\s*aksi:\s*(.*?))?\}")
 
 
 def parse_fields(line):
@@ -365,16 +392,83 @@ def main():
     def resolve(tok):
         return names.get(tr_lower(tok))
 
+    # ---- world state (GD 04) and provinces (GD 05)
+    world, world_values = [], {}
+    provinces = []
+    for fname_, title_, cols in (("GD 04 Dünya Durumu ve İplikler.md", "## Dünya durumu", "world"),
+                                 ("GD 05 Harita ve Harpler.md", "## İller", "prov")):
+        path_ = os.path.join(DESIGN, fname_)
+        if not os.path.exists(path_):
+            err(fname_, "missing registry file")
+            continue
+        lines_ = open(path_, encoding="utf-8").read().split("\n")
+        for i, line in enumerate(lines_):
+            if line.strip() != title_:
+                continue
+            for r in parse_table(lines_, i + 1):
+                if cols == "world":
+                    vals = {}
+                    for part in re.split(r"\s·\s", r["Değerler"]):
+                        k, _, lab = part.partition(":")
+                        vals[k.strip()] = lab.strip() or k.strip()
+                    if r["Başlangıç"] not in vals:
+                        err(fname_, f"{r['id']}: start value '{r['Başlangıç']}' not among its values")
+                    world.append({"id": r["id"], "name": r["Ad"], "start": r["Başlangıç"], "values": vals,
+                                  "desc": r.get("Açıklama", "")})
+                    world_values[r["id"]] = set(vals)
+                else:
+                    provinces.append({"id": r["id"], "name": r["Ad"], "own": r["Sahip"], "ctl": r["Tutan"],
+                                      "region": r.get("Bölge", "")})
+    for w in world:
+        if w["id"] in names.values() or tr_lower(w["id"]) in names:
+            err("GD 04", f"world key '{w['id']}' clashes with a resource name")
+    prov_ids = {p["id"] for p in provinces}
+    nation_codes = set()
+    for path in gd_files:
+        nation_codes |= set(re.findall(r"`devlet:\s*([A-Z]{2})`", open(path, encoding="utf-8").read()))
+    for p in provinces:
+        for layer in ("own", "ctl"):
+            if p[layer] not in nation_codes:
+                err("GD 05", f"province {p['id']}: unknown nation '{p[layer]}'")
+    world_read, world_set = defaultdict(list), defaultdict(list)
+
     def parse_cond(where, text):
         try:
-            p = Parser(text, resolve)
+            p = Parser(text, resolve, world_values, prov_ids, nation_codes)
             node = p.parse()
+            for kv in p.world_read:
+                world_read[kv].append(where)
             return node, p.flags
         except CondError as e:
             err(where, f"condition '{text}': {e}")
             return None, set()
 
-    events, persons, nations, endings = [], {}, {}, {}
+    def compile_text(where, raw, ev_id=None):
+        """Markdown paragraph → plain BBCode string, or {cond, parts} when it has [eğer: …] / {eğer …} variants."""
+        cond = None
+        m = IF_PREFIX.match(raw)
+        if m:
+            cond, fl = parse_cond(where, m.group(1))
+            for f in fl:
+                flags_read[f].append(ev_id or where)
+            raw = raw[m.end():]
+        parts, pos = [], 0
+        for im in IF_INLINE.finditer(raw):
+            if im.start() > pos:
+                parts.append(to_bbcode(raw[pos:im.start()], codex_refs))
+            c, fl = parse_cond(where, im.group(1))
+            for f in fl:
+                flags_read[f].append(ev_id or where)
+            parts.append({"cond": c, "a": to_bbcode(im.group(2), codex_refs),
+                          "b": to_bbcode(im.group(3) or "", codex_refs)})
+            pos = im.end()
+        if pos < len(raw):
+            parts.append(to_bbcode(raw[pos:], codex_refs))
+        if cond is None and all(isinstance(x, str) for x in parts):
+            return "".join(parts)
+        return {"cond": cond, "parts": parts}
+
+    events, persons, nations, endings, landmarks = [], {}, {}, {}, {}
     flags_set, flags_read = defaultdict(list), defaultdict(list)
     queued = defaultdict(list)
     codex_refs = set()
@@ -437,6 +531,22 @@ def main():
                                              "short": title, "pos": pos, "text": to_bbcode(para, codex_refs),
                                              "image": image(where, fields.get("görsel"))}
                 continue
+            if "yer" in fields and "id" not in fields:
+                title = header.split("·", 1)[-1].strip()
+                para = " ".join(l.strip() for l in body if l.strip() and not l.startswith(">"))
+                srcs = [l.strip()[1:].strip() for l in body if l.startswith(">")]
+                try:
+                    lon, lat = [float(x) for x in fields.get("konum", "").split(",")]
+                except ValueError:
+                    err(where, f"yer {fields['yer']}: konum must be 'lon,lat'")
+                    lon, lat = 0.0, 0.0
+                landmarks[fields["yer"]] = {"id": fields["yer"], "name": title, "province": fields.get("il", ""),
+                                            "nation": fields.get("bayrak", "OS"), "lonlat": [lon, lat],
+                                            "icon": fields.get("simge", "yer"),
+                                            "image": image(where, fields.get("görsel")),
+                                            "text": to_bbcode(para, codex_refs),
+                                            "sources": [to_bbcode(x) for x in srcs]}
+                continue
             if "son" in fields and "id" not in fields:
                 title = header.split("·", 1)[-1].strip()
                 paras, srcs = [], []
@@ -484,7 +594,8 @@ def main():
                   "title": title.strip(), "kind": kind, "tags": sorted(etags), "nation": nation,
                   "image": image(where, fields.get("görsel")), "rank": fields.get("sıra"),
                   "until": fields.get("bitiş"), "ending": fields.get("son"), "cond": cond,
-                  "cond_src": cond_src, "text": [], "advice": [], "sources": [], "quotes": [], "options": []}
+                  "cond_src": cond_src, "slot": fields.get("yuva"), "thread": fields.get("iplik"),
+                  "place": fields.get("yer"), "text": [], "advice": [], "sources": [], "quotes": [], "options": []}
             if ev["until"]:
                 mm = re.fullmatch(r"(\d{4})(?:-(\d{2}))?", ev["until"])
                 if not mm:
@@ -498,26 +609,33 @@ def main():
                 s = raw.strip()
                 if not s:
                     if para:
-                        ev["text"].append(" ".join(para))
+                        ev["text"].append(compile_text(where, " ".join(para), ev_id))
                         para = []
                     continue
                 om = OPTION.match(raw)
                 if om:
                     if para:
-                        ev["text"].append(" ".join(para))
+                        ev["text"].append(compile_text(where, " ".join(para), ev_id))
                         para = []
                     cur_opt = parse_option(where, ev_id, om, parse_cond, resolve, flags_set, flags_read, queued,
-                                           display, visible, codex_refs)
+                                           display, visible, codex_refs, compile_text, world_values, prov_ids,
+                                           nation_codes, world_set)
                     ev["options"].append(cur_opt)
                     continue
                 if cur_opt is not None and raw.startswith("   ") and not s.startswith(">"):
-                    cur_opt["outcome"] = (cur_opt["outcome"] + " " + to_bbcode(s, codex_refs)).strip()
+                    cur_opt["_out_raw"] = (cur_opt.get("_out_raw", "") + " " + s).strip()
+                    cur_opt["outcome"] = compile_text(where, cur_opt["_out_raw"], ev_id)
                     continue
                 am = ADVICE.match(s)
                 if am:
-                    seat = tr_lower(am.group(1).strip())
-                    ev["advice"].append({"seat": SEATS.get(seat, am.group(1).strip()),
-                                         "text": to_bbcode(am.group(2).strip().strip('"“”'), codex_refs)})
+                    seat = tr_lower(am.group(2).strip())
+                    acond = None
+                    if am.group(1):
+                        acond, fl = parse_cond(where, am.group(1))
+                        for f in fl:
+                            flags_read[f].append(ev_id)
+                    ev["advice"].append({"seat": SEATS.get(seat, am.group(2).strip()), "cond": acond,
+                                         "text": compile_text(where, am.group(3).strip().strip('"“”'), ev_id)})
                     continue
                 if s.startswith(">"):
                     q = s[1:].strip()
@@ -535,12 +653,16 @@ def main():
                     continue
                 if s.startswith("#"):
                     continue
-                para.append(to_bbcode(s, codex_refs))
+                para.append(s)
             if para:
-                ev["text"].append(" ".join(para))
-            if kind in ("zorunlu", "isteğe bağlı", "geçici", "ara") and not ev["options"]:
+                ev["text"].append(compile_text(where, " ".join(para), ev_id))
+            for o in ev["options"]:
+                o.pop("_out_raw", None)
+            if kind in PLAYABLE and not ev["options"]:
                 ev["options"].append({"label": "Devam.", "cond": None, "lock": None, "hint": None, "effects": [],
-                                      "outcome": ""})
+                                      "outcome": "", "alt": False})
+            if kind == "karar" and not ev["place"]:
+                err(where, f"karar '{ev_id}' needs a yer: field")
             events.append(ev)
 
     # ---- cross checks
@@ -603,6 +725,40 @@ def main():
         if f not in flags_read:
             warn(where[0], f"flag ⚑{f} is set but never read")
 
+    # ---- world state, slots, decisions, historical mode
+    for w in world:
+        sets = {v for (k, v) in world_set if k == w["id"]}
+        if not sets:
+            warn("GD 04", f"world key '{w['id']}' is never changed by any event")
+        elif len(sets | {w["start"]}) < 2:
+            warn("GD 04", f"world key '{w['id']}' can only reach one outcome")
+        if not any(k == w["id"] for (k, _) in world_read):
+            warn("GD 04", f"world key '{w['id']}' is never read (no text variant, slot or condition uses it)")
+    for (k, v), where in world_set.items():
+        if (k, v) not in world_read:
+            warn(where[0], f"world value {k} = {v} is set but no later event reacts to it")
+    slots = defaultdict(list)
+    for ev in events:
+        if ev["slot"]:
+            slots[ev["slot"]].append(ev)
+    for slot, evs in slots.items():
+        if not any(e["cond"] is None and "alternatif" not in e["tags"] for e in evs):
+            err(f"{evs[0]['file']}:{evs[0]['line']}", f"yuva '{slot}' has no unconditional historical version")
+        uncond = [i for i, e in enumerate(evs) if e["cond"] is None]
+        if uncond and uncond[0] != len(evs) - 1:
+            err(f"{evs[0]['file']}:{evs[0]['line']}", f"yuva '{slot}': the unconditional version must come last")
+        for i, e in enumerate(evs):
+            e["slot_rank"] = i
+    for ev in events:
+        if ev["kind"] in PLAYABLE + ("karar",) and "alternatif" not in ev["tags"]:
+            if ev["options"] and all(o["alt"] for o in ev["options"]):
+                err(f"{ev['file']}:{ev['line']}", f"{ev['id']}: every option is (alternatif); Tarihî mod would be stuck")
+        if ev["place"] and ev["place"] not in landmarks:
+            err(f"{ev['file']}:{ev['line']}", f"unknown yer '{ev['place']}'")
+    for lm in landmarks.values():
+        if lm["province"] and lm["province"] not in prov_ids:
+            err("GD 05", f"yer {lm['id']}: unknown il '{lm['province']}'")
+
     # ---- codex from lore notes' Interesting details
     codex = {}
     for note in sorted(codex_refs):
@@ -610,7 +766,8 @@ def main():
 
     # ---- write
     os.makedirs(OUT_DATA, exist_ok=True)
-    data = {"version": 1, "resources": resources, "persons": persons, "nations": nations, "endings": endings,
+    data = {"version": 2, "resources": resources, "persons": persons, "nations": nations, "endings": endings,
+            "world": world, "provinces": provinces, "landmarks": landmarks,
             "cabinets": [{"from": r["Başlangıç"], "to": r["Bitiş"], "cond": r["cond"], "ruler": r["Hükümdar"],
                           "maliye": r["Maliye"], "harbiye": r["Harbiye"], "bahriye": r["Bahriye"]} for r in cabinets],
             "events": sorted(events, key=lambda e: (e["date"]["y"], e["date"]["m"], e["date"]["d"])),
@@ -627,7 +784,13 @@ def main():
     print(f"{len(events)} events ({', '.join(f'{k} {v}' for k, v in sorted(kinds.items()))})")
     print(f"{len(years)} years with events; {len(persons)} persons, {len(nations)} nations, {len(endings)} endings, "
           f"{len(codex)} codex entries, {len(used_images)} images")
-    print(f"{len(flags_set)} flags set, {len(flags_read)} read")
+    print(f"{len(flags_set)} flags set, {len(flags_read)} read; {len(world)} world keys, {len(provinces)} provinces, "
+          f"{len(landmarks)} landmarks, {len(slots)} slots")
+    play = [e for e in events if e["kind"] in PLAYABLE]
+    opts = [o for e in play for o in e["options"] if o["label"] != "Devam."]
+    stat_only = sum(all(x["t"] in ("res", "set") for x in o["effects"]) for o in opts)
+    reactive = sum(1 for e in play if e["slot"] or e["cond"] is not None or any(isinstance(t, dict) for t in e["text"]))
+    print(f"branching: {stat_only}/{len(opts)} options only move numbers; {reactive}/{len(play)} events react to earlier choices")
     limit = None if "--warnings" in sys.argv else 60
     print(f"\n{len(errors)} errors")
     for e in errors:
@@ -640,9 +803,14 @@ def main():
     return 1 if (check and errors) else 0
 
 
-def parse_option(where, ev_id, om, parse_cond, resolve, flags_set, flags_read, queued, display, visible, codex_refs):
+def parse_option(where, ev_id, om, parse_cond, resolve, flags_set, flags_read, queued, display, visible, codex_refs,
+                 compile_text, world_values, prov_ids, nation_codes, world_set):
     label, rest = om.group(2).strip(), om.group(3)
-    opt = {"label": to_bbcode(label, codex_refs), "cond": None, "lock": None, "hint": None, "effects": [], "outcome": ""}
+    opt = {"label": to_bbcode(label, codex_refs), "cond": None, "lock": None, "hint": None, "effects": [], "outcome": "",
+           "alt": False}
+    if re.search(r"\(alternatif\)", rest):
+        opt["alt"] = True
+        rest = re.sub(r"\s*\(alternatif\)", "", rest)
     cm = re.search(r"\[koşul:\s*(.+?)\]", rest)
     if cm:
         opt["cond"], fl = parse_cond(where, cm.group(1))
@@ -659,13 +827,25 @@ def parse_option(where, ev_id, om, parse_cond, resolve, flags_set, flags_read, q
     effects_src = FIELD.findall(rest)
     out = re.sub(r"`[^`]*`", "", rest)
     if "—" in out:
-        opt["outcome"] = to_bbcode(out.split("—", 1)[1].strip(), codex_refs)
+        opt["_out_raw"] = out.split("—", 1)[1].strip()
+        opt["outcome"] = compile_text(where, opt["_out_raw"], ev_id)
     for seg in effects_src:
         for tok in [t.strip() for t in re.split(r"\s·\s|\s*;\s*", seg) if t.strip()]:
             eff = parse_effect(tok, resolve)
             if eff is None:
                 err(where, f"cannot read effect '{tok}' in {ev_id}")
                 continue
+            if eff["t"] == "world":
+                if eff["id"] not in world_values:
+                    err(where, f"unknown world key '{eff['id']}' in {ev_id} (register it in GD 04)")
+                elif eff["v"] not in world_values[eff["id"]]:
+                    err(where, f"'{eff['v']}' is not a value of {eff['id']} in {ev_id}")
+                world_set[(eff["id"], eff["v"])].append(where)
+            if eff["t"] == "prov":
+                if eff["id"] not in prov_ids:
+                    err(where, f"unknown province '{eff['id']}' in {ev_id} (register it in GD 05)")
+                if eff["v"] not in nation_codes:
+                    err(where, f"unknown nation '{eff['v']}' in {ev_id}")
             opt["effects"].append(eff)
             if eff["t"] == "flag":
                 (flags_set if eff["on"] else flags_read)[eff["name"]].append(ev_id)
@@ -678,9 +858,18 @@ def parse_effect(tok, resolve):
     m = re.fullmatch(r"([+-])\s*(?:⚑\s*|f:)([\w]+)", tok)
     if m:
         return {"t": "flag", "name": m.group(2), "on": m.group(1) == "+"}
-    m = re.fullmatch(r"(?:▶\s*|>)([a-z0-9_]+)", tok)
+    m = re.fullmatch(r"(?:▶\s*|>)([a-z0-9_]+)(?:\s*\+\s*(\d+)\s*(ay|yıl|yil))?", tok)
     if m:
-        return {"t": "queue", "id": m.group(1)}
+        eff = {"t": "queue", "id": m.group(1)}
+        if m.group(2):
+            eff["delay"] = int(m.group(2)) * (1 if m.group(3) == "ay" else 12)
+        return eff
+    m = re.fullmatch(r"(?:≡\s*|set:)([a-z0-9_]+)\s*=\s*([a-z0-9_]+)", tok)
+    if m:
+        return {"t": "world", "id": m.group(1), "v": m.group(2)}
+    m = re.fullmatch(r"(?:🗺\s*|map:)([a-z0-9_]+)\s+(~?)([A-Z]{2})", tok)
+    if m:
+        return {"t": "prov", "id": m.group(1), "v": m.group(3), "own": m.group(2) != "~"}
     m = re.fullmatch(r"(?:👤\s*|@)([a-z0-9_]+)", tok)
     if m:
         return {"t": "persona", "id": m.group(1)}

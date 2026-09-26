@@ -32,16 +32,19 @@ func open(ev: Dictionary) -> void:
 	if img:
 		body.add_child(img)
 	for p in ev["text"]:
-		body.add_child(_rich(p, 17))
+		var t := Logic.txt(p, state)
+		if t != "":
+			body.add_child(_rich(t, 17))
 	if not ev["advice"].is_empty():
 		body.add_child(UIKit.label("Görüşler", 15, UIKit.GOLD))
 		for a in ev["advice"]:
-			body.add_child(_advice(a))
+			if Logic.eval_cond(a.get("cond"), state):
+				body.add_child(_advice(a))
 	var opts_box := UIKit.vbox(8)
 	body.add_child(opts_box)
 	var outcome_box := UIKit.vbox(8)
 	body.add_child(outcome_box)
-	for i in ev["options"].size():
+	for i in state.visible_options(ev):
 		var opt: Dictionary = ev["options"][i]
 		var chips := Logic.effect_chips(opt["effects"], state.resources)
 		var text: String = _plain(opt["label"])
@@ -56,6 +59,7 @@ func open(ev: Dictionary) -> void:
 		b.disabled = not enabled
 		if opt.get("hint"):
 			b.tooltip_text = _plain(opt["hint"])
+		b.set_meta("option", i)
 		b.pressed.connect(_choose.bind(ev, i, opts_box, outcome_box))
 		opts_box.add_child(b)
 	if not ev["sources"].is_empty():
@@ -74,8 +78,9 @@ func _choose(ev: Dictionary, i: int, opts_box: Control, outcome_box: Control) ->
 	for c in opts_box.get_children():
 		if c is Button:
 			c.disabled = true
-	var chosen: Button = opts_box.get_child(i)
-	chosen.add_theme_color_override("font_disabled_color", UIKit.GOLD)
+	for c in opts_box.get_children():
+		if c is Button and int(c.get_meta("option", -1)) == i:
+			c.add_theme_color_override("font_disabled_color", UIKit.GOLD)
 	if str(res.get("outcome", "")) != "":
 		outcome_box.add_child(_rich(res["outcome"], 17))
 	if res.get("remembered", false):
@@ -98,7 +103,7 @@ func _advice(a: Dictionary) -> Control:
 		var p := state.minister(seat)
 		who = str(p.get("title", SEAT_NAME[seat]))
 		weak = state.value_of(SEAT_RES[seat]) < 20
-	var r := _rich("[b]%s:[/b] %s" % [who, a["text"]], 16)
+	var r := _rich("[b]%s:[/b] %s" % [who, Logic.txt(a["text"], state)], 16)
 	if weak:
 		r.add_theme_color_override("default_color", UIKit.MUTED)
 		r.text += "  [i](sözü pek dinlenmiyor)[/i]"

@@ -140,66 +140,71 @@ Mütareke sonrası Harbiye koltuğu kasadaki uzun listeden sadeleştirilecek: bk
 
 ## Devletler
 
-Masada her devletin bayraklı yuvarlak bir düğmesi vardır; olay düğmeleri de ilgili devletin bayrağıyla çıkar. `konum` haritadaki yeri (0–1 arası x,y), `bayrak` şimdilik harf kısaltmasıdır. Payitaht bloğundaki `görsel` masadaki haritanın arka planıdır (şimdilik 1900 tarihli bir Wikimedia haritası; gerçek harita 2.5D masayla gelecek).
+Masada her devletin bayraklı yuvarlak bir düğmesi vardır; olay düğmeleri de ilgili devletin bayrağıyla çıkar. `konum` haritadaki yeri (boylam,enlem; o devletin olayları başka bir `yer` verilmemişse burada görünür), `bayrak` şimdilik harf kısaltmasıdır. Payitaht bloğundaki `görsel` masadaki haritanın arka planıdır (şimdilik 1900 tarihli bir Wikimedia haritası; gerçek harita 2.5D masayla gelecek).
 
 ### Devlet · Payitaht
-`devlet: OS` · `ad: Devlet-i Aliyye` · `konum: 0.55,0.45` · `görsel: Map-of-Ottoman-Empire-1900.png`
+`devlet: OS` · `ad: Devlet-i Aliyye` · `konum: 28.976,41.011` · `görsel: Map-of-Ottoman-Empire-1900.png`
 İstanbul, Babıâli, saray. Payitaht düğmesi hükümdarı ve nazırları açar.
 
 ### Devlet · Rusya
-`devlet: RU` · `ad: Rusya İmparatorluğu` · `konum: 0.70,0.18`
+`devlet: RU` · `ad: Rusya İmparatorluğu` · `konum: 33.50,46.60`
 Karadeniz'in ve Boğazlar'ın öbür ucundaki asıl tehdit. İki yüzyıllık savaşların karşı tarafı.
 
 ### Devlet · İngiltere
-`devlet: IN` · `ad: Büyük Britanya` · `konum: 0.10,0.15`
+`devlet: IN` · `ad: Büyük Britanya` · `konum: 14.50,35.90`
 Kıbrıs'ı alan, Mısır'a yerleşen, Hindistan yolunu kollayan deniz gücü.
 
 ### Devlet · Fransa
-`devlet: FR` · `ad: Fransa` · `konum: 0.12,0.30`
+`devlet: FR` · `ad: Fransa` · `konum: 8.60,36.50`
 Tunus'u alan, Suriye ve Lübnan'da gözü olan alacaklı.
 
 ### Devlet · Almanya
-`devlet: AL` · `ad: Alman İmparatorluğu` · `konum: 0.28,0.12`
+`devlet: AL` · `ad: Alman İmparatorluğu` · `konum: 13.40,51.50`
 Önce danışman, sonra demiryolu sahibi, en sonunda müttefik.
 
 ### Devlet · Avusturya-Macaristan
-`devlet: AV` · `ad: Avusturya-Macaristan` · `konum: 0.30,0.25`
+`devlet: AV` · `ad: Avusturya-Macaristan` · `konum: 16.37,48.21`
 Bosna-Hersek'i önce işgal, sonra ilhak eden komşu.
 
 ### Devlet · İtalya
-`devlet: IT` · `ad: İtalya` · `konum: 0.22,0.38`
+`devlet: IT` · `ad: İtalya` · `konum: 12.50,41.90`
 1911'de Trablusgarp'a çıkan genç devlet.
 
 ### Devlet · Yunanistan
-`devlet: YU` · `ad: Yunanistan` · `konum: 0.40,0.48`
+`devlet: YU` · `ad: Yunanistan` · `konum: 23.73,37.98`
 Girit'i ve adaları isteyen komşu; 1919'da İzmir'e çıkar.
 
 ### Devlet · Bulgaristan
-`devlet: BU` · `ad: Bulgaristan` · `konum: 0.46,0.34`
+`devlet: BU` · `ad: Bulgaristan` · `konum: 23.32,42.70`
 Ayastefanos'un doğurduğu prenslik, Balkan Harbi'nin Çatalca'ya dayanan ordusu, sonra Büyük Harp'te müttefik.
 
 ### Devlet · Sırbistan ve Karadağ
-`devlet: SR` · `ad: Sırbistan ve Karadağ` · `konum: 0.38,0.30`
+`devlet: SR` · `ad: Sırbistan ve Karadağ` · `konum: 20.46,44.82`
 1876'da savaş açan, 1912'de Balkan ittifakına giren komşular.
 
+### Devlet · Romanya
+`devlet: RO` · `ad: Romanya` · `konum: 26.10,44.43`
+1878'e kadar kâğıt üstünde Osmanlı'ya bağlı prenslik; Ayastefanos ve Berlin'le bağımsız, Dobruca'yı alır.
+> Kaynak: [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 644|Mantran, *Osmanlı İmparatorluğu Tarihi*, p. 644]] · *Fransız kaynağı*
+
 ### Devlet · Mısır
-`devlet: MI` · `ad: Mısır Hıdivliği` · `konum: 0.50,0.78`
+`devlet: MI` · `ad: Mısır Hıdivliği` · `konum: 31.24,30.04`
 Kâğıt üstünde Osmanlı, 1882'den sonra fiilen İngiliz.
 
 ### Devlet · İran
-`devlet: IR` · `ad: İran` · `konum: 0.88,0.55`
+`devlet: IR` · `ad: İran` · `konum: 51.40,35.70`
 Doğudaki komşu ve rakip.
 
 ### Devlet · Ermeniler
-`devlet: ER` · `ad: Ermeni cemaati ve komiteler` · `konum: 0.80,0.38`
+`devlet: ER` · `ad: Ermeni cemaati ve komiteler` · `konum: 42.60,39.20`
 Bir devlet değil, bir güç. Doğu vilayetleri, Hınçak ve Taşnak komiteleri, Avrupa'daki temsilcileri.
 
 ### Devlet · Araplar
-`devlet: AR` · `ad: Arap vilayetleri ve Hicaz` · `konum: 0.66,0.78`
+`devlet: AR` · `ad: Arap vilayetleri ve Hicaz` · `konum: 41.00,25.50`
 Bir devlet değil, bir güç. Suriye, Irak, Hicaz; Mekke Şerifi ve aşiretler.
 
 ### Devlet · Kürtler
-`devlet: KU` · `ad: Kürt aşiretleri` · `konum: 0.84,0.48`
+`devlet: KU` · `ad: Kürt aşiretleri` · `konum: 42.20,37.70`
 Bir devlet değil, bir güç. Doğu vilayetlerinin aşiret reisleri; Hamidiye alayları.
 
 ## Olay yazım kuralları

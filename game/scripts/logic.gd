@@ -2,7 +2,8 @@ extends RefCounted
 ## Pure helpers: condition evaluation and effect descriptions.
 ## Conditions arrive pre-parsed from game/tools/build_events.py as JSON trees:
 ##   {"op":"and"|"or","args":[...]}, {"op":"not","arg":...}, {"op":"flag","name":...},
-##   {"op":"cmp","cmp":">=","left":[[sign,"id"],...],"right":N}
+##   {"op":"cmp","cmp":">=","left":[[sign,"id"],...],"right":N},
+##   {"op":"state","key":"reji","eq":true,"val":"milli"}, {"op":"prov","layer":"ctl"|"own","id":"kars","eq":true,"val":"RU"}
 
 
 static func eval_cond(node, state) -> bool:
@@ -23,6 +24,10 @@ static func eval_cond(node, state) -> bool:
 			return not eval_cond(node["arg"], state)
 		"flag":
 			return state.has_flag(node["name"])
+		"state":
+			return (state.world_value(node["key"]) == str(node["val"])) == bool(node["eq"])
+		"prov":
+			return (state.province_holder(node["id"], node["layer"]) == str(node["val"])) == bool(node["eq"])
 		"cmp":
 			var total := 0
 			for term in node["left"]:
@@ -37,6 +42,24 @@ static func eval_cond(node, state) -> bool:
 				"!=": return total != right
 	push_warning("unknown condition node %s" % [node])
 	return false
+
+
+## Resolves a compiled text: a plain BBCode string, or {cond, parts} with [eğer: …] / {eğer …} variants.
+## Returns "" when the paragraph's own condition fails.
+static func txt(t, state) -> String:
+	if t == null:
+		return ""
+	if typeof(t) == TYPE_STRING:
+		return t
+	if not eval_cond(t.get("cond"), state):
+		return ""
+	var out := ""
+	for p in t["parts"]:
+		if typeof(p) == TYPE_STRING:
+			out += p
+		else:
+			out += str(p["a"]) if eval_cond(p.get("cond"), state) else str(p.get("b", ""))
+	return out
 
 
 ## Short cost chips for the visible resources an option changes, e.g. "Para −10 · Harbiye +5".
