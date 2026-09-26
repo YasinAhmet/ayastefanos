@@ -38,6 +38,9 @@ var outcomes := {}      # world key -> {value -> count}, at the end of random ru
 var worlds_1900 := {}   # signature -> count
 var front_ends := {}    # front id -> {result event id -> count}
 var snapshot := ""
+var kars_held := 0
+var kars_bad := 0
+var kars_probe := ""    # who held Kars in 1917-06, filled by play()
 var figure_log := {}    # "YYYY-MM" -> ["person@label"], filled on the Tarihî path
 const FIGURE_DATES := [Vector2i(1877, 9), Vector2i(1908, 7), Vector2i(1912, 3), Vector2i(1915, 5), Vector2i(1919, 6)]
 
@@ -107,6 +110,11 @@ func _initialize() -> void:
 				ok = false
 				if failures.size() < 5:
 					failures.append(r)
+			# a Kars held in 1877 must not survive a lost Caucasus war
+			if gs.has_flag("kars_tutuldu") and gs.has_flag("sarikamis_felaket") and kars_probe == "OS":
+				kars_bad += 1
+			if gs.has_flag("kars_tutuldu"):
+				kars_held += 1
 			if mode == "serbest":
 				for k in gs.world:
 					if not outcomes.has(k):
@@ -121,6 +129,9 @@ func _initialize() -> void:
 					front_ends[fid][key] = int(front_ends[fid].get(key, 0)) + 1
 		for k in dist:
 			print("  %-6s %d" % [k, dist[k]])
+		print("  Kars held in 1877 in %d runs; still Ottoman after a lost Caucasus war in %d" % [kars_held, kars_bad])
+		if kars_bad > 0:
+			ok = false
 	for f in failures:
 		print("  STUCK at %s: %s" % [f["date"], f["summary"]])
 	print("\n== how the threads ended (random runs, serbest)")
@@ -149,12 +160,15 @@ func _initialize() -> void:
 func play(strategy, rng, mode := "serbest", many = null) -> Dictionary:
 	gs.new_game(mode)
 	snapshot = ""
+	kars_probe = ""
 	var steps := 0
 	var policy := "tarihi" if mode == "tarihi" else "rastgele"
 	while gs.ending_id == "" and steps < MAX_STEPS:
 		steps += 1
 		if snapshot == "" and gs.year >= 1900:
 			snapshot = _signature()
+		if kars_probe == "" and gs.year * 12 + gs.month >= 1917 * 12 + 6:
+			kars_probe = gs.province_holder("kars", "ctl")
 		if mode == "tarihi":
 			for d in FIGURE_DATES:
 				var ym := "%d-%02d" % [d.x, d.y]

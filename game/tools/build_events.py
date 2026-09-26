@@ -605,6 +605,7 @@ def main():
                                "strength": [x for x in strength if x], "opposition": int(fields.get("karşı", "45")),
                                "win": int(fields.get("zafer", "70")), "lose": int(fields.get("yenilgi", "25")),
                                "provinces": [x.strip() for x in fields.get("iller", "").split(",") if x.strip()],
+                               "border": [x.strip() for x in fields.get("sınır", "").split(",") if x.strip()],
                                "results": [x.strip() for x in fields.get("sonuç", "").split(",") if x.strip()],
                                "text": to_bbcode(para, codex_refs), "sources": [to_bbcode(x) for x in srcs],
                                "_where": where}
@@ -925,7 +926,7 @@ def main():
         where = fr.pop("_where")
         if fr["enemy"] not in nation_codes:
             err(where, f"cephe {fr['id']}: unknown düşman '{fr['enemy']}'")
-        for p in fr["provinces"]:
+        for p in fr["provinces"] + fr["border"]:
             if p not in prov_ids:
                 err(where, f"cephe {fr['id']}: unknown il '{p}'")
         for r in fr["results"]:

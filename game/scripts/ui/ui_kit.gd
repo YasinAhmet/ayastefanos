@@ -25,6 +25,7 @@ const NATION_COLORS := {
 	"AL": Color("9d9486"), "AV": Color("d7bf76"), "IT": Color("c4a2bd"), "YU": Color("93b7cc"),
 	"BU": Color("aab96d"), "SR": Color("b58c6c"), "RO": Color("d9b98f"), "MI": Color("dcc070"),
 	"IR": Color("a7bca0"), "AR": Color("cdb68e"), "ER": Color("b9a0a0"), "KU": Color("b3a37f"),
+	"RS": Color("d4b27a"), "AB": Color("b87a8a"),
 }
 
 const FONT := 13

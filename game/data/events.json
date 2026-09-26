@@ -555,6 +555,17 @@
    "text": "Balkan Harbi'nin sonunda Londra'da bağımsızlığı tanınan prenslik.",
    "image": null
   },
+  "RS": {
+   "id": "RS",
+   "name": "Cebel-i Şammar Emirliği (Reşidîler)",
+   "short": "Cebel-i Şammar",
+   "pos": [
+    41.7,
+    27.5
+   ],
+   "text": "Hâil merkezli, İstanbul'a bağlı Reşidî emirliği; Necd'de Suudlarla yarışır. Büyük Harp'te Osmanlı'nın yanında kalır.",
+   "image": null
+  },
   "MI": {
    "id": "MI",
    "name": "Mısır Hıdivliği",
@@ -716,7 +727,21 @@
   },
   {
    "id": "edirne",
-   "name": "Edirne",
+   "name": "Edirne (Kırkkilise)",
+   "own": "OS",
+   "ctl": "OS",
+   "region": "Rumeli"
+  },
+  {
+   "id": "tekfurdagi",
+   "name": "Tekfurdağı",
+   "own": "OS",
+   "ctl": "OS",
+   "region": "Rumeli"
+  },
+  {
+   "id": "gumulcine",
+   "name": "Batı Trakya (Gümülcine, Pirin)",
    "own": "OS",
    "ctl": "OS",
    "region": "Rumeli"
@@ -743,6 +768,13 @@
    "region": "Rumeli"
   },
   {
+   "id": "serez",
+   "name": "Serez ve Drama",
+   "own": "OS",
+   "ctl": "OS",
+   "region": "Rumeli"
+  },
+  {
    "id": "manastir",
    "name": "Manastır",
    "own": "OS",
@@ -750,8 +782,22 @@
    "region": "Rumeli"
   },
   {
+   "id": "kesriye",
+   "name": "Kesriye ve Florina",
+   "own": "OS",
+   "ctl": "OS",
+   "region": "Rumeli"
+  },
+  {
    "id": "kosova",
-   "name": "Kosova (Üsküp)",
+   "name": "Kosova (Priştine, Yeni Pazar)",
+   "own": "OS",
+   "ctl": "OS",
+   "region": "Rumeli"
+  },
+  {
+   "id": "uskup",
+   "name": "Üsküp",
    "own": "OS",
    "ctl": "OS",
    "region": "Rumeli"
@@ -766,6 +812,13 @@
   {
    "id": "yanya",
    "name": "Yanya",
+   "own": "OS",
+   "ctl": "OS",
+   "region": "Rumeli"
+  },
+  {
+   "id": "ergiri",
+   "name": "Ergiri ve Görice",
    "own": "OS",
    "ctl": "OS",
    "region": "Rumeli"
@@ -996,9 +1049,16 @@
   },
   {
    "id": "necd",
-   "name": "Necd",
+   "name": "Necd (Riyad)",
    "own": "AR",
    "ctl": "AR",
+   "region": "Arabistan"
+  },
+  {
+   "id": "sammar",
+   "name": "Cebel-i Şammar (Hâil)",
+   "own": "OS",
+   "ctl": "RS",
    "region": "Arabistan"
   },
   {
@@ -1602,6 +1662,7 @@
     "tuna",
     "dogu_rumeli"
    ],
+   "border": [],
    "results": [
     "balkan_tutuldu",
     "plevne_dustu",
@@ -1660,6 +1721,11 @@
     "kars",
     "erzurum"
    ],
+   "border": [
+    "kars",
+    "batum",
+    "erzurum"
+   ],
    "results": [
     "kars_tutuldu",
     "kars_1877"
@@ -1696,6 +1762,7 @@
    "provinces": [
     "trablusgarp"
    ],
+   "border": [],
    "results": [
     "trablus_tutuldu",
     "usi",
@@ -1732,8 +1799,9 @@
    "lose": 30,
    "provinces": [
     "edirne",
-    "istanbul"
+    "tekfurdagi"
    ],
+   "border": [],
    "results": [
     "edirne_tutuldu",
     "edirne_dustu",
@@ -1796,7 +1864,14 @@
    "lose": 30,
    "provinces": [
     "kars",
+    "batum",
     "erzurum"
+   ],
+   "border": [
+    "kars",
+    "batum",
+    "erzurum",
+    "trabzon"
    ],
    "results": [
     "sarikamis_zafer",
@@ -1855,6 +1930,7 @@
     "edirne",
     "hudavendigar"
    ],
+   "border": [],
    "results": [
     "gelibolu_tahliye"
    ],
@@ -1907,6 +1983,7 @@
     "basra",
     "bagdat"
    ],
+   "border": [],
    "results": [
     "bagdat_tutuldu",
     "bagdat_dustu"
@@ -1960,6 +2037,7 @@
     "kudus",
     "misir"
    ],
+   "border": [],
    "results": [
     "kudus_tutuldu",
     "kudus_dustu"
@@ -2016,6 +2094,7 @@
    "provinces": [
     "hicaz"
    ],
+   "border": [],
    "results": [
     "arap_isyani_onlendi",
     "medine_mudafaa"
@@ -2167,12 +2246,26 @@
    "diger": 130.0
   },
   "edirne": {
-   "turk": 500.0,
-   "rum": 300.0,
-   "ermeni": 20.0,
-   "bulgar": 350.0,
-   "yahudi": 15.0,
-   "diger": 30.0
+   "turk": 300.0,
+   "rum": 150.0,
+   "ermeni": 12.0,
+   "bulgar": 250.0,
+   "yahudi": 13.0,
+   "diger": 15.0
+  },
+  "tekfurdagi": {
+   "turk": 120.0,
+   "rum": 110.0,
+   "ermeni": 8.0,
+   "bulgar": 40.0,
+   "yahudi": 2.0,
+   "diger": 5.0
+  },
+  "gumulcine": {
+   "turk": 220.0,
+   "rum": 40.0,
+   "bulgar": 140.0,
+   "diger": 10.0
   },
   "dogu_rumeli": {
    "turk": 200.0,
@@ -2188,26 +2281,46 @@
    "diger": 150.0
   },
   "selanik": {
-   "turk": 400.0,
-   "arnavut": 20.0,
-   "rum": 300.0,
-   "bulgar": 300.0,
-   "yahudi": 80.0,
-   "diger": 50.0
+   "turk": 200.0,
+   "arnavut": 10.0,
+   "rum": 180.0,
+   "bulgar": 120.0,
+   "yahudi": 75.0,
+   "diger": 30.0
+  },
+  "serez": {
+   "turk": 160.0,
+   "arnavut": 10.0,
+   "rum": 120.0,
+   "bulgar": 100.0,
+   "yahudi": 5.0,
+   "diger": 20.0
   },
   "manastir": {
-   "turk": 150.0,
-   "arnavut": 250.0,
-   "rum": 100.0,
-   "bulgar": 250.0,
-   "diger": 60.0
+   "turk": 90.0,
+   "arnavut": 230.0,
+   "rum": 30.0,
+   "bulgar": 180.0,
+   "diger": 40.0
+  },
+  "kesriye": {
+   "turk": 60.0,
+   "arnavut": 20.0,
+   "rum": 70.0,
+   "bulgar": 70.0,
+   "diger": 20.0
   },
   "kosova": {
-   "turk": 100.0,
-   "arnavut": 400.0,
+   "turk": 40.0,
+   "arnavut": 300.0,
    "bosnak": 30.0,
+   "sirp": 170.0
+  },
+  "uskup": {
+   "turk": 60.0,
+   "arnavut": 100.0,
    "bulgar": 100.0,
-   "sirp": 200.0
+   "sirp": 30.0
   },
   "iskodra": {
    "arnavut": 250.0,
@@ -2215,10 +2328,15 @@
    "diger": 10.0
   },
   "yanya": {
-   "arnavut": 300.0,
-   "rum": 250.0,
+   "arnavut": 100.0,
+   "rum": 220.0,
    "yahudi": 5.0,
-   "diger": 40.0
+   "diger": 30.0
+  },
+  "ergiri": {
+   "arnavut": 200.0,
+   "rum": 30.0,
+   "diger": 10.0
   },
   "teselya": {
    "turk": 40.0,
@@ -3330,7 +3448,7 @@
   {
    "id": "k_gelir",
    "file": "GD 02 Sistemler",
-   "line": 297,
+   "line": 302,
    "date": {
     "y": 1873,
     "m": 1,
@@ -3374,7 +3492,7 @@
   {
    "id": "k_dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 311,
+   "line": 316,
    "date": {
     "y": 1873,
     "m": 1,
@@ -3427,7 +3545,7 @@
   {
    "id": "k_bahriye_bakim",
    "file": "GD 02 Sistemler",
-   "line": 331,
+   "line": 336,
    "date": {
     "y": 1873,
     "m": 1,
@@ -3482,7 +3600,7 @@
   {
    "id": "dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 393,
+   "line": 398,
    "date": {
     "y": 1873,
     "m": 1,
@@ -3698,7 +3816,7 @@
   {
    "id": "m_para",
    "file": "GD 02 Sistemler",
-   "line": 429,
+   "line": 434,
    "date": {
     "y": 1873,
     "m": 1,
@@ -3737,7 +3855,7 @@
   {
    "id": "m_avrupa",
    "file": "GD 02 Sistemler",
-   "line": 434,
+   "line": 439,
    "date": {
     "y": 1873,
     "m": 1,
@@ -4658,7 +4776,7 @@
   {
    "id": "k_iflas",
    "file": "GD 02 Sistemler",
-   "line": 301,
+   "line": 306,
    "date": {
     "y": 1875,
     "m": 1,
@@ -8197,7 +8315,7 @@
   {
    "id": "k_halic",
    "file": "GD 02 Sistemler",
-   "line": 326,
+   "line": 331,
    "date": {
     "y": 1878,
     "m": 1,
@@ -8244,7 +8362,7 @@
   {
    "id": "k_jurnal",
    "file": "GD 02 Sistemler",
-   "line": 336,
+   "line": 341,
    "date": {
     "y": 1878,
     "m": 1,
@@ -8318,7 +8436,7 @@
   {
    "id": "m_hakimiyet",
    "file": "GD 02 Sistemler",
-   "line": 412,
+   "line": 417,
    "date": {
     "y": 1878,
     "m": 1,
@@ -8371,7 +8489,7 @@
   {
    "id": "m_jon_turk",
    "file": "GD 02 Sistemler",
-   "line": 418,
+   "line": 423,
    "date": {
     "y": 1878,
     "m": 1,
@@ -8422,7 +8540,7 @@
   {
    "id": "m_halic",
    "file": "GD 02 Sistemler",
-   "line": 423,
+   "line": 428,
    "date": {
     "y": 1878,
     "m": 1,
@@ -9461,7 +9579,7 @@
         "op": "flag",
         "name": "kars_tutuldu"
        },
-       "a": "Doğuda Ardahan ve Batum Rusların; Kars'ı Muhtar Paşa'nın askeri hâlâ tutuyor.",
+       "a": "Doğuda Rus ordusu Kars'ın önünden geçemediği için Batum'a da inemedi; metinde doğu için yalnız Ermeni ıslahatı maddesi var, Kars ile Batum bizde kalıyor.",
        "b": "Doğuda Kars, Ardahan ve Batum Rusların."
       },
       " Yazlıkçıları banliyö treniyle taşıyan bu sahil kasabasının adı artık başka bir şey demek: [url=codex:Treaty of San Stefano (1878)]Ayastefanos[/url], imparatorluğun çöküş belgelerinden biri."
@@ -9511,12 +9629,6 @@
       },
       {
        "t": "prov",
-       "id": "batum",
-       "v": "RU",
-       "own": true
-      },
-      {
-       "t": "prov",
        "id": "tuna",
        "v": "BU",
        "own": false
@@ -9534,6 +9646,12 @@
         {
          "t": "prov",
          "id": "kars",
+         "v": "RU",
+         "own": true
+        },
+        {
+         "t": "prov",
+         "id": "batum",
          "v": "RU",
          "own": true
         }
@@ -9558,6 +9676,24 @@
         {
          "t": "prov",
          "id": "manastir",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "uskup",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "kesriye",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "serez",
          "v": "BU",
          "own": false
         }
@@ -9603,12 +9739,6 @@
       },
       {
        "t": "prov",
-       "id": "batum",
-       "v": "RU",
-       "own": true
-      },
-      {
-       "t": "prov",
        "id": "tuna",
        "v": "BU",
        "own": false
@@ -9626,6 +9756,12 @@
         {
          "t": "prov",
          "id": "kars",
+         "v": "RU",
+         "own": true
+        },
+        {
+         "t": "prov",
+         "id": "batum",
          "v": "RU",
          "own": true
         }
@@ -9650,6 +9786,24 @@
         {
          "t": "prov",
          "id": "manastir",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "uskup",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "kesriye",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "serez",
          "v": "BU",
          "own": false
         }
@@ -9695,12 +9849,6 @@
       },
       {
        "t": "prov",
-       "id": "batum",
-       "v": "RU",
-       "own": true
-      },
-      {
-       "t": "prov",
        "id": "tuna",
        "v": "BU",
        "own": false
@@ -9718,6 +9866,12 @@
         {
          "t": "prov",
          "id": "kars",
+         "v": "RU",
+         "own": true
+        },
+        {
+         "t": "prov",
+         "id": "batum",
          "v": "RU",
          "own": true
         }
@@ -9742,6 +9896,24 @@
         {
          "t": "prov",
          "id": "manastir",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "uskup",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "kesriye",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "serez",
          "v": "BU",
          "own": false
         }
@@ -10047,10 +10219,17 @@
         "name": "plevne_tutuldu"
        }
       ]
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "kars_tutuldu"
+      }
      }
     ]
    },
-   "cond_src": "ayastefanos = kafkas & (⚑kibris_verildi | ⚑plevne_tutuldu)",
+   "cond_src": "ayastefanos = kafkas & (⚑kibris_verildi | ⚑plevne_tutuldu) & !⚑kars_tutuldu",
    "slot": null,
    "thread": "ayastefanos",
    "place": "batum",
@@ -10164,9 +10343,15 @@
        "id": "kars",
        "v": "OS",
        "own": true
+      },
+      {
+       "t": "prov",
+       "id": "batum",
+       "v": "OS",
+       "own": true
       }
      ],
-     "outcome": "Rus murahhası kalkıp gitmekle tehdit etti; Bismarck araya girdi. Kars döndü, Batum Rusya'da kaldı. Petersburg bunu hiç unutmayacak.",
+     "outcome": "Rus murahhası kalkıp gitmekle tehdit etti; Bismarck araya girdi. Kars da Batum da döndü; Rusya'ya doğuda yalnız Ardahan'ın köyleri kaldı. Petersburg bunu hiç unutmayacak.",
      "alt": false,
      "hist": null
     },
@@ -10682,6 +10867,24 @@
       },
       {
        "t": "prov",
+       "id": "uskup",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
        "id": "dogu_rumeli",
        "v": "OS",
        "own": false
@@ -10722,6 +10925,24 @@
       {
        "t": "prov",
        "id": "manastir",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "uskup",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "serez",
        "v": "OS",
        "own": true
       },
@@ -10772,6 +10993,24 @@
       },
       {
        "t": "prov",
+       "id": "uskup",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
        "id": "dogu_rumeli",
        "v": "OS",
        "own": false
@@ -10809,6 +11048,24 @@
       {
        "t": "prov",
        "id": "manastir",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "uskup",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "serez",
        "v": "OS",
        "own": true
       },
@@ -10981,7 +11238,7 @@
   {
    "id": "k_harbiye_curume",
    "file": "GD 02 Sistemler",
-   "line": 316,
+   "line": 321,
    "date": {
     "y": 1879,
     "m": 1,
@@ -11330,7 +11587,7 @@
   {
    "id": "m_alman",
    "file": "GD 02 Sistemler",
-   "line": 439,
+   "line": 444,
    "date": {
     "y": 1880,
     "m": 1,
@@ -11369,7 +11626,7 @@
   {
    "id": "m_ermeni",
    "file": "GD 02 Sistemler",
-   "line": 444,
+   "line": 449,
    "date": {
     "y": 1880,
     "m": 1,
@@ -11408,7 +11665,7 @@
   {
    "id": "m_arap",
    "file": "GD 02 Sistemler",
-   "line": 449,
+   "line": 454,
    "date": {
     "y": 1880,
     "m": 1,
@@ -11853,7 +12110,7 @@
   {
    "id": "k_duyun",
    "file": "GD 02 Sistemler",
-   "line": 306,
+   "line": 311,
    "date": {
     "y": 1881,
     "m": 1,
@@ -12231,7 +12488,7 @@
   {
    "id": "k_misir_osmanli",
    "file": "GD 02 Sistemler",
-   "line": 381,
+   "line": 386,
    "date": {
     "y": 1882,
     "m": 1,
@@ -13134,7 +13391,7 @@
   {
    "id": "k_goltz",
    "file": "GD 02 Sistemler",
-   "line": 321,
+   "line": 326,
    "date": {
     "y": 1883,
     "m": 1,
@@ -13198,7 +13455,7 @@
   {
    "id": "m_misir",
    "file": "GD 02 Sistemler",
-   "line": 475,
+   "line": 480,
    "date": {
     "y": 1883,
     "m": 1,
@@ -13686,7 +13943,7 @@
   {
    "id": "k_reji_milli",
    "file": "GD 02 Sistemler",
-   "line": 376,
+   "line": 381,
    "date": {
     "y": 1884,
     "m": 1,
@@ -14494,7 +14751,7 @@
   {
    "id": "m_reji",
    "file": "GD 02 Sistemler",
-   "line": 464,
+   "line": 469,
    "date": {
     "y": 1885,
     "m": 1,
@@ -14541,7 +14798,7 @@
   {
    "id": "m_reji_milli",
    "file": "GD 02 Sistemler",
-   "line": 470,
+   "line": 475,
    "date": {
     "y": 1885,
     "m": 1,
@@ -16656,7 +16913,7 @@
   {
    "id": "k_hamidiye",
    "file": "GD 02 Sistemler",
-   "line": 341,
+   "line": 346,
    "date": {
     "y": 1891,
     "m": 1,
@@ -16725,7 +16982,7 @@
   {
    "id": "k_dogu_jandarma",
    "file": "GD 02 Sistemler",
-   "line": 346,
+   "line": 351,
    "date": {
     "y": 1891,
     "m": 1,
@@ -16782,7 +17039,7 @@
   {
    "id": "m_kurt",
    "file": "GD 02 Sistemler",
-   "line": 454,
+   "line": 459,
    "date": {
     "y": 1891,
     "m": 1,
@@ -24960,7 +25217,7 @@
   {
    "id": "k_ittihat_ordu",
    "file": "GD 02 Sistemler",
-   "line": 351,
+   "line": 356,
    "date": {
     "y": 1909,
     "m": 1,
@@ -26646,7 +26903,7 @@
   {
    "id": "m_dogu",
    "file": "GD 02 Sistemler",
-   "line": 459,
+   "line": 464,
    "date": {
     "y": 1910,
     "m": 1,
@@ -29454,7 +29711,7 @@
   {
    "id": "hamid_1912_usi",
    "file": "GD 1912",
-   "line": 127,
+   "line": 128,
    "date": {
     "y": 1912,
     "m": 10,
@@ -29712,7 +29969,7 @@
   {
    "id": "hamid_1912_balkan",
    "file": "GD 1912",
-   "line": 138,
+   "line": 139,
    "date": {
     "y": 1912,
     "m": 10,
@@ -30114,6 +30371,48 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "kosova",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "uskup",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "selanik",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "gumulcine",
+       "v": "BU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": 3
@@ -30144,6 +30443,48 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "kosova",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "uskup",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "selanik",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "gumulcine",
+       "v": "BU",
+       "own": false
+      },
       {
        "t": "res",
        "id": "harbiye",
@@ -30176,6 +30517,48 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "kosova",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "uskup",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "selanik",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "gumulcine",
+       "v": "BU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "para",
        "d": -6
@@ -30200,7 +30583,7 @@
   {
    "id": "hamid_1912_catalca",
    "file": "GD 1912",
-   "line": 154,
+   "line": 155,
    "date": {
     "y": 1912,
     "m": 11,
@@ -30260,6 +30643,48 @@
      "hint": "ordunun elinde hattı tutacak kuvvet kalmış olmalı",
      "effects": [
       {
+       "t": "prov",
+       "id": "kosova",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "uskup",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "selanik",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "gumulcine",
+       "v": "BU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -8
@@ -30285,6 +30710,48 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "kosova",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "uskup",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "selanik",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "gumulcine",
+       "v": "BU",
+       "own": false
+      },
       {
        "t": "res",
        "id": "avrupa_baskisi",
@@ -30317,6 +30784,48 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "kosova",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "uskup",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "SR",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "selanik",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "YU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "BU",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "gumulcine",
+       "v": "BU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": 4
@@ -30346,7 +30855,7 @@
   {
    "id": "hamid_1912_averof",
    "file": "GD 1912",
-   "line": 165,
+   "line": 167,
    "date": {
     "y": 1912,
     "m": 12,
@@ -30995,6 +31504,36 @@
       },
       {
        "t": "prov",
+       "id": "uskup",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "gumulcine",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "ergiri",
+       "v": "AB",
+       "own": true
+      },
+      {
+       "t": "prov",
        "id": "iskodra",
        "v": "AB",
        "own": true
@@ -31099,6 +31638,36 @@
        "t": "prov",
        "id": "kosova",
        "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "uskup",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "gumulcine",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "ergiri",
+       "v": "AB",
        "own": true
       },
       {
@@ -31269,6 +31838,36 @@
       },
       {
        "t": "prov",
+       "id": "uskup",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "gumulcine",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "ergiri",
+       "v": "AB",
+       "own": true
+      },
+      {
+       "t": "prov",
        "id": "iskodra",
        "v": "AB",
        "own": true
@@ -31364,6 +31963,36 @@
        "t": "prov",
        "id": "kosova",
        "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "uskup",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "gumulcine",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "ergiri",
+       "v": "AB",
        "own": true
       },
       {
@@ -31465,6 +32094,36 @@
        "t": "prov",
        "id": "kosova",
        "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "uskup",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kesriye",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "gumulcine",
+       "v": "BU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "ergiri",
+       "v": "AB",
        "own": true
       },
       {
@@ -31946,6 +32605,12 @@
        "own": true
       },
       {
+       "t": "prov",
+       "id": "serez",
+       "v": "YU",
+       "own": true
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": 8
@@ -31985,6 +32650,12 @@
        "t": "prov",
        "id": "edirne",
        "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "serez",
+       "v": "YU",
        "own": true
       },
       {
@@ -32534,7 +33205,7 @@
   {
    "id": "k_harp",
    "file": "GD 02 Sistemler",
-   "line": 356,
+   "line": 361,
    "date": {
     "y": 1914,
     "m": 1,
@@ -32581,7 +33252,7 @@
   {
    "id": "m_cokus",
    "file": "GD 02 Sistemler",
-   "line": 480,
+   "line": 485,
    "date": {
     "y": 1914,
     "m": 1,
@@ -33393,7 +34064,7 @@
   {
    "id": "hamid_1914_temmuz",
    "file": "GD 1914",
-   "line": 356,
+   "line": 357,
    "date": {
     "y": 1914,
     "m": 7,
@@ -33658,7 +34329,7 @@
   {
    "id": "hamid_harp_karari",
    "file": "GD 1914",
-   "line": 370,
+   "line": 371,
    "date": {
     "y": 1914,
     "m": 8,
@@ -35219,7 +35890,7 @@
   {
    "id": "hamid_1914_kafkas",
    "file": "GD 1914",
-   "line": 384,
+   "line": 385,
    "date": {
     "y": 1914,
     "m": 11,
@@ -35349,7 +36020,7 @@
   {
    "id": "hamid_1914_tarafsiz",
    "file": "GD 1914",
-   "line": 395,
+   "line": 396,
    "date": {
     "y": 1914,
     "m": 11,
@@ -36341,6 +37012,30 @@
      "hint": null,
      "effects": [
       {
+       "t": "if",
+       "cond": {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "kars",
+        "eq": true,
+        "val": "OS"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "kars",
+         "v": "RU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "batum",
+         "v": "RU",
+         "own": false
+        }
+       ]
+      },
+      {
        "t": "pop",
        "g": "turk",
        "d": -3.0,
@@ -36391,6 +37086,30 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "if",
+       "cond": {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "kars",
+        "eq": true,
+        "val": "OS"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "kars",
+         "v": "RU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "batum",
+         "v": "RU",
+         "own": false
+        }
+       ]
+      },
       {
        "t": "pop",
        "g": "turk",
@@ -36447,6 +37166,30 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "if",
+       "cond": {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "kars",
+        "eq": true,
+        "val": "OS"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "kars",
+         "v": "RU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "batum",
+         "v": "RU",
+         "own": false
+        }
+       ]
+      },
       {
        "t": "pop",
        "g": "turk",
@@ -36654,7 +37397,7 @@
   {
    "id": "k_cokus_agir",
    "file": "GD 02 Sistemler",
-   "line": 361,
+   "line": 366,
    "date": {
     "y": 1915,
     "m": 1,
@@ -36721,7 +37464,7 @@
   {
    "id": "k_cokus",
    "file": "GD 02 Sistemler",
-   "line": 366,
+   "line": 371,
    "date": {
     "y": 1915,
     "m": 1,
@@ -36788,7 +37531,7 @@
   {
    "id": "k_cokus_deniz",
    "file": "GD 02 Sistemler",
-   "line": 371,
+   "line": 376,
    "date": {
     "y": 1915,
     "m": 1,
@@ -38852,6 +39595,30 @@
      "hint": null,
      "effects": [
       {
+       "t": "if",
+       "cond": {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "kars",
+        "eq": true,
+        "val": "OS"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "kars",
+         "v": "RU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "batum",
+         "v": "RU",
+         "own": false
+        }
+       ]
+      },
+      {
        "t": "pop",
        "g": "turk",
        "d": -30.0,
@@ -38896,6 +39663,30 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "if",
+       "cond": {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "kars",
+        "eq": true,
+        "val": "OS"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "kars",
+         "v": "RU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "batum",
+         "v": "RU",
+         "own": false
+        }
+       ]
+      },
       {
        "t": "pop",
        "g": "turk",
@@ -39150,7 +39941,7 @@
   {
    "id": "hamid_karadeniz_cikarma",
    "file": "GD 1915",
-   "line": 221,
+   "line": 222,
    "date": {
     "y": 1915,
     "m": 11,
@@ -39346,7 +40137,7 @@
   {
    "id": "k_suriye",
    "file": "GD 02 Sistemler",
-   "line": 386,
+   "line": 391,
    "date": {
     "y": 1916,
     "m": 1,
@@ -39708,7 +40499,7 @@
   {
    "id": "kafkas_ileri",
    "file": "GD 1916",
-   "line": 55,
+   "line": 56,
    "date": {
     "y": 1916,
     "m": 2,
@@ -39841,7 +40632,7 @@
   {
    "id": "hamid_trabzon_dustu",
    "file": "GD 1916",
-   "line": 194,
+   "line": 195,
    "date": {
     "y": 1916,
     "m": 2,
@@ -40016,6 +40807,30 @@
      "hint": null,
      "effects": [
       {
+       "t": "if",
+       "cond": {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "kars",
+        "eq": true,
+        "val": "OS"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "kars",
+         "v": "RU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "batum",
+         "v": "RU",
+         "own": false
+        }
+       ]
+      },
+      {
        "t": "pop",
        "g": "turk",
        "d": -30.0,
@@ -40061,6 +40876,30 @@
      "hint": null,
      "effects": [
       {
+       "t": "if",
+       "cond": {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "kars",
+        "eq": true,
+        "val": "OS"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "kars",
+         "v": "RU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "batum",
+         "v": "RU",
+         "own": false
+        }
+       ]
+      },
+      {
        "t": "pop",
        "g": "turk",
        "d": -30.0,
@@ -40104,7 +40943,7 @@
   {
    "id": "goltz_olum",
    "file": "GD 1916",
-   "line": 67,
+   "line": 68,
    "date": {
     "y": 1916,
     "m": 4,
@@ -40196,7 +41035,7 @@
   {
    "id": "trabzon_1916",
    "file": "GD 1916",
-   "line": 77,
+   "line": 78,
    "date": {
     "y": 1916,
     "m": 4,
@@ -40348,7 +41187,7 @@
   {
    "id": "kut_zafer",
    "file": "GD 1916",
-   "line": 89,
+   "line": 90,
    "date": {
     "y": 1916,
     "m": 4,
@@ -40450,7 +41289,7 @@
   {
    "id": "sykes_picot",
    "file": "GD 1916",
-   "line": 99,
+   "line": 100,
    "date": {
     "y": 1916,
     "m": 5,
@@ -40549,7 +41388,7 @@
   {
    "id": "avrupa_tumenleri",
    "file": "GD 1916",
-   "line": 110,
+   "line": 111,
    "date": {
     "y": 1916,
     "m": 5,
@@ -40646,7 +41485,7 @@
   {
    "id": "arap_isyani",
    "file": "GD 1916",
-   "line": 130,
+   "line": 131,
    "date": {
     "y": 1916,
     "m": 6,
@@ -40800,7 +41639,7 @@
   {
    "id": "arap_isyani_onlendi",
    "file": "GD 1916",
-   "line": 141,
+   "line": 142,
    "date": {
     "y": 1916,
     "m": 6,
@@ -40921,7 +41760,7 @@
   {
    "id": "milli_iktisat",
    "file": "GD 1916",
-   "line": 152,
+   "line": 153,
    "date": {
     "y": 1916,
     "m": 6,
@@ -41009,7 +41848,7 @@
   {
    "id": "hamid_bogaz_filosu",
    "file": "GD 1916",
-   "line": 205,
+   "line": 206,
    "date": {
     "y": 1916,
     "m": 6,
@@ -41113,7 +41952,7 @@
   {
    "id": "galicya",
    "file": "GD 1916",
-   "line": 120,
+   "line": 121,
    "date": {
     "y": 1916,
     "m": 6,
@@ -41215,7 +42054,7 @@
   {
    "id": "suveys_2",
    "file": "GD 1916",
-   "line": 162,
+   "line": 163,
    "date": {
     "y": 1916,
     "m": 8,
@@ -41307,7 +42146,7 @@
   {
    "id": "mus_bitlis",
    "file": "GD 1916",
-   "line": 172,
+   "line": 173,
    "date": {
     "y": 1916,
     "m": 8,
@@ -41416,7 +42255,7 @@
   {
    "id": "medine_mudafaa",
    "file": "GD 1916",
-   "line": 182,
+   "line": 183,
    "date": {
     "y": 1916,
     "m": 9,

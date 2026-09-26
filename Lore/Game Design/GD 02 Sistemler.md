@@ -236,6 +236,11 @@ Ayastefanos'un doğurduğu prenslik, Balkan Harbi'nin Çatalca'ya dayanan ordusu
 Balkan Harbi'nin sonunda Londra'da bağımsızlığı tanınan prenslik.
 > Kaynak: [[Arnavutluk]]
 
+### Devlet · Cebel-i Şammar
+`devlet: RS` · `ad: Cebel-i Şammar Emirliği (Reşidîler)` · `konum: 41.70,27.50`
+Hâil merkezli, İstanbul'a bağlı Reşidî emirliği; Necd'de Suudlarla yarışır. Büyük Harp'te Osmanlı'nın yanında kalır.
+> Kaynak: [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 200|Cemal Paşa, *Hatıralar*, p. 200]] · *Türk kaynağı*
+
 ### Devlet · Mısır
 `devlet: MI` · `ad: Mısır Hıdivliği` · `konum: 31.24,30.04`
 Kâğıt üstünde Osmanlı, 1882'den sonra fiilen İngiliz.

@@ -63,6 +63,8 @@ var mode := "serbest"               # "tarihi" hides alternatif events and optio
 var _acting := ""                   # title of the event whose effects are being applied (for the chronicle)
 var front_log: Dictionary = {}      # front id -> [{y, m, d, by}]: every change to the front's balance and its cause
 var population: Dictionary = {}     # province -> {group: thousands}, changed by 👥 effects and cessions
+var front_taken: Dictionary = {}    # front id -> {"last": month key, "provs": [provinces the enemy took on its own]}
+const BORDER_EVERY := 6             # months between two provinces lost (or won back) by a front's own course
 const DRIFT_BY := "Cephenin kendi seyri"
 
 
@@ -136,6 +138,7 @@ func new_game(game_mode := "serbest") -> void:
 	chronicle.clear()
 	slot_done.clear()
 	front_log.clear()
+	front_taken.clear()
 	population = pop_start.duplicate(true)
 	year = START.x
 	month = START.y
@@ -526,6 +529,37 @@ func _front_tick() -> void:
 		var d := clampi(roundi((ours - float(f["opposition"])) / 20.0), -1, 1)
 		if d != 0:
 			_add(str(f["value"]), d)
+		_front_border(fid)
+
+
+## A front with a `sınır` list moves the border by itself: at `yenilgi` the enemy takes the next province we
+## still hold on it, at `zafer` we take back the last one it took this way (at most one every BORDER_EVERY months).
+func _front_border(fid: String) -> void:
+	var f: Dictionary = fronts[fid]
+	var border: Array = f.get("border", [])
+	if border.is_empty() or not front_result(fid).is_empty():
+		return
+	var rec: Dictionary = front_taken.get(fid, {"last": -999, "provs": []})
+	if now_key() - int(rec["last"]) < BORDER_EVERY:
+		return
+	var v := value_of(str(f["value"]))
+	var enemy := str(f["enemy"])
+	var was := _acting
+	_acting = DRIFT_BY
+	if v <= int(f["lose"]):
+		for pid in border:
+			if province_holder(str(pid), "ctl") == "OS":
+				_set_province(str(pid), enemy, false)
+				rec["provs"].append(str(pid))
+				rec["last"] = now_key()
+				break
+	elif v >= int(f["win"]) and not rec["provs"].is_empty():
+		var pid: String = rec["provs"].pop_back()
+		if province_holder(pid, "ctl") == enemy:
+			_set_province(pid, "OS", false)
+		rec["last"] = now_key()
+	_acting = was
+	front_taken[fid] = rec
 
 
 
@@ -731,7 +765,7 @@ func save_game() -> void:
 		"flags": flags, "persona": persona, "answered": answered, "queued": queued, "dropped": dropped,
 		"history": history, "year_log": year_log, "ending": ending_id, "world": world, "owner": prov_owner, "ctl": prov_ctl,
 		"chronicle": chronicle, "slot_done": slot_done, "mode": mode, "front_log": front_log,
-		"population": population}))
+		"population": population, "front_taken": front_taken}))
 
 
 func has_save() -> bool:
@@ -777,6 +811,7 @@ func load_game() -> bool:
 	chronicle = s.get("chronicle", [])
 	slot_done = s.get("slot_done", {})
 	front_log = s.get("front_log", {})
+	front_taken = s.get("front_taken", {})
 	population = pop_start.duplicate(true)
 	population.merge(s.get("population", {}), true)
 	changed.emit()
