@@ -934,3 +934,5 @@ Images are illustrations only and are ⚠ not from vault sources.
 | Mesopotamian campaign 6th Army Siege of Kut.png | [[Siege of Kut (1916)]] | It is government property, which original photographer may not be listed. Origin | Public domain | [link](https://commons.wikimedia.org/wiki/File:Mesopotamian_campaign_6th_Army_Siege_of_Kut.png) |
 | İngiliz Taraftarıyım.jpg | [[Sait Molla]] | Tolga Gerger | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:%22%C4%B0ngiliz_Taraftar%C4%B1y%C4%B1m%22.jpg) |
 | Talat Pasha.jpg | [[Talat Paşa]] | Neue Photographische Gesellschaft Berlin and Bain News Service, publisher | Public domain | [link](https://commons.wikimedia.org/wiki/File:Talat_Pasha.jpg) |
+| Mahmud Shevket Pasha.png | [[Mahmud Şevket Paşa]] | Boghos Tarkulian | Public domain | [link](https://commons.wikimedia.org/wiki/File:Mahmud_Shevket_Pasha.png) |
+| Mustafa Kemal 1917 (AtaturkYildirim, kırpılmış).jpg | [[Mustafa Kemal Atatürk]] | Unknown author (kırpma: AtaturkYildirim.jpg) | Public domain | [link](https://commons.wikimedia.org/wiki/File:AtaturkYildirim.jpg) |

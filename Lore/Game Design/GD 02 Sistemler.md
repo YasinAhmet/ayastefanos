@@ -54,7 +54,7 @@ Masadaki Payitaht düğmesi hükümdarı ve üç nazırı gösterir. Bir nazır�
 > Kaynak: [[Abdülhamid II]] · [[Enver (Murat Bardakçı)#p. 62|Bardakçı, *Enver*, p. 62]] · *Türk kaynağı* · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 654|Mantran, *Osmanlı İmparatorluğu Tarihi*, p. 654]] · *Fransız kaynağı*
 
 ### Kişi · Talat
-`kişi: talat` · `unvan: Talat Bey, Dahiliye Nazırı (1917'den Sadrazam Talat Paşa)` · `rol: hükümdar`
+`kişi: talat` · `unvan: Talat Bey, Dahiliye Nazırı (1917'den Sadrazam Talat Paşa)` · `görsel: Talat Pasha.jpg` · `rol: hükümdar`
 Edirneli bir posta memurunun oğlu; Selanik posta idaresinde memurken 1906'da Osmanlı Hürriyet Cemiyeti'ni kurar ve İttihat ve Terakki'nin sivil lideri olur. 1908'den sonra Dahiliye Nazırı, 1917–1918'de sadrazamdır. Büyük Harp'te iktidar Talat, Enver ve Cemal üçlüsündedir; iç cepheyi, iaşeyi ve 1915 tehcirini yöneten Dahiliye odur. Mütarekeden sonra bir Alman gemisiyle kaçar; 15 Mart 1921'de Berlin'de bir Ermeni tarafından vurulur.
 > Kaynak: [[Talat Paşa]] · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 766|Mantran, p. 766]] · *Fransız kaynağı* · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 98|Yalman, *Birinci Dünya Savaşı'nda Türkiye*, p. 98]] · *Türk kaynağı*
 
@@ -94,7 +94,7 @@ Selanikli iktisatçı, İttihatçıların Maliye Nazırı ve iç çevrenin en sa
 > Kaynak: [[Cavid Bey]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 88|Güneş, *Türkiye'de Hükümetler*, p. 88]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 96|Yalman, p. 96]] · *Türk kaynağı*
 
 ### Kişi · Mahmud Şevket Paşa
-`kişi: mahmud_sevket` · `unvan: Harbiye Nazırı Mahmud Şevket Paşa` · `rol: harbiye`
+`kişi: mahmud_sevket` · `unvan: Harbiye Nazırı Mahmud Şevket Paşa` · `görsel: Mahmud Shevket Pasha.png` · `rol: harbiye`
 Alman terbiyeli bir kurmay; Goltz Paşa'nın yardımcısı olarak yetişir. Nisan 1909'da 31 Mart ayaklanmasını bastıran Hareket Ordusu'nun kumandanıdır; sonra üç ordunun müfettişi ve 1910'dan Harbiye Nazırı olur. Babıâli Baskını'ndan sonra sadrazam ve Harbiye Nazırı yapılır; orduyu Alman kumandasına verme fikri Liman von Sanders heyetini doğurur. 11 Haziran 1913'te Beyazıt'ta öldürülür.
 > Kaynak: [[Mahmud Şevket Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 99|Güneş, p. 99]] · *Türk kaynağı*
 
@@ -109,7 +109,7 @@ Alman terbiyeli bir general ve erkân-ı harbiye reisi. Balkan Harbi'nden sonra,
 > Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 114|Güneş, p. 114]] · *Türk kaynağı*
 
 ### Kişi · Enver Paşa
-`kişi: enver` · `unvan: Harbiye Nazırı Enver Paşa` · `görsel: Enver Pasha 1911.jpg` · `rol: harbiye`
+`kişi: enver` · `unvan: Harbiye Nazırı Enver Paşa` · `görsel: Enver Pasha 1911.jpg` · `görseller: 1914=Der türkische Kriegsminister Enver Pascha.png` · `rol: harbiye`
 1908 ihtilalinin kahraman subayı; Makedonya'daki devrimciler arasında öne çıkar, 23 Temmuz 1908'de balkondan "Hasta adamı iyileştirdik!" diye bağırır. 1909–1911'de Berlin'de ataşemiliter, 1911–1912'de Trablusgarp'ta Bingazi–Derne cephesinin kumandanıdır. Babıâli Baskını'nın ve Edirne'nin geri alınmasının kahramanı olarak Ocak 1914'te Harbiye Nazırı olur. Yalman'a göre ülkeyi harbe tek başına sürükleyen odur; Sarıkamış harekâtı da onun planıdır. Mütarekeden sonra kaçar; 1922'de Orta Asya'da ölür.
 > Kaynak: [[Enver Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 127|Güneş, p. 127]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 98|Yalman, p. 98]] · *Türk kaynağı*
 
@@ -124,7 +124,7 @@ Hüseyin Rauf (Orbay), Balkan Harbi'nin "Hamidiye kahramanı" deniz subayı. 191
 > Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 178|Güneş, p. 178]] · [[Şahbaba (Murat Bardakçı)#p. 116|Bardakçı, *Şahbaba*, p. 116]] · *Türk kaynağı*
 
 ### Kişi · Mustafa Kemal
-`kişi: mustafa_kemal` · `unvan: Mustafa Kemal Bey (Paşa)` · `görsel: Atatürk Kemal.jpg` · `rol: figür`
+`kişi: mustafa_kemal` · `unvan: Mustafa Kemal Bey (Paşa)` · `görsel: Ataturk, Ottoman War Academy, 1901.jpg` · `görseller: 1917=Mustafa Kemal 1917 (AtaturkYildirim, kırpılmış).jpg` · `rol: figür`
 Selanikli genç bir kurmay. 1905–1907'de Şam'da Vatan ve Hürriyet'i kurar, 1907 sonbaharında Selanik'te İttihat ve Terakki'ye girer ve Enver'le ilk anlaşmazlığını yaşar. Trablusgarp'ta Enver'in emrinde Derne'de, Balkan Harbi'nde Bolayır'da savaşır, 1913–1915'te Sofya'da ataşemiliterdir. Çanakkale'de Arıburnu ve Anafartalar'ın kumandanı olarak adını duyurur; 1916'da Bitlis ve Muş'u geri alır, 1917'de Cemal Paşa'yla çatışıp istifa eder. 19 Mayıs 1919'da Samsun'a çıkar.
 > Kaynak: [[Mustafa Kemal Atatürk]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 86|İnan, *Atatürk Hakkında Hatıralar ve Belgeler*, p. 86]] · [[Enver (Murat Bardakçı)#p. 115|Bardakçı, *Enver*, p. 115]] · *Türk kaynağı*
 

@@ -2,7 +2,7 @@
 
     python3 game/tools/fetch_portraits.py
 
-Each file is saved to Lore/Attachments/Images/ under its Commons name (Commons' standard 960 px
+Each file is saved to Lore/Attachments/Images/ under its Commons name (Commons' standard 500 px
 thumbnail) and gets a row in Lore/Attachments/Image credits.md (author, licence, link), like the images that
 tools/wiki_images.py fetched. Files already present are skipped. The portraits are illustrations only:
 ⚠ Not from vault sources. The kişi blocks in GD 02 name them in `görsel:` / `görseller:`.
@@ -64,7 +64,7 @@ def main():
             if os.path.exists(dest):
                 print("have", name)
                 continue
-            d = api(action="query", titles="File:" + name, prop="imageinfo", iiprop="url|extmetadata", iiurlwidth=960)  # a standard thumbnail size (https://w.wiki/GHai)
+            d = api(action="query", titles="File:" + name, prop="imageinfo", iiprop="url|extmetadata", iiurlwidth=500)  # a standard thumbnail size (https://w.wiki/GHai)
             pages = d.get("query", {}).get("pages", [])
             if not pages or "imageinfo" not in pages[0]:
                 print("MISSING on Commons:", name)
@@ -91,11 +91,11 @@ def main():
 def download(url):
     for attempt in range(6):
         try:
-            time.sleep(2.0)
+            time.sleep(15.0)  # upload.wikimedia.org rate-limits bursts
             return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=60).read()
         except Exception as e:
             print("  download retry", attempt + 1, e)
-            time.sleep(10 * (attempt + 1))
+            time.sleep(30 * (attempt + 1))
     return None
 
 
