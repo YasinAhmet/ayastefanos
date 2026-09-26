@@ -298,7 +298,7 @@ EVENT_TITLE = re.compile(r"^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?\s*·\s*(.+)$")
 OPTION = re.compile(r"^\s*(\d+)\.\s+\*\*(.+?)\*\*\s*(.*)$")
 ADVICE = re.compile(r"^(?:💬|say)\s*(?:\[eğer:\s*(.+?)\]\s*)?([^:]+):\s*(.+)$")
 IF_PREFIX = re.compile(r"^\[eğer:\s*(.+?)\]\s*")
-IF_INLINE = re.compile(r"\{eğer\s+(.+?):\s*(.*?)(?:\s*/\s*aksi:\s*(.*?))?\}")
+IF_INLINE = re.compile(r"\{eğer\s+(.+?):\s+(.*?)(?:\s*/\s*aksi:\s*(.*?))?\}")  # "il:kars" has no space after ":"
 
 
 def parse_fields(line):
@@ -469,6 +469,7 @@ def main():
         return {"cond": cond, "parts": parts}
 
     events, persons, nations, endings, landmarks = [], {}, {}, {}, {}
+    fronts = {}
     flags_set, flags_read = defaultdict(list), defaultdict(list)
     queued = defaultdict(list)
     codex_refs = set()
@@ -534,6 +535,40 @@ def main():
                 nations[fields["devlet"]] = {"id": fields["devlet"], "name": fields.get("ad", title),
                                              "short": title, "pos": pos, "text": to_bbcode(para, codex_refs),
                                              "image": image(where, fields.get("görsel"))}
+                continue
+            if "cephe" in fields and "id" not in fields:
+                title = header.split("·", 1)[-1].strip()
+                para = " ".join(l.strip() for l in body if l.strip() and not l.startswith(">"))
+                srcs = [l.strip()[1:].strip() for l in body if l.startswith(">")]
+                fid = fields["cephe"]
+                fcond = None
+                if cond_src:
+                    fcond, fl = parse_cond(where, cond_src)
+                    for f in fl:
+                        flags_read[f].append("cephe " + fid)
+                try:
+                    lon, lat = [float(x) for x in fields.get("konum", "").split(",")]
+                except ValueError:
+                    err(where, f"cephe {fid}: konum must be 'lon,lat'")
+                    lon, lat = 0.0, 0.0
+                val = resolve(fields.get("değer", ""))
+                if val is None:
+                    err(where, f"cephe {fid}: değer must be a resource")
+                strength = [resolve(x.strip()) for x in fields.get("güç", "harbiye").split(",")]
+                if None in strength:
+                    err(where, f"cephe {fid}: unknown güç value")
+                sm = re.fullmatch(r"(\d{4})-(\d{2})", fields.get("başlangıç", ""))
+                if not sm:
+                    err(where, f"cephe {fid}: başlangıç must be YYYY-MM")
+                fronts[fid] = {"id": fid, "name": title, "war": fields.get("harp", ""), "value": val,
+                               "enemy": fields.get("düşman", ""), "lonlat": [lon, lat], "cond": fcond,
+                               "start": {"y": int(sm.group(1)), "m": int(sm.group(2))} if sm else {"y": 0, "m": 1},
+                               "strength": [x for x in strength if x], "opposition": int(fields.get("karşı", "45")),
+                               "win": int(fields.get("zafer", "70")), "lose": int(fields.get("yenilgi", "25")),
+                               "provinces": [x.strip() for x in fields.get("iller", "").split(",") if x.strip()],
+                               "results": [x.strip() for x in fields.get("sonuç", "").split(",") if x.strip()],
+                               "text": to_bbcode(para, codex_refs), "sources": [to_bbcode(x) for x in srcs],
+                               "_where": where}
                 continue
             if "yer" in fields and "id" not in fields:
                 title = header.split("·", 1)[-1].strip()
@@ -755,11 +790,11 @@ def main():
         if ev["slot"]:
             slots[ev["slot"]].append(ev)
     for slot, evs in slots.items():
-        if not any(e["cond"] is None and "alternatif" not in e["tags"] for e in evs):
-            err(f"{evs[0]['file']}:{evs[0]['line']}", f"yuva '{slot}' has no unconditional historical version")
-        uncond = [i for i, e in enumerate(evs) if e["cond"] is None]
-        if uncond and uncond[0] != len(evs) - 1:
-            err(f"{evs[0]['file']}:{evs[0]['line']}", f"yuva '{slot}': the unconditional version must come last")
+        if "alternatif" in evs[-1]["tags"]:
+            err(f"{evs[-1]['file']}:{evs[-1]['line']}", f"yuva '{slot}': the last version must be the historical one")
+        for e in evs[:-1]:
+            if e["cond"] is None:
+                err(f"{e['file']}:{e['line']}", f"yuva '{slot}': only the last (historical) version may be unconditional")
         for i, e in enumerate(evs):
             e["slot_rank"] = i
     for ev in events:
@@ -778,6 +813,19 @@ def main():
     for lm in landmarks.values():
         if lm["province"] and lm["province"] not in prov_ids:
             err("GD 05", f"yer {lm['id']}: unknown il '{lm['province']}'")
+    ev_ids = {e["id"] for e in events}
+    for fr in fronts.values():
+        where = fr.pop("_where")
+        if fr["enemy"] not in nation_codes:
+            err(where, f"cephe {fr['id']}: unknown düşman '{fr['enemy']}'")
+        for p in fr["provinces"]:
+            if p not in prov_ids:
+                err(where, f"cephe {fr['id']}: unknown il '{p}'")
+        for r in fr["results"]:
+            if r not in ev_ids:
+                err(where, f"cephe {fr['id']}: unknown sonuç event '{r}'")
+        if not fr["results"]:
+            err(where, f"cephe {fr['id']}: needs sonuç events")
 
     # ---- codex from lore notes' Interesting details
     codex = {}
@@ -787,7 +835,7 @@ def main():
     # ---- write
     os.makedirs(OUT_DATA, exist_ok=True)
     data = {"version": 2, "resources": resources, "persons": persons, "nations": nations, "endings": endings,
-            "world": world, "provinces": provinces, "landmarks": landmarks,
+            "world": world, "provinces": provinces, "landmarks": landmarks, "fronts": fronts,
             "cabinets": [{"from": r["Başlangıç"], "to": r["Bitiş"], "cond": r["cond"], "ruler": r["Hükümdar"],
                           "maliye": r["Maliye"], "harbiye": r["Harbiye"], "bahriye": r["Bahriye"]} for r in cabinets],
             "events": sorted(events, key=lambda e: (e["date"]["y"], e["date"]["m"], e["date"]["d"])),
@@ -805,7 +853,7 @@ def main():
     print(f"{len(years)} years with events; {len(persons)} persons, {len(nations)} nations, {len(endings)} endings, "
           f"{len(codex)} codex entries, {len(used_images)} images")
     print(f"{len(flags_set)} flags set, {len(flags_read)} read; {len(world)} world keys, {len(provinces)} provinces, "
-          f"{len(landmarks)} landmarks, {len(slots)} slots")
+          f"{len(landmarks)} landmarks, {len(slots)} slots, {len(fronts)} fronts")
     play = [e for e in events if e["kind"] in PLAYABLE]
     opts = [o for e in play for o in e["options"] if o["label"] != "Devam."]
     stat_only = sum(all(x["t"] in ("res", "set") for x in flat_effects(o["effects"])) for o in opts)
@@ -860,7 +908,7 @@ def parse_effects(where, ev_id, segments, resolve, parse_cond, flags_set, flags_
     out = []
     for seg in segments:
         seg = seg.strip()
-        m = re.match(r"^eğer\s+(.+?):\s*(.+)$", seg)
+        m = re.match(r"^eğer\s+(.+?):\s+(.+)$", seg)
         if m:
             cond, fl = parse_cond(where, m.group(1))
             for f in fl:

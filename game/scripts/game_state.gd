@@ -33,6 +33,8 @@ var world_order: Array = []
 var provinces: Dictionary = {}      # id -> {id, name, own, ctl, region}
 var landmarks: Dictionary = {}      # id -> {id, name, province, nation, lonlat, icon, image, text, sources}
 var decisions: Array = []           # karar events
+var fronts: Dictionary = {}         # front id -> {id, name, war, value, enemy, lonlat, cond, start, strength, opposition, win, lose, provinces, results}
+var _front_by_value: Dictionary = {}  # resource id -> front id
 
 # ---- dynamic state
 var year := START.x
@@ -55,6 +57,8 @@ var chronicle: Array = []           # [{kind:"world"|"prov", key, from, to, y, m
 var slot_done: Dictionary = {}      # yuva -> true once one of its versions was answered
 var mode := "serbest"               # "tarihi" hides alternatif events and options
 var _acting := ""                   # title of the event whose effects are being applied (for the chronicle)
+var front_log: Dictionary = {}      # front id -> [{y, m, d, by}]: every change to the front's balance and its cause
+const DRIFT_BY := "Cephenin kendi seyri"
 
 
 func load_data(path := DATA_PATH) -> bool:
@@ -86,6 +90,10 @@ func load_data(path := DATA_PATH) -> bool:
 	for p in data.get("provinces", []):
 		provinces[p["id"]] = p
 	landmarks = data.get("landmarks", {})
+	fronts = data.get("fronts", {})
+	_front_by_value.clear()
+	for id in fronts:
+		_front_by_value[str(fronts[id]["value"])] = id
 	events.clear()
 	event_order.clear()
 	rules.clear()
@@ -115,6 +123,7 @@ func new_game(game_mode := "serbest") -> void:
 		prov_ctl[id] = str(provinces[id]["ctl"])
 	chronicle.clear()
 	slot_done.clear()
+	front_log.clear()
 	year = START.x
 	month = START.y
 	values.clear()
@@ -409,7 +418,77 @@ func province_change_text(c: Dictionary) -> String:
 
 func _add(id: String, d: int) -> void:
 	var lo := -50 if id == "para" else 0
-	values[id] = clampi(int(values.get(id, 0)) + d, lo, 100)
+	var before := int(values.get(id, 0))
+	values[id] = clampi(before + d, lo, 100)
+	if _front_by_value.has(id) and values[id] != before:
+		_log_front(_front_by_value[id], values[id] - before)
+
+
+## Remember what moved a front's balance: the event, or the front's own monthly course (summed per year).
+func _log_front(fid: String, d: int) -> void:
+	if not front_log.has(fid):
+		front_log[fid] = []
+	var log: Array = front_log[fid]
+	var by := _acting if _acting != "" else DRIFT_BY
+	if by == DRIFT_BY and not log.is_empty() and log[-1]["by"] == DRIFT_BY and int(log[-1]["y"]) == year:
+		log[-1]["d"] = int(log[-1]["d"]) + d
+		return
+	log.append({"y": year, "m": month, "d": d, "by": by})
+
+
+# ---------------------------------------------------------------- fronts
+
+## A front is on the map while its war is on (its condition holds) and its start date has come.
+func front_visible(fid: String) -> bool:
+	var f: Dictionary = fronts[fid]
+	if now_key() < Logic.date_key(int(f["start"]["y"]), int(f["start"]["m"])):
+		return false
+	return Logic.eval_cond(f.get("cond"), self)
+
+
+## The first of the front's result events that was answered: {id, title, option, y, m}; {} while undecided.
+func front_result(fid: String) -> Dictionary:
+	for rid in fronts[fid]["results"]:
+		if answered.has(rid):
+			for h in history:
+				if h["id"] == rid:
+					return h
+	return {}
+
+
+func front_active(fid: String) -> bool:
+	return front_visible(fid) and front_result(fid).is_empty()
+
+
+## "Who is winning" in one word, from the front's balance (0 = the enemy's, 100 = ours).
+func front_status(fid: String) -> String:
+	var v := value_of(str(fronts[fid]["value"]))
+	var f: Dictionary = fronts[fid]
+	if v >= int(f["win"]):
+		return "Osmanlı ordusu üstün"
+	if v >= 55:
+		return "Osmanlı ordusu hafif üstün"
+	if v > 45:
+		return "Denge"
+	if v > int(f["lose"]):
+		return "Düşman hafif üstün"
+	return "Düşman üstün"
+
+
+## Once a month an undecided front drifts one point toward whoever is stronger (army vs. the enemy's pressure).
+func _front_tick() -> void:
+	for fid in fronts:
+		if not front_active(fid):
+			continue
+		var f: Dictionary = fronts[fid]
+		var total := 0.0
+		for sid in f["strength"]:
+			total += value_of(str(sid))
+		var ours := total / maxf(1.0, float(f["strength"].size()))
+		var d := clampi(roundi((ours - float(f["opposition"])) / 20.0), -1, 1)
+		if d != 0:
+			_add(str(f["value"]), d)
+
 
 
 ## Move to the next month that has something on the desk, passing year turns on the way.
@@ -431,6 +510,7 @@ func advance() -> bool:
 				return true
 		else:
 			month += 1
+		_front_tick()
 		for ev in open_events():
 			if not before.has(ev["id"]):
 				changed.emit()
@@ -494,7 +574,7 @@ func save_game() -> void:
 	f.store_string(JSON.stringify({"version": SAVE_VERSION, "year": year, "month": month, "values": values,
 		"flags": flags, "persona": persona, "answered": answered, "queued": queued, "dropped": dropped,
 		"history": history, "year_log": year_log, "ending": ending_id, "world": world, "owner": prov_owner, "ctl": prov_ctl,
-		"chronicle": chronicle, "slot_done": slot_done, "mode": mode}))
+		"chronicle": chronicle, "slot_done": slot_done, "mode": mode, "front_log": front_log}))
 
 
 func has_save() -> bool:
@@ -539,5 +619,6 @@ func load_game() -> bool:
 	prov_ctl.merge(s.get("ctl", {}), true)
 	chronicle = s.get("chronicle", [])
 	slot_done = s.get("slot_done", {})
+	front_log = s.get("front_log", {})
 	changed.emit()
 	return true

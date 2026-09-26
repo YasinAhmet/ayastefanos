@@ -243,6 +243,17 @@ func _refresh_markers(open: Array) -> void:
 			dot.pressed.connect(show_place.bind(id))
 			dot.tooltip_text = str(lm["name"])
 			map.add_marker(dot, a["lonlat"], a["px"])
+	# fronts: crossed swords at the middle of each front while its war is on
+	map.highlight.clear()
+	for fid in state.fronts:
+		if not state.front_visible(fid):
+			continue
+		var f: Dictionary = state.fronts[fid]
+		var ll: Array = f["lonlat"]
+		map.add_marker(_front_marker(fid), Vector2(float(ll[0]), float(ll[1])))
+		if state.front_active(fid):
+			for pid in f["provinces"]:
+				map.highlight[pid] = Color("c0392b")
 	var porte := place_anchor("babiali")
 	map.add_marker(_ruler_medallion(), porte["lonlat"], porte["px"] + Vector2(0, 8))
 	# papers: one seal per place, with the count
@@ -277,11 +288,87 @@ func _refresh_markers(open: Array) -> void:
 			map.add_marker(nb, a["lonlat"], a["px"] + Vector2(0, 8))
 
 
+func _front_marker(fid: String) -> Control:
+	var f: Dictionary = state.fronts[fid]
+	var v := state.value_of(str(f["value"]))
+	var done := not state.front_result(fid).is_empty()
+	var c := Control.new()
+	c.custom_minimum_size = Vector2(34, 40)
+	c.size = c.custom_minimum_size
+	c.mouse_filter = Control.MOUSE_FILTER_STOP
+	c.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+	c.tooltip_text = "%s · %s\n%s" % [f["name"], f["war"], ("Sonuçlandı: " + str(state.front_result(fid)["title"])) if done else state.front_status(fid)]
+	var ours := UIKit.nation_color("OS")
+	var theirs := UIKit.nation_color(str(f["enemy"]))
+	c.draw.connect(func():
+		var ctr := Vector2(17, 15)
+		c.draw_circle(ctr, 14.0, Color(UIKit.PANEL, 0.92))
+		c.draw_arc(ctr, 14.0, 0, TAU, 32, UIKit.GOLD if not done else UIKit.MUTED, 1.5, true)
+		var steel := Color("e9dcc0") if not done else UIKit.MUTED
+		c.draw_line(ctr + Vector2(-8, -8), ctr + Vector2(8, 8), steel, 2.2, true)
+		c.draw_line(ctr + Vector2(8, -8), ctr + Vector2(-8, 8), steel, 2.2, true)
+		c.draw_line(ctr + Vector2(-9, -3), ctr + Vector2(-3, -9), steel, 1.5, true)
+		c.draw_line(ctr + Vector2(9, -3), ctr + Vector2(3, -9), steel, 1.5, true)
+		var w := 30.0
+		var split := w * clampf(v / 100.0, 0.0, 1.0)
+		c.draw_rect(Rect2(2, 33, split, 5), ours)
+		c.draw_rect(Rect2(2 + split, 33, w - split, 5), theirs)
+		c.draw_rect(Rect2(2, 33, w, 5), UIKit.BORDER, false, 1.0))
+	c.gui_input.connect(func(ev):
+		if ev is InputEventMouseButton and ev.pressed and ev.button_index == MOUSE_BUTTON_LEFT:
+			show_front(fid))
+	return c
+
+
+## The front panel: the balance of power, who is winning, what moved it and how the front ended.
+func show_front(fid: String) -> void:
+	var f: Dictionary = state.fronts[fid]
+	var enemy := _nation_name(str(f["enemy"]))
+	var body := _begin("front", fid, str(f["name"]), "%s · Devlet-i Aliyye ile %s" % [f["war"], enemy])
+	var v := state.value_of(str(f["value"]))
+	var row := UIKit.hbox(6)
+	row.add_child(UIKit.label("Osmanlı", 10, UIKit.INK))
+	var bal := UIKit.balance(v, UIKit.nation_color("OS"), UIKit.nation_color(str(f["enemy"])), 220)
+	bal.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	row.add_child(bal)
+	row.add_child(UIKit.label(enemy.split(" ")[0], 10, UIKit.INK))
+	body.add_child(row)
+	var res := state.front_result(fid)
+	if res.is_empty():
+		body.add_child(UIKit.label("%s  (%d / 100)" % [state.front_status(fid), v], 13, UIKit.GOLD))
+		body.add_child(UIKit.label("Her ay denge, ordunun gücüne göre bir puan kayar. %d ve üstü üstünlük, %d ve altı bozgun sayılır; cephe kendi sonuç olayıyla karara bağlanır." % [int(f["win"]), int(f["lose"])], 10, UIKit.MUTED, true))
+	else:
+		body.add_child(UIKit.section("Sonuç"))
+		body.add_child(UIKit.rich("[b]%s[/b] (%s) — %s" % [res["title"], Logic.date_text(int(res["y"]), int(res["m"])), EventPanel._plain(str(res["option"]))], 12))
+		if str(res.get("outcome", "")) != "":
+			body.add_child(UIKit.rich("[i]%s[/i]" % res["outcome"], 11))
+	if str(f.get("text", "")) != "":
+		body.add_child(panels._linked(f["text"], 12))
+	var log: Array = state.front_log.get(fid, [])
+	if not log.is_empty():
+		body.add_child(UIKit.section("Dengeyi değiştirenler"))
+		var rows := log.duplicate()
+		rows.reverse()
+		for e in rows:
+			var d := int(e["d"])
+			var col := "#8fbf6f" if d > 0 else "#e08070"
+			body.add_child(UIKit.rich("[color=%s]%s%d[/color]  %s [color=#ab9d82](%s)[/color]" % [col, "+" if d > 0 else "−", absi(d),
+				e["by"], Logic.date_text(int(e["y"]), int(e["m"])) if e["by"] != GameState.DRIFT_BY else str(e["y"])], 11))
+	var names: PackedStringArray = []
+	for pid in f["provinces"]:
+		names.append("%s (%s)" % [state.provinces.get(pid, {}).get("name", pid), _holder_text(pid)])
+	if not names.is_empty():
+		body.add_child(UIKit.section("Çekişilen iller"))
+		body.add_child(UIKit.label("\n".join(names), 11, UIKit.INK, true))
+	for s in f.get("sources", []):
+		body.add_child(panels._linked("[color=#ab9d82]%s[/color]" % s, 10))
+
+
 func _ruler_medallion() -> Control:
 	var r := state.ruler()
 	var box := UIKit.vbox(0)
 	box.alignment = BoxContainer.ALIGNMENT_CENTER
-	var med := UIKit.medallion(r.get("image"), 58)
+	var med := UIKit.medallion(r.get("image"), 58, _initials(str(r.get("name", ""))))
 	med.tooltip_text = "%s\nBabıâli · tıklayın: Payitaht" % str(r.get("title", ""))
 	med.mouse_filter = Control.MOUSE_FILTER_STOP
 	med.gui_input.connect(func(ev):
@@ -295,6 +382,11 @@ func _ruler_medallion() -> Control:
 	bg.add_child(name)
 	box.add_child(bg)
 	return box
+
+
+func _initials(name: String) -> String:
+	var words := name.replace("Sultan ", "").split(" ", false)
+	return words[0].substr(0, 1) if not words.is_empty() else "?"
 
 
 func _tight(c: Color) -> StyleBoxFlat:
@@ -338,6 +430,7 @@ func _reinspect() -> void:
 		"place": show_place(_inspecting["id"])
 		"province": show_province(_inspecting["id"])
 		"nation": show_nation(_inspecting["id"])
+		"front": show_front(_inspecting["id"])
 
 
 func show_place(id: String) -> void:
@@ -353,7 +446,7 @@ func show_place(id: String) -> void:
 	if id == "babiali":
 		var r := state.ruler()
 		var row := UIKit.hbox(8)
-		row.add_child(UIKit.medallion(r.get("image"), 64))
+		row.add_child(UIKit.medallion(r.get("image"), 64, _initials(str(r.get("name", "")))))
 		var col := UIKit.vbox(2)
 		col.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		col.add_child(UIKit.label(str(r.get("title", "")), 12, UIKit.INK, true))

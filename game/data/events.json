@@ -97,7 +97,7 @@
    "name": "Kafkas cephesi",
    "start": 50,
    "visible": false,
-   "desc": "Cephe durumu (harp yıllarında cephe kartında \"sağlam / sarsılıyor / çöktü\" olarak görünür)."
+   "desc": "Cephe dengesi: 0 düşmanın, 100 bizim. Harp yıllarında haritada cephe işaretinde görünür; her ay ordunun gücüne göre bir puan kayar. Bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]]."
   },
   {
    "id": "canakkale",
@@ -126,6 +126,34 @@
    "start": 50,
    "visible": false,
    "desc": "Cephe durumu."
+  },
+  {
+   "id": "tuna_93",
+   "name": "Tuna ve Balkan cephesi ('93)",
+   "start": 50,
+   "visible": false,
+   "desc": "93 Harbi'nin Rumeli cephesi (bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]])."
+  },
+  {
+   "id": "kafkas_93",
+   "name": "Kafkas cephesi ('93)",
+   "start": 50,
+   "visible": false,
+   "desc": "93 Harbi'nin doğu cephesi."
+  },
+  {
+   "id": "trablus",
+   "name": "Trablusgarp cephesi",
+   "start": 50,
+   "visible": false,
+   "desc": "1911–12 İtalya harbi."
+  },
+  {
+   "id": "trakya",
+   "name": "Trakya cephesi",
+   "start": 50,
+   "visible": false,
+   "desc": "1912–13 Balkan Harbi."
   }
  ],
  "persons": {
@@ -426,6 +454,17 @@
     44.43
    ],
    "text": "1878'e kadar kâğıt üstünde Osmanlı'ya bağlı prenslik; Ayastefanos ve Berlin'le bağımsız, Dobruca'yı alır.",
+   "image": null
+  },
+  "AB": {
+   "id": "AB",
+   "name": "Arnavutluk",
+   "short": "Arnavutluk",
+   "pos": [
+    19.82,
+    41.33
+   ],
+   "text": "Balkan Harbi'nin sonunda Londra'da bağımsızlığı tanınan prenslik.",
    "image": null
   },
   "MI": {
@@ -1426,6 +1465,479 @@
    ]
   }
  },
+ "fronts": {
+  "tuna_93": {
+   "id": "tuna_93",
+   "name": "Tuna ve Balkan",
+   "war": "93 Harbi",
+   "value": "tuna_93",
+   "enemy": "RU",
+   "lonlat": [
+    25.4,
+    43.3
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "harp_93"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     },
+     {
+      "op": "cmp",
+      "cmp": "<=",
+      "left": [
+       [
+        1,
+        "year"
+       ]
+      ],
+      "right": 1878
+     }
+    ]
+   },
+   "start": {
+    "y": 1877,
+    "m": 6
+   },
+   "strength": [
+    "harbiye"
+   ],
+   "opposition": 50,
+   "win": 65,
+   "lose": 30,
+   "provinces": [
+    "tuna",
+    "dogu_rumeli"
+   ],
+   "results": [
+    "balkan_tutuldu",
+    "plevne_dustu",
+    "edirne_mutareke"
+   ],
+   "text": "Ruslar Tuna'yı geçip Balkanlar'a yürüyor; Plevne yolun ortasında.",
+   "sources": [
+    "Kaynak: Russo-Turkish War of 1877-1878 · Siege of Plevne (1877)"
+   ]
+  },
+  "kafkas_93": {
+   "id": "kafkas_93",
+   "name": "Kafkas ('93)",
+   "war": "93 Harbi",
+   "value": "kafkas_93",
+   "enemy": "RU",
+   "lonlat": [
+    42.7,
+    40.5
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "harp_93"
+     },
+     {
+      "op": "flag",
+      "name": "harpte"
+     },
+     {
+      "op": "cmp",
+      "cmp": "<=",
+      "left": [
+       [
+        1,
+        "year"
+       ]
+      ],
+      "right": 1878
+     }
+    ]
+   },
+   "start": {
+    "y": 1877,
+    "m": 5
+   },
+   "strength": [
+    "harbiye"
+   ],
+   "opposition": 50,
+   "win": 60,
+   "lose": 30,
+   "provinces": [
+    "kars",
+    "erzurum"
+   ],
+   "results": [
+    "kars_tutuldu",
+    "kars_1877"
+   ],
+   "text": "Gazi Ahmed Muhtar Paşa Kars ile Erzurum arasında Rus kollarını karşılıyor.",
+   "sources": [
+    "Kaynak: Gazi Ahmed Muhtar Paşa · Kars"
+   ]
+  },
+  "trablus": {
+   "id": "trablus",
+   "name": "Trablusgarp",
+   "war": "Trablusgarp Harbi",
+   "value": "trablus",
+   "enemy": "IT",
+   "lonlat": [
+    17.5,
+    31.2
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "trablus_harbi"
+   },
+   "start": {
+    "y": 1911,
+    "m": 10
+   },
+   "strength": [
+    "harbiye"
+   ],
+   "opposition": 40,
+   "win": 65,
+   "lose": 30,
+   "provinces": [
+    "trablusgarp"
+   ],
+   "results": [
+    "trablus_tutuldu",
+    "usi",
+    "hamid_1912_usi"
+   ],
+   "text": "İtalyanlar kıyıda; çölde gönüllü subaylar ve aşiretler.",
+   "sources": [
+    "Kaynak: Italo-Turkish War (1911-1912) · Trablusgarp"
+   ]
+  },
+  "trakya": {
+   "id": "trakya",
+   "name": "Trakya",
+   "war": "Balkan Harbi",
+   "value": "trakya",
+   "enemy": "BU",
+   "lonlat": [
+    27.3,
+    41.55
+   ],
+   "cond": {
+    "op": "flag",
+    "name": "balkan_harbi_on"
+   },
+   "start": {
+    "y": 1912,
+    "m": 10
+   },
+   "strength": [
+    "harbiye"
+   ],
+   "opposition": 50,
+   "win": 60,
+   "lose": 30,
+   "provinces": [
+    "edirne",
+    "istanbul"
+   ],
+   "results": [
+    "edirne_tutuldu",
+    "edirne_dustu",
+    "hamid_1913_londra"
+   ],
+   "text": "Kırkkilise, Lüleburgaz, Çatalca; ve kuşatılmış Edirne.",
+   "sources": [
+    "Kaynak: Edirne"
+   ]
+  },
+  "kafkas": {
+   "id": "kafkas",
+   "name": "Kafkas",
+   "war": "Büyük Harp",
+   "value": "kafkas",
+   "enemy": "RU",
+   "lonlat": [
+    42.4,
+    40.2
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "harpte"
+     },
+     {
+      "op": "or",
+      "args": [
+       {
+        "op": "flag",
+        "name": "yol_ittihat"
+       },
+       {
+        "op": "flag",
+        "name": "yol_hamid"
+       }
+      ]
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "mondros"
+      }
+     }
+    ]
+   },
+   "start": {
+    "y": 1914,
+    "m": 11
+   },
+   "strength": [
+    "harbiye",
+    "dogu_hazirligi"
+   ],
+   "opposition": 45,
+   "win": 65,
+   "lose": 30,
+   "provinces": [
+    "kars",
+    "erzurum"
+   ],
+   "results": [
+    "sarikamis_zafer",
+    "kafkas_bahar_zafer",
+    "sarikamis_felaket",
+    "kafkas_cikmaz",
+    "hamid_erzurum_dustu"
+   ],
+   "text": "Sarıkamış'ın karlı dağları; Erzurum'un ardında beş yüz kilometrelik bir ikmal yolu.",
+   "sources": [
+    "Kaynak: Sarıkamış Operation (1914-1915)"
+   ]
+  },
+  "canakkale": {
+   "id": "canakkale",
+   "name": "Çanakkale",
+   "war": "Büyük Harp",
+   "value": "canakkale",
+   "enemy": "IN",
+   "lonlat": [
+    26.3,
+    40.15
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "harpte"
+     },
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "mondros"
+      }
+     }
+    ]
+   },
+   "start": {
+    "y": 1915,
+    "m": 2
+   },
+   "strength": [
+    "harbiye",
+    "bahriye"
+   ],
+   "opposition": 45,
+   "win": 65,
+   "lose": 30,
+   "provinces": [
+    "edirne",
+    "hudavendigar"
+   ],
+   "results": [
+    "gelibolu_tahliye"
+   ],
+   "text": "Boğaz'ın tabyaları, sonra Gelibolu'nun siperleri.",
+   "sources": [
+    "Kaynak: Çanakkale and Gelibolu"
+   ]
+  },
+  "irak": {
+   "id": "irak",
+   "name": "Irak",
+   "war": "Büyük Harp",
+   "value": "irak",
+   "enemy": "IN",
+   "lonlat": [
+    46.2,
+    31.6
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "harpte"
+     },
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "mondros"
+      }
+     }
+    ]
+   },
+   "start": {
+    "y": 1914,
+    "m": 11
+   },
+   "strength": [
+    "harbiye"
+   ],
+   "opposition": 40,
+   "win": 65,
+   "lose": 30,
+   "provinces": [
+    "basra",
+    "bagdat"
+   ],
+   "results": [
+    "bagdat_tutuldu",
+    "bagdat_dustu"
+   ],
+   "text": "Basra'dan Dicle boyunca Bağdat'a.",
+   "sources": [
+    "Kaynak: Bağdat · Basra"
+   ]
+  },
+  "filistin": {
+   "id": "filistin",
+   "name": "Filistin ve Süveyş",
+   "war": "Büyük Harp",
+   "value": "filistin",
+   "enemy": "IN",
+   "lonlat": [
+    33.6,
+    30.9
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "harpte"
+     },
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "mondros"
+      }
+     }
+    ]
+   },
+   "start": {
+    "y": 1915,
+    "m": 1
+   },
+   "strength": [
+    "harbiye"
+   ],
+   "opposition": 45,
+   "win": 65,
+   "lose": 30,
+   "provinces": [
+    "kudus",
+    "misir"
+   ],
+   "results": [
+    "kudus_tutuldu",
+    "kudus_dustu"
+   ],
+   "text": "Sina çölü, Süveyş Kanalı, sonra Gazze ve Kudüs.",
+   "sources": [
+    "Kaynak: Süveyş Kanalı · Kudüs"
+   ]
+  },
+  "hicaz": {
+   "id": "hicaz",
+   "name": "Hicaz",
+   "war": "Büyük Harp",
+   "value": "hicaz",
+   "enemy": "AR",
+   "lonlat": [
+    39.6,
+    24.5
+   ],
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "harpte"
+     },
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "flag",
+      "name": "arap_isyani"
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "mondros"
+      }
+     }
+    ]
+   },
+   "start": {
+    "y": 1916,
+    "m": 6
+   },
+   "strength": [
+    "harbiye"
+   ],
+   "opposition": 45,
+   "win": 65,
+   "lose": 30,
+   "provinces": [
+    "hicaz"
+   ],
+   "results": [
+    "arap_isyani_onlendi",
+    "medine_mudafaa"
+   ],
+   "text": "Şerif Hüseyin'in isyanı; Medine'de Fahreddin Paşa.",
+   "sources": [
+    "Kaynak: Hicaz · Medine"
+   ]
+  }
+ },
  "cabinets": [
   {
    "from": "1873-01",
@@ -1561,7 +2073,7 @@
   {
    "id": "k_gelir",
    "file": "GD 02 Sistemler",
-   "line": 242,
+   "line": 251,
    "date": {
     "y": 1873,
     "m": 1,
@@ -1604,7 +2116,7 @@
   {
    "id": "k_dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 256,
+   "line": 265,
    "date": {
     "y": 1873,
     "m": 1,
@@ -1656,7 +2168,7 @@
   {
    "id": "k_bahriye_bakim",
    "file": "GD 02 Sistemler",
-   "line": 276,
+   "line": 285,
    "date": {
     "y": 1873,
     "m": 1,
@@ -1710,7 +2222,7 @@
   {
    "id": "dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 338,
+   "line": 347,
    "date": {
     "y": 1873,
     "m": 1,
@@ -1922,7 +2434,7 @@
   {
    "id": "m_para",
    "file": "GD 02 Sistemler",
-   "line": 374,
+   "line": 383,
    "date": {
     "y": 1873,
     "m": 1,
@@ -1961,7 +2473,7 @@
   {
    "id": "m_avrupa",
    "file": "GD 02 Sistemler",
-   "line": 379,
+   "line": 388,
    "date": {
     "y": 1873,
     "m": 1,
@@ -2861,7 +3373,7 @@
   {
    "id": "k_iflas",
    "file": "GD 02 Sistemler",
-   "line": 246,
+   "line": 255,
    "date": {
     "y": 1875,
     "m": 1,
@@ -4979,6 +5491,16 @@
       {
        "t": "queue",
        "id": "butce_1877"
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": 3
+      },
+      {
+       "t": "res",
+       "id": "kafkas_93",
+       "d": 3
       }
      ],
      "outcome": "Mebuslar ayakta alkışladı. Harbiye talebesi gönüllü yazılmak için sırada.",
@@ -5018,6 +5540,16 @@
       {
        "t": "queue",
        "id": "butce_1877"
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": -4
+      },
+      {
+       "t": "res",
+       "id": "kafkas_93",
+       "d": -4
       }
      ],
      "outcome": "Cephe paşaları raporlarını önce Yıldız'a yollayacak; kurultay görüşecek, siz onaylayacaksınız, emir telgrafla dönecek. Bu harpte 37.000'den fazla telgraf çekilecek.",
@@ -5057,6 +5589,16 @@
       {
        "t": "queue",
        "id": "butce_1877"
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": 6
+      },
+      {
+       "t": "res",
+       "id": "kafkas_93",
+       "d": 6
       }
      ],
      "outcome": "Karar artık cephenin. Yıldız'da bazıları bir paşanın bu kadar güç toplamasından hoşlanmıyor.",
@@ -5138,6 +5680,11 @@
        "t": "flag",
        "name": "tuna_takviye",
        "on": true
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": 10
       }
      ],
      "outcome": "Rusçuk'tan Vidin'e taburlar dolduruluyor.",
@@ -5163,6 +5710,11 @@
        "t": "flag",
        "name": "kafkas_takviye",
        "on": true
+      },
+      {
+       "t": "res",
+       "id": "kafkas_93",
+       "d": 12
       }
      ],
      "outcome": "Erzurum ve Kars depolarına kış erzakı gidiyor.",
@@ -5188,6 +5740,16 @@
        "t": "flag",
        "name": "filo_takviye",
        "on": true
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": 4
+      },
+      {
+       "t": "res",
+       "id": "kafkas_93",
+       "d": 3
       }
      ],
      "outcome": "Kazanlar yakıldı; Hobart Paşa Sünne'ye gidiyor.",
@@ -5286,6 +5848,11 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 2
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": -10
       }
      ],
      "outcome": "Ruslar geçişi tamamlayıp Bulgaristan'da rahatça ilerliyor: 7 Temmuz'da Tırnova, 16 Temmuz'da Niğbolu düştü.",
@@ -5314,6 +5881,11 @@
        "t": "res",
        "id": "jon_turk",
        "d": 2
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": 6
       }
      ],
      "outcome": "Taburlar köprübaşına yüklendi; Ruslar birkaç hafta sarsıldı ama geçişi tamamladı.",
@@ -5337,6 +5909,11 @@
        "t": "res",
        "id": "harbiye",
        "d": 2
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": 3
       }
      ],
      "outcome": "Gemiler birkaç dubayı batırdı; Ruslar nehri mayın ve torpidoyla kapattı. Geçiş birkaç gün gecikti.",
@@ -5368,7 +5945,7 @@
    "cond_src": "⚑harp_93",
    "slot": null,
    "thread": null,
-   "place": null,
+   "place": "plevne",
    "text": [
     "Efendimiz, Vidin'den doğuya yürüyen [url=codex:Gazi Osman Paşa]Osman Paşa[/url]'nın ordusu Plevne'de durdu ve Rusların önünü kesti. Askerlik gözüyle önemsiz, kullanışsız bir mevzi; savunanlar saldıranların dörtte biri kadar. Ama Osman Paşa'nın askerleri toprak tabyalar kazıyor, Rus hücumları birbiri ardından geri dönüyor. [url=codex:Siege of Plevne (1877)]Plevne kuşatması[/url] başladı.",
     "Plevne tutulursa Rus ordusunun yolu Balkanlar'dan önce burada tıkanır. Ama kuşatılan bir ordu er geç erzakını bitirir; öteki Osmanlı komutanları da Osman Paşa'nın planına ahenkle katılmıyor."
@@ -5415,6 +5992,11 @@
        "t": "flag",
        "name": "plevne_tutuldu",
        "on": true
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": 8
       }
      ],
      "outcome": "Plevne tutuluyor. Avrupa gazeteleri her gün bu kasabanın adını yazıyor.",
@@ -5450,6 +6032,11 @@
        "t": "flag",
        "name": "plevne_tutuldu",
        "on": true
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": 12
       }
      ],
      "outcome": "Kollar kuşatma çemberinden geçti; Plevne kışa kadar dayanabilecek.",
@@ -5475,6 +6062,11 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 3
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": -8
       }
      ],
      "outcome": "Ordu kurtuldu, ama Rus ordusunun önünde artık tek bir engel yok.",
@@ -5544,6 +6136,11 @@
        "t": "res",
        "id": "harbiye",
        "d": 3
+      },
+      {
+       "t": "res",
+       "id": "kafkas_93",
+       "d": 5
       }
      ],
      "outcome": "25 Ağustos'ta tümen ve Müslüman aileler gemilere yüklendi, Batum'a sağ salim varıldı.",
@@ -5581,6 +6178,11 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 3
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": 4
       }
      ],
      "outcome": "Zırhlılar Kırım kıyılarını dövdü; bir gemi mayına çarptı. İstanbul'daki alay bir haftalığına sustu.",
@@ -5732,9 +6334,129 @@
    ]
   },
   {
-   "id": "kars_1877",
+   "id": "kars_tutuldu",
    "file": "GD 1877",
    "line": 120,
+   "date": {
+    "y": 1877,
+    "m": 11,
+    "d": 18
+   },
+   "title": "Kars tutuluyor",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif"
+   ],
+   "nation": "RU",
+   "image": "res://game/assets/images/Gazi_ahmed_muhtar_pasa_1_603edc.jpg",
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "harp_93"
+     },
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "kafkas_93"
+       ]
+      ],
+      "right": 60
+     }
+    ]
+   },
+   "cond_src": "⚑harp_93 & kafkas_93 >= 60",
+   "slot": "kars_1877",
+   "thread": null,
+   "place": "kars",
+   "text": [
+    "Efendimiz, doğudan iyi haber. [url=codex:Gazi Ahmed Muhtar Paşa]Gazi Ahmed Muhtar Paşa[/url] yaz boyunca Rusları Zivin'de, Gedikler'de, Yahniler'de geri püskürttü; bu kez Alacadağ'dan gelen Rus hücumu da tabyaların önünde durdu. Kış erzakı Kars'ın depolarında, takviye kolları Erzurum yolunda. Melikov kuşatmayı kaldırıp baharı bekleyecek."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Efendimiz, Kars kışı çıkarırsa doğuda Rus'un eli boş kalır."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Tarihte Kars 18 Kasım 1877'de düştü: Kars · Gazi Ahmed Muhtar Paşa"
+   ],
+   "options": [
+    {
+     "label": "Muhtar Paşa'yı Gazi ilan et; kışı Kars'ta geçirsin.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 3
+      },
+      {
+       "t": "res",
+       "id": "jon_turk",
+       "d": 2
+      },
+      {
+       "t": "res",
+       "id": "kafkas_93",
+       "d": 5
+      },
+      {
+       "t": "flag",
+       "name": "kars_tutuldu",
+       "on": true
+      }
+     ],
+     "outcome": "Kars'ın burçlarında ay yıldızlı bayrak. Muhtar Paşa'nın adı İstanbul'da her ağızda.",
+     "alt": false
+    },
+    {
+     "label": "Kars'ta yeterli kuvvet bırak, fazlasını Rumeli'ye gönder.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": 3
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": 6
+      },
+      {
+       "t": "res",
+       "id": "kafkas_93",
+       "d": -5
+      },
+      {
+       "t": "flag",
+       "name": "kars_tutuldu",
+       "on": true
+      }
+     ],
+     "outcome": "Kafkas'tan gelen taburlar Balkanlar'a yürüyor; Kars'ta ancak kışı çıkaracak kadar asker kaldı.",
+     "alt": false
+    }
+   ],
+   "slot_rank": 0
+  },
+  {
+   "id": "kars_1877",
+   "file": "GD 1877",
+   "line": 129,
    "date": {
     "y": 1877,
     "m": 11,
@@ -5753,9 +6475,9 @@
     "name": "harp_93"
    },
    "cond_src": "⚑harp_93",
-   "slot": null,
+   "slot": "kars_1877",
    "thread": null,
-   "place": null,
+   "place": "kars",
    "text": [
     "Efendimiz, doğudan kara haber. [url=codex:Gazi Ahmed Muhtar Paşa]Gazi Ahmed Muhtar Paşa[/url] yaz boyunca Rusları birkaç kez geri püskürttü: Zivin'de, 24 Ağustos'ta Gedikler'de, ekimde üç gün süren Yahniler'de. Ama 15 Kasım'da Alacadağ'dan gelen Rus hücumu durdurulamadı. Muhtar Paşa [url=codex:Erzurum]Erzurum[/url]'a çekildi; [url=codex:Kars]Kars[/url] bugün düştü.",
     "Rus başkumandanı Melikov, Kars'ta ele geçirdiği yaralı Türk esirlerini barındırmak istemiyor: her birine bir battaniye ve birkaç kuruş verip onları karların üstünden yürüyerek Erzurum'a yolluyor."
@@ -5780,6 +6502,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "kars",
+       "v": "RU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -5
@@ -5803,6 +6531,12 @@
      "hint": "Alternatif tarih; Kafkas'a para ayırmıştınız",
      "effects": [
       {
+       "t": "prov",
+       "id": "kars",
+       "v": "RU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "para",
        "d": -5
@@ -5823,6 +6557,12 @@
      "hint": "Alternatif tarih",
      "effects": [
       {
+       "t": "prov",
+       "id": "kars",
+       "v": "RU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -10
@@ -5836,12 +6576,138 @@
      "outcome": "Taarruz karda boğuldu. Erzurum'un müdafileri azaldı.",
      "alt": true
     }
-   ]
+   ],
+   "slot_rank": 1
+  },
+  {
+   "id": "balkan_tutuldu",
+   "file": "GD 1877",
+   "line": 144,
+   "date": {
+    "y": 1877,
+    "m": 12,
+    "d": 10
+   },
+   "title": "Balkan hattı tutuluyor",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif"
+   ],
+   "nation": "RU",
+   "image": "res://game/assets/images/GhaziOsmanPasha_7b73f0.jpg",
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "harp_93"
+     },
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "tuna_93"
+       ]
+      ],
+      "right": 65
+     }
+    ]
+   },
+   "cond_src": "⚑harp_93 & tuna_93 >= 65",
+   "slot": "plevne_1877",
+   "thread": null,
+   "place": "plevne",
+   "text": [
+    "Efendimiz, Rus ordusu Plevne önünde beş ay oyalandı; Tuna ve Balkan hattına ayrılan taburlar Şıpka geçidini ve Balkan dağlarının güney eteklerini tutuyor. Kış bastırdı; Rus kolları dağlarda karla kapanmış yollarda ilerleyemiyor. Grandük Nikola ilkbahara kadar Balkanlar'ın kuzeyinde kalacağını Petersburg'a bildirdi."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Efendimiz, dağlar bu kış bizim. Bahar gelince masaya güçlü oturursunuz."
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "Kaime yine de düşüyor. Harbi uzatmanın da bir bedeli var."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Tarihte Plevne 10 Aralık 1877'de düştü ve Rus ordusu Ocak'ta Edirne'ye girdi: Siege of Plevne (1877) · Russo-Turkish War of 1877-1878"
+   ],
+   "options": [
+    {
+     "label": "Hattı tut; baharda mütareke iste.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 4
+      },
+      {
+       "t": "res",
+       "id": "jon_turk",
+       "d": 2
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": 5
+      },
+      {
+       "t": "flag",
+       "name": "balkan_tutuldu",
+       "on": true
+      }
+     ],
+     "outcome": "Balkanlar'ın güneyi Osmanlı. Rus murahhasları Büyük Bulgaristan'ı bu kez masaya koyamayacak.",
+     "alt": false
+    },
+    {
+     "label": "Gazi Osman Paşa'yı kurtarmak için kuzeye taarruz et.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -8
+      },
+      {
+       "t": "res",
+       "id": "tuna_93",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 3
+      },
+      {
+       "t": "flag",
+       "name": "balkan_tutuldu",
+       "on": true
+      }
+     ],
+     "outcome": "Taarruz karda durdu; ama hat bozulmadı. Osman Paşa'nın ordusu yine esir.",
+     "alt": false
+    }
+   ],
+   "slot_rank": 0
   },
   {
    "id": "plevne_dustu",
    "file": "GD 1877",
-   "line": 134,
+   "line": 154,
    "date": {
     "y": 1877,
     "m": 12,
@@ -5869,9 +6735,9 @@
     ]
    },
    "cond_src": "⚑harp_93 & ⚑plevne_tutuldu",
-   "slot": null,
+   "slot": "plevne_1877",
    "thread": null,
-   "place": null,
+   "place": "plevne",
    "text": [
     "Efendimiz, Plevne beş ay direndikten sonra teslim oldu. Gazi Osman Paşa ordusuyla birlikte Rusların elinde. Rus ordusunun önünde artık yalnız kış ve Balkan Dağları var: Sofya, Filibe, Edirne.",
     "İstanbul'da Ermeni Millet Meclisi, Patrik'in isteğiyle 7 Aralık'ta Ermenilerin de askere yazılıp harbe katılmasına karar vermişti; Plevne düşünce 18 Aralık'ta yeniden toplanıp Patrik'e rağmen bu kararı bozdu. Ordunun kalanı dağınık; ayakta kalan tek büyük kumandan Müşir Süleyman Paşa."
@@ -5963,12 +6829,13 @@
      "outcome": "Süleyman Paşa kuvvetleri topladı; Rus ilerleyişi yavaşladı ama durmadı.",
      "alt": true
     }
-   ]
+   ],
+   "slot_rank": 1
   },
   {
    "id": "k_halic",
    "file": "GD 02 Sistemler",
-   "line": 271,
+   "line": 280,
    "date": {
     "y": 1878,
     "m": 1,
@@ -6014,7 +6881,7 @@
   {
    "id": "k_jurnal",
    "file": "GD 02 Sistemler",
-   "line": 281,
+   "line": 290,
    "date": {
     "y": 1878,
     "m": 1,
@@ -6087,7 +6954,7 @@
   {
    "id": "m_hakimiyet",
    "file": "GD 02 Sistemler",
-   "line": 357,
+   "line": 366,
    "date": {
     "y": 1878,
     "m": 1,
@@ -6140,7 +7007,7 @@
   {
    "id": "m_jon_turk",
    "file": "GD 02 Sistemler",
-   "line": 363,
+   "line": 372,
    "date": {
     "y": 1878,
     "m": 1,
@@ -6191,7 +7058,7 @@
   {
    "id": "m_halic",
    "file": "GD 02 Sistemler",
-   "line": 368,
+   "line": 377,
    "date": {
     "y": 1878,
     "m": 1,
@@ -6635,7 +7502,16 @@
    "place": "ayastefanos",
    "text": [
     "Efendimiz, Grandük Nikola genel karargâhını Ayastefanos'ta, [url=codex:Yeşilköy (Ayastefanos)]Yeşilköy[/url]'de kurdu: İstanbul'un kapısında, banliyö treninin durduğu sahil kasabasında. Grandük çara telgraf çekti; askerleri Ayasofya'nın kubbesini görüyor, şehri yedi bin kayıpla alabileceğini yazıyor ve işgal edip etmemeyi soruyor. Cevap gelmedi; çar İstanbul'un işgal edilmeyeceğine söz vermiş. Ama kimi Rus generalleri Türkiye'yi Avrupa haritasından silmekten söz ediyor.",
-    "Murahhaslarımız Rus karargâhında. Önlerine konan, çarın ileri sürdüğü şartlar: Romanya, Sırbistan ve Karadağ'ın bağımsızlığı; Karadeniz'den Ege'ye ve Arnavutluk dağlarına uzanan özerk bir Bulgaristan; Bosna-Hersek'te, Epir ve Teselya'da ıslahat; doğu vilayetlerinde Ermeniler için tedbirler; harp tazminatı olarak Dobruca'nın büyük kısmı, Tuna adaları, Kars, Ardahan, Batum, Artvin ve 400 milyon ruble. İstanbul'da bir altın lira 350 kuruş kaimeye çıktı. İngiliz donanması İstanbul önünde demirli."
+    "Murahhaslarımız Rus karargâhında. Önlerine konan, çarın ileri sürdüğü şartlar: Romanya, Sırbistan ve Karadağ'ın bağımsızlığı; Karadeniz'den Ege'ye ve Arnavutluk dağlarına uzanan özerk bir Bulgaristan; Bosna-Hersek'te, Epir ve Teselya'da ıslahat; doğu vilayetlerinde Ermeniler için tedbirler; harp tazminatı olarak Dobruca'nın büyük kısmı, Tuna adaları, Kars, Ardahan, Batum, Artvin ve 400 milyon ruble. İstanbul'da bir altın lira 350 kuruş kaimeye çıktı. İngiliz donanması İstanbul önünde demirli. [eğer: ⚑balkan_tutuldu] Ama bu kez Rus ordusu Balkanlar'ın kuzeyinde kışladı; masaya Yeşilköy'den değil, Edirne'nin önünden gelen murahhaslarla oturuluyor. Büyük Bulgaristan'ı istemek için ellerinde bir ordu yok.",
+    {
+     "cond": {
+      "op": "flag",
+      "name": "kars_tutuldu"
+     },
+     "parts": [
+      "Doğuda Kars hâlâ bizde; Rus murahhası onu kâğıt üstünde istese de Muhtar Paşa'nın burçlarından kimse inmedi."
+     ]
+    }
    ],
    "advice": [
     {
@@ -6779,7 +7655,7 @@
   {
    "id": "ayastefanos_16",
    "file": "GD 1878",
-   "line": 82,
+   "line": 85,
    "date": {
     "y": 1878,
     "m": 2,
@@ -7032,7 +7908,7 @@
   {
    "id": "ayastefanos_imza",
    "file": "GD 1878",
-   "line": 95,
+   "line": 98,
    "date": {
     "y": 1878,
     "m": 3,
@@ -7055,7 +7931,30 @@
    "place": "ayastefanos",
    "text": [
     "Efendimiz, bugün 3 Mart 1878. Murahhaslarımız Yeşilköy'de, Rus ordusunun çadırları arasında, önlerine konan metni imzalayacak. Adı Mukaddemat-ı Sulhiyye: bir ön barış. İçinde tek bir ödün yok.",
-    "İmzayla Romanya, Sırbistan ve Karadağ bağımsız oluyor. Ege'ye inen büyük bir Bulgaristan, Rumeli'deki son topraklarımızın Arnavutluk'la kara bağlantısını kesiyor. Doğuda Kars, Ardahan ve Batum Rusların. Yazlıkçıları banliyö treniyle taşıyan bu sahil kasabasının adı artık başka bir şey demek: [url=codex:Treaty of San Stefano (1878)]Ayastefanos[/url], imparatorluğun çöküş belgelerinden biri.",
+    {
+     "cond": null,
+     "parts": [
+      "İmzayla Romanya, Sırbistan ve Karadağ bağımsız oluyor. ",
+      {
+       "cond": {
+        "op": "flag",
+        "name": "balkan_tutuldu"
+       },
+       "a": "Bulgaristan Balkanlar'ın kuzeyinde kalıyor; dağların güneyini ordumuz tuttuğu için Ege'ye inen büyük Bulgaristan bu metinde yok.",
+       "b": "Ege'ye inen büyük bir Bulgaristan, Rumeli'deki son topraklarımızın Arnavutluk'la kara bağlantısını kesiyor."
+      },
+      " ",
+      {
+       "cond": {
+        "op": "flag",
+        "name": "kars_tutuldu"
+       },
+       "a": "Doğuda Ardahan ve Batum Rusların; Kars'ı Muhtar Paşa'nın askeri hâlâ tutuyor.",
+       "b": "Doğuda Kars, Ardahan ve Batum Rusların."
+      },
+      " Yazlıkçıları banliyö treniyle taşıyan bu sahil kasabasının adı artık başka bir şey demek: [url=codex:Treaty of San Stefano (1878)]Ayastefanos[/url], imparatorluğun çöküş belgelerinden biri."
+     ]
+    },
     "Tahta çıkalı on sekiz ay oldu."
    ],
    "advice": [
@@ -7100,12 +7999,6 @@
       },
       {
        "t": "prov",
-       "id": "kars",
-       "v": "RU",
-       "own": true
-      },
-      {
-       "t": "prov",
        "id": "batum",
        "v": "RU",
        "own": true
@@ -7117,16 +8010,46 @@
        "own": false
       },
       {
-       "t": "prov",
-       "id": "dogu_rumeli",
-       "v": "BU",
-       "own": false
+       "t": "if",
+       "cond": {
+        "op": "not",
+        "arg": {
+         "op": "flag",
+         "name": "kars_tutuldu"
+        }
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "kars",
+         "v": "RU",
+         "own": true
+        }
+       ]
       },
       {
-       "t": "prov",
-       "id": "manastir",
-       "v": "BU",
-       "own": false
+       "t": "if",
+       "cond": {
+        "op": "not",
+        "arg": {
+         "op": "flag",
+         "name": "balkan_tutuldu"
+        }
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "dogu_rumeli",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "manastir",
+         "v": "BU",
+         "own": false
+        }
+       ]
       },
       {
        "t": "flag",
@@ -7167,12 +8090,6 @@
       },
       {
        "t": "prov",
-       "id": "kars",
-       "v": "RU",
-       "own": true
-      },
-      {
-       "t": "prov",
        "id": "batum",
        "v": "RU",
        "own": true
@@ -7184,16 +8101,46 @@
        "own": false
       },
       {
-       "t": "prov",
-       "id": "dogu_rumeli",
-       "v": "BU",
-       "own": false
+       "t": "if",
+       "cond": {
+        "op": "not",
+        "arg": {
+         "op": "flag",
+         "name": "kars_tutuldu"
+        }
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "kars",
+         "v": "RU",
+         "own": true
+        }
+       ]
       },
       {
-       "t": "prov",
-       "id": "manastir",
-       "v": "BU",
-       "own": false
+       "t": "if",
+       "cond": {
+        "op": "not",
+        "arg": {
+         "op": "flag",
+         "name": "balkan_tutuldu"
+        }
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "dogu_rumeli",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "manastir",
+         "v": "BU",
+         "own": false
+        }
+       ]
       },
       {
        "t": "flag",
@@ -7234,12 +8181,6 @@
       },
       {
        "t": "prov",
-       "id": "kars",
-       "v": "RU",
-       "own": true
-      },
-      {
-       "t": "prov",
        "id": "batum",
        "v": "RU",
        "own": true
@@ -7251,16 +8192,46 @@
        "own": false
       },
       {
-       "t": "prov",
-       "id": "dogu_rumeli",
-       "v": "BU",
-       "own": false
+       "t": "if",
+       "cond": {
+        "op": "not",
+        "arg": {
+         "op": "flag",
+         "name": "kars_tutuldu"
+        }
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "kars",
+         "v": "RU",
+         "own": true
+        }
+       ]
       },
       {
-       "t": "prov",
-       "id": "manastir",
-       "v": "BU",
-       "own": false
+       "t": "if",
+       "cond": {
+        "op": "not",
+        "arg": {
+         "op": "flag",
+         "name": "balkan_tutuldu"
+        }
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "dogu_rumeli",
+         "v": "BU",
+         "own": false
+        },
+        {
+         "t": "prov",
+         "id": "manastir",
+         "v": "BU",
+         "own": false
+        }
+       ]
       },
       {
        "t": "flag",
@@ -7296,7 +8267,7 @@
   {
    "id": "ciragan_baskini",
    "file": "GD 1878",
-   "line": 112,
+   "line": 117,
    "date": {
     "y": 1878,
     "m": 5,
@@ -7412,7 +8383,7 @@
   {
    "id": "prizren_birligi",
    "file": "GD 1878",
-   "line": 138,
+   "line": 143,
    "date": {
     "y": 1878,
     "m": 6,
@@ -7516,7 +8487,7 @@
   {
    "id": "berlin_batum",
    "file": "GD 1878",
-   "line": 172,
+   "line": 177,
    "date": {
     "y": 1878,
     "m": 6,
@@ -7695,7 +8666,7 @@
   {
    "id": "berlin_bosna",
    "file": "GD 1878",
-   "line": 183,
+   "line": 188,
    "date": {
     "y": 1878,
     "m": 6,
@@ -7957,7 +8928,7 @@
   {
    "id": "kibris",
    "file": "GD 1878",
-   "line": 126,
+   "line": 131,
    "date": {
     "y": 1878,
     "m": 6,
@@ -8083,7 +9054,7 @@
   {
    "id": "berlin_kongresi",
    "file": "GD 1878",
-   "line": 149,
+   "line": 154,
    "date": {
     "y": 1878,
     "m": 6,
@@ -8336,7 +9307,7 @@
   {
    "id": "berlin_ermeni_maddesi",
    "file": "GD 1878",
-   "line": 203,
+   "line": 208,
    "date": {
     "y": 1878,
     "m": 7,
@@ -8472,7 +9443,7 @@
   {
    "id": "k_harbiye_curume",
    "file": "GD 02 Sistemler",
-   "line": 261,
+   "line": 270,
    "date": {
     "y": 1879,
     "m": 1,
@@ -8814,7 +9785,7 @@
   {
    "id": "m_alman",
    "file": "GD 02 Sistemler",
-   "line": 384,
+   "line": 393,
    "date": {
     "y": 1880,
     "m": 1,
@@ -8853,7 +9824,7 @@
   {
    "id": "m_ermeni",
    "file": "GD 02 Sistemler",
-   "line": 389,
+   "line": 398,
    "date": {
     "y": 1880,
     "m": 1,
@@ -8892,7 +9863,7 @@
   {
    "id": "m_arap",
    "file": "GD 02 Sistemler",
-   "line": 394,
+   "line": 403,
    "date": {
     "y": 1880,
     "m": 1,
@@ -9330,7 +10301,7 @@
   {
    "id": "k_duyun",
    "file": "GD 02 Sistemler",
-   "line": 251,
+   "line": 260,
    "date": {
     "y": 1881,
     "m": 1,
@@ -9700,7 +10671,7 @@
   {
    "id": "k_misir_osmanli",
    "file": "GD 02 Sistemler",
-   "line": 326,
+   "line": 335,
    "date": {
     "y": 1882,
     "m": 1,
@@ -10587,7 +11558,7 @@
   {
    "id": "k_goltz",
    "file": "GD 02 Sistemler",
-   "line": 266,
+   "line": 275,
    "date": {
     "y": 1883,
     "m": 1,
@@ -10650,7 +11621,7 @@
   {
    "id": "m_misir",
    "file": "GD 02 Sistemler",
-   "line": 420,
+   "line": 429,
    "date": {
     "y": 1883,
     "m": 1,
@@ -11129,7 +12100,7 @@
   {
    "id": "k_reji_milli",
    "file": "GD 02 Sistemler",
-   "line": 321,
+   "line": 330,
    "date": {
     "y": 1884,
     "m": 1,
@@ -11922,7 +12893,7 @@
   {
    "id": "m_reji",
    "file": "GD 02 Sistemler",
-   "line": 409,
+   "line": 418,
    "date": {
     "y": 1885,
     "m": 1,
@@ -11969,7 +12940,7 @@
   {
    "id": "m_reji_milli",
    "file": "GD 02 Sistemler",
-   "line": 415,
+   "line": 424,
    "date": {
     "y": 1885,
     "m": 1,
@@ -14042,7 +15013,7 @@
   {
    "id": "k_hamidiye",
    "file": "GD 02 Sistemler",
-   "line": 286,
+   "line": 295,
    "date": {
     "y": 1891,
     "m": 1,
@@ -14110,7 +15081,7 @@
   {
    "id": "k_dogu_jandarma",
    "file": "GD 02 Sistemler",
-   "line": 291,
+   "line": 300,
    "date": {
     "y": 1891,
     "m": 1,
@@ -14166,7 +15137,7 @@
   {
    "id": "m_kurt",
    "file": "GD 02 Sistemler",
-   "line": 399,
+   "line": 408,
    "date": {
     "y": 1891,
     "m": 1,
@@ -22055,7 +23026,7 @@
   {
    "id": "k_ittihat_ordu",
    "file": "GD 02 Sistemler",
-   "line": 296,
+   "line": 305,
    "date": {
     "y": 1909,
     "m": 1,
@@ -23703,7 +24674,7 @@
   {
    "id": "m_dogu",
    "file": "GD 02 Sistemler",
-   "line": 404,
+   "line": 413,
    "date": {
     "y": 1910,
     "m": 1,
@@ -24804,7 +25775,7 @@
   {
    "id": "hamid_1911_yemen",
    "file": "GD 1911",
-   "line": 77,
+   "line": 78,
    "date": {
     "y": 1911,
     "m": 6,
@@ -25010,7 +25981,7 @@
    "cond_src": "⚑yol_ittihat",
    "slot": null,
    "thread": null,
-   "place": null,
+   "place": "trablus",
    "text": [
     "Beyefendi, İtalya büyük devletlerin onayını aldıktan sonra 23 Eylül'de bir nota verdi. Nota özellikle Cemiyet'i suçluyor: İttihatçıların Trablus ve Bingazi halkını İtalyanlara karşı silahlandırdığını iddia ediyor. Bugün [url=codex:Trablusgarp]Trablusgarp[/url] için harp ilan etti.",
     "Trablus'u savunmak çok zor. Arada İngiliz yönetimindeki Mısır var; asker ancak denizden gidebilir. İtalyan donanması bizimkinden çok güçlü; Çanakkale'yi tıkamaya, adaları almaya hazır. Üstelik Mahmud Şevket Paşa kısa süre önce Trablus'tan dört tabur askeri, silah ve cephaneyi Yemen'e göndermişti. Tek umut, Trablus halkının savaşçı olması."
@@ -25043,6 +26014,11 @@
      "hint": "İtalyan donanması çok daha güçlü",
      "effects": [
       {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": true
+      },
+      {
        "t": "res",
        "id": "bahriye",
        "d": -15
@@ -25056,6 +26032,11 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 3
+      },
+      {
+       "t": "res",
+       "id": "trablus",
+       "d": 3
       }
      ],
      "outcome": "Filo ağır hasar alıp Çanakkale'ye döndü. İtalyanlar yine de Boğaz'ı tıkadı, Rodos'u ve On İki Ada'yı aldı.",
@@ -25067,6 +26048,11 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": true
+      },
       {
        "t": "res",
        "id": "para",
@@ -25081,6 +26067,11 @@
        "t": "res",
        "id": "araplar",
        "d": -2
+      },
+      {
+       "t": "res",
+       "id": "trablus",
+       "d": 10
       }
      ],
      "outcome": "Genç subaylar kılık değiştirip Mısır ve Tunus yolunu tuttu. Trablus halkı onları bekliyor.",
@@ -25093,6 +26084,11 @@
      "hint": null,
      "effects": [
       {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": true
+      },
+      {
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 5
@@ -25101,6 +26097,11 @@
        "t": "res",
        "id": "hakimiyet",
        "d": -4
+      },
+      {
+       "t": "res",
+       "id": "trablus",
+       "d": -6
       }
      ],
      "outcome": "Hiçbir başkent karışmadı; notanın onayını zaten onlar vermişti.",
@@ -25111,7 +26112,7 @@
   {
    "id": "hamid_1911_trablus",
    "file": "GD 1911",
-   "line": 87,
+   "line": 88,
    "date": {
     "y": 1911,
     "m": 9,
@@ -25134,7 +26135,7 @@
    "cond_src": "⚑yol_hamid",
    "slot": null,
    "thread": null,
-   "place": null,
+   "place": "trablus",
    "text": [
     "Efendimiz, İtalya büyük devletlerin onayını aldı ve Trablusgarp için harp ilan etti. Arada İngiliz elindeki Mısır var; Trablus'a asker ancak denizden gider. Haliç'teki zırhlıların ise kazanları yıllardır yakılmadı; Bahriye Nazırı bir filonun Çanakkale'den çıkabileceğine bile yemin edemiyor.",
     "Genç subaylar gönüllü gitmek için izin istiyor. Saray, çölde kahraman olan subayın İstanbul'a nasıl döneceğini düşünüyor."
@@ -25167,6 +26168,11 @@
      "hint": null,
      "effects": [
       {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": true
+      },
+      {
        "t": "res",
        "id": "para",
        "d": -6
@@ -25185,6 +26191,11 @@
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 2
+      },
+      {
+       "t": "res",
+       "id": "trablus",
+       "d": 4
       }
      ],
      "outcome": "Halifenin mektupları çöle ulaştı. Silahlar Mısır'da İngiliz gümrüğünde kaldı.",
@@ -25196,6 +26207,11 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": true
+      },
       {
        "t": "res",
        "id": "harbiye",
@@ -25215,6 +26231,11 @@
        "t": "res",
        "id": "araplar",
        "d": -2
+      },
+      {
+       "t": "res",
+       "id": "trablus",
+       "d": 8
       }
      ],
      "outcome": "Genç subaylar çölde çete harbi öğretiyor. Döndüklerinde onları karşılayacak kalabalıklar olacak.",
@@ -25227,6 +26248,11 @@
      "hint": null,
      "effects": [
       {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": true
+      },
+      {
        "t": "res",
        "id": "avrupa_baskisi",
        "d": 5
@@ -25235,6 +26261,11 @@
        "t": "res",
        "id": "araplar",
        "d": 3
+      },
+      {
+       "t": "res",
+       "id": "trablus",
+       "d": -6
       }
      ],
      "outcome": "Hiçbir başkent karışmadı. Trablus halkı, halifenin kendilerini bıraktığını söylüyor.",
@@ -25245,7 +26276,7 @@
   {
    "id": "trablus_gonulluler",
    "file": "GD 1911",
-   "line": 48,
+   "line": 49,
    "date": {
     "y": 1911,
     "m": 11,
@@ -25266,7 +26297,7 @@
    "cond_src": "⚑yol_ittihat",
    "slot": null,
    "thread": null,
-   "place": null,
+   "place": "trablus",
    "text": [
     "Beyefendi, resmen var olmayan bir grup Trablus'ta direnişi örgütlüyor. [url=codex:Enver Paşa]Enver Bey[/url] Bingazi–Derne cephesinin kumandanı oldu; bedevi aşiretlerini eğitip Balkanlar'da öğrendiği çete harbiyle İtalyanların iç kesimlere ilerlemesini durdurdu. [url=codex:Mustafa Kemal Atatürk]Mustafa Kemal Bey[/url] de gönüllü gitti, Bingazi kuvvetlerinin erkânıharbiye reisi. İstanbul Mısır üzerinden para gönderemediği için Enver kendi kâğıt parasını bastırdı.",
     "Hürriyet kahramanı Enver, şimdi İslam mücahidi diye anılıyor. Rumeli'deki alaylar ise en iyi subaylarını Afrika çölünde bekliyor."
@@ -25313,6 +26344,11 @@
        "t": "res",
        "id": "araplar",
        "d": -3
+      },
+      {
+       "t": "res",
+       "id": "trablus",
+       "d": 12
       }
      ],
      "outcome": "Derne'de İtalyanlar kıyıdan içeri giremedi. Enver, Talat'ın parasını unutmayacak.",
@@ -25333,6 +26369,11 @@
        "t": "res",
        "id": "enver_iliskisi",
        "d": 3
+      },
+      {
+       "t": "res",
+       "id": "trablus",
+       "d": 5
       }
      ],
      "outcome": "Enver mukavvaya mühür basıp para diye dağıttı. Çöl bu parayı kabul etti.",
@@ -25358,6 +26399,11 @@
        "t": "res",
        "id": "araplar",
        "d": 3
+      },
+      {
+       "t": "res",
+       "id": "trablus",
+       "d": -12
       }
      ],
      "outcome": "Subaylar Rumeli'de kaldı. Enver bu yasağı kimin koyduğunu biliyor; Trablus halkı yalnız kaldı.",
@@ -25368,7 +26414,7 @@
   {
    "id": "hamid_1911_bahriye",
    "file": "GD 1911",
-   "line": 101,
+   "line": 103,
    "date": {
     "y": 1911,
     "m": 11,
@@ -25502,7 +26548,7 @@
   {
    "id": "hurriyet_itilaf",
    "file": "GD 1911",
-   "line": 62,
+   "line": 63,
    "date": {
     "y": 1911,
     "m": 11,
@@ -26092,9 +27138,141 @@
    ]
   },
   {
-   "id": "usi",
+   "id": "trablus_tutuldu",
    "file": "GD 1912",
    "line": 62,
+   "date": {
+    "y": 1912,
+    "m": 10,
+    "d": 15
+   },
+   "title": "Uşi: Trablus'un içerisi bizde",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif"
+   ],
+   "nation": "IT",
+   "image": "res://game/assets/images/Ismail_Enver_Bey_in_Cyrenaica_8cdd03.jpg",
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "trablus"
+       ]
+      ],
+      "right": 65
+     }
+    ]
+   },
+   "cond_src": "⚑yol_ittihat & trablus >= 65",
+   "slot": "usi_1912",
+   "thread": null,
+   "place": "trablus",
+   "text": [
+    "Beyefendi, Karadeniz 8 Ekim'de harp ilan etti; Balkan devletlerinin de günler içinde katılacağı belli. İtalya barış istiyor, ama bir yıl sonra bile kıyıdan içeri giremedi: Derne'de, Bingazi'de, Trablus'un vahalarında gönüllü subayların eğittiği aşiretler İtalyan kollarını kıyıya sıkıştırdı. İtalyan murahhası bu kez bütün vilayeti değil, kıyıdaki kasabaları istiyor."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Beyefendi, Rumeli için subaylarımızı geri çağırmalıyız; ama çöl bizimdir."
+    },
+    {
+     "seat": "maliye",
+     "cond": null,
+     "text": "İtalya adaları da tutuyor. Onları da masaya koyalım."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Tarihte Uşi'de Trablusgarp İtalya'ya bırakıldı: Trablusgarp · Italo-Turkish War (1911-1912)"
+   ],
+   "options": [
+    {
+     "label": "Kıyıyı bırak, içerisi ve Bingazi bizde kalsın.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": false
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -3
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 3
+      },
+      {
+       "t": "res",
+       "id": "araplar",
+       "d": -3
+      },
+      {
+       "t": "prov",
+       "id": "oniki_ada",
+       "v": "IT",
+       "own": false
+      }
+     ],
+     "outcome": "Barış imzalandı. İtalyan bayrağı Trablus'un rıhtımında; çölde ve Bingazi'de hâlâ Osmanlı valisi var.",
+     "alt": false
+    },
+    {
+     "label": "Rodos'u ve adaları geri al, Trablus'u bırak.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": false
+      },
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -5
+      },
+      {
+       "t": "res",
+       "id": "bahriye",
+       "d": 3
+      },
+      {
+       "t": "prov",
+       "id": "trablusgarp",
+       "v": "IT",
+       "own": false
+      }
+     ],
+     "outcome": "İtalyan donanması Ege'den çekildi; Trablus'un bedevileri bu barışı kendilerine yapılmış bir ihanet sayacak.",
+     "alt": false
+    }
+   ],
+   "slot_rank": 0
+  },
+  {
+   "id": "usi",
+   "file": "GD 1912",
+   "line": 72,
    "date": {
     "y": 1912,
     "m": 10,
@@ -26113,9 +27291,9 @@
     "name": "yol_ittihat"
    },
    "cond_src": "⚑yol_ittihat",
-   "slot": null,
+   "slot": "usi_1912",
    "thread": null,
-   "place": null,
+   "place": "trablus",
    "text": [
     "Beyefendi, Karadağ 8 Ekim'de harp ilan etti; Bulgaristan ve Sırbistan'ın da günler içinde katılacağı belli. İki cephede birden harp edemeyiz. İtalya'yla alelacele bir barış hazır: [url=codex:Trablusgarp]Trablusgarp[/url] İtalyanlara bırakılacak. Oysa İtalyanlar Trablus'ta sahilden öteye geçemedi; iç kesimler hâlâ Osmanlı subaylarının ve bedevilerin elinde."
    ],
@@ -26141,6 +27319,23 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": false
+      },
+      {
+       "t": "prov",
+       "id": "trablusgarp",
+       "v": "IT",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "oniki_ada",
+       "v": "IT",
+       "own": false
+      },
       {
        "t": "res",
        "id": "avrupa_baskisi",
@@ -26172,6 +27367,23 @@
      "hint": null,
      "effects": [
       {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": false
+      },
+      {
+       "t": "prov",
+       "id": "trablusgarp",
+       "v": "IT",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "oniki_ada",
+       "v": "IT",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "bahriye",
        "d": -8
@@ -26190,12 +27402,13 @@
      "outcome": "İtalyan donanması Ege'yi kapalı tutuyor. Rumeli'ye asker yalnız karadan gidebiliyor.",
      "alt": false
     }
-   ]
+   ],
+   "slot_rank": 1
   },
   {
    "id": "hamid_1912_usi",
    "file": "GD 1912",
-   "line": 115,
+   "line": 127,
    "date": {
     "y": 1912,
     "m": 10,
@@ -26218,7 +27431,7 @@
    "cond_src": "⚑yol_hamid",
    "slot": null,
    "thread": null,
-   "place": null,
+   "place": "trablus",
    "text": [
     "Efendimiz, Balkan devletleri seferberlik ilan etti; Karadağ harbe başladı bile. İtalya barış için Trablusgarp'ı istiyor; Ege adaları da onların elinde. Haliç'teki donanma bir yılda tek bir kez çıkmadı."
    ],
@@ -26245,6 +27458,23 @@
      "hint": null,
      "effects": [
       {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": false
+      },
+      {
+       "t": "prov",
+       "id": "trablusgarp",
+       "v": "IT",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "oniki_ada",
+       "v": "IT",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": -4
@@ -26270,6 +27500,23 @@
      "hint": null,
      "effects": [
       {
+       "t": "flag",
+       "name": "trablus_harbi",
+       "on": false
+      },
+      {
+       "t": "prov",
+       "id": "trablusgarp",
+       "v": "IT",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "oniki_ada",
+       "v": "IT",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "bahriye",
        "d": -5
@@ -26293,7 +27540,7 @@
   {
    "id": "balkan_harbi",
    "file": "GD 1912",
-   "line": 72,
+   "line": 83,
    "date": {
     "y": 1912,
     "m": 10,
@@ -26347,6 +27594,11 @@
      "hint": null,
      "effects": [
       {
+       "t": "flag",
+       "name": "balkan_harbi_on",
+       "on": true
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -5
@@ -26360,6 +27612,11 @@
        "t": "flag",
        "name": "balkan_taarruz",
        "on": true
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": -8
       }
      ],
      "outcome": "Doğu Ordusu hudut boyunca kırk kilometrelik bir cephede ilerliyor. Tümenlerin çoğu ancak bir alay gücünde.",
@@ -26371,6 +27628,11 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "flag",
+       "name": "balkan_harbi_on",
+       "on": true
+      },
       {
        "t": "res",
        "id": "harbiye",
@@ -26385,6 +27647,11 @@
        "t": "res",
        "id": "hakimiyet",
        "d": -8
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": 6
       }
      ],
      "outcome": "Kırkkilise ve Trakya ovası savaşmadan bırakıldı; Edirne kuşatmaya kaldı. Halk hükümeti korkaklıkla suçluyor, ama ordu toplu.",
@@ -26395,7 +27662,7 @@
   {
    "id": "hamid_1912_balkan",
    "file": "GD 1912",
-   "line": 125,
+   "line": 138,
    "date": {
     "y": 1912,
     "m": 10,
@@ -26451,6 +27718,11 @@
      "hint": null,
      "effects": [
       {
+       "t": "flag",
+       "name": "balkan_harbi_on",
+       "on": true
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -15
@@ -26464,6 +27736,11 @@
        "t": "res",
        "id": "hakimiyet",
        "d": -3
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": -10
       }
      ],
      "outcome": "Kırkkilise'de, Lüleburgaz'da ordu dağıldı. Redifler tüfeksiz kaldı.",
@@ -26482,6 +27759,11 @@
      "hint": "tüfekler hâlâ depodaysa",
      "effects": [
       {
+       "t": "flag",
+       "name": "balkan_harbi_on",
+       "on": true
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -12
@@ -26495,6 +27777,11 @@
        "t": "res",
        "id": "jon_turk",
        "d": 4
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": 3
       }
      ],
      "outcome": "Tüfekler cepheye trenlerle gitti; çoğu hiç talim görmemiş ellere.",
@@ -26510,6 +27797,11 @@
      "hint": "tüfekler yıllar önce birliklere verildiyse",
      "effects": [
       {
+       "t": "flag",
+       "name": "balkan_harbi_on",
+       "on": true
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -8
@@ -26518,6 +27810,11 @@
        "t": "res",
        "id": "para",
        "d": -6
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": 6
       }
      ],
      "outcome": "Taburlar hiç değilse tüfeklerini tanıyor. Trakya yine de gitti.",
@@ -26529,6 +27826,11 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "flag",
+       "name": "balkan_harbi_on",
+       "on": true
+      },
       {
        "t": "res",
        "id": "avrupa_baskisi",
@@ -26543,6 +27845,11 @@
        "t": "res",
        "id": "harbiye",
        "d": -8
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": -6
       }
      ],
      "outcome": "Hiçbir başkent orduları durdurmadı. Islahat vaadi Sofya'da güldürdü.",
@@ -26553,7 +27860,7 @@
   {
    "id": "luleburgaz",
    "file": "GD 1912",
-   "line": 85,
+   "line": 97,
    "date": {
     "y": 1912,
     "m": 10,
@@ -26620,6 +27927,11 @@
        "t": "res",
        "id": "hakimiyet",
        "d": -5
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": -10
       }
      ],
      "outcome": "Ordu dağınık hâlde Çatalca'ya ulaştı. Trakya Bulgarların.",
@@ -26645,6 +27957,11 @@
        "t": "res",
        "id": "dogu_hazirligi",
        "d": -5
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": 8
       }
      ],
      "outcome": "Erzurum ve Anadolu tümenleri trenlere bindirildi. Çatalca tutunacak adam buldu; doğudaki depolar boşaldı.",
@@ -26671,6 +27988,11 @@
        "t": "res",
        "id": "hakimiyet",
        "d": 2
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": 12
       }
      ],
      "outcome": "Terhis edilmeyen alaylar Pınarhisar'da Bulgarları durdurdu; çekiliş bozguna dönmedi.",
@@ -26681,7 +28003,7 @@
   {
    "id": "catalca",
    "file": "GD 1912",
-   "line": 99,
+   "line": 111,
    "date": {
     "y": 1912,
     "m": 11,
@@ -26748,6 +28070,11 @@
        "t": "res",
        "id": "hakimiyet",
        "d": -5
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": 6
       }
      ],
      "outcome": "Bulgarlar Çatalca'ya yüklendi, sonuç alamadı ve mütarekeye razı oldu. Barış Londra'da konuşulacak.",
@@ -26773,6 +28100,11 @@
        "t": "res",
        "id": "enver_iliskisi",
        "d": 3
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": 4
       }
      ],
      "outcome": "Alaylar birkaç köyü geri aldı; Edirne'ye ulaşılamadı. Libya'dan dönen genç subaylar yüksek sesle konuşuyor.",
@@ -26793,6 +28125,11 @@
        "t": "res",
        "id": "harbiye",
        "d": 4
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": 5
       }
      ],
      "outcome": "Çatalca'da karantina kampları kuruldu. Salgın yavaşladı.",
@@ -26803,7 +28140,7 @@
   {
    "id": "hamid_1912_catalca",
    "file": "GD 1912",
-   "line": 140,
+   "line": 154,
    "date": {
     "y": 1912,
     "m": 11,
@@ -26871,6 +28208,11 @@
        "t": "res",
        "id": "hakimiyet",
        "d": 2
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": 8
       }
      ],
      "outcome": "Çatalca dayandı. Bulgarlar mütarekeye razı oldu.",
@@ -26896,6 +28238,11 @@
        "t": "flag",
        "name": "hamid_agir_sulh",
        "on": true
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": -6
       }
      ],
      "outcome": "Sofya şartlarını yazdırıyor. Londra'da masaya ağır bir defter gelecek.",
@@ -26921,6 +28268,11 @@
        "t": "flag",
        "name": "hamid_agir_sulh",
        "on": true
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": -8
       }
      ],
      "outcome": "Saray korundu. Bulgar karakolları Yeşilköy'ün ışıklarını görüyor.",
@@ -26931,7 +28283,7 @@
   {
    "id": "hamid_1912_averof",
    "file": "GD 1912",
-   "line": 151,
+   "line": 165,
    "date": {
     "y": 1912,
     "m": 12,
@@ -27189,9 +28541,119 @@
    ]
   },
   {
-   "id": "edirne_dustu",
+   "id": "edirne_tutuldu",
    "file": "GD 1913",
    "line": 25,
+   "date": {
+    "y": 1913,
+    "m": 3,
+    "d": 26
+   },
+   "title": "Edirne dayanıyor",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif"
+   ],
+   "nation": "BU",
+   "image": "res://game/assets/images/Edirne_view_erefeli_Mosque_7a7cfd.jpg",
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "trakya"
+       ]
+      ],
+      "right": 60
+     }
+    ]
+   },
+   "cond_src": "⚑yol_ittihat & trakya >= 60",
+   "slot": "edirne_1913",
+   "thread": null,
+   "place": "edirne",
+   "text": [
+    "Beyefendi, Şükrü Paşa'nın Edirne'si beş aydır kuşatmada; ama Çatalca'dan ve Bolayır'dan gelen taarruzlar Bulgar ordusunu iki cephe arasında tuttu. Bulgarların son büyük hücumu tabyaların önünde durdu. Sofya, Londra'daki konferansta Edirne'yi hâlâ istiyor; ama şehrin burçlarında hâlâ bizim bayrağımız."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Edirne düşmediyse, Beyefendi, Midye–Enez hattını kimse bize dayatamaz."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Tarihte Edirne 26 Mart 1913'te teslim oldu: Edirne"
+   ],
+   "options": [
+    {
+     "label": "Şükrü Paşa'ya erzak kolu aç, şehri tut.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -4
+      },
+      {
+       "t": "res",
+       "id": "para",
+       "d": -5
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": 6
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 4
+      }
+     ],
+     "outcome": "Kollar Meriç boyunca şehre ulaştı. Edirne kışı çıkardı.",
+     "alt": false
+    },
+    {
+     "label": "Edirne'yi Londra'da pazarlık kozu yap.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -3
+      },
+      {
+       "t": "res",
+       "id": "trakya",
+       "d": 2
+      }
+     ],
+     "outcome": "Murahhaslarımız Londra'da ilk kez yenilmiş bir devletin değil, bir şehri tutan bir ordunun adına konuşuyor.",
+     "alt": false
+    }
+   ],
+   "slot_rank": 0
+  },
+  {
+   "id": "edirne_dustu",
+   "file": "GD 1913",
+   "line": 34,
    "date": {
     "y": 1913,
     "m": 3,
@@ -27210,9 +28672,9 @@
     "name": "yol_ittihat"
    },
    "cond_src": "⚑yol_ittihat",
-   "slot": null,
+   "slot": "edirne_1913",
    "thread": null,
-   "place": null,
+   "place": "edirne",
    "text": [
     "Beyefendi, [url=codex:Edirne]Edirne[/url] düştü. Bulgarlar mütarekeye son verince Cemiyet'in genç subayları bir kurtarma harekâtı istedi. Ne Mahmud Şevket ne Ahmed İzzet ordunun bunu yapabileceğine inanıyordu; Osmanlı Bankası avans da vermiyordu. Yine de 8 Şubat'ta Bolayır'da Mürettep Kolordu taarruz etti; 10. Kolordu'nun Şarköy çıkarması ise akşama kadar gecikti ve Bulgarlar iki hareketi de durdurdu. Mürettep Kolordu'nun kurmay başkanı Fethi, kurmayında Mustafa Kemal; 10. Kolordu'nun kurmay başkanı Enver. Şimdi iki kolordu birbirini suçluyor.",
     "Edirne, halkın ağaç kabuğu yediği söylenen uzun ve çileli bir direnişten sonra teslim oldu. Topraklarını bırakan Türk köylüleri katliam ve yıkım arasından Anadolu'ya kaçıyor. Tarihte kaynaklar ayrılıyor: Türk tarafında Akşin teslimi 26 Mart'a koyar; Iraklı Allawi 23 Şubat 1913 der."
@@ -27245,6 +28707,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "edirne",
+       "v": "BU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "para",
        "d": -8
@@ -27264,6 +28732,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "edirne",
+       "v": "BU",
+       "own": false
+      },
       {
        "t": "res",
        "id": "enver_iliskisi",
@@ -27285,6 +28759,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "edirne",
+       "v": "BU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "enver_iliskisi",
        "d": -10
@@ -27298,12 +28778,13 @@
      "outcome": "Cemiyet'in kâtib-i umumiliğine Fethi Bey getirildi. Enver bir süre sessiz.",
      "alt": false
     }
-   ]
+   ],
+   "slot_rank": 1
   },
   {
    "id": "londra_1913",
    "file": "GD 1913",
-   "line": 39,
+   "line": 49,
    "date": {
     "y": 1913,
     "m": 5,
@@ -27329,7 +28810,19 @@
     {
      "cond": null,
      "parts": [
-      "Beyefendi, büyük devletler Edirne'yi dışarıda bırakan Midye–Enez sınırında ısrar etti; 1 Nisan'da kabul edildi. Bugün Londra'da barış imzalanıyor. İmparatorluk bütün Balkan topraklarını",
+      "Beyefendi, büyük devletler Edirne'yi dışarıda bırakan Midye–Enez sınırında ısrar etti; 1 Nisan'da kabul edildi.",
+      {
+       "cond": {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "edirne",
+        "eq": true,
+        "val": "OS"
+       },
+       "a": "Edirne'nin burçlarında ise hâlâ bizim bayrağımız var; şehri teslim etmek için kâğıt değil, bir ordu gerekecek.",
+       "b": ""
+      },
+      " Bugün Londra'da barış imzalanıyor. İmparatorluk bütün Balkan topraklarını",
       {
        "cond": {
         "op": "state",
@@ -27381,6 +28874,65 @@
       {
        "t": "if",
        "cond": {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "edirne",
+        "eq": true,
+        "val": "BU"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "edirne",
+         "v": "BU",
+         "own": true
+        }
+       ]
+      },
+      {
+       "t": "prov",
+       "id": "selanik",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "yanya",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "ege_adalari",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kosova",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "iskodra",
+       "v": "AB",
+       "own": true
+      },
+      {
+       "t": "flag",
+       "name": "balkan_harbi_on",
+       "on": false
+      },
+      {
+       "t": "if",
+       "cond": {
         "op": "or",
         "args": [
          {
@@ -27426,6 +28978,65 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "if",
+       "cond": {
+        "op": "prov",
+        "layer": "ctl",
+        "id": "edirne",
+        "eq": true,
+        "val": "BU"
+       },
+       "then": [
+        {
+         "t": "prov",
+         "id": "edirne",
+         "v": "BU",
+         "own": true
+        }
+       ]
+      },
+      {
+       "t": "prov",
+       "id": "selanik",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "yanya",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "ege_adalari",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kosova",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "iskodra",
+       "v": "AB",
+       "own": true
+      },
+      {
+       "t": "flag",
+       "name": "balkan_harbi_on",
+       "on": false
+      },
       {
        "t": "if",
        "cond": {
@@ -27478,7 +29089,7 @@
   {
    "id": "hamid_1913_londra",
    "file": "GD 1913",
-   "line": 118,
+   "line": 131,
    "date": {
     "y": 1913,
     "m": 5,
@@ -27551,6 +29162,53 @@
      "hint": "Çatalca pazarlıksız tutulduysa",
      "effects": [
       {
+       "t": "prov",
+       "id": "selanik",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "yanya",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "ege_adalari",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kosova",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "iskodra",
+       "v": "AB",
+       "own": true
+      },
+      {
+       "t": "flag",
+       "name": "balkan_harbi_on",
+       "on": false
+      },
+      {
+       "t": "prov",
+       "id": "edirne",
+       "v": "BU",
+       "own": true
+      },
+      {
        "t": "if",
        "cond": {
         "op": "or",
@@ -27601,6 +29259,53 @@
      "lock": "Yeterli nüfuzunuz yok.",
      "hint": "mütareke ne pahasına olursa olsun istendiyse",
      "effects": [
+      {
+       "t": "prov",
+       "id": "selanik",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "yanya",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "ege_adalari",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kosova",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "iskodra",
+       "v": "AB",
+       "own": true
+      },
+      {
+       "t": "flag",
+       "name": "balkan_harbi_on",
+       "on": false
+      },
+      {
+       "t": "prov",
+       "id": "edirne",
+       "v": "BU",
+       "own": true
+      },
       {
        "t": "if",
        "cond": {
@@ -27655,6 +29360,53 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "selanik",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "yanya",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "ege_adalari",
+       "v": "YU",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "manastir",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kosova",
+       "v": "SR",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "iskodra",
+       "v": "AB",
+       "own": true
+      },
+      {
+       "t": "flag",
+       "name": "balkan_harbi_on",
+       "on": false
+      },
+      {
+       "t": "prov",
+       "id": "edirne",
+       "v": "BU",
+       "own": true
+      },
+      {
        "t": "if",
        "cond": {
         "op": "or",
@@ -27706,7 +29458,7 @@
   {
    "id": "el_ahd",
    "file": "GD 1913",
-   "line": 52,
+   "line": 64,
    "date": {
     "y": 1913,
     "m": 6,
@@ -27817,7 +29569,7 @@
   {
    "id": "mahmud_sevket_suikast",
    "file": "GD 1913",
-   "line": 63,
+   "line": 75,
    "date": {
     "y": 1913,
     "m": 6,
@@ -27939,7 +29691,7 @@
   {
    "id": "hamid_1913_edirne",
    "file": "GD 1913",
-   "line": 132,
+   "line": 146,
    "date": {
     "y": 1913,
     "m": 7,
@@ -28047,7 +29799,7 @@
   {
    "id": "edirne_geri",
    "file": "GD 1913",
-   "line": 77,
+   "line": 89,
    "date": {
     "y": 1913,
     "m": 7,
@@ -28068,7 +29820,7 @@
    "cond_src": "⚑yol_ittihat",
    "slot": null,
    "thread": null,
-   "place": null,
+   "place": "edirne",
    "text": [
     "Beyefendi, Balkan devletleri topraklarımızı paylaşamadı. Bulgaristan 30 Haziran'da Sırp ve Yunan ordularına saldırdı ve üç haftada yenildi; Sırp, Yunan ve Romen kuvvetleri Bulgar topraklarına girdi. Midye–Enez hattının ötesinde Edirne savunmasız.",
     "Enver Çorlu'dan ileri harekât için ısrar ediyor. Genelkurmay başkanı Ahmed İzzet Paşa ihtiyatlı; büyük devletler Londra'daki sınıra sadık kalmamızı bekliyor."
@@ -28100,6 +29852,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "edirne",
+       "v": "OS",
+       "own": true
+      },
       {
        "t": "res",
        "id": "hakimiyet",
@@ -28136,6 +29894,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "edirne",
+       "v": "OS",
+       "own": true
+      },
+      {
        "t": "res",
        "id": "avrupa_baskisi",
        "d": -5
@@ -28159,7 +29923,7 @@
   {
    "id": "reji_1913",
    "file": "GD 1913",
-   "line": 156,
+   "line": 170,
    "date": {
     "y": 1913,
     "m": 8,
@@ -28292,7 +30056,7 @@
   {
    "id": "dogu_hatti_2",
    "file": "GD 1913",
-   "line": 90,
+   "line": 103,
    "date": {
     "y": 1913,
     "m": 9,
@@ -28395,7 +30159,7 @@
   {
    "id": "hamid_1913_alman",
    "file": "GD 1913",
-   "line": 142,
+   "line": 156,
    "date": {
     "y": 1913,
     "m": 11,
@@ -28539,7 +30303,7 @@
   {
    "id": "liman_heyeti",
    "file": "GD 1913",
-   "line": 102,
+   "line": 115,
    "date": {
     "y": 1913,
     "m": 12,
@@ -28671,7 +30435,7 @@
   {
    "id": "k_harp",
    "file": "GD 02 Sistemler",
-   "line": 301,
+   "line": 310,
    "date": {
     "y": 1914,
     "m": 1,
@@ -28717,7 +30481,7 @@
   {
    "id": "m_cokus",
    "file": "GD 02 Sistemler",
-   "line": 425,
+   "line": 434,
    "date": {
     "y": 1914,
     "m": 1,
@@ -29512,7 +31276,7 @@
   {
    "id": "hamid_1914_temmuz",
    "file": "GD 1914",
-   "line": 354,
+   "line": 355,
    "date": {
     "y": 1914,
     "m": 7,
@@ -29771,7 +31535,7 @@
   {
    "id": "hamid_harp_karari",
    "file": "GD 1914",
-   "line": 368,
+   "line": 369,
    "date": {
     "y": 1914,
     "m": 8,
@@ -31202,7 +32966,7 @@
   {
    "id": "depo_kaputlar",
    "file": "GD 1914",
-   "line": 292,
+   "line": 293,
    "date": {
     "y": 1914,
     "m": 11,
@@ -31299,7 +33063,7 @@
   {
    "id": "hamid_1914_kafkas",
    "file": "GD 1914",
-   "line": 382,
+   "line": 383,
    "date": {
     "y": 1914,
     "m": 11,
@@ -31426,7 +33190,7 @@
   {
    "id": "hamid_1914_tarafsiz",
    "file": "GD 1914",
-   "line": 393,
+   "line": 394,
    "date": {
     "y": 1914,
     "m": 11,
@@ -31964,6 +33728,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "basra",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "para",
        "d": -5
@@ -31988,6 +33758,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "basra",
+       "v": "IN",
+       "own": false
+      },
       {
        "t": "res",
        "id": "araplar",
@@ -32014,6 +33790,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "basra",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "irak",
        "d": 2
@@ -32032,7 +33814,7 @@
   {
    "id": "cihad",
    "file": "GD 1914",
-   "line": 280,
+   "line": 281,
    "date": {
     "y": 1914,
     "m": 11,
@@ -32167,7 +33949,7 @@
   {
    "id": "sarikamis_zafer",
    "file": "GD 1914",
-   "line": 323,
+   "line": 324,
    "date": {
     "y": 1914,
     "m": 12,
@@ -32300,7 +34082,7 @@
   {
    "id": "sarikamis_felaket",
    "file": "GD 1914",
-   "line": 335,
+   "line": 336,
    "date": {
     "y": 1914,
     "m": 12,
@@ -32494,7 +34276,7 @@
   {
    "id": "sarikamis_karar",
    "file": "GD 1914",
-   "line": 305,
+   "line": 306,
    "date": {
     "y": 1914,
     "m": 12,
@@ -32643,7 +34425,7 @@
   {
    "id": "k_cokus_agir",
    "file": "GD 02 Sistemler",
-   "line": 306,
+   "line": 315,
    "date": {
     "y": 1915,
     "m": 1,
@@ -32709,7 +34491,7 @@
   {
    "id": "k_cokus",
    "file": "GD 02 Sistemler",
-   "line": 311,
+   "line": 320,
    "date": {
     "y": 1915,
     "m": 1,
@@ -32775,7 +34557,7 @@
   {
    "id": "k_cokus_deniz",
    "file": "GD 02 Sistemler",
-   "line": 316,
+   "line": 325,
    "date": {
     "y": 1915,
     "m": 1,
@@ -34659,6 +36441,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "erzurum",
+       "v": "RU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "cokus",
        "d": 15
@@ -34678,6 +36466,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "erzurum",
+       "v": "RU",
+       "own": false
+      },
       {
        "t": "res",
        "id": "cokus",
@@ -34902,7 +36696,7 @@
   {
    "id": "hamid_karadeniz_cikarma",
    "file": "GD 1915",
-   "line": 219,
+   "line": 220,
    "date": {
     "y": 1915,
     "m": 11,
@@ -35094,7 +36888,7 @@
   {
    "id": "k_suriye",
    "file": "GD 02 Sistemler",
-   "line": 331,
+   "line": 340,
    "date": {
     "y": 1916,
     "m": 1,
@@ -35447,7 +37241,7 @@
   {
    "id": "kafkas_ileri",
    "file": "GD 1916",
-   "line": 53,
+   "line": 54,
    "date": {
     "y": 1916,
     "m": 2,
@@ -35506,6 +37300,18 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "kars",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "batum",
+       "v": "OS",
+       "own": true
+      },
+      {
        "t": "flag",
        "name": "kafkas_ileri",
        "on": true
@@ -35531,6 +37337,18 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "kars",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "batum",
+       "v": "OS",
+       "own": true
+      },
+      {
        "t": "flag",
        "name": "kafkas_ileri",
        "on": true
@@ -35554,7 +37372,7 @@
   {
    "id": "hamid_trabzon_dustu",
    "file": "GD 1916",
-   "line": 188,
+   "line": 192,
    "date": {
     "y": 1916,
     "m": 2,
@@ -35612,6 +37430,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "trabzon",
+       "v": "RU",
+       "own": false
+      },
       {
        "t": "res",
        "id": "cokus",
@@ -35713,6 +37537,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "erzurum",
+       "v": "RU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -10
@@ -35733,6 +37563,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "erzurum",
+       "v": "RU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "kafkas",
        "d": -10
@@ -35751,7 +37587,7 @@
   {
    "id": "goltz_olum",
    "file": "GD 1916",
-   "line": 64,
+   "line": 66,
    "date": {
     "y": 1916,
     "m": 4,
@@ -35841,7 +37677,7 @@
   {
    "id": "trabzon_1916",
    "file": "GD 1916",
-   "line": 74,
+   "line": 76,
    "date": {
     "y": 1916,
     "m": 4,
@@ -35923,6 +37759,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "trabzon",
+       "v": "RU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "bahriye",
        "d": -5
@@ -35943,6 +37785,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "trabzon",
+       "v": "RU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "kafkas",
        "d": -5
@@ -35961,7 +37809,7 @@
   {
    "id": "kut_zafer",
    "file": "GD 1916",
-   "line": 84,
+   "line": 87,
    "date": {
     "y": 1916,
     "m": 4,
@@ -36061,7 +37909,7 @@
   {
    "id": "sykes_picot",
    "file": "GD 1916",
-   "line": 94,
+   "line": 97,
    "date": {
     "y": 1916,
     "m": 5,
@@ -36157,7 +38005,7 @@
   {
    "id": "avrupa_tumenleri",
    "file": "GD 1916",
-   "line": 105,
+   "line": 108,
    "date": {
     "y": 1916,
     "m": 5,
@@ -36252,7 +38100,7 @@
   {
    "id": "arap_isyani",
    "file": "GD 1916",
-   "line": 125,
+   "line": 128,
    "date": {
     "y": 1916,
     "m": 6,
@@ -36323,6 +38171,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "hicaz",
+       "v": "AR",
+       "own": false
+      },
+      {
        "t": "flag",
        "name": "arap_isyani",
        "on": true
@@ -36348,6 +38202,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "hicaz",
+       "v": "AR",
+       "own": false
+      },
+      {
        "t": "flag",
        "name": "arap_isyani",
        "on": true
@@ -36371,7 +38231,7 @@
   {
    "id": "arap_isyani_onlendi",
    "file": "GD 1916",
-   "line": 135,
+   "line": 139,
    "date": {
     "y": 1916,
     "m": 6,
@@ -36490,7 +38350,7 @@
   {
    "id": "milli_iktisat",
    "file": "GD 1916",
-   "line": 146,
+   "line": 150,
    "date": {
     "y": 1916,
     "m": 6,
@@ -36576,7 +38436,7 @@
   {
    "id": "hamid_bogaz_filosu",
    "file": "GD 1916",
-   "line": 197,
+   "line": 202,
    "date": {
     "y": 1916,
     "m": 6,
@@ -36678,7 +38538,7 @@
   {
    "id": "galicya",
    "file": "GD 1916",
-   "line": 115,
+   "line": 118,
    "date": {
     "y": 1916,
     "m": 6,
@@ -36778,7 +38638,7 @@
   {
    "id": "suveys_2",
    "file": "GD 1916",
-   "line": 156,
+   "line": 160,
    "date": {
     "y": 1916,
     "m": 8,
@@ -36868,7 +38728,7 @@
   {
    "id": "mus_bitlis",
    "file": "GD 1916",
-   "line": 166,
+   "line": 170,
    "date": {
     "y": 1916,
     "m": 8,
@@ -36975,7 +38835,7 @@
   {
    "id": "medine_mudafaa",
    "file": "GD 1916",
-   "line": 176,
+   "line": 180,
    "date": {
     "y": 1916,
     "m": 9,
@@ -37238,7 +39098,7 @@
   {
    "id": "hamid_1917_cokus",
    "file": "GD 1917",
-   "line": 114,
+   "line": 134,
    "date": {
     "y": 1917,
     "m": 1,
@@ -37479,7 +39339,7 @@
   {
    "id": "rus_cokusu_zafer",
    "file": "GD 1917",
-   "line": 98,
+   "line": 118,
    "date": {
     "y": 1917,
     "m": 3,
@@ -37611,7 +39471,7 @@
   {
    "id": "rus_payitahtta_son",
    "file": "GD 1917",
-   "line": 128,
+   "line": 148,
    "date": {
     "y": 1917,
     "m": 3,
@@ -37661,6 +39521,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "istanbul",
+       "v": "RU",
+       "own": false
+      },
+      {
        "t": "end",
        "id": "son1"
       }
@@ -37671,9 +39537,125 @@
    ]
   },
   {
-   "id": "bagdat_dustu",
+   "id": "bagdat_tutuldu",
    "file": "GD 1917",
    "line": 22,
+   "date": {
+    "y": 1917,
+    "m": 3,
+    "d": 11
+   },
+   "title": "Bağdat tutuluyor",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif"
+   ],
+   "nation": "IN",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "sarikamis_zafer"
+      }
+     },
+     {
+      "op": "flag",
+      "name": "kut_zafer"
+     },
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "irak"
+       ]
+      ],
+      "right": 60
+     }
+    ]
+   },
+   "cond_src": "⚑yol_ittihat & !⚑sarikamis_zafer & ⚑kut_zafer & irak >= 60",
+   "slot": "bagdat_1917",
+   "thread": null,
+   "place": "bagdat",
+   "text": [
+    "Beyefendi, Kut'un ardından İngilizler Dicle boyunca yeniden yürüdü; ama Kut'tan dönen alaylar ve Toros'tan gelen ikmal Bağdat'ın güneyinde bir hat kurdu. Maude'un kolları Selman-ı Pak önünde durdu. Bağdat'ın çarşısı açık, telgrafhanesi işliyor."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Bağdat tutulduysa, Beyefendi, Musul da Halep de nefes alır."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Tarihte Bağdat 11 Mart 1917'de düştü: Bağdat"
+   ],
+   "options": [
+    {
+     "label": "Hattı tut, Musul'dan takviye iste.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -4
+      },
+      {
+       "t": "res",
+       "id": "irak",
+       "d": 6
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 3
+      }
+     ],
+     "outcome": "Bağdat'ın güneyinde siperler kazıldı. Cephe kışa kadar yerinde.",
+     "alt": false
+    },
+    {
+     "label": "Kuvvetin bir kısmını Filistin'e kaydır.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "irak",
+       "d": -6
+      },
+      {
+       "t": "res",
+       "id": "filistin",
+       "d": 6
+      }
+     ],
+     "outcome": "Bağdat yerinde; Gazze'ye giden trenler Halep'ten geçiyor.",
+     "alt": false
+    }
+   ],
+   "slot_rank": 0
+  },
+  {
+   "id": "bagdat_dustu",
+   "file": "GD 1917",
+   "line": 31,
    "date": {
     "y": 1917,
     "m": 3,
@@ -37708,9 +39690,9 @@
     ]
    },
    "cond_src": "⚑yol_ittihat & !⚑sarikamis_zafer & ⚑kut_zafer",
-   "slot": null,
+   "slot": "bagdat_1917",
    "thread": null,
-   "place": null,
+   "place": "bagdat",
    "text": [
     "Paşam, geçen yıl Kûtülamare'de kazandığımız zafer bir yıl bile sürmedi. General Maude'un ordusu Dicle boyunca yeniden yürüdü; tutunmaya çalışan hat bu kez dayanamadı. Bugün Bağdat İngiliz kuvvetlerinin eline geçti — beş asırlık bir vilayet merkezi, halifelik şehri olmasa da imparatorluğun doğudaki en büyük kentiydi. Goltz Paşa bu günü görmeden, geçen yıl Bağdat'ta tifüsten öldü."
    ],
@@ -37742,6 +39724,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "bagdat",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -8
@@ -37766,6 +39754,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "bagdat",
+       "v": "IN",
+       "own": false
+      },
       {
        "t": "res",
        "id": "harbiye",
@@ -37792,6 +39786,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "bagdat",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "irak",
        "d": -20
@@ -37810,12 +39810,13 @@
      "outcome": "Birlikler kuzeye, Musul'a ve Kafkas'a kaydırıldı.",
      "alt": false
     }
-   ]
+   ],
+   "slot_rank": 1
   },
   {
    "id": "rus_ihtilali",
    "file": "GD 1917",
-   "line": 34,
+   "line": 44,
    "date": {
     "y": 1917,
     "m": 3,
@@ -37938,7 +39939,7 @@
   {
    "id": "gazze",
    "file": "GD 1917",
-   "line": 46,
+   "line": 56,
    "date": {
     "y": 1917,
     "m": 3,
@@ -38072,7 +40073,7 @@
   {
    "id": "yildirim",
    "file": "GD 1917",
-   "line": 59,
+   "line": 69,
    "date": {
     "y": 1917,
     "m": 6,
@@ -38210,7 +40211,7 @@
   {
    "id": "akabe",
    "file": "GD 1917",
-   "line": 71,
+   "line": 81,
    "date": {
     "y": 1917,
     "m": 7,
@@ -38351,9 +40352,126 @@
    ]
   },
   {
+   "id": "kudus_tutuldu",
+   "file": "GD 1917",
+   "line": 93,
+   "date": {
+    "y": 1917,
+    "m": 12,
+    "d": 9
+   },
+   "title": "Kudüs tutuluyor",
+   "kind": "zorunlu",
+   "tags": [
+    "alternatif"
+   ],
+   "nation": "IN",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "and",
+    "args": [
+     {
+      "op": "flag",
+      "name": "yol_ittihat"
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "flag",
+       "name": "sarikamis_zafer"
+      }
+     },
+     {
+      "op": "cmp",
+      "cmp": ">=",
+      "left": [
+       [
+        1,
+        "filistin"
+       ]
+      ],
+      "right": 60
+     }
+    ]
+   },
+   "cond_src": "⚑yol_ittihat & !⚑sarikamis_zafer & filistin >= 60",
+   "slot": "kudus_1917",
+   "thread": null,
+   "place": null,
+   "text": [
+    "Beyefendi, Gazze'nin üçüncü muharebesinden sonra İngilizler Kudüs'e yürüdü; ama Yıldırım Ordular Grubu'nun Halep'ten gelen tümenleri Kudüs'ün batısındaki tepelerde hattı tuttu. Allenby kışı Yafa'da geçirecek."
+   ],
+   "advice": [
+    {
+     "seat": "harbiye",
+     "cond": null,
+     "text": "Kudüs'ü kış tutarsa, Beyefendi, bahar bizim olabilir."
+    }
+   ],
+   "sources": [
+    "Alternatif tarih. Tarihte Kudüs 9 Aralık 1917'de düştü: Kudüs"
+   ],
+   "options": [
+    {
+     "label": "Hattı tut; kutsal yerlere asker sokma.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -4
+      },
+      {
+       "t": "res",
+       "id": "filistin",
+       "d": 5
+      },
+      {
+       "t": "res",
+       "id": "hakimiyet",
+       "d": 3
+      }
+     ],
+     "outcome": "Kudüs'ün surları içinde bir tek top yok; hat şehrin batısında.",
+     "alt": false
+    },
+    {
+     "label": "Karşı taarruzla Yafa'yı geri almaya çalış.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "harbiye",
+       "d": -10
+      },
+      {
+       "t": "res",
+       "id": "filistin",
+       "d": 8
+      },
+      {
+       "t": "res",
+       "id": "para",
+       "d": -6
+      }
+     ],
+     "outcome": "Taarruz sahile ulaşamadı, ama İngiliz hattı bir kez daha geri çekildi.",
+     "alt": false
+    }
+   ],
+   "slot_rank": 0
+  },
+  {
    "id": "kudus_dustu",
    "file": "GD 1917",
-   "line": 83,
+   "line": 102,
    "date": {
     "y": 1917,
     "m": 12,
@@ -38384,7 +40502,7 @@
     ]
    },
    "cond_src": "⚑yol_ittihat & !⚑sarikamis_zafer",
-   "slot": null,
+   "slot": "kudus_1917",
    "thread": null,
    "place": null,
    "text": [
@@ -38419,6 +40537,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "kudus",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -10
@@ -38444,6 +40568,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "kudus",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "filistin",
        "d": -5
@@ -38464,6 +40594,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "kudus",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "filistin",
        "d": -8
@@ -38482,7 +40618,8 @@
      "outcome": "Yeni hat kuruldu. Kayıp kesinleşti, ama ordu dağılmadı.",
      "alt": false
     }
-   ]
+   ],
+   "slot_rank": 1
   },
   {
    "id": "e2_kafkas",
@@ -38812,7 +40949,7 @@
   {
    "id": "e2_bahriye",
    "file": "GD 1919",
-   "line": 123,
+   "line": 124,
    "date": {
     "y": 1918,
     "m": 1,
@@ -38843,7 +40980,7 @@
   {
    "id": "e2_almanya",
    "file": "GD 1919",
-   "line": 128,
+   "line": 129,
    "date": {
     "y": 1918,
     "m": 1,
@@ -39080,6 +41217,30 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "erzurum",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "trabzon",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kars",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "batum",
+       "v": "OS",
+       "own": true
+      },
+      {
        "t": "res",
        "id": "kafkas",
        "d": 12
@@ -39105,6 +41266,30 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "erzurum",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "trabzon",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kars",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "batum",
+       "v": "OS",
+       "own": true
+      },
+      {
        "t": "res",
        "id": "kafkas",
        "d": 8
@@ -39124,6 +41309,30 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "erzurum",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "trabzon",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "kars",
+       "v": "OS",
+       "own": true
+      },
+      {
+       "t": "prov",
+       "id": "batum",
+       "v": "OS",
+       "own": true
+      },
       {
        "t": "res",
        "id": "para",
@@ -39148,7 +41357,7 @@
   {
    "id": "zafer_bati_yardim",
    "file": "GD 1918",
-   "line": 181,
+   "line": 187,
    "date": {
     "y": 1918,
     "m": 5,
@@ -39261,7 +41470,7 @@
   {
    "id": "vahdettin_culus",
    "file": "GD 1918",
-   "line": 34,
+   "line": 35,
    "date": {
     "y": 1918,
     "m": 7,
@@ -39380,7 +41589,7 @@
   {
    "id": "zafer_sulh_arayisi",
    "file": "GD 1918",
-   "line": 194,
+   "line": 200,
    "date": {
     "y": 1918,
     "m": 9,
@@ -39492,7 +41701,7 @@
   {
    "id": "baku",
    "file": "GD 1918",
-   "line": 47,
+   "line": 48,
    "date": {
     "y": 1918,
     "m": 9,
@@ -39625,7 +41834,7 @@
   {
    "id": "megiddo",
    "file": "GD 1918",
-   "line": 59,
+   "line": 60,
    "date": {
     "y": 1918,
     "m": 9,
@@ -39690,6 +41899,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "kudus",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "filistin",
        "d": -15
@@ -39715,6 +41930,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "kudus",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "filistin",
        "d": -20
@@ -39734,6 +41955,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "kudus",
+       "v": "IN",
+       "own": false
+      },
       {
        "t": "res",
        "id": "harbiye",
@@ -39758,7 +41985,7 @@
   {
    "id": "bulgar_mutareke",
    "file": "GD 1918",
-   "line": 71,
+   "line": 73,
    "date": {
     "y": 1918,
     "m": 9,
@@ -39886,7 +42113,7 @@
   {
    "id": "sam_halep",
    "file": "GD 1918",
-   "line": 83,
+   "line": 85,
    "date": {
     "y": 1918,
     "m": 10,
@@ -39951,6 +42178,24 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "suriye",
+       "v": "IN",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "beyrut",
+       "v": "IN",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "halep",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -5
@@ -39976,6 +42221,24 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "suriye",
+       "v": "IN",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "beyrut",
+       "v": "IN",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "halep",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -3
@@ -39996,6 +42259,24 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "suriye",
+       "v": "IN",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "beyrut",
+       "v": "IN",
+       "own": false
+      },
+      {
+       "t": "prov",
+       "id": "halep",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "harbiye",
        "d": -10
@@ -40014,7 +42295,7 @@
   {
    "id": "onurlu_mutareke",
    "file": "GD 1918",
-   "line": 205,
+   "line": 211,
    "date": {
     "y": 1918,
     "m": 10,
@@ -40081,7 +42362,7 @@
   {
    "id": "talat_istifa",
    "file": "GD 1918",
-   "line": 95,
+   "line": 98,
    "date": {
     "y": 1918,
     "m": 10,
@@ -40221,7 +42502,7 @@
   {
    "id": "mondros",
    "file": "GD 1918",
-   "line": 109,
+   "line": 112,
    "date": {
     "y": 1918,
     "m": 10,
@@ -40286,6 +42567,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "musul",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "flag",
        "name": "mondros",
        "on": true
@@ -40310,6 +42597,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "musul",
+       "v": "IN",
+       "own": false
+      },
       {
        "t": "flag",
        "name": "mondros",
@@ -40341,6 +42634,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "musul",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "flag",
        "name": "mondros",
        "on": true
@@ -40364,7 +42663,7 @@
   {
    "id": "ucluler_kacti",
    "file": "GD 1918",
-   "line": 121,
+   "line": 125,
    "date": {
     "y": 1918,
     "m": 11,
@@ -40478,7 +42777,7 @@
   {
    "id": "isgal_istanbul",
    "file": "GD 1918",
-   "line": 133,
+   "line": 137,
    "date": {
     "y": 1918,
     "m": 11,
@@ -40548,6 +42847,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "istanbul",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": 3
@@ -40567,6 +42872,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "istanbul",
+       "v": "IN",
+       "own": false
+      },
       {
        "t": "res",
        "id": "avrupa_baskisi",
@@ -40588,6 +42899,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "istanbul",
+       "v": "IN",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": -5
@@ -40601,7 +42918,7 @@
   {
    "id": "wilson_cemiyeti",
    "file": "GD 1918",
-   "line": 146,
+   "line": 151,
    "date": {
     "y": 1918,
     "m": 12,
@@ -40714,7 +43031,7 @@
   {
    "id": "divani_harp",
    "file": "GD 1918",
-   "line": 157,
+   "line": 162,
    "date": {
     "y": 1918,
     "m": 12,
@@ -40835,7 +43152,7 @@
   {
    "id": "adana_isgal",
    "file": "GD 1918",
-   "line": 168,
+   "line": 173,
    "date": {
     "y": 1918,
     "m": 12,
@@ -40895,6 +43212,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "adana",
+       "v": "FR",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": 2
@@ -40915,6 +43238,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "adana",
+       "v": "FR",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": -3
@@ -40929,6 +43258,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "adana",
+       "v": "FR",
+       "own": false
+      },
       {
        "t": "res",
        "id": "avrupa_baskisi",
@@ -41602,7 +43937,7 @@
   {
    "id": "e3_maliye",
    "file": "GD 1919",
-   "line": 138,
+   "line": 139,
    "date": {
     "y": 1919,
     "m": 1,
@@ -41940,6 +44275,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "aydin",
+       "v": "YU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": -3
@@ -41959,6 +44300,12 @@
      "lock": null,
      "hint": null,
      "effects": [
+      {
+       "t": "prov",
+       "id": "aydin",
+       "v": "YU",
+       "own": false
+      },
       {
        "t": "res",
        "id": "hakimiyet",
@@ -41980,6 +44327,12 @@
      "hint": null,
      "effects": [
       {
+       "t": "prov",
+       "id": "aydin",
+       "v": "YU",
+       "own": false
+      },
+      {
        "t": "res",
        "id": "hakimiyet",
        "d": -5
@@ -41993,7 +44346,7 @@
   {
    "id": "samsun",
    "file": "GD 1919",
-   "line": 66,
+   "line": 67,
    "date": {
     "y": 1919,
     "m": 5,
@@ -42109,7 +44462,7 @@
   {
    "id": "amasya",
    "file": "GD 1919",
-   "line": 77,
+   "line": 78,
    "date": {
     "y": 1919,
     "m": 6,
@@ -42222,7 +44575,7 @@
   {
    "id": "ucluler_idam_karari",
    "file": "GD 1919",
-   "line": 88,
+   "line": 89,
    "date": {
     "y": 1919,
     "m": 7,
@@ -42335,7 +44688,7 @@
   {
    "id": "erzurum_kongresi",
    "file": "GD 1919",
-   "line": 99,
+   "line": 100,
    "date": {
     "y": 1919,
     "m": 7,
@@ -42448,7 +44801,7 @@
   {
    "id": "sivas_kongresi",
    "file": "GD 1919",
-   "line": 110,
+   "line": 111,
    "date": {
     "y": 1919,
     "m": 9,
@@ -42548,7 +44901,7 @@
   {
    "id": "e3_ittihat",
    "file": "GD 1919",
-   "line": 133,
+   "line": 134,
    "date": {
     "y": 1921,
     "m": 1,

@@ -45,6 +45,7 @@ var reached := {}
 var failures: Array = []
 var outcomes := {}      # world key -> {value -> count}, at the end of random runs
 var worlds_1900 := {}   # signature -> count
+var front_ends := {}    # front id -> {result event id -> count}
 var snapshot := ""
 
 
@@ -83,6 +84,12 @@ func _initialize() -> void:
 						outcomes[k] = {}
 					outcomes[k][gs.world[k]] = int(outcomes[k].get(gs.world[k], 0)) + 1
 				worlds_1900[snapshot] = int(worlds_1900.get(snapshot, 0)) + 1
+				for fid in gs.fronts:
+					var res: Dictionary = gs.front_result(fid)
+					var key: String = str(res.get("id", "—"))
+					if not front_ends.has(fid):
+						front_ends[fid] = {}
+					front_ends[fid][key] = int(front_ends[fid].get(key, 0)) + 1
 		for k in dist:
 			print("  %-6s %d" % [k, dist[k]])
 	for f in failures:
@@ -93,6 +100,12 @@ func _initialize() -> void:
 		for v in outcomes[k]:
 			parts.append("%s %d" % [v, outcomes[k][v]])
 		print("  %-12s %s" % [k, ", ".join(parts)])
+	print("\n== how the fronts ended (random runs, serbest; — = never decided)")
+	for fid in front_ends:
+		var parts: PackedStringArray = []
+		for k in front_ends[fid]:
+			parts.append("%s %d" % [k, front_ends[fid][k]])
+		print("  %-10s %s" % [fid, ", ".join(parts)])
 	print("\n== %d different worlds in 1900 across %d random runs (world state + %s)" % [worlds_1900.size(), RANDOM_RUNS, ", ".join(WATCHED)])
 	var never: Array = []
 	for ev in gs.event_order + gs.decisions:

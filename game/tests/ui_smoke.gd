@@ -39,6 +39,8 @@ func _run() -> void:
 	desk.show_place("galata")
 	desk.show_province("misir")
 	desk.show_nation("RU")
+	for fid in st.fronts:
+		desk.show_front(fid)
 	desk.close_inspector()
 	desk.panels.defter()
 	for d in st.decisions:

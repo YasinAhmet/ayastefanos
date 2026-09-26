@@ -27,11 +27,15 @@ Görünür olanlar masada, çubuk olarak durur (0–100). Gizli olanları oyuncu
 | avrupa_baskisi | Avrupa baskısı | 35 | hayır | Büyük devletlerin baskısı: ıslahat talepleri, müdahale, barış şartları. |
 | enver_iliskisi | Enver'le ilişki | 50 | hayır | İttihat yolunda Talat'ın Enver'i ne kadar durdurabileceği. İhtiyat onu harcar. |
 | cokus | Çöküş | 0 | hayır | Abdülhamid yolunda harp başlayınca işleyen sayaç. 100'e varınca Rus ordusu Payitahttadır. |
-| kafkas | Kafkas cephesi | 50 | hayır | Cephe durumu (harp yıllarında cephe kartında "sağlam / sarsılıyor / çöktü" olarak görünür). |
+| kafkas | Kafkas cephesi | 50 | hayır | Cephe dengesi: 0 düşmanın, 100 bizim. Harp yıllarında haritada cephe işaretinde görünür; her ay ordunun gücüne göre bir puan kayar. Bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]]. |
 | canakkale | Çanakkale cephesi | 50 | hayır | Cephe durumu. |
 | irak | Irak cephesi | 50 | hayır | Cephe durumu. |
 | filistin | Filistin cephesi | 50 | hayır | Cephe durumu. |
 | hicaz | Hicaz cephesi | 50 | hayır | Cephe durumu. |
+| tuna_93 | Tuna ve Balkan cephesi ('93) | 50 | hayır | 93 Harbi'nin Rumeli cephesi (bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]]). |
+| kafkas_93 | Kafkas cephesi ('93) | 50 | hayır | 93 Harbi'nin doğu cephesi. |
+| trablus | Trablusgarp cephesi | 50 | hayır | 1911–12 İtalya harbi. |
+| trakya | Trakya cephesi | 50 | hayır | 1912–13 Balkan Harbi. |
 
 **Denge ölçüsü (yazarlar için):** küçük etki ±3–5 · orta ±8–12 · büyük ±15–25. Yıllık gelir +10'dur; bir yılda iki büyük harcama yapan oyuncu ertesi yıl darda kalmalıdır. Her seçenek bir şey verir, bir şey alır: bedava seçenek ancak bir emirle çözülen durumlarda olur (ör. depodaki kaputların dağıtılması).
 
@@ -186,6 +190,11 @@ Ayastefanos'un doğurduğu prenslik, Balkan Harbi'nin Çatalca'ya dayanan ordusu
 `devlet: RO` · `ad: Romanya` · `konum: 26.10,44.43`
 1878'e kadar kâğıt üstünde Osmanlı'ya bağlı prenslik; Ayastefanos ve Berlin'le bağımsız, Dobruca'yı alır.
 > Kaynak: [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 644|Mantran, *Osmanlı İmparatorluğu Tarihi*, p. 644]] · *Fransız kaynağı*
+
+### Devlet · Arnavutluk
+`devlet: AB` · `ad: Arnavutluk` · `konum: 19.82,41.33`
+Balkan Harbi'nin sonunda Londra'da bağımsızlığı tanınan prenslik.
+> Kaynak: [[Arnavutluk]]
 
 ### Devlet · Mısır
 `devlet: MI` · `ad: Mısır Hıdivliği` · `konum: 31.24,30.04`

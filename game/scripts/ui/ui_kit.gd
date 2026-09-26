@@ -151,8 +151,22 @@ static func image(path, max_h := 160) -> TextureRect:
 
 
 ## A square crop from the top of a portrait, masked to a circle (the ruler's medallion).
-static func medallion(path, diameter := 56) -> Control:
+static func medallion(path, diameter := 56, initials := "") -> Control:
 	var tex := Logic.load_texture(path)
+	if tex == null:
+		# no portrait in the vault's images: an engraved-looking roundel with the initials
+		var c := Control.new()
+		c.custom_minimum_size = Vector2(diameter, diameter)
+		c.size = c.custom_minimum_size
+		c.draw.connect(func():
+			var r := diameter / 2.0
+			c.draw_circle(Vector2(r, r), r, Color("5a4632"))
+			c.draw_arc(Vector2(r, r), r - 2.0, 0, TAU, 48, GOLD, 3.0, true)
+			var font := c.get_theme_default_font()
+			var fs := int(diameter * 0.42)
+			var w := font.get_string_size(initials, HORIZONTAL_ALIGNMENT_LEFT, -1, fs).x
+			c.draw_string(font, Vector2(r - w / 2.0, r + fs * 0.36), initials, HORIZONTAL_ALIGNMENT_LEFT, -1, fs, INK))
+		return c
 	var t := TextureRect.new()
 	t.custom_minimum_size = Vector2(diameter, diameter)
 	t.size = Vector2(diameter, diameter)

@@ -194,3 +194,69 @@ Hıdivin payitahtı.
 ### Yer · Tunus
 `yer: tunus` · `il: tunus` · `konum: 10.180,36.800` · `simge: liman`
 > Kaynak: [[Tunus]]
+
+## Harpler ve cepheler
+
+Harp açıkken her cephenin ortasında haritada bir işaret durur. Tıklanınca sağdaki panel güç dengesini (0 düşmanın, 100 bizim), kimin üstün olduğunu, dengeyi hangi olayların ne kadar değiştirdiğini ve cephenin sonucunu gösterir.
+
+- **Denge:** cephenin `değer`i bir gizli kaynaktır (bkz. [[GD 02 Sistemler#Kaynaklar]]). Olayların seçenekleri onu değiştirir (`kafkas +8`); her değişiklik, onu yapan olayın adıyla cephe defterine yazılır.
+- **Kendi seyri:** karara bağlanmamış bir cephe her ay bir puan, `güç` değerlerinin ortalaması `karşı`dan 10'dan fazla yüksekse bizden yana, düşükse düşmandan yana kayar. Bu kayma da defterde "Cephenin kendi seyri" diye yıllık toplanır.
+- **Sonuç:** her cephe kendi olaylarıyla karara bağlanır (`sonuç`). Sonuç olaylarının tarihî sürümü koşulsuzdur; alternatif sürüm, denge yeterince yüksekse aynı yuvada öne geçer (ör. `bagdat_tutuldu`, `irak >= 60`). İlk cevaplanan sonuç olayı cephenin sonucudur. Sonuç olayları illerin sahibini değiştirir (`🗺`).
+- `koşul` harbin açık olduğu durumdur; `başlangıç` işaretin haritaya çıktığı ay; `iller` cephenin çekiştiği iller (haritada vurgulanır); `zafer` / `yenilgi` panelde "üstün" sayılan eşiklerdir.
+
+> [!info] Sayılar tasarımdır
+> Cephe dengesi, kayma ve eşikler oyun dengesidir; kaynak gösterilen, sonuç olaylarının kendisidir.
+
+### Cephe · Tuna ve Balkan
+`cephe: tuna_93` · `harp: 93 Harbi` · `değer: tuna_93` · `düşman: RU` · `konum: 25.40,43.30` · `iller: tuna, dogu_rumeli` · `güç: harbiye` · `karşı: 50` · `başlangıç: 1877-06` · `zafer: 65` · `yenilgi: 30` · `sonuç: balkan_tutuldu, plevne_dustu, edirne_mutareke`
+`koşul: ⚑harp_93 & ⚑harpte & yıl <= 1878`
+Ruslar Tuna'yı geçip Balkanlar'a yürüyor; Plevne yolun ortasında.
+> Kaynak: [[Russo-Turkish War of 1877-1878]] · [[Siege of Plevne (1877)]]
+
+### Cephe · Kafkas ('93)
+`cephe: kafkas_93` · `harp: 93 Harbi` · `değer: kafkas_93` · `düşman: RU` · `konum: 42.70,40.50` · `iller: kars, erzurum` · `güç: harbiye` · `karşı: 50` · `başlangıç: 1877-05` · `zafer: 60` · `yenilgi: 30` · `sonuç: kars_tutuldu, kars_1877`
+`koşul: ⚑harp_93 & ⚑harpte & yıl <= 1878`
+Gazi Ahmed Muhtar Paşa Kars ile Erzurum arasında Rus kollarını karşılıyor.
+> Kaynak: [[Gazi Ahmed Muhtar Paşa]] · [[Kars]]
+
+### Cephe · Trablusgarp
+`cephe: trablus` · `harp: Trablusgarp Harbi` · `değer: trablus` · `düşman: IT` · `konum: 17.50,31.20` · `iller: trablusgarp` · `güç: harbiye` · `karşı: 40` · `başlangıç: 1911-10` · `zafer: 65` · `yenilgi: 30` · `sonuç: trablus_tutuldu, usi, hamid_1912_usi`
+`koşul: ⚑trablus_harbi`
+İtalyanlar kıyıda; çölde gönüllü subaylar ve aşiretler.
+> Kaynak: [[Italo-Turkish War (1911-1912)]] · [[Trablusgarp]]
+
+### Cephe · Trakya
+`cephe: trakya` · `harp: Balkan Harbi` · `değer: trakya` · `düşman: BU` · `konum: 27.30,41.55` · `iller: edirne, istanbul` · `güç: harbiye` · `karşı: 50` · `başlangıç: 1912-10` · `zafer: 60` · `yenilgi: 30` · `sonuç: edirne_tutuldu, edirne_dustu, hamid_1913_londra`
+`koşul: ⚑balkan_harbi_on`
+Kırkkilise, Lüleburgaz, Çatalca; ve kuşatılmış Edirne.
+> Kaynak: [[Edirne]]
+
+### Cephe · Kafkas
+`cephe: kafkas` · `harp: Büyük Harp` · `değer: kafkas` · `düşman: RU` · `konum: 42.40,40.20` · `iller: kars, erzurum` · `güç: harbiye, dogu_hazirligi` · `karşı: 45` · `başlangıç: 1914-11` · `zafer: 65` · `yenilgi: 30` · `sonuç: sarikamis_zafer, kafkas_bahar_zafer, sarikamis_felaket, kafkas_cikmaz, hamid_erzurum_dustu`
+`koşul: ⚑harpte & (⚑yol_ittihat | ⚑yol_hamid) & !⚑mondros`
+Sarıkamış'ın karlı dağları; Erzurum'un ardında beş yüz kilometrelik bir ikmal yolu.
+> Kaynak: [[Sarıkamış Operation (1914-1915)]]
+
+### Cephe · Çanakkale
+`cephe: canakkale` · `harp: Büyük Harp` · `değer: canakkale` · `düşman: IN` · `konum: 26.30,40.15` · `iller: edirne, hudavendigar` · `güç: harbiye, bahriye` · `karşı: 45` · `başlangıç: 1915-02` · `zafer: 65` · `yenilgi: 30` · `sonuç: gelibolu_tahliye`
+`koşul: ⚑harpte & ⚑yol_ittihat & !⚑mondros`
+Boğaz'ın tabyaları, sonra Gelibolu'nun siperleri.
+> Kaynak: [[Çanakkale and Gelibolu]]
+
+### Cephe · Irak
+`cephe: irak` · `harp: Büyük Harp` · `değer: irak` · `düşman: IN` · `konum: 46.20,31.60` · `iller: basra, bagdat` · `güç: harbiye` · `karşı: 40` · `başlangıç: 1914-11` · `zafer: 65` · `yenilgi: 30` · `sonuç: bagdat_tutuldu, bagdat_dustu`
+`koşul: ⚑harpte & ⚑yol_ittihat & !⚑mondros`
+Basra'dan Dicle boyunca Bağdat'a.
+> Kaynak: [[Bağdat]] · [[Basra]]
+
+### Cephe · Filistin ve Süveyş
+`cephe: filistin` · `harp: Büyük Harp` · `değer: filistin` · `düşman: IN` · `konum: 33.60,30.90` · `iller: kudus, misir` · `güç: harbiye` · `karşı: 45` · `başlangıç: 1915-01` · `zafer: 65` · `yenilgi: 30` · `sonuç: kudus_tutuldu, kudus_dustu`
+`koşul: ⚑harpte & ⚑yol_ittihat & !⚑mondros`
+Sina çölü, Süveyş Kanalı, sonra Gazze ve Kudüs.
+> Kaynak: [[Süveyş Kanalı]] · [[Kudüs]]
+
+### Cephe · Hicaz
+`cephe: hicaz` · `harp: Büyük Harp` · `değer: hicaz` · `düşman: AR` · `konum: 39.60,24.50` · `iller: hicaz` · `güç: harbiye` · `karşı: 45` · `başlangıç: 1916-06` · `zafer: 65` · `yenilgi: 30` · `sonuç: arap_isyani_onlendi, medine_mudafaa`
+`koşul: ⚑harpte & ⚑yol_ittihat & ⚑arap_isyani & !⚑mondros`
+Şerif Hüseyin'in isyanı; Medine'de Fahreddin Paşa.
+> Kaynak: [[Hicaz]] · [[Medine]]
