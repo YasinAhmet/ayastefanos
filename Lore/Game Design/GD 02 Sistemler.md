@@ -243,6 +243,11 @@ Oyun her şeyi bu klasördeki dosyalardan okur. `py game/tools/build_events.py -
 - `▶` ile sıraya konan olay koşulu tutuyorsa hemen (tarihi gelmemişse tarihinde) açılır; tutmuyorsa düşer. Böylece aynı `▶` iki olaya birden işaret edebilir, hangisinin koşulu tutarsa o çıkar (ör. Sarıkamış'ın sonucu).
 - **Yıl dönümü:** önce `kural` olayları sırayla uygulanır, sonra yılın gazetesi çıkar (o yıl verilen kararların başlıkları + koşulu tutan `manşet` satırları). Olay olmayan yıllar atlanır ama kuralları yine işler.
 - Oyun `☠` ile biter; son ekranı o sonun `epilog` kartlarından koşulu tutanları sırayla gösterir.
+- `▶ olay +6ay` ile sıraya konan olay, karardan altı ay sonra açılır (olayın kendi tarihi daha geçse o tarihte). Zorunlu değilse bir yıl masada kalır.
+- `yuva:` paylaşan olaylardan yalnız biri masaya gelir: tarih sırasında koşulu tutan ilki; biri cevaplanınca ötekiler düşer. Tarihî sürüm en sonda yazılır ([[GD 04 Dünya Durumu ve İplikler]]).
+- **Kararlar** (`tür: karar`) masadaki evrak sayılmaz ve zamanı durdurmaz; haritadaki yerinin panelinde, tarihi ile `bitiş` arasında ve koşulu tuttukça açıktır.
+- **Cepheler:** harp açıkken karara bağlanmamış her cephe her ay bir puan kayar ([[GD 05 Harita ve Harpler#Harpler ve cepheler]]).
+- **Modlar:** Serbest modda her şey açıktır. Tarihî mod `alternatif` etiketli olayları, kararları ve `(alternatif)` işaretli seçenekleri gizler.
 
 ## Yıllık kurallar
 
