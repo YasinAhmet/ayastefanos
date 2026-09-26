@@ -80,11 +80,11 @@ Başlangıç 1873'tür.
 
 ## Yerler
 
-Haritadaki işaretler. Tıklanınca sağda o yerin paneli açılır: açıklama, orada bekleyen evrak, açık kararlar, ilgili iplikler, geçmiş olaylar. `konum` boylam,enlemdir. Olaylar `yer:` alanıyla bir yere bağlanır; alanı olmayan olay kendi devletinin yerine düşer (`bayrak`). İstanbul'daki yerler haritada Payitaht'ın çevresinde bir halka olarak gösterilir.
+Haritadaki işaretler. Tıklanınca sol altta o yerin paneli açılır: açıklama, orada bekleyen evrak, açık kararlar, ilgili iplikler, geçmiş olaylar. `konum` boylam,enlemdir. Olaylar `yer:` alanıyla bir yere bağlanır; alanı olmayan olay kendi devletinin yerine düşer (`bayrak`). İstanbul'daki yerler haritada tek bir sarı başkent yıldızında toplanır; yıldıza tıklanınca listelenir. Hükümdarın portresi haritada değil, ekranın sağ üstündeki kartta durur.
 
 ### Yer · Babıâli
 `yer: babiali` · `il: istanbul` · `konum: 28.976,41.011` · `simge: payitaht` · `bayrak: OS`
-Sadrazamın ve nazırların makamı. Hükümdarın portresi burada durur; tıklanınca Payitaht açılır.
+Sadrazamın ve nazırların makamı; buradan Payitaht açılır.
 > Kaynak: [[Sublime Porte]]
 
 ### Yer · Yıldız Sarayı

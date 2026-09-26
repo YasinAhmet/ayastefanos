@@ -158,6 +158,8 @@ static func medallion(path, diameter := 56, initials := "") -> Control:
 		var c := Control.new()
 		c.custom_minimum_size = Vector2(diameter, diameter)
 		c.size = c.custom_minimum_size
+		c.size_flags_horizontal = Control.SIZE_SHRINK_CENTER  # a container must never stretch the roundel
+		c.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 		c.draw.connect(func():
 			var r := diameter / 2.0
 			c.draw_circle(Vector2(r, r), r, Color("5a4632"))
@@ -171,7 +173,9 @@ static func medallion(path, diameter := 56, initials := "") -> Control:
 	t.custom_minimum_size = Vector2(diameter, diameter)
 	t.size = Vector2(diameter, diameter)
 	t.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	t.stretch_mode = TextureRect.STRETCH_SCALE
+	t.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	t.size_flags_horizontal = Control.SIZE_SHRINK_CENTER  # a container must never stretch the portrait
+	t.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	if tex != null:
 		var side := mini(tex.get_width(), tex.get_height())
 		var at := AtlasTexture.new()

@@ -16,7 +16,7 @@ const CARDS_W := 272
 const PANEL_W := 344
 const PANEL_H := 330
 const HEAD_H := 36
-const ISTANBUL_RING := 70.0
+const ISTANBUL := Vector2(28.976, 41.011)   # the capital's star; İstanbul's landmarks are listed in its panel
 # who stays visible when two markers overlap
 const PRIO_FRONT := 60
 const PRIO_SEAL := 50
@@ -42,6 +42,7 @@ var cards_panel: PanelContainer
 var cards: VBoxContainer
 var toasts: VBoxContainer
 var inspector: PanelContainer
+var ruler_card: PanelContainer
 var inspector_title: Label
 var inspector_tabs: HBoxContainer
 var inspector_scroll: ScrollContainer
@@ -85,6 +86,7 @@ func _ready() -> void:
 			show_province(id))
 	add_child(_top_bar())
 	add_child(_cards_column())
+	add_child(_ruler_card())
 	add_child(_inspector())
 	add_child(_bottom_right())
 	add_child(_auto_bar())
@@ -404,39 +406,26 @@ func toast(text: String, seconds := 4.0) -> void:
 
 # ---------------------------------------------------------------- map markers
 
-## Where a place sits on the map: a landmark's lon/lat (İstanbul's fanned out in a ring) or a nation's point.
+## Where a place sits on the map: a landmark's lon/lat (İstanbul's all at the capital's star) or a nation's point.
 func place_anchor(place: String) -> Dictionary:
 	if place.begins_with("nation:"):
 		var n: Dictionary = state.nations.get(place.substr(7), {})
 		var pos: Array = n.get("pos", [28.97, 41.01])
 		return {"lonlat": Vector2(float(pos[0]), float(pos[1])), "px": Vector2.ZERO}
 	var lm: Dictionary = state.landmarks.get(place, {})
-	if lm.is_empty():
-		return {"lonlat": Vector2(28.97, 41.01), "px": Vector2.ZERO}
+	if lm.is_empty() or _in_istanbul(place):
+		return {"lonlat": ISTANBUL, "px": Vector2.ZERO}
 	var ll: Array = lm["lonlat"]
-	var istanbul := _istanbul_ring()
-	if istanbul.has(place):
-		return {"lonlat": Vector2(28.976, 41.011), "px": istanbul[place]}
 	return {"lonlat": Vector2(float(ll[0]), float(ll[1])), "px": Vector2.ZERO}
 
 
-## İstanbul's landmarks are a few hundred metres apart: fan them out around the Porte, keeping their bearing order.
-func _istanbul_ring() -> Dictionary:
-	var ids: Array = []
-	var here := Vector2(28.976, 41.011)
-	for id in state.landmarks:
-		if str(state.landmarks[id].get("province", "")) == "istanbul" and id != "babiali":
-			ids.append(id)
-	var bearing := func(id):
-		var ll: Array = state.landmarks[id]["lonlat"]
-		return atan2(-(float(ll[1]) - here.y), float(ll[0]) - here.x)
-	ids.sort_custom(func(a, b): return bearing.call(a) < bearing.call(b))
-	var out := {"babiali": Vector2.ZERO}
-	for i in ids.size():
-		# a crown over the medallion: a flat half-ellipse, so the name tags sit side by side
-		var a := deg_to_rad(200.0 + 140.0 * float(i) / maxf(1.0, float(ids.size() - 1)))
-		out[ids[i]] = Vector2(cos(a) * 160.0, sin(a) * 78.0) * (ISTANBUL_RING / 70.0)
-	return out
+func _in_istanbul(place: String) -> bool:
+	return str(state.landmarks.get(place, {}).get("province", "")) == "istanbul"
+
+
+## The map key of a place: İstanbul's landmarks share the capital's star.
+func _map_key(place: String) -> String:
+	return "istanbul" if _in_istanbul(place) else place
 
 
 func _refresh_markers(open: Array) -> void:
@@ -444,22 +433,20 @@ func _refresh_markers(open: Array) -> void:
 	# landmarks: a dot (stays) and a name tag (hidden first when crowded)
 	for id in state.landmarks:
 		var lm: Dictionary = state.landmarks[id]
-		var a := place_anchor(id)
-		if id == "babiali":
+		if _in_istanbul(id):
 			continue
+		var a := place_anchor(id)
 		var b := UIKit.button(str(lm["name"]), Color(UIKit.PANEL, 0.82), 10)
 		b.tooltip_text = str(lm["name"])
 		b.pressed.connect(show_place.bind(id))
-		var in_ring: bool = str(lm.get("province", "")) == "istanbul"
-		if in_ring:
-			b.add_theme_font_size_override("font_size", 9)
-		map.add_marker(b, a["lonlat"], a["px"] + Vector2(0, 0 if in_ring else 16), 0.0 if in_ring else 1.6, PRIO_NAME,
-			"" if in_ring else id, [] if in_ring else [Vector2(0, -32)])
-		if not in_ring:
-			var dot := UIKit.seal("", UIKit.GOLD.darkened(0.2), 9)
-			dot.pressed.connect(show_place.bind(id))
-			dot.tooltip_text = str(lm["name"])
-			map.add_marker(dot, a["lonlat"], a["px"], 0.0, PRIO_DOT, id)
+		# the name sits right under its dot; above or beside it when that is taken
+		map.add_marker(b, a["lonlat"], Vector2(0, 14), 1.6, PRIO_NAME, id, [Vector2(0, -28), Vector2(40, -7), Vector2(-40, -7)])
+		var dot := UIKit.seal("", UIKit.GOLD.darkened(0.2), 9)
+		dot.pressed.connect(show_place.bind(id))
+		dot.tooltip_text = str(lm["name"])
+		map.add_marker(dot, a["lonlat"], Vector2.ZERO, 0.0, PRIO_DOT, id)
+	# the capital: a gold star; its landmarks (Babıâli, Yıldız, Galata…) open from its panel
+	map.add_marker(_capital_star(), ISTANBUL, Vector2.ZERO, 0.0, PRIO_RULER, "istanbul")
 	# fronts: crossed swords at the middle of each front while its war is on
 	map.highlight.clear()
 	for fid in state.fronts:
@@ -471,12 +458,11 @@ func _refresh_markers(open: Array) -> void:
 		if state.front_active(fid):
 			for pid in f["provinces"]:
 				map.highlight[pid] = Color("c0392b")
-	var porte := place_anchor("babiali")
-	map.add_marker(_ruler_medallion(), porte["lonlat"], porte["px"] + Vector2(0, 8), 0.0, PRIO_RULER, "babiali")
+	_refresh_ruler_card()
 	# papers: one seal per place, with the count
 	var by_place := {}
 	for ev in open:
-		var p := state.event_place(ev)
+		var p := _map_key(state.event_place(ev))
 		if not by_place.has(p):
 			by_place[p] = []
 		by_place[p].append(ev)
@@ -493,11 +479,12 @@ func _refresh_markers(open: Array) -> void:
 		s.tooltip_text = "\n".join(titles)
 		if evs.size() == 1:
 			s.pressed.connect(_open_event.bind(evs[0]))
+		elif p == "istanbul":
+			s.pressed.connect(show_istanbul)
 		else:
 			s.pressed.connect(show_place.bind(p))
-		var a := place_anchor(p)
-		var shift := Vector2(22, -22) if p == "babiali" else Vector2(12, -12)
-		map.add_marker(s, a["lonlat"], a["px"] + shift, 0.0, PRIO_SEAL, p)
+		var a := place_anchor("babiali" if p == "istanbul" else p)
+		map.add_marker(s, a["lonlat"], Vector2(14, -14), 0.0, PRIO_SEAL, p)
 		if p.begins_with("nation:"):
 			var code: String = p.substr(7)
 			var nb := UIKit.button(str(state.nations.get(code, {}).get("short", code)), Color(UIKit.PANEL, 0.82), 10)
@@ -518,7 +505,7 @@ func _seal_color(ev: Dictionary) -> Color:
 func _refresh_figures() -> void:
 	var by_place := {}
 	for f in state.figure_places():
-		var key := str(f["place"]) if str(f["place"]) != "" else str(f["label"])
+		var key := _map_key(str(f["place"])) if str(f["place"]) != "" else str(f["label"])
 		if not by_place.has(key):
 			by_place[key] = []
 		by_place[key].append(f)
@@ -529,11 +516,9 @@ func _refresh_figures() -> void:
 			var ll := Vector2(float(f["lonlat"][0]), float(f["lonlat"][1]))
 			var px := Vector2((i - (group.size() - 1) / 2.0) * 26.0, -22.0)
 			if str(f["place"]) != "":
-				var a := place_anchor(str(f["place"]))
-				ll = a["lonlat"]
-				px += a["px"]
-				if str(f["place"]) == "babiali":
-					px.y += 88.0  # under the ruler's medallion
+				ll = place_anchor(str(f["place"]))["lonlat"]
+				if key == "istanbul":
+					px.y = 26.0  # under the capital's star
 			var alts := [Vector2(0, 44), Vector2(28, 0), Vector2(-28, 0), Vector2(0, -26), Vector2(28, 44), Vector2(-28, 44),
 				Vector2(54, 0), Vector2(-54, 0)]
 			map.add_marker(_figure_marker(f), ll, px, 0.0, PRIO_FIGURE, "fig:" + key, alts)
@@ -541,7 +526,7 @@ func _refresh_figures() -> void:
 
 func _figure_marker(f: Dictionary) -> Control:
 	var p: Dictionary = state.persons.get(str(f["person"]), {})
-	var med := UIKit.medallion(p.get("image"), 24, _initials(str(p.get("name", "?"))))
+	var med := UIKit.medallion(state.person_image(str(f["person"])), 24, _initials(str(p.get("name", "?"))))
 	med.tooltip_text = "%s\n%s" % [p.get("title", p.get("name", "")), f["label"]]
 	med.mouse_filter = Control.MOUSE_FILTER_STOP
 	med.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
@@ -589,24 +574,64 @@ func _front_marker(fid: String) -> Control:
 	return c
 
 
-func _ruler_medallion() -> Control:
-	var r := state.ruler()
-	var box := UIKit.vbox(0)
-	box.alignment = BoxContainer.ALIGNMENT_CENTER
-	var med := UIKit.medallion(r.get("image"), 58, _initials(str(r.get("name", ""))))
-	med.tooltip_text = "%s\nBabıâli · tıklayın: Payitaht" % str(r.get("title", ""))
-	med.mouse_filter = Control.MOUSE_FILTER_STOP
-	med.gui_input.connect(func(ev):
+## The capital's star (drawn: a five-pointed gold star with a dark rim).
+func _capital_star() -> Control:
+	var c := Control.new()
+	c.custom_minimum_size = Vector2(30, 30)
+	c.size = c.custom_minimum_size
+	c.mouse_filter = Control.MOUSE_FILTER_STOP
+	c.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+	c.tooltip_text = "İstanbul · Payitaht\nBabıâli, Yıldız, Dolmabahçe, Galata, Haliç…"
+	c.draw.connect(func():
+		var pts := PackedVector2Array()
+		for k in 10:
+			var r := 14.0 if k % 2 == 0 else 6.0
+			var a := -PI / 2.0 + k * PI / 5.0
+			pts.append(Vector2(15, 16) + Vector2(cos(a), sin(a)) * r)
+		c.draw_colored_polygon(pts, Color("e8c14a"))
+		pts.append(pts[0])
+		c.draw_polyline(pts, Color("5a3a12"), 1.5, true))
+	c.gui_input.connect(func(ev):
 		if ev is InputEventMouseButton and ev.pressed and ev.button_index == MOUSE_BUTTON_LEFT:
-			show_place("babiali"))
-	box.add_child(med)
-	var name := UIKit.label(str(r.get("name", "")), 10, UIKit.INK)
-	name.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	var bg := UIKit.panel(Color(UIKit.PANEL, 0.85))
-	bg.add_theme_stylebox_override("panel", _tight(Color(UIKit.PANEL, 0.85)))
-	bg.add_child(name)
-	box.add_child(bg)
-	return box
+			show_istanbul())
+	return c
+
+
+## The ruler's card at the top right, under the bar: portrait, name, title; click for the Payitaht.
+func _ruler_card() -> Control:
+	ruler_card = PanelContainer.new()
+	ruler_card.add_theme_stylebox_override("panel", UIKit.panel_style(Color(UIKit.PANEL, 0.94)))
+	ruler_card.anchor_left = 1.0
+	ruler_card.anchor_right = 1.0
+	ruler_card.offset_left = -268
+	ruler_card.offset_right = -8
+	ruler_card.offset_top = 46
+	ruler_card.mouse_filter = Control.MOUSE_FILTER_STOP
+	ruler_card.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+	ruler_card.tooltip_text = "Payitaht: hükümdar ve nazırlar"
+	ruler_card.gui_input.connect(func(ev):
+		if ev is InputEventMouseButton and ev.pressed and ev.button_index == MOUSE_BUTTON_LEFT:
+			panels.payitaht())
+	return ruler_card
+
+
+func _refresh_ruler_card() -> void:
+	UIKit.clear(ruler_card)
+	var r := state.ruler()
+	var h := UIKit.hbox(10)
+	h.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	ruler_card.add_child(h)
+	var med := UIKit.medallion(state.person_image(str(state.persona)), 60, _initials(str(r.get("name", ""))))
+	med.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	h.add_child(med)
+	var v := UIKit.vbox(1)
+	v.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	v.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	h.add_child(v)
+	for spec in [[str(r.get("name", "")), 14, UIKit.GOLD], [str(r.get("title", "")), 10, UIKit.MUTED], ["Payitaht ▸", 10, UIKit.INK]]:
+		var l := UIKit.label(spec[0], spec[1], spec[2], true)
+		l.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		v.add_child(l)
 
 
 func _initials(name: String) -> String:
@@ -669,13 +694,39 @@ func _reinspect() -> void:
 		"nation": show_nation(_inspecting["id"])
 		"front": show_front(_inspecting["id"])
 		"person": show_person(_inspecting["id"])
+		"istanbul": show_istanbul()
 
 
 func _place_tabs(place: String, prov: String, on_place: bool) -> Array:
 	if prov == "":
 		return []
+	if prov == "istanbul":
+		return [["İstanbul", show_istanbul, false], ["Yer", show_place.bind(place), on_place],
+			["İl ve nüfus", show_province.bind(prov), not on_place]]
 	return [["Yer", show_place.bind(place), on_place],
 		["İl ve nüfus: " + str(state.provinces.get(prov, {}).get("name", prov)).split(" (")[0], show_province.bind(prov), not on_place]]
+
+
+## The capital: its landmarks as buttons, the papers and the people there.
+func show_istanbul() -> void:
+	var body := _begin("istanbul", "istanbul", "İstanbul", "Dersaadet · Payitaht", [["İstanbul", show_istanbul, true],
+		["İl ve nüfus", show_province.bind("istanbul"), false]])
+	var grid := GridContainer.new()
+	grid.columns = 2
+	body.add_child(grid)
+	for lid in state.landmarks:
+		if not _in_istanbul(lid):
+			continue
+		var n := state.open_events().filter(func(ev): return state.event_place(ev) == lid).size()
+		var b := UIKit.button(str(state.landmarks[lid]["name"]) + ("  (%d)" % n if n > 0 else ""),
+			Color("4a2620") if n > 0 else UIKit.PANEL_2, 11)
+		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		b.pressed.connect(show_place.bind(lid))
+		grid.add_child(b)
+	for lid in state.landmarks:
+		if _in_istanbul(lid):
+			_papers_section(body, lid)
+			_people_section(body, lid)
 
 
 func show_place(id: String) -> void:
@@ -691,7 +742,7 @@ func show_place(id: String) -> void:
 	if id == "babiali":
 		var r := state.ruler()
 		var row := UIKit.hbox(8)
-		row.add_child(UIKit.medallion(r.get("image"), 52, _initials(str(r.get("name", "")))))
+		row.add_child(UIKit.medallion(state.person_image(str(state.persona)), 52, _initials(str(r.get("name", "")))))
 		var col := UIKit.vbox(2)
 		col.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		col.add_child(UIKit.label(str(r.get("title", "")), 12, UIKit.INK, true))
@@ -862,7 +913,7 @@ func show_person(pid: String) -> void:
 	var p: Dictionary = state.persons.get(pid, {})
 	var body := _begin("person", pid, str(p.get("name", pid)), str(p.get("title", "")))
 	var row := UIKit.hbox(8)
-	row.add_child(UIKit.medallion(p.get("image"), 64, _initials(str(p.get("name", "?")))))
+	row.add_child(UIKit.medallion(state.person_image(pid), 64, _initials(str(p.get("name", "?")))))
 	var col := UIKit.vbox(2)
 	col.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	var here: Dictionary = {}

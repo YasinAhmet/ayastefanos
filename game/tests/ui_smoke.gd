@@ -36,6 +36,7 @@ func _run() -> void:
 				st.choose(ev["id"], i)
 				break
 	print("cards in the left column: ", desk.cards.get_child_count())
+	desk.show_istanbul()
 	desk.show_place("babiali")
 	desk.show_place("galata")
 	desk.show_province("misir")

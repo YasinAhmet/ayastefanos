@@ -338,6 +338,18 @@ func minister(seat: String) -> Dictionary:
 	return persons[c[seat]]
 
 
+## A person's portrait for the current year: the latest of their dated images (`görseller:`), else `görsel:`.
+func person_image(pid: String):
+	var p: Dictionary = persons.get(pid, {})
+	var img = p.get("image")
+	var best := -1
+	for e in p.get("images", []):
+		if int(e["from"]) <= year and int(e["from"]) > best:
+			best = int(e["from"])
+			img = e["image"]
+	return img
+
+
 func ruler() -> Dictionary:
 	return persons.get(persona, {})
 
