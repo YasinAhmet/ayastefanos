@@ -936,3 +936,4 @@ Images are illustrations only and are ⚠ not from vault sources.
 | Talat Pasha.jpg | [[Talat Paşa]] | Neue Photographische Gesellschaft Berlin and Bain News Service, publisher | Public domain | [link](https://commons.wikimedia.org/wiki/File:Talat_Pasha.jpg) |
 | Mahmud Shevket Pasha.png | [[Mahmud Şevket Paşa]] | Boghos Tarkulian | Public domain | [link](https://commons.wikimedia.org/wiki/File:Mahmud_Shevket_Pasha.png) |
 | Mustafa Kemal 1917 (AtaturkYildirim, kırpılmış).jpg | [[Mustafa Kemal Atatürk]] | Unknown author (kırpma: AtaturkYildirim.jpg) | Public domain | [link](https://commons.wikimedia.org/wiki/File:AtaturkYildirim.jpg) |
+| Idman19140528TalatBey.jpg | [[Talat Paşa]] | İdman (Spordan Bahseder On Beş Günde Bir Çıkar Resimli Mecmua) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Idman19140528TalatBey.jpg) |
