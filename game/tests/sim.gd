@@ -6,10 +6,9 @@ extends SceneTree
 ## worlds the random runs produced by 1900, and the events no run ever reached.
 
 const GameState := preload("res://game/scripts/game_state.gd")
+const Autoplay := preload("res://game/scripts/autoplay.gd")
 const RANDOM_RUNS := 400
-const HISTORICAL_RUNS := 100
 const MAX_STEPS := 20000
-const DECISION_CHANCE := 0.08
 # the provinces whose holder tells two worlds apart in the divergence report
 const WATCHED := ["kars", "batum", "kibris", "misir", "dogu_rumeli", "teselya", "girit"]
 
@@ -30,14 +29,6 @@ const STRATEGIES := {
 			"dogu_jandarma", "liman_heyeti", "sarikamis_ertelendi", "hicaz_ozerklik", "suriye_uzlasma", "dogu_guvenlik_1915"],
 		"avoid": ["yol_hamid", "suveys_buyuk", "tehcir", "suriye_idamlari", "kafkas_savunma", "jurnal_ag", "meclis_tatil"],
 	},
-	"historical": {
-		"expect": "son3",
-		"mode": "tarihi",
-		"values": {"para": 0.5},
-		"flags": ["jurnal_ag", "donanma_halicte", "meclis_tatil", "hamidiye_kuruldu", "yol_ittihat", "suveys_buyuk",
-			"serif_tahsisat", "asiret_alaylari", "tehcir", "suriye_idamlari", "kanun_esasi", "midhat_soz"],
-		"avoid": ["yol_hamid", "sarikamis_ertelendi", "kafkas_savunma", "hasan_izzet_kaldi", "depo_kaputlar", "kislik_techizat", "hicaz_ozerklik"],
-	},
 }
 
 var gs
@@ -47,6 +38,8 @@ var outcomes := {}      # world key -> {value -> count}, at the end of random ru
 var worlds_1900 := {}   # signature -> count
 var front_ends := {}    # front id -> {result event id -> count}
 var snapshot := ""
+var figure_log := {}    # "YYYY-MM" -> ["person@label"], filled on the Tarihî path
+const FIGURE_DATES := [Vector2i(1877, 9), Vector2i(1908, 7), Vector2i(1912, 3), Vector2i(1915, 5), Vector2i(1919, 6)]
 
 
 func _initialize() -> void:
@@ -67,9 +60,45 @@ func _initialize() -> void:
 		print("%s %-13s → %s (wanted %s) at %s · steps %d · %s" % [mark, name, r["ending"], want, r["date"], r["steps"], r["summary"]])
 	var rng := RandomNumberGenerator.new()
 	rng.seed = 1873
-	for mode in ["serbest", "tarihi"]:
-		var runs := RANDOM_RUNS if mode == "serbest" else HISTORICAL_RUNS
-		print("\n== %d random runs (%s)" % [runs, mode])
+	# Tarihî mode has one path: every event must show exactly one option and the path must reach Son 3
+	var many: Array = []
+	var h := play(null, rng, "tarihi", many)
+	var hmark := "OK " if h["ending"] == "son3" and many.is_empty() else "FAIL"
+	if hmark != "OK ":
+		ok = false
+	print("%s tarihî yol    → %s (wanted son3) at %s · steps %d · %s" % [hmark, h["ending"], h["date"], h["steps"], h["summary"]])
+	for m in many:
+		print("  more than one option shown in Tarihî mode: ", m)
+	print("  population at the end (all provinces, thousands, vs 1873):")
+	for g in ["ermeni", "turk", "arap", "rum", "bulgar"]:
+		var now: float = gs.group_total(g, true)
+		var then: float = gs.group_total(g, true, true)
+		print("    %-7s %6.0f / %6.0f  (%3.0f%%)" % [g, now, then, 100.0 * now / maxf(then, 1.0)])
+	var dogu_now := 0.0
+	var dogu_then := 0.0
+	for pid in gs.population:
+		if str(gs.provinces[pid]["region"]) == "Doğu":
+			dogu_now += float(gs.population[pid].get("ermeni", 0.0))
+			dogu_then += float(gs.pop_start[pid].get("ermeni", 0.0))
+	print("    ermeni in Doğu: %.0f / %.0f (%.0f%%)" % [dogu_now, dogu_then, 100.0 * dogu_now / maxf(dogu_then, 1.0)])
+	print("  figures on the map (Tarihî path):")
+	for k in figure_log:
+		print("    %s  %s" % [k, ", ".join(figure_log[k])])
+	if not str(figure_log.get("1912-03", [])).contains("enver@Derne"):
+		ok = false
+		print("  FAIL Enver should be at Derne in 1912")
+	var hist_seen := reached.duplicate()
+	var missed: Array = []
+	for ev in gs.event_order:
+		if not ev["tags"].has("alternatif") and not hist_seen.has(ev["id"]):
+			missed.append("%s (%s, koşul: %s)" % [ev["id"], ev["file"], ev.get("cond_src")])
+	print("  %d historical events not shown on the Tarihî path:" % missed.size())
+	for m in missed:
+		print("    - ", m)
+	reached.clear()
+	for mode in ["serbest"]:
+		var runs := RANDOM_RUNS
+		print("\n== %d random runs (fantezi)" % runs)
 		var dist := {}
 		for i in runs:
 			var r := play(null, rng, mode)
@@ -117,38 +146,43 @@ func _initialize() -> void:
 	quit(0 if ok else 1)
 
 
-func play(strategy, rng, mode := "serbest") -> Dictionary:
+func play(strategy, rng, mode := "serbest", many = null) -> Dictionary:
 	gs.new_game(mode)
 	snapshot = ""
 	var steps := 0
+	var policy := "tarihi" if mode == "tarihi" else "rastgele"
 	while gs.ending_id == "" and steps < MAX_STEPS:
 		steps += 1
 		if snapshot == "" and gs.year >= 1900:
 			snapshot = _signature()
+		if mode == "tarihi":
+			for d in FIGURE_DATES:
+				var ym := "%d-%02d" % [d.x, d.y]
+				if figure_log.has(ym) or gs.year * 12 + gs.month < d.x * 12 + d.y:
+					continue
+				var names: Array = ["(%d-%02d)" % [gs.year, gs.month]]
+				for f in gs.figure_places():
+					names.append("%s@%s" % [f["person"], f["label"]])
+				figure_log[ym] = names
 		var open: Array = gs.open_events()
 		for ev in open:
 			reached[ev["id"]] = true
-		var decisions: Array = gs.open_decisions()
-		for d in decisions:
+			if many != null and gs.visible_options(ev).size() != 1 and not many.has(ev["id"]):
+				many.append(ev["id"])
+		for d in gs.open_decisions():
 			reached[d["id"]] = true
-		if rng != null and not decisions.is_empty() and rng.randf() < DECISION_CHANCE:
-			var d: Dictionary = decisions[rng.randi_range(0, decisions.size() - 1)]
-			var di := pick(d, null, rng)
-			if di >= 0 and gs.option_enabled(d["options"][di]):
-				gs.choose(d["id"], di)
-				continue
+		if strategy == null:
+			var st: Dictionary = Autoplay.step(gs, policy, rng)
+			if st["kind"] == "stuck":
+				return _result("stuck", steps)
+			continue
 		if not open.is_empty():
 			var ev: Dictionary = open[0]
 			for e in open:
 				if e["kind"] in GameState.MANDATORY:
 					ev = e
 					break
-			if not (ev["kind"] in GameState.MANDATORY) and rng != null and rng.randf() < 0.3:
-				# random players sometimes leave optional papers on the desk
-				if gs.can_advance():
-					gs.advance()
-					continue
-			var i := pick(ev, strategy, rng)
+			var i := pick(ev, strategy)
 			if i < 0 or gs.choose(ev["id"], i).is_empty():
 				return _result("stuck", steps)
 			continue
@@ -170,17 +204,14 @@ func _signature() -> String:
 	return ",".join(parts)
 
 
-## Index of the option to take, among the options this mode shows; -1 if none is enabled.
-func pick(ev: Dictionary, strategy, rng) -> int:
+## Scripted strategies: an option's score = the weights of the values it moves + a bonus for the flags it sets.
+func pick(ev: Dictionary, strategy) -> int:
 	var enabled: Array = []
 	for i in gs.visible_options(ev):
 		if gs.option_enabled(ev["options"][i]):
 			enabled.append(i)
 	if enabled.is_empty():
-		push_warning("no enabled option in %s" % ev["id"])
 		return -1
-	if strategy == null:
-		return enabled[rng.randi_range(0, enabled.size() - 1)]
 	var best: int = enabled[0]
 	var best_score := -1e9
 	for i in enabled:

@@ -3,6 +3,8 @@ extends SceneTree
 ##   godot --path . --resolution 1600x900 -s res://game/tests/screenshots.gd -- <out_dir>
 ## On a server: xvfb-run -s "-screen 0 1600x900x24" godot --path . --resolution 1600x900 -s … -- <out_dir>
 
+const Autoplay := preload("res://game/scripts/autoplay.gd")
+
 var main: Control
 var out := ""
 
@@ -52,6 +54,16 @@ func _autoplay_until(st, y: int, m: int, prefer := {}) -> void:
 		st.choose(ev["id"], maxi(pick, 0))
 
 
+## The one Tarihî path, step by step (the debug autoplay's own policy), up to a month.
+func _history_until(st, y: int, m: int) -> void:
+	var rng := RandomNumberGenerator.new()
+	var guard := 0
+	while (st.year < y or (st.year == y and st.month < m)) and st.ending_id == "" and guard < 3000:
+		guard += 1
+		if Autoplay.step(st, "tarihi", rng)["kind"] == "stuck":
+			break
+
+
 func _run() -> void:
 	await _shot("01_menu")
 	var st = main.state
@@ -71,31 +83,42 @@ func _run() -> void:
 	desk.refresh()
 	desk.show_province("misir")
 	await _shot("05_egypt_1886")
-	desk.show_place("galata")
-	await _shot("06_galata_1886")
 	desk.panels.defter()
 	await _shot("07_defter")
 	await _close_modals()
 	desk.close_inspector()
-	_autoplay_until(st, 1908, 7)
+	# Tarihî mode: one option per event, the people on the map follow history
+	st.new_game("tarihi")
+	main.show_desk()
+	desk = main.screen
+	_history_until(st, 1877, 8)
 	desk.refresh()
 	for ev in st.open_events():
-		if ev["id"] == "ihtilal_1908":
-			desk._open_event(ev)
-			break
-	await _shot("08_fork_1908")
+		desk._open_event(ev)
+		break
+	await _shot("06_tarihi_event_1877")
 	await _close_modals()
-	_autoplay_until(st, 1915, 6)
+	desk.show_province("tuna")
+	await _shot("08_plevne_1877")
+	_history_until(st, 1912, 2)
 	desk.refresh()
-	await _shot("09_desk_1915")
-	desk.show_front("kafkas")
-	await _shot("09b_front_kafkas")
+	desk.show_person("enver")
+	await _shot("09_trablus_1912")
+	_history_until(st, 1915, 9)
+	desk.refresh()
+	desk.show_province("bitlis")
+	desk.auto_bar.visible = true
+	await _shot("10_tehcir_1915")
+	desk.show_front("canakkale")
+	await _shot("10b_front_1915")
+	desk.show_nation("OS")
+	await _shot("10c_empire_1915")
 	desk.close_inspector()
 	desk.panels.payitaht()
-	await _shot("10_payitaht")
+	await _shot("11_payitaht")
 	await _close_modals()
 	st.ending_id = "son3"
 	st.flags["sarikamis_felaket"] = true
 	main.show_ending()
-	await _shot("11_ending")
+	await _shot("12_ending")
 	quit(0)

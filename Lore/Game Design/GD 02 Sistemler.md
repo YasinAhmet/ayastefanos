@@ -123,6 +123,46 @@ Alman terbiyeli kurmay; Mahmud Şevket'in öldürülmesinden sonra Said Halim Pa
 İzzet Paşa kabinesinin Bahriye Nazırı; 30 Ekim 1918'de Mondros'ta mütarekeyi imzalar.
 > Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 178|Güneş, p. 178]] · [[Şahbaba (Murat Bardakçı)#p. 116|Bardakçı, *Şahbaba*, p. 116]] · *Türk kaynağı*
 
+### Kişi · Mustafa Kemal
+`kişi: mustafa_kemal` · `unvan: Mustafa Kemal Bey (Paşa)` · `görsel: Atatürk Kemal.jpg` · `rol: figür`
+Selanikli genç kurmay. Şam'da Vatan ve Hürriyet'i kurar, Trablus'ta Enver'in emrinde Derne'de savaşır, Sofya'da ataşemiliterdir; Arıburnu ve Anafartalar'ın komutanı, 1919'da Samsun'a çıkar.
+> Kaynak: [[Mustafa Kemal Atatürk]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 86|İnan, *Atatürk Hakkında Hatıralar ve Belgeler*, p. 86]] · [[Enver (Murat Bardakçı)#p. 115|Bardakçı, *Enver*, p. 115]] · *Türk kaynağı*
+
+### Kişi · Resneli Niyazi
+`kişi: niyazi` · `unvan: Kolağası Resneli Niyazi Bey` · `görsel: Ahmedniyazibey.jpg` · `rol: figür`
+Temmuz 1908'de taburuyla Resne'den dağa çıkan subay; Enver'le birlikte "hürriyet kahramanı".
+> Kaynak: [[Resneli Niyazi]] · *Türk kaynağı*
+
+### Kişi · Gazi Osman Paşa
+`kişi: osman_pasa` · `unvan: Gazi Osman Paşa` · `görsel: Gazi Osman Paşa Heykeli.jpg` · `rol: figür`
+Vidin'den Plevne'ye yetişip beş ay Rus ordusunu durduran müşir; esaretten dönünce Abdülhamid'in yanında, Yıldız'da Mabeyn müşiridir.
+> Kaynak: [[Gazi Osman Paşa]] · *Türk kaynağı*
+
+### Kişi · Gazi Ahmed Muhtar Paşa
+`kişi: ahmed_muhtar` · `unvan: Gazi Ahmed Muhtar Paşa` · `görsel: Ahmet muhtar.jpg` · `rol: figür`
+'93 Harbi'nde Kafkas cephesinin kumandanı; sonra yirmi yıl Mısır fevkalade komiseri, 1912'de sadrazam.
+> Kaynak: [[Gazi Ahmed Muhtar Paşa]] · *Türk kaynağı*
+
+### Kişi · Midhat Paşa
+`kişi: midhat` · `unvan: Midhat Paşa` · `rol: figür`
+Kanun-ı Esasi'nin babası; sürgün, Suriye ve İzmir valilikleri, Yıldız'daki muhakeme ve Taif.
+> Kaynak: [[Midhat Paşa]] · *Türk kaynağı*
+
+### Kişi · Goltz Paşa
+`kişi: goltz` · `unvan: Colmar von der Goltz Paşa` · `görsel: Colmar von der Goltz.jpg` · `rol: figür`
+Harbiye Mektebi'nin Alman hocası (1883–1895); Büyük Harp'te Irak'ta 6. Ordu kumandanı, Nisan 1916'da Bağdat'ta ölür.
+> Kaynak: [[Colmar von der Goltz]] · *Alman kaynağı*
+
+### Kişi · Liman von Sanders
+`kişi: liman` · `unvan: Liman von Sanders Paşa` · `görsel: Bundesarchiv Bild 183-2007-0917-501, Otto Liman von Sanders.jpg` · `rol: figür`
+Aralık 1913'te gelen Alman askerî heyetinin başı; Gelibolu'da 5. Ordu'nun, 1918'de Filistin'de Yıldırım Ordular Grubu'nun kumandanı.
+> Kaynak: [[Liman von Sanders]] · *Alman kaynağı*
+
+### Kişi · Fahreddin Paşa
+`kişi: fahreddin` · `unvan: Fahreddin Paşa, Medine muhafızı` · `görsel: Korgeneral Ömer Fahreddin Türkkan (1935~1936).jpg` · `rol: figür`
+Şerif Hüseyin'in isyanından mütarekeden sonrasına kadar kuşatılmış Medine'yi tutan paşa.
+> Kaynak: [[Fahreddin Paşa]] · *Türk kaynağı*
+
 ## Kabineler
 
 Masadaki koltukların kimde olduğu. Satırlar yukarıdan aşağı denenir; tarihi ve koşulu tutan ilk satır geçerlidir.
@@ -247,7 +287,8 @@ Oyun her şeyi bu klasördeki dosyalardan okur. `py game/tools/build_events.py -
 - `yuva:` paylaşan olaylardan yalnız biri masaya gelir: tarih sırasında koşulu tutan ilki; biri cevaplanınca ötekiler düşer. Tarihî sürüm en sonda yazılır ([[GD 04 Dünya Durumu ve İplikler]]).
 - **Kararlar** (`tür: karar`) masadaki evrak sayılmaz ve zamanı durdurmaz; haritadaki yerinin panelinde, tarihi ile `bitiş` arasında ve koşulu tuttukça açıktır.
 - **Cepheler:** harp açıkken karara bağlanmamış her cephe her ay bir puan kayar ([[GD 05 Harita ve Harpler#Harpler ve cepheler]]).
-- **Modlar:** Serbest modda her şey açıktır. Tarihî mod `alternatif` etiketli olayları, kararları ve `(alternatif)` işaretli seçenekleri gizler.
+- **Modlar:** Fantezi modunda (içeride `serbest`) her şey açıktır. Tarihî mod `alternatif` etiketli olayları ve kararları gizler; her olayda yalnız `(tarihî)` işaretli seçeneği, koşuluna bakmadan gösterir. Böylece Tarihî modun tek bir yolu vardır ve Son 3'e varır.
+- **Kişiler haritada:** `rol: figür` olan kişiler kabinede oturmaz; [[GD 05 Harita ve Harpler#Kişiler haritada]] tablosuna göre haritada görünürler.
 
 ## Yıllık kurallar
 
@@ -359,7 +400,7 @@ Hazine boş. Maaş günü geldi; altı yüz bin lirayı bulmak Maliye Nazırı'n
 💬 Maliye: "Efendimiz, faizi ağır ama başka kapı yok."
 💬 Harbiye: "Askerin maaşı bir ay daha gecikirse kışlalarda ses çıkar."
 > Kaynak: [[Enver (Murat Bardakçı)#p. 66|Bardakçı, *Enver*, p. 66]] · *Türk kaynağı* · [[Düyun-u Umumiye]]
-1. **Avansı al.** `Para +20 · avrupa_baskisi +5` — Para bulundu; faizi de, alacaklıların sözü de büyüdü.
+1. **Avansı al.** (tarihî) `Para +20 · avrupa_baskisi +5` — Para bulundu; faizi de, alacaklıların sözü de büyüdü.
 2. **Milli Tütün İdaresi'nin kasasından borç al.** [koşul: reji = milli] (ipucu: Tekel devletin elindeyse) `Para +14 · avrupa_baskisi -1` — Tütünün kârı maaşlara yetti; bu kez Galata'ya gidilmedi.
 3. **Maaşları geciktir.** `Para +10 · Harbiye -5 · jon_turk +3` — Hazine nefes aldı; kışlalarda homurtu başladı.
 4. **Berlin'den iste.** [koşul: alman_nufuzu >= 20] `Para +15 · alman_nufuzu +5` — Alman bankaları yardım etti; karşılığını da isteyecekler.

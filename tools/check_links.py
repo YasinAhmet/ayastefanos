@@ -13,7 +13,7 @@ from collections import Counter, defaultdict
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LORE = os.path.join(ROOT, "Lore")
-LINK = re.compile(r"!?\[\[([^\]|#]*)(?:#([^\]|]*))?(?:\|[^\]]*)?\]\]")
+LINK = re.compile(r"!?\[\[([^\]|#\\]*)(?:#([^\]|\\]*))?\\?(?:\|[^\]]*)?\]\]")  # `\|` is a pipe escaped inside a table
 HEAD = re.compile(r"^#{1,6} (.+?)\s*$", re.M)
 
 

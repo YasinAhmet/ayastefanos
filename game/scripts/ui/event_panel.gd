@@ -9,6 +9,11 @@ const GameState := preload("res://game/scripts/game_state.gd")
 const SEAT_RES := {"maliye": "para", "harbiye": "harbiye", "bahriye": "bahriye"}
 const SEAT_NAME := {"maliye": "Maliye Nazırı", "harbiye": "Harbiye Nazırı", "bahriye": "Bahriye Nazırı"}
 const WIDTH := 580
+const HIST_BASIS := {
+	"kasa": "Tarihte olan: kasadaki kitaplara göre.",
+	"wiki": "Tarihte olan: Wikipedia'ya göre (⚠ kasa dışı kaynak; Kaynakça'da bağlantısı var).",
+	"varsayım": "Tarihte olan: kaynak bulunamadı, varsayım.",
+}
 
 var state: GameState
 var parent: Control
@@ -78,6 +83,11 @@ func open(ev: Dictionary) -> void:
 		b.set_meta("option", i)
 		b.pressed.connect(_choose.bind(ev, i, opts_box, outcome_box))
 		opts_box.add_child(b)
+		if state.historical() and opt.get("hist") != null:
+			var basis := UIKit.label(str(HIST_BASIS.get(str(opt["hist"]), "")), 10,
+				UIKit.MUTED if str(opt["hist"]) == "kasa" else Color("d9b26a"), true)
+			opts_box.add_child(basis)
+	m["opts_box"] = opts_box
 	if not ev["sources"].is_empty():
 		var src_btn := UIKit.button("Kaynakça ▾", UIKit.PANEL, 11)
 		var src := UIKit.vbox(3)
@@ -87,6 +97,18 @@ func open(ev: Dictionary) -> void:
 		src_btn.pressed.connect(func(): src.visible = not src.visible)
 		body.add_child(src_btn)
 		body.add_child(src)
+
+
+## Autoplay: press option `i` as the player would.
+func auto_choose(i: int) -> void:
+	for c in m["opts_box"].get_children():
+		if c is Button and int(c.get_meta("option", -1)) == i and not c.disabled:
+			c.pressed.emit()
+			return
+
+
+func is_open() -> bool:
+	return not m.is_empty() and is_instance_valid(m["layer"])
 
 
 func _dismiss() -> void:

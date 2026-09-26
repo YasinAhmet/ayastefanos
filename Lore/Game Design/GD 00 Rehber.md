@@ -34,6 +34,7 @@ Olay metni (hükümdara hitaben).
 - **Etkiler** (ters tırnak içinde, ` · ` ile ayrılır): `Para -10` kaynak değişimi · `+⚑bayrak` / `-⚑bayrak` bayrak koy/kaldır · `▶ olay_id` zincir olayı sıraya koy · `👤 persona` hükümdarı değiştir · `☠ son_id` oyunu bitir.
   - Klavyede kolay yazmak için: `+f:bayrak`, `-f:bayrak`, `>olay_id`, `@persona`, `end:son_id` da geçerlidir.
   - Dünya ve harita: `≡ reji = milli` dünya durumunu değiştirir ([[GD 04 Dünya Durumu ve İplikler]]); `🗺 kars RU` ili devreder, `🗺 misir ~IN` yalnız tutanı değiştirir ([[GD 05 Harita ve Harpler]]). ASCII: `set:reji=milli`, `map:kars RU`.
+  - Nüfus: `👥 ermeni -80% @Doğu` bir topluluğu yüzdeyle, `👥 turk +150 @Anadolu` bin kişiyle değiştirir; hedef il, bölge ya da `@imparatorluk` ([[GD 05 Harita ve Harpler#Nüfus]]). ASCII: `pop:ermeni -80% @dogu`.
   - Gecikmeli zincir: `▶ reji_nota +4ay`, `▶ misir_tahliye +3yıl` (alt olay, karardan bu kadar sonra gelir).
   - Koşullu etki: ayrı bir ters tırnak içinde `eğer il:edirne = BU: 🗺 edirne BU`.
   - Olayın her seçeneğine uygulanan etki, başlığın altındaki ayrı bir satırda: `` `etki: 🗺 tunus ~FR` `` (antlaşmaların harita maddeleri).
@@ -41,7 +42,7 @@ Olay metni (hükümdara hitaben).
 - **Metin varyantları:** paragraf başında `[eğer: reji = milli]` (paragraf yalnız koşul tutarsa görünür; görüş satırında `💬 [eğer: …] Maliye: "…"`), satır içinde `{eğer reji = milli: Milli Tütün İdaresi / aksi: Reji}`.
 - **Tür:** `zorunlu` (cevaplanmadan zaman ilerlemez) · `isteğe bağlı` (yıl sonuna kadar açık) · `geçici` (sadece o ay) · `ara` (yalnız metin, "Devam") · `karar` (oyuncunun haritadaki bir yerden başlattığı eylem; `yer:` ister) · `kural` (yıl dönümünde kendiliğinden işler, oyuncu görmez) · `manşet` (yıl sonu gazetesinde bir satır) · `epilog` (son kartı). Ek işaretler: `zincir` (sadece `▶` ile açılır), `alternatif` (Alternatif tarih).
 - **Başka alanlar:** `yer:` olayın haritadaki yeri ([[GD 05 Harita ve Harpler#Yerler]]) · `iplik:` bağlı olduğu hikâye ipliği · `yuva:` aynı tarihî anın sürümleri (koşulu tutan ilki gelir; tarihî sürüm en sonda).
-- **Seçenek işareti:** `(alternatif)` yazılan seçenek Alternatif tarihtir; Tarihî modda gizlenir.
+- **Seçenek işaretleri:** `(alternatif)` yazılan seçenek Alternatif tarihtir. `(tarihî)` tarihte olan seçenektir: alternatif olmayan her olayda tam bir tane bulunur ve Tarihî modda yalnız o görünür (koşuluna bakılmaz). Dayanağı kasadaki kitaplar değilse `(tarihî: wiki)` (Wikipedia; olayın Kaynak satırına ⚠ Not from vault sources notuyla bağlantı eklenir) ya da `(tarihî: varsayım)` yazılır. Koşullarda `tarihî_mod = 1` Tarihî modda doğrudur.
 - **bayrak:** olay düğmesinde görünen devlet (ör. `RU` Rusya, `OS` Osmanlı/Payitaht). Liste [[GD 02 Sistemler#Devletler]]'de.
 - **sıra:** [[GD 01 Olay Sıralaması]]'ndaki sıra numarası.
 

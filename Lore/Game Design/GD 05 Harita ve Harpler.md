@@ -260,3 +260,142 @@ Sina çölü, Süveyş Kanalı, sonra Gazze ve Kudüs.
 `koşul: ⚑harpte & ⚑yol_ittihat & ⚑arap_isyani & !⚑mondros`
 Şerif Hüseyin'in isyanı; Medine'de Fahreddin Paşa.
 > Kaynak: [[Hicaz]] · [[Medine]]
+
+## Nüfus
+
+Her ilde hangi toplulukların, kaç bin kişiyle yaşadığı. Sol alttaki il panelinde gösterilir; olaylar değiştirir.
+
+- **Etki:** `👥 ermeni -80% @Doğu` bir grubu yüzdeyle azaltır ya da artırır; `👥 turk +150 @Anadolu` bin kişi ekler ya da çıkarır. Eklenen sayı hedef illere nüfuslarıyla orantılı dağıtılır. Hedef bir il (`@van`), bir bölge (`@Doğu`, yukarıdaki Bölge sütunu) ya da `@imparatorluk` (o an Osmanlı'nın olan bütün iller) olabilir; `@` yazılmazsa imparatorluk demektir. ASCII: `pop:ermeni -80% @dogu`.
+- **Kendiliğinden göç:** bir il başka bir devlete devredilince (`🗺 kars RU`), aşağıdaki grup tablosunun Göç sütunundaki oranda nüfus ilden ayrılır ve Anadolu ile Payitaht'a yerleşir (1878 ve 1912–13 muhacirleri).
+- **Güç:** grubun bir kaynağı varsa (Ermeniler, Araplar, Kürtler) panelde o kaynağın değeri gösterilir.
+- **Durum:** başlangıca göre oran ve bayraklardan türetilir. Oran %5'in altındaysa "yok edildi", %35'in altındaysa "sürüldü", %85'in altındaysa "azalıyor", %115'in üstündeyse "muhacirle artıyor". Aksi hâlde "Ayaklanma" koşulu tutuyorsa "ayaklandı", "Baskı" koşulu tutuyorsa "baskı altında", değilse "yerleşik".
+
+> [!info] Sayılar tahminîdir
+> Rakamlar binlik ve yuvarlaktır; 1873 için tahmin edilmiştir. Toplamlar, Osmanlı'nın 1881/82–1893 sayımının yayımlanmış özetlerinden türetilmiştir (⚠ Not from vault sources · Wikipedia: *Demographics of the Ottoman Empire*, https://en.wikipedia.org/wiki/Demographics_of_the_Ottoman_Empire ; *Ottoman census of 1881–82*). İl içindeki dağılım varsayımdır.
+> Ermeni sayısı en tartışmalı rakamdır. Patrikhane 1882 için 2.660.000, 1912 için 2.100.000 der; resmî sayımlar çok daha düşüktür ([[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 672|Mantran, p. 672]] · *Fransız kaynağı*). Yalman, dokuz doğu vilayetinin (Erzurum, Van, Bitlis, Harput, Diyarbakır, Sivas, Halep, Adana, Trabzon) nüfusunu 6 milyon, bunun 913.875'ini (%15) Ermeni verir ([[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 266|Yalman, p. 266]] · *Türk kaynağı*). Gürün, Patrikhane'nin 1880–1882 rakamlarını karşılaştırır ([[The Armenian File (Kâmuran Gürün)#p. 123|Gürün, p. 123]] · *Türk kaynağı*). Oyun bu dokuz ilde Yalman'ın toplamına yakın durur.
+
+### Nüfus grupları
+
+| id | Ad | Güç | Göç | Baskı | Ayaklanma |
+|---|---|---|---|---|---|
+| turk | Türk ve Müslüman | - | 35 | - | - |
+| kurt | Kürt | Kürtler | 10 | - | - |
+| arap | Arap | Araplar | 0 | ⚑yol_ittihat & ⚑harpte & Araplar < 30 | ⚑arap_isyani |
+| arnavut | Arnavut | - | 10 | - | - |
+| bosnak | Boşnak | - | 20 | - | - |
+| rum | Rum | - | 0 | - | - |
+| ermeni | Ermeni | Ermeniler | 0 | ⚑hamidiye_kuruldu & !⚑yol_ittihat | - |
+| bulgar | Bulgar | - | 0 | - | - |
+| sirp | Sırp | - | 0 | - | - |
+| yahudi | Yahudi | - | 0 | - | - |
+| diger | Diğer (Çerkes, Tatar, Süryani, Ulah, Kıpti…) | - | 20 | - | - |
+
+### Nüfus tablosu
+
+Bin kişi, 1873. Boş hücre sıfırdır. Komşu devletlerin illeri tutulmaz.
+
+| il | turk | kurt | arap | arnavut | bosnak | rum | ermeni | bulgar | sirp | yahudi | diger |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| istanbul | 380 |  |  |  |  | 150 | 150 | 5 |  | 45 | 130 |
+| edirne | 500 |  |  |  |  | 300 | 20 | 350 |  | 15 | 30 |
+| dogu_rumeli | 200 |  |  |  |  | 50 |  | 600 |  |  | 30 |
+| tuna | 700 |  |  |  |  | 20 |  | 1100 |  | 15 | 150 |
+| selanik | 400 |  |  | 20 |  | 300 |  | 300 |  | 80 | 50 |
+| manastir | 150 |  |  | 250 |  | 100 |  | 250 |  |  | 60 |
+| kosova | 100 |  |  | 400 | 30 |  |  | 100 | 200 |  |  |
+| iskodra |  |  |  | 250 |  |  |  |  | 20 |  | 10 |
+| yanya |  |  |  | 300 |  | 250 |  |  |  | 5 | 40 |
+| teselya | 40 |  |  |  |  | 300 |  |  |  |  | 20 |
+| bosna |  |  |  |  | 500 |  |  |  | 500 | 5 | 200 |
+| nis | 60 |  |  | 40 |  |  |  |  | 180 |  |  |
+| dobruca | 60 |  |  |  |  | 10 |  | 40 |  |  | 80 |
+| girit | 80 |  |  |  |  | 200 |  |  |  |  |  |
+| ege_adalari | 20 |  |  |  |  | 200 |  |  |  |  |  |
+| oniki_ada | 10 |  |  |  |  | 120 |  |  |  | 3 |  |
+| kibris | 45 |  |  |  |  | 140 |  |  |  |  |  |
+| hudavendigar | 1200 |  |  |  |  | 80 | 60 |  |  |  | 30 |
+| aydin | 1100 |  |  |  |  | 250 | 15 |  |  | 25 | 30 |
+| konya | 900 |  |  |  |  | 60 | 15 |  |  |  |  |
+| ankara | 800 |  |  |  |  | 40 | 80 |  |  |  |  |
+| kastamonu | 900 |  |  |  |  | 20 |  |  |  |  |  |
+| adana | 250 |  | 30 |  |  |  | 80 |  |  |  | 30 |
+| sivas | 800 |  |  |  |  | 60 | 150 |  |  |  |  |
+| trabzon | 850 |  |  |  |  | 150 | 50 |  |  |  |  |
+| erzurum | 350 | 100 |  |  |  |  | 130 |  |  |  | 10 |
+| kars | 60 | 20 |  |  |  |  | 30 |  |  |  | 20 |
+| batum | 80 |  |  |  |  |  |  |  |  |  | 20 |
+| van | 30 | 180 |  |  |  |  | 130 |  |  |  | 20 |
+| bitlis | 30 | 220 |  |  |  |  | 130 |  |  |  |  |
+| diyarbakir | 70 | 250 |  |  |  |  | 70 |  |  |  | 50 |
+| mamuretulaziz | 250 | 100 |  |  |  |  | 90 |  |  |  |  |
+| halep | 250 |  | 450 |  |  |  | 50 |  |  |  | 60 |
+| suriye |  |  | 600 |  |  |  |  |  |  | 10 | 70 |
+| beyrut |  |  | 500 |  |  |  |  |  |  |  | 60 |
+| kudus |  |  | 230 |  |  |  |  |  |  | 25 |  |
+| musul | 20 | 180 | 150 |  |  |  |  |  |  |  | 50 |
+| bagdat |  | 20 | 700 |  |  |  |  |  |  | 50 |  |
+| basra |  |  | 450 |  |  |  |  |  |  |  |  |
+| hicaz |  |  | 400 |  |  |  |  |  |  |  |  |
+| yemen |  |  | 1500 |  |  |  |  |  |  |  |  |
+| lahsa |  |  | 100 |  |  |  |  |  |  |  |  |
+| kuveyt |  |  | 30 |  |  |  |  |  |  |  |  |
+| trablusgarp |  |  | 800 |  |  |  |  |  |  | 20 |  |
+| tunus |  |  | 1100 |  |  |  |  |  |  | 30 | 20 |
+| misir |  |  | 5500 |  |  |  |  |  |  |  | 700 |
+
+## Kişiler haritada
+
+Önemli kişiler haritada küçük madalyonlarla, o ay bulundukları yerde görünür; tıklanınca kişi kartı açılır. O sırada tahtta ya da kabinenin başında görünen kişi burada ayrıca gösterilmez. Yer bir `yer` kimliği (Yerler bölümü) ya da `Ad @ boylam,enlem`dir. Koşullu satırlar oyuncunun seçimlerini izler: gönüllüler Trablus'a gitmediyse Enver ile Mustafa Kemal orada görünmez; Abdülhamid yolunda (1908 ihtilali bastırıldıysa) İttihatçılar haritadan çekilir.
+
+> [!info] Dayanak
+> Tarihler kasadaki kişi notlarından ve kitaplardan; notlarda olmayan tarihler Wikipedia'dan (⚠ Not from vault sources) ya da yaklaşık.
+
+| Kişi | Başlangıç | Bitiş | Yer | Koşul | Dayanak |
+|---|---|---|---|---|---|
+| midhat | 1873-01 | 1877-01 | babiali | - | [[Midhat Paşa]] |
+| midhat | 1878-11 | 1880-07 | sam | - | [[Midhat Paşa]] (Suriye valisi) |
+| midhat | 1880-08 | 1881-04 | İzmir @ 27.14,38.42 | - | [[Midhat Paşa]] (Aydın valisi) |
+| midhat | 1881-05 | 1881-06 | yildiz | - | [[Midhat Paşa]] (Yıldız muhakemesi) |
+| midhat | 1881-07 | 1884-04 | Taif @ 40.42,21.27 | - | [[Midhat Paşa]] |
+| hobart | 1873-01 | 1886-05 | halic | - | [[Hobart Paşa]] |
+| osman_pasa | 1876-07 | 1877-06 | Vidin @ 22.88,43.99 | - | [[Gazi Osman Paşa]] |
+| osman_pasa | 1877-07 | 1877-12 | plevne | ⚑harp_93 | [[Gazi Osman Paşa]] · [[Siege of Plevne (1877)]] |
+| osman_pasa | 1878-04 | 1900-04 | yildiz | - | [[Gazi Osman Paşa]] (Mabeyn müşiri) |
+| ahmed_muhtar | 1877-04 | 1877-10 | kars | ⚑harp_93 | [[Gazi Ahmed Muhtar Paşa]] |
+| ahmed_muhtar | 1877-11 | 1878-03 | erzurum | ⚑harp_93 | [[Gazi Ahmed Muhtar Paşa]] |
+| ahmed_muhtar | 1885-10 | 1908-08 | kahire | - | [[Gazi Ahmed Muhtar Paşa]] (fevkalade komiser) |
+| ahmed_muhtar | 1912-07 | 1912-10 | babiali | ⚑yol_ittihat | [[Gazi Ahmed Muhtar Paşa]] (sadrazam) |
+| goltz | 1883-06 | 1895-10 | harbiye_mektebi | - | [[Colmar von der Goltz]] |
+| goltz | 1915-12 | 1916-04 | bagdat | ⚑yol_ittihat & ⚑harpte | [[Colmar von der Goltz]] · ölümü `goltz_olum` olayında |
+| talat | 1898-01 | 1908-07 | selanik | - | [[Talat Paşa]] (Selanik posta idaresi, Cemiyet'in merkezi) |
+| talat | 1908-08 | 1918-10 | babiali | ⚑yol_ittihat | [[Talat Paşa]] |
+| enver | 1906-09 | 1908-07 | selanik | - | [[Enver Paşa]] (Üçüncü Ordu kurmayı) |
+| enver | 1908-08 | 1909-02 | selanik | ⚑yol_ittihat | [[Enver Paşa]] |
+| enver | 1909-03 | 1911-09 | Berlin @ 13.40,52.52 | ⚑yol_ittihat | [[Enver Paşa]] (ataşemiliter) |
+| enver | 1911-10 | 1912-10 | Derne @ 22.64,32.77 | ⚑gonullu_trablus | [[Enver (Murat Bardakçı)#p. 113\|Bardakçı, *Enver*, p. 113]] |
+| enver | 1912-11 | 1914-11 | babiali | ⚑yol_ittihat | [[Enver Paşa]] (Babıâli Baskını, Harbiye Nezareti) |
+| enver | 1914-12 | 1915-01 | sarikamis | ⚑yol_ittihat & ⚑harpte | [[Sarıkamış Operation (1914-1915)]] |
+| enver | 1915-02 | 1918-10 | babiali | ⚑yol_ittihat | [[Enver Paşa]] |
+| cemal | 1909-08 | 1911-08 | Adana @ 35.32,37.00 | ⚑yol_ittihat | [[Cemal Paşa]] (Adana valisi) ⚠ Wikipedia: *Djemal Pasha* |
+| cemal | 1911-09 | 1912-07 | bagdat | ⚑yol_ittihat | [[Cemal Paşa]] (Bağdat valisi) ⚠ Wikipedia: *Djemal Pasha* |
+| cemal | 1913-01 | 1914-11 | babiali | ⚑yol_ittihat | [[Cemal Paşa]] |
+| cemal | 1914-12 | 1917-12 | sam | ⚑yol_ittihat & ⚑harpte | [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 234\|Cemal Paşa, p. 234]] |
+| cemal | 1918-01 | 1918-10 | babiali | ⚑yol_ittihat | [[Cemal Paşa]] |
+| niyazi | 1908-06 | 1908-12 | Resne @ 21.00,41.07 | ⚑yol_ittihat | [[Resneli Niyazi]] |
+| mustafa_kemal | 1905-02 | 1907-09 | sam | - | [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 86\|İnan, p. 86]] |
+| mustafa_kemal | 1907-10 | 1911-09 | selanik | - | [[Enver (Murat Bardakçı)#p. 16\|Bardakçı, *Enver*, p. 16]] |
+| mustafa_kemal | 1911-10 | 1912-10 | Tobruk @ 23.96,32.08 | ⚑gonullu_trablus | [[Enver (Murat Bardakçı)#p. 115\|Bardakçı, *Enver*, p. 115]] · [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 84\|Cemal Paşa, p. 84]] |
+| mustafa_kemal | 1912-11 | 1913-09 | Bolayır @ 26.77,40.51 | ⚑yol_ittihat | ⚠ Wikipedia: *Mustafa Kemal Atatürk* |
+| mustafa_kemal | 1913-10 | 1915-01 | Sofya @ 23.32,42.70 | ⚑yol_ittihat | [[Enver (Murat Bardakçı)#p. 77\|Bardakçı, *Enver*, p. 77]] · [[Zabit ve Kumandan ile Hasbihal (Mustafa Kemal)#p. 10\|Kemal, p. 10]] |
+| mustafa_kemal | 1915-02 | 1915-12 | canakkale | ⚑yol_ittihat & ⚑harpte | [[Çanakkale'yi Almanlar mı Kazandı (Video transcript)#loc. 12\|Video, loc. 12]] |
+| mustafa_kemal | 1916-03 | 1917-06 | Muş @ 41.49,38.74 | ⚑yol_ittihat & ⚑harpte | ⚠ Wikipedia: *Mustafa Kemal Atatürk* (16. Kolordu; Bitlis ve Muş) |
+| mustafa_kemal | 1917-07 | 1917-10 | Halep @ 37.16,36.20 | ⚑yol_ittihat & ⚑harpte | [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 234\|Cemal Paşa, p. 234]] (7. Ordu, istifa) |
+| mustafa_kemal | 1917-11 | 1918-07 | harbiye_mektebi | ⚑yol_ittihat | ⚠ Wikipedia: *Mustafa Kemal Atatürk* |
+| mustafa_kemal | 1918-08 | 1918-10 | Nablus @ 35.26,32.22 | ⚑yol_ittihat & ⚑harpte | ⚠ Wikipedia: *Mustafa Kemal Atatürk* (7. Ordu) |
+| mustafa_kemal | 1918-11 | 1919-04 | harbiye_mektebi | - | [[Mustafa Kemal Atatürk]] (Bekirağa ziyareti) |
+| mustafa_kemal | 1919-05 | 1919-12 | Samsun @ 36.33,41.29 | - | [[100. Yılında Jön Türk Devrimi (Sina Akşin)#p. 450\|Akşin, p. 450]] |
+| liman | 1913-12 | 1915-02 | harbiye_mektebi | ⚑yol_ittihat | [[Liman von Sanders]] |
+| liman | 1915-03 | 1916-01 | canakkale | ⚑yol_ittihat & ⚑harpte | [[Liman von Sanders]] (5. Ordu) |
+| liman | 1916-02 | 1918-02 | harbiye_mektebi | ⚑yol_ittihat | [[Liman von Sanders]] |
+| liman | 1918-03 | 1918-10 | Nasıra @ 35.30,32.70 | ⚑yol_ittihat & ⚑harpte | [[Liman von Sanders]] (Yıldırım Ordular Grubu) |
+| fahreddin | 1916-06 | 1919-01 | Medine @ 39.61,24.47 | ⚑yol_ittihat & ⚑arap_isyani | [[Fahreddin Paşa]] |
