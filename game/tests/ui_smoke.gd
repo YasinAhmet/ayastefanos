@@ -85,6 +85,11 @@ func _run() -> void:
 		desk.show_person("enver")
 		desk._open_event(st.events["tehcir_karar"])
 	print("divergences so far: ", st.divergences().size())
+	for y in [1908, 1914]:
+		desk.jump_to(y, 1)
+		print("debug jump → ", st.year, "-", st.month, " mode ", st.mode)
+	desk.debug_menu()
+	await process_frame
 	st.ending_id = "son3"
 	main.show_ending()
 	await process_frame

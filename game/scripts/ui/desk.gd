@@ -52,6 +52,7 @@ var status_label: Label
 var advance_btn: Button
 var _inspecting := {}          # {kind, id} of what the panel shows, refreshed with the desk
 var _collapsed := false
+var _jumping := false          # the debug jump replays hundreds of steps: the desk is redrawn once at the end
 
 # debug autoplay
 var auto_bar: PanelContainer
@@ -103,6 +104,70 @@ func _unhandled_key_input(event: InputEvent) -> void:
 		auto_bar.visible = not auto_bar.visible
 		if not auto_bar.visible:
 			_auto_stop()
+	if event is InputEventKey and event.pressed and not event.echo and event.keycode == KEY_F10:
+		debug_menu()
+
+
+## Debug: jump to a month by replaying the Tarihî choices from 1873, then go on in this game's mode.
+func debug_menu() -> void:
+	var m := UIKit.modal(self, Vector2(0.0, 0.5), 420)
+	var body: VBoxContainer = m["body"]
+	body.add_child(UIKit.label("Debug", 20, UIKit.GOLD))
+	body.add_child(UIKit.label("Seçilen aya kadar oyun baştan, tarihte olan seçimlerle oynanır; sonra bu oyunun modunda (%s) devam eder." % ("Tarihî" if state.historical() else "Fantezi"), 11, UIKit.MUTED, true))
+	var row := UIKit.hbox(8)
+	row.add_child(UIKit.label("Yıl", 12, UIKit.INK))
+	var ys := SpinBox.new()
+	ys.min_value = GameState.START.x
+	ys.max_value = GameState.LAST_YEAR
+	ys.value = state.year
+	row.add_child(ys)
+	row.add_child(UIKit.label("Ay", 12, UIKit.INK))
+	var ms := SpinBox.new()
+	ms.min_value = 1
+	ms.max_value = 12
+	ms.value = 1
+	row.add_child(ms)
+	body.add_child(row)
+	var go := UIKit.button("Bu tarihe git", UIKit.PANEL_2, 13)
+	go.pressed.connect(func():
+		m["layer"].queue_free()
+		jump_to(int(ys.value), int(ms.value)))
+	body.add_child(go)
+	var src := CheckBox.new()
+	src.text = "Kaynakçaları göster"
+	src.button_pressed = UIKit.show_sources
+	src.toggled.connect(func(on):
+		UIKit.show_sources = on
+		UIKit.save_settings()
+		refresh())
+	body.add_child(src)
+	var ab := UIKit.button("Otomatik oynatma çubuğu (F9)", UIKit.PANEL_2, 12)
+	ab.pressed.connect(func():
+		m["layer"].queue_free()
+		auto_bar.visible = true)
+	body.add_child(ab)
+	var close := UIKit.button("Kapat", UIKit.PANEL_2, 12)
+	close.pressed.connect(func(): m["layer"].queue_free())
+	body.add_child(close)
+
+
+func jump_to(y: int, mo: int) -> void:
+	_auto_stop()
+	var keep := state.mode
+	_jumping = true
+	state.new_game(keep)
+	var rng := RandomNumberGenerator.new()
+	var guard := 0
+	while (state.year < y or (state.year == y and state.month < mo)) and state.ending_id == "" and guard < 5000:
+		guard += 1
+		if Autoplay.step(state, "tarihi", rng)["kind"] in ["stuck", "end"]:
+			break
+	_jumping = false
+	close_inspector()
+	refresh()
+	toast("Debug: %s tarihine gelindi (tarihî seçimlerle)." % Logic.date_text(state.year, state.month), 4.0)
+	if state.ending_id != "":
+		main.show_ending()
 
 
 # ---------------------------------------------------------------- layout
@@ -132,7 +197,7 @@ func _top_bar() -> Control:
 	chip.mouse_filter = Control.MOUSE_FILTER_PASS
 	h.add_child(chip)
 	for spec in [["Payitaht", func(): panels.payitaht()], ["Defter", func(): panels.defter()],
-			["Kaynakça", func(): panels.codex()], ["Otomatik", func():
+			["Kaynakça", func(): panels.codex()], ["Debug", func(): debug_menu()], ["Otomatik", func():
 				auto_bar.visible = not auto_bar.visible
 				if not auto_bar.visible:
 					_auto_stop()], ["Kaydet", _save], ["Menü", func():
@@ -252,7 +317,7 @@ func _save() -> void:
 # ---------------------------------------------------------------- refresh
 
 func refresh() -> void:
-	if not is_inside_tree():
+	if not is_inside_tree() or _jumping:
 		return
 	date_label.text = Logic.date_text(state.year, state.month)
 	var r := state.ruler()
@@ -603,7 +668,7 @@ func _ruler_card() -> Control:
 	ruler_card.add_theme_stylebox_override("panel", UIKit.panel_style(Color(UIKit.PANEL, 0.94)))
 	ruler_card.anchor_left = 1.0
 	ruler_card.anchor_right = 1.0
-	ruler_card.offset_left = -268
+	ruler_card.offset_left = -300
 	ruler_card.offset_right = -8
 	ruler_card.offset_top = 46
 	ruler_card.mouse_filter = Control.MOUSE_FILTER_STOP
@@ -621,7 +686,7 @@ func _refresh_ruler_card() -> void:
 	var h := UIKit.hbox(10)
 	h.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	ruler_card.add_child(h)
-	var med := UIKit.medallion(state.person_image(str(state.persona)), 60, _initials(str(r.get("name", ""))))
+	var med := UIKit.portrait(state.person_image(str(state.persona)), 96, _initials(str(r.get("name", ""))))
 	med.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	h.add_child(med)
 	var v := UIKit.vbox(1)
