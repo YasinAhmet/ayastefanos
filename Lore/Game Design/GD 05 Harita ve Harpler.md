@@ -85,121 +85,482 @@ Başlangıç 1873'tür.
 | kafkasya | Kafkasya (Tiflis, Revan) | RU | RU | Komşular |
 | iran | İran | IR | IR | Komşular |
 
+## İl açıklamaları
+
+Sol alttaki il panelinde gösterilir: ilin 1873–1919 arasındaki kısa geçmişi. Blok biçimi `### İl · Ad` · `` `il: kimlik` `` · metin · `> Kaynak:`.
+
+### İl · İstanbul
+`il: istanbul`
+Dersaadet, imparatorluğun başkenti ve kasada en çok anılan yer. Babıâli, Yıldız ve Dolmabahçe sarayları, Galata'nın bankaları, Haliç'teki donanma buradadır. 1878'de Rus ordusu Yeşilköy'e kadar gelir; 1909'da Hareket Ordusu şehre girer; 1912'de Bulgarlar Çatalca'ya dayanır. Mütarekeden sonra İtilaf devletleri şehri işgal eder.
+> Kaynak: [[İstanbul]] · [[Yeşilköy (Ayastefanos)]]
+
+### İl · Edirne (Kırkkilise)
+`il: edirne`
+İmparatorluğun eski başkenti ve Trakya'nın kalesi. 1878'de Rus ordusu şehre girer, mütareke burada imzalanır. 1912–13'te Bulgarlar kuşatır ve Mart 1913'te alır; Temmuz 1913'te Enver'in birlikleri geri alır ve Enver "Edirne fatihi" unvanını kazanır (Bardakçı).
+> Kaynak: [[Edirne]] · [[Trakya]]
+
+### İl · Tekfurdağı
+`il: tekfurdagi`
+Marmara kıyısındaki Tekfurdağı sancağı; İstanbul'un Trakya'daki önü. Balkan Harbi'nde ordu Çatalca ve Bolayır hatlarına çekilir; bu hatların gerisindeki Tekfurdağı Osmanlı'da kalır.
+> Kaynak: [[Trakya]]
+
+### İl · Batı Trakya (Gümülcine, Pirin)
+`il: gumulcine`
+Batı Trakya (Gümülcine, Dedeağaç, İskeçe) ve Rodoplar'ın Pomak köyleri; nüfusun çoğu Müslüman. 1913'te Bulgaristan'a bırakılır; bölge halkı kısa ömürlü bir Garbi Trakya hükümeti kurar. Pirin (Cuma-i Bala) de 1913'te Bulgaristan'da kalır.
+> Kaynak: [[Trakya]] · [[Balkan Wars (1912-1913)]]
+
+### İl · Doğu Rumeli (Filibe)
+`il: dogu_rumeli`
+Filibe merkezli, Balkan dağlarının güneyindeki vilayet. Ayastefanos Büyük Bulgaristan'a katar; Berlin onu özerk bir Osmanlı vilayeti yapar. 1885'te bir ihtilalle Bulgaristan'a katılır.
+> Kaynak: [[Rumeli]] · [[Congress of Berlin (1878)]]
+
+### İl · Tuna (Rusçuk, Sofya)
+`il: tuna`
+Midhat Paşa'nın 1860'larda örnek vilayet yaptığı Tuna vilayeti (Rusçuk, Vidin, Sofya, Tırnova). 1877'de Ruslar Tuna'yı geçer; Plevne burada beş ay dayanır. Berlin'de Bulgaristan Prensliği olur.
+> Kaynak: [[Tuna]] · [[Siege of Plevne (1877)]]
+
+### İl · Selanik
+`il: selanik`
+İmparatorluğun en kalabalık liman şehirlerinden biri; güçlü bir Yahudi ve Dönme nüfusu, Mustafa Kemal'in doğduğu yer ve İttihat ve Terakki'nin beşiği. 1908 ihtilali buradan yayılır. Kasım 1912'de şehir savaşmadan Yunan ordusuna teslim olur.
+> Kaynak: [[Selanik]] · [[Makedonya]]
+
+### İl · Serez ve Drama
+`il: serez`
+Serez, Drama ve Kavala: tütün tarlalarının ve Makedonya'nın doğu kıyısının vilayet parçası. 1912'de Bulgar ordusu girer ve Serez'de Müslüman ahali zarar görür; 1913'te İkinci Balkan Harbi'nde Yunanistan'a geçer.
+> Kaynak: [[Makedonya]] · [[Balkan Wars (1912-1913)]]
+
+### İl · Manastır
+`il: manastir`
+Makedonya'da bir vilayet merkezi ve garnizon şehri; Mustafa Kemal'in askerî idadisi, Enver'in kurmaylığı, Resneli Niyazi'nin dağa çıkışı buradadır. Şemsi Paşa Temmuz 1908'de burada vurulur. 1912'de Sırp ordusu Manastır muharebesini kazanır.
+> Kaynak: [[Manastır]] · [[Makedonya]]
+
+### İl · Kesriye ve Florina
+`il: kesriye`
+Kesriye (Kastorya) ve Florina: Manastır vilayetinin güneyi, Rum, Bulgar ve Müslüman köylerinin karışık yaşadığı dağlık bölge. 1912'de Yunan ordusu girer; 1913'te Yunanistan'a bırakılır.
+> Kaynak: [[Makedonya]]
+
+### İl · Kosova (Priştine, Yeni Pazar)
+`il: kosova`
+Kosova vilayetinin kuzeyi: Priştine, Prizren, İpek ve Yeni Pazar sancağı. Nüfusun çoğu Arnavut. 1878'de Prizren Birliği burada kurulur; 1910–1912'de Arnavut isyanları. Balkan Harbi'nde Sırbistan ve Karadağ alır.
+> Kaynak: [[Arnavutluk]] · [[Balkan Wars (1912-1913)]]
+
+### İl · Üsküp
+`il: uskup`
+Belgrad–Selanik yolu üzerindeki Üsküp ve çevresi. 1908'den önce Avusturya jandarma subayları burada görev yapar (Bardakçı); 1908'de İttihatçılar Arnavutları Meşrutiyet'e burada kazanır (Akşin). 1912'de Sırp ordusu girer; Trotsky ordunun peşinden buraya gelir.
+> Kaynak: [[Üsküp]]
+
+### İl · İşkodra
+`il: iskodra`
+Arnavutluk'un kuzeyi, İşkodra ve Draç. 1911'deki kuzey Arnavut isyanlarının bölgesi. Balkan Harbi'nde Karadağ İşkodra'yı kuşatır ve Nisan 1913'te alır; büyük devletler şehri yeni Arnavutluk'a verir.
+> Kaynak: [[Arnavutluk]]
+
+### İl · Ergiri ve Görice
+`il: ergiri`
+Güney Arnavutluk: Ergiri, Görice ve Avlonya. Arnavut ve Rum köylerinin karışık bölgesi; Yunanistan "Kuzey Epir" diye ister. 1913'te bağımsız Arnavutluk'a bırakılır.
+> Kaynak: [[Arnavutluk]]
+
+### İl · Yanya
+`il: yanya`
+Epir'in merkezi Yanya. Yerel eşraf, Preveze, Narda ve Yanya Yunanistan'a verilirse isyan edeceklerini söyler (Ortaylı). Esad Paşa'nın savunmasından sonra Mart 1913'te Yunan ordusuna teslim olur.
+> Kaynak: [[Yunanistan]]
+
+### İl · Teselya
+`il: teselya`
+Yunanistan'ın kuzeyindeki ovalar, Yenişehir (Larissa). 1881'de büyük devletlerin baskısıyla Yunanistan'a bırakılır. 1897'de Osmanlı ordusu Dömeke zaferiyle Teselya'ya yeniden girer, ama barışta geri verir.
+> Kaynak: [[Greco-Turkish War of 1897]]
+
+### İl · Bosna-Hersek
+`il: bosna`
+Bosna-Hersek: Boşnak, Sırp ve Hırvat köylerinin vilayeti. 1875 Hersek isyanı Büyük Doğu Bunalımı'nı başlatır. Berlin'de Avusturya-Macaristan işgal eder; 1908'de ilhak eder. Boşnaklar 1878'de işgale kendi başlarına direnir.
+> Kaynak: [[Congress of Berlin (1878)]]
+
+### İl · Niş
+`il: nis`
+Niş, Pirot ve Vranya: 1877'ye kadar Arnavut ve Türk köylerinin yoğun olduğu Morava vadisi. 1878'de Sırbistan'a bırakılır; Müslüman ahali göçe zorlanır.
+> Kaynak: [[Sırbistan]] · [[Russo-Turkish War of 1877-1878]]
+
+### İl · Dobruca
+`il: dobruca`
+Tuna'nın ağzıyla Karadeniz arasındaki Dobruca: Tatar, Türk, Bulgar ve Rumen köyleri. 1878'de Romanya'ya bırakılır; güneyi 1913'te Romanya'ya geçer.
+> Kaynak: ⚠ Not from vault sources · genel bilgi
+
+### İl · Girit
+`il: girit`
+1669'da Venedik'ten alınan ada. Defalarca isyan eder; Hobart Paşa ve Ali Paşa oraya gönderilir. 18 Aralık 1897'de özerk olur ve 1908'de Yunanistan'a katılana kadar imparatorluğun en büyük derdi olarak kalır (Bardakçı).
+> Kaynak: [[Girit]]
+
+### İl · Ege adaları (Midilli, Sakız, Limni)
+`il: ege_adalari`
+Midilli, Sakız, Limni ve kuzey Ege adaları; nüfusun çoğu Rum. Balkan Harbi'nde Yunan donanması alır; 1913'te Yunanistan'a bırakılır. Çanakkale'ye ve Anadolu kıyısına yakınlıkları yüzünden kaybedilmeleri büyük bir güvenlik derdi olur.
+> Kaynak: [[Balkan Wars (1912-1913)]]
+
+### İl · Rodos ve On İki Ada
+`il: oniki_ada`
+Rodos ve On İki Ada. 1912'de Trablusgarp harbi sırasında İtalya işgal eder; Uşi'de geri verilmesi şarta bağlanır ama İtalya adaları bırakmaz.
+> Kaynak: [[Italo-Turkish War (1911-1912)]]
+
+### İl · Kıbrıs
+`il: kibris`
+Rumların çoğunlukta olduğu ada. 1878 Kıbrıs Sözleşmesi'yle İngiltere'nin yönetimine geçer; kâğıt üstünde Osmanlı toprağıdır ve sabit bir vergi öder (Güran). 1914'te İngiltere ilhak eder.
+> Kaynak: [[Kıbrıs]]
+
+### İl · Hüdavendigâr (Bursa)
+`il: hudavendigar`
+Bursa merkezli Hüdavendigâr vilayeti; Marmara'nın güneyi ve Çanakkale. İpekçilik ve muhacir köyleri: 1878'den sonra Rumeli'den gelen kafileler buraya yerleşir, Bursa'nın nüfusu otuz yılda ikiye katlanır. 1915'te Çanakkale'nin arkası.
+> Kaynak: [[Bursa]] · [[Çanakkale and Gelibolu]]
+
+### İl · Aydın (İzmir)
+`il: aydin`
+İzmir merkezli Aydın vilayeti; imparatorluğun en zengin ihracat limanı, üzüm, incir ve pamuk. Güçlü bir Rum ve Levanten tüccar sınıfı yaşar. Mayıs 1919'da Yunan ordusu İzmir'e çıkar ve bu Müdafaa-i Hukuk hareketini ateşler (Akşin).
+> Kaynak: [[İzmir]] · [[Occupation of İzmir (1919)]]
+
+### İl · Konya
+`il: konya`
+İç Anadolu'nun tahıl ovası ve Mevlana'nın şehri. 1909'da ilk "milli" banka Konya'da kurulur (Toprak). Bağdat demiryolu buradan geçer. Harpten sonra İtalyan askerleri Konya ve Antalya'ya gelir (Gürün).
+> Kaynak: [[Konya]]
+
+### İl · Ankara
+`il: ankara`
+Ankara vilayeti: tiftik keçisinin, Kayseri'nin ve Yozgat'ın vilayeti. 1892'de demiryolu Ankara'ya ulaşır. 1919–20'de Milli Mücadele'nin merkezi, sonra başkent olur.
+> Kaynak: [[Ankara]]
+
+### İl · Kastamonu
+`il: kastamonu`
+Batı Karadeniz'in ormanlık vilayeti; Kastamonu, Sinop ve Bolu. Asker ve ormancılık bölgesi; 1919'da vali ile kumandan Milli Mücadele yüzünden çekişir (Kansu).
+> Kaynak: [[Kastamonu]]
+
+### İl · Adana
+`il: adana`
+Çukurova'nın pamuk ovası; Toroslar ve Amanoslar'ın arkasında demiryolu tünelleriyle bağlanır. 1909'da Adana olayları yaşanır. 1918 sonunda Fransız ordusu ve Ermeni Lejyonu şehre girer (Akşin).
+> Kaynak: [[Adana]] · [[Adana events (1909)]]
+
+### İl · Sivas
+`il: sivas`
+Orta Anadolu'nun doğu kapısı; Sivas, Tokat, Amasya. Karma bir Türk ve Ermeni nüfusu yaşar. 1919'da Sivas Kongresi burada toplanır; Mustafa Kemal 2 Eylül'de şehre gelir (Goloğlu).
+> Kaynak: [[Sivas Congress (1919)]]
+
+### İl · Trabzon
+`il: trabzon`
+Doğu Karadeniz'in ana limanı ve İran transit yolunun başı. Rum ve Laz nüfusu kalabalıktır. Nisan 1916'da Ruslar alır; 1918'de geri alınır. 1919–21'de Milli Mücadele'nin merkezlerinden biri olur (Goloğlu).
+> Kaynak: [[Trabzon]]
+
+### İl · Erzurum
+`il: erzurum`
+Doğu Anadolu'nun merkezi ve büyük kalesi. 1877–78'de Ahmed Muhtar Paşa savunur; Şubat 1916'da Ruslar alır ve 1918'de geri alınır. Temmuz 1919'da Erzurum Kongresi burada toplanır.
+> Kaynak: [[Erzurum]] · [[Erzurum Congress (1919)]]
+
+### İl · Kars ve Ardahan
+`il: kars`
+Kafkas sınırındaki kale şehri ve Ardahan. 18 Kasım 1877'de Ruslara düşer ve Berlin'de Rusya'da kalır; Ruslar orada bir anıt diker. Sarıkamış harekâtının ilk hedefi Kars'tır; 1918'de Brest-Litovsk'tan sonra geri alınır.
+> Kaynak: [[Kars]] · [[Sarıkamış]]
+
+### İl · Batum
+`il: batum`
+Artvin ve Acara ile Batum: doğu Karadeniz'in Kafkas limanı. 1878'de Artvin'le birlikte Rusya'ya bırakılır (Bardakçı); Rusya serbest liman şartını sonra kaldırır. Batum Müslümanları Milli Mücadele'ye delege gönderir (Goloğlu).
+> Kaynak: [[Batum]]
+
+### İl · Van
+`il: van`
+Van gölünün çevresi ve Hakkâri dağları; Kürt, Ermeni ve Süryani köyleri. 1896'da ve 1915'te Ermeni isyanlarının merkezi; 1915'te Rus ilerleyişi yüzünden ordu şehri kurtaramaz (Gürün).
+> Kaynak: [[Van]]
+
+### İl · Bitlis
+`il: bitlis`
+Bitlis ve Muş ovası, Sason dağları; Kürt ve Ermeni köylerinin iç içe olduğu vilayet. 1894 ve 1904 Sason olayları burada yaşanır. 1916'da Mustafa Kemal Bitlis ve Muş'u geri alır.
+> Kaynak: [[Bitlis]]
+
+### İl · Diyarbakır
+`il: diyarbakir`
+Güneydoğunun merkezi Diyarbakır, Mardin ve Siirt; Kürt, Türk, Ermeni ve Süryani nüfus. 1895'te olaylar yaşanır; 1915 tehcirinde vilayetten geçen kafileler ağır kayıp verir.
+> Kaynak: [[Diyarbakır]]
+
+### İl · Mamuretülaziz (Harput)
+`il: mamuretulaziz`
+Harput ve Malatya: Fırat'ın yukarı vadisi, Amerikan misyoner kolejinin ve Ermeni köylerinin vilayeti. 1915'te tehcir kafilelerinin geçtiği başlıca yollardan biri.
+> Kaynak: [[Armenian deportation (1915)]]
+
+### İl · Halep
+`il: halep`
+Kuzey Suriye'nin büyük ticaret şehri; Maraş, Antep ve Urfa da vilayete bağlıdır. Büyük Harp'te Bağdat ve Filistin cepheleri için demiryolu ve ikmal merkezi olur (Cemal; Durgun). Tehcir kafilelerinin toplandığı yerdir.
+> Kaynak: [[Halep]]
+
+### İl · Suriye (Şam)
+`il: suriye`
+Şam merkezli Suriye vilayeti ve Havran. Büyük Harp'te Cemal Paşa'nın 4. Ordu karargâhıdır; 1915–18 kıtlığı bölgeyi ağır vurur. Ekim 1918'de Şam düşer ve Faysal'ın Arap hükümeti kurulur (Allawi).
+> Kaynak: [[Şam]] · [[Suriye]]
+
+### İl · Beyrut ve Lübnan
+`il: beyrut`
+Beyrut limanı ve Lübnan dağı; Dürzi ve Maruni köyleri, Amerikan ve Fransız okulları. Lübnan 1861'den özel statülüdür. Büyük Harp'te abluka ve çekirge kıtlığı yüz binlerce insanı öldürür.
+> Kaynak: [[Beyrut]] · [[Lübnan]]
+
+### İl · Kudüs
+`il: kudus`
+Kudüs mutasarrıflığı ve Filistin; üç dinin kutsal şehri. Rusya'dan gelen Yahudi göçmenler 1900'lerde tartışılır (Ortaylı). Aralık 1917'de İngilizlere düşer.
+> Kaynak: [[Kudüs]] · [[Filistin]]
+
+### İl · Musul
+`il: musul`
+Musul vilayeti: Kürt, Arap, Süryani ve Yezidi nüfus, petrol umudu. Sykes–Picot'da Fransa'ya ayrılır, harpten sonra İngiltere ister; Mondros'tan sonra İngiliz işgaline girer.
+> Kaynak: [[Sykes-Picot Agreement (1916)]]
+
+### İl · Bağdat
+`il: bagdat`
+Osmanlı Irak'ının merkezi. Midhat Paşa ve Cemal Paşa burada valilik yapar. Bağdat demiryolu buraya uzanacaktır. 1916'da Kut'ta İngiliz ordusu teslim olur; Mart 1917'de şehir düşer.
+> Kaynak: [[Bağdat]] · [[Siege of Kut (1916)]]
+
+### İl · Basra
+`il: basra`
+Güney Irak'ın Körfez limanı. Kasım 1914'te İngilizler işgal eder ve Mezopotamya cephesi buradan başlar.
+> Kaynak: [[Basra]] · [[Mesopotamian Front]]
+
+### İl · Hicaz
+`il: hicaz`
+Mekke ve Medine: halifeliğin meşruiyetinin kaynağı. Hicaz demiryolu 1908'de Medine'ye ulaşır. Haziran 1916'da Şerif Hüseyin isyan eder; Fahreddin Paşa Medine'yi mütarekeden sonra da tutar.
+> Kaynak: [[Hicaz]] · [[Mekke]] · [[Medine]]
+
+### İl · Yemen
+`il: yemen`
+Uzak ve asi vilayet; İmam Yahya'nın isyanları. Hochwächter'e göre Yemen harpleri 1912'den önce ordunun insan gücünü tüketti. Büyük Harp'te Osmanlı orada bir tümen tutar.
+> Kaynak: [[Yemen]]
+
+### İl · Necd (Riyad)
+`il: necd`
+Arabistan'ın içi, Riyad. 1902'de İbn Suud Riyad'ı alır ve Reşidîlerle yarışır. 1913'te el-Ahsa'yı da ele geçirir.
+> Kaynak: ⚠ Not from vault sources · genel bilgi
+
+### İl · Cebel-i Şammar (Hâil)
+`il: sammar`
+Hâil merkezli Cebel-i Şammar: Reşidî emirlerinin toprağı. Osmanlı'ya bağlıdırlar ve Büyük Harp'te Hilafet'in yanında kalırlar (Cemal Paşa).
+> Kaynak: [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 200|Cemal Paşa, *Hatıralar*, p. 200]] · *Türk kaynağı*
+
+### İl · el-Ahsa
+`il: lahsa`
+Körfez kıyısındaki el-Ahsa (Hasa). 1871'de Midhat Paşa'nın seferiyle Osmanlı'ya bağlanır; 1913'te İbn Suud alır.
+> Kaynak: ⚠ Not from vault sources · genel bilgi
+
+### İl · Kuveyt
+`il: kuveyt`
+Körfez'in başındaki küçük şeyhlik. Mübarek es-Sabah 1899'da İngiltere'yle anlaşır; Basra nakibi ona Osmanlı tekliflerini götürür (Akyıldız).
+> Kaynak: [[Basra]]
+
+### İl · Umman ve Körfez şeyhlikleri
+`il: umman`
+Umman ve Körfez şeyhlikleri: İngiltere'nin himayesindeki kıyı emirlikleri.
+> Kaynak: ⚠ Not from vault sources · genel bilgi
+
+### İl · Trablusgarp ve Bingazi
+`il: trablusgarp`
+Trablusgarp ve Bingazi: Osmanlı'nın Kuzey Afrika'daki son vilayeti. 1911'de İtalya saldırır; Enver ve Mustafa Kemal gönüllü subaylarla Derne ve Tobruk'ta savaşır. 1912'de Uşi'de İtalya'ya bırakılır.
+> Kaynak: [[Trablusgarp]] · [[Italo-Turkish War (1911-1912)]]
+
+### İl · Tunus
+`il: tunus`
+Beylerin yönettiği Tunus; kâğıt üstünde Osmanlı. 1881'de Fransa himaye ilan eder.
+> Kaynak: [[Tunus]]
+
+### İl · Mısır ve Sudan
+`il: misir`
+Kavalalı hanedanının hıdivliği; Süveyş Kanalı ve pamuk. 1882'de İngiltere işgal eder; sahibi hâlâ Osmanlı'dır ama tutan İngiltere'dir. 1914'te İngiliz himayesi ilan edilir.
+> Kaynak: [[Mısır]] · [[Süveyş Kanalı]]
+
+### İl · Cezayir
+`il: cezayir`
+1830'dan beri Fransa'nın elindeki Cezayir.
+> Kaynak: ⚠ Not from vault sources · genel bilgi
+
+### İl · Aden
+`il: aden`
+Aden limanı: 1839'dan beri İngiltere'nin Hindistan yolundaki üssü.
+> Kaynak: ⚠ Not from vault sources · genel bilgi
+
+### İl · Sırbistan
+`il: sirbistan`
+Sırbistan Prensliği, 1882'den krallık. 1876'da Osmanlı'ya harp açar, Berlin'de bağımsız olur. 1912'de Balkan ittifakıyla Makedonya'yı alır.
+> Kaynak: [[Sırbistan]]
+
+### İl · Karadağ
+`il: karadag`
+Karadağ Prensliği; 1878'de bağımsız, 1912'de Balkan Harbi'ni ilk ilan eden devlet. 1913'te İşkodra'yı alır ama büyük devletler geri aldırır.
+> Kaynak: [[Balkan Wars (1912-1913)]]
+
+### İl · Romanya
+`il: romanya`
+Eflak ve Boğdan'ın birleşmesinden doğan Romanya; 1878'de bağımsız.
+> Kaynak: [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 644|Mantran, p. 644]] · *Fransız kaynağı*
+
+### İl · Yunanistan
+`il: yunanistan`
+Yunanistan Krallığı; 1830'da bağımsız.
+> Kaynak: [[Yunanistan]]
+
+### İl · Avusturya-Macaristan
+`il: avusturya`
+Avusturya-Macaristan İmparatorluğu.
+> Kaynak: [[Congress of Berlin (1878)]]
+
+### İl · İtalya
+`il: italya`
+İtalya Krallığı.
+> Kaynak: [[Italo-Turkish War (1911-1912)]]
+
+### İl · Almanya
+`il: almanya`
+Alman İmparatorluğu.
+> Kaynak: [[German military mission (1913)]]
+
+### İl · Fransa
+`il: fransa`
+Fransa Cumhuriyeti.
+> Kaynak: [[Sykes-Picot Agreement (1916)]]
+
+### İl · Rusya
+`il: rusya`
+Rus İmparatorluğu.
+> Kaynak: [[Russian Empire]]
+
+### İl · Kafkasya (Tiflis, Revan)
+`il: kafkasya`
+Rusya'nın Kafkasya'sı: Tiflis, Revan, Bakü. 1918'de Rus ordusu dağılınca Gürcü, Ermeni ve Azerbaycan cumhuriyetleri kurulur; Osmanlı ordusu Bakü'ye kadar ilerler.
+> Kaynak: [[Kafkasya]]
+
+### İl · İran
+`il: iran`
+Kaçar hanedanının İran'ı.
+> Kaynak: [[İran]]
+
 ## Yerler
 
 Haritadaki işaretler. Tıklanınca sol altta o yerin paneli açılır: açıklama, orada bekleyen evrak, açık kararlar, ilgili iplikler, geçmiş olaylar. `konum` boylam,enlemdir. Olaylar `yer:` alanıyla bir yere bağlanır; alanı olmayan olay kendi devletinin yerine düşer (`bayrak`). İstanbul'daki yerler haritada tek bir sarı başkent yıldızında toplanır; yıldıza tıklanınca listelenir. Hükümdarın portresi haritada değil, ekranın sağ üstündeki kartta durur.
 
 ### Yer · Babıâli
 `yer: babiali` · `il: istanbul` · `konum: 28.976,41.011` · `simge: payitaht` · `bayrak: OS`
-Sadrazamın ve nazırların makamı; buradan Payitaht açılır.
+Sadrazamın ve nazırların makamı; genişleyerek Osmanlı hükümetinin adı. Avrupa'yla diplomasiyi burası yürütür: Mısır meselesi, Ermeni meselesi, borçlar. 23 Ocak 1913'te Enver'in baskınıyla İttihatçı darbesinin sahnesi olur. Payitaht buradan açılır.
 > Kaynak: [[Sublime Porte]]
 
 ### Yer · Yıldız Sarayı
 `yer: yildiz` · `il: istanbul` · `konum: 29.010,41.049` · `simge: saray`
-Abdülhamid'in sarayı; jurnallerin gittiği yer.
+Abdülhamid'in sarayı ve devrinin simgesi. Jurnaller buraya gider, atamalar burada verilir; Bouquet'ye göre bütün yetki padişahın elinde toplanır. 1881'de Midhat Paşa burada yargılanır; 21 Temmuz 1905'te Yıldız Camii önünde padişaha bombalı suikast yapılır.
 > Kaynak: [[Yıldız Sarayı]]
 
 ### Yer · Dolmabahçe Sarayı
 `yer: dolmabahce` · `il: istanbul` · `konum: 29.000,41.039` · `simge: saray`
-Boğaz kıyısındaki saray.
+Boğaz kıyısındaki büyük saray; 17. yüzyıldaki bir bahçenin yerinde büyür (Çelik). Abdülaziz 1876'da burada karadan askerle, denizden donanmayla kuşatılarak tahttan indirilir. Padişah bayram tebriklerini burada kabul eder (Cox).
 > Kaynak: [[Dolmabahçe Sarayı]]
 
 ### Yer · Ayastefanos
 `yer: ayastefanos` · `il: istanbul` · `konum: 28.820,40.963` · `simge: antlasma`
-Yeşilköy: 1878'de Rus karargâhının kurulduğu ve ön barışın imzalandığı sahil kasabası.
+Yeşilköy: İstanbul'un batısındaki sahil kasabası ve oyunun adı. 1878'de Rus karargâhı burada kurulur, 3 Mart'ta ön barış imzalanır; Ruslar kasabaya bir anıt diker. Nisan 1909'da Hareket Ordusu İstanbul'a girmeden önce burada toplanır.
 > Kaynak: [[Yeşilköy (Ayastefanos)]]
 
 ### Yer · Haliç
 `yer: halic` · `il: istanbul` · `konum: 28.955,41.040` · `simge: donanma`
-Donanmanın demir yeri.
+Donanmanın demir yeri ve Tersane-i Amire. Abdülaziz'in güçlü zırhlıları Abdülhamid devrinde burada çürümeye bırakılır (Toprak); 1897'de filonun Haliç'ten çıkışı bir rezalete döner.
 > Kaynak: [[Ottoman Navy]]
 
 ### Yer · Galata
 `yer: galata` · `il: istanbul` · `konum: 28.974,41.025` · `simge: banka`
-Osmanlı Bankası, Düyun-u Umumiye ve Reji'nin semti.
+Osmanlı Bankası, Düyun-u Umumiye ve Reji'nin semti; Levanten tüccarların, sefaretlerin ve borsanın Beyoğlu yakası. 26 Ağustos 1896'da Taşnak komitecileri Osmanlı Bankası'nı basar.
 > Kaynak: [[Beyoğlu and Galata]] · [[Ottoman Bank]] · [[Düyun-u Umumiye]] · [[Tobacco Régie]]
 
 ### Yer · Harbiye Mektebi
 `yer: harbiye_mektebi` · `il: istanbul` · `konum: 28.987,41.046` · `simge: ordu`
-Subayların yetiştiği mektep.
+Subayların yetiştiği Mekteb-i Harbiye. Goltz Paşa 1883'ten bir kuşak kurmay yetiştirir; Namık Kemal'in yazıları koğuşlarda gizlice okunur (Kılıç Ali). Enver, Mustafa Kemal ve arkadaşları buradan çıkar.
 > Kaynak: [[Ottoman War Academy]]
 
 ### Yer · Edirne
 `yer: edirne` · `il: edirne` · `konum: 26.556,41.677` · `simge: sehir`
+Selimiye'nin şehri ve Trakya'nın kalesi. 1878'de Rus ordusu girer, mütareke burada imzalanır. 1912–13'te Şükrü Paşa beş ay kuşatmaya dayanır; Temmuz 1913'te geri alınır.
 > Kaynak: [[Edirne]]
 
 ### Yer · Filibe
 `yer: filibe` · `il: dogu_rumeli` · `konum: 24.750,42.150` · `simge: sehir`
-Doğu Rumeli'nin merkezi.
+Doğu Rumeli'nin merkezi; Rodoplar'ın ve Meriç ovasının şehri. 1878'de Ruslar girer; Berlin'den sonra özerk vilayetin merkezi olur. 1885'te buradaki ihtilal Doğu Rumeli'yi Bulgaristan'a katar.
 > Kaynak: [[Bulgaristan]]
 
 ### Yer · Plevne
 `yer: plevne` · `il: tuna` · `konum: 24.617,43.417` · `simge: kale`
+Tuna'nın güneyindeki küçük kasaba. Gazi Osman Paşa 1877'de burada beş ay boyunca Rus ve Rumen hücumlarını geri püskürtür; Kemal onu "en parlak tarihî örnek" sayar. 10 Aralık 1877'de düşer.
 > Kaynak: [[Siege of Plevne (1877)]]
 
 ### Yer · Selanik
 `yer: selanik` · `il: selanik` · `konum: 22.944,40.640` · `simge: sehir`
+Makedonya'nın büyük limanı; Mustafa Kemal'in doğduğu, İttihat ve Terakki'nin kurulduğu şehir. 1908 ihtilali buradan yayılır; 1909'da Abdülhamid Selanik'e sürülür. Kasım 1912'de şehir Yunan ordusuna teslim olur.
 > Kaynak: [[Selanik]]
 
 ### Yer · Girit
 `yer: girit` · `il: girit` · `konum: 24.020,35.510` · `simge: ada`
+Kandiye ve Hanya: Girit'in şehirleri. Ada 1897'de özerk olur, Girit Yüksek Komiserliği'ne Yunan prensi getirilir ve 1908'de Yunanistan'a bağlanır.
 > Kaynak: [[Girit]]
 
 ### Yer · Kıbrıs
 `yer: kibris` · `il: kibris` · `konum: 33.360,35.170` · `simge: ada`
+Lefkoşa ve Magosa. 1878'de İngiltere adayı Rusya'ya karşı bir üs olarak alır; ada kâğıt üstünde Osmanlı toprağı kalır.
 > Kaynak: [[Kıbrıs]]
 
 ### Yer · Çanakkale
 `yer: canakkale` · `il: hudavendigar` · `konum: 26.400,40.150` · `simge: kale`
+Boğaz'ın tabyaları ve Gelibolu yarımadası. 18 Mart 1915'te İtilaf donanması Boğaz'ı geçemez; 25 Nisan'dan itibaren karada Arıburnu, Seddülbahir ve Anafartalar'da savaşılır. Ocak 1916'da İtilaf birlikleri çekilir.
 > Kaynak: [[Çanakkale and Gelibolu]]
 
 ### Yer · Kars
 `yer: kars` · `il: kars` · `konum: 43.090,40.600` · `simge: kale`
+Kafkas sınırının kalesi. 18 Kasım 1877'de düşer ve kırk yıl Rus kalır; 1918'de geri alınır.
 > Kaynak: [[Kars]]
 
 ### Yer · Batum
 `yer: batum` · `il: batum` · `konum: 41.640,41.640` · `simge: liman`
+Acara'nın limanı. 1878'de Rusya'ya serbest liman şartıyla bırakılır; Rusya şartı sonra kaldırır (Cox). 1918'de Osmanlı ordusu girer.
 > Kaynak: [[Batum]]
 
 ### Yer · Erzurum
 `yer: erzurum` · `il: erzurum` · `konum: 41.270,39.900` · `simge: kale`
+Doğu Anadolu'nun büyük kalesi. Şubat 1916'da Ruslar alır, 1918'de geri alınır; Temmuz 1919'da Erzurum Kongresi burada toplanır.
 > Kaynak: [[Erzurum]]
 
 ### Yer · Sarıkamış
 `yer: sarikamis` · `il: kars` · `konum: 42.590,40.330` · `simge: ordu`
+Kars yakınında karlı bir kasaba. 22 Aralık 1914–Ocak 1915 arasındaki harekâtta 3. Ordu büyük ölçüde soğuktan ve açlıktan eriyip gider; Cemal Paşa'ya göre Kafkas ordusu yok olur.
 > Kaynak: [[Sarıkamış]]
 
 ### Yer · Van
 `yer: van` · `il: van` · `konum: 43.380,38.500` · `simge: sehir`
+Van gölünün kıyısında, Ermeni ve Müslüman mahalleleriyle bir şehir. Nisan–Mayıs 1915'te Ermeni isyanı ve Rus ilerleyişiyle şehir kaybedilir (Gürün).
 > Kaynak: [[Van]]
 
 ### Yer · Şam
 `yer: sam` · `il: suriye` · `konum: 36.290,33.510` · `simge: sehir`
+Suriye'nin başkenti. Büyük Harp'te Cemal Paşa'nın 4. Ordu karargâhı burada kurulur; 1916'da Arap milliyetçileri burada asılır. Ekim 1918'de Faysal'ın ordusu girer.
 > Kaynak: [[Şam]]
 
 ### Yer · Bağdat
 `yer: bagdat` · `il: bagdat` · `konum: 44.360,33.310` · `simge: sehir`
+Osmanlı Irak'ının merkezi; Dicle kıyısında. Goltz Paşa Nisan 1916'da burada ölür; Mart 1917'de şehir İngilizlere düşer.
 > Kaynak: [[Bağdat]]
 
 ### Yer · Mekke
 `yer: mekke` · `il: hicaz` · `konum: 39.830,21.420` · `simge: kutsal`
+İslam'ın en kutsal şehri; Şerif'in şehri. Kasım 1908'de emirlik Şerif Hüseyin'e verilir (Allawi); Haziran 1916'da isyanın merkezi olur.
 > Kaynak: [[Mekke]]
 
 ### Yer · Kahire
 `yer: kahire` · `il: misir` · `konum: 31.240,30.040` · `simge: sehir`
-Hıdivin payitahtı.
+Hıdivin payitahtı. 1882'den sonra İngiliz yüksek komiserinin şehri; Ahmed Muhtar Paşa yirmi yılı aşkın Osmanlı fevkalade komiseri olarak burada oturur.
 > Kaynak: [[Mısır]] · [[British occupation of Egypt (1882)]]
 
 ### Yer · Süveyş Kanalı
 `yer: suveys` · `il: misir` · `konum: 32.300,30.600` · `simge: liman`
+1869'da açılan kanal: Hindistan yolunun anahtarı. Cemal Paşa'nın 1915'teki ilk ve 1916'daki ikinci kanal harekâtları kanalı geçemez.
 > Kaynak: [[Süveyş Kanalı]]
 
 ### Yer · Trablusgarp
 `yer: trablus` · `il: trablusgarp` · `konum: 13.190,32.890` · `simge: liman`
+Trablusgarp şehri ve Bingazi. Eylül 1911'de İtalya'nın saldırısıyla harp başlar; Enver ve Mustafa Kemal Derne ve Tobruk'ta bedevi aşiretlerle savaşır.
 > Kaynak: [[Trablusgarp]]
 
 ### Yer · Tunus
 `yer: tunus` · `il: tunus` · `konum: 10.180,36.800` · `simge: liman`
+Tunus beylerinin şehri. 1881'de Fransa himaye ilan eder; Bismarck'ın Berlin'den sonraki manevraları Fransa'yı Tunus'a yöneltir (Akyıldız).
 > Kaynak: [[Tunus]]
 
 ## Harpler ve cepheler

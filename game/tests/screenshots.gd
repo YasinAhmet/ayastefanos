@@ -109,6 +109,8 @@ func _run() -> void:
 	await _close_modals()
 	desk.show_province("tuna")
 	await _shot("08_plevne_1877")
+	desk.show_nation("RU")
+	await _shot("08b_russia")
 	_history_until(st, 1912, 2)
 	desk.refresh()
 	desk.show_person("enver")

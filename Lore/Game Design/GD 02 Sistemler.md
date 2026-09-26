@@ -188,78 +188,127 @@ Masada her devletin bayraklı yuvarlak bir düğmesi vardır; olay düğmeleri d
 
 ### Devlet · Payitaht
 `devlet: OS` · `ad: Devlet-i Aliyye` · `konum: 28.976,41.011` · `görsel: Map-of-Ottoman-Empire-1900.png`
-İstanbul, Babıâli, saray. Payitaht düğmesi hükümdarı ve nazırları açar.
+İstanbul, Babıâli ve saray: 1873'te Tuna'dan Basra'ya, Bosna'dan Yemen'e uzanan, ama 1875'te iflas etmiş bir imparatorluk. Abdülaziz'in devri iflasla, Abdülhamid'inki Düyun-u Umumiye ile açılır; 1878'de Balkanlar'ın büyük kısmı, 1882'de Mısır fiilen, 1912–13'te Rumeli kaybedilir.
+
+Kaynaklar bu yılları bir yandan çözülme, bir yandan da merkezileşme ve modernleşme diye anlatır: Bouquet atamaların padişahın elinde toplandığını, Toprak ve Güran maliyenin çöküşünü, Akşin meşrutiyet mücadelesini yazar. Payitaht düğmesi hükümdarı ve nazırları açar.
+> Kaynak: [[Ottoman Empire]] · [[Düyun-u Umumiye]] · [[Congress of Berlin (1878)]]
 
 ### Devlet · Rusya
 `devlet: RU` · `ad: Rusya İmparatorluğu` · `konum: 33.50,46.60`
-Karadeniz'in ve Boğazlar'ın öbür ucundaki asıl tehdit. İki yüzyıllık savaşların karşı tarafı.
+Karadeniz'in ve Boğazlar'ın öbür ucundaki asıl tehdit; iki yüzyıllık savaşların karşı tarafı. 1877–78'de ordusu Ayastefanos'a kadar geldi, Kars'ı, Ardahan'ı ve Batum'u aldı; Berlin Kongresi kazançlarının bir kısmını geri aldırdı.
+
+İstanbul'daki sefiri İgnatiyev 1870'lerde Babıâli'yi yönlendirir (Mantran). 1914'te Kafkas cephesinde yeniden karşımızdadır; 1915'te İtilaf'tan İstanbul ve Boğazlar vaadi alır. 1917 ihtilaliyle çöker ve Brest-Litovsk'ta Kars, Ardahan ve Batum'u geri verir.
+> Kaynak: [[Russian Empire]] · [[Russo-Turkish War of 1877-1878]] · [[Russian Revolution (1917)]] · [[Treaty of Brest-Litovsk (1918)]]
 
 ### Devlet · İngiltere
 `devlet: IN` · `ad: Büyük Britanya` · `konum: 14.50,35.90`
-Kıbrıs'ı alan, Mısır'a yerleşen, Hindistan yolunu kollayan deniz gücü.
+Kıbrıs'ı alan, Mısır'a yerleşen, Hindistan yolunu kollayan deniz gücü. 1878'de Rusya'ya karşı imparatorluğun koruyucusu gibi görünür ve karşılığında Kıbrıs'ı alır; 1882'de Mısır'ı işgal eder.
+
+Gladstone'un 'Bulgar vahşetleri' kampanyasından sonra kamuoyu Türklere döner; Salisbury bir paylaşım bile önerir. Büyük Harp'te Çanakkale'de, Irak'ta ve Filistin'de karşımızdadır; Şerif Hüseyin'i isyana destekler ve 1918'de İstanbul'u işgal eder.
+> Kaynak: [[British occupation of Egypt (1882)]] · [[Lord Salisbury]] · [[William Gladstone]] · [[Gallipoli Campaign (1915)]]
 
 ### Devlet · Fransa
 `devlet: FR` · `ad: Fransa` · `konum: 8.60,36.50`
-Tunus'u alan, Suriye ve Lübnan'da gözü olan alacaklı.
+1881'de Tunus'u alan, Suriye ve Lübnan'da gözü olan, imparatorluğun başlıca alacaklılarından biri. Osmanlı Bankası'nın ve Düyun-u Umumiye'nin arkasında Fransız sermayesi durur; Reji de Fransız ağırlıklı bir şirkettir.
+
+Büyük Harp'te İtilaf'tadır; Sykes–Picot'da Suriye kıyısını, Kilikya'yı ve Musul'un kuzeyini kendine ayırır. Harpten sonra Adana ve Kilikya'ya asker çıkarır.
+> Kaynak: [[Ottoman Bank]] · [[Tobacco Régie]] · [[Sykes-Picot Agreement (1916)]]
 
 ### Devlet · Almanya
 `devlet: AL` · `ad: Alman İmparatorluğu` · `konum: 13.40,51.50`
-Önce danışman, sonra demiryolu sahibi, en sonunda müttefik.
+Önce danışman, sonra demiryolu sahibi, en sonunda müttefik. Bismarck 1880'de padişahın Alman müşavir isteğini nüfuz kazanmak için kabul ettirir; Goltz Paşa bir kuşak subay yetiştirir. 1899'dan sonra Bağdat demiryolu imtiyazını alır.
+
+1913'te Liman von Sanders'in askerî heyeti gelir; 2 Ağustos 1914'te gizli ittifak imzalanır ve Goeben ile Breslau Osmanlı'yı harbe sokar. Bardakçı'ya göre İttihat ve Terakki devletin kaderini Berlin'e bağladı.
+> Kaynak: [[Otto von Bismarck]] · [[Colmar von der Goltz]] · [[German military mission (1913)]] · [[Goeben and Breslau (1914)]]
 
 ### Devlet · Avusturya-Macaristan
 `devlet: AV` · `ad: Avusturya-Macaristan` · `konum: 16.37,48.21`
-Bosna-Hersek'i önce işgal, sonra ilhak eden komşu.
+Bosna-Hersek'i 1878'de işgal, 1908'de ilhak eden komşu. Makedonya'da Rusya ile birlikte ıslahat denetimi kurar; Üsküp'e jandarma subayları gönderir (Bardakçı).
+
+Büyük Harp'te Almanya'nın ve Osmanlı'nın müttefikidir; Galiçya'ya Osmanlı tümenleri gönderilir. 1918'de dağılır.
+> Kaynak: [[Congress of Berlin (1878)]] · [[Galician Front (1916-1917)]]
 
 ### Devlet · İtalya
 `devlet: IT` · `ad: İtalya` · `konum: 12.50,41.90`
-1911'de Trablusgarp'a çıkan genç devlet.
+1861'de birleşen genç krallık; Akdeniz'de sömürge arar. 1911'de Trablusgarp'a çıkar; 1912'de On İki Ada'yı alır ve Uşi'de Trablusgarp ile Bingazi'yi kendine bırakır.
+
+1915'te İtilaf'a katılır ve Londra'da Antalya vaadini alır; harpten sonra Antalya ve Konya'ya asker çıkarır.
+> Kaynak: [[Italo-Turkish War (1911-1912)]] · [[Trablusgarp]]
 
 ### Devlet · Yunanistan
 `devlet: YU` · `ad: Yunanistan` · `konum: 23.73,37.98`
-Girit'i ve adaları isteyen komşu; 1919'da İzmir'e çıkar.
+1830'da bağımsız olan krallık; Girit'i ve adaları ister. 1881'de Teselya'yı alır, 1897'de Dömeke'de yenilir, ama Girit özerk olur ve 1908'de Yunanistan'a katılır.
+
+Balkan Harbi'nde Selanik'e ve Yanya'ya girer, Ege adalarını alır. 1919'da İzmir'e çıkar.
+> Kaynak: [[Yunanistan]] · [[Greco-Turkish War of 1897]] · [[Girit]]
 
 ### Devlet · Bulgaristan
 `devlet: BU` · `ad: Bulgaristan` · `konum: 23.32,42.70`
-Ayastefanos'un doğurduğu prenslik, Balkan Harbi'nin Çatalca'ya dayanan ordusu, sonra Büyük Harp'te müttefik.
+Ayastefanos'un doğurduğu, Berlin'in küçülttüğü prenslik. 1885'te Doğu Rumeli'yi katar, 1908'de bağımsızlığını ilan eder.
+
+1912'de Balkan ittifakıyla Çatalca'ya dayanır ve Edirne'yi alır; İkinci Balkan Harbi'nde Edirne'yi geri verir ama Batı Trakya'yı tutar. 1915'te Almanya ve Osmanlı'nın müttefiki olur.
+> Kaynak: [[Bulgaristan]] · [[Balkan Wars (1912-1913)]]
 
 ### Devlet · Sırbistan ve Karadağ
 `devlet: SR` · `ad: Sırbistan ve Karadağ` · `konum: 20.46,44.82`
-1876'da savaş açan, 1912'de Balkan ittifakına giren komşular.
+1876'da Osmanlı'ya harp açan Sırbistan ve Karadağ; Berlin'de ikisi de bağımsız olur ve Niş bölgesini alır. 1882'de Kral Milan'ın antlaşması Sırbistan'ı neredeyse Avusturya'nın bir vasalı yapar (Trotsky).
+
+1912'de Balkan ittifakıyla Kosova'yı, Üsküp'ü ve Manastır'ı alırlar; Trotsky bu seferi Sırp ordusunun yanında izler.
+> Kaynak: [[Sırbistan]] · [[Balkan Wars (1912-1913)]]
 
 ### Devlet · Romanya
 `devlet: RO` · `ad: Romanya` · `konum: 26.10,44.43`
-1878'e kadar kâğıt üstünde Osmanlı'ya bağlı prenslik; Ayastefanos ve Berlin'le bağımsız, Dobruca'yı alır.
+1878'e kadar kâğıt üstünde Osmanlı'ya bağlı Eflak ve Boğdan prenslikleri. '93 Harbi'nde Rusya'nın yanında savaşır; Ayastefanos ve Berlin'le bağımsız olur ve Dobruca'yı alır.
+
+1913'te İkinci Balkan Harbi'nde Bulgaristan'a girer; 1916'da İtilaf'a katılır ve Osmanlı tümenleri Dobruca'da onunla savaşır.
 > Kaynak: [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 644|Mantran, *Osmanlı İmparatorluğu Tarihi*, p. 644]] · *Fransız kaynağı*
 
 ### Devlet · Arnavutluk
 `devlet: AB` · `ad: Arnavutluk` · `konum: 19.82,41.33`
-Balkan Harbi'nin sonunda Londra'da bağımsızlığı tanınan prenslik.
+Balkan Harbi'nin sonunda Londra'da bağımsızlığı tanınan prenslik. Ondan önce Arnavutlar imparatorluğun sadık ve huzursuz tebaasıydı: 1878'de Prizren Birliği, 1910–1912'de kuzeyde isyanlar.
+
+İşkodra'yı Karadağ, güneyini Yunanistan ister; büyük devletler 1913'te sınırlarını çizer.
 > Kaynak: [[Arnavutluk]]
 
 ### Devlet · Cebel-i Şammar
 `devlet: RS` · `ad: Cebel-i Şammar Emirliği (Reşidîler)` · `konum: 41.70,27.50`
-Hâil merkezli, İstanbul'a bağlı Reşidî emirliği; Necd'de Suudlarla yarışır. Büyük Harp'te Osmanlı'nın yanında kalır.
+Hâil merkezli, İstanbul'a bağlı Reşidî emirliği; Necd'de Suudlarla yarışır. 1902'den sonra Riyad'ı İbn Suud'a kaptırır.
+
+Büyük Harp'te Osmanlı'nın yanında kalır: Cemal Paşa'ya göre Emir İbn Reşid 'seferin sonuna kadar Hilafet makamına kuvvetle bağlı' kaldı.
 > Kaynak: [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 200|Cemal Paşa, *Hatıralar*, p. 200]] · *Türk kaynağı*
 
 ### Devlet · Mısır
 `devlet: MI` · `ad: Mısır Hıdivliği` · `konum: 31.24,30.04`
-Kâğıt üstünde Osmanlı, 1882'den sonra fiilen İngiliz.
+Kâğıt üstünde Osmanlı, 1882'den sonra fiilen İngiliz. Kavalalı Mehmed Ali Paşa'nın hanedanı özerk bir hıdivlik kurmuştur; İsmail Paşa unvanını Abdülaziz'e hediyelerle almıştır (Akyıldız).
+
+1882'de Urabi hareketinden sonra İngiltere işgal eder; Ahmed Muhtar Paşa yirmi yılı aşkın Osmanlı fevkalade komiseri olarak Kahire'de oturur. 1914'te İngiltere hıdivi indirip himaye ilan eder.
+> Kaynak: [[Mısır]] · [[British occupation of Egypt (1882)]]
 
 ### Devlet · İran
 `devlet: IR` · `ad: İran` · `konum: 51.40,35.70`
-Doğudaki komşu ve rakip.
+Doğudaki komşu ve eski rakip. 1905'ten sonra meşrutiyet mücadelesi, 1907'de Rusya ve İngiltere'nin nüfuz bölgelerine bölünmesi. Büyük Harp'te tarafsızdır ama topraklarında Osmanlı, Rus ve İngiliz birlikleri savaşır.
+> Kaynak: [[İran]]
 
 ### Devlet · Ermeniler
 `devlet: ER` · `ad: Ermeni cemaati ve komiteler` · `konum: 42.60,39.20`
-Bir devlet değil, bir güç. Doğu vilayetleri, Hınçak ve Taşnak komiteleri, Avrupa'daki temsilcileri.
+Bir devlet değil, bir güç: İstanbul'daki Patrikhane ve Ermeni cemaati, doğu vilayetlerinin Ermeni köyleri, Hınçak ve Taşnak komiteleri, Avrupa'daki temsilcileri. Berlin'in 61. maddesi Ermeni ıslahatını bir uluslararası mesele yapar.
+
+1890'ların olayları, 1896 Osmanlı Bankası baskını, 1905 Yıldız bombası, 1909 Adana ve 1915 tehciri kaynaklarda tarafların birbirinden çok farklı anlattığı konulardır (Gürün, Türk tarafı; Mantran, Fransız tarafı).
+> Kaynak: [[Armenian revolutionary committees]] · [[Hamidian massacres and Armenian uprisings (1894-1896)]] · [[Armenian deportation (1915)]]
 
 ### Devlet · Araplar
 `devlet: AR` · `ad: Arap vilayetleri ve Hicaz` · `konum: 41.00,25.50`
-Bir devlet değil, bir güç. Suriye, Irak, Hicaz; Mekke Şerifi ve aşiretler.
+Bir devlet değil, bir güç: Suriye, Irak, Hicaz ve Yemen'in şehirleri, Mekke Şerifi ve aşiretler. Abdülhamid'in İslamcı siyaseti Arap vilayetlerini İstanbul'a bağlamaya çalışır; 1908'den sonra İttihatçıların merkeziyetçiliğine tepki olarak Arap milliyetçiliği güçlenir (Murphy).
+
+1916'da Şerif Hüseyin İngilizlerle anlaşarak isyan eder; Cemal Paşa Şam'da milliyetçileri astırır. 1918'de Faysal Şam'a girer.
+> Kaynak: [[Arab Revolt (1916-1918)]] · [[Şerif Hüseyin]]
 
 ### Devlet · Kürtler
 `devlet: KU` · `ad: Kürt aşiretleri` · `konum: 42.20,37.70`
-Bir devlet değil, bir güç. Doğu vilayetlerinin aşiret reisleri; Hamidiye alayları.
+Bir devlet değil, bir güç: doğu vilayetlerinin aşiret reisleri ve şeyhleri. Abdülhamid onların bir kısmını Hamidiye alaylarına alır; aşiretler kanuni dokunulmazlığı toprak kazanmak için kullanır (Emrence).
+
+Büyük Harp'te Rus işgali doğudaki Kürt ahaliyi de göçe ve ölüme sürükler.
+> Kaynak: [[Hamidiye Regiments]]
 
 ## Olay yazım kuralları
 

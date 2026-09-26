@@ -132,6 +132,24 @@ def to_bbcode(s, codex_refs=None):
     return s
 
 
+def paragraphs(body):
+    """The text lines of a block (not its > source lines), paragraphs kept apart by a blank line."""
+    paras, cur = [], []
+    for l in body:
+        st = l.strip()
+        if st.startswith(">"):
+            continue
+        if not st:
+            if cur:
+                paras.append(" ".join(cur))
+                cur = []
+        else:
+            cur.append(st)
+    if cur:
+        paras.append(" ".join(cur))
+    return "\n\n".join(paras)
+
+
 def src_line(s):
     """A source line → BBCode with its kind as icon markers ({i:book} vault books and notes, {i:wiki} Wikipedia,
     {i:guess} assumption or alternative history); the game draws the icons (UIKit.rich)."""
@@ -529,6 +547,7 @@ def main():
     queued = defaultdict(list)
     codex_refs = set()
     wiki_pages = {}
+    province_text = {}
     used_images = {}
 
     def image(where, name):
@@ -616,12 +635,22 @@ def main():
                                            "text": to_bbcode(para, codex_refs),
                                            "sources": [src_line(s) for s in srcs]}
                 continue
+            if "il" in fields and "yer" not in fields and "id" not in fields:
+                pid = fields["il"]
+                if pid not in prov_ids:
+                    err(where, f"il: unknown province '{pid}'")
+                province_text[pid] = {"text": to_bbcode(paragraphs(body), codex_refs),
+                                      "sources": [src_line(l.strip()[1:].strip().removeprefix("Kaynak:").strip())
+                                                  for l in body if l.startswith(">")]}
+                continue
             if "devlet" in fields:
                 title = header.split("·", 1)[-1].strip()
-                para = " ".join(l.strip() for l in body if l.strip() and not l.startswith(">"))
+                para = paragraphs(body)
+                nation_srcs = [src_line(l.strip()[1:].strip().removeprefix("Kaynak:").strip()) for l in body if l.startswith(">")]
                 pos = [float(x) for x in fields.get("konum", "0.5,0.5").split(",")]
                 nations[fields["devlet"]] = {"id": fields["devlet"], "name": fields.get("ad", title),
                                              "short": title, "pos": pos, "text": to_bbcode(para, codex_refs),
+                                             "sources": nation_srcs,
                                              "image": image(where, fields.get("görsel"))}
                 continue
             if "cephe" in fields and "id" not in fields:
@@ -984,6 +1013,10 @@ def main():
         if not fr["results"]:
             err(where, f"cephe {fr['id']}: needs sonuç events")
 
+    for p in provinces:
+        p.update(province_text.get(p["id"], {"text": "", "sources": []}))
+        if not p["text"]:
+            warn("GD 05", f"il {p['id']}: no description (### İl block)")
     # ---- codex from lore notes' Interesting details
     codex = {}
     for note in sorted(codex_refs | set(wiki_pages)):

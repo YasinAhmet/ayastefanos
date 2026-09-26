@@ -777,6 +777,23 @@ func _place_tabs(place: String, prov: String, on_place: bool) -> Array:
 		["İl ve nüfus: " + str(state.provinces.get(prov, {}).get("name", prov)).split(" (")[0], show_province.bind(prov), not on_place]]
 
 
+## A description in the panel: the first paragraph, with "devamı ▾" for the rest when it is long.
+func _description(body: VBoxContainer, text: String) -> void:
+	var paras := text.split("\n\n", false)
+	var first := paras[0] if not paras.is_empty() else text
+	body.add_child(panels._linked(first, 12))
+	if paras.size() <= 1:
+		return
+	var rest: RichTextLabel = panels._linked("\n\n".join(paras.slice(1)), 12)
+	rest.visible = false
+	var more := UIKit.button("devamı ▾", UIKit.PANEL, 10)
+	more.pressed.connect(func():
+		rest.visible = not rest.visible
+		more.text = "kısalt ▴" if rest.visible else "devamı ▾")
+	body.add_child(rest)
+	body.add_child(more)
+
+
 ## Open a wiki page ("" = the list of pages) in the panel on the right.
 func open_wiki(page := "") -> void:
 	wiki.open(page)
@@ -843,7 +860,7 @@ func show_place(id: String) -> void:
 	if img:
 		body.add_child(img)
 	if str(lm.get("text", "")) != "":
-		body.add_child(panels._linked(lm["text"], 12))
+		_description(body, str(lm["text"]))
 	_wiki_button(body, [lm.get("name", ""), lm.get("wiki", "")])
 	_threads_section(body, id)
 	_history_section(body, func(h): return str(h.get("place", "")) == id)
@@ -872,6 +889,10 @@ func show_province(id: String) -> void:
 	nb.pressed.connect(show_nation.bind(holder))
 	chip.add_child(nb)
 	body.add_child(chip)
+	if str(p.get("text", "")) != "":
+		_description(body, str(p["text"]))
+	UIKit.add_sources(body, p.get("sources", []), panels._linked)
+	_wiki_button(body, [str(p.get("name", "")).split(" (")[0]])
 	_population_section(body, id)
 	for lid in places:
 		_papers_section(body, lid)
@@ -986,7 +1007,8 @@ func show_nation(code: String) -> void:
 			body.add_child(_group_row(r, total))
 		_deaths_section(body)
 	if str(n.get("text", "")) != "":
-		body.add_child(panels._linked(n["text"], 12))
+		_description(body, str(n["text"]))
+	UIKit.add_sources(body, n.get("sources", []), panels._linked)
 	_wiki_button(body, [n.get("short", ""), n.get("name", ""), n.get("wiki", "")])
 	var held: PackedStringArray = []
 	for pid in state.provinces:
@@ -1043,7 +1065,7 @@ func show_person(pid: String) -> void:
 	row.add_child(col)
 	body.add_child(row)
 	if str(p.get("text", "")) != "":
-		body.add_child(panels._linked(p["text"], 12))
+		_description(body, str(p["text"]))
 	_wiki_button(body, [p.get("name", ""), p.get("wiki", "")])
 	UIKit.add_sources(body, p.get("sources", []), panels._linked)
 
@@ -1089,7 +1111,7 @@ func show_front(fid: String) -> void:
 		body.add_child(UIKit.section("Çekişilen iller"))
 		body.add_child(UIKit.label("\n".join(names), 11, UIKit.INK, true))
 	if str(f.get("text", "")) != "":
-		body.add_child(panels._linked(f["text"], 12))
+		_description(body, str(f["text"]))
 	UIKit.add_sources(body, f.get("sources", []), panels._linked)
 
 
