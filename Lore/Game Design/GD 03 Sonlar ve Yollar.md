@@ -3,7 +3,7 @@ tags: [game-design]
 ---
 # GD 03 · Sonlar ve Yollar
 
-Üç son, onlara giden yol ayrımları, kaldıraçlar ve bütün yazarların kullandığı bayrak kaydı. Geri: [[GD 00 Rehber]] · Kurallar: [[GD 02 Sistemler]] · Olaylar: [[GD 01 Olay Sıralaması]].
+Sekiz son, onlara giden yollar (yol × sonuç matrisi), yol ayrımları, kaldıraçlar ve bütün yazarların kullandığı bayrak kaydı. Geri: [[GD 00 Rehber]] · Kurallar: [[GD 02 Sistemler]] · Olaylar: [[GD 01 Olay Sıralaması]].
 
 ## Akış
 
@@ -11,23 +11,59 @@ tags: [game-design]
 flowchart TD
   A["1873 · Önsöz: Sultan Abdülaziz"] --> B["1876 · Abdülhamid tahtta"]
   B --> C{"Temmuz 1908 · İhtilal"}
-  C -- "Bastır (hâkimiyet − jön türk ≥ 20 ve Selanik izlendi)" --> H["Abdülhamid yolu · Alternatif tarih"]
-  C -- "Kanun-ı Esasi'yi ilan et" --> I["İttihat yolu · 31 Mart 1909 · masada Talat"]
+  C -- "Bastır" --> H["Abdülhamid yolu · Alternatif tarih"]
+  C -- "Kanun-ı Esasi'yi ilan et" --> I["İttihat yolu · masada Talat"]
+  I --> BA{"1912 · Balkan ittifakı"}
+  BA -- "Sofya'yla anlaşma, taburlar yerinde" --> AH["Ahrar yolu · masada Kâmil Paşa"]
+  BA -- "tarihî: Balkan Harbi" --> BB{"Ocak 1913 · Babıâli"}
+  BB -- "Baskın (tarihî)" --> I2["İttihat iktidarda"]
+  BB -- "Baskın yok" --> AH
+  I2 --> W{"Ekim 1914 · Harp kapıda"}
+  W -- "Alman ittifakı (tarihî)" --> J{"Aralık 1914 · Sarıkamış"}
+  W -- "Silahlı tarafsızlık" --> T["Tarafsızlık yolu"]
+  W -- "İtilaf'a yanaş" --> E["İtilaf yolu"]
+  AH --> AW{"Ağustos 1914 · Kâmil Paşa'nın kararı"}
+  AW -- "Tarafsızlık" --> T
+  AW -- "İtilaf" --> E
   H --> H2{"Ağustos 1914 · Harp"}
-  H2 -- "Harbe gir" --> H3["Çöküş sayacı işler"]
-  H2 -- "Tarafsız kal" --> H4["1915 · Rusya Boğazlar için saldırır"] --> H3
-  H3 --> S1[["Son 1 · Payitahtta Rus Çizmesi"]]
-  I --> J{"Aralık 1914 · Sarıkamış"}
-  J -- "Hemen taarruz, doğu hazırlığı ≥ 65" --> Z["Kafkas zaferi"]
-  J -- "Hemen taarruz, hazırlık yetersiz" --> F["Sarıkamış felaketi"]
-  J -- "Bahara ertele" --> K{"Nisan 1915 · Bahar taarruzu"}
-  K -- "hazırlık ≥ 50" --> Z
-  K -- "yetersiz" --> F2["Kafkas çıkmazı"]
-  J -- "Sadece savun" --> F2
-  Z --> S2[["Son 2 · Kafkas Zaferi · onurlu mütareke"]]
-  F --> S3[["Son 3 · Mondros'tan Samsun'a"]]
-  F2 --> S3
+  H2 --> H3["Çöküş sayacı; Harbiye, Boğaz ve Kafkas onu geri iter"]
+  J -- "Zafer" --> Z["Kafkas zaferi"]
+  J -- "Felaket ya da çıkmaz" --> F["Mondros yolu"]
+  H3 --> M{{"1918 · Son tablosu"}}
+  Z --> M
+  F --> M
+  T --> M
+  E --> M
 ```
+
+
+## Son matrisi
+
+Sonlar doğrusal değildir: oyun sonunda (ya da bir yolun son olayı `☠ karar` dediğinde) aşağıdaki tablo **yukarıdan aşağı** denenir, koşulu tutan ilk satır sondur. Son satırın koşulu yoktur. Koşullar yolu (bayrak), cephe dengelerini, illeri (`il:edirne = OS`) ve sayaçları okur. Bazı olaylar sonu doğrudan da koyar (`☠ son1`, `☠ son2`, `☠ son3`); o olayların koşulu tablodaki satırla aynıdır.
+
+| Sıra | Son | Yol | Koşul (özet) | Tarih mi? |
+|---|---|---|---|---|
+| 10 | Payitahtta Rus Çizmesi (`son1`) | Abdülhamid | `cokus >= 100` | Alternatif tarih |
+| 20 | Yıldız'ın Zaferi (`son_hamid_zafer`) | Abdülhamid | Kafkas zaferi ve Boğaz tutuldu | Alternatif tarih |
+| 30 | Yıldız'da Mütareke (`son_hamid_mutareke`) | Abdülhamid | geri kalan her Abdülhamid oyunu | Alternatif tarih |
+| 40 | Kafkas Zaferi (`son2`) | İttihat, Alman ittifakı | Sarıkamış zaferi, Kars–Ardahan–Batum | Alternatif tarih |
+| 50 | Ahrar'ın Barışı (`son_ahrar`) | Ahrar | tarafsız kalındı ve Edirne elde (ya da Balkan Harbi hiç çıkmadı) | Alternatif tarih |
+| 60 | İtilaf'la Bir Barış (`son_itilaf`) | İttihat ya da Ahrar | 1914'te İtilaf'a yanaşıldı | Alternatif tarih |
+| 70 | Tarafsız İmparatorluk (`son_tarafsiz`) | İttihat ya da Ahrar | 1914'te harbe girilmedi | Alternatif tarih |
+| 99 | Mondros'tan Samsun'a (`son3`) | İttihat, Alman ittifakı | geri kalan her şey | **tarihî** |
+
+**Yollar:**
+- **Abdülhamid yolu** (1908'de ihtilal bastırılır). Harp 1914'te ya da en geç 1915'te gelir. Kasadaki kitapların anlattığı çürüme (tatbikat yok, donanma Haliç'te, tüfekler depoda) `cokus` sayacını yürütür. Ama Abdülhamid de kazanabilir: Goltz'a serbestlik, manevralar ve Alman heyetiyle Harbiye 35'in üstünde tutulursa sayaç her yıl geriler (`k_hamid_ordu`). Kafkas cephesi dengede kalırsa `hamid_kafkas_zafer` gelir. Donanma Haliç'ten çıkmışsa `hamid_bogaz_tutuldu` gelir. Rusya 1917'de çözülünce `hamid_rus_ihtilali` sayacı büyük ölçüde siler.
+- **İttihat yolu** (tarihî). Ekim 1914'teki `harp_kapida` üç yola ayrılır:
+  - Souchon'a izin (tarihî): `karadeniz_baskini` → `⚑ittifak_harbi` → Sarıkamış ayrımı.
+  - Silahlı tarafsızlık: `⚑tarafsiz_1914`.
+  - İtilaf'a yanaşma: `⚑itilaf_yolu`.
+  - Bu kararın dayanağı Yalman'dır: üç aylık silahlı tarafsızlıkta ılımlılar ile harp yanlılarının mücadelesi, Enver'in Rus sefirine şartlı teklifi ve Talat'ın "İstanbul Almanların silah tehdidi altında" sözü ([[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 100|Yalman, p. 100]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 101|p. 101]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 106|p. 106]] · *Türk kaynağı*).
+- **Ahrar yolu** (Alternatif tarih). İki yoldan gelinir:
+  - Ocak 1913'te Babıâli basılmazsa (`baskin_karari`, Enver'i durdurabilmek gerekir).
+  - Balkan Harbi hiç çıkmazsa (`balkan_esik`). O zaman Baskın'ın bahanesi olan Edirne de yoktur.
+  - Masada Kâmil Paşa oturur, sonra Gazi Ahmed Muhtar Paşa. Prens Sabahaddin'in adem-i merkeziyet programı ve İngiltere'ye yakınlık bu yolun kaldıraçlarıdır. 1914'te Almanya'yla ittifak seçeneği yoktur.
+
 
 ## Birinci ayrım: Temmuz 1908
 
@@ -40,7 +76,8 @@ Abdülhamid'in bütün saltanatı tek bir soruya çalışır: ordu güçlenirse 
 ## Birinci son: Payitahtta Rus Çizmesi
 
 ### Son · Payitahtta Rus Çizmesi
-`son: son1` · `alternatif` · `görsel: Ayastefanos Rus Abidesi'nin yıkılmış hali.jpg`
+`son: son1` · `alternatif` · `sıra: 10` · `görsel: Ayastefanos Rus Abidesi'nin yıkılmış hali.jpg`
+`koşul: ⚑yol_hamid & cokus >= 100`
 Abdülhamid tahtını korudu. Ordusunu ve donanmasını korumadı. Harp geldiğinde Kafkas'tan ve Karadeniz'den gelen Rus orduları, 1878'de Yeşilköy'de durdukları yerden bu kez durmadan geçti. Payitahtın kapısında bir Rus nöbetçisi duruyor.
 
 **Nasıl gelinir:** `⚑yol_hamid` ile 1908'den sonra oyun Abdülhamid'in masasında sürer. Çürüme olaylarla görünür kılınır:
@@ -91,7 +128,8 @@ Abdülhamid tahtını korudu. Ordusunu ve donanmasını korumadı. Harp geldiği
 ## İkinci son: Kafkas Zaferi
 
 ### Son · Kafkas Zaferi
-`son: son2` · `alternatif`
+`son: son2` · `alternatif` · `sıra: 40`
+`koşul: ⚑yol_ittihat & ⚑sarikamis_zafer & ⚑kafkas_ileri`
 Sarıkamış bir felaket değil, bir zafer oldu. Kars, Ardahan ve Batum geri alındı; Rusya çözüldüğünde Osmanlı orduları hâlâ ayaktaydı. Almanya batıda yıkılmadan önce Babıâli kendi mütarekesini, kendi şartlarıyla imzaladı. İstanbul'a yabancı donanma girmedi.
 
 **Nasıl gelinir:** `⚑sarikamis_zafer` → 1915–1916 `kafkas_ileri` (Kars, Ardahan, Batum; Alternatif tarih) → 1917 `rus_ihtilali` → 1918 `onurlu_mutareke` → `☠ son2`. Arap isyanı, Filistin ve Irak bu sonu bozmaz; yalnız son kartlarını değiştirir.
@@ -99,10 +137,58 @@ Sarıkamış bir felaket değil, bir zafer oldu. Kars, Ardahan ve Batum geri al�
 ## Üçüncü son: Mondros'tan Samsun'a
 
 ### Son · Mondros'tan Samsun'a
-`son: son3`
+`son: son3` · `sıra: 99`
 Sarıkamış'ta bir ordu karda kaldı. Cepheler birer birer çözüldü; Mondros'ta mütareke imzalandı, İtilaf donanması İstanbul'a girdi, Yunan ordusu İzmir'e çıktı. 19 Mayıs 1919'da bir paşa Samsun'a ayak bastı. Bu oyunun anlattığı çile orada biter; gerisi başka bir hikâyedir.
 
 **Nasıl gelinir:** `⚑sarikamis_felaket` ya da `⚑kafkas_cikmaz` → 1916 Erzurum ve Trabzon'un düşüşü (felakette) → 1917 Bağdat, Kudüs → 1918 Nablus, Bulgaristan'ın mütarekesi → `talat_istifa` (`+⚑talat_gitti`, `👤 vahdettin`) → `mondros` → `isgal_istanbul` → 1919 `izmir_isgali` → `samsun` → `amasya` → `erzurum_kongresi` → `sivas_kongresi` → `☠ son3`.
+
+## Yeni sonlar
+
+### Son · Yıldız'ın Zaferi
+`son: son_hamid_zafer` · `alternatif` · `sıra: 20` · `görsel: Abdülhamid II of Turkey.jpg`
+`koşul: ⚑yol_hamid & ⚑hamid_kafkas_zafer & ⚑hamid_bogaz_tutuldu`
+Abdülhamid tahtını da ordusunu da korudu. Goltz'un talimleri, Haliç'ten çıkarılan donanma ve depodan dağıtılan tüfekler 1914'te bir ordu çıkardı. Rus kolordularına Kafkas'ta karşı konuldu; Rusya çözülünce Kars, Ardahan ve Batum yeniden Osmanlı oldu. Boğaz'ın tabyaları bu kez sınavı kaybetmedi.
+
+Almanya batıda yıkılırken Yıldız kendi mütarekesini imzaladı. Goltz 1883'te "ordu yok" demişti; otuz yıl sonra bir ordu vardı. Bu son kasadaki bir olay değildir: tarihte Abdülhamid ordunun tatbikat yapmasına, donanmanın Haliç'ten çıkmasına izin vermemiş, taht 1909'da gitmişti.
+> [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 56|Yalman, *Birinci Dünya Savaşı'nda Türkiye*, p. 56]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 62|p. 62]] · *Türk kaynağı*
+
+**Nasıl gelinir:** `⚑yol_hamid`. Harbiye 35'in üstünde tutulur (Goltz'a serbestlik, manevralar, Alman heyeti), donanma Haliç'ten çıkar. Harpte Kafkas cephesi dengede kalır (`kafkas >= 55` → `hamid_kafkas_zafer`) ya da Rusya 1917'de çözülürken Harbiye 20'nin üstündedir (`hamid_rus_ihtilali`) ve Boğaz tutulur (`Bahriye >= 35` → `hamid_bogaz_tutuldu`). 1918-10 `hamid_son` → `☠ karar`.
+
+### Son · Yıldız'da Mütareke
+`son: son_hamid_mutareke` · `alternatif` · `sıra: 30`
+`koşul: ⚑yol_hamid`
+Rus ordusu Payitahta ulaşmadı, ama ne Kafkas'ta ne Boğaz'da bir zafer kazanıldı. Rusya çözülünce cepheler dondu; Almanya yıkıldığında Yıldız da mütareke masasına oturdu. Taht korundu. Doğu vilayetlerinin ve Boğazlar'ın yazgısı ise galiplerin kâğıdında.
+> [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 159|Allawi, *Irak Kralı I. Faysal*, p. 159]] · *Iraklı kaynağı*
+
+**Nasıl gelinir:** `⚑yol_hamid`, çöküş sayacı 100'e varmadan 1918'e ulaşmak; ama Kafkas ya da Boğaz zaferlerinden biri eksik.
+
+### Son · Ahrar'ın Barışı
+`son: son_ahrar` · `alternatif` · `sıra: 50` · `görsel: Mehmed Kamil Pasha.jpg`
+`koşul: ⚑yol_ahrar & ⚑tarafsiz_1914 & (⚑balkan_onlendi | il:edirne = OS)`
+Babıâli basılmadı. Masada Kâmil Paşa, ondan sonra Hürriyet ve İtilaf'ın paşaları oturdu. Edirne Osmanlı'da kaldı, Büyük Harp'e girilmedi. Prens Sabahaddin'in adem-i merkeziyet programı vilayetlere yetki verdi; Arap vilayetleri İstanbul'dan koparılmadı, pazarlıkla bağlandı. Harp bittiğinde imparatorluk ne galipti ne mağlup: yorgun, borçlu, ama bütün.
+
+Tarihte Kâmil Paşa, İngiltere'nin kendisi iktidardayken imparatorluğa saldırılmasına izin vermeyeceğine inanıyordu. 23 Ocak 1913'te Babıâli Baskını'yla düştü; aynı yıl Lefkoşa'da öldü.
+> [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 81|Yalman, *Birinci Dünya Savaşı'nda Türkiye*, p. 81]] · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 37|Akşin, *Kısa Türkiye Tarihi*, loc. 37]] · *Türk kaynağı*
+
+**Nasıl gelinir:** Ahrar yolu (`baskin_karari` ya da `balkan_esik` → `baskin_yok`), 1914'te `ahrar_harp_karari` seçeneğinde silahlı tarafsızlık; Edirne elde olmalı ya da Balkan Harbi hiç çıkmamış olmalı. 1918-11 `tarafsiz_son` → `☠ karar`.
+
+### Son · İtilaf'la Bir Barış
+`son: son_itilaf` · `alternatif` · `sıra: 60`
+`koşul: ⚑itilaf_yolu`
+1914'te Babıâli Almanya'nın değil, İtilaf'ın yanında harbe girdi. Tarihte Enver bile Rus sefirine tam bağımsızlık ve Balkan haritasının lehimize düzeltilmesi karşılığında İtilaf safında savaşabileceğini söylemişti; Rus Hariciyesi zaman kazanılmasını ve kesin söz verilmemesini emretti. Bu yolda söz verildi. Bulgaristan ve Almanya karşı safta kaldı. Harp bittiğinde Osmanlı murahhasları galiplerin masasına oturdu. Ama Rusya'nın Boğazlar'daki eski iddiası da, İngiltere'nin Arap vilayetlerindeki hesabı da aynı masadaydı.
+> [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 100|Yalman, *Birinci Dünya Savaşı'nda Türkiye*, p. 100]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 101|p. 101]] · *Türk kaynağı*
+
+**Nasıl gelinir:** `harp_kapida` (İttihat) ya da `ahrar_harp_karari` (Ahrar) seçeneğinde İtilaf'a yanaşmak (`+⚑itilaf_yolu`). 1918-11 `itilaf_son` → `☠ karar`.
+
+### Son · Tarafsız İmparatorluk
+`son: son_tarafsiz` · `alternatif` · `sıra: 70`
+`koşul: ⚑tarafsiz_1914`
+Ilımlıların istediği oldu: imparatorluk Büyük Harp'e girmedi. Onların hesabı tuttu: savaşan devletlerden hiçbiri, her türlü donanıma sahip bir milyonluk tarafsız bir orduya saldırmayı göze almadı. Osmanlı'nın mirasına konmak isteyenler birbirini yıprattı. Sarıkamış'ta bir ordu donmadı, Çanakkale'de bir nesil ölmedi, tehcir kervanları yola çıkmadı.
+
+Tarafsızlığın da faturası vardı. Seferberlik yıllarca sürdü, dış ticaret durdu, halk silahlı tarafsızlığın güçlüklerini yaşadı. Yalman, savaştan sonra Türk kurmaylarının, bu kadar erken harbe girilmeseydi tarafsızlığın korunabileceğinde birleştiğini yazar.
+> [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 102|Yalman, *Birinci Dünya Savaşı'nda Türkiye*, p. 102]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 103|p. 103]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 109|p. 109]] · *Türk kaynağı*
+
+**Nasıl gelinir:** `harp_kapida` (İttihat) ya da `ahrar_harp_karari` (Ahrar) seçeneğinde silahlı tarafsızlık (`+⚑tarafsiz_1914`). 1918-11 `tarafsiz_son` → `☠ karar`. Ahrar yolunda Edirne de elde kalmışsa son, Ahrar'ın Barışı'dır.
 
 ## Ermeni ve Arap seçenekleri
 
@@ -164,6 +250,18 @@ Bütün yazarlar bu adları kullanır. Yeni bir bayrak gerekirse yıl dosyasın�
 | `balkan_tutuldu` | `balkan_tutuldu` (1877, Alternatif tarih) | `ayastefanos_imza`, `ayastefanos_muzakere` | Rus ordusu Balkanlar'ın kuzeyinde kaldı |
 | `trablus_harbi` | `trablus_1911`, `hamid_1911_trablus` (kaldırılır: `usi`, `hamid_1912_usi`, `trablus_tutuldu`) | Trablusgarp cephesi | İtalya harbi sürüyor |
 | `balkan_harbi_on` | `balkan_harbi`, `hamid_1912_balkan` (kaldırılır: `londra_1913`, `hamid_1913_londra`) | Trakya cephesi | Balkan Harbi sürüyor |
+| `bulgar_anlasma` / `balkan_onlendi` | `balkan_ittifaki` / `balkan_esik` (1912) | Balkan Harbi olayları, `baskin_yok`, son matrisi | Sofya'yla ayrı anlaşma; Balkan Harbi çıkmadı |
+| `baskin_yurudu` | `baskin_karari` (1913) | `babiali_baskini` | Cemiyet Babıâli'ye yürüdü |
+| `yol_ahrar` | `baskin_karari`, `baskin_yok` (1913; `yol_ittihat` kaldırılır) | 1913–1918 Ahrar ve paylaşılan olaylar, kabine, kurallar | Ahrar yolu: masada Kâmil Paşa |
+| `ahrar_edirne_tut` | `ahrar_edirne` (1913) | `ahrar_londra` | Edirne pazarlığa konmadı |
+| `mufettis_yetki` | `mufettisler_1914`, `itilaf_dogu` | `mufettis_1915` (tehcir yuvası) | Doğu müfettişleri gerçek yetkiyle kaldı |
+| `souchon_izin` | `harp_kapida` (1914) | `karadeniz_baskini` | Souchon'a Karadeniz izni verildi |
+| `ittifak_harbi` | `karadeniz_baskini` (1914) | 1914-11'den sonraki bütün İttihat harp olayları ve cepheleri | Almanya'nın yanında harp |
+| `tarafsiz_1914` / `itilaf_yolu` | `harp_kapida` (İttihat), `ahrar_harp_karari` (Ahrar) | tarafsızlık ve İtilaf olayları, son matrisi | 1914'te harbe girilmedi / İtilaf'a yanaşıldı |
+| `bogaz_acik` / `bogaz_tutuldu` | `tarafsiz_bogaz`, `tarafsiz_18mart` (1915) | `tarafsiz_son`, son kartları | Tarafsız Boğaz'ın yazgısı |
+| `kars_geri` | `tarafsiz_kafkas` (1918) | `tarafsiz_son` | Tarafsız devlet Kars'a girdi |
+| `bulgar_harbi` | `itilaf_bulgar` (1915) | Trakya (İtilaf yolu) cephesi | Bulgaristan İtilaf'ın Osmanlı'sına saldırdı |
+| `hamid_bogaz_tutuldu` / `hamid_kafkas_zafer` | `hamid_bogaz_sinavi` (1915) / `hamid_kafkas_zafer` (1916), `hamid_rus_ihtilali` (1917) | çöküş olayları, `k_hamid_bogaz`, `hamid_son`, son matrisi | Abdülhamid'in harbi |
 
 Bayrakların yanında artık **dünya durumu** anahtarları da vardır (`reji`, `misir`, `ayastefanos`, `girit`, `dogu_rumeli`): bir hikâye ipliğinin sonucunu adıyla tutarlar. Kayıtları [[GD 04 Dünya Durumu ve İplikler]]'dedir; illerin kimde olduğu [[GD 05 Harita ve Harpler]]'dedir. Son ekranı, kapanan her iplik için bir kart gösterir.
 
@@ -309,3 +407,65 @@ Beyrut'ta ve Şam'da darağaçları kurulmadı. Liman von Sanders'in korktuğu k
 `koşul: ⚑sarikamis_felaket & !⚑depo_kaputlar & !⚑kislik_techizat`
 Sarıkamış'tan sonra Hafız Hakkı Paşa depoda dağıtılmamış on bir bin kaput buldu ve bir hafta içinde dağıtılmasını emretti. O zamana kadar ordunun büyük kısmı karda kalmıştı.
 > Kaynak: [[Hafız Hakkı Paşa'nın Sarıkamış Günlüğü (Hafız Hakkı Paşa)#p. 107|Hakkı Paşa, p. 107]] · *Türk kaynağı*
+
+### Yeni sonların kartları
+
+### 1918 · Talim görmüş alaylar
+`id: e4_ordu` · `tür: epilog` · `son: son_hamid_zafer`
+Goltz'un 1883'te "ordu yok" dediği yerde otuz yıl sonra bir ordu vardı. Kafkas hududunu tutan kurmaylar onun talimgâhlarından çıkmıştı. (Alternatif tarih)
+> Kaynak: [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 62|Yalman, p. 62]] · *Türk kaynağı*
+
+### 1918 · Haliç'ten çıkan donanma
+`id: e4_donanma` · `tür: epilog` · `son: son_hamid_zafer`
+Tarihte 1897'de Haliç'ten "utanç verici sahnelerle" çıkan donanma, bu yolda Boğaz'ın önünde durdu. (Alternatif tarih)
+> Kaynak: [[Enver (Murat Bardakçı)#p. 69|Bardakçı, *Enver*, p. 69]] · *Türk kaynağı*
+
+### 1918 · Kars'ın kalesi
+`id: e4_kars` · `tür: epilog` · `son: son_hamid_zafer`
+`koşul: il:kars = OS`
+1877'de Gazi Ahmed Muhtar Paşa'nın tutamadığı Kars, kırk yıl sonra yeniden Osmanlı. (Alternatif tarih)
+
+### 1918 · Taht ayakta
+`id: e5_taht` · `tür: epilog` · `son: son_hamid_mutareke`
+Abdülhamid otuz yıl tahtı ordudan korudu; harp geldiğinde ordu da tahtı düşmandan ancak koruyabildi. Mütareke masasında ne zafer vardı ne teslimiyet. (Alternatif tarih)
+
+### 1918 · Edirne
+`id: e6_edirne` · `tür: epilog` · `son: son_ahrar`
+`koşul: il:edirne = OS`
+Edirne'nin burçlarında bayrak hiç inmedi. Babıâli Baskını'nı doğuran Edirne korkusu bu yolda boşa çıktı. (Alternatif tarih)
+
+### 1918 · Balkan'da sükûnet
+`id: e6_balkan` · `tür: epilog` · `son: son_ahrar`
+`koşul: ⚑balkan_onlendi`
+1912'de Balkan Harbi çıkmadı. Rumeli'nin Müslüman köyleri yanmadı; Selanik, Manastır ve Üsküp Osmanlı'da kaldı. (Alternatif tarih)
+> Kaynak: [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 54|Akşin, loc. 54]] · *Türk kaynağı*
+
+### 1918 · Vilayet meclisleri
+`id: e6_adem` · `tür: epilog` · `son: son_ahrar`
+`koşul: arap = ozerk | arap = rahat`
+Prens Sabahaddin'in adem-i merkeziyet programı kâğıttan çıktı. Beyrut'un 1913'te istediği Arapça mahkemeler ve yerli memurlar geldi; Şam'da isyan değil, meclis toplandı. (Alternatif tarih)
+> Kaynak: [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 69|Akşin, loc. 69]] · *Türk kaynağı*
+
+### 1918 · Boğazlar
+`id: e7_bogaz` · `tür: epilog` · `son: son_itilaf`
+İtilaf'ın galibi olarak Boğazlar'ın yazgısını tartışmak, mağlup olarak dinlemekten başkaydı. Rusya çözülmüştü; iki yüz yıllık iddiası masada sahipsiz kaldı. (Alternatif tarih)
+> Kaynak: [[Irak Kralı I. Faysal (Ali A. Allawi)#p. 159|Allawi, p. 159]] · *Iraklı kaynağı*
+
+### 1918 · Enver'in şartları
+`id: e7_enver` · `tür: epilog` · `son: son_itilaf`
+1914'te Enver'in Rus sefirine sunduğu şartlar tam bağımsızlık ve Balkan haritasının düzeltilmesiydi. Rus Hariciyesi o gün vakit kazanmayı seçmişti; bu yolda o şartlar barış masasına kadar geldi. (Alternatif tarih)
+> Kaynak: [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 101|Yalman, p. 101]] · *Türk kaynağı*
+
+### 1918 · Açık Boğaz
+`id: e8_bogaz_acik` · `tür: epilog` · `son: son_tarafsiz`
+`koşul: ⚑bogaz_acik`
+Boğazlar harp boyunca Rus buğdayına ve İtilaf'ın cephanesine açıktı. Tarafsızlık, bir yandan da İtilaf'ın ikmal yoluydu; Berlin bunu unutmadı. (Alternatif tarih)
+
+### 1918 · Kapalı Boğaz
+`id: e8_bogaz_kapali` · `tür: epilog` · `son: son_tarafsiz`
+`koşul: !⚑bogaz_acik`
+Boğazlar harp boyunca kapalı kaldı. Rusya'nın dört yıl boyunca bir türlü açamadığı kapı, onun çöküşünü de hızlandırdı. (Alternatif tarih)
+
+### 1918 · Yola çıkmayan kervanlar
+`id: e8_ermeni` · `tür: epilog` · `son: son_tarafsiz`
+Büyük Harp'e girilmedi; 1915'te doğu vilayetlerinden Suriye çöllerine kervan yola çıkmadı, Sarıkamış'ın karında bir ordu donmadı. (Alternatif tarih)

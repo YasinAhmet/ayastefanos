@@ -4,6 +4,7 @@ extends SceneTree
 ## On a server: xvfb-run -s "-screen 0 1600x900x24" godot --path . --resolution 1600x900 -s … -- <out_dir>
 
 const Autoplay := preload("res://game/scripts/autoplay.gd")
+const UIKit := preload("res://game/scripts/ui/ui_kit.gd")
 
 var main: Control
 var out := ""
@@ -93,13 +94,23 @@ func _run() -> void:
 	desk = main.screen
 	_history_until(st, 1877, 8)
 	desk.refresh()
+	UIKit.show_sources = true
 	for ev in st.open_events():
-		desk._open_event(ev)
+		var p = desk._open_event(ev)
+		await process_frame
+		p.m["body"].get_children().filter(func(c): return c is Button and c.text.begins_with("Kaynakça")).map(func(b): b.pressed.emit())
+		p.m["scroll"].scroll_vertical = 2000
 		break
 	await _shot("06_tarihi_event_1877")
+	desk.open_wiki("Siege of Plevne (1877)")
+	await _shot("06b_wiki")
+	desk.wiki.visible = false
+	UIKit.show_sources = false
 	await _close_modals()
 	desk.show_province("tuna")
 	await _shot("08_plevne_1877")
+	desk.show_nation("RU")
+	await _shot("08b_russia")
 	_history_until(st, 1912, 2)
 	desk.refresh()
 	desk.show_person("enver")
@@ -121,4 +132,10 @@ func _run() -> void:
 	st.flags["sarikamis_felaket"] = true
 	main.show_ending()
 	await _shot("12_ending")
+	st.flags.erase("sarikamis_felaket")
+	st.flags["tarafsiz_1914"] = true
+	st.flags["bogaz_tutuldu"] = true
+	st.ending_id = st.choose_ending()
+	main.show_ending()
+	await _shot("12b_ending_tarafsiz")
 	quit(0)

@@ -31,7 +31,7 @@ const NATION_COLORS := {
 const FONT := 13
 const SETTINGS_PATH := "user://settings.cfg"
 
-## "Kaynakçaları göster" (menu): when off, sources and bases shrink to one "ⓘ kaynak" line with a tooltip.
+## "Kaynakçaları göster" (menu): when off, sources and the Tarihî bases are not shown at all.
 static var show_sources := false
 
 
@@ -48,23 +48,14 @@ static func save_settings() -> void:
 	cf.save(SETTINGS_PATH)
 
 
-## The sources of a panel: full lines when the setting is on, else one small "ⓘ kaynak" with the text as tooltip.
+## The sources of a panel: shown only when "Kaynakçaları göster" is on.
 static func add_sources(box: Control, sources: Array, linked: Callable, size := 10) -> void:
 	if sources.is_empty():
 		return
-	if show_sources:
-		for s in sources:
-			box.add_child(linked.call("[color=#ab9d82]%s[/color]" % s, size))
-		return
-	var re := RegEx.new()
-	re.compile("\\[/?[a-z]+(=[^\\]]*)?\\]")
-	var tips: PackedStringArray = []
+	if not show_sources:
+		return  # the setting hides every trace of the sources
 	for s in sources:
-		tips.append(re.sub(str(s), "", true))
-	var l := label("ⓘ kaynak", 9, MUTED)
-	l.tooltip_text = "\n".join(tips)
-	l.mouse_filter = Control.MOUSE_FILTER_PASS
-	box.add_child(l)
+		box.add_child(linked.call("[color=#ab9d82]%s[/color]" % s, size))
 
 
 static func nation_color(code: String) -> Color:
@@ -112,9 +103,32 @@ static func rich(bbcode: String, size := FONT) -> RichTextLabel:
 	r.add_theme_font_size_override("bold_font_size", size)
 	r.add_theme_font_size_override("italics_font_size", size)
 	r.add_theme_color_override("default_color", INK)
-	r.text = bbcode
 	r.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	if not bbcode.contains("{i:"):
+		r.text = bbcode
+		return r
+	# source icons: {i:book} vault, {i:wiki} Wikipedia, {i:guess} assumption / alternative history
+	var re := RegEx.new()
+	re.compile("\\{i:(book|wiki|guess)\\}")
+	var pos := 0
+	for m in re.search_all(bbcode):
+		if m.get_start() > pos:
+			r.append_text(bbcode.substr(pos, m.get_start() - pos))
+		var tex := icon(m.get_string(1))
+		if tex:
+			r.add_image(tex, size + 2, size + 2)
+		pos = m.get_end()
+	r.append_text(bbcode.substr(pos))
 	return r
+
+
+static var _icons := {}
+
+
+static func icon(name: String) -> Texture2D:
+	if not _icons.has(name):
+		_icons[name] = Logic.load_texture("res://game/assets/ui/%s.png" % name)
+	return _icons[name]
 
 
 static func button(text: String, color := PANEL_2, size := FONT) -> Button:
@@ -184,6 +198,21 @@ static func image(path, max_h := 160) -> TextureRect:
 	t.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	t.custom_minimum_size = Vector2(0, max_h)
 	t.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	return t
+
+
+## A portrait at its own proportions, `height` tall (the ruler's card); a medallion when there is no image.
+static func portrait(path, height := 96, initials := "") -> Control:
+	var tex := Logic.load_texture(path)
+	if tex == null:
+		return medallion(path, height, initials)
+	var t := TextureRect.new()
+	t.texture = tex
+	t.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	t.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	t.custom_minimum_size = Vector2(round(height * float(tex.get_width()) / maxf(1.0, float(tex.get_height()))), height)
+	t.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+	t.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	return t
 
 

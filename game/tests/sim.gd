@@ -1,7 +1,8 @@
 extends SceneTree
 ## Headless playthroughs of the real engine.
-##   godot --headless --path . -s res://game/tests/sim.gd
-## Three scripted strategies must reach their endings; random runs must all end (no stuck year),
+##   godot --headless --path . -s res://game/tests/sim.gd [-- quick]
+## Seven scripted strategies must reach their endings; random runs must all end (no stuck year) and reach at least
+## MIN_ENDINGS different endings.
 ## in both modes. Prints the ending distribution, how the story threads concluded, how many different
 ## worlds the random runs produced by 1900, and the events no run ever reached.
 
@@ -27,9 +28,41 @@ const STRATEGIES := {
 		"flags": ["yol_ittihat", "goltz_serbest", "silah_dagitildi", "maas_odendi_1908", "dogu_hatti_1", "dogu_hatti_2",
 			"kislik_techizat", "depo_kaputlar", "dogu_ikmal", "hilal_ahmer_dogu", "erzurum_kalesi", "hasan_izzet_kaldi",
 			"dogu_jandarma", "liman_heyeti", "sarikamis_ertelendi", "hicaz_ozerklik", "suriye_uzlasma", "dogu_guvenlik_1915"],
-		"avoid": ["yol_hamid", "suveys_buyuk", "tehcir", "suriye_idamlari", "kafkas_savunma", "jurnal_ag", "meclis_tatil"],
+		"avoid": ["yol_hamid", "suveys_buyuk", "tehcir", "suriye_idamlari", "kafkas_savunma", "jurnal_ag", "meclis_tatil",
+			"tarafsiz_1914", "itilaf_yolu"],
+	},
+	# Abdülhamid keeps the throne AND the army: Goltz free, the fleet out of the Golden Horn, rifles handed out
+	"hamid_victory": {
+		"expect": "son_hamid_zafer",
+		"values": {"hakimiyet": 2.5, "jon_turk": -2.5, "harbiye": 2.0, "bahriye": 1.0, "para": 0.3},
+		"flags": ["jurnal_ag", "meclis_tatil", "tibbiye_takip", "selanik_takip", "yol_hamid", "midhat_dusman", "bulgar_anlasma",
+			"balkan_onlendi", "silah_dagitildi", "hamid_harpte", "hamid_bogaz_tutuldu", "hamid_kafkas_zafer", "maas_odendi_1908"],
+		"avoid": ["yol_ittihat", "donanma_halicte", "hamid_tarafsiz"],
+		# after the 1908 crackdown the throne is safe: spend on the army and the fleet
+		"late": {"from": 1909, "values": {"harbiye": 3.0, "bahriye": 2.0, "cokus": -3.0, "kafkas": 1.5, "dogu_hazirligi": 1.0, "para": 0.2}},
+	},
+	# Talat keeps Enver in hand and the empire out of the Great War
+	"neutral_talat": {
+		"expect": "son_tarafsiz",
+		"values": {"enver_iliskisi": 3.0, "alman_nufuzu": -3.0, "para": 0.5, "harbiye": 0.5},
+		"flags": ["yol_ittihat", "baskin_yurudu", "tarafsiz_1914", "bogaz_tutuldu", "kars_geri"],
+		"avoid": ["yol_hamid", "itilaf_yolu", "souchon_izin", "yol_ahrar", "bulgar_anlasma", "liman_heyeti"],
+	},
+	"entente": {
+		"expect": "son_itilaf",
+		"values": {"alman_nufuzu": -4.0, "avrupa_baskisi": -3.0, "enver_iliskisi": 1.0, "harbiye": 0.5},
+		"flags": ["yol_ittihat", "baskin_yurudu", "itilaf_yolu", "bulgar_harbi"],
+		"avoid": ["yol_hamid", "tarafsiz_1914", "souchon_izin", "yol_ahrar", "bulgar_anlasma", "liman_heyeti"],
+	},
+	# no Balkan War, no raid on the Porte: Kâmil Paşa's desk, armed neutrality
+	"ahrar": {
+		"expect": "son_ahrar",
+		"values": {"harbiye": 2.0, "enver_iliskisi": 1.0, "para": 0.3, "avrupa_baskisi": -0.5},
+		"flags": ["yol_ittihat", "bulgar_anlasma", "balkan_onlendi", "yol_ahrar", "tarafsiz_1914", "bogaz_tutuldu"],
+		"avoid": ["yol_hamid", "terhis_1912", "itilaf_yolu", "baskin_yurudu", "souchon_izin"],
 	},
 }
+const MIN_ENDINGS := 6   # different endings the random runs must reach
 
 var gs
 var reached := {}
@@ -60,7 +93,7 @@ func _initialize() -> void:
 		var mark := "OK " if r["ending"] == want else "FAIL"
 		if r["ending"] != want:
 			ok = false
-		print("%s %-13s → %s (wanted %s) at %s · steps %d · %s" % [mark, name, r["ending"], want, r["date"], r["steps"], r["summary"]])
+		print("%s %-14s → %s (wanted %s) at %s · steps %d · %s" % [mark, name, r["ending"], want, r["date"], r["steps"], r["summary"]])
 	var rng := RandomNumberGenerator.new()
 	rng.seed = 1873
 	# Tarihî mode has one path: every event must show exactly one option and the path must reach Son 3
@@ -105,7 +138,7 @@ func _initialize() -> void:
 		print("    - ", m)
 	reached.clear()
 	for mode in ["serbest"]:
-		var runs := RANDOM_RUNS
+		var runs := 0 if OS.get_cmdline_user_args().has("quick") else RANDOM_RUNS   # `-- quick`: strategies only
 		print("\n== %d random runs (fantezi)" % runs)
 		var dist := {}
 		for i in runs:
@@ -133,7 +166,13 @@ func _initialize() -> void:
 						front_ends[fid] = {}
 					front_ends[fid][key] = int(front_ends[fid].get(key, 0)) + 1
 		for k in dist:
-			print("  %-6s %d" % [k, dist[k]])
+			print("  %-18s %d" % [k, dist[k]])
+		var distinct: int = dist.keys().filter(func(k): return k != "stuck").size()
+		if runs > 0 and distinct < MIN_ENDINGS:
+			ok = false
+			print("  FAIL only %d different endings (want %d)" % [distinct, MIN_ENDINGS])
+		else:
+			print("  OK %d different endings" % distinct)
 		print("  Kars held in 1877 in %d runs; still Ottoman after a lost Caucasus war in %d" % [kars_held, kars_bad])
 		if kars_bad > 0:
 			ok = false
@@ -202,6 +241,9 @@ func play(strategy, rng, mode := "serbest", many = null) -> Dictionary:
 					ev = e
 					break
 			var i := pick(ev, strategy)
+			if strategy.get("trace", false) and gs.year >= 1905 and i >= 0:
+				print("    %d-%02d %-24s → %d  harbiye %d bahriye %d para %d cokus %d kafkas %d" % [gs.year, gs.month, ev["id"], i + 1,
+					gs.value_of("harbiye"), gs.value_of("bahriye"), gs.value_of("para"), gs.value_of("cokus"), gs.value_of("kafkas")])
 			if i < 0 or gs.choose(ev["id"], i).is_empty():
 				return _result("stuck", steps)
 			continue
@@ -231,6 +273,9 @@ func pick(ev: Dictionary, strategy) -> int:
 			enabled.append(i)
 	if enabled.is_empty():
 		return -1
+	var values: Dictionary = strategy["values"]
+	if strategy.has("late") and gs.year >= int(strategy["late"]["from"]):
+		values = strategy["late"]["values"]
 	var best: int = enabled[0]
 	var best_score := -1e9
 	for i in enabled:
@@ -238,7 +283,7 @@ func pick(ev: Dictionary, strategy) -> int:
 		for e in ev["options"][i]["effects"]:
 			match e["t"]:
 				"res":
-					s += float(strategy["values"].get(e["id"], 0.0)) * float(e["d"])
+					s += float(values.get(e["id"], 0.0)) * float(e["d"])
 				"flag":
 					if e["on"] and e["name"] in strategy["flags"]:
 						s += 100.0
@@ -254,7 +299,8 @@ func _result(ending: String, steps: int) -> Dictionary:
 	var parts: PackedStringArray = []
 	for id in ["para", "harbiye", "bahriye", "hakimiyet", "jon_turk", "dogu_hazirligi", "araplar", "cokus"]:
 		parts.append("%s %d" % [id, gs.value_of(id)])
-	for f in ["yol_hamid", "yol_ittihat", "sarikamis_zafer", "sarikamis_felaket", "kafkas_cikmaz", "arap_isyani", "tehcir"]:
+	for f in ["yol_hamid", "yol_ittihat", "yol_ahrar", "tarafsiz_1914", "itilaf_yolu", "hamid_kafkas_zafer", "hamid_bogaz_tutuldu",
+			"balkan_onlendi", "sarikamis_zafer", "sarikamis_felaket", "kafkas_cikmaz", "arap_isyani", "tehcir"]:
 		if gs.has_flag(f):
 			parts.append("⚑" + f)
 	for k in gs.world_order:

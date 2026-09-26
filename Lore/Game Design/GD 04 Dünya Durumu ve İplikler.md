@@ -19,6 +19,7 @@ Her satır bir hikâye ipliğidir. `Değerler` sütunu `id: oyunda görünen ad`
 | ayastefanos | Ayastefanos'taki pazarlık | yok | yok: Henüz masaya oturulmadı · ege: Ege kıyısı ve Makedonya için direnildi · kafkas: Kars ve Batum için direnildi · plevne: Plevne'nin hatırı masaya kondu · zaman: İngiliz donanmasının gölgesinde zaman kazanıldı | 1878 `ayastefanos_muzakere` açar; Berlin Kongresi ve 1885 Doğu Rumeli olayları okur. |
 | girit | Girit | osmanli | osmanli: Osmanlı idaresinde · ozerk: Özerk (Büyük Devletlerin gözetiminde) · korundu: Teselya karşılığında Osmanlı'da kaldı · yunan: Yunanistan'a bağlandı | 1896–97 Girit ve Yunan harbi olayları açar. Tarihî: *ozerk* (1897), sonra *yunan*. |
 | dogu_rumeli | Doğu Rumeli | berlin | berlin: Berlin'in çizdiği özerk vilayet · bulgar: Bulgaristan'a katıldı · osmanli: Balkan geçitlerindeki askerle Osmanlı'da tutuldu | 1885 `dogu_rumeli` açar. Tarihî: *bulgar*. |
+| arap | Arap vilayetleri | merkez | merkez: İstanbul'dan, merkeziyetçi yönetiliyor · rahat: Kimi rahatlamalar: Arapça mahkeme ve mektep, yerli memur · ozerk: Arap vilayetleri özerk | 1913 `el_ahd` (İttihat) ve `ahrar_sabahaddin` (Ahrar) açar; 1914 `arap_ozerklik` özerkliğe götürebilir. `arap_isyani` ve Hicaz cephesi okur: özerk Arap vilayetlerinde 1916 isyanı çıkmaz. Tarihî: *rahat* (Mart–Nisan 1913'teki düzenlemeler; [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 69\|Akşin, loc. 69]]).
 
 ## İplik nasıl yazılır
 

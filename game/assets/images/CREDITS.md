@@ -13,6 +13,7 @@ Bu görseller Wikimedia Commons / Wikipedia'dandır; kasa kaynağı değildir (�
 | 1909_10_Resimli_Kitab_Vahdettin_204ab1.jpg | 1909 10 Resimli Kitab Vahdettin.jpg | Resimli Kitab Dergisi | Public domain | [link](https://commons.wikimedia.org/wiki/File:1909_10_Resimli_Kitab_Vahdettin.jpg) |
 | 19170704_Riot_on_Nevsky_prosp_Petrograd_5270a7.jpg | 19170704 Riot on Nevsky prosp Petrograd.jpg | Viktor Bulla | Public domain | [link](https://commons.wikimedia.org/wiki/File:19170704_Riot_on_Nevsky_prosp_Petrograd.jpg) |
 | 1920_08_26_Serveti_Funun_Tevfik_Fikret_366a3d.jpg | 1920 08 26 Serveti Funun Tevfik Fikret.jpg | Servet-i Fünun Mecmuası | Public domain | [link](https://commons.wikimedia.org/wiki/File:1920_08_26_Serveti_Funun_Tevfik_Fikret.jpg) |
+| 1946_Prince_Sabahaddin_803952.jpg | 1946 Prince Sabahaddin.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:1946_Prince_Sabahaddin.jpg) |
 | 1st_Herts_Yeomanry_in_the_Suez_Canal_trenches_1915_IWM_Q1556_03d3bc.jpg | 1st Herts Yeomanry in the Suez Canal trenches 1915 IWM Q15566.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:1st_Herts_Yeomanry_in_the_Suez_Canal_trenches_1915_IWM_Q15566.jpg) |
 | 5_Turkish_Liras_1927_3345c3.jpg | 5 Turkish Liras (1927).jpg | Türkiye Cumhuriyet Merkez Bankası | Public domain | [link](https://commons.wikimedia.org/wiki/File:5_Turkish_Liras_(1927).jpg) |
 | A_Holy_Carpet_brought_to_Jerusalem_by_the_Sherif_of_Medina_t_b370c1.jpg | A Holy Carpet brought to Jerusalem by the Sherif of Medina; the Grand Mufti and Sherif in carriage LOC matpc.11472.jpg | Matson Collection | Public domain | [link](https://commons.wikimedia.org/wiki/File:A_Holy_Carpet_brought_to_Jerusalem_by_the_Sherif_of_Medina;_the_Grand_Mufti_and_Sherif_in_carriage_LOC_matpc.11472.jpg) |
@@ -99,7 +100,6 @@ Bu görseller Wikimedia Commons / Wikipedia'dandır; kasa kaynağı değildir (�
 | First_Congress_of_the_Young_Turks_in_Paris_1902_83f09d.jpg | First Congress of the Young Turks in Paris (1902).jpg | Archive of Ottoman Empire | Public domain | [link](https://commons.wikimedia.org/wiki/File:First_Congress_of_the_Young_Turks_in_Paris_(1902).jpg) |
 | Gallipoli_ANZAC_Cove_Sphinx_2_813869.jpg | Gallipoli ANZAC Cove Sphinx 2.jpg | Julian Nyča | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Gallipoli_ANZAC_Cove_Sphinx_2.JPG) |
 | Gallipolimap2_4c20fa.png | Gallipolimap2.png |  | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Gallipolimap2.png) |
-| Gazi_Osman_Pa_a_Heykeli_9a0d26.jpg | Gazi Osman Paşa Heykeli.jpg | Cobija | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Gazi_Osman_Pa%C5%9Fa_Heykeli.JPG) |
 | Gazi_ahmed_muhtar_pasa_1_603edc.jpg | Gazi-ahmed-muhtar-pasa-1.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Gazi-ahmed-muhtar-pasa-1.jpg) |
 | General_Nikolay_Ignatev_ba9be4.jpg | General Nikolay Ignatev.jpg | ? | ? | ? |
 | GhaziOsmanPasha_7b73f0.jpg | GhaziOsmanPasha.jpg | Abdullah frères | Public domain | [link](https://commons.wikimedia.org/wiki/File:GhaziOsmanPasha.jpg) |
@@ -123,6 +123,7 @@ Bu görseller Wikimedia Commons / Wikipedia'dandır; kasa kaynağı değildir (�
 | Hussein_bin_Ali_Sharif_of_Mecca_80303e.jpg | Hussein bin Ali, Sharif of Mecca.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Hussein_bin_Ali,_Sharif_of_Mecca.jpg) |
 | H_seyin_Rauf_Orbay_763474.jpg | Hüseyin Rauf Orbay.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:H%C3%BCseyin_Rauf_Orbay.jpg) |
 | IMRO_badge_006681.png | IMRO badge.png | Maxim Bluecher | Public domain | [link](https://commons.wikimedia.org/wiki/File:IMRO_badge.svg) |
+| Idman19140528TalatBey_97205d.jpg | Idman19140528TalatBey.jpg | İdman (Spordan Bahseder On Beş Günde Bir Çıkar Resimli Mecmua) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Idman19140528TalatBey.jpg) |
 | Inseguimento_della_Goeben_e_della_Breslau_560cfa.png | Inseguimento della Goeben e della Breslau.png | Jtorquy | CC BY-SA 4.0 | [link](https://commons.wikimedia.org/wiki/File:Inseguimento_della_Goeben_e_della_Breslau.svg) |
 | Iskele_St_Van_af09a2.jpg | Iskele St. Van.jpg | Myararat83 | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Iskele_St._Van.JPG) |
 | Island_of_Crete_Greece_22cb14.jpg | Island of Crete, Greece.jpg | ISS Expedition 28 crew | Public domain | [link](https://commons.wikimedia.org/wiki/File:Island_of_Crete,_Greece.JPG) |
@@ -151,4 +152,8 @@ Bu görseller Wikimedia Commons / Wikipedia'dandır; kasa kaynağı değildir (�
 | Mehmed_Kamil_Pasha_94864a.jpg | Mehmed Kamil Pasha.jpg | Edward Frederick Knight | Public domain | [link](https://commons.wikimedia.org/wiki/File:Mehmed_Kamil_Pasha.jpg) |
 | Mesopotamian_campaign_6th_Army_Siege_of_Kut_908751.png | Mesopotamian campaign 6th Army Siege of Kut.png | It is government property, which original photographer may not be listed. Origin | Public domain | [link](https://commons.wikimedia.org/wiki/File:Mesopotamian_campaign_6th_Army_Siege_of_Kut.png) |
 | Mustafa_Kemal_1917_AtaturkYildirim_k_rp_lm_0267f8.jpg | Mustafa Kemal 1917 (AtaturkYildirim, kırpılmış).jpg | Unknown author (kırpma: AtaturkYildirim.jpg) | Public domain | [link](https://commons.wikimedia.org/wiki/File:AtaturkYildirim.jpg) |
+| Mustafa_Kemal_1916_66f14f.png | Mustafa Kemal, 1916.png | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Mustafa_Kemal,_1916.png) |
+| Nadar_Portrait_of_Midhat_Pasha_4e6ce2.jpg | Nadar - Portrait of Midhat Pasha.jpg | Nadar | Public domain | [link](https://commons.wikimedia.org/wiki/File:Nadar_-_Portrait_of_Midhat_Pasha.jpg) |
+| Osman_Pascha_Gazi_Osman_Pa_a_551b6a.jpg | Osman Pascha (Gazi Osman Paşa).jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Osman_Pascha_(Gazi_Osman_Pa%C5%9Fa).jpg) |
 | Talat_Pasha_d131f6.jpg | Talat Pasha.jpg | Neue Photographische Gesellschaft Berlin and Bain News Service, publisher | Public domain | [link](https://commons.wikimedia.org/wiki/File:Talat_Pasha.jpg) |
+| mer_Fahreddin_Pa_a_eeb949.jpg | Ömer Fahreddin Paşa.jpg | Yuotka | Public domain | [link](https://commons.wikimedia.org/wiki/File:%C3%96mer_Fahreddin_Pa%C5%9Fa.jpg) |

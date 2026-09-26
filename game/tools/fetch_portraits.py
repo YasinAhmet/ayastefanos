@@ -28,12 +28,9 @@ WANTED = {
     "Talat Paşa": ["Talat Pasha.jpg", "Idman19140528TalatBey.jpg"],
     "Mahmud Şevket Paşa": ["Mahmud Shevket Pasha.png"],
     "Midhat Paşa": ["Nadar - Portrait of Midhat Pasha.jpg"],
-    "Mustafa Kemal Atatürk": ["Mustafa Kemal, Gelibolu, Çanakkale’de, 16 Temmuz 1915.png", "Mustafa Kemal, 1916.png"],
-    "Enver Paşa": ["Enver beg, 1908.jpg"],
-    "Cemal Paşa": ["Cemal Paşa (1915).jpg"],
+    "Mustafa Kemal Atatürk": ["Mustafa Kemal, 1916.png"],
     "Gazi Osman Paşa": ["Osman Pascha (Gazi Osman Paşa).jpg"],
     "Fahreddin Paşa": ["Ömer Fahreddin Paşa.jpg"],
-    "GD 02 Sistemler": ["Bozcaadalı Hasan Hüsnü Paşa.jpg"],   # Hasan Hüsnü Paşa has no vault note
 }
 
 

@@ -423,6 +423,8 @@ func _apply(effects: Array) -> void:
 				persona = e["id"]
 			"end":
 				end = e["id"]
+	if end == "karar":
+		end = choose_ending()
 	if end != "":
 		ending_id = end
 
@@ -624,10 +626,16 @@ func _year_turn() -> void:
 
 
 func _fallback_ending() -> String:
-	if has_flag("yol_hamid"):
-		return "son1"
-	if has_flag("sarikamis_zafer"):
-		return "son2"
+	return choose_ending()
+
+
+## The endings table (GD 03): rows in `sıra` order, the first whose koşul holds. The last row has no koşul.
+func choose_ending() -> String:
+	var rows: Array = endings.values()
+	rows.sort_custom(func(a, b): return int(a.get("order", 999)) < int(b.get("order", 999)))
+	for e in rows:
+		if e.get("cond") == null or Logic.eval_cond(e["cond"], self):
+			return str(e["id"])
 	return "son3"
 
 

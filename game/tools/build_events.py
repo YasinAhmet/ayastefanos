@@ -124,12 +124,46 @@ def to_bbcode(s, codex_refs=None):
             and os.sep + "Game Design" + os.sep not in path
         if codex_refs is not None and is_lore_note:
             codex_refs.add(note)
-            return f"[url=codex:{note}]{label}[/url]"
+            return f"[url=codex:{note}][color=#8db4e2]{label}[/color][/url]"
         return label
     s = LINK.sub(repl, s)
     s = re.sub(r"\*\*(.+?)\*\*", r"[b]\1[/b]", s)
     s = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"[i]\1[/i]", s)
     return s
+
+
+def paragraphs(body):
+    """The text lines of a block (not its > source lines), paragraphs kept apart by a blank line."""
+    paras, cur = [], []
+    for l in body:
+        st = l.strip()
+        if st.startswith(">"):
+            continue
+        if not st:
+            if cur:
+                paras.append(" ".join(cur))
+                cur = []
+        else:
+            cur.append(st)
+    if cur:
+        paras.append(" ".join(cur))
+    return "\n\n".join(paras)
+
+
+def src_line(s):
+    """A source line → BBCode with its kind as icon markers ({i:book} vault books and notes, {i:wiki} Wikipedia,
+    {i:guess} assumption or alternative history); the game draws the icons (UIKit.rich)."""
+    icons = []
+    has_link = bool(LINK.search(s))
+    if has_link:
+        icons.append("book")
+    if "Wikipedia" in s or "⚠" in s:
+        icons.append("wiki")
+    if re.search(r"varsayım|tahmin|Alternatif tarih|tasarım", s, re.I) and not has_link:
+        icons.append("guess")
+    if not icons:
+        icons.append("guess")
+    return "".join("{i:%s}" % i for i in icons) + " " + to_bbcode(s)
 
 
 # ---------------------------------------------------------------- conditions
@@ -512,6 +546,8 @@ def main():
     flags_set, flags_read = defaultdict(list), defaultdict(list)
     queued = defaultdict(list)
     codex_refs = set()
+    wiki_pages = {}
+    province_text = {}
     used_images = {}
 
     def image(where, name):
@@ -557,6 +593,28 @@ def main():
                 etki_src += [seg.partition(":")[2].strip() for seg in FIELD.findall(line0)
                              if seg.strip().startswith("etki:")]
 
+            # ---- wiki pages (GD 06 Sözlük): a Turkish summary of a vault note
+            if "madde" in fields and "id" not in fields:
+                note = fields["madde"]
+                if not FILES.get(note):
+                    err(where, f"madde: no vault note '{note}'")
+                paras, cur, srcs = [], [], []
+                for l in body:
+                    s = l.strip()
+                    if s.startswith(">"):
+                        srcs.append(s[1:].strip().removeprefix("Kaynak:").strip())
+                    elif not s:
+                        if cur:
+                            paras.append(" ".join(cur))
+                            cur = []
+                    else:
+                        cur.append(s)
+                if cur:
+                    paras.append(" ".join(cur))
+                wiki_pages[note] = {"name": header.split("·", 1)[-1].strip(),
+                                    "text": [to_bbcode(x, codex_refs) for x in paras],
+                                    "sources": [src_line(x) for x in srcs]}
+                continue
             # ---- person / nation / ending blocks
             if "kişi" in fields and "id" not in fields:
                 title = header.split("·", 1)[-1].strip()
@@ -575,14 +633,24 @@ def main():
                                            "images": sorted(dated, key=lambda d: d["from"]),
                                            "role": fields.get("rol", ""), "image": image(where, fields.get("görsel")),
                                            "text": to_bbcode(para, codex_refs),
-                                           "sources": [to_bbcode(s) for s in srcs]}
+                                           "sources": [src_line(s) for s in srcs]}
+                continue
+            if "il" in fields and "yer" not in fields and "id" not in fields:
+                pid = fields["il"]
+                if pid not in prov_ids:
+                    err(where, f"il: unknown province '{pid}'")
+                province_text[pid] = {"text": to_bbcode(paragraphs(body), codex_refs),
+                                      "sources": [src_line(l.strip()[1:].strip().removeprefix("Kaynak:").strip())
+                                                  for l in body if l.startswith(">")]}
                 continue
             if "devlet" in fields:
                 title = header.split("·", 1)[-1].strip()
-                para = " ".join(l.strip() for l in body if l.strip() and not l.startswith(">"))
+                para = paragraphs(body)
+                nation_srcs = [src_line(l.strip()[1:].strip().removeprefix("Kaynak:").strip()) for l in body if l.startswith(">")]
                 pos = [float(x) for x in fields.get("konum", "0.5,0.5").split(",")]
                 nations[fields["devlet"]] = {"id": fields["devlet"], "name": fields.get("ad", title),
                                              "short": title, "pos": pos, "text": to_bbcode(para, codex_refs),
+                                             "sources": nation_srcs,
                                              "image": image(where, fields.get("görsel"))}
                 continue
             if "cephe" in fields and "id" not in fields:
@@ -617,7 +685,7 @@ def main():
                                "provinces": [x.strip() for x in fields.get("iller", "").split(",") if x.strip()],
                                "border": [x.strip() for x in fields.get("sınır", "").split(",") if x.strip()],
                                "results": [x.strip() for x in fields.get("sonuç", "").split(",") if x.strip()],
-                               "text": to_bbcode(para, codex_refs), "sources": [to_bbcode(x) for x in srcs],
+                               "text": to_bbcode(para, codex_refs), "sources": [src_line(x) for x in srcs],
                                "_where": where}
                 continue
             if "yer" in fields and "id" not in fields:
@@ -634,7 +702,7 @@ def main():
                                             "icon": fields.get("simge", "yer"),
                                             "image": image(where, fields.get("görsel")),
                                             "text": to_bbcode(para, codex_refs),
-                                            "sources": [to_bbcode(x) for x in srcs]}
+                                            "sources": [src_line(x) for x in srcs]}
                 continue
             if "son" in fields and "id" not in fields:
                 title = header.split("·", 1)[-1].strip()
@@ -646,10 +714,19 @@ def main():
                     if s.startswith("**Nasıl gelinir") or s.startswith("#"):
                         break
                     (srcs if s.startswith(">") else paras).append(s.lstrip("> ").strip())
+                econd = None
+                if cond_src:
+                    econd, fl = parse_cond(where, cond_src)
+                    for f in fl:
+                        flags_read[f].append("son:" + fields["son"])
+                if not str(fields.get("sıra", "")).isdigit():
+                    err(where, f"son '{fields['son']}' needs a numeric sıra (its row in the endings table)")
+                # the endings table: rows are tried by sıra, the first whose koşul holds is the ending (GD 03)
                 endings[fields["son"]] = {"id": fields["son"], "title": title, "alternative": "alternatif" in tags,
+                                          "cond": econd, "cond_src": cond_src, "order": int(fields.get("sıra") or 999),
                                           "image": image(where, fields.get("görsel")),
                                           "text": [to_bbcode(p, codex_refs) for p in paras],
-                                          "sources": [to_bbcode(s) for s in srcs]}
+                                          "sources": [src_line(s) for s in srcs]}
                 continue
             if "id" not in fields:
                 continue
@@ -729,13 +806,13 @@ def main():
                 if s.startswith(">"):
                     q = s[1:].strip()
                     if q.startswith("Kaynak:"):
-                        ev["sources"].append(to_bbcode(q[len("Kaynak:"):].strip()))
+                        ev["sources"].append(src_line(q[len("Kaynak:"):].strip()))
                         ev.setdefault("_src_raw", []).append(q)
                     elif q[:1] in "“\"":
                         ev["quotes"].append(q.strip("“”\""))
                         ev["sources"].append("“" + q.strip("“”\"") + "”")
                     elif q.startswith("—"):
-                        ev["sources"].append(to_bbcode(q))
+                        ev["sources"].append(src_line(q))
                         ev.setdefault("_src_raw", []).append(q)
                     else:
                         ev["sources"].append(to_bbcode(q))
@@ -796,7 +873,7 @@ def main():
                 span.append(int(mm.group(1)) * 12 + int(mm.group(2)) - 1)
         place = r.get("Yer", "").strip()
         fig = {"person": pid, "from": span[0], "to": span[1], "place": "", "label": "", "lonlat": [0.0, 0.0],
-               "cond": None, "source": to_bbcode(r.get("Dayanak", "").replace("\\|", "|"))}
+               "cond": None, "source": src_line(r.get("Dayanak", "").replace("\\|", "|"))}
         if "@" in place:
             label, _, ll = place.partition("@")
             try:
@@ -837,7 +914,7 @@ def main():
                     err(where, f"▶ unknown event '{eff['id']}'")
                 if eff["t"] == "persona" and eff["id"] not in persons:
                     err(where, f"👤 unknown person '{eff['id']}'")
-                if eff["t"] == "end" and eff["id"] not in endings:
+                if eff["t"] == "end" and eff["id"] != "karar" and eff["id"] not in endings:
                     err(where, f"☠ unknown ending '{eff['id']}'")
         if "zincir" in ev["tags"] and ev["id"] not in queued:
             warn(where, f"zincir event '{ev['id']}' is never queued with ▶")
@@ -945,13 +1022,30 @@ def main():
         if not fr["results"]:
             err(where, f"cephe {fr['id']}: needs sonuç events")
 
+    for p in provinces:
+        p.update(province_text.get(p["id"], {"text": "", "sources": []}))
+        if not p["text"]:
+            warn("GD 05", f"il {p['id']}: no description (### İl block)")
     # ---- codex from lore notes' Interesting details
     codex = {}
-    for note in sorted(codex_refs):
+    for note in sorted(codex_refs | set(wiki_pages)):
         codex[note] = codex_entry(note)
+        page = wiki_pages.get(note, {})
+        codex[note].update({"name": page.get("name", note), "text": page.get("text", []),
+                            "sources": page.get("sources", [])})
+    missing_pages = sorted(n for n in codex if not codex[n]["text"])
+    if missing_pages:
+        warn("GD 06", f"{len(missing_pages)} wiki pages without a Türkçe summary: " + ", ".join(missing_pages[:12])
+             + (" …" if len(missing_pages) > 12 else ""))
 
     # ---- write
     os.makedirs(OUT_DATA, exist_ok=True)
+    table = sorted(endings.values(), key=lambda e: e["order"])
+    if table and table[-1]["cond"] is not None:
+        err("GD 03", f"the last row of the endings table ('{table[-1]['id']}') must have no koşul: it is the fallback")
+    orders = [e["order"] for e in table]
+    if len(set(orders)) != len(orders):
+        err("GD 03", f"two endings share a sıra: {orders}")
     data = {"version": 2, "resources": resources, "persons": persons, "nations": nations, "endings": endings,
             "world": world, "provinces": provinces, "landmarks": landmarks, "fronts": fronts,
             "pop_groups": pop_groups, "population": population, "figures": figures,
@@ -1119,14 +1213,14 @@ def parse_effect(tok, resolve):
     m = re.fullmatch(r"(?:👤\s*|@)([a-z0-9_]+)", tok)
     if m:
         return {"t": "persona", "id": m.group(1)}
-    m = re.fullmatch(r"(?:👥\s*|pop:)([a-z_]+)\s+([+-−]\s*\d+(?:[.,]\d+)?)\s*(%?)(?:\s+@\s*([^\s†]+))?\s*(†|dead)?", tok)
+    m = re.fullmatch(r"(?:👥\s*|pop:)([a-z_]+)\s+([+\-−]\s*\d+(?:[.,]\d+)?)\s*(%?)(?:\s+@\s*([^\s†]+))?\s*(†|dead)?", tok)
     if m:
         return {"t": "pop", "g": m.group(1), "d": float(m.group(2).replace("−", "-").replace(" ", "").replace(",", ".")),
                 "pct": m.group(3) == "%", "to": m.group(4) or "imparatorluk", "dead": bool(m.group(5))}
     m = re.fullmatch(r"(?:☠\s*|end:)([a-z0-9_]+)", tok)
     if m:
         return {"t": "end", "id": m.group(1)}
-    m = re.fullmatch(r"([\wçğıöşüÇĞİÖŞÜ]+)\s*([+-−]\s*\d+)", tok)
+    m = re.fullmatch(r"([\wçğıöşüÇĞİÖŞÜ]+)\s*([+\-−]\s*\d+)", tok)
     if m:
         rid = resolve(m.group(1))
         if rid is None:
@@ -1152,6 +1246,12 @@ def fuzzy(q, page):
     return fuzz.partial_ratio(qn, pn)
 
 
+SIDES = {"Turkish source": "Türk kaynağı", "Russian source": "Rus kaynağı", "German source": "Alman kaynağı",
+         "British source": "İngiliz kaynağı", "French source": "Fransız kaynağı", "American source": "Amerikan kaynağı",
+         "Iraqi source": "Iraklı kaynağı", "Australian source": "Avustralyalı kaynağı", "Austrian source": "Avusturyalı kaynağı",
+         "Irish source": "İrlandalı kaynağı", "Soviet source": "Sovyet kaynağı", "video transcript": "video dökümü"}
+
+
 def codex_entry(note):
     path = FILES.get(note)
     text = open(path, encoding="utf-8").read()
@@ -1162,8 +1262,12 @@ def codex_entry(note):
         for i, line in enumerate(lines):
             s = line.strip()
             if s.startswith("> “") or s.startswith('> "'):
+                if s.count("•") > 3:
+                    continue  # a table of contents, not a quote
                 attr = lines[i + 1].strip()[1:].strip() if i + 1 < len(lines) and lines[i + 1].strip().startswith("> —") else ""
-                entry["quotes"].append({"text": s[1:].strip(), "source": to_bbcode(attr.lstrip("— ").strip())})
+                for en, tr in SIDES.items():
+                    attr = attr.replace(en, tr)
+                entry["quotes"].append({"text": s[1:].strip(), "source": src_line(attr.lstrip("— ").strip())})
             if len(entry["quotes"]) >= 3:
                 break
     return entry

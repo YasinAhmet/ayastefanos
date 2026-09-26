@@ -26,7 +26,7 @@ Görünür olanlar masada, çubuk olarak durur (0–100). Gizli olanları oyuncu
 | dogu_hazirligi | Doğu hazırlığı | 10 | hayır | Doğu cephesinin kışa, ikmale ve salgına hazırlığı (yol, demiryolu, depo, kaput, hastane). Sarıkamış'ı belirler. |
 | avrupa_baskisi | Avrupa baskısı | 35 | hayır | Büyük devletlerin baskısı: ıslahat talepleri, müdahale, barış şartları. |
 | enver_iliskisi | Enver'le ilişki | 50 | hayır | İttihat yolunda Talat'ın Enver'i ne kadar durdurabileceği. İhtiyat onu harcar. |
-| cokus | Çöküş | 0 | hayır | Abdülhamid yolunda harp başlayınca işleyen sayaç. 100'e varınca Rus ordusu Payitahttadır. |
+| cokus | Çöküş | 0 | hayır | Abdülhamid yolunda harp başlayınca işleyen sayaç. 100'e varınca Rus ordusu Payitahttadır. Harbiye 35'in üstündeyse ve Boğaz tutulduysa geriler. |
 | kafkas | Kafkas cephesi | 50 | hayır | Cephe dengesi: 0 düşmanın, 100 bizim. Harp yıllarında haritada cephe işaretinde görünür; her ay ordunun gücüne göre bir puan kayar. Bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]]. |
 | canakkale | Çanakkale cephesi | 50 | hayır | Cephe durumu. |
 | irak | Irak cephesi | 50 | hayır | Cephe durumu. |
@@ -54,9 +54,14 @@ Masadaki Payitaht düğmesi hükümdarı ve üç nazırı gösterir. Bir nazır�
 > Kaynak: [[Abdülhamid II]] · [[Enver (Murat Bardakçı)#p. 62|Bardakçı, *Enver*, p. 62]] · *Türk kaynağı* · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 654|Mantran, *Osmanlı İmparatorluğu Tarihi*, p. 654]] · *Fransız kaynağı*
 
 ### Kişi · Talat
-`kişi: talat` · `unvan: Talat Bey, Dahiliye Nazırı (1917'den Sadrazam Talat Paşa)` · `görsel: Talat Pasha.jpg` · `rol: hükümdar`
+`kişi: talat` · `unvan: Talat Bey, Dahiliye Nazırı (1917'den Sadrazam Talat Paşa)` · `görsel: Idman19140528TalatBey.jpg` · `görseller: 1917=Talat Pasha.jpg` · `rol: hükümdar`
 Edirneli bir posta memurunun oğlu; Selanik posta idaresinde memurken 1906'da Osmanlı Hürriyet Cemiyeti'ni kurar ve İttihat ve Terakki'nin sivil lideri olur. 1908'den sonra Dahiliye Nazırı, 1917–1918'de sadrazamdır. Büyük Harp'te iktidar Talat, Enver ve Cemal üçlüsündedir; iç cepheyi, iaşeyi ve 1915 tehcirini yöneten Dahiliye odur. Mütarekeden sonra bir Alman gemisiyle kaçar; 15 Mart 1921'de Berlin'de bir Ermeni tarafından vurulur.
 > Kaynak: [[Talat Paşa]] · [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 766|Mantran, p. 766]] · *Fransız kaynağı* · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 98|Yalman, *Birinci Dünya Savaşı'nda Türkiye*, p. 98]] · *Türk kaynağı*
+
+### Kişi · Kâmil Paşa
+`kişi: kamil` · `unvan: Sadrazam Kıbrıslı Kâmil Paşa` · `görsel: Mehmed Kamil Pasha.jpg` · `rol: hükümdar`
+Kıbrıslı Mehmed Kâmil Paşa, Abdülhamid devrinin "İngilizci" diye tanınan eski vezirlerinden. 1908'den sonra İttihat ve Terakki onu sadarete getirir, 1909'da Meclis'te düşürür. 29 Ekim 1912'de Balkan bozgununun ortasında yeniden sadrazam olur; İngiltere'nin kendisi iktidardayken imparatorluğa saldırılmasına izin vermeyeceğinden emindir. Tarihte 23 Ocak 1913'te Babıâli Baskını'nda Enver'e istifasını yazdırır; aynı yıl Lefkoşa'da ölür. Oyunda Ahrar yolunda (Alternatif tarih) masada o oturur.
+> Kaynak: [[Kamil Paşa]] · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 38|Akşin, *Kısa Türkiye Tarihi*, loc. 38]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 81|Yalman, *Birinci Dünya Savaşı'nda Türkiye*, p. 81]] · *Türk kaynağı* · [[Sultanın Paşaları (Olivier Bouquet)#p. 562|Bouquet, *Sultanın Paşaları*, p. 562]] · *Fransız kaynağı*
 
 ### Kişi · Sultan Vahdettin
 `kişi: vahdettin` · `unvan: Sultan VI. Mehmed Vahdettin (1918–1922)` · `görsel: 1909 10 Resimli Kitab Vahdettin.jpg` · `rol: hükümdar`
@@ -124,7 +129,7 @@ Hüseyin Rauf (Orbay), Balkan Harbi'nin "Hamidiye kahramanı" deniz subayı. 191
 > Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 178|Güneş, p. 178]] · [[Şahbaba (Murat Bardakçı)#p. 116|Bardakçı, *Şahbaba*, p. 116]] · *Türk kaynağı*
 
 ### Kişi · Mustafa Kemal
-`kişi: mustafa_kemal` · `unvan: Mustafa Kemal Bey (Paşa)` · `görsel: Ataturk, Ottoman War Academy, 1901.jpg` · `görseller: 1917=Mustafa Kemal 1917 (AtaturkYildirim, kırpılmış).jpg` · `rol: figür`
+`kişi: mustafa_kemal` · `unvan: Mustafa Kemal Bey (Paşa)` · `görsel: Ataturk, Ottoman War Academy, 1901.jpg` · `görseller: 1915=Mustafa Kemal, 1916.png · 1917=Mustafa Kemal 1917 (AtaturkYildirim, kırpılmış).jpg` · `rol: figür`
 Selanikli genç bir kurmay. 1905–1907'de Şam'da Vatan ve Hürriyet'i kurar, 1907 sonbaharında Selanik'te İttihat ve Terakki'ye girer ve Enver'le ilk anlaşmazlığını yaşar. Trablusgarp'ta Enver'in emrinde Derne'de, Balkan Harbi'nde Bolayır'da savaşır, 1913–1915'te Sofya'da ataşemiliterdir. Çanakkale'de Arıburnu ve Anafartalar'ın kumandanı olarak adını duyurur; 1916'da Bitlis ve Muş'u geri alır, 1917'de Cemal Paşa'yla çatışıp istifa eder. 19 Mayıs 1919'da Samsun'a çıkar.
 > Kaynak: [[Mustafa Kemal Atatürk]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 86|İnan, *Atatürk Hakkında Hatıralar ve Belgeler*, p. 86]] · [[Enver (Murat Bardakçı)#p. 115|Bardakçı, *Enver*, p. 115]] · *Türk kaynağı*
 
@@ -134,7 +139,7 @@ Resneli Kolağası Ahmed Niyazi, Arnavut bir subay. 3 Temmuz 1908'de 160 kişili
 > Kaynak: [[Resneli Niyazi]] · *Türk kaynağı*
 
 ### Kişi · Gazi Osman Paşa
-`kişi: osman_pasa` · `unvan: Gazi Osman Paşa` · `görsel: Gazi Osman Paşa Heykeli.jpg` · `rol: figür`
+`kişi: osman_pasa` · `unvan: Gazi Osman Paşa` · `görsel: Osman Pascha (Gazi Osman Paşa).jpg` · `rol: figür`
 Plevne'nin müdafii. 1877'de Vidin'den Plevne'ye yetişir ve beş ay boyunca, Bardakçı'nın deyişiyle "bir avuç askerle yüz binlerce kişilik bir Rus ordusunu durdurur"; İngiliz ve Amerikalı gözlemciler de onu över. Aralık 1877'de yaralı olarak teslim olur. Esaretten dönünce Abdülhamid onu yanında, Yıldız'da Mabeyn müşiri olarak tutar; hem şerefini kullanır hem de onun bir muhalefet odağı olmasını önler. Askerin tanıdığı "son kahraman" diye anılır.
 > Kaynak: [[Gazi Osman Paşa]] · *Türk kaynağı*
 
@@ -144,7 +149,7 @@ Mareşal ve sadrazam. '93 Harbi'nde Kafkas cephesinde birkaç zafer kazanır, am
 > Kaynak: [[Gazi Ahmed Muhtar Paşa]] · *Türk kaynağı*
 
 ### Kişi · Midhat Paşa
-`kişi: midhat` · `unvan: Midhat Paşa` · `rol: figür`
+`kişi: midhat` · `unvan: Midhat Paşa` · `görsel: Nadar - Portrait of Midhat Pasha.jpg` · `rol: figür`
 Büyük ıslahatçı vali ve "Kanun-ı Esasi'nin babası". Tuna ve Bağdat valiliklerinde memleket sandıklarını ve ilk vilayet gazetelerini kurar. Sadrazam olarak Abdülaziz'in ve V. Murad'ın tahttan indirilmesinde ve Meşrutiyet'in ilanında rol oynar. Abdülhamid onu beş ay sonra sürgüne gönderir; Suriye ve İzmir valiliklerinden sonra Yıldız'da yargılanır, idama mahkûm edilir, ceza sürgüne çevrilir. 1884'te Taif'te, söylentiye göre öldürülerek, ölür.
 > Kaynak: [[Midhat Paşa]] · *Türk kaynağı*
 
@@ -159,7 +164,7 @@ Otto Liman von Sanders, Aralık 1913'te gelen Alman askerî heyetinin başı. Ru
 > Kaynak: [[Liman von Sanders]] · *Alman kaynağı*
 
 ### Kişi · Fahreddin Paşa
-`kişi: fahreddin` · `unvan: Fahreddin Paşa, Medine muhafızı` · `görsel: Korgeneral Ömer Fahreddin Türkkan (1935~1936).jpg` · `rol: figür`
+`kişi: fahreddin` · `unvan: Fahreddin Paşa, Medine muhafızı` · `görsel: Ömer Fahreddin Paşa.jpg` · `rol: figür`
 Fahreddin (Fahri) Paşa, Medine'nin müdafii. Şerif Hüseyin'in isyanından sonra Cemal Paşa onu 15–16 taburla Medine'ye kumandan atar. Faysal ona "hükümetteki adamlara karşı" katılması için mektuplar gönderir; o reddeder. Demiryoluna yapılan baskınlar karşı taarruzunu durdurur, ama şehri mütarekeden sonra da bir süre tutar.
 > Kaynak: [[Fahreddin Paşa]] · *Türk kaynağı*
 
@@ -171,7 +176,8 @@ Masadaki koltukların kimde olduğu. Satırlar yukarıdan aşağı denenir; tari
 |---|---|---|---|---|---|---|
 | 1873-01 | 1876-05 | - | abdulaziz | maliye_nazir | huseyin_avni | hobart |
 | 1876-06 | 1909-12 | !⚑yol_ittihat | abdulhamid | maliye_nazir | riza_pasa | hasan_husnu |
-| 1910-01 | 1917-12 | ⚑yol_hamid | abdulhamid | maliye_nazir | riza_pasa | hasan_husnu |
+| 1910-01 | 1919-12 | ⚑yol_hamid | abdulhamid | maliye_nazir | riza_pasa | hasan_husnu |
+| 1913-01 | 1919-12 | ⚑yol_ahrar | kamil | maliye_nazir | ahmed_izzet | bahriye_nazir |
 | 1908-07 | 1909-04 | ⚑yol_ittihat | abdulhamid | maliye_nazir | riza_pasa | bahriye_nazir |
 | 1909-05 | 1909-12 | ⚑yol_ittihat | talat | cavid | mahmud_sevket | bahriye_nazir |
 | 1910-01 | 1913-06 | ⚑yol_ittihat | talat | cavid | mahmud_sevket | bahriye_nazir |
@@ -188,78 +194,127 @@ Masada her devletin bayraklı yuvarlak bir düğmesi vardır; olay düğmeleri d
 
 ### Devlet · Payitaht
 `devlet: OS` · `ad: Devlet-i Aliyye` · `konum: 28.976,41.011` · `görsel: Map-of-Ottoman-Empire-1900.png`
-İstanbul, Babıâli, saray. Payitaht düğmesi hükümdarı ve nazırları açar.
+İstanbul, Babıâli ve saray: 1873'te Tuna'dan Basra'ya, Bosna'dan Yemen'e uzanan, ama 1875'te iflas etmiş bir imparatorluk. Abdülaziz'in devri iflasla, Abdülhamid'inki Düyun-u Umumiye ile açılır; 1878'de Balkanlar'ın büyük kısmı, 1882'de Mısır fiilen, 1912–13'te Rumeli kaybedilir.
+
+Kaynaklar bu yılları bir yandan çözülme, bir yandan da merkezileşme ve modernleşme diye anlatır: Bouquet atamaların padişahın elinde toplandığını, Toprak ve Güran maliyenin çöküşünü, Akşin meşrutiyet mücadelesini yazar. Payitaht düğmesi hükümdarı ve nazırları açar.
+> Kaynak: [[Ottoman Empire]] · [[Düyun-u Umumiye]] · [[Congress of Berlin (1878)]]
 
 ### Devlet · Rusya
 `devlet: RU` · `ad: Rusya İmparatorluğu` · `konum: 33.50,46.60`
-Karadeniz'in ve Boğazlar'ın öbür ucundaki asıl tehdit. İki yüzyıllık savaşların karşı tarafı.
+Karadeniz'in ve Boğazlar'ın öbür ucundaki asıl tehdit; iki yüzyıllık savaşların karşı tarafı. 1877–78'de ordusu Ayastefanos'a kadar geldi, Kars'ı, Ardahan'ı ve Batum'u aldı; Berlin Kongresi kazançlarının bir kısmını geri aldırdı.
+
+İstanbul'daki sefiri İgnatiyev 1870'lerde Babıâli'yi yönlendirir (Mantran). 1914'te Kafkas cephesinde yeniden karşımızdadır; 1915'te İtilaf'tan İstanbul ve Boğazlar vaadi alır. 1917 ihtilaliyle çöker ve Brest-Litovsk'ta Kars, Ardahan ve Batum'u geri verir.
+> Kaynak: [[Russian Empire]] · [[Russo-Turkish War of 1877-1878]] · [[Russian Revolution (1917)]] · [[Treaty of Brest-Litovsk (1918)]]
 
 ### Devlet · İngiltere
 `devlet: IN` · `ad: Büyük Britanya` · `konum: 14.50,35.90`
-Kıbrıs'ı alan, Mısır'a yerleşen, Hindistan yolunu kollayan deniz gücü.
+Kıbrıs'ı alan, Mısır'a yerleşen, Hindistan yolunu kollayan deniz gücü. 1878'de Rusya'ya karşı imparatorluğun koruyucusu gibi görünür ve karşılığında Kıbrıs'ı alır; 1882'de Mısır'ı işgal eder.
+
+Gladstone'un 'Bulgar vahşetleri' kampanyasından sonra kamuoyu Türklere döner; Salisbury bir paylaşım bile önerir. Büyük Harp'te Çanakkale'de, Irak'ta ve Filistin'de karşımızdadır; Şerif Hüseyin'i isyana destekler ve 1918'de İstanbul'u işgal eder.
+> Kaynak: [[British occupation of Egypt (1882)]] · [[Lord Salisbury]] · [[William Gladstone]] · [[Gallipoli Campaign (1915)]]
 
 ### Devlet · Fransa
 `devlet: FR` · `ad: Fransa` · `konum: 8.60,36.50`
-Tunus'u alan, Suriye ve Lübnan'da gözü olan alacaklı.
+1881'de Tunus'u alan, Suriye ve Lübnan'da gözü olan, imparatorluğun başlıca alacaklılarından biri. Osmanlı Bankası'nın ve Düyun-u Umumiye'nin arkasında Fransız sermayesi durur; Reji de Fransız ağırlıklı bir şirkettir.
+
+Büyük Harp'te İtilaf'tadır; Sykes–Picot'da Suriye kıyısını, Kilikya'yı ve Musul'un kuzeyini kendine ayırır. Harpten sonra Adana ve Kilikya'ya asker çıkarır.
+> Kaynak: [[Ottoman Bank]] · [[Tobacco Régie]] · [[Sykes-Picot Agreement (1916)]]
 
 ### Devlet · Almanya
 `devlet: AL` · `ad: Alman İmparatorluğu` · `konum: 13.40,51.50`
-Önce danışman, sonra demiryolu sahibi, en sonunda müttefik.
+Önce danışman, sonra demiryolu sahibi, en sonunda müttefik. Bismarck 1880'de padişahın Alman müşavir isteğini nüfuz kazanmak için kabul ettirir; Goltz Paşa bir kuşak subay yetiştirir. 1899'dan sonra Bağdat demiryolu imtiyazını alır.
+
+1913'te Liman von Sanders'in askerî heyeti gelir; 2 Ağustos 1914'te gizli ittifak imzalanır ve Goeben ile Breslau Osmanlı'yı harbe sokar. Bardakçı'ya göre İttihat ve Terakki devletin kaderini Berlin'e bağladı.
+> Kaynak: [[Otto von Bismarck]] · [[Colmar von der Goltz]] · [[German military mission (1913)]] · [[Goeben and Breslau (1914)]]
 
 ### Devlet · Avusturya-Macaristan
 `devlet: AV` · `ad: Avusturya-Macaristan` · `konum: 16.37,48.21`
-Bosna-Hersek'i önce işgal, sonra ilhak eden komşu.
+Bosna-Hersek'i 1878'de işgal, 1908'de ilhak eden komşu. Makedonya'da Rusya ile birlikte ıslahat denetimi kurar; Üsküp'e jandarma subayları gönderir (Bardakçı).
+
+Büyük Harp'te Almanya'nın ve Osmanlı'nın müttefikidir; Galiçya'ya Osmanlı tümenleri gönderilir. 1918'de dağılır.
+> Kaynak: [[Congress of Berlin (1878)]] · [[Galician Front (1916-1917)]]
 
 ### Devlet · İtalya
 `devlet: IT` · `ad: İtalya` · `konum: 12.50,41.90`
-1911'de Trablusgarp'a çıkan genç devlet.
+1861'de birleşen genç krallık; Akdeniz'de sömürge arar. 1911'de Trablusgarp'a çıkar; 1912'de On İki Ada'yı alır ve Uşi'de Trablusgarp ile Bingazi'yi kendine bırakır.
+
+1915'te İtilaf'a katılır ve Londra'da Antalya vaadini alır; harpten sonra Antalya ve Konya'ya asker çıkarır.
+> Kaynak: [[Italo-Turkish War (1911-1912)]] · [[Trablusgarp]]
 
 ### Devlet · Yunanistan
 `devlet: YU` · `ad: Yunanistan` · `konum: 23.73,37.98`
-Girit'i ve adaları isteyen komşu; 1919'da İzmir'e çıkar.
+1830'da bağımsız olan krallık; Girit'i ve adaları ister. 1881'de Teselya'yı alır, 1897'de Dömeke'de yenilir, ama Girit özerk olur ve 1908'de Yunanistan'a katılır.
+
+Balkan Harbi'nde Selanik'e ve Yanya'ya girer, Ege adalarını alır. 1919'da İzmir'e çıkar.
+> Kaynak: [[Yunanistan]] · [[Greco-Turkish War of 1897]] · [[Girit]]
 
 ### Devlet · Bulgaristan
 `devlet: BU` · `ad: Bulgaristan` · `konum: 23.32,42.70`
-Ayastefanos'un doğurduğu prenslik, Balkan Harbi'nin Çatalca'ya dayanan ordusu, sonra Büyük Harp'te müttefik.
+Ayastefanos'un doğurduğu, Berlin'in küçülttüğü prenslik. 1885'te Doğu Rumeli'yi katar, 1908'de bağımsızlığını ilan eder.
+
+1912'de Balkan ittifakıyla Çatalca'ya dayanır ve Edirne'yi alır; İkinci Balkan Harbi'nde Edirne'yi geri verir ama Batı Trakya'yı tutar. 1915'te Almanya ve Osmanlı'nın müttefiki olur.
+> Kaynak: [[Bulgaristan]] · [[Balkan Wars (1912-1913)]]
 
 ### Devlet · Sırbistan ve Karadağ
 `devlet: SR` · `ad: Sırbistan ve Karadağ` · `konum: 20.46,44.82`
-1876'da savaş açan, 1912'de Balkan ittifakına giren komşular.
+1876'da Osmanlı'ya harp açan Sırbistan ve Karadağ; Berlin'de ikisi de bağımsız olur ve Niş bölgesini alır. 1882'de Kral Milan'ın antlaşması Sırbistan'ı neredeyse Avusturya'nın bir vasalı yapar (Trotsky).
+
+1912'de Balkan ittifakıyla Kosova'yı, Üsküp'ü ve Manastır'ı alırlar; Trotsky bu seferi Sırp ordusunun yanında izler.
+> Kaynak: [[Sırbistan]] · [[Balkan Wars (1912-1913)]]
 
 ### Devlet · Romanya
 `devlet: RO` · `ad: Romanya` · `konum: 26.10,44.43`
-1878'e kadar kâğıt üstünde Osmanlı'ya bağlı prenslik; Ayastefanos ve Berlin'le bağımsız, Dobruca'yı alır.
+1878'e kadar kâğıt üstünde Osmanlı'ya bağlı Eflak ve Boğdan prenslikleri. '93 Harbi'nde Rusya'nın yanında savaşır; Ayastefanos ve Berlin'le bağımsız olur ve Dobruca'yı alır.
+
+1913'te İkinci Balkan Harbi'nde Bulgaristan'a girer; 1916'da İtilaf'a katılır ve Osmanlı tümenleri Dobruca'da onunla savaşır.
 > Kaynak: [[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 644|Mantran, *Osmanlı İmparatorluğu Tarihi*, p. 644]] · *Fransız kaynağı*
 
 ### Devlet · Arnavutluk
 `devlet: AB` · `ad: Arnavutluk` · `konum: 19.82,41.33`
-Balkan Harbi'nin sonunda Londra'da bağımsızlığı tanınan prenslik.
+Balkan Harbi'nin sonunda Londra'da bağımsızlığı tanınan prenslik. Ondan önce Arnavutlar imparatorluğun sadık ve huzursuz tebaasıydı: 1878'de Prizren Birliği, 1910–1912'de kuzeyde isyanlar.
+
+İşkodra'yı Karadağ, güneyini Yunanistan ister; büyük devletler 1913'te sınırlarını çizer.
 > Kaynak: [[Arnavutluk]]
 
 ### Devlet · Cebel-i Şammar
 `devlet: RS` · `ad: Cebel-i Şammar Emirliği (Reşidîler)` · `konum: 41.70,27.50`
-Hâil merkezli, İstanbul'a bağlı Reşidî emirliği; Necd'de Suudlarla yarışır. Büyük Harp'te Osmanlı'nın yanında kalır.
+Hâil merkezli, İstanbul'a bağlı Reşidî emirliği; Necd'de Suudlarla yarışır. 1902'den sonra Riyad'ı İbn Suud'a kaptırır.
+
+Büyük Harp'te Osmanlı'nın yanında kalır: Cemal Paşa'ya göre Emir İbn Reşid 'seferin sonuna kadar Hilafet makamına kuvvetle bağlı' kaldı.
 > Kaynak: [[Cemal Paşa Hatıralar (Cemal Paşa)#p. 200|Cemal Paşa, *Hatıralar*, p. 200]] · *Türk kaynağı*
 
 ### Devlet · Mısır
 `devlet: MI` · `ad: Mısır Hıdivliği` · `konum: 31.24,30.04`
-Kâğıt üstünde Osmanlı, 1882'den sonra fiilen İngiliz.
+Kâğıt üstünde Osmanlı, 1882'den sonra fiilen İngiliz. Kavalalı Mehmed Ali Paşa'nın hanedanı özerk bir hıdivlik kurmuştur; İsmail Paşa unvanını Abdülaziz'e hediyelerle almıştır (Akyıldız).
+
+1882'de Urabi hareketinden sonra İngiltere işgal eder; Ahmed Muhtar Paşa yirmi yılı aşkın Osmanlı fevkalade komiseri olarak Kahire'de oturur. 1914'te İngiltere hıdivi indirip himaye ilan eder.
+> Kaynak: [[Mısır]] · [[British occupation of Egypt (1882)]]
 
 ### Devlet · İran
 `devlet: IR` · `ad: İran` · `konum: 51.40,35.70`
-Doğudaki komşu ve rakip.
+Doğudaki komşu ve eski rakip. 1905'ten sonra meşrutiyet mücadelesi, 1907'de Rusya ve İngiltere'nin nüfuz bölgelerine bölünmesi. Büyük Harp'te tarafsızdır ama topraklarında Osmanlı, Rus ve İngiliz birlikleri savaşır.
+> Kaynak: [[İran]]
 
 ### Devlet · Ermeniler
 `devlet: ER` · `ad: Ermeni cemaati ve komiteler` · `konum: 42.60,39.20`
-Bir devlet değil, bir güç. Doğu vilayetleri, Hınçak ve Taşnak komiteleri, Avrupa'daki temsilcileri.
+Bir devlet değil, bir güç: İstanbul'daki Patrikhane ve Ermeni cemaati, doğu vilayetlerinin Ermeni köyleri, Hınçak ve Taşnak komiteleri, Avrupa'daki temsilcileri. Berlin'in 61. maddesi Ermeni ıslahatını bir uluslararası mesele yapar.
+
+1890'ların olayları, 1896 Osmanlı Bankası baskını, 1905 Yıldız bombası, 1909 Adana ve 1915 tehciri kaynaklarda tarafların birbirinden çok farklı anlattığı konulardır (Gürün, Türk tarafı; Mantran, Fransız tarafı).
+> Kaynak: [[Armenian revolutionary committees]] · [[Hamidian massacres and Armenian uprisings (1894-1896)]] · [[Armenian deportation (1915)]]
 
 ### Devlet · Araplar
 `devlet: AR` · `ad: Arap vilayetleri ve Hicaz` · `konum: 41.00,25.50`
-Bir devlet değil, bir güç. Suriye, Irak, Hicaz; Mekke Şerifi ve aşiretler.
+Bir devlet değil, bir güç: Suriye, Irak, Hicaz ve Yemen'in şehirleri, Mekke Şerifi ve aşiretler. Abdülhamid'in İslamcı siyaseti Arap vilayetlerini İstanbul'a bağlamaya çalışır; 1908'den sonra İttihatçıların merkeziyetçiliğine tepki olarak Arap milliyetçiliği güçlenir (Murphy).
+
+1916'da Şerif Hüseyin İngilizlerle anlaşarak isyan eder; Cemal Paşa Şam'da milliyetçileri astırır. 1918'de Faysal Şam'a girer.
+> Kaynak: [[Arab Revolt (1916-1918)]] · [[Şerif Hüseyin]]
 
 ### Devlet · Kürtler
 `devlet: KU` · `ad: Kürt aşiretleri` · `konum: 42.20,37.70`
-Bir devlet değil, bir güç. Doğu vilayetlerinin aşiret reisleri; Hamidiye alayları.
+Bir devlet değil, bir güç: doğu vilayetlerinin aşiret reisleri ve şeyhleri. Abdülhamid onların bir kısmını Hamidiye alaylarına alır; aşiretler kanuni dokunulmazlığı toprak kazanmak için kullanır (Emrence).
+
+Büyük Harp'te Rus işgali doğudaki Kürt ahaliyi de göçe ve ölüme sürükler.
+> Kaynak: [[Hamidiye Regiments]]
 
 ## Olay yazım kuralları
 
@@ -321,12 +376,12 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 
 ### 1879 · Ordunun çürümesi
 `id: k_harbiye_curume` · `tür: kural`
-`koşul: !⚑yol_ittihat`
+`koşul: !⚑yol_ittihat & !⚑yol_ahrar`
 1. **Uygula.** `Harbiye -1`
 
 ### 1883 · Goltz'un talimleri
 `id: k_goltz` · `tür: kural`
-`koşul: ⚑goltz_serbest & !⚑yol_ittihat`
+`koşul: ⚑goltz_serbest & !⚑yol_ittihat & !⚑yol_ahrar`
 1. **Uygula.** `Harbiye +1 · jon_turk +2`
 
 ### 1878 · Donanma Haliç'te
@@ -341,7 +396,7 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 
 ### 1878 · Jurnal ağı
 `id: k_jurnal` · `tür: kural`
-`koşul: ⚑jurnal_ag & !⚑yol_ittihat`
+`koşul: ⚑jurnal_ag & !⚑yol_ittihat & !⚑yol_ahrar`
 1. **Uygula.** `hakimiyet +3 · jon_turk +1 · Harbiye -1 · Para -1`
 
 ### 1891 · Hamidiye alayları
@@ -356,7 +411,7 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 
 ### 1909 · Meşrutiyet ordusu
 `id: k_ittihat_ordu` · `tür: kural` · `bitiş: 1914`
-`koşul: ⚑yol_ittihat`
+`koşul: ⚑yol_ittihat | ⚑yol_ahrar`
 1. **Uygula.** `Harbiye +1`
 
 ### 1914 · Harp ekonomisi
@@ -366,13 +421,23 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 
 ### 1915 · Payitahta doğru (Harbiye çökük)
 `id: k_cokus_agir` · `tür: kural`
-`koşul: ⚑yol_hamid & ⚑harpte & Harbiye < 30`
+`koşul: ⚑yol_hamid & ⚑harpte & Harbiye < 20`
 1. **Uygula.** `cokus +20`
 
 ### 1915 · Payitahta doğru
 `id: k_cokus` · `tür: kural`
-`koşul: ⚑yol_hamid & ⚑harpte & Harbiye >= 30`
+`koşul: ⚑yol_hamid & ⚑harpte & Harbiye >= 20 & Harbiye < 35`
 1. **Uygula.** `cokus +12`
+
+### 1915 · Talim görmüş alaylar
+`id: k_hamid_ordu` · `tür: kural`
+`koşul: ⚑yol_hamid & ⚑harpte & Harbiye >= 35`
+1. **Uygula.** `cokus -6`
+
+### 1915 · Boğaz tutuldu
+`id: k_hamid_bogaz` · `tür: kural`
+`koşul: ⚑yol_hamid & ⚑hamid_bogaz_tutuldu`
+1. **Uygula.** `cokus -5`
 
 ### 1915 · Denizden gelen tehlike
 `id: k_cokus_deniz` · `tür: kural`
@@ -417,13 +482,13 @@ Yıl dönümü gazetesinde (Abdülhamid devrinde *Takvim-i Vekâyi*, İttihat de
 
 ### 1878 · Sükûnet-i tamme
 `id: m_hakimiyet` · `tür: manşet`
-`koşul: hakimiyet >= 70 & !⚑yol_ittihat`
+`koşul: hakimiyet >= 70 & !⚑yol_ittihat & !⚑yol_ahrar`
 Vilayetlerden her gün aynı telgraf geliyor: "asayiş berkemal". Yıldız'a günde binlerce jurnal ulaşıyor.
 > Kaynak: [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 56|Yalman, p. 56]] · *Türk kaynağı* · [[Mahşerin İki Gemisi - Part II (Video transcript)#loc. 10|Video, *Mahşerin İki Gemisi - Part II*, loc. 10]] · *video dökümü (ikincil)*
 
 ### 1878 · Mekteplerde fısıltı
 `id: m_jon_turk` · `tür: manşet`
-`koşul: jon_turk >= 50 & !⚑yol_ittihat`
+`koşul: jon_turk >= 50 & !⚑yol_ittihat & !⚑yol_ahrar`
 Harbiye ve Tıbbiye koğuşlarında el altından *Vatan*'ın sayfaları dolaşıyor.
 
 ### 1878 · Haliç'te pas
