@@ -2,6 +2,8 @@ extends SceneTree
 ## Opens every screen once, headless, to catch runtime errors in the UI code.
 ##   godot --headless --path . -s res://game/tests/ui_smoke.gd
 
+const UIKit := preload("res://game/scripts/ui/ui_kit.gd")
+
 var main: Control
 
 
@@ -36,6 +38,7 @@ func _run() -> void:
 				st.choose(ev["id"], i)
 				break
 	print("cards in the left column: ", desk.cards.get_child_count())
+	desk.show_istanbul()
 	desk.show_place("babiali")
 	desk.show_place("galata")
 	desk.show_province("misir")
@@ -75,6 +78,13 @@ func _run() -> void:
 		await process_frame
 	desk._auto_stop()
 	await process_frame
+	# the sources setting, both ways
+	for on in [true, false]:
+		UIKit.show_sources = on
+		desk.show_place("galata")
+		desk.show_person("enver")
+		desk._open_event(st.events["tehcir_karar"])
+	print("divergences so far: ", st.divergences().size())
 	st.ending_id = "son3"
 	main.show_ending()
 	await process_frame

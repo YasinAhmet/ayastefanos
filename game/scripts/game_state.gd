@@ -63,6 +63,9 @@ var mode := "serbest"               # "tarihi" hides alternatif events and optio
 var _acting := ""                   # title of the event whose effects are being applied (for the chronicle)
 var front_log: Dictionary = {}      # front id -> [{y, m, d, by}]: every change to the front's balance and its cause
 var population: Dictionary = {}     # province -> {group: thousands}, changed by 👥 effects and cessions
+var deaths: Array = []              # [{g, n, prov, y, m, by}] every † population loss, for the Kayıplar card
+var front_taken: Dictionary = {}    # front id -> {"last": month key, "provs": [provinces the enemy took on its own]}
+const BORDER_EVERY := 6             # months between two provinces lost (or won back) by a front's own course
 const DRIFT_BY := "Cephenin kendi seyri"
 
 
@@ -136,6 +139,8 @@ func new_game(game_mode := "serbest") -> void:
 	chronicle.clear()
 	slot_done.clear()
 	front_log.clear()
+	front_taken.clear()
+	deaths.clear()
 	population = pop_start.duplicate(true)
 	year = START.x
 	month = START.y
@@ -338,6 +343,18 @@ func minister(seat: String) -> Dictionary:
 	return persons[c[seat]]
 
 
+## A person's portrait for the current year: the latest of their dated images (`görseller:`), else `görsel:`.
+func person_image(pid: String):
+	var p: Dictionary = persons.get(pid, {})
+	var img = p.get("image")
+	var best := -1
+	for e in p.get("images", []):
+		if int(e["from"]) <= year and int(e["from"]) > best:
+			best = int(e["from"])
+			img = e["image"]
+	return img
+
+
 func ruler() -> Dictionary:
 	return persons.get(persona, {})
 
@@ -401,7 +418,7 @@ func _apply(effects: Array) -> void:
 			"prov":
 				_set_province(str(e["id"]), str(e["v"]), bool(e.get("own", true)))
 			"pop":
-				_pop_change(str(e["g"]), float(e["d"]), bool(e["pct"]), e["to"])
+				_pop_change(str(e["g"]), float(e["d"]), bool(e["pct"]), e["to"], bool(e.get("dead", false)))
 			"persona":
 				persona = e["id"]
 			"end":
@@ -514,6 +531,37 @@ func _front_tick() -> void:
 		var d := clampi(roundi((ours - float(f["opposition"])) / 20.0), -1, 1)
 		if d != 0:
 			_add(str(f["value"]), d)
+		_front_border(fid)
+
+
+## A front with a `sınır` list moves the border by itself: at `yenilgi` the enemy takes the next province we
+## still hold on it, at `zafer` we take back the last one it took this way (at most one every BORDER_EVERY months).
+func _front_border(fid: String) -> void:
+	var f: Dictionary = fronts[fid]
+	var border: Array = f.get("border", [])
+	if border.is_empty() or not front_result(fid).is_empty():
+		return
+	var rec: Dictionary = front_taken.get(fid, {"last": -999, "provs": []})
+	if now_key() - int(rec["last"]) < BORDER_EVERY:
+		return
+	var v := value_of(str(f["value"]))
+	var enemy := str(f["enemy"])
+	var was := _acting
+	_acting = DRIFT_BY
+	if v <= int(f["lose"]):
+		for pid in border:
+			if province_holder(str(pid), "ctl") == "OS":
+				_set_province(str(pid), enemy, false)
+				rec["provs"].append(str(pid))
+				rec["last"] = now_key()
+				break
+	elif v >= int(f["win"]) and not rec["provs"].is_empty():
+		var pid: String = rec["provs"].pop_back()
+		if province_holder(pid, "ctl") == enemy:
+			_set_province(pid, "OS", false)
+		rec["last"] = now_key()
+	_acting = was
+	front_taken[fid] = rec
 
 
 
@@ -603,21 +651,51 @@ func _pop_targets(to: Array) -> Array:
 
 
 ## 👥 group ±N% (a share of the group in each target) or ±N (thousands, spread over the targets by their size).
-func _pop_change(g: String, d: float, pct: bool, to: Array) -> void:
+func _pop_change(g: String, d: float, pct: bool, to: Array, dead := false) -> void:
 	var targets := _pop_targets(to)
 	if pct:
 		for p in targets:
 			var row: Dictionary = population[p]
 			if row.has(g):
-				row[g] = maxf(0.0, float(row[g]) * (1.0 + d / 100.0))
+				var before := float(row[g])
+				row[g] = maxf(0.0, before * (1.0 + d / 100.0))
+				if dead:
+					_record_death(g, before - float(row[g]), p)
 		return
 	var total := 0.0
 	for p in targets:
 		total += province_pop(p)
+	if dead and d < 0.0:
+		# the dead are taken where the group lives, in proportion to its size there
+		total = 0.0
+		for p in targets:
+			total += float(population[p].get(g, 0.0))
 	for p in targets:
 		var share := province_pop(p) / total if total > 0.0 else 1.0 / targets.size()
+		if dead and d < 0.0:
+			share = float(population[p].get(g, 0.0)) / total if total > 0.0 else 0.0
 		var row: Dictionary = population[p]
-		row[g] = maxf(0.0, float(row.get(g, 0.0)) + d * share)
+		var before := float(row.get(g, 0.0))
+		row[g] = maxf(0.0, before + d * share)
+		if dead:
+			_record_death(g, before - float(row[g]), p)
+
+
+func _record_death(g: String, n: float, prov: String) -> void:
+	if n > 0.01:
+		deaths.append({"g": g, "n": n, "prov": prov, "y": year, "m": month, "by": _acting})
+
+
+## Deaths (†) of a group, all or in one province; with `by_event`, {title: thousands} instead of the total.
+func deaths_of(g := "", prov := "", by_event := false):
+	var total := 0.0
+	var per := {}
+	for e in deaths:
+		if (g == "" or e["g"] == g) and (prov == "" or e["prov"] == prov):
+			total += float(e["n"])
+			var k := "%s (%d)" % [e["by"], int(e["y"])]
+			per[k] = float(per.get(k, 0.0)) + float(e["n"])
+	return per if by_event else total
 
 
 ## A province leaves the empire: each group's Göç share moves to Anatolia and the capital (the muhacirs).
@@ -711,6 +789,31 @@ func figure_places() -> Array:
 	return out
 
 
+## Where this game left history: every answered alternatif event, every decision the player took, and every
+## event answered with an option other than the (tarihî) one. [{title, y, m, chose, history}] in order.
+func divergences() -> Array:
+	var out: Array = []
+	for h in history:
+		var ev: Dictionary = events.get(str(h["id"]), {})
+		if ev.is_empty() or not answered.has(ev["id"]):
+			continue
+		var chosen: Dictionary = ev["options"][int(answered[ev["id"]])]
+		var hist_opt := {}
+		for o in ev["options"]:
+			if o.get("hist") != null:
+				hist_opt = o
+		var what := ""
+		if ev["tags"].has("alternatif"):
+			what = "Bu olay tarihte yaşanmadı."
+		elif ev["kind"] == "karar":
+			what = "Oyuncunun kararı; tarihte böyle bir adım atılmadı."
+		elif not hist_opt.is_empty() and chosen != hist_opt:
+			what = "Tarihte: " + str(hist_opt["label"])
+		if what != "":
+			out.append({"title": h["title"], "y": h["y"], "m": h["m"], "chose": chosen["label"], "history": what})
+	return out
+
+
 func save_game() -> void:
 	var f := FileAccess.open(SAVE_PATH, FileAccess.WRITE)
 	if f == null:
@@ -719,7 +822,8 @@ func save_game() -> void:
 		"flags": flags, "persona": persona, "answered": answered, "queued": queued, "dropped": dropped,
 		"history": history, "year_log": year_log, "ending": ending_id, "world": world, "owner": prov_owner, "ctl": prov_ctl,
 		"chronicle": chronicle, "slot_done": slot_done, "mode": mode, "front_log": front_log,
-		"population": population}))
+		"population": population, "front_taken": front_taken,
+		"deaths": deaths}))
 
 
 func has_save() -> bool:
@@ -765,6 +869,8 @@ func load_game() -> bool:
 	chronicle = s.get("chronicle", [])
 	slot_done = s.get("slot_done", {})
 	front_log = s.get("front_log", {})
+	front_taken = s.get("front_taken", {})
+	deaths = s.get("deaths", [])
 	population = pop_start.duplicate(true)
 	population.merge(s.get("population", {}), true)
 	changed.emit()

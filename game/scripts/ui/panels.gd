@@ -30,7 +30,7 @@ func _person_card(p: Dictionary, role_text: String, value := -1) -> Control:
 	var card := UIKit.panel(UIKit.PANEL_2)
 	var row := UIKit.hbox(10)
 	card.add_child(row)
-	var img := UIKit.image(p.get("image"), 96)
+	var img := UIKit.image(state.person_image(str(p.get("id", ""))), 96)
 	if img:
 		img.custom_minimum_size = Vector2(76, 96)
 		img.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
@@ -47,8 +47,7 @@ func _person_card(p: Dictionary, role_text: String, value := -1) -> Control:
 		col.add_child(h)
 	if str(p.get("text", "")) != "":
 		col.add_child(_linked(p["text"], 12))
-	for s in p.get("sources", []):
-		col.add_child(_linked("[color=#ab9d82]%s[/color]" % s, 10))
+	UIKit.add_sources(col, p.get("sources", []), _linked)
 	return card
 
 

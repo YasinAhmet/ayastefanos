@@ -17,14 +17,20 @@ Başlangıç 1873'tür.
 | id | Ad | Sahip | Tutan | Bölge |
 |---|---|---|---|---|
 | istanbul | İstanbul | OS | OS | Payitaht |
-| edirne | Edirne | OS | OS | Rumeli |
+| edirne | Edirne (Kırkkilise) | OS | OS | Rumeli |
+| tekfurdagi | Tekfurdağı | OS | OS | Rumeli |
+| gumulcine | Batı Trakya (Gümülcine, Pirin) | OS | OS | Rumeli |
 | dogu_rumeli | Doğu Rumeli (Filibe) | OS | OS | Rumeli |
 | tuna | Tuna (Rusçuk, Sofya) | OS | OS | Rumeli |
 | selanik | Selanik | OS | OS | Rumeli |
+| serez | Serez ve Drama | OS | OS | Rumeli |
 | manastir | Manastır | OS | OS | Rumeli |
-| kosova | Kosova (Üsküp) | OS | OS | Rumeli |
+| kesriye | Kesriye ve Florina | OS | OS | Rumeli |
+| kosova | Kosova (Priştine, Yeni Pazar) | OS | OS | Rumeli |
+| uskup | Üsküp | OS | OS | Rumeli |
 | iskodra | İşkodra | OS | OS | Rumeli |
 | yanya | Yanya | OS | OS | Rumeli |
+| ergiri | Ergiri ve Görice | OS | OS | Rumeli |
 | teselya | Teselya | OS | OS | Rumeli |
 | bosna | Bosna-Hersek | OS | OS | Rumeli |
 | nis | Niş | OS | OS | Rumeli |
@@ -57,7 +63,8 @@ Başlangıç 1873'tür.
 | basra | Basra | OS | OS | Irak |
 | hicaz | Hicaz | OS | OS | Arabistan |
 | yemen | Yemen | OS | OS | Arabistan |
-| necd | Necd | AR | AR | Arabistan |
+| necd | Necd (Riyad) | AR | AR | Arabistan |
+| sammar | Cebel-i Şammar (Hâil) | OS | RS | Arabistan |
 | lahsa | el-Ahsa | OS | OS | Arabistan |
 | kuveyt | Kuveyt | OS | OS | Arabistan |
 | umman | Umman ve Körfez şeyhlikleri | IN | IN | Arabistan |
@@ -80,11 +87,11 @@ Başlangıç 1873'tür.
 
 ## Yerler
 
-Haritadaki işaretler. Tıklanınca sağda o yerin paneli açılır: açıklama, orada bekleyen evrak, açık kararlar, ilgili iplikler, geçmiş olaylar. `konum` boylam,enlemdir. Olaylar `yer:` alanıyla bir yere bağlanır; alanı olmayan olay kendi devletinin yerine düşer (`bayrak`). İstanbul'daki yerler haritada Payitaht'ın çevresinde bir halka olarak gösterilir.
+Haritadaki işaretler. Tıklanınca sol altta o yerin paneli açılır: açıklama, orada bekleyen evrak, açık kararlar, ilgili iplikler, geçmiş olaylar. `konum` boylam,enlemdir. Olaylar `yer:` alanıyla bir yere bağlanır; alanı olmayan olay kendi devletinin yerine düşer (`bayrak`). İstanbul'daki yerler haritada tek bir sarı başkent yıldızında toplanır; yıldıza tıklanınca listelenir. Hükümdarın portresi haritada değil, ekranın sağ üstündeki kartta durur.
 
 ### Yer · Babıâli
 `yer: babiali` · `il: istanbul` · `konum: 28.976,41.011` · `simge: payitaht` · `bayrak: OS`
-Sadrazamın ve nazırların makamı. Hükümdarın portresi burada durur; tıklanınca Payitaht açılır.
+Sadrazamın ve nazırların makamı; buradan Payitaht açılır.
 > Kaynak: [[Sublime Porte]]
 
 ### Yer · Yıldız Sarayı
@@ -202,6 +209,7 @@ Harp açıkken her cephenin ortasında haritada bir işaret durur. Tıklanınca 
 - **Denge:** cephenin `değer`i bir gizli kaynaktır (bkz. [[GD 02 Sistemler#Kaynaklar]]). Olayların seçenekleri onu değiştirir (`kafkas +8`); her değişiklik, onu yapan olayın adıyla cephe defterine yazılır.
 - **Kendi seyri:** karara bağlanmamış bir cephe her ay bir puan, `güç` değerlerinin ortalaması `karşı`dan 10'dan fazla yüksekse bizden yana, düşükse düşmandan yana kayar. Bu kayma da defterde "Cephenin kendi seyri" diye yıllık toplanır.
 - **Sonuç:** her cephe kendi olaylarıyla karara bağlanır (`sonuç`). Sonuç olaylarının tarihî sürümü koşulsuzdur; alternatif sürüm, denge yeterince yüksekse aynı yuvada öne geçer (ör. `bagdat_tutuldu`, `irak >= 60`). İlk cevaplanan sonuç olayı cephenin sonucudur. Sonuç olayları illerin sahibini değiştirir (`🗺`).
+- **Sınır:** `sınır` alanı olan cephede denge `yenilgi` eşiğine düşünce düşman, listede sıradaki elimizdeki ili işgal eder (en çok altı ayda bir); denge `zafer` eşiğini aşınca bu cephede işgal edilmiş son ilimiz geri alınır. İkisi de Toprak defterine "Cephenin kendi seyri" diye yazılır. Böylece 1877'de tutulan Kars bir sonraki harpte kendiliğinden düşebilir.
 - `koşul` harbin açık olduğu durumdur; `başlangıç` işaretin haritaya çıktığı ay; `iller` cephenin çekiştiği iller (haritada vurgulanır); `zafer` / `yenilgi` panelde "üstün" sayılan eşiklerdir.
 
 > [!info] Sayılar tasarımdır
@@ -214,7 +222,7 @@ Ruslar Tuna'yı geçip Balkanlar'a yürüyor; Plevne yolun ortasında.
 > Kaynak: [[Russo-Turkish War of 1877-1878]] · [[Siege of Plevne (1877)]]
 
 ### Cephe · Kafkas ('93)
-`cephe: kafkas_93` · `harp: 93 Harbi` · `değer: kafkas_93` · `düşman: RU` · `konum: 42.70,40.50` · `iller: kars, erzurum` · `güç: harbiye` · `karşı: 50` · `başlangıç: 1877-05` · `zafer: 60` · `yenilgi: 30` · `sonuç: kars_tutuldu, kars_1877`
+`cephe: kafkas_93` · `harp: 93 Harbi` · `değer: kafkas_93` · `düşman: RU` · `konum: 42.70,40.50` · `iller: kars, erzurum` · `sınır: kars, batum, erzurum` · `güç: harbiye` · `karşı: 50` · `başlangıç: 1877-05` · `zafer: 60` · `yenilgi: 30` · `sonuç: kars_tutuldu, kars_1877`
 `koşul: ⚑harp_93 & ⚑harpte & yıl <= 1878`
 Gazi Ahmed Muhtar Paşa Kars ile Erzurum arasında Rus kollarını karşılıyor.
 > Kaynak: [[Gazi Ahmed Muhtar Paşa]] · [[Kars]]
@@ -226,13 +234,13 @@ Gazi Ahmed Muhtar Paşa Kars ile Erzurum arasında Rus kollarını karşılıyor
 > Kaynak: [[Italo-Turkish War (1911-1912)]] · [[Trablusgarp]]
 
 ### Cephe · Trakya
-`cephe: trakya` · `harp: Balkan Harbi` · `değer: trakya` · `düşman: BU` · `konum: 27.30,41.55` · `iller: edirne, istanbul` · `güç: harbiye` · `karşı: 50` · `başlangıç: 1912-10` · `zafer: 60` · `yenilgi: 30` · `sonuç: edirne_tutuldu, edirne_dustu, hamid_1913_londra`
+`cephe: trakya` · `harp: Balkan Harbi` · `değer: trakya` · `düşman: BU` · `konum: 27.30,41.55` · `iller: edirne, tekfurdagi` · `güç: harbiye` · `karşı: 50` · `başlangıç: 1912-10` · `zafer: 60` · `yenilgi: 30` · `sonuç: edirne_tutuldu, edirne_dustu, hamid_1913_londra`
 `koşul: ⚑balkan_harbi_on`
 Kırkkilise, Lüleburgaz, Çatalca; ve kuşatılmış Edirne.
 > Kaynak: [[Edirne]]
 
 ### Cephe · Kafkas
-`cephe: kafkas` · `harp: Büyük Harp` · `değer: kafkas` · `düşman: RU` · `konum: 42.40,40.20` · `iller: kars, erzurum` · `güç: harbiye, dogu_hazirligi` · `karşı: 45` · `başlangıç: 1914-11` · `zafer: 65` · `yenilgi: 30` · `sonuç: sarikamis_zafer, kafkas_bahar_zafer, sarikamis_felaket, kafkas_cikmaz, hamid_erzurum_dustu`
+`cephe: kafkas` · `harp: Büyük Harp` · `değer: kafkas` · `düşman: RU` · `konum: 42.40,40.20` · `iller: kars, batum, erzurum` · `sınır: kars, batum, erzurum, trabzon` · `güç: harbiye, dogu_hazirligi` · `karşı: 45` · `başlangıç: 1914-11` · `zafer: 65` · `yenilgi: 30` · `sonuç: sarikamis_zafer, kafkas_bahar_zafer, sarikamis_felaket, kafkas_cikmaz, hamid_erzurum_dustu`
 `koşul: ⚑harpte & (⚑yol_ittihat | ⚑yol_hamid) & !⚑mondros`
 Sarıkamış'ın karlı dağları; Erzurum'un ardında beş yüz kilometrelik bir ikmal yolu.
 > Kaynak: [[Sarıkamış Operation (1914-1915)]]
@@ -272,6 +280,8 @@ Her ilde hangi toplulukların, kaç bin kişiyle yaşadığı. Sol alttaki il pa
 
 > [!info] Sayılar tahminîdir
 > Rakamlar binlik ve yuvarlaktır; 1873 için tahmin edilmiştir. Toplamlar, Osmanlı'nın 1881/82–1893 sayımının yayımlanmış özetlerinden türetilmiştir (⚠ Not from vault sources · Wikipedia: *Demographics of the Ottoman Empire*, https://en.wikipedia.org/wiki/Demographics_of_the_Ottoman_Empire ; *Ottoman census of 1881–82*). İl içindeki dağılım varsayımdır.
+> Rumeli'nin Müslüman nüfusu 1906 sayımına yaklaştırılmıştır (⚠ Wikipedia: *Demographics of the Ottoman Empire*).
+> **Ölüler (`†`):** `👥 turk -300 @tuna †` gibi işaretli azalmalar göç değil ölümdür; Kayıplar kartına yazılır. Rakam olarak Wikipedia'daki tahminlerin **en yükseği** alınır (kullanıcının isteği; hepsi ⚠ Not from vault sources ve tartışmalıdır): 1877–78'de 400.000 Müslüman sivil; 1912–13 Balkan Harbi'nde 1.500.000'e kadar Müslüman sivil (Arnavutlar 270.000'e kadar); 1914–18'de Rus işgalindeki doğu vilayetlerinde 600.000'e kadar Türk ve Kürt (Rummel), 1918 baharında Erzurum'da 25.000, Kars'ta 20.000; 1894–96 Hamidiye olaylarında 300.000'e kadar Ermeni; 1915 tehcirinde 1.500.000'e kadar Ermeni; 1915–18 Suriye kıtlığında 500.000'e kadar. Oyunun nüfus tablosu bu rakamları taşıyamadığı yerde (bir ilde grup tükendiğinde) kayıp tablodaki nüfusla sınırlı kalır.
 > Ermeni sayısı en tartışmalı rakamdır. Patrikhane 1882 için 2.660.000, 1912 için 2.100.000 der; resmî sayımlar çok daha düşüktür ([[Osmanlı İmparatorluğu Tarihi (Robert Mantran)#p. 672|Mantran, p. 672]] · *Fransız kaynağı*). Yalman, dokuz doğu vilayetinin (Erzurum, Van, Bitlis, Harput, Diyarbakır, Sivas, Halep, Adana, Trabzon) nüfusunu 6 milyon, bunun 913.875'ini (%15) Ermeni verir ([[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 266|Yalman, p. 266]] · *Türk kaynağı*). Gürün, Patrikhane'nin 1880–1882 rakamlarını karşılaştırır ([[The Armenian File (Kâmuran Gürün)#p. 123|Gürün, p. 123]] · *Türk kaynağı*). Oyun bu dokuz ilde Yalman'ın toplamına yakın durur.
 
 ### Nüfus grupları
@@ -297,14 +307,20 @@ Bin kişi, 1873. Boş hücre sıfırdır. Komşu devletlerin illeri tutulmaz.
 | il | turk | kurt | arap | arnavut | bosnak | rum | ermeni | bulgar | sirp | yahudi | diger |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | istanbul | 380 |  |  |  |  | 150 | 150 | 5 |  | 45 | 130 |
-| edirne | 500 |  |  |  |  | 300 | 20 | 350 |  | 15 | 30 |
+| edirne | 450 |  |  |  |  | 150 | 12 | 250 |  | 13 | 15 |
+| tekfurdagi | 180 |  |  |  |  | 110 | 8 | 40 |  | 2 | 5 |
+| gumulcine | 320 |  |  |  |  | 40 |  | 140 |  |  | 10 |
 | dogu_rumeli | 200 |  |  |  |  | 50 |  | 600 |  |  | 30 |
 | tuna | 700 |  |  |  |  | 20 |  | 1100 |  | 15 | 150 |
-| selanik | 400 |  |  | 20 |  | 300 |  | 300 |  | 80 | 50 |
-| manastir | 150 |  |  | 250 |  | 100 |  | 250 |  |  | 60 |
-| kosova | 100 |  |  | 400 | 30 |  |  | 100 | 200 |  |  |
+| selanik | 300 |  |  | 10 |  | 180 |  | 120 |  | 75 | 30 |
+| serez | 250 |  |  | 10 |  | 120 |  | 100 |  | 5 | 20 |
+| manastir | 150 |  |  | 250 |  | 30 |  | 180 |  |  | 40 |
+| kesriye | 90 |  |  | 20 |  | 70 |  | 70 |  |  | 20 |
+| kosova | 60 |  |  | 400 | 30 |  |  |  | 170 |  |  |
+| uskup | 120 |  |  | 150 |  |  |  | 100 | 30 |  |  |
 | iskodra |  |  |  | 250 |  |  |  |  | 20 |  | 10 |
-| yanya |  |  |  | 300 |  | 250 |  |  |  | 5 | 40 |
+| yanya |  |  |  | 100 |  | 220 |  |  |  | 5 | 30 |
+| ergiri |  |  |  | 220 |  | 30 |  |  |  |  | 10 |
 | teselya | 40 |  |  |  |  | 300 |  |  |  |  | 20 |
 | bosna |  |  |  |  | 500 |  |  |  | 500 | 5 | 200 |
 | nis | 60 |  |  | 40 |  |  |  |  | 180 |  |  |

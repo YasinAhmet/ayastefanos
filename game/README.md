@@ -4,6 +4,12 @@ Suzerain tarzı olay akışı, Paradox tarzı bir harita masasında: Godot 4.7 (
 
 Masada evrak solda kart listesidir; tıklanan yer, il, cephe, devlet ya da kişi sol altta küçük bir panelde açılır. İl paneli ildeki toplulukların tahminî nüfusunu, güçlerini ve durumlarını gösterir; nüfus olaylarla (muhacirler, tehcir, kıtlık) ve toprak kayıplarıyla değişir. Önemli kişiler (Enver, Talat, Cemal, Mustafa Kemal, Midhat, Gazi Osman ve Ahmed Muhtar paşalar, Goltz, Liman…) haritada o ay bulundukları yerde küçük madalyonlarla durur. Haritada yazılar çakışmaz: daha önemli işaret yer kaplar, kişiler yana kayar, yer adları ve il adları sığmazsa gizlenir.
 
+İstanbul haritada sarı bir başkent yıldızıdır; Babıâli, Yıldız, Galata gibi yerler yıldızın panelinde listelenir. Hükümdarın portresi sağ üstteki karttadır. Kişilerin portreleri döneme göre değişebilir (`görseller:`). Nüfus panelinde `†` ile işaretli kayıplar (ölüler) ayrıca sayılır; devlet panelinde ve son ekranında "Kayıplar" kartı vardır. Rakamlar Wikipedia'daki en yüksek tahminlerdir ve tartışmalıdır (GD 05).
+
+Menüdeki "Kaynakçaları göster" kapalıyken kaynaklar ve Tarihî moddaki dayanaklar tek satırlık bir "ⓘ kaynak" ipucuna iner (ayar `user://settings.cfg`'de). Son ekranı, ayardan bağımsız olarak, oyunda tarihten ayrılan her kararı "Tarihte: …" satırıyla listeler.
+
+Cephelerin `sınır` listesi varsa denge bozguna düşünce düşman sıradaki ili kendiliğinden işgal eder, zaferde geri alınır (Kars bir sonraki harpte düşebilir).
+
 Debug için otomatik oynatma vardır: menüde "Otomatik: Tarihî / Fantezi" ya da masada "Otomatik" (F9). Çubukta oynat/duraklat/durdur, adım başına 0,05–2 saniye hız, politika (Tarihî, Rastgele, Alternatif öncelikli) ve "Olayları göster" (mektup açılır, seçilir, kapanır) bulunur.
 
 ## Kaynak tek yerde
@@ -49,6 +55,7 @@ Natural Earth'ün kamu malı 1:10m idari sınırlarını (ilk çalıştırmada `
 | `tests/sim.gd` | Başsız oynanış testi |
 | `tools/build_events.py` | Derleyici ve denetleyici (Godot bu klasörü görmez: `.gdignore`) |
 | `tools/build_map.py` | İl haritasını Natural Earth'ten üretir |
+| `tools/fetch_portraits.py` | Kişilerin dönem portrelerini Wikimedia Commons'tan kasaya indirir, lisanslarını yazar |
 | `data/map/provinces.json`, `provinces.svg` | Üretilmiş il haritası |
 
 ## Test

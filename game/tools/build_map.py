@@ -52,7 +52,8 @@ COUNTRY = {
 
 TUR = {
     "istanbul": ["Istanbul", "Kocaeli", "Yalova"],
-    "edirne": ["Edirne", "Kirklareli", "Tekirdag"],
+    "edirne": ["Edirne", "Kirklareli"],
+    "tekfurdagi": ["Tekirdag"],
     "hudavendigar": ["Bursa", "Balikesir", "Bilecik", "Kütahya", "Eskisehir", "Afyonkarahisar", "Çanakkale",
                      "Sakarya"],
     "aydin": ["Izmir", "Manisa", "Aydin", "Denizli", "Mugla", "Usak"],
@@ -73,8 +74,7 @@ TUR = {
     "halep": ["Gaziantep", "K. Maras", "Kilis", "Sanliurfa", "Hatay"],
 }
 BGR_RUMELI = {"Plovdiv", "Pazardzhik", "Stara Zagora", "Haskovo", "Sliven", "Yambol", "Burgas"}
-BGR_EDIRNE = {"Kardzhali", "Smolyan"}
-BGR_SELANIK = {"Blagoevgrad"}
+BGR_GUMULCINE = {"Kardzhali", "Smolyan", "Blagoevgrad"}   # Batı Trakya and Pirin: Bulgarian from 1913
 ROU_AV = {"Satu Mare", "Arad", "Bihor", "Timis", "Caras-Severin", "Maramures", "Cluj", "Bistrita-Nasaud", "Salaj",
           "Hunedoara", "Covasna", "Brasov", "Sibiu", "Mures", "Harghita", "Alba", "Suceava"}
 ROU_DOB = {"Tulcea", "Constanta"}
@@ -88,7 +88,14 @@ POL_DE = {"West Pomeranian", "Lubusz", "Lower Silesian", "Opole", "Silesian", "G
           "Kuyavian-Pomeranian", "Zachodniopomorskie", "Lubuskie", "Dolnośląskie", "Opolskie", "Śląskie",
           "Wielkopolskie", "Pomorskie", "Kujawsko-Pomorskie", "Warmian-Masurian", "Warmińsko-Mazurskie"}
 SAU = {"Makkah": "hicaz", "Al Madinah": "hicaz", "Tabuk": "hicaz", "Al Bahah": "hicaz", "`Asir": "yemen",
-       "Jizan": "yemen", "Najran": "yemen", "Ash Sharqiyah": "lahsa"}
+       "Jizan": "yemen", "Najran": "yemen", "Ash Sharqiyah": "lahsa", "Ha'il": "sammar", "Al Jawf": "sammar",
+       "Al Hudud ash Shamaliyah": "sammar"}
+# Regions cut in two along a meridian before they are assigned: (adm0_a3, name) -> (lon, west, east)
+SPLIT = {
+    ("GRC", "Kentriki Makedonia"): (23.25, "selanik", "serez"),
+    ("GRC", "Anatoliki Makedonia kai Thraki"): (24.85, "serez", "gumulcine"),
+    ("SAU", "Al Jawf"): (38.6, "hicaz", "sammar"),   # the Hicaz railway's side stays with the Hicaz
+}
 YEM_ADEN = {"`Adan", "Lahij", "Abyan", "Shabwah", "Hadramawt", "Al Mahrah", "Al Dali'"}
 SYR_HALEP = {"Aleppo", "Idlib", "Ar Raqqah", "Hasaka (Al Haksa)", "Dayr Az Zawr"}
 SYR_BEYRUT = {"Lattakia", "Tartus"}
@@ -112,11 +119,9 @@ def province_of(p, part_centroid):
         if name == "Thessalia":
             return "teselya"
         if name == "Dytiki Makedonia":
-            return "manastir"
-        if name in ("Kentriki Makedonia", "Ayion Oros"):
+            return "kesriye"
+        if name == "Ayion Oros":
             return "selanik"
-        if name == "Anatoliki Makedonia kai Thraki":
-            return "edirne" if lon > 24.85 else "selanik"
         if name == "Kriti":
             return "girit"
         if name == "Voreio Aigaio":
@@ -127,10 +132,8 @@ def province_of(p, part_centroid):
     if a3 == "BGR":
         if name in BGR_RUMELI:
             return "dogu_rumeli"
-        if name in BGR_EDIRNE:
-            return "edirne"
-        if name in BGR_SELANIK:
-            return "selanik"
+        if name in BGR_GUMULCINE:
+            return "gumulcine"
         return "tuna"
     if a3 == "ROU":
         if name in ROU_AV:
@@ -147,9 +150,9 @@ def province_of(p, part_centroid):
             return "kosova"
         return "sirbistan"
     if a3 == "MKD":
-        return "kosova" if lat > 41.72 else "manastir"
+        return "uskup" if lat > 41.72 else "manastir"
     if a3 == "ALB":
-        return "iskodra" if lat > 41.05 else "yanya"
+        return "iskodra" if lat > 41.05 else "ergiri"
     if a3 == "GEO":
         return "batum" if name == "Ajaria" else "kafkasya"
     if a3 == "UKR":
@@ -219,11 +222,21 @@ def main():
         geom = shape(f["geometry"])
         if not geom.intersects(frame):
             continue
+        props = f["properties"]
+        cut = SPLIT.get((props.get("adm0_a3"), props.get("name")))
+        pieces = []
         for part in parts(geom.buffer(0)):
+            if cut is None:
+                pieces.append((part, None))
+                continue
+            lon, west, east = cut
+            pieces += [(q, west) for q in parts(part.intersection(box(-180, -90, lon, 90)))]
+            pieces += [(q, east) for q in parts(part.intersection(box(lon, -90, 180, 90)))]
+        for part, forced in pieces:
             if not part.intersects(frame):
                 continue
             c = part.representative_point()
-            prov = province_of(f["properties"], (c.x, c.y))
+            prov = forced or province_of(props, (c.x, c.y))
             if prov is None:
                 unknown.add((f["properties"].get("adm0_a3"), f["properties"].get("name")))
                 continue

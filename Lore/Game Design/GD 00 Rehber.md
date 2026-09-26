@@ -34,7 +34,7 @@ Olay metni (hükümdara hitaben).
 - **Etkiler** (ters tırnak içinde, ` · ` ile ayrılır): `Para -10` kaynak değişimi · `+⚑bayrak` / `-⚑bayrak` bayrak koy/kaldır · `▶ olay_id` zincir olayı sıraya koy · `👤 persona` hükümdarı değiştir · `☠ son_id` oyunu bitir.
   - Klavyede kolay yazmak için: `+f:bayrak`, `-f:bayrak`, `>olay_id`, `@persona`, `end:son_id` da geçerlidir.
   - Dünya ve harita: `≡ reji = milli` dünya durumunu değiştirir ([[GD 04 Dünya Durumu ve İplikler]]); `🗺 kars RU` ili devreder, `🗺 misir ~IN` yalnız tutanı değiştirir ([[GD 05 Harita ve Harpler]]). ASCII: `set:reji=milli`, `map:kars RU`.
-  - Nüfus: `👥 ermeni -80% @Doğu` bir topluluğu yüzdeyle, `👥 turk +150 @Anadolu` bin kişiyle değiştirir; hedef il, bölge ya da `@imparatorluk` ([[GD 05 Harita ve Harpler#Nüfus]]). ASCII: `pop:ermeni -80% @dogu`.
+  - Nüfus: `👥 ermeni -80% @Doğu` bir topluluğu yüzdeyle, `👥 turk +150 @Anadolu` bin kişiyle değiştirir; hedef il, bölge ya da `@imparatorluk` ([[GD 05 Harita ve Harpler#Nüfus]]). ASCII: `pop:ermeni -80% @dogu`. Sonuna `†` eklenen azalma (`👥 turk -300 @tuna †`) ölümdür ve Kayıplar kartına yazılır; `†` yoksa göçtür.
   - Gecikmeli zincir: `▶ reji_nota +4ay`, `▶ misir_tahliye +3yıl` (alt olay, karardan bu kadar sonra gelir).
   - Koşullu etki: ayrı bir ters tırnak içinde `eğer il:edirne = BU: 🗺 edirne BU`.
   - Olayın her seçeneğine uygulanan etki, başlığın altındaki ayrı bir satırda: `` `etki: 🗺 tunus ~FR` `` (antlaşmaların harita maddeleri).

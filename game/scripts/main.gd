@@ -13,6 +13,7 @@ var screen: Control
 
 func _ready() -> void:
 	set_anchors_preset(Control.PRESET_FULL_RECT)
+	UIKit.load_settings()
 	var bg := ColorRect.new()
 	bg.color = UIKit.BG
 	bg.set_anchors_preset(Control.PRESET_FULL_RECT)
@@ -65,6 +66,15 @@ func show_menu() -> void:
 			else:
 				show_desk())
 	box.add_child(b_load)
+	var src := CheckBox.new()
+	src.text = "Kaynakçaları göster"
+	src.tooltip_text = "Açıkken olayların, yerlerin ve kişilerin kaynakları ve Tarihî moddaki dayanaklar tam görünür.\nKapalıyken tek satırlık bir \"ⓘ kaynak\" ipucuna iner. Son ekranındaki Alternatif tarih listesi her zaman görünür."
+	src.add_theme_font_size_override("font_size", 14)
+	src.button_pressed = UIKit.show_sources
+	src.toggled.connect(func(on):
+		UIKit.show_sources = on
+		UIKit.save_settings())
+	box.add_child(src)
 	var b_quit := UIKit.button("Çıkış", UIKit.PANEL_2, 17)
 	b_quit.pressed.connect(func(): get_tree().quit())
 	box.add_child(b_quit)

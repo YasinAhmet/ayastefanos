@@ -83,12 +83,12 @@ func open(ev: Dictionary) -> void:
 		b.set_meta("option", i)
 		b.pressed.connect(_choose.bind(ev, i, opts_box, outcome_box))
 		opts_box.add_child(b)
-		if state.historical() and opt.get("hist") != null:
+		if state.historical() and opt.get("hist") != null and UIKit.show_sources:
 			var basis := UIKit.label(str(HIST_BASIS.get(str(opt["hist"]), "")), 10,
 				UIKit.MUTED if str(opt["hist"]) == "kasa" else Color("d9b26a"), true)
 			opts_box.add_child(basis)
 	m["opts_box"] = opts_box
-	if not ev["sources"].is_empty():
+	if not ev["sources"].is_empty() and UIKit.show_sources:
 		var src_btn := UIKit.button("Kaynakça ▾", UIKit.PANEL, 11)
 		var src := UIKit.vbox(3)
 		src.visible = false

@@ -25,9 +25,46 @@ const NATION_COLORS := {
 	"AL": Color("9d9486"), "AV": Color("d7bf76"), "IT": Color("c4a2bd"), "YU": Color("93b7cc"),
 	"BU": Color("aab96d"), "SR": Color("b58c6c"), "RO": Color("d9b98f"), "MI": Color("dcc070"),
 	"IR": Color("a7bca0"), "AR": Color("cdb68e"), "ER": Color("b9a0a0"), "KU": Color("b3a37f"),
+	"RS": Color("d4b27a"), "AB": Color("b87a8a"),
 }
 
 const FONT := 13
+const SETTINGS_PATH := "user://settings.cfg"
+
+## "Kaynakçaları göster" (menu): when off, sources and bases shrink to one "ⓘ kaynak" line with a tooltip.
+static var show_sources := false
+
+
+static func load_settings() -> void:
+	var cf := ConfigFile.new()
+	if cf.load(SETTINGS_PATH) == OK:
+		show_sources = bool(cf.get_value("ui", "show_sources", false))
+
+
+static func save_settings() -> void:
+	var cf := ConfigFile.new()
+	cf.load(SETTINGS_PATH)
+	cf.set_value("ui", "show_sources", show_sources)
+	cf.save(SETTINGS_PATH)
+
+
+## The sources of a panel: full lines when the setting is on, else one small "ⓘ kaynak" with the text as tooltip.
+static func add_sources(box: Control, sources: Array, linked: Callable, size := 10) -> void:
+	if sources.is_empty():
+		return
+	if show_sources:
+		for s in sources:
+			box.add_child(linked.call("[color=#ab9d82]%s[/color]" % s, size))
+		return
+	var re := RegEx.new()
+	re.compile("\\[/?[a-z]+(=[^\\]]*)?\\]")
+	var tips: PackedStringArray = []
+	for s in sources:
+		tips.append(re.sub(str(s), "", true))
+	var l := label("ⓘ kaynak", 9, MUTED)
+	l.tooltip_text = "\n".join(tips)
+	l.mouse_filter = Control.MOUSE_FILTER_PASS
+	box.add_child(l)
 
 
 static func nation_color(code: String) -> Color:
@@ -158,6 +195,8 @@ static func medallion(path, diameter := 56, initials := "") -> Control:
 		var c := Control.new()
 		c.custom_minimum_size = Vector2(diameter, diameter)
 		c.size = c.custom_minimum_size
+		c.size_flags_horizontal = Control.SIZE_SHRINK_CENTER  # a container must never stretch the roundel
+		c.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 		c.draw.connect(func():
 			var r := diameter / 2.0
 			c.draw_circle(Vector2(r, r), r, Color("5a4632"))
@@ -171,7 +210,9 @@ static func medallion(path, diameter := 56, initials := "") -> Control:
 	t.custom_minimum_size = Vector2(diameter, diameter)
 	t.size = Vector2(diameter, diameter)
 	t.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	t.stretch_mode = TextureRect.STRETCH_SCALE
+	t.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	t.size_flags_horizontal = Control.SIZE_SHRINK_CENTER  # a container must never stretch the portrait
+	t.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	if tex != null:
 		var side := mini(tex.get_width(), tex.get_height())
 		var at := AtlasTexture.new()
