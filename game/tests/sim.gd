@@ -272,7 +272,7 @@ func pick(ev: Dictionary, strategy) -> int:
 		if gs.option_enabled(ev["options"][i]):
 			enabled.append(i)
 	if enabled.is_empty():
-		return -1
+		return gs.forced_option(ev)  # every option locked on a mandatory paper: forced, into debt (-1 if not applicable)
 	var values: Dictionary = strategy["values"]
 	if strategy.has("late") and gs.year >= int(strategy["late"]["from"]):
 		values = strategy["late"]["values"]
