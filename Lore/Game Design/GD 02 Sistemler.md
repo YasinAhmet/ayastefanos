@@ -37,6 +37,16 @@ Görünür olanlar masada, çubuk olarak durur (0–100). Gizli olanları oyuncu
 | trablus | Trablusgarp cephesi | 50 | hayır | 1911–12 İtalya harbi. |
 | trakya | Trakya cephesi | 50 | hayır | 1912–13 Balkan Harbi. |
 | harp_yorgunlugu | Harp yorgunluğu | 0 | hayır | Harp süren her ay cephelerdeki kayıpla artar (REWORK §6); moral her ay yorgunluğun elliye bölümü kadar düşer. Barışta yıllık düşer. |
+| iliski_ru | İlişki: Rusya | 25 | hayır | 0 düşmanlık, 50 soğuk tarafsızlık, 100 dostluk. '93 Harbi'nden sonra düşük başlar; Boğazlar, Balkanlar ve Ermeni meselesi onu aşağı çeker. Harbi diplomasiyle önleme şansını ve avrupa_baskisi'ni etkiler. |
+| iliski_in | İlişki: İngiltere | 55 | hayır | Londra ile aranız. Kıbrıs, Mısır ve Ermeni meselesi onu oynatır; yüksekse Avrupa baskısı hafifler, düşükse Boğaz'da yalnız kalırsınız. |
+| iliski_fr | İlişki: Fransa | 50 | hayır | Paris ile aranız. Düyun-u Umumiye ve borçlar onu yükseltir; Tunus, Ermeni meselesi ve Alman yakınlığı düşürür. |
+| iliski_av | İlişki: Avusturya-Macaristan | 40 | hayır | Viyana ile aranız. Bosna, Sancak ve Berlin'e yakınlık onu belirler; yükselince Alman nüfuzunun yarattığı tedirginlik azalır. |
+| iliski_it | İlişki: İtalya | 45 | hayır | Roma ile aranız. Trablusgarp'ın ve On İki Ada'nın kaderi buna bağlıdır; 1911 harbini önleme şansını belirler. |
+| iliski_bu | İlişki: Bulgaristan | 30 | hayır | Sofya ile aranız (1878'den önce Bulgaristan yok, değer yine de tutulur). Doğu Rumeli ve Makedonya onu düşürür; Balkan ittifakını önleme şansını belirler. |
+| iliski_yu | İlişki: Yunanistan | 30 | hayır | Atina ile aranız. Girit, Teselya ve Ege adaları onu belirler; 1897 harbini önleme şansını etkiler. |
+| ordu_sadakati | Ordu sadakati | 60 | hayır | Ordunun hükümete (saraya, sonra Cemiyet'e) bağlılığı. Maaşlar gecikirse, jurnal ağı subayı küstürürse, Jön Türk ruhu yükselirse düşer. Düşükken subay darbeleri (tetik) gelir. |
+| ulema | Ulema | 45 | hayır | Ulema ve medrese tabanının gücü. Meşrutiyet ve Batılılaşma ateşi arttıkça tepkisi büyür; 31 Mart benzeri isyanlar (tetik) yükseldikçe çıkar. |
+| muhalefet | Muhalefet | 20 | hayır | Jön Türk dışı muhalefet: Ahrar ve İtilaf, Hürriyet. Saray baskısı sürdükçe yeraltında birikir; Cemiyet'in gevşek tuttuğu yerde sesini yükseltir. |
 
 **Denge ölçüsü (yazarlar için):** küçük etki ±3–5 · orta ±8–12 · büyük ±15–25. Yıllık gelir +10'dur; bir yılda iki büyük harcama yapan oyuncu ertesi yıl darda kalmalıdır. Her seçenek bir şey verir, bir şey alır: bedava seçenek ancak bir emirle çözülen durumlarda olur (ör. depodaki kaputların dağıtılması).
 
@@ -623,6 +633,141 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 `id: k_suriye` · `tür: kural`
 `koşul: ⚑suriye_idamlari`
 1. **Uygula.** `Araplar +3`
+
+### 1878 · Ermeni meselesi Avrupa'yı soğutuyor
+`id: k_iliski_ermeni` · `tür: kural`
+`koşul: Ermeniler >= 45`
+1. **Uygula.** `iliski_in -2 · iliski_fr -1 · avrupa_baskisi +1`
+
+### 1878 · Rusya'nın gölgesi Balkan'da
+`id: k_iliski_ru_balkan` · `tür: kural`
+`koşul: iliski_ru < 35 & Harbiye < 45`
+1. **Uygula.** `iliski_ru -1 · avrupa_baskisi +1`
+
+### 1880 · Berlin'e yakınlık, Petersburg'un ve Londra'nın şüphesi
+`id: k_iliski_alman` · `tür: kural`
+`koşul: alman_nufuzu >= 30`
+1. **Uygula.** `iliski_ru -2 · iliski_in -1 · iliski_fr -1 · iliski_av +1`
+
+### 1878 · Alacaklılarla barış
+`id: k_iliski_borc` · `tür: kural`
+`koşul: ⚑duyun_umumiye`
+1. **Uygula.** `iliski_fr +1 · iliski_in +1`
+
+### 1882 · Mısır'da İngiliz bayrağı
+`id: k_iliski_misir` · `tür: kural`
+`koşul: misir = ingiliz`
+1. **Uygula.** `iliski_in -1 · iliski_fr -1`
+
+### 1897 · Girit ve Atina
+`id: k_iliski_girit` · `tür: kural`
+`koşul: girit = osmanli | girit = korundu`
+1. **Uygula.** `iliski_yu -2`
+
+### 1885 · Doğu Rumeli'nin gölgesi
+`id: k_iliski_bulgar` · `tür: kural`
+`koşul: dogu_rumeli = bulgar & !⚑bulgar_anlasma`
+1. **Uygula.** `iliski_bu -1`
+
+### 1900 · Zayıf ordu komşuları cesaretlendirir
+`id: k_iliski_zayif_ordu` · `tür: kural`
+`koşul: Harbiye < 35`
+1. **Uygula.** `iliski_it -1 · iliski_bu -1 · iliski_yu -1`
+
+### 1880 · Düşman başkentler Avrupa baskısını artırır
+`id: k_iliski_baski_artar` · `tür: kural`
+`koşul: iliski_in < 30 | iliski_fr < 30`
+1. **Uygula.** `avrupa_baskisi +2`
+
+### 1880 · Dost başkentler Avrupa baskısını hafifletir
+`id: k_iliski_baski_azalir` · `tür: kural`
+`koşul: iliski_in >= 65 & iliski_fr >= 60`
+1. **Uygula.** `avrupa_baskisi -2`
+
+### 1880 · Maaşlar gecikti, subay küskün
+`id: k_ordu_maas` · `tür: kural`
+`koşul: Para <= 10`
+1. **Uygula.** `ordu_sadakati -3`
+
+### 1880 · Jurnal ordunun güvenini kemiriyor
+`id: k_ordu_jurnal` · `tür: kural`
+`koşul: ⚑jurnal_ag & !⚑yol_ittihat`
+1. **Uygula.** `ordu_sadakati -1`
+
+### 1880 · Meşrutiyet ateşi saflara sızıyor
+`id: k_ordu_jon_turk` · `tür: kural`
+`koşul: jon_turk >= 50`
+1. **Uygula.** `ordu_sadakati -2`
+
+### 1880 · Meşrutiyet ateşi kışlada yangına dönüyor
+`id: k_ordu_jon_turk_yuksek` · `tür: kural`
+`koşul: jon_turk >= 75`
+1. **Uygula.** `ordu_sadakati -3 · muhalefet +1`
+
+### 1880 · İyi talim gören ordu sadık kalır
+`id: k_ordu_toparlar` · `tür: kural`
+`koşul: Harbiye >= 55 & jon_turk < 40`
+1. **Uygula.** `ordu_sadakati +1`
+
+### 1880 · Medresede fısıltı
+`id: k_ulema_tepki` · `tür: kural`
+`koşul: jon_turk >= 40`
+1. **Uygula.** `ulema +2`
+
+### 1880 · Saray baskısı muhalefeti yeraltına iter
+`id: k_muhalefet_baski` · `tür: kural`
+`koşul: hakimiyet >= 60`
+1. **Uygula.** `muhalefet +2`
+
+### 1880 · Gevşek yönetim muhalefeti açıkta büyütür
+`id: k_muhalefet_gevsek` · `tür: kural`
+`koşul: hakimiyet <= 30`
+1. **Uygula.** `muhalefet +3`
+
+### 1915 · Bulgaristan Merkez Devletleri safında
+`id: k_saf_bu_ittifak` · `tür: kural` · `bitiş: 1919`
+`koşul: saf_bu = ittifak`
+1. **Uygula.** `iliski_bu +2 · avrupa_baskisi -1`
+
+### 1915 · Bulgaristan tarafsız
+`id: k_saf_bu_tarafsiz` · `tür: kural` · `bitiş: 1919`
+`koşul: saf_bu = tarafsiz`
+1. **Uygula.** `iliski_bu +1`
+
+### 1915 · İtalya İtilaf safında
+`id: k_saf_it_itilaf` · `tür: kural` · `bitiş: 1919`
+`koşul: saf_it = itilaf`
+1. **Uygula.** `iliski_it -3 · avrupa_baskisi +2`
+
+### 1915 · İtalya Merkez Devletleri safında
+`id: k_saf_it_ittifak` · `tür: kural` · `bitiş: 1919`
+`koşul: saf_it = ittifak`
+1. **Uygula.** `iliski_it +3 · avrupa_baskisi -2`
+
+### 1915 · Romanya İtilaf safında
+`id: k_saf_ro_itilaf` · `tür: kural` · `bitiş: 1919`
+`koşul: saf_ro = itilaf`
+1. **Uygula.** `avrupa_baskisi +1`
+
+### 1915 · Romanya Merkez Devletleri safında
+`id: k_saf_ro_ittifak` · `tür: kural` · `bitiş: 1919`
+`koşul: saf_ro = ittifak`
+1. **Uygula.** `avrupa_baskisi -1`
+
+### 1915 · Yunanistan İtilaf safında
+`id: k_saf_yu_itilaf` · `tür: kural` · `bitiş: 1919`
+`koşul: saf_yu = itilaf`
+1. **Uygula.** `iliski_yu -3`
+
+### 1915 · Yunanistan tarafsız
+`id: k_saf_yu_tarafsiz` · `tür: kural` · `bitiş: 1919`
+`koşul: saf_yu = tarafsiz`
+1. **Uygula.** `iliski_yu +1`
+
+### 1878 · Harp ertelendi, kasa nefes aldı
+`id: k_harp_93_onlendi` · `tür: kural` · `bitiş: 1880`
+`koşul: ⚑harp_93_onlendi`
+1. **Uygula.** `Para +3 · iliski_ru +1`
 
 ## Sistem olayları
 

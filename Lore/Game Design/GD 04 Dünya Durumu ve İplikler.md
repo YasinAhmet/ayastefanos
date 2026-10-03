@@ -20,6 +20,10 @@ Her satır bir hikâye ipliğidir. `Değerler` sütunu `id: oyunda görünen ad`
 | girit | Girit | osmanli | osmanli: Osmanlı idaresinde · ozerk: Özerk (Büyük Devletlerin gözetiminde) · korundu: Teselya karşılığında Osmanlı'da kaldı · yunan: Yunanistan'a bağlandı | 1896–97 Girit ve Yunan harbi olayları açar. Tarihî: *ozerk* (1897), sonra *yunan*. |
 | dogu_rumeli | Doğu Rumeli | berlin | berlin: Berlin'in çizdiği özerk vilayet · bulgar: Bulgaristan'a katıldı · osmanli: Balkan geçitlerindeki askerle Osmanlı'da tutuldu | 1885 `dogu_rumeli` açar. Tarihî: *bulgar*. |
 | arap | Arap vilayetleri | merkez | merkez: İstanbul'dan, merkeziyetçi yönetiliyor · rahat: Kimi rahatlamalar: Arapça mahkeme ve mektep, yerli memur · ozerk: Arap vilayetleri özerk | 1913 `el_ahd` (İttihat) ve `ahrar_sabahaddin` (Ahrar) açar; 1914 `arap_ozerklik` özerkliğe götürebilir. `arap_isyani` ve Hicaz cephesi okur: özerk Arap vilayetlerinde 1916 isyanı çıkmaz. Tarihî: *rahat* (Mart–Nisan 1913'teki düzenlemeler; [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 69\|Akşin, loc. 69]]).
+| saf_bu | Büyük Harp'te Bulgaristan | tarafsiz | tarafsiz: Tarafsız · ittifak: Merkez Devletleri safında · itilaf: İtilaf safında | 1915 `bulgar_ittifak_1915` koyar. Tarihî: *ittifak* (Bulgaristan 1915 sonbaharında Merkez Devletleri safında harbe girdi; [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 51\|Nicolle, p. 51]]). Alternatif: ilişkiye bağlı pazarlıkla *tarafsiz*. |
+| saf_it | Büyük Harp'te İtalya | tarafsiz | tarafsiz: Tarafsız · ittifak: Merkez Devletleri safında · itilaf: İtilaf safında | 1915 `londra_1915` koyar. Tarihî: *itilaf* (24 Mayıs 1915; [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 51\|Nicolle, p. 51]]). Alternatif: ilişki yüksekse *ittifak*. |
+| saf_yu | Büyük Harp'te Yunanistan | tarafsiz | tarafsiz: Tarafsız · ittifak: Merkez Devletleri safında · itilaf: İtilaf safında | 1917 `yunan_1917` koyar. Tarihî: *itilaf* (29 Haziran 1917; [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 51\|Nicolle, p. 51]]). Alternatif: ilişki yüksekse *tarafsiz* kalır. |
+| saf_ro | Büyük Harp'te Romanya | tarafsiz | tarafsiz: Tarafsız · ittifak: Merkez Devletleri safında · itilaf: İtilaf safında | 1916 `romanya_1916` koyar. Tarihî: *itilaf* (27 Ağustos 1916; [[Osmanlı Piyadesi 1914-1918 (David Nicolle)#p. 10\|Nicolle, p. 10]]). Alternatif: Bulgaristan ilişkisi ve Alman nüfuzu yüksekse *ittifak*. |
 
 ## İplik nasıl yazılır
 
@@ -63,3 +67,53 @@ Yıldız'a her gün düzinelerce jurnal geliyor; kimisi saçma. Hafiye ağı sar
 💬 Maliye: "Hafiye tahsisatı kalkarsa hazine nefes alır."
 > Kaynak: Alternatif tarih. [[Yıldız Sarayı]] · [[Informants and spies (jurnal system)]]
 1. **Hafiye tahsisatını kesin, jurnal ağını dağıtın.** `-⚑jurnal_ag · hakimiyet -8 · jon_turk -4 · Para +3` — Yıldız'ın kapısındaki kalabalık seyreldi. Saray artık vilayetleri valilerin raporlarından okuyacak; subaylar ise ilk kez birbirinden korkmadan konuşuyor.
+
+### 1880 · İngiliz sefaretiyle yakınlaşma
+`id: karar_ingiliz_yakin` · `tür: karar · alternatif` · `bayrak: IN` · `yer: babiali` · `bitiş: 1913-12`
+`koşul: iliski_in < 85 & Para >= 6`
+Londra'nın sefiri Babıâli'ye uğrayıp gidiyor; Mısır, Kıbrıs ve Ermeni meselesi her görüşmenin sonunda masaya geliyor. Sefaretle daha sıcak bir ilişki kurulabilir, ama Petersburg bunu hemen fark eder.
+💬 Maliye: "Sefire verilecek her yemek bir imtiyaz sözü demektir, Efendimiz."
+💬 Harbiye: "Donanmasız bir devletin Londra'dan başka dostu olmaz."
+> Kaynak: Alternatif tarih.
+1. **Sefire akşam yemeği verin, Mısır'da ve Kıbrıs'ta anlayış isteyin.** `Para -5 · iliski_in +8 · iliski_ru -2 · hakimiyet -1` — Sefir yemekten memnun ayrıldı; Londra'ya giden raporda Babıâli'nin "dost" olduğu yazıldı.
+2. **Bahriye'ye bir İngiliz heyeti çağırın.** `Para -8 · Bahriye +5 · iliski_in +6 · iliski_fr -2 · alman_nufuzu -2` — İngiliz subaylar tersanelerde dolaşıyor; Fransız ve Alman sefaretleri bu heyeti not ediyor.
+
+### 1881 · Rusya ile Boğazlar anlaşması arayışı
+`id: karar_bogazlar_ru` · `tür: karar · alternatif` · `bayrak: RU` · `yer: ayastefanos` · `bitiş: 1914-06`
+`koşul: iliski_ru >= 20 & Para >= 4`
+Ayastefanos'ta dikilen taş bir kuşak boyunca Petersburg'un iştahını hatırlatıyor. Ama Rus sefiri gizli bir görüşme önerdi: Boğazlar'ın kapanması konusunda karşılıklı güvence verilirse, Çarlık Kafkas sınırında sakin duracak.
+💬 Maliye: "Rusya'yla Boğazlar'ı konuşmak, İngiltere'ye sırt çevirmek demektir."
+💬 Harbiye: "Kafkas'ta bir yıl barış için Petersburg'a söz vermeye değer."
+> Kaynak: Alternatif tarih.
+1. **Petersburg'a gizli bir heyet gönderin: Boğazlar'da ortak güvence arayın.** `Para -4 · iliski_ru +9 · iliski_in -5 · avrupa_baskisi +2` — Heyet Çar'ın yaverleriyle üç gün görüştü; Londra bu görüşmeyi iki hafta içinde öğrendi.
+2. **Rus buğday gemilerine Boğaz'da kolaylık tanıyın.** `Para +4 · iliski_ru +5 · iliski_in -2` — Karadeniz'den gelen buğday gemileri artık bekletilmiyor; Çarlık ticaret heyeti memnun ayrıldı.
+
+### 1880 · Paris'ten borç
+`id: karar_fransa_borc` · `tür: karar · alternatif` · `bayrak: FR` · `yer: galata` · `bitiş: 1913-12`
+`koşul: iliski_fr >= 30 & Para <= 25`
+Galata'nın Fransız bankacıları yeni bir tahvil için masada. Faiz ağır; ama hazine boşken kapı kapı dolaşmak daha ağır.
+💬 Maliye: "Fransız tahvili bir yıl nefes aldırır, on yıl bağlar."
+💬 Harbiye: "Paris'ten gelen para bir de Paris'in sözünü getirir."
+> Kaynak: Alternatif tarih.
+1. **Paris'te tahvil çıkarın.** `Para +12 · iliski_fr +5 · avrupa_baskisi +3` — Tahvil bir haftada kapandı; Maliye Nazırı maaşları ödedi, Galata alacaklıların listesini yeniledi.
+2. **Fransız bankalarına demiryolu imtiyazı karşılığı borç isteyin.** `Para +16 · iliski_fr +4 · iliski_in -2 · avrupa_baskisi +5` — Bir imtiyaz verildi, bir hat çizildi; Paris'in sefiri Babıâli'ye ilk kez teşekkür etti.
+
+### 1900 · İtalya ile Trablus'ta pazarlık
+`id: karar_italya_trablus` · `tür: karar · alternatif` · `bayrak: IT` · `yer: trablus` · `bitiş: 1911-08`
+`koşul: iliski_it < 75 & Para >= 6`
+Roma'nın gözü Trablusgarp'ta; İtalyan bankası ve mektebi için imtiyaz istiyor. Verilirse Roma bir süre sakin kalabilir, ama Trablus'un Arapları bunu bir ilk adım olarak okuyacak.
+💬 Maliye: "Trablus'ta bir imtiyaz verirsek Roma yarın daha fazlasını ister."
+💬 Harbiye: "İtalyan donanmasına karşı elimizde sözden başka bir şey yok, Efendimiz."
+> Kaynak: Alternatif tarih.
+1. **Roma'ya Trablus'ta ticaret ve mektep imtiyazı verin.** `Para -6 · iliski_it +10 · Araplar -2 · avrupa_baskisi -2` — İtalyan mektebi Trablus'ta açıldı; Roma'nın sefiri teşekkür notu gönderdi.
+2. **İtalyan bankasına yer verin; harp çıkarmama sözü isteyin.** `Para -3 · iliski_it +6 · hakimiyet -2` — Banka şubesi Trablus'ta açıldı; söz kâğıtta kaldı, ama Roma sakin duruyor.
+
+### 1887 · Bulgaristan ile anlaşma
+`id: karar_bulgar_anlasma` · `tür: karar · alternatif` · `bayrak: BU` · `yer: filibe` · `bitiş: 1912-08`
+`koşul: iliski_bu < 80 & Para >= 6`
+Sofya'daki prens Berlin'in antlaşmasına rağmen kendi yolunu çiziyor. Filibe üzerinden bir murahhas, Makedonya'da Bulgar kilisesi ve mektepleri karşılığında Trakya sınırında sükûnet öneriyor.
+💬 Maliye: "Bulgar komitacılar Makedonya'da sessiz kalmaz, ama bir anlaşma kâğıdı kalkan olur."
+💬 Harbiye: "Sofya'ya güvenmeyelim; ama onunla konuşmayı da bırakmayalım."
+> Kaynak: Alternatif tarih.
+1. **Sofya'ya Makedonya'da ıslahat ve ticaret anlaşması önerin.** `Para -5 · iliski_bu +9 · iliski_yu -2 · iliski_ru -1` — Murahhas Filibe'den Sofya'ya gitti; Atina ve Petersburg ters bakışla izledi.
+2. **Bulgar kilisesine Makedonya'da piskopos tayini hakkı verin.** `Para -3 · iliski_bu +5 · hakimiyet -2` — Bulgar piskoposlar Manastır'da göreve başladı; Patrikhane itiraz etti.
