@@ -52,6 +52,9 @@ var inspector_body: VBoxContainer
 var collapse_btn: Button
 var status_label: Label
 var advance_btn: Button
+var auto_years: CheckBox      # advance time by itself whenever the desk is clear
+var _letter: EventPanel = null
+var _skipped := {}            # papers the player left on the desk with ✕: not opened again by themselves
 var _inspecting := {}          # {kind, id} of what the panel shows, refreshed with the desk
 var _collapsed := false
 var _jumping := false          # the debug jump replays hundreds of steps: the desk is redrawn once at the end
@@ -301,10 +304,21 @@ func _bottom_right() -> Control:
 	p.anchor_bottom = 1.0
 	p.offset_left = -330
 	p.offset_right = -8
-	p.offset_top = -56
+	p.offset_top = -86
 	p.offset_bottom = -8
+	var col := UIKit.vbox(4)
+	p.add_child(col)
+	auto_years = CheckBox.new()
+	auto_years.text = "Yılları otomatik ilerlet"
+	auto_years.tooltip_text = "Açıkken masada cevap bekleyen evrak kalmayınca zaman kendiliğinden ilerler ve sıradaki evrak açılır."
+	auto_years.add_theme_font_size_override("font_size", 12)
+	auto_years.button_pressed = true
+	auto_years.toggled.connect(func(on):
+		if on and (_letter == null or not _letter.is_open()):
+			_continue.call_deferred())
+	col.add_child(auto_years)
 	var h := UIKit.hbox(8)
-	p.add_child(h)
+	col.add_child(h)
 	status_label = UIKit.label("", 11, UIKit.MUTED, true)
 	status_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	h.add_child(status_label)
@@ -1211,10 +1225,46 @@ func _open_event(ev: Dictionary) -> EventPanel:
 		if state.ending_id != "":
 			_auto_stop()
 			main.show_ending()
+			return
+		refresh()
+		if p.chosen:
+			_continue.call_deferred()
 		else:
-			refresh()
+			_skipped[p.ev_id] = true
 	p.open(ev)
+	_letter = p
 	return p
+
+
+## After a paper is answered: open the next one on the desk (mandatory first); with nothing left, and
+## "Yılları otomatik ilerlet" on, move time forward and open what that brings.
+func _continue() -> void:
+	if not is_inside_tree() or _auto_running or _jumping or state.ending_id != "":
+		return
+	if _letter != null and is_instance_valid(_letter) and _letter.is_open():
+		return
+	var next: Dictionary = {}
+	for ev in state.open_events():
+		if _skipped.has(ev["id"]):
+			continue
+		if next.is_empty() or (ev["kind"] in GameState.MANDATORY and not (next["kind"] in GameState.MANDATORY)):
+			next = ev
+	if not next.is_empty():
+		_open_event(next)
+		return
+	if not auto_years.button_pressed or not state.can_advance():
+		return
+	var layers := get_child_count()
+	_advance()
+	if state.ending_id != "":
+		return
+	var open_now := state.open_events().filter(func(e): return not _skipped.has(e["id"]))
+	if not open_now.is_empty():
+		_continue()
+		if _letter != null and _letter.is_open() and get_child_count() > layers + 1:
+			move_child(_letter.m["layer"], layers)  # the year's gazette is read first
+	else:
+		_continue.call_deferred()
 
 
 func _advance() -> void:
@@ -1248,8 +1298,8 @@ func _auto_bar() -> Control:
 	auto_bar.anchor_bottom = 1.0
 	auto_bar.offset_left = -330
 	auto_bar.offset_right = -8
-	auto_bar.offset_top = -152
-	auto_bar.offset_bottom = -64
+	auto_bar.offset_top = -182
+	auto_bar.offset_bottom = -94
 	auto_bar.visible = false
 	var v := UIKit.vbox(4)
 	auto_bar.add_child(v)

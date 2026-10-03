@@ -20,9 +20,12 @@ var parent: Control
 var on_close: Callable
 var on_codex: Callable
 var m: Dictionary
+var chosen := false      # an option was taken here (closing it then leaves nothing to answer)
+var ev_id := ""
 
 
 func open(ev: Dictionary) -> void:
+	ev_id = str(ev["id"])
 	m = UIKit.modal(parent, Vector2(0.0, 0.86), WIDTH)
 	var body: VBoxContainer = m["body"]
 	var nation: Dictionary = state.nations.get(ev["nation"], {})
@@ -107,7 +110,7 @@ func auto_choose(i: int) -> void:
 
 
 func is_open() -> bool:
-	return not m.is_empty() and is_instance_valid(m["layer"])
+	return not m.is_empty() and is_instance_valid(m["layer"]) and not m["layer"].is_queued_for_deletion()
 
 
 func _dismiss() -> void:
@@ -118,6 +121,7 @@ func _dismiss() -> void:
 
 func _choose(ev: Dictionary, i: int, opts_box: Control, outcome_box: Control) -> void:
 	var res := state.choose(ev["id"], i)
+	chosen = true
 	for c in opts_box.get_children():
 		if c is Button:
 			c.disabled = true
