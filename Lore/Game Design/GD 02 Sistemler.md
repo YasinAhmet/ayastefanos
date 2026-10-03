@@ -14,7 +14,7 @@ Görünür olanlar masada, çubuk olarak durur (0–100). Gizli olanları oyuncu
 
 | id | Ad | Başlangıç | Görünür | Açıklama |
 |---|---|---|---|---|
-| para | Para | 25 | evet | Hazine. Her şeyi o satın alır. Her yıl gelir gelir; 1875 iflasından sonra borç yükü, 1881'den sonra Düyun-u Umumiye payı düşer. Sıfıra inerse dış borç olayı çıkar. |
+| para | Para | 25 | evet | Hazine. Her şeyi o satın alır. Her yıl gelir gelir; 1875 iflasından sonra borç yükü, 1881'den sonra Düyun-u Umumiye payı düşer. Sıfıra inerse dış borç olayı çıkar. Hiçbir kaynak seçimle sıfıra ya da altına düşürülemez: böyle bir seçenek kilitlenir ("Kilitli: Para sıfıra düşer"). Zorunlu bir evrakın bütün seçenekleri kilitliyse oyun rastgele birini seçer ve hazine borca girer (Para en çok −50'ye iner). |
 | harbiye | Harbiye | 45 | evet | Kara ordusu. Abdülhamid yolunda bakılmazsa her yıl çürür. |
 | bahriye | Bahriye | 70 | evet | Donanma. Abdülaziz'in zırhlılarıyla yüksek başlar; Haliç'e kapatılırsa hızla çürür. |
 | ermeniler | Ermeniler | 25 | evet | Ermeni milli hareketinin gücü (komiteler, cemaatin siyasi ağırlığı, Avrupa'daki sesi). Yükseldikçe doğuda olaylar sertleşir. Tehcir edilirse neredeyse sıfıra iner. |

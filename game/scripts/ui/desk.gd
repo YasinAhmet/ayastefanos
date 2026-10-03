@@ -1260,6 +1260,9 @@ func _history_section(body: VBoxContainer, pred: Callable) -> void:
 func _open_event(ev: Dictionary) -> EventPanel:
 	if _letter != null and _letter.is_open() and not _auto_running:
 		return _letter  # one letter at a time: the one on the left stays
+	var forced := state.forced_option(ev) if not _auto_running else -1
+	if forced >= 0:
+		return _forced_answer(ev, forced)
 	var p := EventPanel.new()
 	p.state = state
 	p.parent = self
@@ -1281,6 +1284,22 @@ func _open_event(ev: Dictionary) -> EventPanel:
 		map.frame_wide(EventPanel.WIDTH + 28)  # the whole map in the space right of the letter
 	_layout_left()
 	return p
+
+
+## Every option of a mandatory paper is locked: one is taken at random, the treasury goes into debt, and the
+## result box says so. The letter is never shown.
+func _forced_answer(ev: Dictionary, i: int) -> EventPanel:
+	var res := state.choose(ev["id"], i)
+	var label := EventPanel._plain(str(ev["options"][i]["label"]))
+	var note := "[color=#e0a080]Hiçbir seçenek karşılanamadı: biri rastgele seçildi, hazine borca girdi.[/color]"
+	var outcome := str(res.get("outcome", ""))
+	show_result(str(ev["title"]), label, (outcome + "\n" if outcome != "" else "") + note, bool(res.get("remembered", false)))
+	if state.ending_id != "":
+		main.show_ending()
+	else:
+		refresh()
+		_continue.call_deferred()
+	return null
 
 
 ## After a paper is answered: open the next one on the desk (mandatory first); with nothing left, and

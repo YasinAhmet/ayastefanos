@@ -64,6 +64,7 @@ var slot_done: Dictionary = {}      # yuva -> true once one of its versions was 
 var mode := "serbest"               # "tarihi" hides alternatif events and options
 var pace := "ayrintili"             # "hizli" answers minor events with their tarihî option and passes years quickly; "ayrintili" shows every event
 var _settling := false
+var _debt_ok := false              # set while a forced answer is applied: only then may Para go below 0
 var _auto_answering := false
 var _acting := ""                   # title of the event whose effects are being applied (for the chronicle)
 var front_log: Dictionary = {}      # front id -> [{y, m, d, by}]: every change to the front's balance and its cause
@@ -401,7 +402,43 @@ func can_advance() -> bool:
 func option_enabled(opt: Dictionary) -> bool:
 	if historical() and opt.get("hist") != null:
 		return true  # history happened whatever our numbers say
-	return Logic.eval_cond(opt.get("cond"), self)
+	return Logic.eval_cond(opt.get("cond"), self) and zeroed_by(opt).is_empty()
+
+
+## Names of the resources this option would bring to 0 or below right now (its direct effects, plus the
+## "if" branches that hold now). Such an option is locked; Para and the rest never fall below 0 by choice.
+func zeroed_by(opt: Dictionary) -> Array:
+	var delta := {}
+	_sum_deltas(opt["effects"], delta)
+	var out: Array = []
+	for id in delta:
+		if int(delta[id]) < 0 and int(values.get(id, 0)) + int(delta[id]) <= 0:
+			out.append(str(resources.get(id, {}).get("name", id)))
+	return out
+
+
+func _sum_deltas(effects: Array, delta: Dictionary) -> void:
+	for e in effects:
+		match e["t"]:
+			"res":
+				delta[e["id"]] = int(delta.get(e["id"], 0)) + int(e["d"])
+			"if":
+				if Logic.eval_cond(e.get("cond"), self):
+					_sum_deltas(e["then"], delta)
+
+
+## A mandatory paper whose every option is locked: the game picks one at random and the treasury goes into debt.
+## Returns the option index, or -1 when the paper can be answered normally.
+func forced_option(ev: Dictionary) -> int:
+	if ev["kind"] == "karar" or not (ev["kind"] in MANDATORY):
+		return -1
+	var vis := visible_options(ev)
+	if vis.is_empty():
+		return -1
+	for i in vis:
+		if option_enabled(ev["options"][i]):
+			return -1
+	return vis[randi() % vis.size()]
 
 
 func cabinet() -> Dictionary:
@@ -467,6 +504,7 @@ func choose(ev_id: String, index: int) -> Dictionary:
 	var opt: Dictionary = opts[index]
 	if not option_visible(opt):
 		return {}
+	_debt_ok = not option_enabled(opt)  # answered although locked (forced): the treasury may go into debt
 	answered[ev_id] = index
 	queued.erase(ev_id)
 	if ev.get("slot") != null:
@@ -474,6 +512,7 @@ func choose(ev_id: String, index: int) -> Dictionary:
 	_acting = ev["title"]
 	_apply(opt["effects"])
 	_acting = ""
+	_debt_ok = false
 	var rec := {"id": ev_id, "title": ev["title"], "nation": ev["nation"], "y": year, "m": month,
 		"option": opt["label"], "outcome": Logic.txt(opt.get("outcome", ""), self), "place": event_place(ev),
 		"thread": ev.get("thread"), "auto": _auto_answering}
@@ -556,7 +595,7 @@ func province_change_text(c: Dictionary) -> String:
 
 
 func _add(id: String, d: int) -> void:
-	var lo := -50 if id == "para" else 0
+	var lo := -50 if (id == "para" and _debt_ok) else 0
 	var before := int(values.get(id, 0))
 	values[id] = clampi(before + d, lo, 100)
 	if _front_by_value.has(id) and values[id] != before:

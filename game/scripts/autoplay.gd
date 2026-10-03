@@ -17,7 +17,8 @@ static func pick(state, ev: Dictionary, policy: String, rng: RandomNumberGenerat
 		if state.option_enabled(ev["options"][i]):
 			enabled.append(i)
 	if enabled.is_empty():
-		return -1
+		var vis: Array = state.visible_options(ev)
+		return -1 if vis.is_empty() else vis[rng.randi_range(0, vis.size() - 1)]  # all locked: forced, into debt
 	if policy == "tarihi":
 		for i in enabled:
 			if ev["options"][i].get("hist") != null:

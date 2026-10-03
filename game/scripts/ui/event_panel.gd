@@ -70,6 +70,8 @@ func open(ev: Dictionary) -> void:
 		var enabled := state.option_enabled(opt)
 		if not enabled and opt.get("lock"):
 			text += "\n(Kilitli: " + str(opt["lock"]) + ")"
+		elif not enabled and not state.zeroed_by(opt).is_empty():
+			text += "\n(Kilitli: " + ", ".join(state.zeroed_by(opt)) + " sıfıra düşer)"
 		var b := UIKit.button(text, UIKit.PANEL_2, 13)
 		b.alignment = HORIZONTAL_ALIGNMENT_LEFT
 		b.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART

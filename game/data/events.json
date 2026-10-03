@@ -6,7 +6,7 @@
    "name": "Para",
    "start": 25,
    "visible": true,
-   "desc": "Hazine. Her şeyi o satın alır. Her yıl gelir gelir; 1875 iflasından sonra borç yükü, 1881'den sonra Düyun-u Umumiye payı düşer. Sıfıra inerse dış borç olayı çıkar."
+   "desc": "Hazine. Her şeyi o satın alır. Her yıl gelir gelir; 1875 iflasından sonra borç yükü, 1881'den sonra Düyun-u Umumiye payı düşer. Sıfıra inerse dış borç olayı çıkar. Hiçbir kaynak seçimle sıfıra ya da altına düşürülemez: böyle bir seçenek kilitlenir (\"Kilitli: Para sıfıra düşer\"). Zorunlu bir evrakın bütün seçenekleri kilitliyse oyun rastgele birini seçer ve hazine borca girer (Para en çok −50'ye iner)."
   },
   {
    "id": "harbiye",
