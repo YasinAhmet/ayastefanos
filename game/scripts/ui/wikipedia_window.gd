@@ -71,7 +71,7 @@ func _url(lang: String) -> String:
 func _find_turkish() -> void:
 	_set_status("Vikipedi'den yükleniyor…")
 	var q := "https://en.wikipedia.org/w/api.php?action=query&format=json&redirects=1&origin=*&prop=langlinks&lllang=tr&titles=" + _en_title.uri_encode()
-	_get(q, _on_langlinks, _on_langlinks_failed)
+	_fetch(q, _on_langlinks, _on_langlinks_failed)
 
 
 func _on_langlinks(data: Dictionary) -> void:
@@ -97,7 +97,7 @@ func _show(lang: String) -> void:
 	_clear_body()
 	_set_status("Yükleniyor…")
 	var q := "https://%s.wikipedia.org/w/api.php?action=query&format=json&redirects=1&origin=*&prop=extracts&explaintext=1&exsectionformat=wiki&titles=%s" % [lang, str(_titles[lang]).uri_encode()]
-	_get(q, _on_article.bind(lang, mine), _on_article_failed.bind(mine))
+	_fetch(q, _on_article.bind(lang, mine), _on_article_failed.bind(mine))
 
 
 func _on_article(data: Dictionary, lang: String, mine: int) -> void:
@@ -150,7 +150,7 @@ func _set_status(t: String) -> void:
 
 
 ## GET a JSON document; ok(data: Dictionary) or fail(reason: String).
-func _get(url: String, ok: Callable, fail: Callable) -> void:
+func _fetch(url: String, ok: Callable, fail: Callable) -> void:
 	var req := HTTPRequest.new()
 	req.timeout = 20.0
 	_layer.add_child(req)
