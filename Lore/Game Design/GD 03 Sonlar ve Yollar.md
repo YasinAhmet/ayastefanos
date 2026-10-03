@@ -71,7 +71,7 @@ Abdülhamid'in bütün saltanatı tek bir soruya çalışır: ordu güçlenirse 
 
 - **`hakimiyet`** yükselten başlıca şeyler: jurnal ağı (`⚑jurnal_ag`), Meclis'in tatili (`⚑meclis_tatil`), donanmanın Haliç'e kapatılması (`⚑donanma_halicte`), Tıbbiye cemiyetinin ve Selanik cemiyetinin izlenmesi (`⚑tibbiye_takip`, `⚑selanik_takip`).
 - **`jon_turk`** yükselten başlıca şeyler: Goltz'a serbestlik (`⚑goltz_serbest`), ordu bütçesi, jurnalin yarattığı küskünlük, maaşların ödenmemesi, sürgünler.
-- **1908-07 `ihtilal_1908`** olayında iki seçenek vardır: *Kanun-ı Esasi'yi ilan et* (her zaman açık; `+⚑yol_ittihat`) ve *İhtilali bastır* (`[koşul: hakimiyet - jon_turk >= 20 & ⚑selanik_takip]`; `+⚑yol_hamid`, Alternatif tarih). Koşul tutmazsa ikinci seçenek kilitli görünür: "Ordu artık sizi dinlemiyor."
+- **1908-07 `ihtilal_1908`** olayında iki seçenek vardır: *Kanun-ı Esasi'yi ilan et* (her zaman açık; `+⚑yol_ittihat`) ve *İhtilali bastır* (`[koşul: ⚑selanik_takip]` kapıdır; sonucu `şans: 50 + (hakimiyet - jon_turk)*1.5 + ⚑jurnal_ag*10` belirler, Alternatif tarih). Başarıda `+⚑yol_hamid`; başarısızlıkta ihtilal yine olur, Kanun-ı Esasi zorla ilan edilir (`+⚑yol_ittihat`, hakimiyet sert düşer). Selanik izlenmemişse seçenek kilitlidir.
 
 ## Birinci son: Payitahtta Rus Çizmesi
 
