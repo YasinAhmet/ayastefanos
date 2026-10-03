@@ -293,8 +293,12 @@ static func modal(parent: Control, frac := Vector2(0.4, 0.8), width := 0, left :
 	else:
 		p.anchor_left = (1.0 - frac.x) / 2.0
 		p.anchor_right = 1.0 - p.anchor_left
-	p.anchor_top = (1.0 - frac.y) / 2.0
-	p.anchor_bottom = 1.0 - p.anchor_top
+	if left:
+		p.anchor_top = 0.05  # leaves the strip below for the small result box
+		p.anchor_bottom = 0.05 + frac.y
+	else:
+		p.anchor_top = (1.0 - frac.y) / 2.0
+		p.anchor_bottom = 1.0 - p.anchor_top
 	layer.add_child(p)
 	var scroll := ScrollContainer.new()
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED

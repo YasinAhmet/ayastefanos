@@ -52,6 +52,9 @@ var inspector_body: VBoxContainer
 var collapse_btn: Button
 var status_label: Label
 var _letter: EventPanel = null
+var result_box: PanelContainer     # the last answer's outcome, small, under the letter
+var result_body: VBoxContainer
+var _result_timer: Timer
 var _skipped := {}            # papers the player left on the desk with ✕: not opened again by themselves
 var _inspecting := {}          # {kind, id} of what the panel shows, refreshed with the desk
 var _collapsed := false
@@ -94,6 +97,7 @@ func _ready() -> void:
 	add_child(_inspector())
 	add_child(_bottom_right())
 	add_child(_auto_bar())
+	add_child(_result_box())
 	wiki = WikiPanel.new()
 	wiki.state = state
 	add_child(wiki)
@@ -312,6 +316,52 @@ func _bottom_right() -> Control:
 	status_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	p.add_child(status_label)
 	return p
+
+
+## The small box under the letter: what the last answer did. It stays until the next answer replaces it.
+func _result_box() -> Control:
+	result_box = UIKit.panel(Color(UIKit.PANEL_2, 0.97))
+	result_box.anchor_top = 0.86
+	result_box.anchor_bottom = 1.0
+	result_box.offset_left = 8
+	result_box.offset_right = 8 + EventPanel.WIDTH
+	result_box.offset_top = 0
+	result_box.offset_bottom = -8
+	result_box.visible = false
+	var v := UIKit.vbox(2)
+	result_box.add_child(v)
+	var head := UIKit.hbox(4)
+	var cap := UIKit.label("SONUÇ", 10, UIKit.GOLD)
+	cap.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	head.add_child(cap)
+	var x := UIKit.button("✕", UIKit.PANEL, 10)
+	x.pressed.connect(func(): result_box.visible = false)
+	head.add_child(x)
+	v.add_child(head)
+	var sc := ScrollContainer.new()
+	sc.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	sc.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	v.add_child(sc)
+	result_body = UIKit.vbox(2)
+	result_body.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	sc.add_child(result_body)
+	_result_timer = Timer.new()
+	_result_timer.one_shot = true
+	_result_timer.timeout.connect(func(): result_box.visible = false)
+	add_child(_result_timer)
+	return result_box
+
+
+## Called by the letter after an answer: title → choice, then the outcome.
+func show_result(title: String, choice: String, outcome: String, remembered: bool) -> void:
+	UIKit.clear(result_body)
+	result_body.add_child(UIKit.rich("[b]%s[/b] → %s" % [title, choice], 11))
+	if outcome != "":
+		result_body.add_child(UIKit.rich(outcome, 12))
+	if remembered:
+		result_body.add_child(UIKit.label("Bu karar hatırlanacak.", 10, UIKit.GOLD))
+	result_box.visible = true
+	_result_timer.start(30.0)
 
 
 func _save() -> void:

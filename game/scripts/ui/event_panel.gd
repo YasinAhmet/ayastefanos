@@ -26,7 +26,7 @@ var ev_id := ""
 
 func open(ev: Dictionary) -> void:
 	ev_id = str(ev["id"])
-	m = UIKit.modal(parent, Vector2(0.0, 0.86), WIDTH, true)
+	m = UIKit.modal(parent, Vector2(0.0, 0.80), WIDTH, true)
 	var body: VBoxContainer = m["body"]
 	m["closer"] = _dismiss  # the corner ✕ leaves the paper on the desk
 	var nation: Dictionary = state.nations.get(ev["nation"], {})
@@ -118,21 +118,14 @@ func _dismiss() -> void:
 
 func _choose(ev: Dictionary, i: int, opts_box: Control, outcome_box: Control) -> void:
 	var res := state.choose(ev["id"], i)
+	if res.is_empty():
+		return
 	chosen = true
-	for c in opts_box.get_children():
-		if c is Button:
-			c.disabled = true
-			if int(c.get_meta("option", -1)) == i:
-				c.add_theme_color_override("font_disabled_color", UIKit.GOLD)
-	if str(res.get("outcome", "")) != "":
-		outcome_box.add_child(_rich(res["outcome"], 13))
-	if res.get("remembered", false):
-		outcome_box.add_child(UIKit.label("Bu karar hatırlanacak.", 11, UIKit.GOLD))
-	var close := UIKit.button("Sona git" if state.ending_id != "" else "Kapat", UIKit.PANEL_2, 13)
-	close.pressed.connect(_dismiss)
-	outcome_box.add_child(close)
-	await parent.get_tree().process_frame
-	m["scroll"].scroll_vertical = int(m["scroll"].get_v_scroll_bar().max_value)
+	# no "Kapat": the letter closes at once and the result goes to the small box under it
+	if parent.has_method("show_result"):
+		parent.show_result(str(ev["title"]), _plain(str(ev["options"][i]["label"])), str(res.get("outcome", "")),
+			bool(res.get("remembered", false)))
+	_dismiss()
 
 
 func _advice(a: Dictionary) -> Control:
