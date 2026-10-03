@@ -72,6 +72,9 @@ func open(ev: Dictionary) -> void:
 			text += "\n(Kilitli: " + str(opt["lock"]) + ")"
 		elif not enabled and not state.zeroed_by(opt).is_empty():
 			text += "\n(Kilitli: " + ", ".join(state.zeroed_by(opt)) + " sıfıra düşer)"
+		var pv := _preview(opt["effects"], ev)
+		if pv["line"] != "":
+			text += "\n" + pv["line"]
 		var b := UIKit.button(text, UIKit.PANEL_2, 13)
 		b.alignment = HORIZONTAL_ALIGNMENT_LEFT
 		b.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
@@ -81,6 +84,8 @@ func open(ev: Dictionary) -> void:
 			tip.append(_plain(opt["hint"]))
 		if opt.get("alt", false):
 			tip.append("Alternatif tarih")
+		if pv["tip"] != "":
+			tip.append(pv["tip"])
 		b.tooltip_text = "\n".join(tip)
 		b.set_meta("option", i)
 		b.pressed.connect(_choose.bind(ev, i, opts_box, outcome_box))
@@ -158,3 +163,68 @@ static func _plain(bb: String) -> String:
 	var re := RegEx.new()
 	re.compile("\\[/?[a-z]+(=[^\\]]*)?\\]|\\{i:[a-z]+\\} ?")
 	return re.sub(bb, "", true)
+
+
+## Option preview (REWORK §7): {line, tip}. Hidden resources, odds, world/province/queue/end, and the reverse index.
+func _preview(effects: Array, ev: Dictionary) -> Dictionary:
+	var parts: PackedStringArray = []
+	var flat: Array = []
+	_flatten(effects, flat)
+	var hist := state.historical()
+	for e in flat:
+		match str(e["t"]):
+			"res":
+				var r: Dictionary = state.resources.get(e["id"], {})
+				if not r.is_empty() and not r["visible"]:
+					parts.append("%s %s" % ["▲" if float(e["d"]) > 0 else "▼", r["name"]])
+			"set":
+				var r: Dictionary = state.resources.get(e["id"], {})
+				if not r.is_empty() and not r["visible"]:
+					parts.append("%s %s" % ["▲" if float(e["v"]) >= float(state.value_of(e["id"])) else "▼", r["name"]])
+			"roll", "tier":
+				if not hist:
+					parts.append(Logic.odds_text(e, state))
+			"world":
+				var wn := str(state.world_defs.get(e["id"], {}).get("name", e["id"]))
+				parts.append("%s → %s" % [wn, state.world_label(str(e["id"]), str(e["v"]))])
+			"prov":
+				var pn := str(state.provinces.get(e["id"], {}).get("name", e["id"]))
+				var nn := str(state.nations.get(e["v"], {}).get("name", e["v"]))
+				parts.append("%s → %s" % [pn, nn])
+			"queue":
+				parts.append("Yeni bir evrak açar")
+			"end":
+				parts.append("Oyunu bitirir")
+	var tip := " · ".join(parts)
+	var line := tip
+	if not hist:
+		var rev: Dictionary = state.data.get("reverse", {})
+		var seen := {}
+		for e in flat:
+			var key := ""
+			if e["t"] == "flag":
+				key = "flag:" + str(e["name"])
+			elif e["t"] == "world":
+				key = "world:" + str(e["id"])
+			for id in rev.get(key, []):
+				if str(id) != ev_id and not state.answered.has(id):
+					seen[id] = true
+		if not seen.is_empty():
+			var n := "İleride %d evrakı etkiler" % seen.size()
+			line = n if line == "" else line + "\n" + n
+			tip = n if tip == "" else tip + "\n" + n
+	if line != "":
+		line = "  " + line.replace("\n", "\n  ")
+	return {"line": line, "tip": tip}
+
+
+## Effects that would apply now: `if` blocks count only when their condition holds.
+func _flatten(effects: Array, out: Array) -> void:
+	for e in effects:
+		if e["t"] == "if":
+			if Logic.eval_cond(e.get("cond"), state):
+				_flatten(e["then"], out)
+			else:
+				_flatten(e.get("else", []), out)
+		else:
+			out.append(e)
