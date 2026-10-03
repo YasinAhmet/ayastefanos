@@ -1141,7 +1141,7 @@ func show_front(fid: String) -> void:
 	var res := state.front_result(fid)
 	if res.is_empty():
 		body.add_child(UIKit.label("%s  (%d / 100)" % [state.front_status(fid), v], 13, UIKit.GOLD))
-		body.add_child(UIKit.label("Her ay denge, ordunun gücüne göre bir puan kayar. %d ve üstü üstünlük, %d ve altı bozgun sayılır; cephe kendi sonuç olayıyla karara bağlanır." % [int(f["win"]), int(f["lose"])], 10, UIKit.MUTED, true))
+		body.add_child(UIKit.label("Her ay denge, etkin güç oranına göre kayar: tümen sayısı, ikmal, moral, mevsim, duruş ve komutan. %d ve üstü üstünlük, %d ve altı bozgun sayılır; cephe kendi sonuç olayıyla karara bağlanır." % [int(f["win"]), int(f["lose"])], 10, UIKit.MUTED, true))
 	else:
 		body.add_child(UIKit.section("Sonuç"))
 		body.add_child(UIKit.rich("[b]%s[/b] (%s) — %s" % [res["title"], Logic.date_text(int(res["y"]), int(res["m"])), EventPanel._plain(str(res["option"]))], 12))

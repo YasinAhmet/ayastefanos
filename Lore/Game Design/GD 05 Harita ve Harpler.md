@@ -568,8 +568,8 @@ Tunus beylerinin şehri. 1881'de Fransa himaye ilan eder; Bismarck'ın Berlin'de
 Harp açıkken her cephenin ortasında haritada bir işaret durur. Tıklanınca sağdaki panel güç dengesini (0 düşmanın, 100 bizim), kimin üstün olduğunu, dengeyi hangi olayların ne kadar değiştirdiğini ve cephenin sonucunu gösterir.
 
 - **Denge:** cephenin `değer`i bir gizli kaynaktır (bkz. [[GD 02 Sistemler#Kaynaklar]]). Olayların seçenekleri onu değiştirir (`kafkas +8`); her değişiklik, onu yapan olayın adıyla cephe defterine yazılır.
-- **Kendi seyri:** karara bağlanmamış cephe her ay, cepheye ayrılan tümenlerle düşmanın gücü (`düşman_güç`) arasındaki orana göre kayar; ikmal (`ikmal`), arazi (`arazi`), duruş ve komutan hesaba girer (bkz. REWORK §6). `kuvvet` harp başında havuzdan ayrılan tümendir; `hedef`, taarruzda sırayla alınacak illerdir. Bu kayma da defterde "Cephenin kendi seyri" diye yıllık toplanır.
-- **Sonuç:** her cephe kendi olaylarıyla karara bağlanır (`sonuç`). Sonuç olaylarının tarihî sürümü koşulsuzdur; alternatif sürüm, denge yeterince yüksekse aynı yuvada öne geçer (ör. `bagdat_tutuldu`, `irak >= 60`). İlk cevaplanan sonuç olayı cephenin sonucudur. Sonuç olayları illerin sahibini değiştirir (`🗺`).
+- **Kendi seyri:** karara bağlanmamış cephe her ay, cepheye ayrılan tümenlerin etkin gücünün düşman gücüne (`düşman_güç`) oranına göre kayar. Etkin güç, ordunun niteliğine (Harbiye), ikmal kapasitesini (`ikmal`) aşan tümenlerin verimsizliğine, moral ve mevsime, duruşa (taarruz, savunma, geri çekilme), arazi (`arazi`) ve komutana bağlıdır (bkz. REWORK §6). `kuvvet` harp başında havuzdan ayrılan tümendir; `hedef`, taarruzda sırayla alınacak illerdir. Bu kayma da defterde "Cephenin kendi seyri" diye yıllık toplanır.
+- **Sonuç:** her cephe kendi olaylarıyla karara bağlanır (`sonuç`). Sonuç olaylarının tarihî sürümü koşulsuzdur; alternatif sürüm, denge yeterince yüksekse aynı yuvada öne geçer (ör. `bagdat_tutuldu`, `irak >= 60`). Antlaşma olayları (Ayastefanos, Berlin, Londra, Mondros) il devrini cephenin o anki dengesine ve ilin o an kimin elinde olduğuna (`il:kars = OS`, `kafkas_93 >= 55`) bağlar: tutulan il masada verilmez; tarihî akışta denge düşük kaldığı için tarihte olan olur. İlk cevaplanan sonuç olayı cephenin sonucudur. Sonuç olayları illerin sahibini değiştirir (`🗺`).
 - **Sınır:** `sınır` alanı olan cephede denge `yenilgi` eşiğine düşünce düşman, listede sıradaki elimizdeki ili işgal eder (en çok altı ayda bir); denge `zafer` eşiğini aşınca bu cephede işgal edilmiş son ilimiz geri alınır. İkisi de Toprak defterine "Cephenin kendi seyri" diye yazılır. Böylece 1877'de tutulan Kars bir sonraki harpte kendiliğinden düşebilir.
 - `koşul` harbin açık olduğu durumdur; `başlangıç` işaretin haritaya çıktığı ay; `iller` cephenin çekiştiği iller (haritada vurgulanır); `zafer` / `yenilgi` panelde "üstün" sayılan eşiklerdir.
 
@@ -583,7 +583,7 @@ Ruslar Tuna'yı geçip Balkanlar'a yürüyor; Plevne yolun ortasında.
 > Kaynak: [[Russo-Turkish War of 1877-1878]] · [[Siege of Plevne (1877)]]
 
 ### Cephe · Kafkas ('93)
-`cephe: kafkas_93` · `harp: 93 Harbi` · `değer: kafkas_93` · `düşman: RU` · `konum: 42.70,40.50` · `iller: kars, erzurum` · `sınır: kars, batum, erzurum` · `güç: harbiye` · `kuvvet: 10` · `düşman_güç: 12` · `ikmal: 8` · `arazi: dağ` · `hedef: kars, batum` · `başlangıç: 1877-05` · `zafer: 60` · `yenilgi: 30` · `sonuç: kars_tutuldu, kars_1877`
+`cephe: kafkas_93` · `harp: 93 Harbi` · `değer: kafkas_93` · `düşman: RU` · `konum: 42.70,40.50` · `iller: kars, erzurum` · `sınır: kars, batum, erzurum` · `güç: harbiye` · `kuvvet: 10` · `düşman_güç: 11` · `ikmal: 9 + ⚑kafkas_takviye*3` · `arazi: dağ` · `hedef: kars, batum` · `başlangıç: 1877-05` · `zafer: 60` · `yenilgi: 30` · `sonuç: kars_tutuldu, kars_1877`
 `koşul: ⚑harp_93 & ⚑harpte & yıl <= 1878`
 Gazi Ahmed Muhtar Paşa Kars ile Erzurum arasında Rus kollarını karşılıyor.
 > Kaynak: [[Gazi Ahmed Muhtar Paşa]] · [[Kars]]
@@ -602,7 +602,7 @@ Kırkkilise, Lüleburgaz, Çatalca; ve kuşatılmış Edirne.
 
 ### Cephe · Trakya (İtilaf yolu)
 `cephe: trakya_itilaf` · `harp: Büyük Harp` · `değer: trakya` · `düşman: BU` · `konum: 26.90,41.70` · `iller: edirne, tekfurdagi` · `sınır: edirne, tekfurdagi` · `güç: harbiye` · `kuvvet: 8` · `düşman_güç: 8` · `ikmal: 10` · `arazi: kale` · `hedef: edirne, gumulcine` · `başlangıç: 1915-10` · `zafer: 60` · `yenilgi: 30` · `sonuç: itilaf_son`
-`koşul: ⚑bulgar_harbi & ⚑itilaf_yolu`
+`koşul: ⚑bulgar_harbi & ⚑itilaf_yolu & saf_bu = ittifak`
 Alternatif tarih. İtilaf safındaki Osmanlı ordusu Bulgaristan'a karşı Meriç boyunda; Edirne üçüncü kez cephe.
 > Kaynak: [[Edirne]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 105|Yalman, p. 105]]
 
@@ -613,7 +613,7 @@ Sarıkamış'ın karlı dağları; Erzurum'un ardında beş yüz kilometrelik bi
 > Kaynak: [[Sarıkamış Operation (1914-1915)]]
 
 ### Cephe · Çanakkale
-`cephe: canakkale` · `harp: Büyük Harp` · `değer: canakkale` · `düşman: IN` · `konum: 26.30,40.15` · `iller: edirne, hudavendigar` · `güç: harbiye, bahriye` · `kuvvet: 8` · `düşman_güç: 14` · `ikmal: 10 + Bahriye/20` · `arazi: kale` · `başlangıç: 1915-02` · `zafer: 65` · `yenilgi: 30` · `sonuç: gelibolu_tahliye`
+`cephe: canakkale` · `harp: Büyük Harp` · `değer: canakkale` · `düşman: IN` · `konum: 26.30,40.15` · `iller: edirne, hudavendigar` · `güç: harbiye, bahriye` · `kuvvet: 8` · `düşman_güç: 14 + ⚑itilaf_yunan*2` · `ikmal: 10 + Bahriye/20` · `arazi: kale` · `başlangıç: 1915-02` · `zafer: 65` · `yenilgi: 30` · `sonuç: gelibolu_tahliye`
 `koşul: ⚑ittifak_harbi & !⚑mondros`
 Boğaz'ın tabyaları, sonra Gelibolu'nun siperleri.
 > Kaynak: [[Çanakkale and Gelibolu]]
@@ -625,7 +625,7 @@ Basra'dan Dicle boyunca Bağdat'a.
 > Kaynak: [[Bağdat]] · [[Basra]]
 
 ### Cephe · Filistin ve Süveyş
-`cephe: filistin` · `harp: Büyük Harp` · `değer: filistin` · `düşman: IN` · `konum: 33.60,30.90` · `iller: kudus, misir` · `güç: harbiye` · `kuvvet: 6` · `düşman_güç: 8` · `ikmal: 4 + ⚑suveys_buyuk + ⚑hicaz_hatti*2` · `arazi: çöl` · `hedef: kudus, misir` · `başlangıç: 1915-01` · `zafer: 65` · `yenilgi: 30` · `sonuç: kudus_tutuldu, kudus_dustu`
+`cephe: filistin` · `harp: Büyük Harp` · `değer: filistin` · `düşman: IN` · `konum: 33.60,30.90` · `iller: kudus, misir` · `güç: harbiye` · `kuvvet: 6` · `düşman_güç: 8 + ⚑itilaf_italya` · `ikmal: 4 + ⚑suveys_buyuk + ⚑hicaz_hatti*2` · `arazi: çöl` · `hedef: kudus, misir` · `başlangıç: 1915-01` · `zafer: 65` · `yenilgi: 30` · `sonuç: kudus_tutuldu, kudus_dustu`
 `koşul: ⚑ittifak_harbi & !⚑mondros`
 Sina çölü, Süveyş Kanalı, sonra Gazze ve Kudüs.
 > Kaynak: [[Süveyş Kanalı]] · [[Kudüs]]

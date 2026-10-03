@@ -521,7 +521,7 @@ Oyun her şeyi bu klasördeki dosyalardan okur. `py game/tools/build_events.py -
 - `▶ olay +6ay` ile sıraya konan olay, karardan altı ay sonra açılır (olayın kendi tarihi daha geçse o tarihte). Zorunlu değilse bir yıl masada kalır.
 - `yuva:` paylaşan olaylardan yalnız biri masaya gelir: tarih sırasında koşulu tutan ilki; biri cevaplanınca ötekiler düşer. Tarihî sürüm en sonda yazılır ([[GD 04 Dünya Durumu ve İplikler]]).
 - **Kararlar** (`tür: karar`) masadaki evrak sayılmaz ve zamanı durdurmaz; haritadaki yerinin panelinde, tarihi ile `bitiş` arasında ve koşulu tuttukça açıktır.
-- **Cepheler:** harp açıkken karara bağlanmamış her cephe her ay bir puan kayar ([[GD 05 Harita ve Harpler#Harpler ve cepheler]]).
+- **Cepheler:** harp açıkken karara bağlanmamış her cephe her ay, cepheye ayrılan tümenlerin etkin gücünün (ikmal, moral, mevsim, duruş ve komutan hesaba girer) düşman gücüne oranına göre kayar; taarruzda hedef il alınır, yenilgide il kaybedilir ([[GD 05 Harita ve Harpler#Harpler ve cepheler]]). Saf anahtarları (`saf_bu`, `saf_it`, `saf_yu`) cephelerde okunur; `k_saf_it_itilaf` ve `k_saf_yu_itilaf` kuralları İtilaf safındaki devletin `itilaf_italya` / `itilaf_yunan` bayrağını koyar, Çanakkale ve Filistin'in düşman gücü bu bayrakları okur.
 - **Modlar:** Fantezi modunda (içeride `serbest`) her şey açıktır. Tarihî mod `alternatif` etiketli olayları ve kararları gizler; her olayda yalnız `(tarihî)` işaretli seçeneği, koşuluna bakmadan gösterir. Böylece Tarihî modun tek bir yolu vardır ve Son 3'e varır.
 - **Kişi görselleri:** `görsel:` kişinin portresidir; `görseller: 1908=A.jpg · 1914=B.jpg` döneme göre değişen portrelerdir (o yıl için en son tarihli olan gösterilir). Portreler Wikimedia Commons'tandır (⚠ Not from vault sources; `game/tools/fetch_portraits.py` indirir, lisansları `Attachments/Image credits.md`'de).
 - **Kişiler haritada:** `rol: figür` olan kişiler kabinede oturmaz; [[GD 05 Harita ve Harpler#Kişiler haritada]] tablosuna göre haritada görünürler.
@@ -737,7 +737,7 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 ### 1915 · İtalya İtilaf safında
 `id: k_saf_it_itilaf` · `tür: kural` · `bitiş: 1919`
 `koşul: saf_it = itilaf`
-1. **Uygula.** `iliski_it -3 · avrupa_baskisi +2`
+1. **Uygula.** `+⚑itilaf_italya · iliski_it -3 · avrupa_baskisi +2`
 
 ### 1915 · İtalya Merkez Devletleri safında
 `id: k_saf_it_ittifak` · `tür: kural` · `bitiş: 1919`
@@ -757,7 +757,7 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 ### 1915 · Yunanistan İtilaf safında
 `id: k_saf_yu_itilaf` · `tür: kural` · `bitiş: 1919`
 `koşul: saf_yu = itilaf`
-1. **Uygula.** `iliski_yu -3`
+1. **Uygula.** `+⚑itilaf_yunan · iliski_yu -3`
 
 ### 1915 · Yunanistan tarafsız
 `id: k_saf_yu_tarafsiz` · `tür: kural` · `bitiş: 1919`
