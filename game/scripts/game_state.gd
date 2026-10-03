@@ -13,6 +13,8 @@ const LAST_YEAR := 1919
 const MANDATORY := ["zorunlu", "ara"]
 const PLAYABLE := ["zorunlu", "isteğe bağlı", "geçici", "ara"]
 const SAVE_VERSION := 2
+const FAST_RANK := 45               # Hızlı tempo shows events up to this GD 01 rank (S and A tiers) and every chain / alternatif event
+const START_YEARS := [1873, 1876, 1908, 1913, 1914, 1918]   # the menu's start years (earlier years replay the Tarihî choices)
 
 # ---- static data (from events.json)
 var data: Dictionary = {}
@@ -60,6 +62,9 @@ var prov_ctl: Dictionary = {}            # province -> nation code (de facto)
 var chronicle: Array = []           # [{kind:"world"|"prov", key, from, to, y, m, by}] for the Defter
 var slot_done: Dictionary = {}      # yuva -> true once one of its versions was answered
 var mode := "serbest"               # "tarihi" hides alternatif events and options
+var pace := "ayrintili"             # "hizli" answers minor events with their tarihî option and passes years quickly; "ayrintili" shows every event
+var _settling := false
+var _auto_answering := false
 var _acting := ""                   # title of the event whose effects are being applied (for the chronicle)
 var front_log: Dictionary = {}      # front id -> [{y, m, d, by}]: every change to the front's balance and its cause
 var population: Dictionary = {}     # province -> {group: thousands}, changed by 👥 effects and cessions
@@ -126,8 +131,9 @@ func load_data(path := DATA_PATH) -> bool:
 	return true
 
 
-func new_game(game_mode := "serbest") -> void:
+func new_game(game_mode := "serbest", game_pace := "ayrintili", start_year := START.x) -> void:
 	mode = game_mode
+	pace = "ayrintili"
 	world.clear()
 	for id in world_order:
 		world[id] = str(world_defs[id]["start"])
@@ -157,7 +163,29 @@ func new_game(game_mode := "serbest") -> void:
 	persona = "abdulaziz"
 	ending_id = ""
 	last_gazettes.clear()
+	if start_year > START.x:
+		_replay_to(start_year)
+	pace = game_pace
+	settle()
 	changed.emit()
+
+
+## Start in a later year: play from 1873 with the Tarihî choices up to January of that year, then go on in the chosen mode.
+func _replay_to(target_year: int) -> void:
+	var keep := mode
+	mode = "tarihi"
+	var target := Logic.date_key(target_year, 1)
+	var guard := 0
+	while now_key() < target and ending_id == "" and guard < 5000:
+		guard += 1
+		var stuck := false
+		for ev in mandatory_open():
+			var i := _hist_choice(ev)
+			if i < 0 or choose(ev["id"], i).is_empty():
+				stuck = true
+		if stuck or not advance(target):
+			break
+	mode = keep
 
 
 # ---------------------------------------------------------------- queries
@@ -182,6 +210,54 @@ func province_holder(id: String, layer := "ctl") -> String:
 
 func historical() -> bool:
 	return mode == "tarihi"
+
+
+func fast() -> bool:
+	return pace == "hizli"
+
+
+## Hızlı tempo: a ranked event below the S and A tiers, outside any chain or alternatif branch, is answered for the player.
+func is_minor(ev: Dictionary) -> bool:
+	if not fast() or ev["kind"] == "karar" or ev["tags"].has("zincir") or ev["tags"].has("alternatif"):
+		return false
+	var r = ev.get("rank")
+	return r != null and str(r) != "" and int(str(r)) > FAST_RANK
+
+
+## The option the game takes for the player: the tarihî one, else the first enabled one; -1 if none is enabled.
+func _hist_choice(ev: Dictionary) -> int:
+	var first := -1
+	for i in visible_options(ev):
+		var opt: Dictionary = ev["options"][i]
+		if not option_enabled(opt):
+			continue
+		if opt.get("hist") != null:
+			return i
+		if first < 0:
+			first = i
+	return first
+
+
+## Answer every minor event now on the desk (Hızlı tempo), including the ones their answers unlock.
+func settle() -> void:
+	if _settling or not fast():
+		return
+	_settling = true
+	var again := true
+	while again and ending_id == "":
+		again = false
+		for ev in open_events():
+			if not is_minor(ev):
+				continue
+			var i := _hist_choice(ev)
+			if i < 0:
+				continue
+			_auto_answering = true
+			choose(ev["id"], i)
+			_auto_answering = false
+			again = true
+			break
+	_settling = false
 
 
 func event_hidden(ev: Dictionary) -> bool:
@@ -383,9 +459,10 @@ func choose(ev_id: String, index: int) -> Dictionary:
 	_acting = ""
 	var rec := {"id": ev_id, "title": ev["title"], "nation": ev["nation"], "y": year, "m": month,
 		"option": opt["label"], "outcome": Logic.txt(opt.get("outcome", ""), self), "place": event_place(ev),
-		"thread": ev.get("thread")}
+		"thread": ev.get("thread"), "auto": _auto_answering}
 	history.append(rec)
 	year_log.append(rec)
+	settle()
 	changed.emit()
 	if ending_id != "":
 		ended.emit(ending_id)
@@ -569,7 +646,7 @@ func _front_border(fid: String) -> void:
 
 ## Move to the next month that has something on the desk, passing year turns on the way.
 ## Returns false if nothing moved (mandatory events open or game over).
-func advance() -> bool:
+func advance(until_key := -1) -> bool:
 	if not can_advance():
 		return false
 	last_gazettes.clear()
@@ -587,6 +664,10 @@ func advance() -> bool:
 		else:
 			month += 1
 		_front_tick()
+		settle()
+		if ending_id != "" or (until_key >= 0 and now_key() >= until_key):
+			changed.emit()
+			return true
 		for ev in open_events():
 			if not before.has(ev["id"]):
 				changed.emit()
@@ -829,7 +910,7 @@ func save_game() -> void:
 	f.store_string(JSON.stringify({"version": SAVE_VERSION, "year": year, "month": month, "values": values,
 		"flags": flags, "persona": persona, "answered": answered, "queued": queued, "dropped": dropped,
 		"history": history, "year_log": year_log, "ending": ending_id, "world": world, "owner": prov_owner, "ctl": prov_ctl,
-		"chronicle": chronicle, "slot_done": slot_done, "mode": mode, "front_log": front_log,
+		"chronicle": chronicle, "slot_done": slot_done, "mode": mode, "pace": pace, "front_log": front_log,
 		"population": population, "front_taken": front_taken,
 		"deaths": deaths}))
 
@@ -863,6 +944,7 @@ func load_game() -> bool:
 			queued[k] = int(queued[k])
 	# version 1 saves have no world state: start from the defaults
 	mode = str(s.get("mode", "serbest"))
+	pace = str(s.get("pace", "ayrintili"))
 	world.clear()
 	for id in world_order:
 		world[id] = str(world_defs[id]["start"])

@@ -160,7 +160,7 @@ func jump_to(y: int, mo: int) -> void:
 	_auto_stop()
 	var keep := state.mode
 	_jumping = true
-	state.new_game(keep)
+	state.new_game(keep, state.pace)
 	var rng := RandomNumberGenerator.new()
 	var guard := 0
 	while (state.year < y or (state.year == y and state.month < mo)) and state.ending_id == "" and guard < 5000:
@@ -1227,9 +1227,10 @@ func _advance() -> void:
 
 func _show_gazettes() -> void:
 	var gz: Array = state.last_gazettes.duplicate()
-	if _auto_running:
+	if _auto_running or state.fast():
 		for g in gz:
-			toast("[b]%s[/b] · %d senesi: %d karar" % [g["paper"], int(g["year"]), g["decisions"].size()], 3.0)
+			var mine: Array = g["decisions"].filter(func(d): return not d.get("auto", false))
+			toast("[b]%s[/b] · %d senesi: %d karar" % [g["paper"], int(g["year"]), mine.size()], 3.0)
 		return
 	gz.reverse()  # the earliest year ends up on top
 	for g in gz:
