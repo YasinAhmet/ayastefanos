@@ -119,6 +119,31 @@ func _initialize() -> void:
 	gs2.load_data()
 	var ok := gs2.load_game()
 	check("save/load rng durumunu korur", ok and gs2.rng_seed == 3 and gs2.rng.randf() == next_a and gs2.value_log.size() == gs.value_log.size())
+	# front state: transfer/incoming, stance, save/load
+	gs.new_game("serbest", "ayrintili", 1873, 4)
+	gs.values["harbiye"] = 80
+	gs.flags["harp_93"] = true
+	gs.flags["harpte"] = true
+	gs.year = 1877
+	gs.month = 7
+	gs._front_tick()
+	check("harpte cephe durumu oluşur", gs.fstate.has("tuna_93") and float(gs.fstate["tuna_93"]["div"]) > 0.0)
+	var res0: int = gs.army_reserve()
+	check("havuz: 80 harbiye → 48 tümen, cephelere ayrılmış", gs.army_total() == 48 and res0 == 48 - roundi(float(gs.fstate["tuna_93"]["div"]) + float(gs.fstate.get("kafkas_93", {}).get("div", 0.0))))
+	var div0: float = float(gs.fstate["tuna_93"]["div"])
+	check("transfer havuzdan gelir", gs.transfer("tuna_93", 3) and gs.army_reserve() == res0 - 3 and gs.fstate["tuna_93"]["incoming"].size() == 1)
+	check("duruş değişir", gs.set_stance("tuna_93", "taarruz") and gs.fstate["tuna_93"]["stance"] == "taarruz" and not gs.set_stance("tuna_93", "uçmak"))
+	gs.save_game()
+	var gs3 := GameState.new()
+	root.add_child(gs3)
+	gs3.load_data()
+	check("fstate kayıtta", gs3.load_game() and gs3.fstate["tuna_93"]["stance"] == "taarruz" and gs3.fstate["tuna_93"]["incoming"].size() == 1 and is_equal_approx(float(gs3.fstate["tuna_93"]["div"]), div0))
+	gs.month = 9
+	gs._front_tick()
+	check("2 ay sonra incoming cepheye katılır", gs.fstate["tuna_93"]["incoming"].is_empty() and float(gs.fstate["tuna_93"]["div"]) > div0 + 2.0)
+	var rep: Dictionary = gs.front_report("tuna_93")
+	check("front_report anahtarları", rep.has_all(["ours", "enemy", "ratio", "cap", "eff", "expected_drift", "expected_losses", "morale", "div", "depth", "next_target", "overextended"]))
+	check("geri transfer havuza döner", gs.transfer("tuna_93", -2) and gs.army_reserve() > res0 - 3)
 	print("engine_test: %s" % ("OK" if fails == 0 else "FAIL (%d)" % fails))
 	quit(0 if fails == 0 else 1)
 

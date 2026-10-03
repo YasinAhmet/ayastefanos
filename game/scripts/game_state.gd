@@ -35,7 +35,7 @@ var world_order: Array = []
 var provinces: Dictionary = {}      # id -> {id, name, own, ctl, region}
 var landmarks: Dictionary = {}      # id -> {id, name, province, nation, lonlat, icon, image, text, sources}
 var decisions: Array = []           # karar events
-var fronts: Dictionary = {}         # front id -> {id, name, war, value, enemy, lonlat, cond, start, strength, opposition, win, lose, provinces, results}
+var fronts: Dictionary = {}         # front id -> {id, name, war, value, enemy, lonlat, cond, start, strength, div0, enemy_power, supply, terrain, targets, win, lose, provinces, results}
 var _front_by_value: Dictionary = {}  # resource id -> front id
 var pop_groups: Dictionary = {}     # group id -> {id, name, power, leave, press, revolt}
 var pop_order: Array = []
@@ -70,8 +70,9 @@ var _acting := ""                   # title of the event whose effects are being
 var front_log: Dictionary = {}      # front id -> [{y, m, d, by}]: every change to the front's balance and its cause
 var population: Dictionary = {}     # province -> {group: thousands}, changed by 👥 effects and cessions
 var deaths: Array = []              # [{g, n, prov, y, m, by}] every † population loss, for the Kayıplar card
+var fstate: Dictionary = {}         # front id -> {div, stance, commander, morale, depth, taken, losses, incoming} (REWORK §6)
 var front_taken: Dictionary = {}    # front id -> {"last": month key, "provs": [provinces the enemy took on its own]}
-const BORDER_EVERY := 6             # months between two provinces lost (or won back) by a front's own course
+const BORDER_EVERY := 4             # months between two provinces lost (or won back) by a front's own course
 const DRIFT_BY := "Cephenin kendi seyri"
 const YEAR_BY := "Yıllık kural"
 var rng := RandomNumberGenerator.new()
@@ -156,6 +157,7 @@ func new_game(game_mode := "serbest", game_pace := "ayrintili", start_year := ST
 	slot_done.clear()
 	front_log.clear()
 	front_taken.clear()
+	fstate.clear()
 	deaths.clear()
 	population = pop_start.duplicate(true)
 	year = START.x
@@ -717,51 +719,240 @@ func front_status(fid: String) -> String:
 	return "Düşman üstün"
 
 
-## Once a month an undecided front drifts one point toward whoever is stronger (army vs. the enemy's pressure).
+## Front state (REWORK §6): divisions, stance, commander, morale, how deep we are in the enemy's land.
+func _ensure_fstate(fid: String) -> Dictionary:
+	if fstate.has(fid):
+		return fstate[fid]
+	var f: Dictionary = fronts[fid]
+	var div := mini(int(f.get("div0", 0)), maxi(0, army_reserve()))
+	var st := {"div": float(div), "stance": "savunma", "commander": "", "morale": 70.0, "depth": 0, "taken": [], "losses": 0.0, "incoming": []}
+	fstate[fid] = st
+	return st
+
+
+## The national pool: 60% of the Harbiye value, in divisions.
+func army_total() -> int:
+	return roundi(value_of("harbiye") * 0.6)
+
+
+func army_reserve() -> int:
+	var used := 0.0
+	for fid in fstate:
+		if not fronts.has(fid) or not front_active(fid):
+			continue
+		used += float(fstate[fid]["div"])
+		for inc in fstate[fid]["incoming"]:
+			used += float(inc["div"])
+	return army_total() - roundi(used)
+
+
+func _cmd(fid: String) -> Dictionary:
+	var pid := str(fstate.get(fid, {}).get("commander", ""))
+	if pid == "" or not persons.has(pid):
+		return {}
+	var c = persons[pid].get("commander")
+	if typeof(c) != TYPE_DICTIONARY or year < int(c["from"]) or year > int(c["to"]):
+		return {}
+	return c
+
+
+## Everything a month of fighting depends on, with the dice thrown separately (`noise`).
+func _front_calc(fid: String, stance := "", noise := 0.0) -> Dictionary:
+	var f: Dictionary = fronts[fid]
+	var fs: Dictionary = _ensure_fstate(fid)
+	var st := stance if stance != "" else str(fs["stance"])
+	var cmd := _cmd(fid)
+	var depth := int(fs["depth"])
+	var div := float(fs["div"])
+	var q := 0.4 + value_of("harbiye") / 75.0 + float(cmd.get("nitelik", 0)) / 100.0
+	var cap := maxf(1.0, Logic.eval_expr(f["supply"], self) - 2.0 * depth + float(cmd.get("ikmal", 0)) / 10.0)
+	var eff := div if div <= cap else cap + (div - cap) * 0.25
+	var m := 0.5 + float(fs["morale"]) / 200.0
+	var seas := 1.0
+	if st != "savunma":
+		var terrain := str(f.get("terrain", "ova"))
+		if terrain == "dağ" and (month == 12 or month <= 3):
+			seas = 0.6
+		elif terrain == "çöl" and month >= 6 and month <= 8:
+			seas = 0.75
+	var stk := 1.3 if st == "taarruz" else (0.8 if st == "geri" else 1.0)
+	var ck := 1.0 + float(cmd.get("taarruz" if st == "taarruz" else "savunma", 0)) / 100.0
+	var ours := eff * q * m * seas * stk * ck
+	var enemy := maxf(1.0, Logic.eval_expr(f["enemy_power"], self))
+	var terrain2 := str(f.get("terrain", "ova"))
+	if terrain2 == "kale" and depth > 0:
+		enemy *= 1.2
+	if st == "savunma" and (terrain2 == "dağ" or terrain2 == "kale"):
+		enemy *= 0.85
+	var r := maxf(ours / enemy, 0.02)
+	var d := clampi(roundi(14.0 * log(r)) + roundi(noise), -6, 6)
+	if st == "taarruz":
+		if d > 0:
+			d = roundi(d * 1.5) + 1
+	elif st == "savunma":
+		d = roundi(d * 0.6)
+	else:
+		d = mini(d, 0) - 1
+	var dk := 2.0 if st == "taarruz" else (0.7 if st == "savunma" else 0.5)
+	var loss := div * 0.01 * clampf(1.0 / r, 0.3, 3.0) * dk * (1.8 if seas < 1.0 else 1.0) * exp(0.45 * depth) \
+		* (1.0 + maxf(0.0, div - cap) * 0.08) * (1.0 + (float(cmd.get("asiri", 0)) / 100.0 if st == "taarruz" else 0.0))
+	loss = minf(loss, div)
+	return {"ours": ours, "enemy": enemy, "ratio": r, "cap": cap, "eff": eff, "expected_drift": d, "expected_losses": loss,
+		"morale": float(fs["morale"]), "div": div, "depth": depth, "stance": st}
+
+
+func front_report(fid: String) -> Dictionary:
+	var rep := _front_calc(fid)
+	var targets: Array = fronts[fid].get("targets", [])
+	var depth := int(rep["depth"])
+	rep["next_target"] = str(targets[depth]) if depth < targets.size() else ""
+	rep["overextended"] = float(rep["div"]) > float(rep["cap"])
+	return rep
+
+
+func set_stance(fid: String, s: String) -> bool:
+	if not fronts.has(fid) or not s in ["taarruz", "savunma", "geri"] or not front_active(fid):
+		return false
+	_ensure_fstate(fid)["stance"] = s
+	changed.emit()
+	return true
+
+
+## People whose command period holds this year (the one on a front now stays on it until moved).
+func commanders_for(_fid := "") -> Array:
+	var out: Array = []
+	for pid in persons:
+		var c = persons[pid].get("commander")
+		if typeof(c) == TYPE_DICTIONARY and year >= int(c["from"]) and year <= int(c["to"]):
+			out.append(pid)
+	return out
+
+
+## The front a commander is on now ("" if none).
+func commander_front(pid: String) -> String:
+	for fid in fstate:
+		if str(fstate[fid]["commander"]) == pid and fronts.has(fid) and front_active(fid):
+			return fid
+	return ""
+
+
+func set_commander(fid: String, pid: String) -> bool:
+	if not fronts.has(fid) or not front_active(fid):
+		return false
+	if pid != "":
+		if not commanders_for(fid).has(pid):
+			return false
+		var other := commander_front(pid)
+		if other != "" and other != fid:
+			return false
+	_ensure_fstate(fid)["commander"] = pid
+	changed.emit()
+	return true
+
+
+## n > 0: divisions from the pool, on the front in 2 months; n < 0: pulled back to the pool at once.
+func transfer(fid: String, n: int) -> bool:
+	if not fronts.has(fid) or not front_active(fid) or n == 0:
+		return false
+	var fs := _ensure_fstate(fid)
+	if n > 0:
+		n = mini(n, army_reserve())
+		if n <= 0:
+			return false
+		fs["incoming"].append({"div": n, "at": now_key() + 2})
+	else:
+		fs["div"] = maxf(0.0, float(fs["div"]) + n)
+	changed.emit()
+	return true
+
+
+## Once a month every undecided front fights: strength, supply, season, stance and commander give a ratio, the ratio a drift.
 func _front_tick() -> void:
+	var fatigue := float(value_of("harp_yorgunlugu")) / 50.0
+	var total_loss := 0.0
 	for fid in fronts:
 		if not front_active(fid):
 			continue
 		var f: Dictionary = fronts[fid]
-		var total := 0.0
-		for sid in f["strength"]:
-			total += value_of(str(sid))
-		var ours := total / maxf(1.0, float(f["strength"].size()))
-		var d := clampi(roundi((ours - float(f["opposition"])) / 20.0), -1, 1)
+		var fs := _ensure_fstate(fid)
+		var left: Array = []
+		for inc in fs["incoming"]:
+			if int(inc["at"]) <= now_key():
+				fs["div"] = float(fs["div"]) + float(inc["div"])
+			else:
+				left.append(inc)
+		fs["incoming"] = left
+		var c := _front_calc(fid, "", roll_range(-1.5, 1.5))
+		var d := int(c["expected_drift"])
+		var loss := float(c["expected_losses"])
 		if d != 0:
 			_add(str(f["value"]), d)
+		fs["div"] = float(fs["div"]) - loss
+		fs["losses"] = float(fs["losses"]) + loss
+		total_loss += loss
+		var mor := float(fs["morale"])
+		if d > 0:
+			mor += 2.0
+		elif d < 0:
+			mor -= 3.0
+		if loss > float(c["div"]) * 0.03:
+			mor -= 4.0
+		fs["morale"] = clampf(mor - fatigue, 10.0, 100.0)
+		var provs: Array = f.get("provinces", [])
+		_record_death("turk", loss * 10.0, str(provs[0]) if not provs.is_empty() else "")
 		_front_border(fid)
+	if total_loss > 0.0:
+		_add("harp_yorgunlugu", roundi(total_loss * 1.5))
 
 
-## A front with a `sınır` list moves the border by itself: at `yenilgi` the enemy takes the next province we
-## still hold on it, at `zafer` we take back the last one it took this way (at most one every BORDER_EVERY months).
+## A front moves the border by itself (at most one province every BORDER_EVERY months):
+## at `zafer` with the stance `taarruz` we take the next of its `hedef` provinces; at `yenilgi` the enemy takes back
+## the last one we took, or else the next province of its `sınır` list we still hold; at `zafer` without attacking
+## we take back the last one the enemy took by itself.
 func _front_border(fid: String) -> void:
 	var f: Dictionary = fronts[fid]
 	var border: Array = f.get("border", [])
-	if border.is_empty() or not front_result(fid).is_empty():
+	var fs: Dictionary = fstate.get(fid, {})
+	if not front_result(fid).is_empty():
 		return
 	var rec: Dictionary = front_taken.get(fid, {"last": -999, "provs": []})
 	if now_key() - int(rec["last"]) < BORDER_EVERY:
 		return
 	var v := value_of(str(f["value"]))
 	var enemy := str(f["enemy"])
+	var targets: Array = f.get("targets", [])
 	var was := _acting
 	_acting = DRIFT_BY
-	if v <= int(f["lose"]):
-		for pid in border:
-			if province_holder(str(pid), "ctl") == "OS":
-				_set_province(str(pid), enemy, false)
-				rec["provs"].append(str(pid))
-				rec["last"] = now_key()
-				break
-	elif v >= int(f["win"]) and not rec["provs"].is_empty():
-		var pid: String = rec["provs"].pop_back()
-		if province_holder(pid, "ctl") == enemy:
-			_set_province(pid, "OS", false)
+	var done := false
+	if v >= int(f["win"]) and not historical() and not fs.is_empty() and fs["stance"] == "taarruz" and int(fs["depth"]) < targets.size():
+		var pid := str(targets[int(fs["depth"])])
+		_set_province(pid, "OS", false)
+		fs["depth"] = int(fs["depth"]) + 1
+		fs["taken"].append(pid)
+		_add(str(f["value"]), 55 - v)
 		rec["last"] = now_key()
+		done = true
+	elif v <= int(f["lose"]) and not fs.is_empty() and not fs["taken"].is_empty():
+		var pid: String = fs["taken"].pop_back()
+		fs["depth"] = maxi(0, int(fs["depth"]) - 1)
+		_set_province(pid, enemy, false)
+		rec["last"] = now_key()
+		done = true
+	if not done and not border.is_empty():
+		if v <= int(f["lose"]):
+			for pid in border:
+				if province_holder(str(pid), "ctl") == "OS":
+					_set_province(str(pid), enemy, false)
+					rec["provs"].append(str(pid))
+					rec["last"] = now_key()
+					break
+		elif v >= int(f["win"]) and not rec["provs"].is_empty():
+			var pid: String = rec["provs"].pop_back()
+			if province_holder(pid, "ctl") == enemy:
+				_set_province(pid, "OS", false)
+			rec["last"] = now_key()
 	_acting = was
 	front_taken[fid] = rec
-
 
 
 ## Move to the next month that has something on the desk, passing year turns on the way.
@@ -827,6 +1018,15 @@ func _trigger_tick() -> void:
 
 func _year_turn() -> void:
 	var finished := year
+	var at_war := false
+	for fid in fronts:
+		if front_active(fid):
+			at_war = true
+			break
+	if not at_war and value_of("harp_yorgunlugu") > 0:
+		_acting = YEAR_BY
+		_add("harp_yorgunlugu", -15)
+		_acting = ""
 	for r in rules:
 		if int(r["date"]["y"]) > finished:
 			continue
@@ -1061,7 +1261,7 @@ func save_game() -> void:
 		"flags": flags, "persona": persona, "answered": answered, "queued": queued, "dropped": dropped,
 		"history": history, "year_log": year_log, "ending": ending_id, "world": world, "owner": prov_owner, "ctl": prov_ctl,
 		"chronicle": chronicle, "slot_done": slot_done, "mode": mode, "pace": pace, "front_log": front_log,
-		"population": population, "front_taken": front_taken,
+		"population": population, "front_taken": front_taken, "fstate": fstate,
 		"deaths": deaths, "rng_seed": rng_seed, "rng_state": str(rng.state), "value_log": value_log}))
 
 
@@ -1110,6 +1310,12 @@ func load_game() -> bool:
 	slot_done = s.get("slot_done", {})
 	front_log = s.get("front_log", {})
 	front_taken = s.get("front_taken", {})
+	fstate = s.get("fstate", {})
+	for fid in fstate:
+		var fs: Dictionary = fstate[fid]
+		fs["depth"] = int(fs["depth"])
+		for inc in fs["incoming"]:
+			inc["at"] = int(inc["at"])
 	deaths = s.get("deaths", [])
 	value_log = s.get("value_log", {})
 	rng_seed = int(s.get("rng_seed", 0))

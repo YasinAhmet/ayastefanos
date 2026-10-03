@@ -8,6 +8,7 @@ extends SceneTree
 
 const GameState := preload("res://game/scripts/game_state.gd")
 const Autoplay := preload("res://game/scripts/autoplay.gd")
+const Logic := preload("res://game/scripts/logic.gd")
 const RANDOM_RUNS := 400
 const MAX_STEPS := 20000
 # the provinces whose holder tells two worlds apart in the divergence report
@@ -71,6 +72,7 @@ var outcomes := {}      # world key -> {value -> count}, at the end of random ru
 var worlds_1900 := {}   # signature -> count
 var front_ends := {}    # front id -> {result event id -> count}
 var snapshot := ""
+var managed := {}       # front id -> true once the sim chose its stance in this run
 var kars_held := 0
 var kars_bad := 0
 var kars_probe := ""    # who held Kars in 1917-06, filled by play()
@@ -96,6 +98,9 @@ func _initialize() -> void:
 		if r["ending"] != want:
 			ok = false
 		print("%s %-14s → %s (wanted %s) at %s · steps %d · %s" % [mark, name, r["ending"], want, r["date"], r["steps"], r["summary"]])
+	if not OS.get_cmdline_user_args().has("nopower"):
+		if not _power_tests():
+			ok = false
 	var rng := RandomNumberGenerator.new()
 	rng.seed = 1873
 	# Tarihî mode has one path: every event must show exactly one option and the path must reach Son 3
@@ -209,6 +214,9 @@ func play(strategy, rng, mode := "serbest", many = null, seed := 0) -> Dictionar
 	kars_probe = ""
 	var steps := 0
 	var policy := "tarihi" if mode == "tarihi" else "rastgele"
+	var fr := RandomNumberGenerator.new()   # the front choices have their own dice, so the paper choices stay as they were
+	fr.seed = seed * 7919 + 13
+	managed.clear()
 	while gs.ending_id == "" and steps < MAX_STEPS:
 		steps += 1
 		if snapshot == "" and gs.year >= 1900:
@@ -231,6 +239,8 @@ func play(strategy, rng, mode := "serbest", many = null, seed := 0) -> Dictionar
 				many.append(ev["id"])
 		for d in gs.open_decisions():
 			reached[d["id"]] = true
+		if mode != "tarihi":
+			_manage_fronts(strategy, fr)
 		if strategy == null:
 			var st: Dictionary = Autoplay.step(gs, policy, rng)
 			if st["kind"] == "stuck":
@@ -256,6 +266,92 @@ func play(strategy, rng, mode := "serbest", many = null, seed := 0) -> Dictionar
 		if Vector2i(gs.year, gs.month) == before and gs.ending_id == "":
 			return _result("stuck", steps)
 	return _result(gs.ending_id if gs.ending_id != "" else "stuck", steps)
+
+
+## What a player does on the fronts: random runs pick a stance when a war starts and now and then move divisions;
+## scripted strategies defend, except Hamid's victory, which attacks while the army is strong.
+func _manage_fronts(strategy, fr: RandomNumberGenerator) -> void:
+	for fid in gs.fstate:
+		if not gs.front_active(fid):
+			continue
+		if not managed.has(fid):
+			managed[fid] = true
+			if strategy == null:
+				gs.set_stance(fid, "taarruz" if fr.randf() < 0.5 else "savunma")
+		if strategy == null:
+			if fr.randf() < 0.04:
+				gs.transfer(fid, fr.randi_range(-3, 3))
+		elif str(strategy.get("expect", "")) == "son_hamid_zafer":
+			gs.set_stance(fid, "taarruz" if gs.value_of("harbiye") >= 70 else "savunma")
+
+
+## "== power tests": the army's strength must matter (REWORK §6). Plays tarihî choices to `from`, sets values, then
+## goes on in Fantezi with tarihî choices to `to`, holding the given stance on the given fronts.
+func _power_run(seed: int, from: Vector2i, to: Vector2i, set_values: Dictionary, stances: Dictionary) -> void:
+	gs.new_game("tarihi", "ayrintili", 1873, seed)
+	var rng := RandomNumberGenerator.new()
+	rng.seed = seed
+	var guard := 0
+	var switched := false
+	while gs.ending_id == "" and guard < 6000 and gs.now_key() < Logic.date_key(to.x, to.y):
+		guard += 1
+		if not switched and gs.now_key() >= Logic.date_key(from.x, from.y):
+			switched = true
+			for k in set_values:
+				gs.values[k] = int(set_values[k])
+			gs.mode = "serbest"
+		if switched:
+			for fid in stances:
+				if gs.fstate.has(fid) and gs.front_active(fid):
+					gs.set_stance(fid, stances[fid])
+		if Autoplay.step(gs, "tarihi", rng)["kind"] == "stuck":
+			return
+
+
+func _os_count() -> int:
+	var n := 0
+	for p in gs.prov_ctl:
+		if gs.prov_ctl[p] == "OS":
+			n += 1
+	return n
+
+
+func _power_tests() -> bool:
+	var ok := true
+	print("\n== power tests")
+	var end93 := Vector2i(1878, 12)
+	var res := {}
+	for h in [50, 80]:
+		var t := 0.0
+		var k := 0.0
+		var pr := 0.0
+		for seed in range(1, 9):
+			_power_run(seed, Vector2i(1877, 4), end93, {"harbiye": h}, {})
+			t += gs.value_of("tuna_93")
+			k += gs.value_of("kafkas_93")
+			pr += _os_count()
+		res[h] = [t / 8.0, k / 8.0, pr / 8.0]
+		print("  harbiye %d: tuna_93 %.1f · kafkas_93 %.1f · Osmanlı'da il %.1f" % [h, res[h][0], res[h][1], res[h][2]])
+	var a_ok: bool = res[80][0] >= res[50][0] + 5.0 and res[80][1] >= res[50][1] + 5.0 and res[80][2] >= res[50][2]
+	print("  %s (a) harbiye 80, 50'den belirgin iyi (il sayısı Ayastefanos/Berlin olaylarına bağlı: en az eşit)" % ["OK  " if a_ok else "FAIL"])
+	var got := 0
+	for seed in range(1, 21):
+		_power_run(seed, Vector2i(1877, 4), end93, {"harbiye": 90}, {"tuna_93": "taarruz"})
+		var taken: Array = gs.fstate.get("tuna_93", {}).get("taken", [])
+		if taken.has("dogu_rumeli") or taken.has("tuna"):
+			got += 1
+	var b_ok := got >= 1
+	print("  %s (b) harbiye 90 + Tuna'da taarruz: 20 tohumun %d'inde hedef alındı" % ["OK  " if b_ok else "FAIL", got])
+	var loss := {}
+	for st in ["taarruz", "savunma"]:
+		var tot := 0.0
+		for seed in range(1, 11):
+			_power_run(seed, Vector2i(1914, 1), Vector2i(1917, 1), {"dogu_hazirligi": 100}, {"kafkas": st})
+			tot += float(gs.fstate.get("kafkas", {}).get("losses", 0.0))
+		loss[st] = tot / 10.0
+	var c_ok: bool = loss["taarruz"] >= 2.0 * loss["savunma"] and loss["savunma"] > 0.0
+	print("  %s (c) 1914 Kafkas, tam ikmal: ortalama zayiat taarruz %.2f · savunma %.2f (oran %.2f)" % ["OK  " if c_ok else "FAIL", loss["taarruz"], loss["savunma"], loss["taarruz"] / maxf(0.001, loss["savunma"])])
+	return a_ok and b_ok and c_ok
 
 
 func _signature() -> String:

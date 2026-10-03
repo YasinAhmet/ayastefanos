@@ -720,7 +720,7 @@ def main():
                                "terrain": terrain, "targets": targets, "war": fields.get("harp", ""), "value": val,
                                "enemy": fields.get("düşman", ""), "lonlat": [lon, lat], "cond": fcond,
                                "start": {"y": int(sm.group(1)), "m": int(sm.group(2))} if sm else {"y": 0, "m": 1},
-                               "strength": [x for x in strength if x], "opposition": 50,  # geçici uyumluluk; W3b'de kalkacak
+                               "strength": [x for x in strength if x],
                                "win": int(fields.get("zafer", "70")), "lose": int(fields.get("yenilgi", "25")),
                                "provinces": [x.strip() for x in fields.get("iller", "").split(",") if x.strip()],
                                "border": [x.strip() for x in fields.get("sınır", "").split(",") if x.strip()],
