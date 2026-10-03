@@ -97,7 +97,7 @@
    "name": "Kafkas cephesi",
    "start": 50,
    "visible": false,
-   "desc": "Cephe dengesi: 0 düşmanın, 100 bizim. Harp yıllarında haritada cephe işaretinde görünür; her ay ordunun gücüne göre bir puan kayar. Bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]]."
+   "desc": "Cephe dengesi: 0 düşmanın, 100 bizim. Harp yıllarında haritada cephe işaretinde görünür; her ay cepheye ayrılan tümenlerin düşman gücüne oranıyla kayar (ikmal, arazi, duruş ve komutan etkiler; bkz. REWORK §6). Bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]]."
   },
   {
    "id": "canakkale",
@@ -154,6 +154,13 @@
    "start": 50,
    "visible": false,
    "desc": "1912–13 Balkan Harbi."
+  },
+  {
+   "id": "harp_yorgunlugu",
+   "name": "Harp yorgunluğu",
+   "start": 0,
+   "visible": false,
+   "desc": "Harp süren her ay cephelerdeki kayıpla artar (REWORK §6); moral her ay yorgunluğun elliye bölümü kadar düşer. Barışta yıllık düşer."
   }
  ],
  "persons": {
@@ -304,7 +311,16 @@
    "text": "Alman terbiyeli bir kurmay; Goltz Paşa'nın yardımcısı olarak yetişir. Nisan 1909'da 31 Mart ayaklanmasını bastıran Hareket Ordusu'nun kumandanıdır; sonra üç ordunun müfettişi ve 1910'dan Harbiye Nazırı olur. Babıâli Baskını'ndan sonra sadrazam ve Harbiye Nazırı yapılır; orduyu Alman kumandasına verme fikri Liman von Sanders heyetini doğurur. 11 Haziran 1913'te Beyazıt'ta öldürülür.",
    "sources": [
     "{i:book} Kaynak: Mahmud Şevket Paşa · Güneş, p. 99 · [i]Türk kaynağı[/i]"
-   ]
+   ],
+   "commander": {
+    "taarruz": 5,
+    "savunma": 0,
+    "ikmal": 0,
+    "asiri": 0,
+    "nitelik": 10,
+    "from": 1909,
+    "to": 1913
+   }
   },
   "ahmed_izzet": {
    "id": "ahmed_izzet",
@@ -316,7 +332,16 @@
    "text": "Alman terbiyeli bir general ve erkân-ı harbiye reisi. Balkan Harbi'nden sonra, Mahmud Şevket'in öldürülmesinin ardından Harbiye Nazırı olur; Aralık 1913'te koltuğu Enver'e bırakır. Ekim 1918'de sadrazamdır: kısa ömürlü kabinesi Mondros Mütarekesi'ni imzalar ve çekilir. İttihatçılar onu, çevresinde Cavid ile Fethi'nin çalışabileceği \"ağırbaşlı bir kumandan\" olarak görür.",
    "sources": [
     "{i:book} Kaynak: Ahmed İzzet Paşa · Güneş, [i]Türkiye'de Hükümetler[/i], p. 127 · [i]Türk kaynağı[/i]"
-   ]
+   ],
+   "commander": {
+    "taarruz": 0,
+    "savunma": 10,
+    "ikmal": 5,
+    "asiri": 0,
+    "nitelik": 0,
+    "from": 1912,
+    "to": 1918
+   }
   },
   "bahriye_nazir": {
    "id": "bahriye_nazir",
@@ -345,7 +370,16 @@
    "text": "1908 ihtilalinin kahraman subayı; Makedonya'daki devrimciler arasında öne çıkar, 23 Temmuz 1908'de balkondan \"Hasta adamı iyileştirdik!\" diye bağırır. 1909–1911'de Berlin'de ataşemiliter, 1911–1912'de Trablusgarp'ta Bingazi–Derne cephesinin kumandanıdır. Babıâli Baskını'nın ve Edirne'nin geri alınmasının kahramanı olarak Ocak 1914'te Harbiye Nazırı olur. Yalman'a göre ülkeyi harbe tek başına sürükleyen odur; Sarıkamış harekâtı da onun planıdır. Mütarekeden sonra kaçar; 1922'de Orta Asya'da ölür.",
    "sources": [
     "{i:book} Kaynak: Enver Paşa · Güneş, p. 127 · Yalman, p. 98 · [i]Türk kaynağı[/i]"
-   ]
+   ],
+   "commander": {
+    "taarruz": 25,
+    "savunma": 0,
+    "ikmal": -15,
+    "asiri": 60,
+    "nitelik": 0,
+    "from": 1911,
+    "to": 1918
+   }
   },
   "cemal": {
    "id": "cemal",
@@ -357,7 +391,16 @@
    "text": "\"Büyük\" Cemal Paşa, İttihat ve Terakki üçlüsünün üçüncüsü. Balkan Harbi'nde Konya ihtiyat tümenini kumanda eder, sonra İstanbul muhafızı ve Bahriye Nazırı olur; harbin arifesinde Fransa ile ittifaktan yanadır. 1914 sonundan itibaren 4. Ordu kumandanı olarak Suriye'yi yönetir, Süveyş harekâtını düzenler ve Şam'da Arap milliyetçilerini astırır. 1918'de Talat ve Enver'le kaçar; 25 Temmuz 1922'de Tiflis'te öldürülür. Hatıratı kasanın kaynaklarındandır.",
    "sources": [
     "{i:book} Kaynak: Cemal Paşa · Güneş, p. 127 · [i]Türk kaynağı[/i]"
-   ]
+   ],
+   "commander": {
+    "taarruz": 5,
+    "savunma": 0,
+    "ikmal": -5,
+    "asiri": 20,
+    "nitelik": 0,
+    "from": 1914,
+    "to": 1918
+   }
   },
   "rauf": {
    "id": "rauf",
@@ -390,7 +433,16 @@
    "text": "Selanikli genç bir kurmay. 1905–1907'de Şam'da Vatan ve Hürriyet'i kurar, 1907 sonbaharında Selanik'te İttihat ve Terakki'ye girer ve Enver'le ilk anlaşmazlığını yaşar. Trablusgarp'ta Enver'in emrinde Derne'de, Balkan Harbi'nde Bolayır'da savaşır, 1913–1915'te Sofya'da ataşemiliterdir. Çanakkale'de Arıburnu ve Anafartalar'ın kumandanı olarak adını duyurur; 1916'da Bitlis ve Muş'u geri alır, 1917'de Cemal Paşa'yla çatışıp istifa eder. 19 Mayıs 1919'da Samsun'a çıkar.",
    "sources": [
     "{i:book} Kaynak: Mustafa Kemal Atatürk · İnan, [i]Atatürk Hakkında Hatıralar ve Belgeler[/i], p. 86 · Bardakçı, [i]Enver[/i], p. 115 · [i]Türk kaynağı[/i]"
-   ]
+   ],
+   "commander": {
+    "taarruz": 10,
+    "savunma": 25,
+    "ikmal": 10,
+    "asiri": -20,
+    "nitelik": 0,
+    "from": 1911,
+    "to": 1919
+   }
   },
   "niyazi": {
    "id": "niyazi",
@@ -414,7 +466,16 @@
    "text": "Plevne'nin müdafii. 1877'de Vidin'den Plevne'ye yetişir ve beş ay boyunca, Bardakçı'nın deyişiyle \"bir avuç askerle yüz binlerce kişilik bir Rus ordusunu durdurur\"; İngiliz ve Amerikalı gözlemciler de onu över. Aralık 1877'de yaralı olarak teslim olur. Esaretten dönünce Abdülhamid onu yanında, Yıldız'da Mabeyn müşiri olarak tutar; hem şerefini kullanır hem de onun bir muhalefet odağı olmasını önler. Askerin tanıdığı \"son kahraman\" diye anılır.",
    "sources": [
     "{i:book} Kaynak: Gazi Osman Paşa · [i]Türk kaynağı[/i]"
-   ]
+   ],
+   "commander": {
+    "taarruz": -5,
+    "savunma": 35,
+    "ikmal": 0,
+    "asiri": 0,
+    "nitelik": 0,
+    "from": 1877,
+    "to": 1878
+   }
   },
   "ahmed_muhtar": {
    "id": "ahmed_muhtar",
@@ -426,7 +487,16 @@
    "text": "Mareşal ve sadrazam. '93 Harbi'nde Kafkas cephesinde birkaç zafer kazanır, ama Rusları durduramaz; Kars 18 Kasım 1877'de düşer. Sonra yirmi yılı aşkın bir süre Abdülhamid'in Mısır fevkalade komiseridir ve Sudan sınırında İngiliz tekliflerine direnir. 1912'de sadrazam olur; kabinesi Balkan bunalımının ortasında, 29 Ekim 1912'de istifaya zorlanır.",
    "sources": [
     "{i:book} Kaynak: Gazi Ahmed Muhtar Paşa · [i]Türk kaynağı[/i]"
-   ]
+   ],
+   "commander": {
+    "taarruz": 5,
+    "savunma": 20,
+    "ikmal": 0,
+    "asiri": 0,
+    "nitelik": 0,
+    "from": 1877,
+    "to": 1878
+   }
   },
   "midhat": {
    "id": "midhat",
@@ -450,7 +520,16 @@
    "text": "Colmar von der Goltz, \"Goltz Paşa\". 1883'te İstanbul'a gelir ve Harbiye'de bir kuşak Osmanlı subayı yetiştirir; [i]Das Volk in Waffen[/i] kitabı onların elinden düşmez. İttihatçılar onu eski rejimden daha çok kullanır; 1910 manevralarında Türk subaylarının eksiklerini açıkça eleştirir. Büyük Harp'te önce padişahın yaveri, sonra Irak'ta 6. Ordu'nun kumandanıdır; Liman von Sanders'le anlaşamaz. Nisan 1916'da Bağdat'ta tifüsten ölür.",
    "sources": [
     "{i:book} Kaynak: Colmar von der Goltz · [i]Alman kaynağı[/i]"
-   ]
+   ],
+   "commander": {
+    "taarruz": 0,
+    "savunma": 10,
+    "ikmal": 0,
+    "asiri": 0,
+    "nitelik": 15,
+    "from": 1914,
+    "to": 1916
+   }
   },
   "liman": {
    "id": "liman",
@@ -462,7 +541,16 @@
    "text": "Otto Liman von Sanders, Aralık 1913'te gelen Alman askerî heyetinin başı. Rusya bir Alman'ın İstanbul'daki kolorduya kumanda etmesine itiraz edince mareşal yapılır ve Müfettiş-i Umumi unvanını alır. Çanakkale'de 5. Ordu'yla Boğaz müdafaasını, 1918'de Filistin'de Yıldırım Ordular Grubu'nu kumanda eder. Enver'le sık sık çatışır; hatıratı [i]Türkiye'de Beş Yıl[/i] kasanın kaynaklarındandır.",
    "sources": [
     "{i:book} Kaynak: Liman von Sanders · [i]Alman kaynağı[/i]"
-   ]
+   ],
+   "commander": {
+    "taarruz": 5,
+    "savunma": 20,
+    "ikmal": 0,
+    "asiri": 0,
+    "nitelik": 5,
+    "from": 1914,
+    "to": 1918
+   }
   },
   "fahreddin": {
    "id": "fahreddin",
@@ -474,7 +562,16 @@
    "text": "Fahreddin (Fahri) Paşa, Medine'nin müdafii. Şerif Hüseyin'in isyanından sonra Cemal Paşa onu 15–16 taburla Medine'ye kumandan atar. Faysal ona \"hükümetteki adamlara karşı\" katılması için mektuplar gönderir; o reddeder. Demiryoluna yapılan baskınlar karşı taarruzunu durdurur, ama şehri mütarekeden sonra da bir süre tutar.",
    "sources": [
     "{i:book} Kaynak: Fahreddin Paşa · [i]Türk kaynağı[/i]"
-   ]
+   ],
+   "commander": {
+    "taarruz": 0,
+    "savunma": 30,
+    "ikmal": 0,
+    "asiri": 0,
+    "nitelik": 0,
+    "from": 1916,
+    "to": 1919
+   }
   },
   "mehmed_resad": {
    "id": "mehmed_resad",
@@ -2508,6 +2605,19 @@
   "tuna_93": {
    "id": "tuna_93",
    "name": "Tuna ve Balkan",
+   "div0": 14,
+   "enemy_power": {
+    "n": 16
+   },
+   "supply": {
+    "n": 12
+   },
+   "terrain": "ova",
+   "targets": [
+    "tuna",
+    "dogu_rumeli",
+    "dobruca"
+   ],
    "war": "93 Harbi",
    "value": "tuna_93",
    "enemy": "RU",
@@ -2567,6 +2677,18 @@
   "kafkas_93": {
    "id": "kafkas_93",
    "name": "Kafkas ('93)",
+   "div0": 10,
+   "enemy_power": {
+    "n": 12
+   },
+   "supply": {
+    "n": 8
+   },
+   "terrain": "dağ",
+   "targets": [
+    "kars",
+    "batum"
+   ],
    "war": "93 Harbi",
    "value": "kafkas_93",
    "enemy": "RU",
@@ -2629,6 +2751,27 @@
   "trablus": {
    "id": "trablus",
    "name": "Trablusgarp",
+   "div0": 5,
+   "enemy_power": {
+    "n": 6
+   },
+   "supply": {
+    "op": "+",
+    "a": {
+     "n": 2
+    },
+    "b": {
+     "op": "/",
+     "a": {
+      "v": "bahriye"
+     },
+     "b": {
+      "n": 40
+     }
+    }
+   },
+   "terrain": "çöl",
+   "targets": [],
    "war": "Trablusgarp Harbi",
    "value": "trablus",
    "enemy": "IT",
@@ -2647,7 +2790,7 @@
    "strength": [
     "harbiye"
    ],
-   "opposition": 40,
+   "opposition": 50,
    "win": 65,
    "lose": 30,
    "provinces": [
@@ -2667,6 +2810,18 @@
   "trakya": {
    "id": "trakya",
    "name": "Trakya",
+   "div0": 16,
+   "enemy_power": {
+    "n": 20
+   },
+   "supply": {
+    "n": 14
+   },
+   "terrain": "ova",
+   "targets": [
+    "edirne",
+    "gumulcine"
+   ],
    "war": "Balkan Harbi",
    "value": "trakya",
    "enemy": "BU",
@@ -2706,6 +2861,18 @@
   "trakya_itilaf": {
    "id": "trakya_itilaf",
    "name": "Trakya (İtilaf yolu)",
+   "div0": 8,
+   "enemy_power": {
+    "n": 8
+   },
+   "supply": {
+    "n": 10
+   },
+   "terrain": "kale",
+   "targets": [
+    "edirne",
+    "gumulcine"
+   ],
    "war": "Büyük Harp",
    "value": "trakya",
    "enemy": "BU",
@@ -2755,6 +2922,92 @@
   "kafkas": {
    "id": "kafkas",
    "name": "Kafkas",
+   "div0": 12,
+   "enemy_power": {
+    "op": "-",
+    "a": {
+     "op": "-",
+     "a": {
+      "n": 14
+     },
+     "b": {
+      "op": "*",
+      "a": {
+       "f": "sarikamis_zafer"
+      },
+      "b": {
+       "n": 2
+      }
+     }
+    },
+    "b": {
+     "op": "*",
+     "a": {
+      "fn": "max",
+      "args": [
+       {
+        "n": 0
+       },
+       {
+        "op": "-",
+        "a": {
+         "k": "yil"
+        },
+        "b": {
+         "n": 1916
+        }
+       }
+      ]
+     },
+     "b": {
+      "n": 4
+     }
+    }
+   },
+   "supply": {
+    "op": "+",
+    "a": {
+     "op": "+",
+     "a": {
+      "op": "+",
+      "a": {
+       "n": 6
+      },
+      "b": {
+       "op": "*",
+       "a": {
+        "f": "dogu_hatti_1"
+       },
+       "b": {
+        "n": 2
+       }
+      }
+     },
+     "b": {
+      "op": "*",
+      "a": {
+       "f": "dogu_hatti_2"
+      },
+      "b": {
+       "n": 2
+      }
+     }
+    },
+    "b": {
+     "op": "/",
+     "a": {
+      "v": "dogu_hazirligi"
+     },
+     "b": {
+      "n": 10
+     }
+    }
+   },
+   "terrain": "dağ",
+   "targets": [
+    "kars",
+    "batum"
+   ],
    "war": "Büyük Harp",
    "value": "kafkas",
    "enemy": "RU",
@@ -2804,7 +3057,7 @@
     "harbiye",
     "dogu_hazirligi"
    ],
-   "opposition": 45,
+   "opposition": 50,
    "win": 65,
    "lose": 30,
    "provinces": [
@@ -2834,6 +3087,27 @@
   "canakkale": {
    "id": "canakkale",
    "name": "Çanakkale",
+   "div0": 8,
+   "enemy_power": {
+    "n": 14
+   },
+   "supply": {
+    "op": "+",
+    "a": {
+     "n": 10
+    },
+    "b": {
+     "op": "/",
+     "a": {
+      "v": "bahriye"
+     },
+     "b": {
+      "n": 20
+     }
+    }
+   },
+   "terrain": "kale",
+   "targets": [],
    "war": "Büyük Harp",
    "value": "canakkale",
    "enemy": "IN",
@@ -2865,7 +3139,7 @@
     "harbiye",
     "bahriye"
    ],
-   "opposition": 45,
+   "opposition": 50,
    "win": 65,
    "lose": 30,
    "provinces": [
@@ -2884,6 +3158,30 @@
   "irak": {
    "id": "irak",
    "name": "Irak",
+   "div0": 4,
+   "enemy_power": {
+    "n": 5
+   },
+   "supply": {
+    "op": "+",
+    "a": {
+     "n": 3
+    },
+    "b": {
+     "op": "*",
+     "a": {
+      "f": "kut_zafer"
+     },
+     "b": {
+      "n": 2
+     }
+    }
+   },
+   "terrain": "çöl",
+   "targets": [
+    "basra",
+    "bagdat"
+   ],
    "war": "Büyük Harp",
    "value": "irak",
    "enemy": "IN",
@@ -2914,7 +3212,7 @@
    "strength": [
     "harbiye"
    ],
-   "opposition": 40,
+   "opposition": 50,
    "win": 65,
    "lose": 30,
    "provinces": [
@@ -2934,6 +3232,36 @@
   "filistin": {
    "id": "filistin",
    "name": "Filistin ve Süveyş",
+   "div0": 6,
+   "enemy_power": {
+    "n": 8
+   },
+   "supply": {
+    "op": "+",
+    "a": {
+     "op": "+",
+     "a": {
+      "n": 4
+     },
+     "b": {
+      "f": "suveys_buyuk"
+     }
+    },
+    "b": {
+     "op": "*",
+     "a": {
+      "f": "hicaz_hatti"
+     },
+     "b": {
+      "n": 2
+     }
+    }
+   },
+   "terrain": "çöl",
+   "targets": [
+    "kudus",
+    "misir"
+   ],
    "war": "Büyük Harp",
    "value": "filistin",
    "enemy": "IN",
@@ -2964,7 +3292,7 @@
    "strength": [
     "harbiye"
    ],
-   "opposition": 45,
+   "opposition": 50,
    "win": 65,
    "lose": 30,
    "provinces": [
@@ -2984,6 +3312,29 @@
   "hicaz": {
    "id": "hicaz",
    "name": "Hicaz",
+   "div0": 2,
+   "enemy_power": {
+    "n": 3
+   },
+   "supply": {
+    "op": "+",
+    "a": {
+     "n": 2
+    },
+    "b": {
+     "op": "*",
+     "a": {
+      "f": "hicaz_hatti"
+     },
+     "b": {
+      "n": 2
+     }
+    }
+   },
+   "terrain": "çöl",
+   "targets": [
+    "hicaz"
+   ],
    "war": "Büyük Harp",
    "value": "hicaz",
    "enemy": "AR",
@@ -3018,7 +3369,7 @@
    "strength": [
     "harbiye"
    ],
-   "opposition": 45,
+   "opposition": 50,
    "win": 65,
    "lose": 30,
    "provinces": [
@@ -4618,7 +4969,7 @@
   {
    "id": "k_gelir",
    "file": "GD 02 Sistemler",
-   "line": 522,
+   "line": 523,
    "date": {
     "y": 1873,
     "m": 1,
@@ -4662,7 +5013,7 @@
   {
    "id": "k_dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 536,
+   "line": 537,
    "date": {
     "y": 1873,
     "m": 1,
@@ -4715,7 +5066,7 @@
   {
    "id": "k_bahriye_bakim",
    "file": "GD 02 Sistemler",
-   "line": 556,
+   "line": 557,
    "date": {
     "y": 1873,
     "m": 1,
@@ -4770,7 +5121,7 @@
   {
    "id": "dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 628,
+   "line": 629,
    "date": {
     "y": 1873,
     "m": 1,
@@ -4986,7 +5337,7 @@
   {
    "id": "m_para",
    "file": "GD 02 Sistemler",
-   "line": 664,
+   "line": 665,
    "date": {
     "y": 1873,
     "m": 1,
@@ -5025,7 +5376,7 @@
   {
    "id": "m_avrupa",
    "file": "GD 02 Sistemler",
-   "line": 669,
+   "line": 670,
    "date": {
     "y": 1873,
     "m": 1,
@@ -5946,7 +6297,7 @@
   {
    "id": "k_iflas",
    "file": "GD 02 Sistemler",
-   "line": 526,
+   "line": 527,
    "date": {
     "y": 1875,
     "m": 1,
@@ -9485,7 +9836,7 @@
   {
    "id": "k_halic",
    "file": "GD 02 Sistemler",
-   "line": 551,
+   "line": 552,
    "date": {
     "y": 1878,
     "m": 1,
@@ -9532,7 +9883,7 @@
   {
    "id": "k_jurnal",
    "file": "GD 02 Sistemler",
-   "line": 561,
+   "line": 562,
    "date": {
     "y": 1878,
     "m": 1,
@@ -9613,7 +9964,7 @@
   {
    "id": "m_hakimiyet",
    "file": "GD 02 Sistemler",
-   "line": 647,
+   "line": 648,
    "date": {
     "y": 1878,
     "m": 1,
@@ -9673,7 +10024,7 @@
   {
    "id": "m_jon_turk",
    "file": "GD 02 Sistemler",
-   "line": 653,
+   "line": 654,
    "date": {
     "y": 1878,
     "m": 1,
@@ -9731,7 +10082,7 @@
   {
    "id": "m_halic",
    "file": "GD 02 Sistemler",
-   "line": 658,
+   "line": 659,
    "date": {
     "y": 1878,
     "m": 1,
@@ -12531,7 +12882,7 @@
   {
    "id": "k_harbiye_curume",
    "file": "GD 02 Sistemler",
-   "line": 541,
+   "line": 542,
    "date": {
     "y": 1879,
     "m": 1,
@@ -12892,7 +13243,7 @@
   {
    "id": "m_alman",
    "file": "GD 02 Sistemler",
-   "line": 674,
+   "line": 675,
    "date": {
     "y": 1880,
     "m": 1,
@@ -12931,7 +13282,7 @@
   {
    "id": "m_ermeni",
    "file": "GD 02 Sistemler",
-   "line": 679,
+   "line": 680,
    "date": {
     "y": 1880,
     "m": 1,
@@ -12970,7 +13321,7 @@
   {
    "id": "m_arap",
    "file": "GD 02 Sistemler",
-   "line": 684,
+   "line": 685,
    "date": {
     "y": 1880,
     "m": 1,
@@ -13415,7 +13766,7 @@
   {
    "id": "k_duyun",
    "file": "GD 02 Sistemler",
-   "line": 531,
+   "line": 532,
    "date": {
     "y": 1881,
     "m": 1,
@@ -13793,7 +14144,7 @@
   {
    "id": "k_misir_osmanli",
    "file": "GD 02 Sistemler",
-   "line": 616,
+   "line": 617,
    "date": {
     "y": 1882,
     "m": 1,
@@ -14696,7 +15047,7 @@
   {
    "id": "k_goltz",
    "file": "GD 02 Sistemler",
-   "line": 546,
+   "line": 547,
    "date": {
     "y": 1883,
     "m": 1,
@@ -14767,7 +15118,7 @@
   {
    "id": "m_misir",
    "file": "GD 02 Sistemler",
-   "line": 710,
+   "line": 711,
    "date": {
     "y": 1883,
     "m": 1,
@@ -15255,7 +15606,7 @@
   {
    "id": "k_reji_milli",
    "file": "GD 02 Sistemler",
-   "line": 611,
+   "line": 612,
    "date": {
     "y": 1884,
     "m": 1,
@@ -16063,7 +16414,7 @@
   {
    "id": "m_reji",
    "file": "GD 02 Sistemler",
-   "line": 699,
+   "line": 700,
    "date": {
     "y": 1885,
     "m": 1,
@@ -16110,7 +16461,7 @@
   {
    "id": "m_reji_milli",
    "file": "GD 02 Sistemler",
-   "line": 705,
+   "line": 706,
    "date": {
     "y": 1885,
     "m": 1,
@@ -18225,7 +18576,7 @@
   {
    "id": "k_hamidiye",
    "file": "GD 02 Sistemler",
-   "line": 566,
+   "line": 567,
    "date": {
     "y": 1891,
     "m": 1,
@@ -18294,7 +18645,7 @@
   {
    "id": "k_dogu_jandarma",
    "file": "GD 02 Sistemler",
-   "line": 571,
+   "line": 572,
    "date": {
     "y": 1891,
     "m": 1,
@@ -18351,7 +18702,7 @@
   {
    "id": "m_kurt",
    "file": "GD 02 Sistemler",
-   "line": 689,
+   "line": 690,
    "date": {
     "y": 1891,
     "m": 1,
@@ -26697,7 +27048,7 @@
   {
    "id": "k_ittihat_ordu",
    "file": "GD 02 Sistemler",
-   "line": 576,
+   "line": 577,
    "date": {
     "y": 1909,
     "m": 1,
@@ -28392,7 +28743,7 @@
   {
    "id": "m_dogu",
    "file": "GD 02 Sistemler",
-   "line": 694,
+   "line": 695,
    "date": {
     "y": 1910,
     "m": 1,
@@ -36860,7 +37211,7 @@
   {
    "id": "k_harp",
    "file": "GD 02 Sistemler",
-   "line": 581,
+   "line": 582,
    "date": {
     "y": 1914,
     "m": 1,
@@ -36907,7 +37258,7 @@
   {
    "id": "m_cokus",
    "file": "GD 02 Sistemler",
-   "line": 715,
+   "line": 716,
    "date": {
     "y": 1914,
     "m": 1,
@@ -42101,7 +42452,7 @@
   {
    "id": "k_cokus_agir",
    "file": "GD 02 Sistemler",
-   "line": 586,
+   "line": 587,
    "date": {
     "y": 1915,
     "m": 1,
@@ -42168,7 +42519,7 @@
   {
    "id": "k_cokus",
    "file": "GD 02 Sistemler",
-   "line": 591,
+   "line": 592,
    "date": {
     "y": 1915,
     "m": 1,
@@ -42246,7 +42597,7 @@
   {
    "id": "k_hamid_ordu",
    "file": "GD 02 Sistemler",
-   "line": 596,
+   "line": 597,
    "date": {
     "y": 1915,
     "m": 1,
@@ -42313,7 +42664,7 @@
   {
    "id": "k_hamid_bogaz",
    "file": "GD 02 Sistemler",
-   "line": 601,
+   "line": 602,
    "date": {
     "y": 1915,
     "m": 1,
@@ -42369,7 +42720,7 @@
   {
    "id": "k_cokus_deniz",
    "file": "GD 02 Sistemler",
-   "line": 606,
+   "line": 607,
    "date": {
     "y": 1915,
     "m": 1,
@@ -46051,7 +46402,7 @@
   {
    "id": "k_suriye",
    "file": "GD 02 Sistemler",
-   "line": 621,
+   "line": 622,
    "date": {
     "y": 1916,
     "m": 1,

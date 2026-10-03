@@ -27,7 +27,7 @@ Görünür olanlar masada, çubuk olarak durur (0–100). Gizli olanları oyuncu
 | avrupa_baskisi | Avrupa baskısı | 35 | hayır | Büyük devletlerin baskısı: ıslahat talepleri, müdahale, barış şartları. |
 | enver_iliskisi | Enver'le ilişki | 50 | hayır | İttihat yolunda Talat'ın Enver'i ne kadar durdurabileceği. İhtiyat onu harcar. |
 | cokus | Çöküş | 0 | hayır | Abdülhamid yolunda harp başlayınca işleyen sayaç. 100'e varınca Rus ordusu Payitahttadır. Harbiye 35'in üstündeyse ve Boğaz tutulduysa geriler. |
-| kafkas | Kafkas cephesi | 50 | hayır | Cephe dengesi: 0 düşmanın, 100 bizim. Harp yıllarında haritada cephe işaretinde görünür; her ay ordunun gücüne göre bir puan kayar. Bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]]. |
+| kafkas | Kafkas cephesi | 50 | hayır | Cephe dengesi: 0 düşmanın, 100 bizim. Harp yıllarında haritada cephe işaretinde görünür; her ay cepheye ayrılan tümenlerin düşman gücüne oranıyla kayar (ikmal, arazi, duruş ve komutan etkiler; bkz. REWORK §6). Bkz. [[GD 05 Harita ve Harpler#Harpler ve cepheler]]. |
 | canakkale | Çanakkale cephesi | 50 | hayır | Cephe durumu. |
 | irak | Irak cephesi | 50 | hayır | Cephe durumu. |
 | filistin | Filistin cephesi | 50 | hayır | Cephe durumu. |
@@ -36,6 +36,7 @@ Görünür olanlar masada, çubuk olarak durur (0–100). Gizli olanları oyuncu
 | kafkas_93 | Kafkas cephesi ('93) | 50 | hayır | 93 Harbi'nin doğu cephesi. |
 | trablus | Trablusgarp cephesi | 50 | hayır | 1911–12 İtalya harbi. |
 | trakya | Trakya cephesi | 50 | hayır | 1912–13 Balkan Harbi. |
+| harp_yorgunlugu | Harp yorgunluğu | 0 | hayır | Harp süren her ay cephelerdeki kayıpla artar (REWORK §6); moral her ay yorgunluğun elliye bölümü kadar düşer. Barışta yıllık düşer. |
 
 **Denge ölçüsü (yazarlar için):** küçük etki ±3–5 · orta ±8–12 · büyük ±15–25. Yıllık gelir +10'dur; bir yılda iki büyük harcama yapan oyuncu ertesi yıl darda kalmalıdır. Her seçenek bir şey verir, bir şey alır: bedava seçenek ancak bir emirle çözülen durumlarda olur (ör. depodaki kaputların dağıtılması).
 
@@ -99,12 +100,12 @@ Selanikli iktisatçı, İttihatçıların Maliye Nazırı ve iç çevrenin en sa
 > Kaynak: [[Cavid Bey]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 88|Güneş, *Türkiye'de Hükümetler*, p. 88]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 96|Yalman, p. 96]] · *Türk kaynağı*
 
 ### Kişi · Mahmud Şevket Paşa
-`kişi: mahmud_sevket` · `unvan: Harbiye Nazırı Mahmud Şevket Paşa (1913'te Sadrazam)` · `görsel: Mahmud Shevket Pasha.png` · `rol: harbiye`
+`kişi: mahmud_sevket` · `unvan: Harbiye Nazırı Mahmud Şevket Paşa (1913'te Sadrazam)` · `görsel: Mahmud Shevket Pasha.png` · `rol: harbiye` · `komutan: nitelik +10 · taarruz +5` · `komuta: 1909-1913`
 Alman terbiyeli bir kurmay; Goltz Paşa'nın yardımcısı olarak yetişir. Nisan 1909'da 31 Mart ayaklanmasını bastıran Hareket Ordusu'nun kumandanıdır; sonra üç ordunun müfettişi ve 1910'dan Harbiye Nazırı olur. Babıâli Baskını'ndan sonra sadrazam ve Harbiye Nazırı yapılır; orduyu Alman kumandasına verme fikri Liman von Sanders heyetini doğurur. 11 Haziran 1913'te Beyazıt'ta öldürülür.
 > Kaynak: [[Mahmud Şevket Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 99|Güneş, p. 99]] · *Türk kaynağı*
 
 ### Kişi · Ahmed İzzet Paşa
-`kişi: ahmed_izzet` · `unvan: Harbiye Nazırı Ahmed İzzet Paşa` · `görsel: Ahmet İzzet Paşa.jpg` · `rol: harbiye`
+`kişi: ahmed_izzet` · `unvan: Harbiye Nazırı Ahmed İzzet Paşa` · `görsel: Ahmet İzzet Paşa.jpg` · `rol: harbiye` · `komutan: savunma +10 · ikmal +5` · `komuta: 1912-1918`
 Alman terbiyeli bir general ve erkân-ı harbiye reisi. Balkan Harbi'nden sonra, Mahmud Şevket'in öldürülmesinin ardından Harbiye Nazırı olur; Aralık 1913'te koltuğu Enver'e bırakır. Ekim 1918'de sadrazamdır: kısa ömürlü kabinesi Mondros Mütarekesi'ni imzalar ve çekilir. İttihatçılar onu, çevresinde Cavid ile Fethi'nin çalışabileceği "ağırbaşlı bir kumandan" olarak görür.
 > Kaynak: [[Ahmed İzzet Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 127|Güneş, *Türkiye'de Hükümetler*, p. 127]] · *Türk kaynağı*
 
@@ -114,12 +115,12 @@ Bahriye Nezareti 1909–1913 arasında kabineden kabineye ve vekâletle el deği
 > Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 114|Güneş, p. 114]] · *Türk kaynağı*
 
 ### Kişi · Enver Paşa
-`kişi: enver` · `unvan: Harbiye Nazırı Enver Paşa` · `görsel: Enver Pasha 1911.jpg` · `görseller: 1914=Der türkische Kriegsminister Enver Pascha.png` · `rol: harbiye`
+`kişi: enver` · `unvan: Harbiye Nazırı Enver Paşa` · `görsel: Enver Pasha 1911.jpg` · `görseller: 1914=Der türkische Kriegsminister Enver Pascha.png` · `rol: harbiye` · `komutan: taarruz +25 · savunma 0 · ikmal -15 · aşırı +60` · `komuta: 1911-1918`
 1908 ihtilalinin kahraman subayı; Makedonya'daki devrimciler arasında öne çıkar, 23 Temmuz 1908'de balkondan "Hasta adamı iyileştirdik!" diye bağırır. 1909–1911'de Berlin'de ataşemiliter, 1911–1912'de Trablusgarp'ta Bingazi–Derne cephesinin kumandanıdır. Babıâli Baskını'nın ve Edirne'nin geri alınmasının kahramanı olarak Ocak 1914'te Harbiye Nazırı olur. Yalman'a göre ülkeyi harbe tek başına sürükleyen odur; Sarıkamış harekâtı da onun planıdır. Mütarekeden sonra kaçar; 1922'de Orta Asya'da ölür.
 > Kaynak: [[Enver Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 127|Güneş, p. 127]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 98|Yalman, p. 98]] · *Türk kaynağı*
 
 ### Kişi · Cemal Paşa
-`kişi: cemal` · `unvan: Bahriye Nazırı Cemal Paşa` · `görsel: Djemal Pasha2.png` · `rol: bahriye`
+`kişi: cemal` · `unvan: Bahriye Nazırı Cemal Paşa` · `görsel: Djemal Pasha2.png` · `rol: bahriye` · `komutan: taarruz +5 · ikmal -5 · aşırı +20` · `komuta: 1914-1918`
 "Büyük" Cemal Paşa, İttihat ve Terakki üçlüsünün üçüncüsü. Balkan Harbi'nde Konya ihtiyat tümenini kumanda eder, sonra İstanbul muhafızı ve Bahriye Nazırı olur; harbin arifesinde Fransa ile ittifaktan yanadır. 1914 sonundan itibaren 4. Ordu kumandanı olarak Suriye'yi yönetir, Süveyş harekâtını düzenler ve Şam'da Arap milliyetçilerini astırır. 1918'de Talat ve Enver'le kaçar; 25 Temmuz 1922'de Tiflis'te öldürülür. Hatıratı kasanın kaynaklarındandır.
 > Kaynak: [[Cemal Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 127|Güneş, p. 127]] · *Türk kaynağı*
 
@@ -129,7 +130,7 @@ Hüseyin Rauf (Orbay), Balkan Harbi'nin "Hamidiye kahramanı" deniz subayı. 191
 > Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 178|Güneş, p. 178]] · [[Şahbaba (Murat Bardakçı)#p. 116|Bardakçı, *Şahbaba*, p. 116]] · *Türk kaynağı*
 
 ### Kişi · Mustafa Kemal
-`kişi: mustafa_kemal` · `unvan: Mustafa Kemal Bey (Paşa)` · `görsel: Ataturk, Ottoman War Academy, 1901.jpg` · `görseller: 1915=Mustafa Kemal, 1916.png · 1917=Mustafa Kemal 1917 (AtaturkYildirim, kırpılmış).jpg` · `rol: figür`
+`kişi: mustafa_kemal` · `unvan: Mustafa Kemal Bey (Paşa)` · `görsel: Ataturk, Ottoman War Academy, 1901.jpg` · `görseller: 1915=Mustafa Kemal, 1916.png · 1917=Mustafa Kemal 1917 (AtaturkYildirim, kırpılmış).jpg` · `rol: figür` · `komutan: taarruz +10 · savunma +25 · ikmal +10 · aşırı -20` · `komuta: 1911-1919`
 Selanikli genç bir kurmay. 1905–1907'de Şam'da Vatan ve Hürriyet'i kurar, 1907 sonbaharında Selanik'te İttihat ve Terakki'ye girer ve Enver'le ilk anlaşmazlığını yaşar. Trablusgarp'ta Enver'in emrinde Derne'de, Balkan Harbi'nde Bolayır'da savaşır, 1913–1915'te Sofya'da ataşemiliterdir. Çanakkale'de Arıburnu ve Anafartalar'ın kumandanı olarak adını duyurur; 1916'da Bitlis ve Muş'u geri alır, 1917'de Cemal Paşa'yla çatışıp istifa eder. 19 Mayıs 1919'da Samsun'a çıkar.
 > Kaynak: [[Mustafa Kemal Atatürk]] · [[Atatürk Hakkında Hatıralar ve Belgeler (Afet İnan)#p. 86|İnan, *Atatürk Hakkında Hatıralar ve Belgeler*, p. 86]] · [[Enver (Murat Bardakçı)#p. 115|Bardakçı, *Enver*, p. 115]] · *Türk kaynağı*
 
@@ -139,12 +140,12 @@ Resneli Kolağası Ahmed Niyazi, Arnavut bir subay. 3 Temmuz 1908'de 160 kişili
 > Kaynak: [[Resneli Niyazi]] · *Türk kaynağı*
 
 ### Kişi · Gazi Osman Paşa
-`kişi: osman_pasa` · `unvan: Gazi Osman Paşa` · `görsel: Osman Pascha (Gazi Osman Paşa).jpg` · `rol: figür`
+`kişi: osman_pasa` · `unvan: Gazi Osman Paşa` · `görsel: Osman Pascha (Gazi Osman Paşa).jpg` · `rol: figür` · `komutan: savunma +35 · taarruz -5` · `komuta: 1877-1878`
 Plevne'nin müdafii. 1877'de Vidin'den Plevne'ye yetişir ve beş ay boyunca, Bardakçı'nın deyişiyle "bir avuç askerle yüz binlerce kişilik bir Rus ordusunu durdurur"; İngiliz ve Amerikalı gözlemciler de onu över. Aralık 1877'de yaralı olarak teslim olur. Esaretten dönünce Abdülhamid onu yanında, Yıldız'da Mabeyn müşiri olarak tutar; hem şerefini kullanır hem de onun bir muhalefet odağı olmasını önler. Askerin tanıdığı "son kahraman" diye anılır.
 > Kaynak: [[Gazi Osman Paşa]] · *Türk kaynağı*
 
 ### Kişi · Gazi Ahmed Muhtar Paşa
-`kişi: ahmed_muhtar` · `unvan: Gazi Ahmed Muhtar Paşa` · `görsel: Ahmet muhtar.jpg` · `rol: figür`
+`kişi: ahmed_muhtar` · `unvan: Gazi Ahmed Muhtar Paşa` · `görsel: Ahmet muhtar.jpg` · `rol: figür` · `komutan: savunma +20 · taarruz +5` · `komuta: 1877-1878`
 Mareşal ve sadrazam. '93 Harbi'nde Kafkas cephesinde birkaç zafer kazanır, ama Rusları durduramaz; Kars 18 Kasım 1877'de düşer. Sonra yirmi yılı aşkın bir süre Abdülhamid'in Mısır fevkalade komiseridir ve Sudan sınırında İngiliz tekliflerine direnir. 1912'de sadrazam olur; kabinesi Balkan bunalımının ortasında, 29 Ekim 1912'de istifaya zorlanır.
 > Kaynak: [[Gazi Ahmed Muhtar Paşa]] · *Türk kaynağı*
 
@@ -154,17 +155,17 @@ Büyük ıslahatçı vali ve "Kanun-ı Esasi'nin babası". Tuna ve Bağdat valil
 > Kaynak: [[Midhat Paşa]] · *Türk kaynağı*
 
 ### Kişi · Goltz Paşa
-`kişi: goltz` · `unvan: Colmar von der Goltz Paşa` · `görsel: Colmar von der Goltz.jpg` · `rol: figür`
+`kişi: goltz` · `unvan: Colmar von der Goltz Paşa` · `görsel: Colmar von der Goltz.jpg` · `rol: figür` · `komutan: nitelik +15 · savunma +10` · `komuta: 1914-1916`
 Colmar von der Goltz, "Goltz Paşa". 1883'te İstanbul'a gelir ve Harbiye'de bir kuşak Osmanlı subayı yetiştirir; *Das Volk in Waffen* kitabı onların elinden düşmez. İttihatçılar onu eski rejimden daha çok kullanır; 1910 manevralarında Türk subaylarının eksiklerini açıkça eleştirir. Büyük Harp'te önce padişahın yaveri, sonra Irak'ta 6. Ordu'nun kumandanıdır; Liman von Sanders'le anlaşamaz. Nisan 1916'da Bağdat'ta tifüsten ölür.
 > Kaynak: [[Colmar von der Goltz]] · *Alman kaynağı*
 
 ### Kişi · Liman von Sanders
-`kişi: liman` · `unvan: Liman von Sanders Paşa` · `görsel: Bundesarchiv Bild 183-2007-0917-501, Otto Liman von Sanders.jpg` · `rol: figür`
+`kişi: liman` · `unvan: Liman von Sanders Paşa` · `görsel: Bundesarchiv Bild 183-2007-0917-501, Otto Liman von Sanders.jpg` · `rol: figür` · `komutan: savunma +20 · taarruz +5 · nitelik +5` · `komuta: 1914-1918`
 Otto Liman von Sanders, Aralık 1913'te gelen Alman askerî heyetinin başı. Rusya bir Alman'ın İstanbul'daki kolorduya kumanda etmesine itiraz edince mareşal yapılır ve Müfettiş-i Umumi unvanını alır. Çanakkale'de 5. Ordu'yla Boğaz müdafaasını, 1918'de Filistin'de Yıldırım Ordular Grubu'nu kumanda eder. Enver'le sık sık çatışır; hatıratı *Türkiye'de Beş Yıl* kasanın kaynaklarındandır.
 > Kaynak: [[Liman von Sanders]] · *Alman kaynağı*
 
 ### Kişi · Fahreddin Paşa
-`kişi: fahreddin` · `unvan: Fahreddin Paşa, Medine muhafızı` · `görsel: Ömer Fahreddin Paşa.jpg` · `rol: figür`
+`kişi: fahreddin` · `unvan: Fahreddin Paşa, Medine muhafızı` · `görsel: Ömer Fahreddin Paşa.jpg` · `rol: figür` · `komutan: savunma +30` · `komuta: 1916-1919`
 Fahreddin (Fahri) Paşa, Medine'nin müdafii. Şerif Hüseyin'in isyanından sonra Cemal Paşa onu 15–16 taburla Medine'ye kumandan atar. Faysal ona "hükümetteki adamlara karşı" katılması için mektuplar gönderir; o reddeder. Demiryoluna yapılan baskınlar karşı taarruzunu durdurur, ama şehri mütarekeden sonra da bir süre tutar.
 > Kaynak: [[Fahreddin Paşa]] · *Türk kaynağı*
 

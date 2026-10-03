@@ -632,11 +632,28 @@ def main():
                     im = image(where, fn.strip())
                     if im:
                         dated.append({"from": int(yy), "image": im})
+                commander = None
+                if "komutan" in fields or "komuta" in fields:
+                    commander = {"taarruz": 0, "savunma": 0, "ikmal": 0, "asiri": 0, "nitelik": 0, "from": 0, "to": 0}
+                    keymap = {"taarruz": "taarruz", "savunma": "savunma", "ikmal": "ikmal", "aşırı": "asiri", "nitelik": "nitelik"}
+                    for part in [x.strip() for x in re.split(r"\s·\s", fields.get("komutan", "")) if x.strip()]:
+                        cm = re.fullmatch(r"(\S+)\s+([+-]?\d+)", part)
+                        if not cm or cm.group(1) not in keymap:
+                            err(where, f"kişi {fields['kişi']}: komutan: '{part}' must be '<alan> +N' (taarruz/savunma/ikmal/aşırı/nitelik)")
+                            continue
+                        commander[keymap[cm.group(1)]] = int(cm.group(2))
+                    rm = re.fullmatch(r"(\d{4})\s*-\s*(\d{4})", fields.get("komuta", ""))
+                    if not rm:
+                        err(where, f"kişi {fields['kişi']}: komutan requires komuta: YYYY-YYYY")
+                    else:
+                        commander["from"], commander["to"] = int(rm.group(1)), int(rm.group(2))
                 persons[fields["kişi"]] = {"id": fields["kişi"], "name": title, "title": fields.get("unvan", title),
                                            "images": sorted(dated, key=lambda d: d["from"]),
                                            "role": fields.get("rol", ""), "image": image(where, fields.get("görsel")),
                                            "text": to_bbcode(para, codex_refs),
                                            "sources": [src_line(s) for s in srcs]}
+                if commander:
+                    persons[fields["kişi"]]["commander"] = commander
                 continue
             if "il" in fields and "yer" not in fields and "id" not in fields:
                 pid = fields["il"]
@@ -680,10 +697,30 @@ def main():
                 sm = re.fullmatch(r"(\d{4})-(\d{2})", fields.get("başlangıç", ""))
                 if not sm:
                     err(where, f"cephe {fid}: başlangıç must be YYYY-MM")
-                fronts[fid] = {"id": fid, "name": title, "war": fields.get("harp", ""), "value": val,
+                fr_exprs = {}
+                for key, jk in (("düşman_güç", "enemy_power"), ("ikmal", "supply")):
+                    if key not in fields:
+                        err(where, f"cephe {fid}: {key} is required")
+                        continue
+                    ast, fl = parse_expr(where, fields[key], resolve)
+                    fr_exprs[jk] = ast
+                    for f in fl:
+                        flags_read[f].append(f"cephe {fid}")
+                if "kuvvet" not in fields or not fields["kuvvet"].strip().isdigit():
+                    err(where, f"cephe {fid}: kuvvet must be an integer")
+                terrain = fields.get("arazi", "")
+                if terrain not in ("dağ", "ova", "çöl", "kale", "deniz"):
+                    err(where, f"cephe {fid}: arazi must be dağ|ova|çöl|kale|deniz, got '{terrain}'")
+                targets = [x.strip() for x in fields.get("hedef", "").split(",") if x.strip()]
+                for t in targets:
+                    if t not in prov_ids:
+                        err(where, f"cephe {fid}: hedef: unknown province '{t}'")
+                fronts[fid] = {"id": fid, "name": title, "div0": int(fields.get("kuvvet", "0")) if fields.get("kuvvet", "").strip().isdigit() else 0,
+                               "enemy_power": fr_exprs.get("enemy_power"), "supply": fr_exprs.get("supply"),
+                               "terrain": terrain, "targets": targets, "war": fields.get("harp", ""), "value": val,
                                "enemy": fields.get("düşman", ""), "lonlat": [lon, lat], "cond": fcond,
                                "start": {"y": int(sm.group(1)), "m": int(sm.group(2))} if sm else {"y": 0, "m": 1},
-                               "strength": [x for x in strength if x], "opposition": int(fields.get("karşı", "45")),
+                               "strength": [x for x in strength if x], "opposition": 50,  # geçici uyumluluk; W3b'de kalkacak
                                "win": int(fields.get("zafer", "70")), "lose": int(fields.get("yenilgi", "25")),
                                "provinces": [x.strip() for x in fields.get("iller", "").split(",") if x.strip()],
                                "border": [x.strip() for x in fields.get("sınır", "").split(",") if x.strip()],
