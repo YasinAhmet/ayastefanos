@@ -88,6 +88,20 @@ func _run() -> void:
 	for y in [1908, 1914]:
 		desk.jump_to(y, 1)
 		print("debug jump → ", st.year, "-", st.month, " mode ", st.mode)
+	desk.jump_to(1914, 12)
+	var act := 0
+	for fid in st.fronts:
+		if st.front_active(fid):
+			act += 1
+			desk.show_front(fid)
+			st.set_stance(fid, "taarruz")
+			st.transfer(fid, 1)
+			var cs: Array = st.commanders_for(fid)
+			if not cs.is_empty():
+				st.set_commander(fid, cs[0])
+			await process_frame
+			desk.show_front(fid)
+	print("active fronts at 1914-12: ", act, " historical: ", st.historical())
 	desk.open_wiki("Cemal Paşa")
 	desk.open_wiki("")
 	desk.wiki._go(0)

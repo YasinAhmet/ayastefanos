@@ -1147,6 +1147,8 @@ func show_front(fid: String) -> void:
 		body.add_child(UIKit.rich("[b]%s[/b] (%s) — %s" % [res["title"], Logic.date_text(int(res["y"]), int(res["m"])), EventPanel._plain(str(res["option"]))], 12))
 		if str(res.get("outcome", "")) != "":
 			body.add_child(UIKit.rich("[i]%s[/i]" % res["outcome"], 11))
+	if state.front_active(fid):
+		_front_command(body, fid)
 	var log: Array = state.front_log.get(fid, [])
 	if not log.is_empty():
 		body.add_child(UIKit.section("Dengeyi değiştirenler"))
@@ -1168,6 +1170,93 @@ func show_front(fid: String) -> void:
 	if str(f.get("text", "")) != "":
 		_description(body, str(f["text"]))
 	UIKit.add_sources(body, f.get("sources", []), panels._linked)
+
+
+## "Harbiye Nezareti": the numbers of an active front and, outside historical mode, the player's orders.
+func _front_command(body: VBoxContainer, fid: String) -> void:
+	var r: Dictionary = state.front_report(fid)
+	var fs: Dictionary = state.fstate.get(fid, {})
+	var hist: bool = state.historical()
+	body.add_child(UIKit.section("Harbiye Nezareti"))
+	var ratio := float(r["ratio"])
+	var rcol := "#8fbf6f" if ratio > 1.2 else ("#e08070" if ratio < 0.85 else "#c8a15c")
+	body.add_child(UIKit.rich("Etkin güç [b]%.1f[/b] / düşman [b]%.1f[/b]  ·  oran [color=%s][b]%.2f[/b][/color]" % [float(r["ours"]), float(r["enemy"]), rcol, ratio], 12))
+	body.add_child(UIKit.label("Tümen %d / ikmal kapasitesi %.0f" % [int(r["div"]), float(r["cap"])], 11, UIKit.INK))
+	if r["overextended"]:
+		body.add_child(UIKit.label("Aşırı yük: ikmal yetmeyen tümenler gücün çeyreğini verir.", 10, Color("e08070"), true))
+	var mrow := UIKit.hbox(6)
+	mrow.add_child(UIKit.label("Moral", 11, UIKit.INK))
+	var mb := UIKit.bar(int(r["morale"]), UIKit.GOLD, 120)
+	mrow.add_child(mb)
+	mrow.add_child(UIKit.label("%d" % int(r["morale"]), 10, UIKit.MUTED))
+	body.add_child(mrow)
+	var dr := int(r["expected_drift"])
+	var dcol := "#8fbf6f" if dr > 0 else ("#e08070" if dr < 0 else "#ab9d82")
+	body.add_child(UIKit.rich("Beklenen aylık kayma [color=%s]%s[/color]  ·  zayiat ≈ %d bin" % [dcol,
+		("▲ %d" % dr) if dr > 0 else (("▼ %d" % -dr) if dr < 0 else "0"), roundi(float(r["expected_losses"]) * 10.0)], 11))
+	var nt := str(r["next_target"])
+	body.add_child(UIKit.label("Derinlik %d%s" % [int(r["depth"]), "  ·  sıradaki hedef: " + str(state.provinces.get(nt, {}).get("name", nt)) if nt != "" else ""], 11, UIKit.INK, true))
+	if r["overextended"] and int(r["depth"]) > 0:
+		body.add_child(UIKit.label("İkmal hattı aşırı uzadı", 11, Color("e08070")))
+	var fat: int = state.value_of("harp_yorgunlugu")
+	body.add_child(UIKit.label("Yorgunluk: %s  ·  ulusal havuz: %d tümen (yedek %d)" % [
+		"düşük" if fat < 15 else ("orta" if fat < 40 else ("yüksek" if fat < 70 else "çok yüksek")), state.army_total(), state.army_reserve()], 10, UIKit.MUTED, true))
+	if hist:
+		body.add_child(UIKit.label("Tarihî modda ordu tarihteki gibi yönetilir.", 10, UIKit.MUTED, true))
+		return
+	# stance
+	var srow := UIKit.hbox(4)
+	for o in [["taarruz", "Taarruz"], ["savunma", "Savunma"], ["geri", "Geri çekil"]]:
+		var on: bool = str(fs.get("stance", "savunma")) == o[0]
+		var b := UIKit.button(o[1], UIKit.SEAL if on else UIKit.PANEL_2, 11)
+		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		b.pressed.connect(func(): state.set_stance(fid, o[0]))
+		srow.add_child(b)
+	body.add_child(srow)
+	# commander
+	var cur := str(fs.get("commander", ""))
+	var opt := OptionButton.new()
+	opt.add_theme_font_size_override("font_size", 11)
+	opt.add_item("Komutansız")
+	opt.set_item_metadata(0, "")
+	var sel := 0
+	for pid in state.commanders_for(fid):
+		var other: String = state.commander_front(pid)
+		var nm := str(state.persons[pid].get("name", pid))
+		if other != "" and other != fid:
+			nm += " (%s cephesinde)" % str(state.fronts[other]["name"])
+		opt.add_item(nm)
+		var i := opt.item_count - 1
+		opt.set_item_metadata(i, pid)
+		if pid == cur:
+			sel = i
+	opt.select(sel)
+	opt.item_selected.connect(func(i):
+		var pid := str(opt.get_item_metadata(i))
+		var other: String = state.commander_front(pid) if pid != "" else ""
+		if other != "" and other != fid:
+			state.set_commander(other, "")
+		if not state.set_commander(fid, pid):
+			refresh())
+	body.add_child(opt)
+	var cm = state.persons.get(cur, {}).get("commander") if cur != "" else null
+	if typeof(cm) == TYPE_DICTIONARY:
+		body.add_child(UIKit.label("taarruz %+d · savunma %+d · ikmal %+d · aşırı %+d · nitelik %+d" % [int(cm["taarruz"]), int(cm["savunma"]), int(cm["ikmal"]), int(cm["asiri"]), int(cm["nitelik"])], 10, UIKit.MUTED, true))
+	# divisions
+	var reserve: int = state.army_reserve()
+	var trow := UIKit.hbox(4)
+	for n in [1, 3, -1, -3]:
+		var b := UIKit.button(("+%d tümen gönder" % n) if n > 0 else ("−%d geri çek" % -n), UIKit.PANEL_2, 10)
+		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		if n > 0 and reserve < n:
+			b.disabled = true
+		if n < 0 and float(fs.get("div", 0.0)) < -n:
+			b.disabled = true
+		b.pressed.connect(func(): state.transfer(fid, n))
+		trow.add_child(b)
+	body.add_child(trow)
+	for inc in fs.get("incoming", []):
+		body.add_child(UIKit.label("yolda: %d tümen (%d ay sonra)" % [int(inc["div"]), maxi(1, int(inc["at"]) - state.now_key())], 10, UIKit.MUTED))
 
 
 func _holder_text(prov: String) -> String:
