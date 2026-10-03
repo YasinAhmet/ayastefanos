@@ -78,6 +78,11 @@ const YEAR_BY := "Yıllık kural"
 var rng := RandomNumberGenerator.new()
 var rng_seed := 0
 var value_log: Dictionary = {}      # resource id -> [{y, m, d, by}]: every change to a value and its cause
+var focuses: Dictionary = {}        # focus id -> {id, name, text, from, to, months, requires, excludes, hist, cond, effects, sources, nation} (REWORK §10)
+var focus_order: Array = []         # focus ids in file order
+var focus_current := ""             # the running Gündem ("" = none)
+var focus_progress := 0             # months it has run
+var focus_done: Dictionary = {}     # focus id -> month key it finished
 var _branches: Array = []           # roll/tier branches picked while applying the current answer ({label, text})
 
 
@@ -111,6 +116,8 @@ func load_data(path := DATA_PATH) -> bool:
 		provinces[p["id"]] = p
 	landmarks = data.get("landmarks", {})
 	fronts = data.get("fronts", {})
+	focuses = data.get("focuses", {})
+	focus_order = focuses.keys()
 	pop_groups.clear()
 	pop_order.clear()
 	for g in data.get("pop_groups", []):
@@ -158,6 +165,9 @@ func new_game(game_mode := "serbest", game_pace := "ayrintili", start_year := ST
 	front_log.clear()
 	front_taken.clear()
 	fstate.clear()
+	focus_current = ""
+	focus_progress = 0
+	focus_done.clear()
 	deaths.clear()
 	population = pop_start.duplicate(true)
 	year = START.x
@@ -178,6 +188,7 @@ func new_game(game_mode := "serbest", game_pace := "ayrintili", start_year := ST
 	if start_year > START.x:
 		_replay_to(start_year)
 	pace = game_pace
+	_focus_auto()
 	settle()
 	changed.emit()
 
@@ -955,6 +966,103 @@ func _front_border(fid: String) -> void:
 	front_taken[fid] = rec
 
 
+# ---------------------------------------------------------------- Gündem (REWORK §10)
+
+## "done" | "active" | "available" | "locked"
+func focus_state(id: String) -> String:
+	if focus_done.has(id):
+		return "done"
+	if focus_current == id:
+		return "active"
+	return "locked" if focus_lock_reason(id) != "" else "available"
+
+
+## Why a focus cannot be started now ("" = it can, or it is already done / running).
+func focus_lock_reason(id: String) -> String:
+	if not focuses.has(id):
+		return "Bilinmeyen gündem"
+	if focus_done.has(id) or focus_current == id:
+		return ""
+	var f: Dictionary = focuses[id]
+	for o in f["excludes"]:
+		if focus_done.has(o) or focus_current == o:
+			return "%s seçildiği için kilitli" % focuses[o]["name"]
+	for r in f["requires"]:
+		if not focus_done.has(r):
+			return "Önce: %s" % focuses[r]["name"]
+	if year < int(f["from"]):
+		return "%d yılından önce başlatılamaz" % int(f["from"])
+	if year > int(f["to"]):
+		return "%d yılından sonra başlatılamaz" % int(f["to"])
+	if f.get("cond") != null and not Logic.eval_cond(f["cond"], self):
+		return "Koşulu tutmuyor"
+	return ""
+
+
+func available_focuses() -> Array:
+	var out: Array = []
+	for id in focus_order:
+		if focus_state(id) == "available":
+			out.append(id)
+	return out
+
+
+## The player starts a focus (Fantezi only; Tarihî mode runs them itself). A running one is cancelled first.
+func start_focus(id: String) -> bool:
+	if historical() or ending_id != "" or focus_state(id) != "available":
+		return false
+	_begin_focus(id)
+	changed.emit()
+	return true
+
+
+func _begin_focus(id: String) -> void:
+	focus_current = id
+	focus_progress = 0
+
+
+func cancel_focus() -> void:
+	if focus_current == "":
+		return
+	focus_current = ""
+	focus_progress = 0
+	changed.emit()
+
+
+## Tarihî mode: with no focus running, the first available tarihî one starts by itself.
+func _focus_auto() -> void:
+	if not historical() or focus_current != "":
+		return
+	for id in focus_order:
+		if focuses[id]["hist"] and focus_state(id) == "available":
+			_begin_focus(id)
+			return
+
+
+## Each month the running focus advances; at its length the effects apply and it is recorded.
+func _focus_tick() -> void:
+	if focus_current != "":
+		focus_progress += 1
+		var f: Dictionary = focuses[focus_current]
+		if focus_progress >= int(f["months"]):
+			var id := focus_current
+			focus_current = ""
+			focus_progress = 0
+			focus_done[id] = now_key()
+			_acting = str(f["name"])
+			_branches.clear()
+			_apply(f["effects"])
+			_acting = ""
+			_branches.clear()
+			var rec := {"id": id, "title": f["name"], "nation": f["nation"], "y": year, "m": month,
+				"option": "Gündem tamamlandı", "outcome": "", "place": "", "thread": null, "auto": historical(),
+				"focus": true}
+			history.append(rec)
+			year_log.append(rec)
+	if ending_id == "":
+		_focus_auto()
+
+
 ## Move to the next month that has something on the desk, passing year turns on the way.
 ## Returns false if nothing moved (mandatory events open or game over).
 func advance(until_key := -1) -> bool:
@@ -975,6 +1083,7 @@ func advance(until_key := -1) -> bool:
 		else:
 			month += 1
 		_front_tick()
+		_focus_tick()
 		_trigger_tick()
 		settle()
 		if ending_id != "" or (until_key >= 0 and now_key() >= until_key):
@@ -1262,6 +1371,7 @@ func save_game() -> void:
 		"history": history, "year_log": year_log, "ending": ending_id, "world": world, "owner": prov_owner, "ctl": prov_ctl,
 		"chronicle": chronicle, "slot_done": slot_done, "mode": mode, "pace": pace, "front_log": front_log,
 		"population": population, "front_taken": front_taken, "fstate": fstate,
+		"focus_current": focus_current, "focus_progress": focus_progress, "focus_done": focus_done,
 		"deaths": deaths, "rng_seed": rng_seed, "rng_state": str(rng.state), "value_log": value_log}))
 
 
@@ -1316,6 +1426,14 @@ func load_game() -> bool:
 		fs["depth"] = int(fs["depth"])
 		for inc in fs["incoming"]:
 			inc["at"] = int(inc["at"])
+	focus_current = str(s.get("focus_current", ""))
+	focus_progress = int(s.get("focus_progress", 0))
+	focus_done = s.get("focus_done", {})
+	for k in focus_done.keys():
+		focus_done[k] = int(focus_done[k])
+	if not focuses.has(focus_current):
+		focus_current = ""
+		focus_progress = 0
 	deaths = s.get("deaths", [])
 	value_log = s.get("value_log", {})
 	rng_seed = int(s.get("rng_seed", 0))

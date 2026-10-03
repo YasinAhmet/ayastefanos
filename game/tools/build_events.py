@@ -545,7 +545,7 @@ def main():
         return {"cond": cond, "parts": parts}
 
     events, persons, nations, endings, landmarks = [], {}, {}, {}, {}
-    fronts = {}
+    fronts, focuses = {}, {}
     flags_set, flags_read = defaultdict(list), defaultdict(list)
     queued = defaultdict(list)
     codex_refs = set()
@@ -767,6 +767,65 @@ def main():
                                           "image": image(where, fields.get("görsel")),
                                           "text": [to_bbcode(p, codex_refs) for p in paras],
                                           "sources": [src_line(s) for s in srcs]}
+                continue
+            if "gündem" in fields and "id" not in fields:
+                fid = fields["gündem"]
+                title = header.split("·", 1)[-1].strip()
+                if not re.fullmatch(r"g_[a-z0-9_]+", fid):
+                    err(where, f"gündem id must be 'g_' + lowercase ASCII: '{fid}'")
+                if fid in focuses:
+                    err(where, f"duplicate gündem id '{fid}'")
+                fcond = None
+                if cond_src:
+                    fcond, fl = parse_cond(where, cond_src)
+                    for f in fl:
+                        flags_read[f].append("gündem " + fid)
+                dm = re.fullmatch(r"(\d{4})\s*-\s*(\d{4})", fields.get("devir", ""))
+                if not dm:
+                    err(where, f"gündem {fid}: devir must be YYYY-YYYY")
+                    dm_from, dm_to = 0, 0
+                else:
+                    dm_from, dm_to = int(dm.group(1)), int(dm.group(2))
+                    if dm_from > dm_to or dm_from < 1873 or dm_to > 1919:
+                        err(where, f"gündem {fid}: devir {dm_from}-{dm_to} is outside 1873-1919 or reversed")
+                sm = re.fullmatch(r"(\d+)\s*(ay|yıl|yil)", fields.get("süre", "").strip())
+                if not sm or int(sm.group(1)) < 1:
+                    err(where, f"gündem {fid}: süre must be Nay or Nyıl")
+                    months = 1
+                else:
+                    months = int(sm.group(1)) * (1 if sm.group(2) == "ay" else 12)
+                f_requires = [x.strip() for x in fields.get("önce", "").split(",") if x.strip()]
+                f_excludes = [x.strip() for x in fields.get("dışlar", "").split(",") if x.strip()]
+                f_etki, f_srcs, f_para, cur = [], [], [], []
+                for raw in body:
+                    s = raw.strip()
+                    if not s:
+                        if cur:
+                            f_para.append(" ".join(cur))
+                            cur = []
+                    elif s.startswith(">"):
+                        q = s[1:].strip()
+                        f_srcs.append(src_line(q[len("Kaynak:"):].strip() if q.startswith("Kaynak:") else q))
+                    elif is_field_line(s):
+                        f_etki += [seg.partition(":")[2].strip() for seg in FIELD.findall(s)
+                                   if seg.strip().startswith("etki:")]
+                    else:
+                        cur.append(s)
+                if cur:
+                    f_para.append(" ".join(cur))
+                f_etki += etki_src
+                if not f_srcs:
+                    warn(where, f"gündem {fid}: no > Kaynak: line")
+                feffects = parse_effects(where, "gündem " + fid, f_etki, resolve, parse_cond, flags_set, flags_read,
+                                         queued, world_values, prov_ids, nation_codes, world_set)
+                for e in flat_effects(feffects):
+                    if e["t"] in ("roll", "tier"):
+                        err(where, f"gündem {fid}: şans/kademe etkisi yok")
+                focuses[fid] = {"id": fid, "name": title, "text": to_bbcode("\n\n".join(f_para), codex_refs),
+                                "from": dm_from, "to": dm_to, "months": months, "requires": f_requires,
+                                "excludes": f_excludes, "hist": "tarihî" in tags or "tarihi" in tags, "cond": fcond,
+                                "effects": feffects, "sources": f_srcs, "nation": fields.get("bayrak", "OS"),
+                                "_where": where}
                 continue
             if "id" not in fields:
                 continue
@@ -1009,6 +1068,39 @@ def main():
             row["cond"], fl = parse_cond(where, c)
             for f in fl:
                 flags_read[f].append("kabine")
+    # ---- gündem tree: ids, symmetry, cycles
+    for fid, fc in focuses.items():
+        w = fc["_where"]
+        if fc["nation"] not in nation_codes:
+            err(w, f"gündem {fid}: unknown bayrak '{fc['nation']}'")
+        for key in ("requires", "excludes"):
+            for o in fc[key]:
+                if o not in focuses:
+                    err(w, f"gündem {fid}: {'önce' if key == 'requires' else 'dışlar'} names unknown gündem '{o}'")
+                elif o == fid:
+                    err(w, f"gündem {fid}: lists itself in {key}")
+        for o in fc["excludes"]:
+            if o in focuses and fid not in focuses[o]["excludes"]:
+                err(w, f"gündem {fid}: dışlar '{o}' but '{o}' does not list '{fid}' (must be symmetric)")
+    state_, stack_ = {}, []
+
+    def focus_dfs(fid):
+        state_[fid] = 1
+        stack_.append(fid)
+        for o in focuses[fid]["requires"]:
+            if o not in focuses:
+                continue
+            if state_.get(o) == 1:
+                err(focuses[fid]["_where"], "gündem önce cycle: " + " → ".join(stack_[stack_.index(o):] + [o]))
+            elif o not in state_:
+                focus_dfs(o)
+        stack_.pop()
+        state_[fid] = 2
+    for fid in focuses:
+        if fid not in state_:
+            focus_dfs(fid)
+    for fc in focuses.values():
+        fc.pop("_where", None)
     for f, where in flags_read.items():
         if f not in flags_set:
             err(where[0], f"flag ⚑{f} is read but never set")
@@ -1109,14 +1201,14 @@ def main():
     if len(set(orders)) != len(orders):
         err("GD 03", f"two endings share a sıra: {orders}")
     data = {"version": 2, "resources": resources, "persons": persons, "nations": nations, "endings": endings,
-            "world": world, "provinces": provinces, "landmarks": landmarks, "fronts": fronts,
+            "world": world, "provinces": provinces, "landmarks": landmarks, "fronts": fronts, "focuses": focuses,
             "pop_groups": pop_groups, "population": population, "figures": figures,
             "cabinets": [{"from": r["Başlangıç"], "to": r["Bitiş"], "cond": r["cond"], "ruler": r["Hükümdar"],
                           "sadrazam": r.get("Sadrazam", "-"), "dahiliye": r.get("Dahiliye", "-"),
                           "maliye": r["Maliye"], "harbiye": r["Harbiye"], "bahriye": r["Bahriye"]} for r in cabinets],
             "events": sorted(events, key=lambda e: (e["date"]["y"], e["date"]["m"], e["date"]["d"])),
             "codex": codex}
-    data["reverse"] = reverse_index(data["events"], endings)
+    data["reverse"] = reverse_index(data["events"], endings, focuses)
     with open(os.path.join(OUT_DATA, "events.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     copy_images(used_images)
@@ -1130,7 +1222,7 @@ def main():
     print(f"{len(years)} years with events; {len(persons)} persons, {len(nations)} nations, {len(endings)} endings, "
           f"{len(codex)} codex entries, {len(used_images)} images")
     print(f"{len(flags_set)} flags set, {len(flags_read)} read; {len(world)} world keys, {len(provinces)} provinces, "
-          f"{len(landmarks)} landmarks, {len(slots)} slots, {len(fronts)} fronts")
+          f"{len(landmarks)} landmarks, {len(slots)} slots, {len(fronts)} fronts, {len(focuses)} focuses")
     pop_effects = sum(1 for e in events for o in e["options"] for x in flat_effects(o["effects"]) if x["t"] == "pop")
     dead_hist = defaultdict(float)  # deaths written on the Tarihî options (absolute ones only; % depend on the run)
     for e in events:
@@ -1524,7 +1616,7 @@ def _effects_reads(effs, out):
                 _effects_reads(b["effects"], out)
 
 
-def reverse_index(events, endings):
+def reverse_index(events, endings, focuses=None):
     """{"flag:x" | "world:k" | "res:id": [event ids…, "end:id"…]}: who reads each key."""
     rev = defaultdict(list)
 
@@ -1549,6 +1641,11 @@ def reverse_index(events, endings):
         out = []
         _cond_reads(en["cond"], out)
         put(out, "end:" + en["id"])
+    for fc in sorted((focuses or {}).values(), key=lambda f: f["id"]):
+        out = []
+        _cond_reads(fc["cond"], out)
+        _effects_reads(fc["effects"], out)
+        put(out, "focus:" + fc["id"])
     return {k: rev[k] for k in sorted(rev)}
 
 

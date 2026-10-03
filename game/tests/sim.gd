@@ -216,6 +216,8 @@ func play(strategy, rng, mode := "serbest", many = null, seed := 0) -> Dictionar
 	var policy := "tarihi" if mode == "tarihi" else "rastgele"
 	var fr := RandomNumberGenerator.new()   # the front choices have their own dice, so the paper choices stay as they were
 	fr.seed = seed * 7919 + 13
+	var fo := RandomNumberGenerator.new()   # and so do the Gündem draws
+	fo.seed = seed * 104729 + 7
 	managed.clear()
 	while gs.ending_id == "" and steps < MAX_STEPS:
 		steps += 1
@@ -241,8 +243,12 @@ func play(strategy, rng, mode := "serbest", many = null, seed := 0) -> Dictionar
 			reached[d["id"]] = true
 		if mode != "tarihi":
 			_manage_fronts(strategy, fr)
+		if strategy != null and mode != "tarihi" and gs.focus_current == "":
+			var av: Array = gs.available_focuses()   # scripted players take the first Gündem on offer
+			if not av.is_empty():
+				gs.start_focus(av[0])
 		if strategy == null:
-			var st: Dictionary = Autoplay.step(gs, policy, rng)
+			var st: Dictionary = Autoplay.step(gs, policy, rng, fo)
 			if st["kind"] == "stuck":
 				return _result("stuck", steps)
 			continue

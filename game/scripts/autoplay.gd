@@ -72,13 +72,25 @@ static func plan(state, policy: String, rng: RandomNumberGenerator) -> Dictionar
 	return {"kind": "advance"}
 
 
+## Fantezi: with no Gündem running, start a random available one (Tarihî mode runs its own).
+static func maybe_focus(state, rng: RandomNumberGenerator) -> void:
+	if state.historical() or state.focus_current != "":
+		return
+	var avail: Array = state.available_focuses()
+	if not avail.is_empty():
+		state.start_focus(avail[rng.randi_range(0, avail.size() - 1)])
+
+
 ## Carry out a planned step. Returns the plan, with kind "stuck" when it could not be done.
-static func perform(state, p: Dictionary) -> Dictionary:
+## `focus_rng` (optional): a Gündem is started on the way, drawn from this generator.
+static func perform(state, p: Dictionary, focus_rng: RandomNumberGenerator = null) -> Dictionary:
 	match p["kind"]:
 		"choose", "decision":
 			if state.choose(p["ev"]["id"], int(p["option"])).is_empty():
 				return {"kind": "stuck", "ev": p["ev"]}
 		"advance":
+			if focus_rng != null:
+				maybe_focus(state, focus_rng)
 			var before := Vector2i(state.year, state.month)
 			state.advance()
 			if Vector2i(state.year, state.month) == before and state.ending_id == "":
@@ -87,5 +99,6 @@ static func perform(state, p: Dictionary) -> Dictionary:
 
 
 ## One step of play. Returns {kind: "choose"|"decision"|"advance"|"end"|"stuck", ev, option}.
-static func step(state, policy: String, rng: RandomNumberGenerator) -> Dictionary:
-	return perform(state, plan(state, policy, rng))
+## `focus_rng` keeps the Gündem draws apart from the paper choices' generator (default: none, no Gündem is started).
+static func step(state, policy: String, rng: RandomNumberGenerator, focus_rng: RandomNumberGenerator = null) -> Dictionary:
+	return perform(state, plan(state, policy, rng), focus_rng)

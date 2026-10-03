@@ -144,9 +144,70 @@ func _initialize() -> void:
 	var rep: Dictionary = gs.front_report("tuna_93")
 	check("front_report anahtarları", rep.has_all(["ours", "enemy", "ratio", "cap", "eff", "expected_drift", "expected_losses", "morale", "div", "depth", "next_target", "overextended"]))
 	check("geri transfer havuza döner", gs.transfer("tuna_93", -2) and gs.army_reserve() > res0 - 3)
+	# Gündem (REWORK §10): synthetic focuses so the test does not depend on the content
+	var ff := func(id: String, months: int, req: Array, exc: Array, hist: bool, effs: Array) -> Dictionary:
+		return {"id": id, "name": "G " + id, "text": "", "from": 1873, "to": 1919, "months": months, "requires": req,
+			"excludes": exc, "hist": hist, "cond": null, "effects": effs, "sources": [], "nation": "OS"}
+	var fx := {
+		"g_a": ff.call("g_a", 3, [], [], true, [{"t": "res", "id": "para", "d": 7}, {"t": "flag", "name": "t_gundem", "on": true}]),
+		"g_b": ff.call("g_b", 2, ["g_a"], [], true, [{"t": "res", "id": "para", "d": 1}]),
+		"g_c": ff.call("g_c", 2, [], ["g_d"], false, []),
+		"g_d": ff.call("g_d", 2, [], ["g_c"], false, []),
+	}
+	gs.new_game("serbest", "ayrintili", 1873, 5)
+	gs.focuses = fx
+	gs.focus_order = fx.keys()
+	check("focus: başlangıçta a açık, b kilitli (önce)", gs.focus_state("g_a") == "available" and gs.focus_state("g_b") == "locked" and gs.focus_lock_reason("g_b") != "")
+	check("focus: Fantezi'de otomatik başlamaz", gs.focus_current == "")
+	check("focus: kilitli başlatılamaz", not gs.start_focus("g_b"))
+	var para0: int = gs.value_of("para")
+	check("focus: start_focus", gs.start_focus("g_a") and gs.focus_current == "g_a" and gs.focus_progress == 0 and gs.focus_state("g_a") == "active")
+	gs._focus_tick()
+	gs._focus_tick()
+	check("focus: ilerleme", gs.focus_progress == 2 and gs.focus_current == "g_a" and gs.value_of("para") == para0)
+	check("focus: iptal ilerlemeyi siler", _cancel(gs) and gs.focus_current == "" and gs.focus_progress == 0 and gs.focus_state("g_a") == "available")
+	gs.start_focus("g_a")
+	gs._focus_tick()
+	check("focus: yeni başlatma aktif olanın yerini alır", gs.start_focus("g_c") and gs.focus_current == "g_c" and gs.focus_progress == 0)
+	gs.cancel_focus()
+	gs.start_focus("g_a")
+	for i in 3:
+		gs._focus_tick()
+	check("focus: tamamlanınca etki ve bayrak", gs.focus_state("g_a") == "done" and gs.value_of("para") == para0 + 7 and gs.has_flag("t_gundem") and gs.focus_current == "")
+	check("focus: history ve year_log kaydı", gs.history[-1].get("focus", false) == true and gs.history[-1]["option"] == "Gündem tamamlandı" and gs.year_log[-1]["id"] == "g_a")
+	check("focus: önce sağlanınca b açılır", gs.focus_state("g_b") == "available")
+	check("focus: dışlama kilidi", gs.start_focus("g_c") and gs.focus_state("g_d") == "locked" and gs.focus_lock_reason("g_d").contains("G g_c"))
+	gs.save_game()
+	var gs4 := GameState.new()
+	root.add_child(gs4)
+	gs4.load_data()
+	gs4.focuses = fx
+	gs4.focus_order = fx.keys()
+	check("focus: kayıtta", gs4.load_game() and gs4.focus_current == "g_c" and gs4.focus_done.has("g_a") and gs4.focus_progress == 0)
+	gs.cancel_focus()
+	check("focus: iptalde dışlama kalkar", gs.focus_state("g_d") == "available")
+	# Tarihî: hist focuses run on their own, in order; the player cannot start one
+	gs.new_game("tarihi", "ayrintili", 1873, 6)
+	gs.focuses = fx
+	gs.focus_order = fx.keys()
+	gs._focus_auto()
+	check("focus tarihî: ilk hist otomatik başlar", gs.focus_current == "g_a" and not gs.start_focus("g_c"))
+	for i in 3:
+		gs._focus_tick()
+	check("focus tarihî: a bitince b başlar", gs.focus_done.has("g_a") and gs.focus_current == "g_b")
+	for i in 2:
+		gs._focus_tick()
+	check("focus tarihî: hist biter, hist olmayan başlamaz", gs.focus_done.has("g_b") and gs.focus_current == "")
+	gs.new_game("tarihi", "ayrintili", 1908, 7)
+	check("focus tarihî: 1908 replay'inde gündemler yürüdü", not gs.focus_done.is_empty() or gs.focus_current != "")
 	print("engine_test: %s" % ("OK" if fails == 0 else "FAIL (%d)" % fails))
 	quit(0 if fails == 0 else 1)
 
 
 func Logic_date(y: int, m: int) -> int:
 	return y * 12 + (m - 1)
+
+
+func _cancel(gs: GameState) -> bool:
+	gs.cancel_focus()
+	return true
