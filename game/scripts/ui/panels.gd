@@ -7,7 +7,7 @@ const UIKit := preload("res://game/scripts/ui/ui_kit.gd")
 const GameState := preload("res://game/scripts/game_state.gd")
 
 const EventPanel := preload("res://game/scripts/ui/event_panel.gd")
-const SEATS := [["maliye", "para", "Maliye"], ["harbiye", "harbiye", "Harbiye"], ["bahriye", "bahriye", "Bahriye"]]
+const SEATS := [["dahiliye", "", "Dahiliye"], ["maliye", "para", "Maliye"], ["harbiye", "harbiye", "Harbiye"], ["bahriye", "bahriye", "Bahriye"]]
 
 var state: GameState
 var parent: Control
@@ -55,11 +55,17 @@ func payitaht() -> void:
 	var m := UIKit.modal(parent, Vector2(0.0, 0.86), 600)
 	var body: VBoxContainer = m["body"]
 	_title(body, "Payitaht", Logic.date_text(state.year, state.month))
-	body.add_child(_person_card(state.ruler(), "Hükümdar"))
+	var head := state.ruler()
+	var sultan := state.sultan()
+	if str(state.cabinet().get("sadrazam", "-")) != "-" and not sultan.is_empty() and sultan.get("id") != head.get("id"):
+		body.add_child(_person_card(sultan, "Padişah"))
+		body.add_child(_person_card(head, "Sadrazam"))
+	else:
+		body.add_child(_person_card(head, "Hükümdar"))
 	for s in SEATS:
 		var p := state.minister(s[0])
 		if not p.is_empty():
-			body.add_child(_person_card(p, s[2], state.value_of(s[1])))
+			body.add_child(_person_card(p, s[2], state.value_of(s[1]) if s[1] != "" else -1))
 	body.add_child(_close_button(m))
 
 

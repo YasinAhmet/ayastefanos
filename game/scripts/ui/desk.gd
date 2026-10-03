@@ -705,7 +705,7 @@ func _refresh_ruler_card() -> void:
 	var h := UIKit.hbox(10)
 	h.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	ruler_card.add_child(h)
-	var med := UIKit.portrait(state.person_image(str(state.persona)), 96, _initials(str(r.get("name", ""))))
+	var med := UIKit.portrait(state.person_image(state.head_id()), 96, _initials(str(r.get("name", ""))))
 	med.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	h.add_child(med)
 	var v := UIKit.vbox(1)
@@ -858,7 +858,7 @@ func show_place(id: String) -> void:
 	if id == "babiali":
 		var r := state.ruler()
 		var row := UIKit.hbox(8)
-		row.add_child(UIKit.medallion(state.person_image(str(state.persona)), 52, _initials(str(r.get("name", "")))))
+		row.add_child(UIKit.medallion(state.person_image(state.head_id()), 52, _initials(str(r.get("name", "")))))
 		var col := UIKit.vbox(2)
 		col.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		col.add_child(UIKit.label(str(r.get("title", "")), 12, UIKit.INK, true))

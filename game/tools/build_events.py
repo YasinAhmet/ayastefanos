@@ -935,11 +935,14 @@ def main():
         ev.pop("quotes", None)
     for row in cabinets:
         where = "GD 02:Kabineler"
-        for col, role in (("Hükümdar", "hükümdar"), ("Maliye", "maliye"), ("Harbiye", "harbiye"), ("Bahriye", "bahriye")):
-            pid = row.get(col, "")
+        for col, roles in (("Hükümdar", {"hükümdar"}), ("Maliye", {"maliye"}), ("Harbiye", {"harbiye"}), ("Bahriye", {"bahriye"}),
+                           ("Sadrazam", {"sadrazam", "hükümdar", "harbiye", "figür"}), ("Dahiliye", {"dahiliye", "hükümdar", "sadrazam"})):
+            pid = row.get(col, "-")
+            if pid == "-" and col in ("Sadrazam", "Dahiliye"):
+                continue  # empty seat: the table is then held by the persona (events' 👤)
             if pid not in persons:
                 err(where, f"unknown person '{pid}' in column {col}")
-            elif persons[pid]["role"] != role:
+            elif persons[pid]["role"] not in roles:
                 warn(where, f"{pid} sits in {col} but has rol '{persons[pid]['role']}'")
         c = row.get("Koşul", "-").strip()
         row["cond"] = None
@@ -1050,6 +1053,7 @@ def main():
             "world": world, "provinces": provinces, "landmarks": landmarks, "fronts": fronts,
             "pop_groups": pop_groups, "population": population, "figures": figures,
             "cabinets": [{"from": r["Başlangıç"], "to": r["Bitiş"], "cond": r["cond"], "ruler": r["Hükümdar"],
+                          "sadrazam": r.get("Sadrazam", "-"), "dahiliye": r.get("Dahiliye", "-"),
                           "maliye": r["Maliye"], "harbiye": r["Harbiye"], "bahriye": r["Bahriye"]} for r in cabinets],
             "events": sorted(events, key=lambda e: (e["date"]["y"], e["date"]["m"], e["date"]["d"])),
             "codex": codex}

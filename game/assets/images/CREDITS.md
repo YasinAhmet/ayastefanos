@@ -6,9 +6,11 @@ Bu görseller Wikimedia Commons / Wikipedia'dandır; kasa kaynağı değildir (�
 |---|---|---|---|---|
 | 000_Aziz_Ali_al_Misry_Father_of_the_free_officers_cf4eef.jpg | 000-Aziz Ali al-Misry Father of the free officers.jpg | ? | ? | ? |
 | 030Arab_4cef5b.jpg | 030Arab.jpg | Maurice Bauche (1878–1956) | Public domain | [link](https://commons.wikimedia.org/wiki/File:030Arab.jpg) |
+| 1326_04_22_Serveti_Funun_Nazim_Pasa_Bagdat_Valisi_296455.jpg | 1326 04 22 Serveti Funun Nazim Pasa Bagdat Valisi.jpg | Servet-i Fünun Dergisi | Public domain | [link](https://commons.wikimedia.org/wiki/File:1326_04_22_Serveti_Funun_Nazim_Pasa_Bagdat_Valisi.jpg) |
 | 16_03_30_Klagemauer_Jerusalem_RalfR_DSCF7704_ff515d.jpg | 16-03-30-Klagemauer Jerusalem RalfR-DSCF7704.jpg | Ralf Roletschek | GFDL 1.2 | [link](https://commons.wikimedia.org/wiki/File:16-03-30-Klagemauer_Jerusalem_RalfR-DSCF7704.jpg) |
 | 1892_08_18_Serveti_Funun_Osmanli_Bankasi_d7ce6e.jpg | 1892 08 18 Serveti Funun Osmanli Bankasi.jpg | Servet-i Fünun Dergisi | Public domain | [link](https://commons.wikimedia.org/wiki/File:1892_08_18_Serveti_Funun_Osmanli_Bankasi.jpg) |
 | 1908_10_01_Resimli_Kitab_Yusuf_Izzeddin_Efendi_5ebb75.jpg | 1908 10 01 Resimli Kitab Yusuf Izzeddin Efendi.jpg | Resimli Kitab Dergisi | Public domain | [link](https://commons.wikimedia.org/wiki/File:1908_10_01_Resimli_Kitab_Yusuf_Izzeddin_Efendi.jpg) |
+| 1909_05_10_Sait_Pasa_Ayastefanos_Yat_Kulubu_Onunde_b0a894.jpg | 1909 05 10 Sait Pasa Ayastefanos Yat Kulubu Onunde.jpg | Şehbal dergisi | Public domain | [link](https://commons.wikimedia.org/wiki/File:1909_05_10_Sait_Pasa_Ayastefanos_Yat_Kulubu_Onunde.jpg) |
 | 1909_05_10_Sultan_Resat_Yevmi_Culus_e8998b.jpg | 1909 05 10 Sultan Resat Yevmi Culus.jpg | Şehbal dergisi | Public domain | [link](https://commons.wikimedia.org/wiki/File:1909_05_10_Sultan_Resat_Yevmi_Culus.jpg) |
 | 1909_10_Resimli_Kitab_Vahdettin_204ab1.jpg | 1909 10 Resimli Kitab Vahdettin.jpg | Resimli Kitab Dergisi | Public domain | [link](https://commons.wikimedia.org/wiki/File:1909_10_Resimli_Kitab_Vahdettin.jpg) |
 | 19170704_Riot_on_Nevsky_prosp_Petrograd_5270a7.jpg | 19170704 Riot on Nevsky prosp Petrograd.jpg | Viktor Bulla | Public domain | [link](https://commons.wikimedia.org/wiki/File:19170704_Riot_on_Nevsky_prosp_Petrograd.jpg) |
@@ -29,8 +31,10 @@ Bu görseller Wikimedia Commons / Wikipedia'dandır; kasa kaynağı değildir (�
 | Ahmed_Djemal_portrait_Project_Gutenberg_eText_10338_7d82c7.png | Ahmed Djemal portrait Project Gutenberg eText 10338.png | ? | ? | ? |
 | Ahmed_Niyazi_Bey_a8c94f.jpg | Ahmed Niyazi Bey.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmed_Niyazi_Bey.jpg) |
 | Ahmed_Riza_Bey_f6b896.jpg | Ahmed Riza Bey.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmed_Riza_Bey.jpg) |
+| Ahmed_Tevfik_Pasha_3878d9.jpg | Ahmed Tevfik Pasha.jpg |  | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmed_Tevfik_Pasha.jpg) |
 | Ahmedniyazibey_cc2ab6.jpg | Ahmedniyazibey.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmedniyazibey.jpg) |
 | Ahmet_Cemal_Pa_a_on_the_shore_of_the_Dead_Sea2_ba6bbe.jpg | Ahmet Cemal Paşa on the shore of the Dead Sea2.jpg | American Colony (Jerusalem). Photo Department, photographer | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmet_Cemal_Pa%C5%9Fa_on_the_shore_of_the_Dead_Sea2.jpg) |
+| Ahmet_Resat_68bb05.jpg | Ahmet Resat.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmet_Resat.jpg) |
 | Ahmet_muhtar_1df0be.jpg | Ahmet muhtar.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmet_muhtar.jpg) |
 | Ahmet_zzet_Pa_a_7b09df.jpg | Ahmet İzzet Paşa.jpg | Granger Art on Demand | Public domain | [link](https://commons.wikimedia.org/wiki/File:Ahmet_%C4%B0zzet_Pa%C5%9Fa.jpg) |
 | Al1_5235_6C52_7E70_4f0ad3.jpg | Al1-5235-6C52-7E70.jpg | Unknown authorUnknown author | Public domain | [link](https://commons.wikimedia.org/wiki/File:Al1-5235-6C52-7E70.jpg) |
@@ -108,6 +112,7 @@ Bu görseller Wikimedia Commons / Wikipedia'dandır; kasa kaynağı değildir (�
 | Goltz_portrait_4c862d.jpg | Goltz-portrait.jpg |  | Public domain | [link](https://commons.wikimedia.org/wiki/File:Goltz-portrait.jpg) |
 | Grivita_1877_c42491.jpg | Grivita 1877.jpg | Henryk Dembitzky (1830-1906) | Public domain | [link](https://commons.wikimedia.org/wiki/File:Grivita_1877.jpg) |
 | Group_of_Karapapakh_Hamidiyeh_Cavalry_b33511.jpg | Group of Karapapakh Hamidiyeh Cavalry.jpg | H. F. B. Lynch | Public domain | [link](https://commons.wikimedia.org/wiki/File:Group_of_Karapapakh_Hamidiyeh_Cavalry.jpg) |
+| Gro_wezir_Prinz_Said_Halim_Pascha_1915_C_Pietzner_077271.png | Großwezir Prinz Said Halim Pascha 1915 C. Pietzner.png | ? | ? | ? |
 | Guillaume_Delisle_Tunis_1707_c3df1b.jpg | Guillaume Delisle Tunis 1707.jpg | Guillaume de L'Isle | Public domain | [link](https://commons.wikimedia.org/wiki/File:Guillaume_Delisle_Tunis_1707.jpg) |
 | Hafiz_Hakki_Pasha_45bdef.jpg | Hafiz Hakki Pasha.jpg | NA | Public domain | [link](https://commons.wikimedia.org/wiki/File:Hafiz_Hakki_Pasha.jpg) |
 | Hagia_Sophia_Trabzon_56d24d.jpg | Hagia Sophia Trabzon.jpg | İhsan Deniz Kılıçoğlu | CC BY-SA 3.0 | [link](https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Trabzon.jpg) |

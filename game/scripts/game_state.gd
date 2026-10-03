@@ -436,8 +436,20 @@ func person_image(pid: String):
 	return img
 
 
+## Who sits at the table: the cabinet's Sadrazam when its row names one (1908 onward), else the persona
+## (the sultan, or whoever the events seated).
+func head_id() -> String:
+	var sid := str(cabinet().get("sadrazam", "-"))
+	return sid if persons.has(sid) else persona
+
+
 func ruler() -> Dictionary:
-	return persons.get(persona, {})
+	return persons.get(head_id(), {})
+
+
+## The sultan of the cabinet row (Abdülhamid, V. Mehmed Reşad, Vahdettin).
+func sultan() -> Dictionary:
+	return persons.get(str(cabinet().get("ruler", "")), {})
 
 
 func gazette_name() -> String:
@@ -870,7 +882,7 @@ func group_status(g: String, ratio: float) -> String:
 func figure_places() -> Array:
 	var out: Array = []
 	var key := now_key()
-	var skip := persona
+	var skip := head_id()
 	var taken := {}
 	for f in figures:
 		var pid := str(f["person"])

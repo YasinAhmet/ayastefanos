@@ -99,7 +99,7 @@ Selanikli iktisatçı, İttihatçıların Maliye Nazırı ve iç çevrenin en sa
 > Kaynak: [[Cavid Bey]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 88|Güneş, *Türkiye'de Hükümetler*, p. 88]] · [[Birinci Dünya Savaşı'nda Türkiye (Ahmet Emin Yalman)#p. 96|Yalman, p. 96]] · *Türk kaynağı*
 
 ### Kişi · Mahmud Şevket Paşa
-`kişi: mahmud_sevket` · `unvan: Harbiye Nazırı Mahmud Şevket Paşa` · `görsel: Mahmud Shevket Pasha.png` · `rol: harbiye`
+`kişi: mahmud_sevket` · `unvan: Harbiye Nazırı Mahmud Şevket Paşa (1913'te Sadrazam)` · `görsel: Mahmud Shevket Pasha.png` · `rol: harbiye`
 Alman terbiyeli bir kurmay; Goltz Paşa'nın yardımcısı olarak yetişir. Nisan 1909'da 31 Mart ayaklanmasını bastıran Hareket Ordusu'nun kumandanıdır; sonra üç ordunun müfettişi ve 1910'dan Harbiye Nazırı olur. Babıâli Baskını'ndan sonra sadrazam ve Harbiye Nazırı yapılır; orduyu Alman kumandasına verme fikri Liman von Sanders heyetini doğurur. 11 Haziran 1913'te Beyazıt'ta öldürülür.
 > Kaynak: [[Mahmud Şevket Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 99|Güneş, p. 99]] · *Türk kaynağı*
 
@@ -110,7 +110,7 @@ Alman terbiyeli bir general ve erkân-ı harbiye reisi. Balkan Harbi'nden sonra,
 
 ### Kişi · Bahriye Nazırı
 `kişi: bahriye_nazir` · `unvan: Bahriye Nazırı` · `rol: bahriye`
-1909–1913 arasında Bahriye Nezareti kabineden kabineye el değiştirir; oyunda adsız bir nazırdır. Donanma programlarını ve bağış kampanyalarını o savunur.
+Bahriye Nezareti 1909–1913 arasında kabineden kabineye ve vekâletle el değiştirir; Güneş'in tablosundan okunabilen nazırlar adlarıyla yazılıdır. Bu adsız koltuk yalnız tabloda boş ya da vekâletle doldurulmuş aylar için kalır (1908 sonbaharı, 1910 ortası–1911 sonu). Donanma programlarını ve bağış kampanyalarını Bahriye Nazırı savunur.
 > Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 114|Güneş, p. 114]] · *Türk kaynağı*
 
 ### Kişi · Enver Paşa
@@ -168,25 +168,189 @@ Otto Liman von Sanders, Aralık 1913'te gelen Alman askerî heyetinin başı. Ru
 Fahreddin (Fahri) Paşa, Medine'nin müdafii. Şerif Hüseyin'in isyanından sonra Cemal Paşa onu 15–16 taburla Medine'ye kumandan atar. Faysal ona "hükümetteki adamlara karşı" katılması için mektuplar gönderir; o reddeder. Demiryoluna yapılan baskınlar karşı taarruzunu durdurur, ama şehri mütarekeden sonra da bir süre tutar.
 > Kaynak: [[Fahreddin Paşa]] · *Türk kaynağı*
 
+### Kişi · V. Mehmed Reşad
+`kişi: mehmed_resad` · `unvan: Sultan V. Mehmed Reşad (1909–1918)` · `görsel: Ahmet Resat.jpg` · `rol: hükümdar`
+27 Nisan 1909'da Abdülhamid'in yerine tahta çıkar. Akşin onu meşrutiyet için uygun bir padişah bulur: siyasete pek karışmayan, iyi niyetli, babacan biri. Kaynaklar onu çoğunlukla bir imza ve simge olarak gösterir; oyunda masaya o değil, o günkü sadrazam oturur.
+> Kaynak: [[Mehmed V Reşad]] · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 43|Akşin, *Kısa Türkiye Tarihi*, loc. 43]] · *Türk kaynağı*
+
+### Kişi · Küçük Said Paşa
+`kişi: said_pasa` · `unvan: Sadrazam Küçük Said Paşa` · `görsel: 1909 05 10 Sait Pasa Ayastefanos Yat Kulubu Onunde.jpg` · `rol: sadrazam`
+Abdülhamid'in eski vezirlerinden. Temmuz 1908'de Meşrutiyet'ten kısa süre önce sadrazamdır; ilk toplantıda Kanun-ı Esasi'nin yeniden yürürlüğe konmasını karara bağlar, ama Cemiyet ona sıcak bakmaz ve 3 Ağustos 1908'de çekilir. Hakkı Paşa'nın Trablusgarp ültimatomu üzerine çekilmesiyle 1 Ekim 1911'de yeniden sadrazam olur: Akşin'e göre "İngilizci" tanınan bu vezirin Mahmud Şevket'i dengeleyecek ağırlığı vardır. Mebusan 18 Ocak 1912'de dağıtılır, Talat ve Cavid hükümete girer, Nisan 1912'nin "sopalı seçim"i onun hükümeti altında yapılır; Temmuz 1912'de istifa etmek zorunda kalır.
+> Kaynak: [[Küçük Said Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 38|Güneş, *Türkiye'de Hükümetler*, p. 38]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 154|Güneş, *Türkiye'de Hükümetler*, p. 154]] · *Türk kaynağı* · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 50|Akşin, *Kısa Türkiye Tarihi*, loc. 50]] · *Türk kaynağı* · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 51|Akşin, *Kısa Türkiye Tarihi*, loc. 51]] · *Türk kaynağı*
+
+### Kişi · Ahmed Tevfik Paşa
+`kişi: tevfik_pasa` · `unvan: Sadrazam Ahmed Tevfik Paşa` · `görsel: Ahmed Tevfik Pasha.jpg` · `rol: sadrazam`
+31 Mart ayaklanması sırasında, Hüseyin Hilmi Paşa'nın istifasının ardından 14 Nisan 1909'da sadrazam olur. Hükümetini hemen kurar ve programını Meclis'e sunar, ama Hareket Ordusu'nun gelişiyle bir aydan kısa sürede (6 Mayıs'a kadar) görevden uzaklaşır; Adana olayları onun zamanındadır.
+> Kaynak: [[Tevfik Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 44|Güneş, *Türkiye'de Hükümetler*, p. 44]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 45|Güneş, *Türkiye'de Hükümetler*, p. 45]] · *Türk kaynağı*
+
+### Kişi · Hüseyin Hilmi Paşa
+`kişi: huseyin_hilmi` · `unvan: Sadrazam Hüseyin Hilmi Paşa` · `rol: sadrazam`
+Rumeli Müfettişi iken Kâmil Paşa'nın kabinesine 27 Kasım 1908'de Dahiliye Nazırı olarak girer. Kâmil'in 196 oyla düşmesinin ardından 13 Şubat 1909'da sadrazam olur ve hükümet programını Meclis'te okuyup güvenoyu isteme geleneğini başlatır. 31 Mart'ta istifa eder; 6 Mayıs 1909'da Hareket Ordusu'nun gölgesinde sadarete döner. Yıl sonunda Lynch (Fırat gemicilik) davasında Mahmud Şevket ve Bağdat mebuslarıyla tartışır; güvenoyuna rağmen çekilir (Ocak 1910).
+> Kaynak: [[Hüseyin Hilmi Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 43|Güneş, *Türkiye'de Hükümetler*, p. 43]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 44|Güneş, *Türkiye'de Hükümetler*, p. 44]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 45|Güneş, *Türkiye'de Hükümetler*, p. 45]] · *Türk kaynağı* · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 48|Akşin, *Kısa Türkiye Tarihi*, loc. 48]] · *Türk kaynağı*
+
+### Kişi · İbrahim Hakkı Paşa
+`kişi: ibrahim_hakki` · `unvan: Sadrazam İbrahim Hakkı Paşa` · `rol: sadrazam`
+12 Ocak 1910'da Hüseyin Hilmi'nin yerine sadrazam olur. Kabinesinde eskisine göre çok İttihatçı vardır (Talat Dahiliye, Cavid Maliye, İsmail Hakkı Maarif, Hayri Evkaf) ve Mahmud Şevket Harbiye Nazırı olarak hükümete girmiştir. Meclis'ten 178 kabul, 31 ret oyuyla güvenoyu alır (24 Ocak 1910); Lynch'in Fırat ayrıcalığını yenilemez. Akşin kabinedeki İttihatçı nazırların birer birer azaldığını yazar; Güneş'in tablosuna göre Şubat 1911'de Talat ve Cavid'in koltukları vekâletle doldurulur ve Dahiliye'yi Hakkı Paşa'nın kendisi tutar (tablo okunaksızdır, bkz. GD 99). Trablusgarp ültimatomundan sonra Ekim 1911'de çekilir.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 99|Güneş, *Türkiye'de Hükümetler*, p. 99]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 154|Güneş, *Türkiye'de Hükümetler*, p. 154]] · *Türk kaynağı* · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 48|Akşin, *Kısa Türkiye Tarihi*, loc. 48]] · *Türk kaynağı* · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 50|Akşin, *Kısa Türkiye Tarihi*, loc. 50]] · *Türk kaynağı*
+
+### Kişi · Prens Said Halim Paşa
+`kişi: said_halim` · `unvan: Sadrazam Prens Said Halim Paşa` · `görsel: Großwezir Prinz Said Halim Pascha 1915 C. Pietzner.png` · `rol: sadrazam`
+Kavalalı Mehmed Ali Paşa'nın torunu. Mahmud Şevket'in 11 Haziran 1913'te öldürülmesi üzerine sadrazam olur; kabinesi (onaylanışı 17 Haziran 1913) tümüyle İttihatçılardan kuruludur. Şubat 1917'de Talat'a bırakana kadar makamı korur.
+> Kaynak: [[Said Halim Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 160|Güneş, *Türkiye'de Hükümetler*, p. 160]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 127|Güneş, *Türkiye'de Hükümetler*, p. 127]] · *Türk kaynağı*
+
+### Kişi · Recep Paşa
+`kişi: recep_pasa` · `unvan: Harbiye Nazırı Recep Paşa` · `rol: harbiye`
+Kâmil Paşa'nın kabinesinde 6 Ağustos 1908'den Şubat 1909'a kadar Harbiye Nazırı. Padişah Harbiye ve Bahriye'ye kendi adamlarını istemişti; Kâmil Paşa Kanun-ı Esasi'nin maddesinin yoruma açık olduğunu söyleyip kendi istediklerini atadı.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 67|Güneş, *Türkiye'de Hükümetler*, p. 67]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 28|Güneş, *Türkiye'de Hükümetler*, p. 28]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 29|Güneş, *Türkiye'de Hükümetler*, p. 29]] · *Türk kaynağı*
+
+### Kişi · Ali Rıza Paşa
+`kişi: ali_riza_pasa` · `unvan: Harbiye Nazırı Ali Rıza Paşa` · `rol: harbiye`
+Mısır fevkalade komiseri iken Hüseyin Hilmi'nin ilk kabinesinde (14 Şubat 1909) Harbiye Nazırı olur.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 74|Güneş, *Türkiye'de Hükümetler*, p. 74]] · *Türk kaynağı*
+
+### Kişi · Hüseyin Nazım Paşa
+`kişi: nazim_pasa` · `unvan: Harbiye Nazırı Hüseyin Nazım Paşa` · `görsel: 1326 04 22 Serveti Funun Nazim Pasa Bagdat Valisi.jpg` · `rol: harbiye`
+Yanya Valisi iken Mart 1909'da Harbiye Nazırı olur; Balkan Harbi'nde (22 Temmuz 1912'den 23 Ocak 1913'e, Muhtar ve Kâmil kabinelerinde) bu koltuktadır. Akşin onu yenilginin başlıca askerî sorumlusu sayar; 23 Ocak 1913'te Babıâli Baskını'nda vurulur.
+> Kaynak: [[Nazım Paşa]] · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 74|Güneş, *Türkiye'de Hükümetler*, p. 74]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 114|Güneş, *Türkiye'de Hükümetler*, p. 114]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 120|Güneş, *Türkiye'de Hükümetler*, p. 120]] · *Türk kaynağı*
+
+### Kişi · Edhem Paşa
+`kişi: edhem_pasa` · `unvan: Harbiye Nazırı Edhem Paşa` · `rol: harbiye`
+Tevfik Paşa'nın kabinesinde 14 Nisan 1909'dan Hareket Ordusu'nun gelişine kadar Harbiye Nazırı (müir-i aynı).
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 83|Güneş, *Türkiye'de Hükümetler*, p. 83]] · *Türk kaynağı*
+
+### Kişi · Salih Paşa
+`kişi: salih_pasa` · `unvan: Harbiye Nazırı Salih Paşa` · `rol: harbiye`
+II. Ordu komutanı iken 28 Nisan 1909'da Harbiye Nazırı olur ve Hüseyin Hilmi'nin ikinci kabinesinde, Mahmud Şevket'in girdiği Ocak 1910'a kadar kalır.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 83|Güneş, *Türkiye'de Hükümetler*, p. 83]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 88|Güneş, *Türkiye'de Hükümetler*, p. 88]] · *Türk kaynağı*
+
+### Kişi · Ziya Paşa
+`kişi: ziya_pasa` · `unvan: Maliye Nazırı Ziya Paşa` · `rol: maliye`
+Kâmil Paşa'nın (6 Ağustos 1908) ve Hüseyin Hilmi'nin ilk kabinesinin Maliye Nazırı; Temmuz 1912'de Gazi Ahmed Muhtar Paşa'nın kabinesinde, eski nazır olarak, bir kez daha bu koltuğa getirilir.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 67|Güneş, *Türkiye'de Hükümetler*, p. 67]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 74|Güneş, *Türkiye'de Hükümetler*, p. 74]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 114|Güneş, *Türkiye'de Hükümetler*, p. 114]] · *Türk kaynağı*
+
+### Kişi · Rıfat Bey
+`kişi: rifat_bey` · `unvan: Maliye Nazırı Rıfat Bey` · `rol: maliye`
+Mayıs–Haziran 1909'da Hüseyin Hilmi'nin ikinci kabinesinde, ve Divan-ı Muhasebat Reisi olarak Şubat 1913'ten Mart 1914'e kadar Mahmud Şevket ve Said Halim kabinelerinde Maliye Nazırı.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 88|Güneş, *Türkiye'de Hükümetler*, p. 88]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 124|Güneş, *Türkiye'de Hükümetler*, p. 124]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 127|Güneş, *Türkiye'de Hükümetler*, p. 127]] · *Türk kaynağı*
+
+### Kişi · Nail Bey
+`kişi: nail_bey` · `unvan: Maliye Nazırı Nail Bey` · `rol: maliye`
+Said Paşa'nın kabinesinde Ekim 1911'den Şubat 1912'ye kadar Maliye Nazırı; Cavid'in dönüşüyle yerini ona bırakır.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 106|Güneş, *Türkiye'de Hükümetler*, p. 106]] · *Türk kaynağı*
+
+### Kişi · Hüseyin Sabri Bey
+`kişi: huseyin_sabri` · `unvan: Maliye Nazırı Hüseyin Sabri Bey` · `rol: maliye`
+Eski Maliye Nazırı. 25 Ağustos 1912'de, Balkan Harbi'nin eşiğinde, Gazi Ahmed Muhtar'ın kabinesinde Maliye'ye getirilir.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 114|Güneş, *Türkiye'de Hükümetler*, p. 114]] · *Türk kaynağı*
+
+### Kişi · Abdurrahman Efendi
+`kişi: abdurrahman_efendi` · `unvan: Maliye Nazırı Abdurrahman Efendi` · `rol: maliye`
+Eski Dahiliye Nazırı. 30 Ekim 1912'de Kâmil Paşa'nın kabinesinde Maliye Nazırı olur; Said Halim hükümetinin programı, Ocak 1913'te Saray'da toplanan mecliste Maliye Nazırı'nın hazinenin harbe devam etmeye değil günlük ihtiyaca bile yetmediğini bildirdiğini anlatır.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 120|Güneş, *Türkiye'de Hükümetler*, p. 120]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 128|Güneş, *Türkiye'de Hükümetler*, p. 128]] · *Türk kaynağı*
+
+### Kişi · Halil Paşa
+`kişi: halil_pasa` · `unvan: Bahriye Nazırı Halil Paşa` · `rol: bahriye`
+Mirliva. 12 Ocak 1910'da İbrahim Hakkı Paşa'nın kabinesinde Bahriye Nazırı olur; 1910 ortasında koltuk vekâletle el değiştirir.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 99|Güneş, *Türkiye'de Hükümetler*, p. 99]] · *Türk kaynağı*
+
+### Kişi · Arif Hikmet Paşa
+`kişi: arif_hikmet` · `unvan: Bahriye Nazırı Arif Hikmet Paşa` · `rol: bahriye`
+Ferik ve âyan üyesi. 5 Mayıs 1909'da Hüseyin Hilmi'nin ikinci kabinesinde Bahriye Nazırı olur; Kâmil Paşa'nın ikinci kabinesinde (Ekim 1912) Adliye Nazırı'dır.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 88|Güneş, *Türkiye'de Hükümetler*, p. 88]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 120|Güneş, *Türkiye'de Hükümetler*, p. 120]] · *Türk kaynağı*
+
+### Kişi · Hurşid Paşa
+`kişi: hurshid_pasa` · `unvan: Bahriye Nazırı Hurşid Paşa` · `rol: bahriye`
+Seryaver. 4 Ekim 1911'de Said Paşa'nın kabinesinde Bahriye Nazırı olur; Trablusgarp Harbi'nin sürdüğü aylarda koltuktadır.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 106|Güneş, *Türkiye'de Hükümetler*, p. 106]] · *Türk kaynağı*
+
+### Kişi · Mahmud Muhtar Paşa
+`kişi: mahmud_muhtar` · `unvan: Bahriye Nazırı Mahmud Muhtar Paşa` · `rol: bahriye`
+22 Temmuz 1912'de Gazi Ahmed Muhtar Paşa'nın kabinesinde Bahriye Nazırı olur; Balkan Harbi'nin patlak verdiği Ekim 1912'de bu koltuktadır (kabine 29 Ekim'de düşer).
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 114|Güneş, *Türkiye'de Hükümetler*, p. 114]] · *Türk kaynağı*
+
+### Kişi · Salih Paşa
+`kişi: salih_bahriye` · `unvan: Bahriye Nazırı Salih Paşa` · `rol: bahriye`
+Eski Nafıa Nazırı. 30 Ekim 1912'de Kâmil Paşa'nın kabinesinde Bahriye Nazırı olur; Ocak 1913'te Babıâli Baskını'yla birlikte görevi biter.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 120|Güneş, *Türkiye'de Hükümetler*, p. 120]] · *Türk kaynağı*
+
+### Kişi · Mahmud Paşa
+`kişi: mahmud_pasa` · `unvan: Bahriye Nazırı Mahmud Paşa` · `rol: bahriye`
+Mirliva. 24 Ocak 1913'te Mahmud Şevket Paşa'nın kabinesinde Bahriye Nazırı olur ve Said Halim'in kabinesinde de Mart 1914'te Cemal'in gelişine kadar kalır.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 124|Güneş, *Türkiye'de Hükümetler*, p. 124]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 127|Güneş, *Türkiye'de Hükümetler*, p. 127]] · *Türk kaynağı*
+
+### Kişi · Reşid Akif Paşa
+`kişi: resid_akif` · `unvan: Dahiliye Nazırı Reşid Akif Paşa` · `rol: dahiliye`
+6 Ağustos 1908'de Kâmil Paşa'nın kabinesinde Dahiliye Nazırı; 27 Kasım 1908'de koltuğu Hüseyin Hilmi Paşa'ya bırakır.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 67|Güneş, *Türkiye'de Hükümetler*, p. 67]] · *Türk kaynağı*
+
+### Kişi · Ferid Paşa
+`kişi: ferid_pasa` · `unvan: Dahiliye Nazırı Ferid Paşa` · `rol: dahiliye`
+Aydın vali vekili iken Mayıs 1909'da Hüseyin Hilmi'nin ikinci kabinesinde Dahiliye Nazırı olur; Talat'a Ağustos 1909'da yerini verir. Temmuz 1912'de Gazi Ahmed Muhtar'ın büyük kabinesinde bir kez daha Dahiliye'ye gelir.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 83|Güneş, *Türkiye'de Hükümetler*, p. 83]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 88|Güneş, *Türkiye'de Hükümetler*, p. 88]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 114|Güneş, *Türkiye'de Hükümetler*, p. 114]] · *Türk kaynağı*
+
+### Kişi · Celal Bey
+`kişi: celal_bey` · `unvan: Dahiliye Nazırı Celal Bey` · `rol: dahiliye`
+Edirne Valisi iken 4 Ekim 1911'de Said Paşa'nın kabinesinde Dahiliye Nazırı olur; 22 Ocak 1912'de yerini Hacı Adil Bey'e bırakır.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 106|Güneş, *Türkiye'de Hükümetler*, p. 106]] · *Türk kaynağı*
+
+### Kişi · Hacı Adil Bey
+`kişi: haci_adil` · `unvan: Dahiliye Nazırı Hacı Adil Bey` · `rol: dahiliye`
+Edirne Valisi iken 22 Ocak 1912'de Said Paşa'nın kabinesinde Dahiliye Nazırı olur; Nisan 1912'nin sopalı seçimleri onun nezareti sırasında yapılır. Mahmud Şevket'in kabinesinde (Ocak 1913) yeniden Dahiliye'dir.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 106|Güneş, *Türkiye'de Hükümetler*, p. 106]] · *Türk kaynağı* · [[Türkiye'de Hükümetler (İhsan Güneş)#p. 124|Güneş, *Türkiye'de Hükümetler*, p. 124]] · *Türk kaynağı* · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 51|Akşin, *Kısa Türkiye Tarihi*, loc. 51]] · *Türk kaynağı*
+
+### Kişi · Reşid Bey
+`kişi: resid_bey` · `unvan: Dahiliye Nazırı Reşid Bey` · `rol: dahiliye`
+Aydın Valisi iken 30 Ekim 1912'de Kâmil Paşa'nın kabinesinde Dahiliye Nazırı olur; Balkan Harbi'nin en ağır haftalarında Dahiliye Nazırı'dır.
+> Kaynak: [[Türkiye'de Hükümetler (İhsan Güneş)#p. 120|Güneş, *Türkiye'de Hükümetler*, p. 120]] · *Türk kaynağı*
+
 ## Kabineler
 
 Masadaki koltukların kimde olduğu. Satırlar yukarıdan aşağı denenir; tarihi ve koşulu tutan ilk satır geçerlidir.
 
-| Başlangıç | Bitiş | Koşul | Hükümdar | Maliye | Harbiye | Bahriye |
-|---|---|---|---|---|---|---|
-| 1873-01 | 1876-05 | - | abdulaziz | maliye_nazir | huseyin_avni | hobart |
-| 1876-06 | 1909-12 | !⚑yol_ittihat | abdulhamid | maliye_nazir | riza_pasa | hasan_husnu |
-| 1910-01 | 1919-12 | ⚑yol_hamid | abdulhamid | maliye_nazir | riza_pasa | hasan_husnu |
-| 1913-01 | 1919-12 | ⚑yol_ahrar | kamil | maliye_nazir | ahmed_izzet | bahriye_nazir |
-| 1908-07 | 1909-04 | ⚑yol_ittihat | abdulhamid | maliye_nazir | riza_pasa | bahriye_nazir |
-| 1909-05 | 1909-12 | ⚑yol_ittihat | talat | cavid | mahmud_sevket | bahriye_nazir |
-| 1910-01 | 1913-06 | ⚑yol_ittihat | talat | cavid | mahmud_sevket | bahriye_nazir |
-| 1913-07 | 1913-12 | ⚑yol_ittihat | talat | cavid | ahmed_izzet | bahriye_nazir |
-| 1914-01 | 1918-09 | ⚑yol_ittihat | talat | cavid | enver | cemal |
-| 1918-10 | 1919-12 | ⚑yol_ittihat & ⚑talat_gitti | vahdettin | maliye_nazir | ahmed_izzet | rauf |
-| 1918-10 | 1919-12 | ⚑yol_ittihat | talat | cavid | enver | cemal |
+**Hükümdar** padişahtır (Abdülhamid, V. Mehmed Reşad, Vahdettin). **Sadrazam** doluysa masada o oturur (üst köşedeki kart); `-` ise masada, olayların atadığı kişi (persona) oturur. 1908–1913 satırları ay hassasiyetinde, İhsan Güneş'in *Türkiye'de Hükümetler* kitabındaki kabine tablolarına (Rumi tarihler Gregoryen'e çevrilmiştir; OCR'dan okunmuştur) ve Sina Akşin'in *Kısa Türkiye Tarihi*'ne dayanır:
 
-Mütareke sonrası Harbiye koltuğu kasadaki uzun listeden sadeleştirilecek: bkz. [[GD 99 Açık Sorular]].)
+- **Kâmil Paşa I** (6 Ağustos 1908 – 13 Şubat 1909; Said Paşa Temmuz 1908'de, Kâmil'den önce): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 67|Güneş, p. 67]]
+- **Hüseyin Hilmi I** (13 Şubat – 13 Nisan 1909): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 74|Güneş, p. 74]]
+- **Tevfik Paşa** (14 Nisan – 5 Mayıs 1909): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 83|Güneş, p. 83]]
+- **Hüseyin Hilmi II** (5 Mayıs 1909 – 12 Ocak 1910): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 88|Güneş, p. 88]]
+- **İbrahim Hakkı Paşa** (12 Ocak 1910 – 4 Ekim 1911): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 99|Güneş, p. 99]]
+- **Said Paşa II** (4 Ekim 1911 – 22 Temmuz 1912; Mebusan 18 Ocak 1912'de feshedilir, Nisan'da "sopalı seçim", Şubat 1912'de Talat Posta-Telgraf'a, Cavid Maliye'ye girer): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 106|Güneş, p. 106]] · [[Kısa Türkiye Tarihi (Sina Akşin)#loc. 51|Akşin, loc. 51]]
+- **Gazi Ahmed Muhtar Paşa** (22 Temmuz – 29 Ekim 1912; "büyük kabine", İttihatçılar desteklemez): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 114|Güneş, p. 114]]
+- **Kâmil Paşa II** (30 Ekim 1912 – 23 Ocak 1913): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 120|Güneş, p. 120]]
+- **Mahmud Şevket Paşa** (24 Ocak – 11 Haziran 1913; hem sadrazam hem Harbiye): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 124|Güneş, p. 124]]
+- **Said Halim Paşa** (17 Haziran 1913'ten; Talat Dahiliye, Ahmed İzzet Harbiye, 3 Ocak 1914'ten Enver Harbiye): [[Türkiye'de Hükümetler (İhsan Güneş)#p. 127|Güneş, p. 127]]
+
+| Başlangıç | Bitiş | Koşul | Hükümdar | Sadrazam | Dahiliye | Maliye | Harbiye | Bahriye |
+|---|---|---|---|---|---|---|---|---|
+| 1873-01 | 1876-05 | - | abdulaziz | - | - | maliye_nazir | huseyin_avni | hobart |
+| 1876-06 | 1909-12 | !⚑yol_ittihat | abdulhamid | - | - | maliye_nazir | riza_pasa | hasan_husnu |
+| 1910-01 | 1919-12 | ⚑yol_hamid | abdulhamid | - | - | maliye_nazir | riza_pasa | hasan_husnu |
+| 1913-01 | 1919-12 | ⚑yol_ahrar | mehmed_resad | kamil | - | maliye_nazir | ahmed_izzet | bahriye_nazir |
+| 1908-07 | 1908-07 | ⚑yol_ittihat | abdulhamid | said_pasa | - | maliye_nazir | riza_pasa | bahriye_nazir |
+| 1908-08 | 1908-10 | ⚑yol_ittihat | abdulhamid | kamil | resid_akif | ziya_pasa | recep_pasa | bahriye_nazir |
+| 1908-11 | 1909-01 | ⚑yol_ittihat | abdulhamid | kamil | huseyin_hilmi | ziya_pasa | recep_pasa | bahriye_nazir |
+| 1909-02 | 1909-02 | ⚑yol_ittihat | abdulhamid | huseyin_hilmi | huseyin_hilmi | ziya_pasa | ali_riza_pasa | bahriye_nazir |
+| 1909-03 | 1909-03 | ⚑yol_ittihat | abdulhamid | huseyin_hilmi | huseyin_hilmi | ziya_pasa | nazim_pasa | bahriye_nazir |
+| 1909-04 | 1909-04 | ⚑yol_ittihat | abdulhamid | tevfik_pasa | - | maliye_nazir | edhem_pasa | bahriye_nazir |
+| 1909-05 | 1909-06 | ⚑yol_ittihat | mehmed_resad | huseyin_hilmi | ferid_pasa | rifat_bey | salih_pasa | arif_hikmet |
+| 1909-07 | 1909-07 | ⚑yol_ittihat | mehmed_resad | huseyin_hilmi | ferid_pasa | cavid | salih_pasa | arif_hikmet |
+| 1909-08 | 1909-12 | ⚑yol_ittihat | mehmed_resad | huseyin_hilmi | talat | cavid | salih_pasa | arif_hikmet |
+| 1910-01 | 1910-06 | ⚑yol_ittihat | mehmed_resad | ibrahim_hakki | talat | cavid | mahmud_sevket | halil_pasa |
+| 1910-07 | 1911-01 | ⚑yol_ittihat | mehmed_resad | ibrahim_hakki | talat | cavid | mahmud_sevket | bahriye_nazir |
+| 1911-02 | 1911-09 | ⚑yol_ittihat | mehmed_resad | ibrahim_hakki | ibrahim_hakki | maliye_nazir | mahmud_sevket | bahriye_nazir |
+| 1911-10 | 1912-01 | ⚑yol_ittihat | mehmed_resad | said_pasa | celal_bey | nail_bey | mahmud_sevket | hurshid_pasa |
+| 1912-02 | 1912-06 | ⚑yol_ittihat | mehmed_resad | said_pasa | haci_adil | cavid | mahmud_sevket | hurshid_pasa |
+| 1912-07 | 1912-08 | ⚑yol_ittihat | mehmed_resad | ahmed_muhtar | ferid_pasa | ziya_pasa | nazim_pasa | mahmud_muhtar |
+| 1912-09 | 1912-10 | ⚑yol_ittihat | mehmed_resad | ahmed_muhtar | ferid_pasa | huseyin_sabri | nazim_pasa | mahmud_muhtar |
+| 1912-11 | 1913-01 | ⚑yol_ittihat | mehmed_resad | kamil | resid_bey | abdurrahman_efendi | nazim_pasa | salih_bahriye |
+| 1913-02 | 1913-05 | ⚑yol_ittihat | mehmed_resad | mahmud_sevket | haci_adil | rifat_bey | mahmud_sevket | mahmud_pasa |
+| 1913-06 | 1913-12 | ⚑yol_ittihat | mehmed_resad | said_halim | talat | rifat_bey | ahmed_izzet | mahmud_pasa |
+| 1914-01 | 1914-02 | ⚑yol_ittihat | mehmed_resad | said_halim | talat | rifat_bey | enver | mahmud_pasa |
+| 1914-03 | 1917-01 | ⚑yol_ittihat | mehmed_resad | said_halim | talat | cavid | enver | cemal |
+| 1917-02 | 1918-06 | ⚑yol_ittihat | mehmed_resad | talat | talat | cavid | enver | cemal |
+| 1918-07 | 1918-09 | ⚑yol_ittihat | vahdettin | talat | talat | cavid | enver | cemal |
+| 1918-10 | 1919-12 | ⚑yol_ittihat & ⚑talat_gitti | vahdettin | - | - | maliye_nazir | ahmed_izzet | rauf |
+| 1918-10 | 1919-12 | ⚑yol_ittihat | vahdettin | talat | talat | cavid | enver | cemal |
 
 ## Devletler
 

@@ -297,7 +297,7 @@
   "mahmud_sevket": {
    "id": "mahmud_sevket",
    "name": "Mahmud Şevket Paşa",
-   "title": "Harbiye Nazırı Mahmud Şevket Paşa",
+   "title": "Harbiye Nazırı Mahmud Şevket Paşa (1913'te Sadrazam)",
    "images": [],
    "role": "harbiye",
    "image": "res://game/assets/images/Mahmud_Shevket_Pasha_bf91ff.png",
@@ -325,7 +325,7 @@
    "images": [],
    "role": "bahriye",
    "image": null,
-   "text": "1909–1913 arasında Bahriye Nezareti kabineden kabineye el değiştirir; oyunda adsız bir nazırdır. Donanma programlarını ve bağış kampanyalarını o savunur.",
+   "text": "Bahriye Nezareti 1909–1913 arasında kabineden kabineye ve vekâletle el değiştirir; Güneş'in tablosundan okunabilen nazırlar adlarıyla yazılıdır. Bu adsız koltuk yalnız tabloda boş ya da vekâletle doldurulmuş aylar için kalır (1908 sonbaharı, 1910 ortası–1911 sonu). Donanma programlarını ve bağış kampanyalarını Bahriye Nazırı savunur.",
    "sources": [
     "{i:book} Kaynak: Güneş, p. 114 · [i]Türk kaynağı[/i]"
    ]
@@ -474,6 +474,330 @@
    "text": "Fahreddin (Fahri) Paşa, Medine'nin müdafii. Şerif Hüseyin'in isyanından sonra Cemal Paşa onu 15–16 taburla Medine'ye kumandan atar. Faysal ona \"hükümetteki adamlara karşı\" katılması için mektuplar gönderir; o reddeder. Demiryoluna yapılan baskınlar karşı taarruzunu durdurur, ama şehri mütarekeden sonra da bir süre tutar.",
    "sources": [
     "{i:book} Kaynak: Fahreddin Paşa · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "mehmed_resad": {
+   "id": "mehmed_resad",
+   "name": "V. Mehmed Reşad",
+   "title": "Sultan V. Mehmed Reşad (1909–1918)",
+   "images": [],
+   "role": "hükümdar",
+   "image": "res://game/assets/images/Ahmet_Resat_68bb05.jpg",
+   "text": "27 Nisan 1909'da Abdülhamid'in yerine tahta çıkar. Akşin onu meşrutiyet için uygun bir padişah bulur: siyasete pek karışmayan, iyi niyetli, babacan biri. Kaynaklar onu çoğunlukla bir imza ve simge olarak gösterir; oyunda masaya o değil, o günkü sadrazam oturur.",
+   "sources": [
+    "{i:book} Kaynak: Mehmed V Reşad · Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 43 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "said_pasa": {
+   "id": "said_pasa",
+   "name": "Küçük Said Paşa",
+   "title": "Sadrazam Küçük Said Paşa",
+   "images": [],
+   "role": "sadrazam",
+   "image": "res://game/assets/images/1909_05_10_Sait_Pasa_Ayastefanos_Yat_Kulubu_Onunde_b0a894.jpg",
+   "text": "Abdülhamid'in eski vezirlerinden. Temmuz 1908'de Meşrutiyet'ten kısa süre önce sadrazamdır; ilk toplantıda Kanun-ı Esasi'nin yeniden yürürlüğe konmasını karara bağlar, ama Cemiyet ona sıcak bakmaz ve 3 Ağustos 1908'de çekilir. Hakkı Paşa'nın Trablusgarp ültimatomu üzerine çekilmesiyle 1 Ekim 1911'de yeniden sadrazam olur: Akşin'e göre \"İngilizci\" tanınan bu vezirin Mahmud Şevket'i dengeleyecek ağırlığı vardır. Mebusan 18 Ocak 1912'de dağıtılır, Talat ve Cavid hükümete girer, Nisan 1912'nin \"sopalı seçim\"i onun hükümeti altında yapılır; Temmuz 1912'de istifa etmek zorunda kalır.",
+   "sources": [
+    "{i:book} Kaynak: Küçük Said Paşa · Güneş, [i]Türkiye'de Hükümetler[/i], p. 38 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 154 · [i]Türk kaynağı[/i] · Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 50 · [i]Türk kaynağı[/i] · Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 51 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "tevfik_pasa": {
+   "id": "tevfik_pasa",
+   "name": "Ahmed Tevfik Paşa",
+   "title": "Sadrazam Ahmed Tevfik Paşa",
+   "images": [],
+   "role": "sadrazam",
+   "image": "res://game/assets/images/Ahmed_Tevfik_Pasha_3878d9.jpg",
+   "text": "31 Mart ayaklanması sırasında, Hüseyin Hilmi Paşa'nın istifasının ardından 14 Nisan 1909'da sadrazam olur. Hükümetini hemen kurar ve programını Meclis'e sunar, ama Hareket Ordusu'nun gelişiyle bir aydan kısa sürede (6 Mayıs'a kadar) görevden uzaklaşır; Adana olayları onun zamanındadır.",
+   "sources": [
+    "{i:book} Kaynak: Tevfik Paşa · Güneş, [i]Türkiye'de Hükümetler[/i], p. 44 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 45 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "huseyin_hilmi": {
+   "id": "huseyin_hilmi",
+   "name": "Hüseyin Hilmi Paşa",
+   "title": "Sadrazam Hüseyin Hilmi Paşa",
+   "images": [],
+   "role": "sadrazam",
+   "image": null,
+   "text": "Rumeli Müfettişi iken Kâmil Paşa'nın kabinesine 27 Kasım 1908'de Dahiliye Nazırı olarak girer. Kâmil'in 196 oyla düşmesinin ardından 13 Şubat 1909'da sadrazam olur ve hükümet programını Meclis'te okuyup güvenoyu isteme geleneğini başlatır. 31 Mart'ta istifa eder; 6 Mayıs 1909'da Hareket Ordusu'nun gölgesinde sadarete döner. Yıl sonunda Lynch (Fırat gemicilik) davasında Mahmud Şevket ve Bağdat mebuslarıyla tartışır; güvenoyuna rağmen çekilir (Ocak 1910).",
+   "sources": [
+    "{i:book} Kaynak: Hüseyin Hilmi Paşa · Güneş, [i]Türkiye'de Hükümetler[/i], p. 43 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 44 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 45 · [i]Türk kaynağı[/i] · Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 48 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "ibrahim_hakki": {
+   "id": "ibrahim_hakki",
+   "name": "İbrahim Hakkı Paşa",
+   "title": "Sadrazam İbrahim Hakkı Paşa",
+   "images": [],
+   "role": "sadrazam",
+   "image": null,
+   "text": "12 Ocak 1910'da Hüseyin Hilmi'nin yerine sadrazam olur. Kabinesinde eskisine göre çok İttihatçı vardır (Talat Dahiliye, Cavid Maliye, İsmail Hakkı Maarif, Hayri Evkaf) ve Mahmud Şevket Harbiye Nazırı olarak hükümete girmiştir. Meclis'ten 178 kabul, 31 ret oyuyla güvenoyu alır (24 Ocak 1910); Lynch'in Fırat ayrıcalığını yenilemez. Akşin kabinedeki İttihatçı nazırların birer birer azaldığını yazar; Güneş'in tablosuna göre Şubat 1911'de Talat ve Cavid'in koltukları vekâletle doldurulur ve Dahiliye'yi Hakkı Paşa'nın kendisi tutar (tablo okunaksızdır, bkz. GD 99). Trablusgarp ültimatomundan sonra Ekim 1911'de çekilir.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 99 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 154 · [i]Türk kaynağı[/i] · Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 48 · [i]Türk kaynağı[/i] · Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 50 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "said_halim": {
+   "id": "said_halim",
+   "name": "Prens Said Halim Paşa",
+   "title": "Sadrazam Prens Said Halim Paşa",
+   "images": [],
+   "role": "sadrazam",
+   "image": "res://game/assets/images/Gro_wezir_Prinz_Said_Halim_Pascha_1915_C_Pietzner_077271.png",
+   "text": "Kavalalı Mehmed Ali Paşa'nın torunu. Mahmud Şevket'in 11 Haziran 1913'te öldürülmesi üzerine sadrazam olur; kabinesi (onaylanışı 17 Haziran 1913) tümüyle İttihatçılardan kuruludur. Şubat 1917'de Talat'a bırakana kadar makamı korur.",
+   "sources": [
+    "{i:book} Kaynak: Said Halim Paşa · Güneş, [i]Türkiye'de Hükümetler[/i], p. 160 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 127 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "recep_pasa": {
+   "id": "recep_pasa",
+   "name": "Recep Paşa",
+   "title": "Harbiye Nazırı Recep Paşa",
+   "images": [],
+   "role": "harbiye",
+   "image": null,
+   "text": "Kâmil Paşa'nın kabinesinde 6 Ağustos 1908'den Şubat 1909'a kadar Harbiye Nazırı. Padişah Harbiye ve Bahriye'ye kendi adamlarını istemişti; Kâmil Paşa Kanun-ı Esasi'nin maddesinin yoruma açık olduğunu söyleyip kendi istediklerini atadı.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 67 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 28 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 29 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "ali_riza_pasa": {
+   "id": "ali_riza_pasa",
+   "name": "Ali Rıza Paşa",
+   "title": "Harbiye Nazırı Ali Rıza Paşa",
+   "images": [],
+   "role": "harbiye",
+   "image": null,
+   "text": "Mısır fevkalade komiseri iken Hüseyin Hilmi'nin ilk kabinesinde (14 Şubat 1909) Harbiye Nazırı olur.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 74 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "nazim_pasa": {
+   "id": "nazim_pasa",
+   "name": "Hüseyin Nazım Paşa",
+   "title": "Harbiye Nazırı Hüseyin Nazım Paşa",
+   "images": [],
+   "role": "harbiye",
+   "image": "res://game/assets/images/1326_04_22_Serveti_Funun_Nazim_Pasa_Bagdat_Valisi_296455.jpg",
+   "text": "Yanya Valisi iken Mart 1909'da Harbiye Nazırı olur; Balkan Harbi'nde (22 Temmuz 1912'den 23 Ocak 1913'e, Muhtar ve Kâmil kabinelerinde) bu koltuktadır. Akşin onu yenilginin başlıca askerî sorumlusu sayar; 23 Ocak 1913'te Babıâli Baskını'nda vurulur.",
+   "sources": [
+    "{i:book} Kaynak: Nazım Paşa · Güneş, [i]Türkiye'de Hükümetler[/i], p. 74 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 114 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 120 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "edhem_pasa": {
+   "id": "edhem_pasa",
+   "name": "Edhem Paşa",
+   "title": "Harbiye Nazırı Edhem Paşa",
+   "images": [],
+   "role": "harbiye",
+   "image": null,
+   "text": "Tevfik Paşa'nın kabinesinde 14 Nisan 1909'dan Hareket Ordusu'nun gelişine kadar Harbiye Nazırı (müir-i aynı).",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 83 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "salih_pasa": {
+   "id": "salih_pasa",
+   "name": "Salih Paşa",
+   "title": "Harbiye Nazırı Salih Paşa",
+   "images": [],
+   "role": "harbiye",
+   "image": null,
+   "text": "II. Ordu komutanı iken 28 Nisan 1909'da Harbiye Nazırı olur ve Hüseyin Hilmi'nin ikinci kabinesinde, Mahmud Şevket'in girdiği Ocak 1910'a kadar kalır.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 83 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 88 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "ziya_pasa": {
+   "id": "ziya_pasa",
+   "name": "Ziya Paşa",
+   "title": "Maliye Nazırı Ziya Paşa",
+   "images": [],
+   "role": "maliye",
+   "image": null,
+   "text": "Kâmil Paşa'nın (6 Ağustos 1908) ve Hüseyin Hilmi'nin ilk kabinesinin Maliye Nazırı; Temmuz 1912'de Gazi Ahmed Muhtar Paşa'nın kabinesinde, eski nazır olarak, bir kez daha bu koltuğa getirilir.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 67 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 74 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 114 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "rifat_bey": {
+   "id": "rifat_bey",
+   "name": "Rıfat Bey",
+   "title": "Maliye Nazırı Rıfat Bey",
+   "images": [],
+   "role": "maliye",
+   "image": null,
+   "text": "Mayıs–Haziran 1909'da Hüseyin Hilmi'nin ikinci kabinesinde, ve Divan-ı Muhasebat Reisi olarak Şubat 1913'ten Mart 1914'e kadar Mahmud Şevket ve Said Halim kabinelerinde Maliye Nazırı.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 88 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 124 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 127 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "nail_bey": {
+   "id": "nail_bey",
+   "name": "Nail Bey",
+   "title": "Maliye Nazırı Nail Bey",
+   "images": [],
+   "role": "maliye",
+   "image": null,
+   "text": "Said Paşa'nın kabinesinde Ekim 1911'den Şubat 1912'ye kadar Maliye Nazırı; Cavid'in dönüşüyle yerini ona bırakır.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 106 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "huseyin_sabri": {
+   "id": "huseyin_sabri",
+   "name": "Hüseyin Sabri Bey",
+   "title": "Maliye Nazırı Hüseyin Sabri Bey",
+   "images": [],
+   "role": "maliye",
+   "image": null,
+   "text": "Eski Maliye Nazırı. 25 Ağustos 1912'de, Balkan Harbi'nin eşiğinde, Gazi Ahmed Muhtar'ın kabinesinde Maliye'ye getirilir.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 114 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "abdurrahman_efendi": {
+   "id": "abdurrahman_efendi",
+   "name": "Abdurrahman Efendi",
+   "title": "Maliye Nazırı Abdurrahman Efendi",
+   "images": [],
+   "role": "maliye",
+   "image": null,
+   "text": "Eski Dahiliye Nazırı. 30 Ekim 1912'de Kâmil Paşa'nın kabinesinde Maliye Nazırı olur; Said Halim hükümetinin programı, Ocak 1913'te Saray'da toplanan mecliste Maliye Nazırı'nın hazinenin harbe devam etmeye değil günlük ihtiyaca bile yetmediğini bildirdiğini anlatır.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 120 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 128 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "halil_pasa": {
+   "id": "halil_pasa",
+   "name": "Halil Paşa",
+   "title": "Bahriye Nazırı Halil Paşa",
+   "images": [],
+   "role": "bahriye",
+   "image": null,
+   "text": "Mirliva. 12 Ocak 1910'da İbrahim Hakkı Paşa'nın kabinesinde Bahriye Nazırı olur; 1910 ortasında koltuk vekâletle el değiştirir.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 99 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "arif_hikmet": {
+   "id": "arif_hikmet",
+   "name": "Arif Hikmet Paşa",
+   "title": "Bahriye Nazırı Arif Hikmet Paşa",
+   "images": [],
+   "role": "bahriye",
+   "image": null,
+   "text": "Ferik ve âyan üyesi. 5 Mayıs 1909'da Hüseyin Hilmi'nin ikinci kabinesinde Bahriye Nazırı olur; Kâmil Paşa'nın ikinci kabinesinde (Ekim 1912) Adliye Nazırı'dır.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 88 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 120 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "hurshid_pasa": {
+   "id": "hurshid_pasa",
+   "name": "Hurşid Paşa",
+   "title": "Bahriye Nazırı Hurşid Paşa",
+   "images": [],
+   "role": "bahriye",
+   "image": null,
+   "text": "Seryaver. 4 Ekim 1911'de Said Paşa'nın kabinesinde Bahriye Nazırı olur; Trablusgarp Harbi'nin sürdüğü aylarda koltuktadır.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 106 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "mahmud_muhtar": {
+   "id": "mahmud_muhtar",
+   "name": "Mahmud Muhtar Paşa",
+   "title": "Bahriye Nazırı Mahmud Muhtar Paşa",
+   "images": [],
+   "role": "bahriye",
+   "image": null,
+   "text": "22 Temmuz 1912'de Gazi Ahmed Muhtar Paşa'nın kabinesinde Bahriye Nazırı olur; Balkan Harbi'nin patlak verdiği Ekim 1912'de bu koltuktadır (kabine 29 Ekim'de düşer).",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 114 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "salih_bahriye": {
+   "id": "salih_bahriye",
+   "name": "Salih Paşa",
+   "title": "Bahriye Nazırı Salih Paşa",
+   "images": [],
+   "role": "bahriye",
+   "image": null,
+   "text": "Eski Nafıa Nazırı. 30 Ekim 1912'de Kâmil Paşa'nın kabinesinde Bahriye Nazırı olur; Ocak 1913'te Babıâli Baskını'yla birlikte görevi biter.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 120 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "mahmud_pasa": {
+   "id": "mahmud_pasa",
+   "name": "Mahmud Paşa",
+   "title": "Bahriye Nazırı Mahmud Paşa",
+   "images": [],
+   "role": "bahriye",
+   "image": null,
+   "text": "Mirliva. 24 Ocak 1913'te Mahmud Şevket Paşa'nın kabinesinde Bahriye Nazırı olur ve Said Halim'in kabinesinde de Mart 1914'te Cemal'in gelişine kadar kalır.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 124 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 127 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "resid_akif": {
+   "id": "resid_akif",
+   "name": "Reşid Akif Paşa",
+   "title": "Dahiliye Nazırı Reşid Akif Paşa",
+   "images": [],
+   "role": "dahiliye",
+   "image": null,
+   "text": "6 Ağustos 1908'de Kâmil Paşa'nın kabinesinde Dahiliye Nazırı; 27 Kasım 1908'de koltuğu Hüseyin Hilmi Paşa'ya bırakır.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 67 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "ferid_pasa": {
+   "id": "ferid_pasa",
+   "name": "Ferid Paşa",
+   "title": "Dahiliye Nazırı Ferid Paşa",
+   "images": [],
+   "role": "dahiliye",
+   "image": null,
+   "text": "Aydın vali vekili iken Mayıs 1909'da Hüseyin Hilmi'nin ikinci kabinesinde Dahiliye Nazırı olur; Talat'a Ağustos 1909'da yerini verir. Temmuz 1912'de Gazi Ahmed Muhtar'ın büyük kabinesinde bir kez daha Dahiliye'ye gelir.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 83 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 88 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 114 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "celal_bey": {
+   "id": "celal_bey",
+   "name": "Celal Bey",
+   "title": "Dahiliye Nazırı Celal Bey",
+   "images": [],
+   "role": "dahiliye",
+   "image": null,
+   "text": "Edirne Valisi iken 4 Ekim 1911'de Said Paşa'nın kabinesinde Dahiliye Nazırı olur; 22 Ocak 1912'de yerini Hacı Adil Bey'e bırakır.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 106 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "haci_adil": {
+   "id": "haci_adil",
+   "name": "Hacı Adil Bey",
+   "title": "Dahiliye Nazırı Hacı Adil Bey",
+   "images": [],
+   "role": "dahiliye",
+   "image": null,
+   "text": "Edirne Valisi iken 22 Ocak 1912'de Said Paşa'nın kabinesinde Dahiliye Nazırı olur; Nisan 1912'nin sopalı seçimleri onun nezareti sırasında yapılır. Mahmud Şevket'in kabinesinde (Ocak 1913) yeniden Dahiliye'dir.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 106 · [i]Türk kaynağı[/i] · Güneş, [i]Türkiye'de Hükümetler[/i], p. 124 · [i]Türk kaynağı[/i] · Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 51 · [i]Türk kaynağı[/i]"
+   ]
+  },
+  "resid_bey": {
+   "id": "resid_bey",
+   "name": "Reşid Bey",
+   "title": "Dahiliye Nazırı Reşid Bey",
+   "images": [],
+   "role": "dahiliye",
+   "image": null,
+   "text": "Aydın Valisi iken 30 Ekim 1912'de Kâmil Paşa'nın kabinesinde Dahiliye Nazırı olur; Balkan Harbi'nin en ağır haftalarında Dahiliye Nazırı'dır.",
+   "sources": [
+    "{i:book} Kaynak: Güneş, [i]Türkiye'de Hükümetler[/i], p. 120 · [i]Türk kaynağı[/i]"
    ]
   }
  },
@@ -3879,6 +4203,8 @@
    "to": "1876-05",
    "cond": null,
    "ruler": "abdulaziz",
+   "sadrazam": "-",
+   "dahiliye": "-",
    "maliye": "maliye_nazir",
    "harbiye": "huseyin_avni",
    "bahriye": "hobart"
@@ -3894,6 +4220,8 @@
     }
    },
    "ruler": "abdulhamid",
+   "sadrazam": "-",
+   "dahiliye": "-",
    "maliye": "maliye_nazir",
    "harbiye": "riza_pasa",
    "bahriye": "hasan_husnu"
@@ -3906,6 +4234,8 @@
     "name": "yol_hamid"
    },
    "ruler": "abdulhamid",
+   "sadrazam": "-",
+   "dahiliye": "-",
    "maliye": "maliye_nazir",
    "harbiye": "riza_pasa",
    "bahriye": "hasan_husnu"
@@ -3917,67 +4247,331 @@
     "op": "flag",
     "name": "yol_ahrar"
    },
-   "ruler": "kamil",
+   "ruler": "mehmed_resad",
+   "sadrazam": "kamil",
+   "dahiliye": "-",
    "maliye": "maliye_nazir",
    "harbiye": "ahmed_izzet",
    "bahriye": "bahriye_nazir"
   },
   {
    "from": "1908-07",
+   "to": "1908-07",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "abdulhamid",
+   "sadrazam": "said_pasa",
+   "dahiliye": "-",
+   "maliye": "maliye_nazir",
+   "harbiye": "riza_pasa",
+   "bahriye": "bahriye_nazir"
+  },
+  {
+   "from": "1908-08",
+   "to": "1908-10",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "abdulhamid",
+   "sadrazam": "kamil",
+   "dahiliye": "resid_akif",
+   "maliye": "ziya_pasa",
+   "harbiye": "recep_pasa",
+   "bahriye": "bahriye_nazir"
+  },
+  {
+   "from": "1908-11",
+   "to": "1909-01",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "abdulhamid",
+   "sadrazam": "kamil",
+   "dahiliye": "huseyin_hilmi",
+   "maliye": "ziya_pasa",
+   "harbiye": "recep_pasa",
+   "bahriye": "bahriye_nazir"
+  },
+  {
+   "from": "1909-02",
+   "to": "1909-02",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "abdulhamid",
+   "sadrazam": "huseyin_hilmi",
+   "dahiliye": "huseyin_hilmi",
+   "maliye": "ziya_pasa",
+   "harbiye": "ali_riza_pasa",
+   "bahriye": "bahriye_nazir"
+  },
+  {
+   "from": "1909-03",
+   "to": "1909-03",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "abdulhamid",
+   "sadrazam": "huseyin_hilmi",
+   "dahiliye": "huseyin_hilmi",
+   "maliye": "ziya_pasa",
+   "harbiye": "nazim_pasa",
+   "bahriye": "bahriye_nazir"
+  },
+  {
+   "from": "1909-04",
    "to": "1909-04",
    "cond": {
     "op": "flag",
     "name": "yol_ittihat"
    },
    "ruler": "abdulhamid",
+   "sadrazam": "tevfik_pasa",
+   "dahiliye": "-",
    "maliye": "maliye_nazir",
-   "harbiye": "riza_pasa",
+   "harbiye": "edhem_pasa",
    "bahriye": "bahriye_nazir"
   },
   {
    "from": "1909-05",
+   "to": "1909-06",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "huseyin_hilmi",
+   "dahiliye": "ferid_pasa",
+   "maliye": "rifat_bey",
+   "harbiye": "salih_pasa",
+   "bahriye": "arif_hikmet"
+  },
+  {
+   "from": "1909-07",
+   "to": "1909-07",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "huseyin_hilmi",
+   "dahiliye": "ferid_pasa",
+   "maliye": "cavid",
+   "harbiye": "salih_pasa",
+   "bahriye": "arif_hikmet"
+  },
+  {
+   "from": "1909-08",
    "to": "1909-12",
    "cond": {
     "op": "flag",
     "name": "yol_ittihat"
    },
-   "ruler": "talat",
+   "ruler": "mehmed_resad",
+   "sadrazam": "huseyin_hilmi",
+   "dahiliye": "talat",
    "maliye": "cavid",
-   "harbiye": "mahmud_sevket",
-   "bahriye": "bahriye_nazir"
+   "harbiye": "salih_pasa",
+   "bahriye": "arif_hikmet"
   },
   {
    "from": "1910-01",
-   "to": "1913-06",
+   "to": "1910-06",
    "cond": {
     "op": "flag",
     "name": "yol_ittihat"
    },
-   "ruler": "talat",
+   "ruler": "mehmed_resad",
+   "sadrazam": "ibrahim_hakki",
+   "dahiliye": "talat",
+   "maliye": "cavid",
+   "harbiye": "mahmud_sevket",
+   "bahriye": "halil_pasa"
+  },
+  {
+   "from": "1910-07",
+   "to": "1911-01",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "ibrahim_hakki",
+   "dahiliye": "talat",
    "maliye": "cavid",
    "harbiye": "mahmud_sevket",
    "bahriye": "bahriye_nazir"
   },
   {
-   "from": "1913-07",
+   "from": "1911-02",
+   "to": "1911-09",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "ibrahim_hakki",
+   "dahiliye": "ibrahim_hakki",
+   "maliye": "maliye_nazir",
+   "harbiye": "mahmud_sevket",
+   "bahriye": "bahriye_nazir"
+  },
+  {
+   "from": "1911-10",
+   "to": "1912-01",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "said_pasa",
+   "dahiliye": "celal_bey",
+   "maliye": "nail_bey",
+   "harbiye": "mahmud_sevket",
+   "bahriye": "hurshid_pasa"
+  },
+  {
+   "from": "1912-02",
+   "to": "1912-06",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "said_pasa",
+   "dahiliye": "haci_adil",
+   "maliye": "cavid",
+   "harbiye": "mahmud_sevket",
+   "bahriye": "hurshid_pasa"
+  },
+  {
+   "from": "1912-07",
+   "to": "1912-08",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "ahmed_muhtar",
+   "dahiliye": "ferid_pasa",
+   "maliye": "ziya_pasa",
+   "harbiye": "nazim_pasa",
+   "bahriye": "mahmud_muhtar"
+  },
+  {
+   "from": "1912-09",
+   "to": "1912-10",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "ahmed_muhtar",
+   "dahiliye": "ferid_pasa",
+   "maliye": "huseyin_sabri",
+   "harbiye": "nazim_pasa",
+   "bahriye": "mahmud_muhtar"
+  },
+  {
+   "from": "1912-11",
+   "to": "1913-01",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "kamil",
+   "dahiliye": "resid_bey",
+   "maliye": "abdurrahman_efendi",
+   "harbiye": "nazim_pasa",
+   "bahriye": "salih_bahriye"
+  },
+  {
+   "from": "1913-02",
+   "to": "1913-05",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "mahmud_sevket",
+   "dahiliye": "haci_adil",
+   "maliye": "rifat_bey",
+   "harbiye": "mahmud_sevket",
+   "bahriye": "mahmud_pasa"
+  },
+  {
+   "from": "1913-06",
    "to": "1913-12",
    "cond": {
     "op": "flag",
     "name": "yol_ittihat"
    },
-   "ruler": "talat",
-   "maliye": "cavid",
+   "ruler": "mehmed_resad",
+   "sadrazam": "said_halim",
+   "dahiliye": "talat",
+   "maliye": "rifat_bey",
    "harbiye": "ahmed_izzet",
-   "bahriye": "bahriye_nazir"
+   "bahriye": "mahmud_pasa"
   },
   {
    "from": "1914-01",
+   "to": "1914-02",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "said_halim",
+   "dahiliye": "talat",
+   "maliye": "rifat_bey",
+   "harbiye": "enver",
+   "bahriye": "mahmud_pasa"
+  },
+  {
+   "from": "1914-03",
+   "to": "1917-01",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "said_halim",
+   "dahiliye": "talat",
+   "maliye": "cavid",
+   "harbiye": "enver",
+   "bahriye": "cemal"
+  },
+  {
+   "from": "1917-02",
+   "to": "1918-06",
+   "cond": {
+    "op": "flag",
+    "name": "yol_ittihat"
+   },
+   "ruler": "mehmed_resad",
+   "sadrazam": "talat",
+   "dahiliye": "talat",
+   "maliye": "cavid",
+   "harbiye": "enver",
+   "bahriye": "cemal"
+  },
+  {
+   "from": "1918-07",
    "to": "1918-09",
    "cond": {
     "op": "flag",
     "name": "yol_ittihat"
    },
-   "ruler": "talat",
+   "ruler": "vahdettin",
+   "sadrazam": "talat",
+   "dahiliye": "talat",
    "maliye": "cavid",
    "harbiye": "enver",
    "bahriye": "cemal"
@@ -3999,6 +4593,8 @@
     ]
    },
    "ruler": "vahdettin",
+   "sadrazam": "-",
+   "dahiliye": "-",
    "maliye": "maliye_nazir",
    "harbiye": "ahmed_izzet",
    "bahriye": "rauf"
@@ -4010,7 +4606,9 @@
     "op": "flag",
     "name": "yol_ittihat"
    },
-   "ruler": "talat",
+   "ruler": "vahdettin",
+   "sadrazam": "talat",
+   "dahiliye": "talat",
    "maliye": "cavid",
    "harbiye": "enver",
    "bahriye": "cemal"
@@ -4020,7 +4618,7 @@
   {
    "id": "k_gelir",
    "file": "GD 02 Sistemler",
-   "line": 358,
+   "line": 522,
    "date": {
     "y": 1873,
     "m": 1,
@@ -4064,7 +4662,7 @@
   {
    "id": "k_dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 372,
+   "line": 536,
    "date": {
     "y": 1873,
     "m": 1,
@@ -4117,7 +4715,7 @@
   {
    "id": "k_bahriye_bakim",
    "file": "GD 02 Sistemler",
-   "line": 392,
+   "line": 556,
    "date": {
     "y": 1873,
     "m": 1,
@@ -4172,7 +4770,7 @@
   {
    "id": "dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 464,
+   "line": 628,
    "date": {
     "y": 1873,
     "m": 1,
@@ -4388,7 +4986,7 @@
   {
    "id": "m_para",
    "file": "GD 02 Sistemler",
-   "line": 500,
+   "line": 664,
    "date": {
     "y": 1873,
     "m": 1,
@@ -4427,7 +5025,7 @@
   {
    "id": "m_avrupa",
    "file": "GD 02 Sistemler",
-   "line": 505,
+   "line": 669,
    "date": {
     "y": 1873,
     "m": 1,
@@ -5348,7 +5946,7 @@
   {
    "id": "k_iflas",
    "file": "GD 02 Sistemler",
-   "line": 362,
+   "line": 526,
    "date": {
     "y": 1875,
     "m": 1,
@@ -8887,7 +9485,7 @@
   {
    "id": "k_halic",
    "file": "GD 02 Sistemler",
-   "line": 387,
+   "line": 551,
    "date": {
     "y": 1878,
     "m": 1,
@@ -8934,7 +9532,7 @@
   {
    "id": "k_jurnal",
    "file": "GD 02 Sistemler",
-   "line": 397,
+   "line": 561,
    "date": {
     "y": 1878,
     "m": 1,
@@ -9015,7 +9613,7 @@
   {
    "id": "m_hakimiyet",
    "file": "GD 02 Sistemler",
-   "line": 483,
+   "line": 647,
    "date": {
     "y": 1878,
     "m": 1,
@@ -9075,7 +9673,7 @@
   {
    "id": "m_jon_turk",
    "file": "GD 02 Sistemler",
-   "line": 489,
+   "line": 653,
    "date": {
     "y": 1878,
     "m": 1,
@@ -9133,7 +9731,7 @@
   {
    "id": "m_halic",
    "file": "GD 02 Sistemler",
-   "line": 494,
+   "line": 658,
    "date": {
     "y": 1878,
     "m": 1,
@@ -11933,7 +12531,7 @@
   {
    "id": "k_harbiye_curume",
    "file": "GD 02 Sistemler",
-   "line": 377,
+   "line": 541,
    "date": {
     "y": 1879,
     "m": 1,
@@ -12294,7 +12892,7 @@
   {
    "id": "m_alman",
    "file": "GD 02 Sistemler",
-   "line": 510,
+   "line": 674,
    "date": {
     "y": 1880,
     "m": 1,
@@ -12333,7 +12931,7 @@
   {
    "id": "m_ermeni",
    "file": "GD 02 Sistemler",
-   "line": 515,
+   "line": 679,
    "date": {
     "y": 1880,
     "m": 1,
@@ -12372,7 +12970,7 @@
   {
    "id": "m_arap",
    "file": "GD 02 Sistemler",
-   "line": 520,
+   "line": 684,
    "date": {
     "y": 1880,
     "m": 1,
@@ -12817,7 +13415,7 @@
   {
    "id": "k_duyun",
    "file": "GD 02 Sistemler",
-   "line": 367,
+   "line": 531,
    "date": {
     "y": 1881,
     "m": 1,
@@ -13195,7 +13793,7 @@
   {
    "id": "k_misir_osmanli",
    "file": "GD 02 Sistemler",
-   "line": 452,
+   "line": 616,
    "date": {
     "y": 1882,
     "m": 1,
@@ -14098,7 +14696,7 @@
   {
    "id": "k_goltz",
    "file": "GD 02 Sistemler",
-   "line": 382,
+   "line": 546,
    "date": {
     "y": 1883,
     "m": 1,
@@ -14169,7 +14767,7 @@
   {
    "id": "m_misir",
    "file": "GD 02 Sistemler",
-   "line": 546,
+   "line": 710,
    "date": {
     "y": 1883,
     "m": 1,
@@ -14657,7 +15255,7 @@
   {
    "id": "k_reji_milli",
    "file": "GD 02 Sistemler",
-   "line": 447,
+   "line": 611,
    "date": {
     "y": 1884,
     "m": 1,
@@ -15465,7 +16063,7 @@
   {
    "id": "m_reji",
    "file": "GD 02 Sistemler",
-   "line": 535,
+   "line": 699,
    "date": {
     "y": 1885,
     "m": 1,
@@ -15512,7 +16110,7 @@
   {
    "id": "m_reji_milli",
    "file": "GD 02 Sistemler",
-   "line": 541,
+   "line": 705,
    "date": {
     "y": 1885,
     "m": 1,
@@ -17627,7 +18225,7 @@
   {
    "id": "k_hamidiye",
    "file": "GD 02 Sistemler",
-   "line": 402,
+   "line": 566,
    "date": {
     "y": 1891,
     "m": 1,
@@ -17696,7 +18294,7 @@
   {
    "id": "k_dogu_jandarma",
    "file": "GD 02 Sistemler",
-   "line": 407,
+   "line": 571,
    "date": {
     "y": 1891,
     "m": 1,
@@ -17753,7 +18351,7 @@
   {
    "id": "m_kurt",
    "file": "GD 02 Sistemler",
-   "line": 525,
+   "line": 689,
    "date": {
     "y": 1891,
     "m": 1,
@@ -26099,7 +26697,7 @@
   {
    "id": "k_ittihat_ordu",
    "file": "GD 02 Sistemler",
-   "line": 412,
+   "line": 576,
    "date": {
     "y": 1909,
     "m": 1,
@@ -26782,7 +27380,7 @@
    "place": null,
    "text": [
     "Efendimiz, Meclis-i Umumi-i Milli son toplantısını bugün İstanbul'da yaptı. Şeyhülislamın verdiği fetvaya dayanarak tahttan indirildiniz; yerinize veliaht Mehmed Reşad, V. Mehmed olarak padişah oluyor. Selanik'te oturmanız uygun görüldü. Yıldız'daki servetinize el konacak.",
-    "Bundan sonra masada siz değil, İttihat ve Terakki'nin sivil lideri, Edirneli eski posta memuru [url=codex:Talat Paşa][color=#8db4e2]Talat Bey[/color][/url] oturuyor. Hareket Ordusu'nun genç kurmaylarından biri, Hüseyin Hüsnü Paşa'nın kurmay başkanı Mustafa Kemal Bey'di."
+    "Bundan sonra masada siz değilsiniz: padişah V. Mehmed Reşad, sadrazam Hüseyin Hilmi Paşa; perde arkasında ise İttihat ve Terakki'nin sivil lideri, Edirneli eski posta memuru [url=codex:Talat Paşa][color=#8db4e2]Talat Bey[/color][/url] var (Ağustos'ta Dahiliye Nazırı olacak). Hareket Ordusu'nun genç kurmaylarından biri, Hüseyin Hüsnü Paşa'nın kurmay başkanı Mustafa Kemal Bey'di."
    ],
    "advice": [
     {
@@ -26828,7 +27426,7 @@
        "d": -4
       }
      ],
-     "outcome": "Tren Selanik'e gitti. Yıldız'ın hazinesine el kondu, saray masrafları kısıldı. Masada artık Talat Bey var. Beyefendi, Meclis kanun üstüne kanun çıkarıyor; devlet sizin ellerinizde.",
+     "outcome": "Tren Selanik'e gitti. Yıldız'ın hazinesine el kondu, saray masrafları kısıldı. Masada artık Hüseyin Hilmi Paşa var, arkasında Talat Bey. Beyefendi, Meclis kanun üstüne kanun çıkarıyor; devlet sizin ellerinizde.",
      "alt": false,
      "hist": "kasa"
     },
@@ -26858,7 +27456,7 @@
        "d": 2
       }
      ],
-     "outcome": "Yurt dışındaki paralar için elçiliklere mektuplar gitti; Yıldız'da bulunanlara yine el kondu. Masada artık Talat Bey var ve hazine umduğundan fakir.",
+     "outcome": "Yurt dışındaki paralar için elçiliklere mektuplar gitti; Yıldız'da bulunanlara yine el kondu. Masada artık Hüseyin Hilmi Paşa var, arkasında Talat Bey; hazine umduğundan fakir.",
      "alt": false,
      "hist": null
     },
@@ -26888,7 +27486,7 @@
        "d": 3
       }
      ],
-     "outcome": "Direnişiniz sıkıyönetimi sertleştirdi; Divan-ı Harp çalışıyor. Masaya oturan Talat Bey, İstanbul'u 1912'ye kadar sürecek bir sıkıyönetimle devralıyor.",
+     "outcome": "Direnişiniz sıkıyönetimi sertleştirdi; Divan-ı Harp çalışıyor. Masaya oturan Hüseyin Hilmi Paşa ile Talat Bey, İstanbul'u 1912'ye kadar sürecek bir sıkıyönetimle devralıyor.",
      "alt": false,
      "hist": null
     }
@@ -27794,7 +28392,7 @@
   {
    "id": "m_dogu",
    "file": "GD 02 Sistemler",
-   "line": 530,
+   "line": 694,
    "date": {
     "y": 1910,
     "m": 1,
@@ -36262,7 +36860,7 @@
   {
    "id": "k_harp",
    "file": "GD 02 Sistemler",
-   "line": 417,
+   "line": 581,
    "date": {
     "y": 1914,
     "m": 1,
@@ -36309,7 +36907,7 @@
   {
    "id": "m_cokus",
    "file": "GD 02 Sistemler",
-   "line": 551,
+   "line": 715,
    "date": {
     "y": 1914,
     "m": 1,
@@ -41503,7 +42101,7 @@
   {
    "id": "k_cokus_agir",
    "file": "GD 02 Sistemler",
-   "line": 422,
+   "line": 586,
    "date": {
     "y": 1915,
     "m": 1,
@@ -41570,7 +42168,7 @@
   {
    "id": "k_cokus",
    "file": "GD 02 Sistemler",
-   "line": 427,
+   "line": 591,
    "date": {
     "y": 1915,
     "m": 1,
@@ -41648,7 +42246,7 @@
   {
    "id": "k_hamid_ordu",
    "file": "GD 02 Sistemler",
-   "line": 432,
+   "line": 596,
    "date": {
     "y": 1915,
     "m": 1,
@@ -41715,7 +42313,7 @@
   {
    "id": "k_hamid_bogaz",
    "file": "GD 02 Sistemler",
-   "line": 437,
+   "line": 601,
    "date": {
     "y": 1915,
     "m": 1,
@@ -41771,7 +42369,7 @@
   {
    "id": "k_cokus_deniz",
    "file": "GD 02 Sistemler",
-   "line": 442,
+   "line": 606,
    "date": {
     "y": 1915,
     "m": 1,
@@ -45453,7 +46051,7 @@
   {
    "id": "k_suriye",
    "file": "GD 02 Sistemler",
-   "line": 457,
+   "line": 621,
    "date": {
     "y": 1916,
     "m": 1,
