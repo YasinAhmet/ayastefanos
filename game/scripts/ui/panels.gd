@@ -12,6 +12,8 @@ const SEATS := [["dahiliye", "", "Dahiliye"], ["maliye", "para", "Maliye"], ["ha
 var state: GameState
 var parent: Control
 var on_event: Callable   # open an event by id
+var _gundem_wins: Array = []
+var _gundem_pending := false
 
 
 func _close_button(m: Dictionary, text := "Kapat") -> Button:
@@ -67,6 +69,115 @@ func payitaht() -> void:
 		if not p.is_empty():
 			body.add_child(_person_card(p, s[2], state.value_of(s[1]) if s[1] != "" else -1))
 	body.add_child(_close_button(m))
+
+
+## The Gündem window: the focus tree by era, each card coloured by its state (REWORK §10).
+func gundem() -> void:
+	var m := UIKit.modal(parent, Vector2(0.94, 0.9))
+	var body: VBoxContainer = m["body"]
+	_gundem_fill(body, m)
+	_gundem_wins.append([weakref(m["layer"]), weakref(body)])
+	if not state.changed.is_connected(_gundem_changed):
+		state.changed.connect(_gundem_changed)
+
+
+## Open Gündem windows refresh when the state changes (dead ones are dropped).
+func _gundem_changed() -> void:
+	if _gundem_pending or _gundem_wins.is_empty():
+		return
+	_gundem_pending = true
+	_gundem_refresh_all.call_deferred()
+
+
+func _gundem_refresh_all() -> void:
+	_gundem_pending = false
+	var live: Array = []
+	for w in _gundem_wins:
+		var layer: Control = w[0].get_ref()
+		if layer != null and not layer.is_queued_for_deletion():
+			live.append(w)
+			_gundem_rebuild(w[0], w[1])
+	_gundem_wins = live
+
+
+func _gundem_rebuild(wr: WeakRef, wb: WeakRef) -> void:
+	var layer: Control = wr.get_ref()
+	var body: VBoxContainer = wb.get_ref()
+	if layer == null or body == null or layer.is_queued_for_deletion():
+		return
+	for c in body.get_children():
+		body.remove_child(c)
+		c.queue_free()
+	_gundem_fill(body, {"layer": layer})
+
+
+const ERAS := [["Abdülhamid devri · 1876–1908", 1876, 1907], ["Meşrutiyet devri · 1908–1914", 1908, 1913], ["Harp devri · 1914–1918", 1914, 1919]]
+const FOCUS_COLORS := {"done": Color("3d5a3a"), "active": Color("6a5420"), "available": Color("3a2e22"), "locked": Color("2a2420")}
+
+
+func _gundem_fill(body: VBoxContainer, m: Dictionary) -> void:
+	_title(body, "Gündem", "Masadaki uzun soluklu devlet işleri: aynı anda biri yürür, süresi dolunca etkileri bir kerede uygulanır.")
+	if state.historical():
+		body.add_child(UIKit.label("Tarihî modda gündem tarihteki gibi yürür.", 12, UIKit.GOLD, true))
+	var cols := UIKit.hbox(8)
+	body.add_child(cols)
+	for era in ERAS:
+		var col := UIKit.vbox(6)
+		col.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		col.size_flags_stretch_ratio = 1.0
+		cols.add_child(col)
+		col.add_child(UIKit.section(era[0]))
+		for id in state.focus_order:
+			var f: Dictionary = state.focuses[id]
+			if int(f["from"]) >= int(era[1]) and int(f["from"]) <= int(era[2]):
+				col.add_child(_focus_card(id, f))
+	body.add_child(_close_button(m))
+
+
+func _focus_card(id: String, f: Dictionary) -> Control:
+	var st := state.focus_state(id)
+	var card := UIKit.panel(FOCUS_COLORS[st])
+	var col := UIKit.vbox(3)
+	card.add_child(col)
+	var tag: String = {"done": "✔ Bitti", "active": "▶ Yürüyor", "available": "Açık", "locked": "🔒 Kilitli"}[st]
+	col.add_child(UIKit.rich("[b]%s[/b]%s" % [f["name"], "  [color=#d9b26a]TARİHÎ[/color]" if f["hist"] and UIKit.show_sources else ""], 13))
+	col.add_child(UIKit.label("%s · %d ay · %d–%d" % [tag, int(f["months"]), int(f["from"]), int(f["to"])], 10, UIKit.MUTED))
+	if st == "active":
+		var pb := UIKit.bar(int(100.0 * state.focus_progress / maxf(1.0, float(f["months"]))), UIKit.GOLD, 120)
+		col.add_child(pb)
+		col.add_child(UIKit.label("%d/%d ay" % [state.focus_progress, int(f["months"])], 10, UIKit.INK))
+	elif st == "locked":
+		col.add_child(UIKit.label(state.focus_lock_reason(id), 10, Color("c97a6a")))
+	elif st == "done":
+		col.add_child(UIKit.label("Bitti: " + str(state.focus_done[id]), 10, UIKit.MUTED))
+	col.add_child(_linked(f["text"], 11))
+	var chips := Logic.effect_chips(f["effects"], state.resources)
+	var hidden := _focus_hidden(f["effects"])
+	if chips != "" or hidden != "":
+		col.add_child(UIKit.rich(("Etki: " + chips + ("  " if chips != "" and hidden != "" else "") + hidden), 11))
+	if st == "available" and not state.historical():
+		var b := UIKit.button("Başlat", UIKit.PANEL_2, 12)
+		b.pressed.connect(func(): state.start_focus(id))
+		col.add_child(b)
+	elif st == "active" and not state.historical():
+		var c := UIKit.button("İptal", UIKit.PANEL, 11)
+		c.pressed.connect(func(): state.cancel_focus())
+		col.add_child(c)
+	return card
+
+
+## Hidden resources as ▲/▼ (the event option preview, REWORK §7).
+func _focus_hidden(effects: Array) -> String:
+	var parts: PackedStringArray = []
+	for e in effects:
+		var r: Dictionary = state.resources.get(e.get("id", ""), {})
+		if r.is_empty() or r["visible"]:
+			continue
+		if str(e["t"]) == "res":
+			parts.append("%s %s" % ["▲" if float(e["d"]) > 0 else "▼", r["name"]])
+		elif str(e["t"]) == "set":
+			parts.append("%s %s" % ["▲" if float(e["v"]) >= float(state.value_of(e["id"])) else "▼", r["name"]])
+	return " · ".join(parts)
 
 
 func nation(code: String) -> void:

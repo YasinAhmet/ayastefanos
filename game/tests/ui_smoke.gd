@@ -58,6 +58,16 @@ func _run() -> void:
 		desk._open_event(d)
 		break
 	desk.panels.payitaht()
+	desk.panels.gundem()
+	await process_frame
+	var started := false
+	if not st.historical():
+		for fid in st.available_focuses():
+			started = st.start_focus(fid)
+			break
+	print("gündem started: ", started, " current: ", st.focus_current, " button: ", desk.gundem_btn.text)
+	await process_frame
+	st.cancel_focus()
 	desk.panels.codex()
 	if not st.codex.is_empty():
 		desk.panels.codex(st.codex.keys()[0])
@@ -102,6 +112,16 @@ func _run() -> void:
 			await process_frame
 			desk.show_front(fid)
 	print("active fronts at 1914-12: ", act, " historical: ", st.historical())
+	# Gündem at 1914-12 (Fantezi): open the window, start whatever is available, cancel
+	desk.panels.gundem()
+	await process_frame
+	var av: Array = st.available_focuses()
+	var ok2: bool = not av.is_empty() and st.start_focus(av[0])
+	print("gündem 1914-12: available ", av.size(), " started ", ok2, " button: ", desk.gundem_btn.text)
+	await process_frame
+	await process_frame
+	st.cancel_focus()
+	await process_frame
 	desk.open_wiki("Cemal Paşa")
 	desk.open_wiki("")
 	desk.wiki._go(0)

@@ -44,6 +44,7 @@ var cards: VBoxContainer
 var toasts: VBoxContainer
 var inspector: PanelContainer
 var ruler_card: PanelContainer
+var gundem_btn: Button
 var wiki: WikiPanel
 var inspector_title: Label
 var inspector_tabs: HBoxContainer
@@ -210,7 +211,7 @@ func _top_bar() -> Control:
 		else "Fantezi: bütün seçenekler ve alternatif tarih açık."
 	chip.mouse_filter = Control.MOUSE_FILTER_PASS
 	h.add_child(chip)
-	for spec in [["Payitaht", func(): panels.payitaht()], ["Defter", func(): panels.defter()],
+	for spec in [["Payitaht", func(): panels.payitaht()], ["Gündem", func(): panels.gundem()], ["Defter", func(): panels.defter()],
 			["Kaynakça", func(): panels.codex()], ["Debug", func(): debug_menu()], ["Otomatik", func():
 				auto_bar.visible = not auto_bar.visible
 				if not auto_bar.visible:
@@ -219,10 +220,23 @@ func _top_bar() -> Control:
 				main.show_menu()]]:
 		var b := UIKit.button(spec[0], UIKit.PANEL_2, 12)
 		b.pressed.connect(spec[1])
+		if spec[0] == "Gündem":
+			gundem_btn = b
 		if spec[0] == "Otomatik":
 			b.tooltip_text = "Otomatik oynatma (debug) · F9"
 		h.add_child(b)
 	return p
+
+
+## The top-bar Gündem button shows the running focus and its progress.
+func _refresh_gundem_btn() -> void:
+	if gundem_btn == null or not is_instance_valid(gundem_btn):
+		return
+	if state.focus_current != "":
+		var f: Dictionary = state.focuses[state.focus_current]
+		gundem_btn.text = "Gündem: %s %d/%d" % [f["name"], state.focus_progress, int(f["months"])]
+	else:
+		gundem_btn.text = "Gündem"
 
 
 ## The column of paper cards on the left, under the top bar.
@@ -378,6 +392,7 @@ func _save() -> void:
 # ---------------------------------------------------------------- refresh
 
 func refresh() -> void:
+	_refresh_gundem_btn()
 	if not is_inside_tree() or _jumping:
 		return
 	date_label.text = Logic.date_text(state.year, state.month)
