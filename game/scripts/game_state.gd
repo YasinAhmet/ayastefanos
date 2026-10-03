@@ -430,7 +430,8 @@ func open_decisions(place := "") -> Array:
 
 
 func mandatory_open() -> Array:
-	return open_events().filter(func(ev): return ev["kind"] in MANDATORY)
+	# a mandatory paper with no visible option at all can never be answered: it must not stop the clock
+	return open_events().filter(func(ev): return ev["kind"] in MANDATORY and not visible_options(ev).is_empty())
 
 
 func can_advance() -> bool:
@@ -450,7 +451,8 @@ func zeroed_by(opt: Dictionary) -> Array:
 	_sum_deltas(opt["effects"], delta)
 	var out: Array = []
 	for id in delta:
-		if int(delta[id]) < 0 and int(values.get(id, 0)) + int(delta[id]) <= 0:
+		# a counter that starts at 0 (Çöküş, harp yorgunluğu) is only ever good at 0: lowering it never locks an option
+		if int(delta[id]) < 0 and int(resources.get(id, {}).get("start", 1)) > 0 and int(values.get(id, 0)) + int(delta[id]) <= 0:
 			out.append(str(resources.get(id, {}).get("name", id)))
 	return out
 
@@ -476,6 +478,9 @@ func forced_option(ev: Dictionary) -> int:
 	for i in vis:
 		if option_enabled(ev["options"][i]):
 			return -1
+	for i in vis:
+		if ev["options"][i].get("hist") != null:
+			return i  # every door is locked: what history did is what happens
 	return vis[rng.randi_range(0, vis.size() - 1)]
 
 

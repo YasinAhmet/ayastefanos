@@ -595,7 +595,7 @@ Gazi Ahmed Muhtar Paşa Kars ile Erzurum arasında Rus kollarını karşılıyor
 > Kaynak: [[Italo-Turkish War (1911-1912)]] · [[Trablusgarp]]
 
 ### Cephe · Trakya
-`cephe: trakya` · `harp: Balkan Harbi` · `değer: trakya` · `düşman: BU` · `konum: 27.30,41.55` · `iller: edirne, tekfurdagi` · `güç: harbiye` · `kuvvet: 16` · `düşman_güç: 20` · `ikmal: 14` · `arazi: ova` · `hedef: edirne, gumulcine` · `başlangıç: 1912-10` · `zafer: 60` · `yenilgi: 30` · `sonuç: edirne_tutuldu, edirne_dustu, hamid_1913_londra`
+`cephe: trakya` · `harp: Balkan Harbi` · `değer: trakya` · `düşman: BU` · `konum: 27.30,41.55` · `iller: edirne, tekfurdagi` · `güç: harbiye` · `kuvvet: 16` · `düşman_güç: 17` · `ikmal: 14` · `arazi: ova` · `hedef: edirne, gumulcine` · `başlangıç: 1912-10` · `zafer: 60` · `yenilgi: 30` · `sonuç: edirne_tutuldu, edirne_dustu, hamid_1913_londra`
 `koşul: ⚑balkan_harbi_on`
 Kırkkilise, Lüleburgaz, Çatalca; ve kuşatılmış Edirne.
 > Kaynak: [[Edirne]]
@@ -619,13 +619,13 @@ Boğaz'ın tabyaları, sonra Gelibolu'nun siperleri.
 > Kaynak: [[Çanakkale and Gelibolu]]
 
 ### Cephe · Irak
-`cephe: irak` · `harp: Büyük Harp` · `değer: irak` · `düşman: IN` · `konum: 46.20,31.60` · `iller: basra, bagdat` · `güç: harbiye` · `kuvvet: 4` · `düşman_güç: 5` · `ikmal: 3 + ⚑kut_zafer*2` · `arazi: çöl` · `hedef: basra, bagdat` · `başlangıç: 1914-11` · `zafer: 65` · `yenilgi: 30` · `sonuç: bagdat_tutuldu, bagdat_dustu`
+`cephe: irak` · `harp: Büyük Harp` · `değer: irak` · `düşman: IN` · `konum: 46.20,31.60` · `iller: basra, bagdat` · `güç: harbiye` · `kuvvet: 5` · `düşman_güç: 5` · `ikmal: 5 + ⚑kut_zafer*2` · `arazi: çöl` · `hedef: basra, bagdat` · `başlangıç: 1914-11` · `zafer: 65` · `yenilgi: 30` · `sonuç: bagdat_tutuldu, bagdat_dustu`
 `koşul: ⚑ittifak_harbi & !⚑mondros`
 Basra'dan Dicle boyunca Bağdat'a.
 > Kaynak: [[Bağdat]] · [[Basra]]
 
 ### Cephe · Filistin ve Süveyş
-`cephe: filistin` · `harp: Büyük Harp` · `değer: filistin` · `düşman: IN` · `konum: 33.60,30.90` · `iller: kudus, misir` · `güç: harbiye` · `kuvvet: 6` · `düşman_güç: 8 + ⚑itilaf_italya` · `ikmal: 4 + ⚑suveys_buyuk + ⚑hicaz_hatti*2` · `arazi: çöl` · `hedef: kudus, misir` · `başlangıç: 1915-01` · `zafer: 65` · `yenilgi: 30` · `sonuç: kudus_tutuldu, kudus_dustu`
+`cephe: filistin` · `harp: Büyük Harp` · `değer: filistin` · `düşman: IN` · `konum: 33.60,30.90` · `iller: kudus, misir` · `güç: harbiye` · `kuvvet: 6` · `düşman_güç: 8 + ⚑itilaf_italya` · `ikmal: 5 + ⚑suveys_buyuk + ⚑hicaz_hatti*2` · `arazi: çöl` · `hedef: kudus, misir` · `başlangıç: 1915-01` · `zafer: 65` · `yenilgi: 30` · `sonuç: kudus_tutuldu, kudus_dustu`
 `koşul: ⚑ittifak_harbi & !⚑mondros`
 Sina çölü, Süveyş Kanalı, sonra Gazze ve Kudüs.
 > Kaynak: [[Süveyş Kanalı]] · [[Kudüs]]

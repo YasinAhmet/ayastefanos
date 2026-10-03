@@ -2935,7 +2935,7 @@
    "name": "Trakya",
    "div0": 16,
    "enemy_power": {
-    "n": 20
+    "n": 17
    },
    "supply": {
     "n": 14
@@ -3295,14 +3295,14 @@
   "irak": {
    "id": "irak",
    "name": "Irak",
-   "div0": 4,
+   "div0": 5,
    "enemy_power": {
     "n": 5
    },
    "supply": {
     "op": "+",
     "a": {
-     "n": 3
+     "n": 5
     },
     "b": {
      "op": "*",
@@ -3383,7 +3383,7 @@
     "a": {
      "op": "+",
      "a": {
-      "n": 4
+      "n": 5
      },
      "b": {
       "f": "suveys_buyuk"
@@ -3566,7 +3566,8 @@
     "g_harbiye_islahat"
    ],
    "excludes": [
-    "g_ingiliz_bahriye"
+    "g_ingiliz_bahriye",
+    "g_redif_milis"
    ],
    "hist": true,
    "cond": {
@@ -3609,7 +3610,8 @@
     "g_harbiye_islahat"
    ],
    "excludes": [
-    "g_alman_ordu"
+    "g_alman_ordu",
+    "g_redif_milis"
    ],
    "hist": false,
    "cond": null,
@@ -3634,6 +3636,1006 @@
     "{i:book} Alternatif tarih. Ottoman Navy · Bardakçı, [i]Enver[/i], p. 69 · [i]Türk kaynağı[/i]"
    ],
    "nation": "IN"
+  },
+  "g_redif_milis": {
+   "id": "g_redif_milis",
+   "name": "Redif ve milis ordusu",
+   "text": "Maaşlı müşavirler yerine redif taburları ve mahalli milis örgütlenir; ordu ucuz ve kalabalık olur, ama talim ve silah birliği yoktur. Subaylar bu yolu Avrupa'dan geri kalmak sayar.",
+   "from": 1880,
+   "to": 1905,
+   "months": 18,
+   "requires": [
+    "g_harbiye_islahat"
+   ],
+   "excludes": [
+    "g_alman_ordu",
+    "g_ingiliz_bahriye"
+   ],
+   "hist": false,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "harbiye",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "para",
+     "d": -3
+    },
+    {
+     "t": "res",
+     "id": "ordu_sadakati",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "jon_turk",
+     "d": -2
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 34 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_merkeziyet": {
+   "id": "g_merkeziyet",
+   "name": "Merkeziyetçi idare",
+   "text": "Vilayetler Yıldız'a telgrafla bağlanır; valiler ve mutasarrıflar doğrudan saraydan atanır. Denetim sıkılaşır, ama uzak vilayetlerde sarayın adamı olmayan kimse söz sahibi olamaz.",
+   "from": 1878,
+   "to": 1908,
+   "months": 12,
+   "requires": [],
+   "excludes": [
+    "g_adem_merkeziyet"
+   ],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "hakimiyet",
+     "d": 5
+    },
+    {
+     "t": "res",
+     "id": "araplar",
+     "d": -3
+    },
+    {
+     "t": "res",
+     "id": "muhalefet",
+     "d": 3
+    }
+   ],
+   "sources": [
+    "{i:book} Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 35 · [i]Türk kaynağı[/i] · Mantran, [i]Osmanlı İmparatorluğu Tarihi[/i], p. 638 · [i]Fransız kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_adem_merkeziyet": {
+   "id": "g_adem_merkeziyet",
+   "name": "Adem-i merkeziyet ve özel teşebbüs",
+   "text": "[url=codex:Prens Sabahaddin][color=#8db4e2]Prens Sabahaddin[/color][/url]'in Paris'te savunduğu yol: vilayetlere geniş yetki ve yerel girişim. Sarayın telgraf ağı gevşer; Arap ve Rum vilayetleri rahatlar, Yıldız ise denetimi bırakır.",
+   "from": 1902,
+   "to": 1908,
+   "months": 18,
+   "requires": [],
+   "excludes": [
+    "g_merkeziyet"
+   ],
+   "hist": false,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "hakimiyet",
+     "d": -6
+    },
+    {
+     "t": "res",
+     "id": "araplar",
+     "d": -6
+    },
+    {
+     "t": "res",
+     "id": "muhalefet",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "avrupa_baskisi",
+     "d": -3
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Prens Sabahaddin · Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 36 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_duyun_uzlasma": {
+   "id": "g_duyun_uzlasma",
+   "name": "Düyun-u Umumiye ile uzlaşma",
+   "text": "Muharrem Kararnamesi'nin ardından borç idaresi gelirleri doğrudan tahsil eder; hazine pazarlığa oturmaktan kaçmaz. Faizler düşer, bankerler yatışır, ama maliye kendi gelirleri üzerinde söz sahibi olmaktan çıkar.",
+   "from": 1881,
+   "to": 1900,
+   "months": 12,
+   "requires": [],
+   "excludes": [
+    "g_borc_tahsilat"
+   ],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "iliski_fr",
+     "d": 5
+    },
+    {
+     "t": "res",
+     "id": "avrupa_baskisi",
+     "d": -4
+    }
+   ],
+   "sources": [
+    "{i:book} Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 28 · [i]Türk kaynağı[/i] · Düyun-u Umumiye"
+   ],
+   "nation": "OS"
+  },
+  "g_borc_tahsilat": {
+   "id": "g_borc_tahsilat",
+   "name": "Gelirleri kendi eline alma",
+   "text": "Hazine, borç idaresinin payına direnir ve vergiyi kendi memurlarıyla toplamaya çalışır. Kısa vadede para girer, ama alacaklı devletlerin diplomatik baskısı artar.",
+   "from": 1880,
+   "to": 1900,
+   "months": 12,
+   "requires": [],
+   "excludes": [
+    "g_duyun_uzlasma"
+   ],
+   "hist": false,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": 6
+    },
+    {
+     "t": "res",
+     "id": "iliski_fr",
+     "d": -6
+    },
+    {
+     "t": "res",
+     "id": "avrupa_baskisi",
+     "d": 6
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Düyun-u Umumiye · Mantran, [i]Osmanlı İmparatorluğu Tarihi[/i], p. 642 · [i]Fransız kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_hicaz_demiryolu": {
+   "id": "g_hicaz_demiryolu",
+   "name": "Hicaz hattında garnizon ve iaşe",
+   "text": "Hat yalnız tren değil, Şam–Medine arasında kale, kuyu ve iaşe ağıdır. Garnizonlar demiryoluna dayanır; aşiretlere verilen tahsisat ise ancak hat işlediği sürece sürer.",
+   "from": 1900,
+   "to": 1908,
+   "months": 12,
+   "requires": [],
+   "excludes": [],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "harbiye",
+     "d": 2
+    },
+    {
+     "t": "res",
+     "id": "araplar",
+     "d": -3
+    },
+    {
+     "t": "res",
+     "id": "para",
+     "d": -4
+    }
+   ],
+   "sources": [
+    "{i:book} Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 54 · [i]Türk kaynağı[/i] · Hejaz Railway"
+   ],
+   "nation": "OS"
+  },
+  "g_bagdat_demiryolu": {
+   "id": "g_bagdat_demiryolu",
+   "name": "Bağdat hattı ve Alman sermayesi",
+   "text": "Anadolu'dan Bağdat'a uzanan hat Alman bankalarıyla yapılır. Irak vilayetleri bağlanır, ama Londra'nın şüphesi artar ve Berlin'in iktisadi nüfuzu yerleşir.",
+   "from": 1888,
+   "to": 1908,
+   "months": 24,
+   "requires": [],
+   "excludes": [],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": -4
+    },
+    {
+     "t": "res",
+     "id": "alman_nufuzu",
+     "d": 6
+    },
+    {
+     "t": "res",
+     "id": "iliski_in",
+     "d": -3
+    },
+    {
+     "t": "res",
+     "id": "dogu_hazirligi",
+     "d": 2
+    }
+   ],
+   "sources": [
+    "{i:book} Mantran, [i]Osmanlı İmparatorluğu Tarihi[/i], p. 644 · [i]Fransız kaynağı[/i] · Baghdad Railway"
+   ],
+   "nation": "OS"
+  },
+  "g_mektepler": {
+   "id": "g_mektepler",
+   "name": "Mektepler ve idadiler",
+   "text": "Memleketin dört bir yanında rüşdiye, idadi ve mülkiye mektepleri açılır; gençlere devlet memuru olacağı vaat edilir. Okuyan gençler padişaha minnettar olduğu kadar meşrutiyet fikriyle de tanışır.",
+   "from": 1880,
+   "to": 1905,
+   "months": 18,
+   "requires": [],
+   "excludes": [],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": -4
+    },
+    {
+     "t": "res",
+     "id": "jon_turk",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "hakimiyet",
+     "d": 2
+    }
+   ],
+   "sources": [
+    "{i:book} Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 34 · [i]Türk kaynağı[/i] · Mantran, [i]Osmanlı İmparatorluğu Tarihi[/i], p. 636 · [i]Fransız kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_cavid_istikraz": {
+   "id": "g_cavid_istikraz",
+   "name": "Cavid'in istikraz müzakereleri",
+   "text": "[url=codex:Cavid Bey][color=#8db4e2]Cavid Bey[/color][/url] Paris ve Berlin bankalarıyla borç ve vergi düzenini pazarlıkla çözmeye çalışır. Faizler yumuşar, ama siyasi şartlar da masaya gelir.",
+   "from": 1909,
+   "to": 1914,
+   "months": 12,
+   "requires": [],
+   "excludes": [
+    "g_milli_iktisat"
+   ],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": 6
+    },
+    {
+     "t": "res",
+     "id": "avrupa_baskisi",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "iliski_fr",
+     "d": 3
+    }
+   ],
+   "sources": [
+    "{i:book} Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 77 · [i]Türk kaynağı[/i] · Cavid Bey"
+   ],
+   "nation": "OS"
+  },
+  "g_milli_iktisat": {
+   "id": "g_milli_iktisat",
+   "name": "Milli iktisat",
+   "text": "Yabancı sermayeye karşı yerli tüccar ve şirketler himaye edilir; kapitülasyonlara itirazlar sertleşir. İç piyasa canlanır, dış kredi ise daralır.",
+   "from": 1909,
+   "to": 1914,
+   "months": 18,
+   "requires": [],
+   "excludes": [
+    "g_cavid_istikraz"
+   ],
+   "hist": false,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": 2
+    },
+    {
+     "t": "res",
+     "id": "muhalefet",
+     "d": -3
+    },
+    {
+     "t": "res",
+     "id": "iliski_fr",
+     "d": -4
+    },
+    {
+     "t": "res",
+     "id": "avrupa_baskisi",
+     "d": 5
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Capitulations · Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 78 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_alman_heyeti": {
+   "id": "g_alman_heyeti",
+   "name": "Alman askerî heyeti",
+   "text": "[url=codex:Liman von Sanders][color=#8db4e2]Liman von Sanders[/color][/url]'in başkanlığında bir Alman heyeti ordu eğitimini üstlenir. Talim düzelir, ama Petersburg bunu Boğazlar üzerinde bir tehdit sayar.",
+   "from": 1912,
+   "to": 1914,
+   "months": 12,
+   "requires": [],
+   "excludes": [
+    "g_milis_seferberlik"
+   ],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "harbiye",
+     "d": 6
+    },
+    {
+     "t": "res",
+     "id": "alman_nufuzu",
+     "d": 6
+    },
+    {
+     "t": "res",
+     "id": "iliski_ru",
+     "d": -5
+    }
+   ],
+   "sources": [
+    "{i:book} Sanders, [i]Türkiye'de Beş Yıl[/i], p. 21 · [i]Alman kaynağı[/i] · Liman von Sanders"
+   ],
+   "nation": "OS"
+  },
+  "g_milis_seferberlik": {
+   "id": "g_milis_seferberlik",
+   "name": "Redif ve gönüllü seferberliği",
+   "text": "Balkan hezimetinden sonra redif ve gönüllü kuvvetler örgütlenir. Mevcut kuvvet çabuk artar, ancak komuta ve silah ayrılığı sürer.",
+   "from": 1911,
+   "to": 1914,
+   "months": 12,
+   "requires": [],
+   "excludes": [
+    "g_alman_heyeti"
+   ],
+   "hist": false,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "harbiye",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "ordu_sadakati",
+     "d": 3
+    },
+    {
+     "t": "res",
+     "id": "para",
+     "d": -4
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 77 · [i]Türk kaynağı[/i] · Balkan Harbi"
+   ],
+   "nation": "OS"
+  },
+  "g_ingiliz_ittifak": {
+   "id": "g_ingiliz_ittifak",
+   "name": "İngiltere'yle ittifak arayışı",
+   "text": "Londra'ya bir ittifak ya da garanti teklifi götürülür. İngiltere ilgisiz kalsa da hattın açık tutulması Kıbrıs ve Mısır'ın yarattığı soğukluğu bir parça giderir.",
+   "from": 1909,
+   "to": 1914,
+   "months": 12,
+   "requires": [],
+   "excludes": [
+    "g_alman_ittifak",
+    "g_rus_anlasma",
+    "g_silahli_tarafsizlik"
+   ],
+   "hist": false,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "iliski_in",
+     "d": 8
+    },
+    {
+     "t": "res",
+     "id": "iliski_ru",
+     "d": -3
+    },
+    {
+     "t": "res",
+     "id": "alman_nufuzu",
+     "d": -4
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Bardakçı, [i]Enver[/i], p. 66 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_alman_ittifak": {
+   "id": "g_alman_ittifak",
+   "name": "Almanya'yla ittifak",
+   "text": "Berlin'e ittifak teklifi götürülür; Enver ve çevresi Alman ordusunun gücüne güvenir. Askerî yardım yakınlaşır, ama harp çıkarsa taraf seçmiş sayılırsınız.",
+   "from": 1912,
+   "to": 1914,
+   "months": 6,
+   "requires": [],
+   "excludes": [
+    "g_ingiliz_ittifak",
+    "g_rus_anlasma",
+    "g_silahli_tarafsizlik"
+   ],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "alman_nufuzu",
+     "d": 6
+    },
+    {
+     "t": "res",
+     "id": "harbiye",
+     "d": 3
+    },
+    {
+     "t": "res",
+     "id": "iliski_ru",
+     "d": -5
+    },
+    {
+     "t": "res",
+     "id": "iliski_in",
+     "d": -4
+    }
+   ],
+   "sources": [
+    "{i:book} Bardakçı, [i]Enver[/i], p. 69 · [i]Türk kaynağı[/i] · Yalman, [i]Birinci Dünya Savaşı'nda Türkiye[/i], p. 56 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_rus_anlasma": {
+   "id": "g_rus_anlasma",
+   "name": "Rusya'yla anlaşma",
+   "text": "Boğazlar ve Doğu Anadolu üzerinde Petersburg'la pazarlık yapılır. Rusya dostluk görünümü verir; Londra ve Berlin ise bunun karşılığını sorar.",
+   "from": 1910,
+   "to": 1914,
+   "months": 12,
+   "requires": [],
+   "excludes": [
+    "g_ingiliz_ittifak",
+    "g_alman_ittifak",
+    "g_silahli_tarafsizlik"
+   ],
+   "hist": false,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "iliski_ru",
+     "d": 10
+    },
+    {
+     "t": "res",
+     "id": "alman_nufuzu",
+     "d": -4
+    },
+    {
+     "t": "res",
+     "id": "avrupa_baskisi",
+     "d": -3
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Yalman, [i]Birinci Dünya Savaşı'nda Türkiye[/i], p. 62 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_silahli_tarafsizlik": {
+   "id": "g_silahli_tarafsizlik",
+   "name": "Silahlı tarafsızlık",
+   "text": "Hiçbir bloka girmeyen, ama seferberliğe hazır bir devlet kurulur. Kimse güvenmez, kimse de zorlamaz; ordu ve hazine tamamen hazır tutulmalıdır.",
+   "from": 1912,
+   "to": 1914,
+   "months": 6,
+   "requires": [],
+   "excludes": [
+    "g_ingiliz_ittifak",
+    "g_alman_ittifak",
+    "g_rus_anlasma"
+   ],
+   "hist": false,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "harbiye",
+     "d": 3
+    },
+    {
+     "t": "res",
+     "id": "para",
+     "d": -4
+    },
+    {
+     "t": "res",
+     "id": "avrupa_baskisi",
+     "d": -4
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Yalman, [i]Birinci Dünya Savaşı'nda Türkiye[/i], p. 85 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_iskan_muhacir": {
+   "id": "g_iskan_muhacir",
+   "name": "Muhacirlerin iskânı",
+   "text": "Balkan ve Kafkas muhacirleri Anadolu'ya yerleştirilir; arazi, tohum ve barınak sağlanır. Kısa vadede hazine yorulur, ama Anadolu'nun nüfus dengesi değişir.",
+   "from": 1909,
+   "to": 1914,
+   "months": 18,
+   "requires": [],
+   "excludes": [],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": -5
+    },
+    {
+     "t": "res",
+     "id": "muhalefet",
+     "d": -2
+    },
+    {
+     "t": "res",
+     "id": "harbiye",
+     "d": 2
+    }
+   ],
+   "sources": [
+    "{i:book} Mantran, [i]Osmanlı İmparatorluğu Tarihi[/i], p. 695 · [i]Fransız kaynağı[/i] · Refugees (muhacir)"
+   ],
+   "nation": "OS"
+  },
+  "g_dogu_hatti_etut": {
+   "id": "g_dogu_hatti_etut",
+   "name": "Doğu hattı etüdü",
+   "text": "Sivas'tan Erzurum'a gidecek hattın güzergâhı, istasyonları ve depoları önceden incelenir. Henüz ray döşenmez, ama harp çıkarsa kışa ve ikmale hazırlık bundan başlar.",
+   "from": 1910,
+   "to": 1914,
+   "months": 12,
+   "requires": [],
+   "excludes": [],
+   "hist": false,
+   "cond": {
+    "op": "not",
+    "arg": {
+     "op": "flag",
+     "name": "dogu_hatti_1"
+    }
+   },
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": -3
+    },
+    {
+     "t": "res",
+     "id": "dogu_hazirligi",
+     "d": 5
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 76 · [i]Türk kaynağı[/i] · Mantran, [i]Osmanlı İmparatorluğu Tarihi[/i], p. 696 · [i]Fransız kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_kapitulasyon": {
+   "id": "g_kapitulasyon",
+   "name": "Kapitülasyonların kaldırılması",
+   "text": "Eylül 1914'te kapitülasyonlar tek taraflı kaldırılır. Gümrük ve adli ayrıcalıklar gider; devletlerin tepkisi sertleşir ama hazine gelir kazanır.",
+   "from": 1914,
+   "to": 1915,
+   "months": 6,
+   "requires": [],
+   "excludes": [],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": 5
+    },
+    {
+     "t": "res",
+     "id": "avrupa_baskisi",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "iliski_fr",
+     "d": -3
+    }
+   ],
+   "sources": [
+    "{i:book} Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 78 · [i]Türk kaynağı[/i] · Capitulations"
+   ],
+   "nation": "OS"
+  },
+  "g_alman_harp_yardimi": {
+   "id": "g_alman_harp_yardimi",
+   "name": "Alman harp yardımı",
+   "text": "Alman silah, cephane ve altın sevkiyatı hattan hatta taşınır. Ordu ayakta kalır, ama Berlin'in sözü genel kurmayın içine kadar girer.",
+   "from": 1914,
+   "to": 1916,
+   "months": 8,
+   "requires": [],
+   "excludes": [
+    "g_ayri_baris",
+    "g_rus_ayri_baris"
+   ],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "harbiye",
+     "d": 5
+    },
+    {
+     "t": "res",
+     "id": "para",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "alman_nufuzu",
+     "d": 6
+    }
+   ],
+   "sources": [
+    "{i:book} Sanders, [i]Türkiye'de Beş Yıl[/i], p. 64 · [i]Alman kaynağı[/i] · Yalman, [i]Birinci Dünya Savaşı'nda Türkiye[/i], p. 98 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_ayri_baris": {
+   "id": "g_ayri_baris",
+   "name": "Ayrı barış arayışı",
+   "text": "İtilaf'la gizli temaslar yapılır; barış şartları sorulur. Berlin haberi alırsa güven sarsılır, ama Harp yorgunluğu bir nebze durur.",
+   "from": 1915,
+   "to": 1917,
+   "months": 12,
+   "requires": [],
+   "excludes": [
+    "g_alman_harp_yardimi",
+    "g_rus_ayri_baris"
+   ],
+   "hist": false,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "harp_yorgunlugu",
+     "d": -6
+    },
+    {
+     "t": "res",
+     "id": "iliski_in",
+     "d": 5
+    },
+    {
+     "t": "res",
+     "id": "alman_nufuzu",
+     "d": -6
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Yalman, [i]Birinci Dünya Savaşı'nda Türkiye[/i], p. 98 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_rus_ayri_baris": {
+   "id": "g_rus_ayri_baris",
+   "name": "Rusya'yla ayrı barış",
+   "text": "Rus devriminden sonra Doğu cephesinde ateşkes ve ayrı barış yoklanır. Cephe rahatlar; Rusya'dan alınan toprak vaatleri Berlin'le sürtüşme yaratır.",
+   "from": 1917,
+   "to": 1918,
+   "months": 6,
+   "requires": [],
+   "excludes": [
+    "g_alman_harp_yardimi",
+    "g_ayri_baris"
+   ],
+   "hist": false,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "harp_yorgunlugu",
+     "d": -5
+    },
+    {
+     "t": "res",
+     "id": "iliski_ru",
+     "d": 8
+    },
+    {
+     "t": "res",
+     "id": "dogu_hazirligi",
+     "d": 3
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Yalman, [i]Birinci Dünya Savaşı'nda Türkiye[/i], p. 85 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_seferberlik_ikmal": {
+   "id": "g_seferberlik_ikmal",
+   "name": "Seferberlik ve ikmal teşkilatı",
+   "text": "Hayvan, tahıl ve nakil araçları askere tahsis edilir; ikmal teşkilatı genişletilir. Cepheler beslenir, köy ve kasabalarda kıtlık başlar.",
+   "from": 1914,
+   "to": 1916,
+   "months": 6,
+   "requires": [],
+   "excludes": [],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "harbiye",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "para",
+     "d": -5
+    },
+    {
+     "t": "res",
+     "id": "dogu_hazirligi",
+     "d": 3
+    }
+   ],
+   "sources": [
+    "{i:book} Yalman, [i]Birinci Dünya Savaşı'nda Türkiye[/i], p. 56 · [i]Türk kaynağı[/i] · Sanders, [i]Türkiye'de Beş Yıl[/i], p. 64 · [i]Alman kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_harp_istikrazi": {
+   "id": "g_harp_istikrazi",
+   "name": "Almanya'dan harp istikrazı",
+   "text": "Alman bankalarından altın ve avans alınır; borç ödemeleri harp sonrasına bırakılır. Hazine rahatlar, ama borcun ucu Berlin'in elinde kalır.",
+   "from": 1914,
+   "to": 1917,
+   "months": 6,
+   "requires": [],
+   "excludes": [
+    "g_harp_milli_iktisat"
+   ],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": 8
+    },
+    {
+     "t": "res",
+     "id": "alman_nufuzu",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "iliski_in",
+     "d": -2
+    }
+   ],
+   "sources": [
+    "{i:book} Yalman, [i]Birinci Dünya Savaşı'nda Türkiye[/i], p. 62 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_harp_milli_iktisat": {
+   "id": "g_harp_milli_iktisat",
+   "name": "Harp ekonomisinde milli iktisat",
+   "text": "Yerli şirketler himaye edilir; ihtiyaç maddelerine fiyat tavanı konur. Borç artmaz, ama ticaret daralır ve karaborsa yayılır.",
+   "from": 1915,
+   "to": 1918,
+   "months": 12,
+   "requires": [],
+   "excludes": [
+    "g_harp_istikrazi"
+   ],
+   "hist": false,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": 3
+    },
+    {
+     "t": "res",
+     "id": "muhalefet",
+     "d": 3
+    },
+    {
+     "t": "res",
+     "id": "ordu_sadakati",
+     "d": -2
+    }
+   ],
+   "sources": [
+    "{i:book} Alternatif tarih. Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 78 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_darulfunun": {
+   "id": "g_darulfunun",
+   "name": "Darülfünun ıslahatı",
+   "text": "İstanbul Darülfünunu'nda Alman ve yerli hocalarla müfredat yenilenir. Harbin ortasında yapılan bu reform, gençler arasında Cemiyet'e yakınlığı artırır.",
+   "from": 1915,
+   "to": 1918,
+   "months": 12,
+   "requires": [],
+   "excludes": [],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": -3
+    },
+    {
+     "t": "res",
+     "id": "jon_turk",
+     "d": 3
+    },
+    {
+     "t": "res",
+     "id": "ulema",
+     "d": -3
+    }
+   ],
+   "sources": [
+    "{i:book} Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 78 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_hicaz_takviye": {
+   "id": "g_hicaz_takviye",
+   "name": "Hicaz hattının korunması",
+   "text": "Hat boyunca karakollar ve ikmal depoları takviye edilir. Şerif'in adamlarının raylara el atması güçleşir, ama harcama ve asker ihtiyacı büyür.",
+   "from": 1914,
+   "to": 1916,
+   "months": 8,
+   "requires": [],
+   "excludes": [],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "harbiye",
+     "d": -2
+    },
+    {
+     "t": "res",
+     "id": "araplar",
+     "d": -3
+    },
+    {
+     "t": "res",
+     "id": "para",
+     "d": -4
+    }
+   ],
+   "sources": [
+    "{i:book} Hejaz Railway · Akşin, [i]Kısa Türkiye Tarihi[/i], loc. 54 · [i]Türk kaynağı[/i]"
+   ],
+   "nation": "OS"
+  },
+  "g_bagdat_toros": {
+   "id": "g_bagdat_toros",
+   "name": "Bağdat hattı Toros tünelleri",
+   "text": "Amanos ve Toros tünellerinin açılması Irak ve Filistin cephelerine ikmal yolunu kısaltır. İşçi ve malzeme sıkıntısı büyüktür, hat harp boyunca tamamlanamaz.",
+   "from": 1914,
+   "to": 1917,
+   "months": 12,
+   "requires": [],
+   "excludes": [],
+   "hist": true,
+   "cond": null,
+   "effects": [
+    {
+     "t": "res",
+     "id": "para",
+     "d": -6
+    },
+    {
+     "t": "res",
+     "id": "alman_nufuzu",
+     "d": 4
+    },
+    {
+     "t": "res",
+     "id": "dogu_hazirligi",
+     "d": 3
+    }
+   ],
+   "sources": [
+    "{i:book} Sanders, [i]Türkiye'de Beş Yıl[/i], p. 154 · [i]Alman kaynağı[/i] · Baghdad Railway"
+   ],
+   "nation": "OS"
   }
  },
  "pop_groups": [
@@ -33195,7 +34197,7 @@
         "avrupa_baskisi"
        ]
       ],
-      "right": 30
+      "right": 90
      },
      {
       "op": "state",
@@ -33205,7 +34207,7 @@
      }
     ]
    },
-   "cond_src": "Harbiye >= 60 & avrupa_baskisi <= 30 & dogu_rumeli = bulgar",
+   "cond_src": "Harbiye >= 60 & avrupa_baskisi <= 90 & dogu_rumeli = bulgar",
    "slot": null,
    "thread": null,
    "place": "filibe",
@@ -42934,11 +43936,11 @@
         "trakya"
        ]
       ],
-      "right": 60
+      "right": 55
      }
     ]
    },
-   "cond_src": "⚑yol_ittihat & trakya >= 60",
+   "cond_src": "⚑yol_ittihat & trakya >= 55",
    "slot": "edirne_1913",
    "thread": null,
    "place": "edirne",
@@ -48341,12 +49343,12 @@
       {
        "t": "res",
        "id": "avrupa_baskisi",
-       "d": -10
+       "d": -5
       },
       {
        "t": "res",
        "id": "alman_nufuzu",
-       "d": -10
+       "d": -5
       }
      ],
      "outcome": "Londra'ya ve Paris'e bir murahhas gitti. Petersburg Boğazlar'ı soruyor.",
@@ -49327,12 +50329,12 @@
       {
        "t": "res",
        "id": "alman_nufuzu",
-       "d": -25
+       "d": -12
       },
       {
        "t": "res",
        "id": "avrupa_baskisi",
-       "d": -10
+       "d": -5
       },
       {
        "t": "res",
@@ -52551,11 +53553,11 @@
         "harp_yorgunlugu"
        ]
       ],
-      "right": 40
+      "right": 15
      }
     ]
    },
-   "cond_src": "⚑harpte & harp_yorgunlugu >= 40",
+   "cond_src": "⚑harpte & harp_yorgunlugu >= 15",
    "slot": null,
    "thread": null,
    "place": "edirne",
@@ -57706,7 +58708,7 @@
         "harp_yorgunlugu"
        ]
       ],
-      "right": 55
+      "right": 25
      },
      {
       "op": "cmp",
@@ -57721,7 +58723,7 @@
      }
     ]
    },
-   "cond_src": "⚑harpte & harp_yorgunlugu >= 55 & Para <= 25",
+   "cond_src": "⚑harpte & harp_yorgunlugu >= 25 & Para <= 25",
    "slot": null,
    "thread": null,
    "place": "galata",
@@ -59571,7 +60573,7 @@
         "harp_yorgunlugu"
        ]
       ],
-      "right": 65
+      "right": 35
      },
      {
       "op": "cmp",
@@ -59586,7 +60588,7 @@
      }
     ]
    },
-   "cond_src": "⚑harpte & harp_yorgunlugu >= 65 & avrupa_baskisi >= 40",
+   "cond_src": "⚑harpte & harp_yorgunlugu >= 35 & avrupa_baskisi >= 40",
    "slot": null,
    "thread": null,
    "place": "yildiz",
@@ -61628,13 +62630,6 @@
       "name": "ittifak_harbi"
      },
      {
-      "op": "not",
-      "arg": {
-       "op": "flag",
-       "name": "sarikamis_zafer"
-      }
-     },
-     {
       "op": "flag",
       "name": "kut_zafer"
      },
@@ -61651,7 +62646,7 @@
      }
     ]
    },
-   "cond_src": "⚑ittifak_harbi & !⚑sarikamis_zafer & ⚑kut_zafer & irak >= 60",
+   "cond_src": "⚑ittifak_harbi & ⚑kut_zafer & irak >= 60",
    "slot": "bagdat_1917",
    "thread": null,
    "place": "bagdat",
@@ -61737,31 +62732,28 @@
    "until": null,
    "ending": null,
    "cond": {
-    "op": "and",
-    "args": [
-     {
-      "op": "flag",
-      "name": "ittifak_harbi"
-     },
-     {
-      "op": "not",
-      "arg": {
-       "op": "flag",
-       "name": "sarikamis_zafer"
-      }
-     },
-     {
-      "op": "flag",
-      "name": "kut_zafer"
-     }
-    ]
+    "op": "flag",
+    "name": "ittifak_harbi"
    },
-   "cond_src": "⚑ittifak_harbi & !⚑sarikamis_zafer & ⚑kut_zafer",
+   "cond_src": "⚑ittifak_harbi",
    "slot": "bagdat_1917",
    "thread": null,
    "place": "bagdat",
    "text": [
-    "Paşam, geçen yıl Kut'ül-Amare'de kazandığımız zafer bir yıl bile sürmedi. General Maude'un ordusu Dicle boyunca yeniden yürüdü; tutunmaya çalışan hat bu kez dayanamadı. Bugün Bağdat İngiliz kuvvetlerinin eline geçti — beş asırlık bir vilayet merkezi, halifelik şehri olmasa da imparatorluğun doğudaki en büyük kentiydi. Goltz Paşa bu günü görmeden, geçen yıl Bağdat'ta tifüsten öldü."
+    {
+     "cond": null,
+     "parts": [
+      {
+       "cond": {
+        "op": "flag",
+        "name": "kut_zafer"
+       },
+       "a": "Paşam, geçen yıl Kut'ül-Amare'de kazandığımız zafer bir yıl bile sürmedi.",
+       "b": "Paşam, Kut'ül-Amare'de Townshend'in ordusunu bir türlü kapatamadık; kurtarma kolları Dicle boyunca yürümeye devam etti."
+      },
+      " General Maude'un ordusu Dicle boyunca yeniden yürüdü; tutunmaya çalışan hat bu kez dayanamadı. Bugün Bağdat İngiliz kuvvetlerinin eline geçti — beş asırlık bir vilayet merkezi, halifelik şehri olmasa da imparatorluğun doğudaki en büyük kentiydi. Goltz Paşa bu günü görmeden, geçen yıl Bağdat'ta tifüsten öldü."
+     ]
+    }
    ],
    "advice": [
     {
@@ -62752,13 +63744,6 @@
       "name": "ittifak_harbi"
      },
      {
-      "op": "not",
-      "arg": {
-       "op": "flag",
-       "name": "sarikamis_zafer"
-      }
-     },
-     {
       "op": "cmp",
       "cmp": ">=",
       "left": [
@@ -62767,11 +63752,11 @@
         "filistin"
        ]
       ],
-      "right": 60
+      "right": 55
      }
     ]
    },
-   "cond_src": "⚑ittifak_harbi & !⚑sarikamis_zafer & filistin >= 60",
+   "cond_src": "⚑ittifak_harbi & filistin >= 55",
    "slot": "kudus_1917",
    "thread": null,
    "place": null,
@@ -62862,22 +63847,10 @@
    "until": null,
    "ending": null,
    "cond": {
-    "op": "and",
-    "args": [
-     {
-      "op": "flag",
-      "name": "ittifak_harbi"
-     },
-     {
-      "op": "not",
-      "arg": {
-       "op": "flag",
-       "name": "sarikamis_zafer"
-      }
-     }
-    ]
+    "op": "flag",
+    "name": "ittifak_harbi"
    },
-   "cond_src": "⚑ittifak_harbi & !⚑sarikamis_zafer",
+   "cond_src": "⚑ittifak_harbi",
    "slot": "kudus_1917",
    "thread": null,
    "place": null,
@@ -67320,7 +68293,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "flag",
     "name": "yol_hamid"
@@ -67354,7 +68327,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "flag",
     "name": "yol_ahrar"
@@ -67388,7 +68361,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -67437,7 +68410,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -67493,7 +68466,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "or",
     "args": [
@@ -67606,7 +68579,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "or",
     "args": [
@@ -67719,7 +68692,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -67775,7 +68748,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "flag",
     "name": "tarafsiz_1914"
@@ -67809,7 +68782,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -67886,7 +68859,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -67991,7 +68964,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -68097,7 +69070,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "flag",
     "name": "tehcir"
@@ -68131,7 +69104,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -68186,7 +69159,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -68242,7 +69215,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "flag",
     "name": "arap_isyani"
@@ -68276,7 +69249,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -68324,7 +69297,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -68372,7 +69345,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -68420,7 +69393,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "flag",
     "name": "hamidiye_kuruldu"
@@ -68454,7 +69427,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -68507,7 +69480,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -68560,7 +69533,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "cmp",
     "cmp": "<",
@@ -68601,7 +69574,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "and",
     "args": [
@@ -68658,7 +69631,7 @@
    "image": null,
    "rank": null,
    "until": null,
-   "ending": "son1",
+   "ending": "*",
    "cond": {
     "op": "cmp",
     "cmp": ">=",
@@ -71924,7 +72897,8 @@
    "ax_halk_ermeni_sukun"
   ],
   "flag:dogu_hatti_1": [
-   "dogu_hatti_2"
+   "dogu_hatti_2",
+   "focus:g_dogu_hatti_etut"
   ],
   "flag:dogu_hatti_2": [
    "e2_yol"
@@ -72315,14 +73289,10 @@
    "mus_bitlis",
    "talat_sadrazam",
    "rus_cokusu_zafer",
-   "bagdat_tutuldu",
-   "bagdat_dustu",
    "rus_ihtilali",
    "gazze",
    "yildirim",
    "akabe",
-   "kudus_tutuldu",
-   "kudus_dustu",
    "brest_litovsk",
    "kafkas_geri_1918",
    "zafer_bati_yardim",
