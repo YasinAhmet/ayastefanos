@@ -58109,5 +58109,908 @@
     "{i:book} Şıpka · [i]kasa notu[/i]"
    ]
   }
+ },
+ "reverse": {
+  "flag:adana_divaniharp": [
+   "tasnak_anlasma"
+  ],
+  "flag:ahrar_edirne_tut": [
+   "ahrar_londra"
+  ],
+  "flag:alayli_tasfiye": [
+   "31_mart"
+  ],
+  "flag:arap_isyani": [
+   "medine_mudafaa",
+   "akabe",
+   "e2_hicaz_kayip",
+   "e2_hicaz",
+   "e3_serif",
+   "paris_konferansi"
+  ],
+  "flag:asiret_alaylari": [
+   "van_1915"
+  ],
+  "flag:balkan_harbi_on": [
+   "rumeli_katliam_1912",
+   "ahrar_edirne",
+   "ahrar_londra"
+  ],
+  "flag:balkan_onlendi": [
+   "trablus_tutuldu",
+   "usi",
+   "hamid_1912_usi",
+   "balkan_harbi",
+   "hamid_1912_balkan",
+   "catalca",
+   "hamid_1912_catalca",
+   "hamid_1912_averof",
+   "baskin_karari",
+   "baskin_yok",
+   "hamid_1913_londra",
+   "hamid_1913_edirne",
+   "e6_balkan",
+   "end:son_ahrar"
+  ],
+  "flag:balkan_taarruz": [
+   "luleburgaz"
+  ],
+  "flag:balkan_tutuldu": [
+   "ayastefanos_imza"
+  ],
+  "flag:baskin_yurudu": [
+   "babiali_baskini"
+  ],
+  "flag:berlin_61": [
+   "ingiliz_konsoloslar",
+   "islahat_1914"
+  ],
+  "flag:bogaz_acik": [
+   "e8_bogaz_acik",
+   "e8_bogaz_kapali",
+   "tarafsiz_son"
+  ],
+  "flag:bogaz_tutuldu": [
+   "tarafsiz_son"
+  ],
+  "flag:bulgar_anlasma": [
+   "balkan_esik"
+  ],
+  "flag:bulgar_vahseti": [
+   "gladstone_risale",
+   "tersane_konferansi",
+   "berlin_kongresi"
+  ],
+  "flag:canakkale_zafer": [
+   "e3_canakkale"
+  ],
+  "flag:depo_kaputlar": [
+   "e2_kaput",
+   "e3_kaput"
+  ],
+  "flag:dogu_guvenlik_1915": [
+   "e3_dogu_guvenlik"
+  ],
+  "flag:dogu_hatti_1": [
+   "dogu_hatti_2"
+  ],
+  "flag:dogu_hatti_2": [
+   "e2_yol"
+  ],
+  "flag:dogu_ikmal": [
+   "e2_yol"
+  ],
+  "flag:dogu_jandarma": [
+   "k_dogu_jandarma",
+   "van_1915"
+  ],
+  "flag:donanma_halicte": [
+   "k_bahriye_bakim",
+   "k_halic",
+   "m_halic",
+   "karar_donanma",
+   "reji_midilli",
+   "halic_teftisi_1886",
+   "donanma_1897",
+   "donanma_1897_b",
+   "hamid_donanma_1909",
+   "hamid_1912_averof",
+   "e1_donanma"
+  ],
+  "flag:donanma_iane": [
+   "dretnotlar"
+  ],
+  "flag:duyun_umumiye": [
+   "dis_borc",
+   "k_iflas",
+   "k_duyun",
+   "e1_maliye",
+   "e3_maliye"
+  ],
+  "flag:edirne_geri": [
+   "enver_harbiye"
+  ],
+  "flag:enver_harbiye": [
+   "seferberlik",
+   "goeben"
+  ],
+  "flag:erzurum_kalesi": [
+   "e2_hasan_izzet"
+  ],
+  "flag:filo_takviye": [
+   "tuna_gecisi",
+   "hobart_karadeniz"
+  ],
+  "flag:galicya_kolordu": [
+   "e3_galicya"
+  ],
+  "flag:goltz_kisitli": [
+   "e1_goltz"
+  ],
+  "flag:goltz_serbest": [
+   "k_goltz",
+   "yunan_harbi_1897",
+   "butce_1901",
+   "hamid_alayli_1909"
+  ],
+  "flag:hamid_agir_sulh": [
+   "hamid_1913_londra"
+  ],
+  "flag:hamid_bogaz_tutuldu": [
+   "k_hamid_bogaz",
+   "hamid_karadeniz_cikarma",
+   "hamid_bogaz_filosu",
+   "hamid_son",
+   "end:son_hamid_zafer"
+  ],
+  "flag:hamid_harpte": [
+   "hamid_1914_kafkas",
+   "rus_istilasi"
+  ],
+  "flag:hamid_kafkas_zafer": [
+   "hamid_erzurum_dustu",
+   "hamid_trabzon_dustu",
+   "hamid_son",
+   "end:son_hamid_zafer"
+  ],
+  "flag:hamid_tarafsiz": [
+   "hamid_1914_tarafsiz",
+   "hamid_bogaz_sinavi",
+   "rus_istilasi"
+  ],
+  "flag:hamidiye_kuruldu": [
+   "k_hamidiye",
+   "sason",
+   "sason_1904",
+   "erzurum_1906",
+   "erzurum_1906_b",
+   "islahat_1914",
+   "ermeni_gonullu_1914",
+   "e1_dogu"
+  ],
+  "flag:hamidiye_lagv": [
+   "k_hamidiye"
+  ],
+  "flag:harp_93": [
+   "tuna_gecisi",
+   "plevne",
+   "hobart_karadeniz",
+   "sipka",
+   "kars_tutuldu",
+   "kars_1877",
+   "balkan_tutuldu",
+   "plevne_dustu"
+  ],
+  "flag:harpte": [
+   "edirne_mutareke",
+   "ayastefanos_muzakere",
+   "k_harp",
+   "m_cokus",
+   "ermeni_gonullu_1914",
+   "k_cokus_agir",
+   "k_cokus",
+   "k_hamid_ordu",
+   "k_cokus_deniz",
+   "hamid_bogaz_sinavi",
+   "hamid_erzurum_dustu",
+   "hamid_karadeniz_cikarma",
+   "hamid_trabzon_dustu",
+   "hamid_kafkas_zafer",
+   "hamid_bogaz_filosu",
+   "rus_payitahtta_son",
+   "hamid_rus_ihtilali"
+  ],
+  "flag:hasan_izzet_kaldi": [
+   "e2_hasan_izzet"
+  ],
+  "flag:hicaz_baski": [
+   "e3_hicaz_baski"
+  ],
+  "flag:hicaz_hatti": [
+   "hicaz_medine"
+  ],
+  "flag:hicaz_ozerklik": [
+   "mcmahon",
+   "arap_isyani",
+   "arap_isyani_onlendi",
+   "akabe"
+  ],
+  "flag:hilal_ahmer_dogu": [
+   "e2_sihhiye"
+  ],
+  "flag:hobart_serbest": [
+   "tersane_konferansi",
+   "hobart_karadeniz"
+  ],
+  "flag:iflas_1875": [
+   "k_iflas"
+  ],
+  "flag:islahat_1895_kabul": [
+   "osmanli_bankasi_baskini"
+  ],
+  "flag:islahat_1914_kabul": [
+   "mufettisler_1914",
+   "van_1915"
+  ],
+  "flag:itilaf_yolu": [
+   "itilaf_ittifak",
+   "itilaf_bulgar",
+   "itilaf_dogu",
+   "itilaf_rus_cekiliyor",
+   "itilaf_son",
+   "end:son_itilaf"
+  ],
+  "flag:ittifak_harbi": [
+   "suveys_karar",
+   "depo_kaputlar",
+   "ermeni_gonullu_1914",
+   "koprukoy",
+   "hasan_izzet_uyari",
+   "abide_yikim",
+   "basra_1914",
+   "cihad",
+   "sarikamis_karar",
+   "suveys_1",
+   "tifus_1915",
+   "rus_bogaz_talebi",
+   "bogaz_18mart",
+   "suriye_kitlik",
+   "kafkas_bahar",
+   "van_1915",
+   "mufettis_1915",
+   "tehcir_karar",
+   "gelibolu_cikarma",
+   "londra_1915",
+   "kagit_para",
+   "suriye_idamlari",
+   "anafartalar",
+   "mcmahon",
+   "kut_kusatma",
+   "butce_1916",
+   "gelibolu_tahliye",
+   "yusuf_izzeddin",
+   "kafkas_ileri",
+   "erzurum_1916",
+   "goltz_olum",
+   "trabzon_1916",
+   "kut_zafer",
+   "sykes_picot",
+   "avrupa_tumenleri",
+   "arap_isyani",
+   "arap_isyani_onlendi",
+   "milli_iktisat",
+   "galicya",
+   "suveys_2",
+   "mus_bitlis",
+   "medine_mudafaa",
+   "talat_sadrazam",
+   "rus_cokusu_zafer",
+   "bagdat_tutuldu",
+   "bagdat_dustu",
+   "rus_ihtilali",
+   "gazze",
+   "yildirim",
+   "akabe",
+   "kudus_tutuldu",
+   "kudus_dustu",
+   "erzurum_katliam_1918",
+   "brest_litovsk",
+   "kafkas_geri_1918",
+   "zafer_bati_yardim",
+   "vahdettin_culus",
+   "zafer_sulh_arayisi",
+   "baku",
+   "megiddo",
+   "bulgar_mutareke",
+   "sam_halep",
+   "talat_istifa",
+   "mondros",
+   "ucluler_kacti",
+   "isgal_istanbul",
+   "wilson_cemiyeti",
+   "divani_harp",
+   "adana_isgal",
+   "paris_konferansi",
+   "medine_teslim",
+   "damat_ferid",
+   "kemal_bey_idam",
+   "izmir_isgali",
+   "samsun",
+   "amasya",
+   "ucluler_idam_karari",
+   "erzurum_kongresi",
+   "sivas_kongresi"
+  ],
+  "flag:jurnal_ag": [
+   "k_jurnal",
+   "ingiliz_konsoloslar",
+   "karar_jurnal",
+   "urabi",
+   "misir_isgali",
+   "armenakan",
+   "hincak",
+   "jon_turk_kongresi_1902",
+   "erzurum_1906_b",
+   "vatan_hurriyet",
+   "semsi_pasa"
+  ],
+  "flag:kafkas_cikmaz": [
+   "erzurum_1916",
+   "trabzon_1916",
+   "e3_cikmaz"
+  ],
+  "flag:kafkas_ileri": [
+   "rus_cokusu_zafer",
+   "end:son2"
+  ],
+  "flag:kafkas_savunma": [
+   "kafkas_cikmaz"
+  ],
+  "flag:kafkas_takviye": [
+   "kars_1877"
+  ],
+  "flag:kanun_esasi": [
+   "meclis_1877",
+   "meclis_tatil"
+  ],
+  "flag:kars_geri": [
+   "tarafsiz_son"
+  ],
+  "flag:kars_tutuldu": [
+   "ayastefanos_muzakere",
+   "ayastefanos_imza",
+   "berlin_batum"
+  ],
+  "flag:kibris_verildi": [
+   "berlin_batum",
+   "berlin_kongresi",
+   "berlin_ermeni_maddesi"
+  ],
+  "flag:kislik_techizat": [
+   "e2_kaput",
+   "e3_kaput"
+  ],
+  "flag:kut_zafer": [
+   "bagdat_tutuldu",
+   "bagdat_dustu"
+  ],
+  "flag:liman_heyeti": [
+   "e2_liman"
+  ],
+  "flag:maas_odendi_1908": [
+   "niyazi_daga",
+   "ihtilal_bastirildi"
+  ],
+  "flag:madde_113_yok": [
+   "midhat_surgun"
+  ],
+  "flag:meclis_tatil": [
+   "meclis_1908"
+  ],
+  "flag:midhat_dusman": [
+   "kanun_esasi"
+  ],
+  "flag:midhat_soz": [
+   "kanun_esasi",
+   "midhat_surgun"
+  ],
+  "flag:mondros": [
+   "isgal_istanbul"
+  ],
+  "flag:mufettis_yetki": [
+   "mufettis_1915"
+  ],
+  "flag:mustafa_kemal_anafartalar": [
+   "samsun"
+  ],
+  "flag:plevne_tutuldu": [
+   "plevne_dustu",
+   "ayastefanos_muzakere",
+   "berlin_batum"
+  ],
+  "flag:saray_kisinti": [
+   "abdulaziz_hal"
+  ],
+  "flag:sarikamis_ertelendi": [
+   "kafkas_bahar"
+  ],
+  "flag:sarikamis_felaket": [
+   "tifus_1915",
+   "van_1915",
+   "erzurum_1916",
+   "trabzon_1916",
+   "e3_kaput"
+  ],
+  "flag:sarikamis_zafer": [
+   "kafkas_ileri",
+   "mus_bitlis",
+   "talat_sadrazam",
+   "rus_cokusu_zafer",
+   "bagdat_tutuldu",
+   "bagdat_dustu",
+   "rus_ihtilali",
+   "gazze",
+   "yildirim",
+   "akabe",
+   "kudus_tutuldu",
+   "kudus_dustu",
+   "brest_litovsk",
+   "kafkas_geri_1918",
+   "zafer_bati_yardim",
+   "vahdettin_culus",
+   "zafer_sulh_arayisi",
+   "baku",
+   "megiddo",
+   "bulgar_mutareke",
+   "sam_halep",
+   "onurlu_mutareke",
+   "talat_istifa",
+   "mondros",
+   "ucluler_kacti",
+   "isgal_istanbul",
+   "wilson_cemiyeti",
+   "divani_harp",
+   "adana_isgal",
+   "paris_konferansi",
+   "medine_teslim",
+   "damat_ferid",
+   "kemal_bey_idam",
+   "izmir_isgali",
+   "samsun",
+   "amasya",
+   "ucluler_idam_karari",
+   "erzurum_kongresi",
+   "sivas_kongresi",
+   "end:son2"
+  ],
+  "flag:selanik_takip": [
+   "jon_turk_kongresi_1907",
+   "ihtilal_1908"
+  ],
+  "flag:serif_tahsisat": [
+   "e3_serif"
+  ],
+  "flag:silah_dagitildi": [
+   "depo_silahlar_1909",
+   "hamid_ordu_1909",
+   "hamid_1912_balkan"
+  ],
+  "flag:sopali_secim": [
+   "halaskar"
+  ],
+  "flag:souchon_izin": [
+   "karadeniz_baskini"
+  ],
+  "flag:suriye_idamlari": [
+   "k_suriye",
+   "paris_konferansi"
+  ],
+  "flag:suriye_uzlasma": [
+   "e3_suriye_uzlasma"
+  ],
+  "flag:suveys_buyuk": [
+   "suveys_1"
+  ],
+  "flag:tarafsiz_1914": [
+   "tarafsiz_goeben",
+   "tarafsiz_bogaz",
+   "tarafsiz_18mart",
+   "tarafsiz_ekonomi",
+   "tarafsiz_kafkas",
+   "tarafsiz_son",
+   "end:son_ahrar",
+   "end:son_tarafsiz"
+  ],
+  "flag:tasnak_ittifaki": [
+   "tasnak_erzurum",
+   "van_1915"
+  ],
+  "flag:tehcir": [
+   "e2_ermeni",
+   "divani_harp",
+   "e3_divaniharp",
+   "paris_konferansi",
+   "kemal_bey_idam"
+  ],
+  "flag:terhis_1912": [
+   "balkan_esik",
+   "luleburgaz"
+  ],
+  "flag:tibbiye_takip": [
+   "hafiye_1891",
+   "hurriyet_cemiyeti"
+  ],
+  "flag:toros_oncelik": [
+   "suveys_karar"
+  ],
+  "flag:tuna_takviye": [
+   "tuna_gecisi"
+  ],
+  "flag:vatan_serbest": [
+   "abdulaziz_hal"
+  ],
+  "flag:vatan_yasak": [
+   "softa_ayaklanmasi"
+  ],
+  "flag:yerinde_tedbir": [
+   "e3_dogu_guvenlik"
+  ],
+  "flag:yildiz_kumanda": [
+   "sipka",
+   "plevne_dustu"
+  ],
+  "flag:yol_ahrar": [
+   "k_jurnal",
+   "m_hakimiyet",
+   "m_jon_turk",
+   "k_harbiye_curume",
+   "k_goltz",
+   "k_ittihat_ordu",
+   "ahrar_edirne",
+   "ahrar_londra",
+   "ahrar_sabahaddin",
+   "ahrar_ikinci_balkan",
+   "reji_1913",
+   "kamil_olum",
+   "ahrar_heyet",
+   "islahat_1914",
+   "arap_ozerklik",
+   "mufettisler_1914",
+   "dretnotlar",
+   "ahrar_harp_karari",
+   "tarafsiz_goeben",
+   "itilaf_ittifak",
+   "tarafsiz_bogaz",
+   "tarafsiz_18mart",
+   "itilaf_bulgar",
+   "tarafsiz_ekonomi",
+   "itilaf_dogu",
+   "itilaf_rus_cekiliyor",
+   "tarafsiz_kafkas",
+   "tarafsiz_son",
+   "itilaf_son",
+   "end:son_ahrar"
+  ],
+  "flag:yol_hamid": [
+   "ihtilal_bastirildi",
+   "hamid_tevkifat",
+   "hamid_avrupa_1908",
+   "hamid_bosna_1908",
+   "hamid_jurnal_1908",
+   "hamid_alayli_1909",
+   "hamid_donanma_1909",
+   "hamid_ordu_1909",
+   "hamid_butce_1910",
+   "hamid_1910_havran",
+   "hamid_1910_teftis",
+   "hamid_1910_subaylar",
+   "hamid_1911_yemen",
+   "hamid_1911_trablus",
+   "hamid_1911_bahriye",
+   "balkan_ittifaki",
+   "balkan_esik",
+   "hamid_1912_usi",
+   "hamid_1912_balkan",
+   "hamid_1912_catalca",
+   "hamid_1912_averof",
+   "hamid_1913_londra",
+   "hamid_1913_edirne",
+   "reji_1913",
+   "hamid_1913_alman",
+   "hamid_1914_temmuz",
+   "hamid_harp_karari",
+   "ermeni_gonullu_1914",
+   "hamid_1914_kafkas",
+   "hamid_1914_tarafsiz",
+   "k_cokus_agir",
+   "k_cokus",
+   "k_hamid_ordu",
+   "k_hamid_bogaz",
+   "k_cokus_deniz",
+   "hamid_bogaz_sinavi",
+   "rus_istilasi",
+   "rus_payitahtta",
+   "hamid_erzurum_dustu",
+   "hamid_karadeniz_cikarma",
+   "hamid_trabzon_dustu",
+   "hamid_kafkas_zafer",
+   "hamid_bogaz_filosu",
+   "hamid_1917_cokus",
+   "rus_payitahtta_son",
+   "hamid_rus_ihtilali",
+   "hamid_son",
+   "end:son1",
+   "end:son_hamid_mutareke",
+   "end:son_hamid_zafer"
+  ],
+  "flag:yol_ittihat": [
+   "k_jurnal",
+   "m_hakimiyet",
+   "m_jon_turk",
+   "k_harbiye_curume",
+   "karar_manevra",
+   "karar_jurnal",
+   "k_goltz",
+   "etraf_1908",
+   "alayli_tasfiye",
+   "bosna_bulgar_1908",
+   "meclis_1908",
+   "k_ittihat_ordu",
+   "kamil_dusus",
+   "31_mart",
+   "hareket_ordusu",
+   "abdulhamid_hal",
+   "adana_1909",
+   "depo_silahlar_1909",
+   "donanma_iane_1909",
+   "tasnak_anlasma",
+   "arnavut_isyani",
+   "m_dogu",
+   "butce_1910",
+   "havran",
+   "cavid_londra",
+   "dogu_hatti_1",
+   "turk_ocagi",
+   "trablus_1911",
+   "trablus_gonulluler",
+   "hurriyet_itilaf",
+   "donanma_programi",
+   "butce_1912",
+   "toros_oncelik",
+   "balkan_ittifaki",
+   "halaskar",
+   "balkan_esik",
+   "trablus_tutuldu",
+   "usi",
+   "balkan_harbi",
+   "luleburgaz",
+   "catalca",
+   "baskin_karari",
+   "baskin_yok",
+   "babiali_baskini",
+   "edirne_tutuldu",
+   "edirne_dustu",
+   "londra_1913",
+   "el_ahd",
+   "mahmud_sevket_suikast",
+   "edirne_geri",
+   "reji_1913",
+   "dogu_hatti_2",
+   "liman_heyeti",
+   "enver_harbiye",
+   "vehip_hicaz",
+   "islahat_1914",
+   "butce_1914",
+   "arap_ozerklik",
+   "tasnak_erzurum",
+   "mufettisler_1914",
+   "dretnotlar",
+   "ittifak_1914",
+   "seferberlik",
+   "goeben",
+   "asiret_alaylari",
+   "dogu_ikmal",
+   "kislik_techizat",
+   "kapitulasyon",
+   "erzurum_kalesi",
+   "hilal_ahmer_dogu",
+   "harp_kapida",
+   "karadeniz_baskini",
+   "end:son2"
+  ],
+  "flag:zirhli_siparis": [
+   "iflas_1875"
+  ],
+  "res:alman_nufuzu": [
+   "dis_borc",
+   "m_alman",
+   "midilli_1906",
+   "reval",
+   "hamid_avrupa_1908",
+   "hamid_1910_teftis",
+   "ahrar_harp_karari",
+   "harp_kapida",
+   "e2_almanya"
+  ],
+  "res:araplar": [
+   "m_arap",
+   "misir_geri_donus",
+   "arap_isyani",
+   "arap_isyani_onlendi"
+  ],
+  "res:avrupa_baskisi": [
+   "m_avrupa",
+   "misir_geri_donus",
+   "teselya_1897",
+   "ahrar_harp_karari",
+   "harp_kapida"
+  ],
+  "res:bahriye": [
+   "m_halic",
+   "misir_osmanli_kuvvet",
+   "misir_taburlar_kabul",
+   "misir_taburlar_gec",
+   "reji_midilli",
+   "halic_teftisi_1886",
+   "teselya_1897",
+   "hamid_1912_averof",
+   "k_cokus_deniz",
+   "hamid_bogaz_sinavi",
+   "tarafsiz_18mart"
+  ],
+  "res:cokus": [
+   "m_cokus",
+   "rus_payitahtta",
+   "hamid_kafkas_zafer",
+   "hamid_1917_cokus",
+   "rus_payitahtta_son",
+   "end:son1"
+  ],
+  "res:dogu_hazirligi": [
+   "m_dogu",
+   "sarikamis_zafer",
+   "sarikamis_felaket",
+   "kafkas_bahar_zafer",
+   "kafkas_cikmaz"
+  ],
+  "res:enver_iliskisi": [
+   "baskin_karari",
+   "harp_kapida",
+   "karadeniz_baskini",
+   "sarikamis_karar",
+   "rus_bogaz_talebi"
+  ],
+  "res:ermeniler": [
+   "m_ermeni"
+  ],
+  "res:filistin": [
+   "kudus_tutuldu"
+  ],
+  "res:hakimiyet": [
+   "m_hakimiyet",
+   "beyrut_1880",
+   "urabi",
+   "reji",
+   "karar_reji_milli",
+   "ihtilal_1908"
+  ],
+  "res:harbiye": [
+   "berlin_batum",
+   "urabi",
+   "misir_osmanli_kuvvet",
+   "misir_taburlar_kabul",
+   "misir_taburlar_gec",
+   "misir_ingiliz_hesap",
+   "dogu_rumeli",
+   "dogu_rumeli_tutuldu",
+   "dogu_rumeli_geri",
+   "misir_1886_ortak",
+   "misir_geri_donus",
+   "kislada_teftis_1896",
+   "bosna_bulgar_1908",
+   "hamid_bosna_1908",
+   "balkan_esik",
+   "hamid_1912_catalca",
+   "hamid_1913_edirne",
+   "ahrar_ikinci_balkan",
+   "sarikamis_zafer",
+   "sarikamis_felaket",
+   "k_cokus_agir",
+   "k_cokus",
+   "k_hamid_ordu",
+   "tarafsiz_18mart",
+   "kafkas_bahar_zafer",
+   "kafkas_cikmaz",
+   "rus_istilasi",
+   "erzurum_1916",
+   "hamid_kafkas_zafer",
+   "trabzon_1916",
+   "hamid_rus_ihtilali"
+  ],
+  "res:irak": [
+   "bagdat_tutuldu"
+  ],
+  "res:jon_turk": [
+   "m_jon_turk",
+   "urabi",
+   "ihtilal_1908"
+  ],
+  "res:kafkas": [
+   "hamid_erzurum_dustu",
+   "hamid_trabzon_dustu",
+   "hamid_kafkas_zafer"
+  ],
+  "res:kafkas_93": [
+   "kars_tutuldu"
+  ],
+  "res:kurtler": [
+   "m_kurt"
+  ],
+  "res:para": [
+   "k_dis_borc",
+   "m_para",
+   "karar_manevra",
+   "reji",
+   "karar_reji_milli",
+   "reji_1913",
+   "suriye_kitlik"
+  ],
+  "res:trablus": [
+   "trablus_tutuldu"
+  ],
+  "res:trakya": [
+   "edirne_tutuldu",
+   "ahrar_londra"
+  ],
+  "res:tuna_93": [
+   "balkan_tutuldu"
+  ],
+  "world:arap": [
+   "arap_ozerklik",
+   "arap_isyani",
+   "arap_isyani_onlendi",
+   "e6_adem"
+  ],
+  "world:ayastefanos": [
+   "berlin_batum",
+   "berlin_kongresi",
+   "dogu_rumeli_tutuldu",
+   "dogu_rumeli_geri"
+  ],
+  "world:dogu_rumeli": [
+   "bosna_bulgar_1908",
+   "hamid_bosna_1908"
+  ],
+  "world:girit": [
+   "girit_ozerklik",
+   "bosna_bulgar_1908",
+   "hamid_bosna_1908",
+   "londra_1913",
+   "ahrar_londra",
+   "hamid_1913_londra"
+  ],
+  "world:misir": [
+   "dis_borc",
+   "k_misir_osmanli",
+   "m_misir",
+   "misir_ingiliz_hesap",
+   "misir_1886_ortak",
+   "butce_1886",
+   "wolff_1887",
+   "misir_tahliye",
+   "misir_geri_donus"
+  ],
+  "world:reji": [
+   "dis_borc",
+   "reji_nota",
+   "k_reji_milli",
+   "reji_kolcular",
+   "karar_reji_milli",
+   "reji_midilli",
+   "m_reji",
+   "m_reji_milli",
+   "hamid_butce_1910",
+   "reji_1913"
+  ]
  }
 }

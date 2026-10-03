@@ -3,6 +3,7 @@
     py game/tools/build_events.py            build game/data/events.json and copy images
     py game/tools/build_events.py --check    same, and exit with 1 if there is any error
     py game/tools/build_events.py --warnings print every warning (default: first 60)
+    py game/tools/build_events.py --selftest test parse_expr and branch parsing (writes nothing)
 
 Reads every `GD *.md` file (grammar: Lore/Game Design/GD 02 Sistemler.md, section
 "Olay yazım kuralları"), validates events, conditions, effects, flags, links, quotes
@@ -31,8 +32,8 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 sys.dont_write_bytecode = True  # never write into tools/__pycache__
 from check_links import LINK, HEAD, norm  # noqa: E402  (reuse the vault's link checker rules)
 
-KINDS = {"zorunlu", "isteğe bağlı", "geçici", "ara", "kural", "manşet", "epilog", "karar"}
-PLAYABLE = ("zorunlu", "isteğe bağlı", "geçici", "ara")
+KINDS = {"zorunlu", "isteğe bağlı", "geçici", "ara", "kural", "manşet", "epilog", "karar", "tetik"}
+PLAYABLE = ("zorunlu", "isteğe bağlı", "geçici", "ara", "tetik")
 TAGS = {"zincir", "alternatif"}
 SEATS = {"maliye": "maliye", "harbiye": "harbiye", "bahriye": "bahriye"}
 TIME_VARS = {"yıl": "year", "yil": "year", "ay": "month", "tarihî_mod": "hist_mode", "tarihi_mod": "hist_mode"}
@@ -396,6 +397,8 @@ def blocks(path):
 
 
 def main():
+    if "--selftest" in sys.argv:
+        return selftest()
     check = "--check" in sys.argv
     gd_files = sorted(glob.glob(os.path.join(DESIGN, "GD *.md")))
     if not gd_files:
@@ -771,6 +774,10 @@ def main():
                     ev["until"] = {"y": int(mm.group(1)), "m": int(mm.group(2) or 12)}
             para = []
             cur_opt = None
+
+            def parse_effects_c(segs, where=where, ev_id=ev_id):
+                return parse_effects(where, ev_id, segs, resolve, parse_cond, flags_set, flags_read, queued,
+                                     world_values, prov_ids, nation_codes, world_set)
             for raw in body:
                 s = raw.strip()
                 if not s:
@@ -787,6 +794,10 @@ def main():
                                            display, visible, codex_refs, compile_text, world_values, prov_ids,
                                            nation_codes, world_set)
                     ev["options"].append(cur_opt)
+                    continue
+                bm = BRANCH.match(raw) if cur_opt is not None else None
+                if bm:
+                    parse_branch(where, ev_id, bm, cur_opt, parse_effects_c, compile_text)
                     continue
                 if cur_opt is not None and raw.startswith("   ") and not s.startswith(">"):
                     cur_opt["_out_raw"] = (cur_opt.get("_out_raw", "") + " " + s).strip()
@@ -824,6 +835,17 @@ def main():
                 ev["text"].append(compile_text(where, " ".join(para), ev_id))
             for o in ev["options"]:
                 o.pop("_out_raw", None)
+                finish_branches(where, ev_id, o)
+            if kind == "tetik":
+                mm = re.fullmatch(r"(\d+)\s*(ay|yıl|yil)", fields.get("ortalama", "").strip())
+                if not mm:
+                    err(where, f"tetik '{ev_id}' needs ortalama: 18ay or 2yıl")
+                else:
+                    ev["mtth"] = int(mm.group(1)) * (1 if mm.group(2) == "ay" else 12)
+                    if ev["mtth"] < 1:
+                        err(where, f"tetik '{ev_id}': ortalama must be at least 1 ay")
+                if cond is None:
+                    err(where, f"tetik '{ev_id}' needs a koşul")
             if etki_src:
                 # `etki:` applies to every option of the event (a treaty's map changes, whatever is answered)
                 if not ev["options"]:
@@ -1057,6 +1079,7 @@ def main():
                           "maliye": r["Maliye"], "harbiye": r["Harbiye"], "bahriye": r["Bahriye"]} for r in cabinets],
             "events": sorted(events, key=lambda e: (e["date"]["y"], e["date"]["m"], e["date"]["d"])),
             "codex": codex}
+    data["reverse"] = reverse_index(data["events"], endings)
     with open(os.path.join(OUT_DATA, "events.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     copy_images(used_images)
@@ -1129,6 +1152,29 @@ def parse_option(where, ev_id, om, parse_cond, resolve, flags_set, flags_read, q
         opt["hint"] = to_bbcode(hm.group(1).strip(), codex_refs)
         rest = rest[:hm.start()] + rest[hm.end():]
     effects_src = FIELD.findall(rest)
+    plain_src = []
+    for seg in effects_src:
+        rm = re.match(r"^(şans|kademe)\s*:\s*(.+)$", seg.strip())
+        if not rm:
+            plain_src.append(seg)
+            continue
+        if "_roll" in opt:
+            err(where, f"{ev_id}: option has more than one şans/kademe")
+            continue
+        spread = 10.0
+        etext = rm.group(2)
+        if rm.group(1) == "kademe" and "±" in etext:
+            etext, _, sp = etext.rpartition("±")
+            try:
+                spread = float(sp.strip().replace(",", "."))
+                spread = int(spread) if spread == int(spread) else spread
+            except ValueError:
+                err(where, f"{ev_id}: kademe spread '± {sp.strip()}' is not a number")
+        ast, fl = parse_expr(where, etext, resolve)
+        for f in fl:
+            flags_read[f].append(ev_id)
+        opt["_roll"] = {"kind": "roll" if rm.group(1) == "şans" else "tier", "expr": ast, "spread": spread}
+    effects_src = plain_src
     out = re.sub(r"`[^`]*`", "", rest)
     if "—" in out:
         opt["_out_raw"] = out.split("—", 1)[1].strip()
@@ -1194,6 +1240,10 @@ def flat_effects(effects):
     for e in effects:
         if e["t"] == "if":
             yield from flat_effects(e["then"])
+        elif e["t"] in ("roll", "tier"):
+            yield e
+            for b in e["branches"]:
+                yield from flat_effects(b["effects"])
         else:
             yield e
 
@@ -1237,6 +1287,345 @@ def parse_effect(tok, resolve):
             return None
         return {"t": "set", "id": rid, "v": int(m.group(2))}
     return None
+
+
+# ---------------------------------------------------------------- numeric expressions (REWORK §1)
+
+EXPR_TOKEN = re.compile(r"\s*(\d+(?:\.\d+)?|⚑\s*[\wçğıöşüÇĞİÖŞÜ]+|[\wçğıöşüÇĞİÖŞÜ]+|[-+*/(),])")
+
+
+def parse_expr(where, text, resolve):
+    """`30 + (Harbiye-50)*1.2 + ⚑x*10` → (JSON AST, [flags read]). Errors are reported; the AST is then None."""
+    toks, pos, flags = [], 0, []
+    src = text.strip()
+    try:
+        while pos < len(src):
+            m = EXPR_TOKEN.match(src, pos)
+            if not m or m.end() == pos:
+                raise CondError(f"cannot read '{src[pos:]}'")
+            toks.append(m.group(1))
+            pos = m.end()
+        i = [0]
+
+        def peek():
+            return toks[i[0]] if i[0] < len(toks) else None
+
+        def take(want=None):
+            t = peek()
+            if t is None or (want and t != want):
+                raise CondError(f"expected {want or 'more'}, got {t}")
+            i[0] += 1
+            return t
+
+        def add():
+            node = mul()
+            while peek() in ("+", "-"):
+                op = take()
+                node = {"op": op, "a": node, "b": mul()}
+            return node
+
+        def mul():
+            node = unary()
+            while peek() in ("*", "/"):
+                op = take()
+                node = {"op": op, "a": node, "b": unary()}
+            return node
+
+        def unary():
+            if peek() == "-":
+                take()
+                return {"op": "neg", "a": unary()}
+            return primary()
+
+        def primary():
+            t = take()
+            if t == "(":
+                node = add()
+                take(")")
+                return node
+            if t[0].isdigit():
+                return {"n": float(t) if "." in t else int(t)}
+            if t.startswith("⚑"):
+                name = t[1:].strip()
+                if name not in flags:
+                    flags.append(name)
+                return {"f": name}
+            if t in ("min", "max") and peek() == "(":
+                take("(")
+                args = [add()]
+                take(",")
+                args.append(add())
+                take(")")
+                return {"fn": t, "args": args}
+            if t in "+-*/),":
+                raise CondError(f"unexpected '{t}'")
+            rid = resolve(t)
+            if rid is None:
+                raise CondError(f"unknown value '{t}'")
+            if rid == "year":
+                return {"k": "yil"}
+            if rid == "month":
+                return {"k": "ay"}
+            if rid == "hist_mode":
+                raise CondError("tarihî_mod cannot be used in a number")
+            return {"v": rid}
+
+        node = add()
+        if peek() is not None:
+            raise CondError(f"unexpected '{peek()}'")
+        return node, flags
+    except CondError as e:
+        err(where, f"expression '{text.strip()}': {e}")
+        return None, []
+
+
+# ---------------------------------------------------------------- branches (REWORK §2)
+
+BRANCH = re.compile(r"^\s{2,}-\s+(?:≥\s*([-−]?\d+(?:\.\d+)?)\s+)?([^:`()]+?)\s*(\(tarihî\))?\s*:\s*(.*)$")
+
+
+def parse_branch(where, ev_id, bm, opt, parse_effects_c, compile_text):
+    """One `   - [≥N ]etiket [(tarihî)]: `etkiler` — metin` line under an option."""
+    thr, label, hist, rest = bm.groups()
+    segs = FIELD.findall(rest)
+    plain = re.sub(r"`[^`]*`", "", rest).strip()
+    text = plain.split("—", 1)[1].strip() if "—" in plain else plain.strip("— ").strip()
+    mn = None
+    if thr is not None:
+        mn = float(thr.replace("−", "-"))
+        mn = int(mn) if mn == int(mn) else mn
+    opt.setdefault("_branches", []).append(
+        {"label": label.strip(), "min": mn, "effects": parse_effects_c(segs), "text": compile_text(where, text, ev_id),
+         "hist": bool(hist)})
+
+
+def finish_branches(where, ev_id, opt):
+    """Turn the option's `şans:`/`kademe:` field and its branch lines into one roll/tier effect (validated)."""
+    roll, br = opt.pop("_roll", None), opt.pop("_branches", [])
+    if roll is None:
+        if br:
+            err(where, f"{ev_id}: branch lines under an option without şans:/kademe:")
+        return
+    kind = roll["kind"]
+    if kind == "roll":
+        if len(br) != 2:
+            err(where, f"{ev_id}: şans needs exactly two branches (başarı, başarısız), has {len(br)}")
+        if any(b["min"] is not None for b in br):
+            err(where, f"{ev_id}: şans branches take no ≥ threshold")
+    else:
+        if len(br) < 2:
+            err(where, f"{ev_id}: kademe needs at least two branches, has {len(br)}")
+        else:
+            if br[-1]["min"] is not None:
+                err(where, f"{ev_id}: the last kademe branch must have no threshold")
+            mins = [b["min"] for b in br[:-1]]
+            if any(m is None for m in mins):
+                err(where, f"{ev_id}: every kademe branch but the last needs a ≥ threshold")
+            elif any(a <= b for a, b in zip(mins, mins[1:])):
+                err(where, f"{ev_id}: kademe thresholds must decrease")
+    if opt.get("hist") and sum(b["hist"] for b in br) != 1:
+        err(where, f"{ev_id}: a (tarihî) option with {'şans' if kind == 'roll' else 'kademe'} needs exactly one (tarihî) branch")
+    if roll["expr"] is None:
+        return
+    node = {"t": kind, "branches": br}
+    if kind == "roll":
+        node = {"t": "roll", "chance": roll["expr"], "branches": br}
+    else:
+        node = {"t": "tier", "expr": roll["expr"], "spread": roll["spread"], "branches": br}
+    opt["effects"].append(node)
+
+
+# ---------------------------------------------------------------- reverse index (REWORK §5)
+
+def _expr_reads(n, out):
+    if not isinstance(n, dict):
+        return
+    if "f" in n:
+        out.append("flag:" + n["f"])
+    elif "v" in n:
+        out.append("res:" + n["v"])
+    for k in ("a", "b"):
+        _expr_reads(n.get(k), out)
+    for a in n.get("args", []):
+        _expr_reads(a, out)
+
+
+def _cond_reads(n, out):
+    if not isinstance(n, dict):
+        return
+    op = n.get("op")
+    if op in ("and", "or"):
+        for a in n["args"]:
+            _cond_reads(a, out)
+    elif op == "not":
+        _cond_reads(n["arg"], out)
+    elif op == "flag":
+        out.append("flag:" + n["name"])
+    elif op == "state":
+        out.append("world:" + n["key"])
+    elif op == "cmp":
+        out.extend("res:" + r for _, r in n["left"] if r not in ("year", "month", "hist_mode"))
+
+
+def _text_reads(t, out):
+    if isinstance(t, dict):
+        _cond_reads(t.get("cond"), out)
+        for p in t.get("parts", []):
+            if isinstance(p, dict):
+                _cond_reads(p.get("cond"), out)
+
+
+def _effects_reads(effs, out):
+    for e in effs:
+        if e["t"] == "if":
+            _cond_reads(e["cond"], out)
+            _effects_reads(e["then"], out)
+        elif e["t"] in ("roll", "tier"):
+            _expr_reads(e.get("chance") or e.get("expr"), out)
+            for b in e["branches"]:
+                _text_reads(b["text"], out)
+                _effects_reads(b["effects"], out)
+
+
+def reverse_index(events, endings):
+    """{"flag:x" | "world:k" | "res:id": [event ids…, "end:id"…]}: who reads each key."""
+    rev = defaultdict(list)
+
+    def put(keys, who):
+        for k in keys:
+            if who not in rev[k]:
+                rev[k].append(who)
+    for ev in events:
+        out = []
+        _cond_reads(ev["cond"], out)
+        for t in ev["text"]:
+            _text_reads(t, out)
+        for a in ev["advice"]:
+            _cond_reads(a["cond"], out)
+            _text_reads(a["text"], out)
+        for o in ev["options"]:
+            _cond_reads(o["cond"], out)
+            _text_reads(o["outcome"], out)
+            _effects_reads(o["effects"], out)
+        put(out, ev["id"])
+    for en in sorted(endings.values(), key=lambda e: e["id"]):
+        out = []
+        _cond_reads(en["cond"], out)
+        put(out, "end:" + en["id"])
+    return {k: rev[k] for k in sorted(rev)}
+
+
+# ---------------------------------------------------------------- self test
+
+def selftest():
+    from collections import defaultdict as dd
+    names = {"harbiye": "harbiye", "para": "para", "dogu_hazirligi": "dogu_hazirligi", "kafkas_93": "kafkas_93",
+             "ay": "month", "yıl": "year"}
+
+    def resolve(tok):
+        return names.get(tr_lower(tok))
+
+    def parse_cond(where, text):
+        return None, set()
+
+    def compile_text(where, raw, ev_id=None):
+        return raw
+
+    def pe(segs):
+        return parse_effects("t", "ev", segs, resolve, parse_cond, dd(list), dd(list), dd(list),
+                             {"w": {"a"}}, set(), set(), dd(list))
+
+    def ev_eval(n, st):
+        if "n" in n:
+            return n["n"]
+        if "v" in n:
+            return st[n["v"]]
+        if "f" in n:
+            return 1.0 if n["f"] in st["flags"] else 0.0
+        if "k" in n:
+            return st[n["k"]]
+        if "fn" in n:
+            return (min if n["fn"] == "min" else max)(*[ev_eval(a, st) for a in n["args"]])
+        a = ev_eval(n["a"], st)
+        if n["op"] == "neg":
+            return -a
+        b = ev_eval(n["b"], st)
+        return {"+": a + b, "-": a - b, "*": a * b, "/": a / b if b else 0}[n["op"]]
+
+    def option(lines, hist_tag=""):
+        errors.clear()
+        om = OPTION.match(lines[0])
+        opt = parse_option("t", "ev", om, parse_cond, resolve, dd(list), dd(list), dd(list), {}, set(), set(),
+                           compile_text, {"w": {"a"}}, set(), set(), dd(list))
+        for ln in lines[1:]:
+            bm = BRANCH.match(ln)
+            assert bm, ln
+            parse_branch("t", "ev", bm, opt, pe, compile_text)
+        finish_branches("t", "ev", opt)
+        return opt, list(errors)
+
+    ok = 0
+
+    def check(cond, what):
+        nonlocal ok
+        if not cond:
+            print("FAIL:", what)
+            sys.exit(1)
+        ok += 1
+
+    errors.clear()
+    ast, fl = parse_expr("t", "30 + (Harbiye-50)*1.2 + ⚑goltz_serbest*10 - min(Para, 5) + -ay", resolve)
+    st = {"harbiye": 60, "para": 3, "flags": {"goltz_serbest"}, "ay": 4, "yil": 1914}
+    check(ast is not None and not errors and fl == ["goltz_serbest"], "expr parses, reads goltz_serbest")
+    check(abs(ev_eval(ast, st) - (30 + 12 + 10 - 3 - 4)) < 1e-9, "expr evaluates")
+    check(ev_eval(parse_expr("t", "8 - 2 - 1", resolve)[0], st) == 5, "left associativity")
+    check(parse_expr("t", "yıl", resolve)[0] == {"k": "yil"}, "yıl")
+    errors.clear()
+    check(parse_expr("t", "Bilinmez + 1", resolve)[0] is None and errors, "unknown name is an error")
+    errors.clear()
+    check(parse_expr("t", "1 +", resolve)[0] is None and errors, "dangling operator is an error")
+
+    opt, e = option(["1. **Taarruz.** `şans: 30 + (Harbiye-50)*1.2` `Para -5` — ortak",
+                     "   - başarı: `kafkas_93 +10 · +⚑x` — kazandık",
+                     "   - başarısız (tarihî): `Harbiye -8` — kaybettik"])
+    r = opt["effects"][-1]
+    check(not e and r["t"] == "roll" and [b["hist"] for b in r["branches"]] == [False, True]
+          and opt["effects"][0] == {"t": "res", "id": "para", "d": -5} and opt["outcome"] == "ortak", "şans option")
+    print("şans JSON:", json.dumps(r, ensure_ascii=False))
+
+    opt, e = option(["1. **Ocak.** `kademe: Harbiye*0.6 + dogu_hazirligi*0.4 - 50 ± 15` — ortak",
+                     "   - ≥25 ezici: `kafkas_93 +20` — a",
+                     "   - ≥-8 çıkmaz: — b",
+                     "   - ≥-25 yenilgi: `kafkas_93 -5` — c",
+                     "   - bozgun (tarihî): `kafkas_93 -15` — d"])
+    r = opt["effects"][-1]
+    check(not e and r["t"] == "tier" and r["spread"] == 15 and [b["min"] for b in r["branches"]] == [25, -8, -25, None]
+          and r["branches"][1]["effects"] == [] and r["branches"][1]["text"] == "b", "kademe option")
+    print("kademe JSON:", json.dumps(r, ensure_ascii=False))
+    opt, e = option(["1. **Ocak.** `kademe: Harbiye - 50` ", "   - ≥5 iyi: — a", "   - kötü (tarihî): — b"])
+    check(not e and opt["effects"][-1]["spread"] == 10, "default spread 10")
+
+    _, e = option(["1. **Ocak.** (tarihî) `kademe: Harbiye - 50`", "   - ≥5 iyi: — a", "   - kötü: — b"])
+    check(any("exactly one (tarihî) branch" in x for x in e), "historical option without a historical branch")
+    _, e = option(["1. **X.** (tarihî) `şans: 50`", "   - başarı (tarihî): — a", "   - başarısız (tarihî): — b"])
+    check(any("exactly one (tarihî) branch" in x for x in e), "two historical branches")
+    _, e = option(["1. **X.** `şans: 50`", "   - başarı: — a"])
+    check(any("exactly two branches" in x for x in e), "şans with one branch")
+    _, e = option(["1. **X.** `kademe: 5`", "   - ≥1 a: — a", "   - ≥5 b: — b", "   - c: — c"])
+    check(any("must decrease" in x for x in e), "increasing thresholds")
+    _, e = option(["1. **X.** `kademe: 5`", "   - ≥5 a: — a", "   - ≥1 b: — b"])
+    check(any("last kademe branch" in x for x in e), "last branch with threshold")
+    _, e = option(["1. **X.** `şans: Nope`", "   - başarı: — a", "   - başarısız: — b"])
+    check(any("unknown value" in x for x in e), "unknown name in şans")
+    _, e = option(["1. **X.** `Para -5`", "   - başarı: — a"])
+    check(any("without şans" in x for x in e), "branches without şans/kademe")
+
+    rv = reverse_index([{"id": "e1", "cond": {"op": "flag", "name": "a"}, "text": [], "advice": [],
+                         "options": [{"cond": None, "outcome": "", "effects": [r | {"expr": ast}]}]}], {})
+    check(rv.get("flag:a") == ["e1"] and rv.get("flag:goltz_serbest") == ["e1"] and "res:harbiye" in rv, "reverse index")
+    errors.clear()
+    print(f"selftest: {ok} checks passed")
+    return 0
 
 
 def fuzzy(q, page):
