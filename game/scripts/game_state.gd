@@ -179,12 +179,17 @@ func _replay_to(target_year: int) -> void:
 	while now_key() < target and ending_id == "" and guard < 5000:
 		guard += 1
 		var stuck := false
-		for ev in mandatory_open():
-			var i := _hist_choice(ev)
-			if i < 0 or choose(ev["id"], i).is_empty():
+		var open := mandatory_open()
+		while not open.is_empty() and ending_id == "":
+			var i := _hist_choice(open[0])
+			if i < 0 or choose(open[0]["id"], i).is_empty():
 				stuck = true
-		if stuck or not advance(target):
+				break
+			open = mandatory_open()  # an answer can unlock chained mandatory events
+		if stuck or ending_id != "" or not advance(target):
 			break
+	if now_key() < target and ending_id == "":
+		push_warning("start year %d: the Tarihî replay stopped at %d-%d" % [target_year, year, month])
 	mode = keep
 
 
