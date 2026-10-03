@@ -19,6 +19,7 @@ var ref_k := 1.0
 var lon0 := 0.0
 var lat1 := 0.0
 var zoom := 1.0
+var fit_zoom := 0.0                    # the zoom of the framed map: world-space markers have their natural size there
 var offset := Vector2.ZERO             # screen position of world origin
 var selected := ""
 var highlight: Dictionary = {}         # province id -> Color (front lines, events)
@@ -113,6 +114,7 @@ func fit() -> void:
 	zoom = minf(view.size.x / r.size.x, view.size.y / r.size.y)
 	offset = view.get_center() - (r.position + r.size / 2.0) * zoom
 	_clamp()
+	fit_zoom = zoom
 	queue_redraw()
 	_place_markers()
 
@@ -292,11 +294,12 @@ func clear_markers() -> void:
 ## Pin a control at a lon/lat; `px` shifts it in screen pixels (used to fan out İstanbul's landmarks).
 ## `prio` decides who stays when two markers overlap; markers of the same `group` (one place) may overlap.
 ## `alts` are other pixel shifts to try before hiding it (people step aside instead of vanishing).
+## A `world` marker lives in map space: it (and its `px` shifts) grow and shrink with the zoom.
 func add_marker(node: Control, lonlat: Vector2, px := Vector2.ZERO, min_zoom := 0.0, prio := 0, group := "",
-		alts: Array = []) -> void:
+		alts: Array = [], world := false) -> void:
 	add_child(node)
 	markers.append({"node": node, "lonlat": lonlat, "px": px, "min_zoom": min_zoom, "prio": prio, "group": group,
-		"alts": alts})
+		"alts": alts, "world": world, "scale": 1.0})
 	_place_marker(markers[-1])
 	if not _resolve_queued:
 		_resolve_queued = true
@@ -321,8 +324,10 @@ func _resolve() -> void:
 		var n: Control = m["node"]
 		var base := n.position
 		var placed := false
-		for shift in [Vector2.ZERO] + m.get("alts", []):
-			var r := Rect2(base + shift, n.size).grow(-1.0)
+		var k: float = m["scale"]
+		for alt in [Vector2.ZERO] + m.get("alts", []):
+			var shift: Vector2 = alt * k
+			var r := Rect2(base + n.size * (1.0 - k) / 2.0 + shift, n.size * k).grow(-1.0)
 			if not view.intersects(r):
 				placed = true
 				break
@@ -350,5 +355,11 @@ func _place_marker(m: Dictionary) -> void:
 	var s := n.get_combined_minimum_size()
 	if n.size.x < s.x or n.size.y < s.y:
 		n.size = s
-	n.position = lonlat_to_screen(m["lonlat"]) + m["px"] - n.size / 2.0
+	var k := 1.0
+	if m.get("world", false) and fit_zoom > 0.0:
+		k = clampf(zoom / fit_zoom, 0.6, 5.0)
+	m["scale"] = k
+	n.pivot_offset = n.size / 2.0
+	n.scale = Vector2(k, k)
+	n.position = lonlat_to_screen(m["lonlat"]) + m["px"] * k - n.size / 2.0
 	n.visible = zoom >= m["min_zoom"]

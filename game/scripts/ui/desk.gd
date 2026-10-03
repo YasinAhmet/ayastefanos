@@ -591,7 +591,7 @@ func _refresh_figures() -> void:
 					px.y = 26.0  # under the capital's star
 			var alts := [Vector2(0, 44), Vector2(28, 0), Vector2(-28, 0), Vector2(0, -26), Vector2(28, 44), Vector2(-28, 44),
 				Vector2(54, 0), Vector2(-54, 0)]
-			map.add_marker(_figure_marker(f), ll, px, 0.0, PRIO_FIGURE, "fig:" + key, alts)
+			map.add_marker(_figure_marker(f), ll, px, 0.0, PRIO_FIGURE, "fig:" + key, alts, true)
 
 
 func _figure_marker(f: Dictionary) -> Control:
