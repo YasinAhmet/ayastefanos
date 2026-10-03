@@ -4,6 +4,7 @@ extends PanelContainer
 ## a page open other pages; back and forward walk the reading history; "Bütün maddeler" lists and searches them.
 
 const UIKit := preload("res://game/scripts/ui/ui_kit.gd")
+const WikipediaWindow := preload("res://game/scripts/ui/wikipedia_window.gd")
 
 const WIDTH := 400
 
@@ -13,6 +14,7 @@ var body: VBoxContainer
 var scroll: ScrollContainer
 var back_btn: Button
 var fwd_btn: Button
+var wp_btn: Button
 var _history: Array = []    # page ids ("" = the index)
 var _at := -1
 
@@ -45,6 +47,14 @@ func _ready() -> void:
 	title_label.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 	title_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	head.add_child(title_label)
+	wp_btn = UIKit.button("Vikipedi", UIKit.PANEL_2, 11)
+	wp_btn.tooltip_text = "Bu maddenin Vikipedi sayfasını oyun içinde bir pencerede açar (internet gerekir; kasa kaynağı değildir)."
+	wp_btn.pressed.connect(func():
+		var page: String = _history[_at]
+		if state.codex.has(page):
+			var e: Dictionary = state.codex[page]
+			WikipediaWindow.open(get_parent(), str(e.get("title", page)), str(e.get("name", page))))
+	head.add_child(wp_btn)
 	var idx := UIKit.button("Maddeler", UIKit.PANEL_2, 11)
 	idx.pressed.connect(func(): open(""))
 	head.add_child(idx)
@@ -80,6 +90,7 @@ func _go(i: int) -> void:
 	UIKit.clear(body)
 	scroll.scroll_vertical = 0
 	var page: String = _history[_at]
+	wp_btn.visible = page != "" and state.codex.has(page)
 	if page == "" or not state.codex.has(page):
 		_index()
 		return
