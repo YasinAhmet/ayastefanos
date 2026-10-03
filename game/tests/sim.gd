@@ -86,9 +86,11 @@ func _initialize() -> void:
 		return
 	var ok := true
 	print("== scripted strategies")
+	var strat_seed := 0
 	for name in STRATEGIES:
+		strat_seed += 1   # each scripted run has its own fixed seed
 		var st: Dictionary = STRATEGIES[name]
-		var r := play(st, null, str(st.get("mode", "serbest")))
+		var r := play(st, null, str(st.get("mode", "serbest")), null, strat_seed)
 		var want: String = st["expect"]
 		var mark := "OK " if r["ending"] == want else "FAIL"
 		if r["ending"] != want:
@@ -98,7 +100,7 @@ func _initialize() -> void:
 	rng.seed = 1873
 	# Tarihî mode has one path: every event must show exactly one option and the path must reach Son 3
 	var many: Array = []
-	var h := play(null, rng, "tarihi", many)
+	var h := play(null, rng, "tarihi", many, 1873)
 	var hmark := "OK " if h["ending"] == "son3" and many.is_empty() else "FAIL"
 	if hmark != "OK ":
 		ok = false
@@ -142,7 +144,7 @@ func _initialize() -> void:
 		print("\n== %d random runs (fantezi)" % runs)
 		var dist := {}
 		for i in runs:
-			var r := play(null, rng, mode)
+			var r := play(null, rng, mode, null, i + 1)
 			dist[r["ending"]] = int(dist.get(r["ending"], 0)) + 1
 			if r["ending"] == "stuck":
 				ok = false
@@ -201,8 +203,8 @@ func _initialize() -> void:
 	quit(0 if ok else 1)
 
 
-func play(strategy, rng, mode := "serbest", many = null) -> Dictionary:
-	gs.new_game(mode)
+func play(strategy, rng, mode := "serbest", many = null, seed := 0) -> Dictionary:
+	gs.new_game(mode, "ayrintili", 1873, seed)
 	snapshot = ""
 	kars_probe = ""
 	var steps := 0

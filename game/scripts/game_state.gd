@@ -10,9 +10,9 @@ const DATA_PATH := "res://game/data/events.json"
 const SAVE_PATH := "user://save.json"
 const START := Vector2i(1873, 1)
 const LAST_YEAR := 1919
-const MANDATORY := ["zorunlu", "ara"]
-const PLAYABLE := ["zorunlu", "isteğe bağlı", "geçici", "ara"]
-const SAVE_VERSION := 2
+const MANDATORY := ["zorunlu", "ara", "tetik"]
+const PLAYABLE := ["zorunlu", "isteğe bağlı", "geçici", "ara", "tetik"]
+const SAVE_VERSION := 3
 const FAST_RANK := 45               # Hızlı tempo shows events up to this GD 01 rank (S and A tiers) and every chain / alternatif event
 const START_YEARS := [1873, 1876, 1908, 1913, 1914, 1918]   # the menu's start years (earlier years replay the Tarihî choices)
 
@@ -73,6 +73,11 @@ var deaths: Array = []              # [{g, n, prov, y, m, by}] every † populat
 var front_taken: Dictionary = {}    # front id -> {"last": month key, "provs": [provinces the enemy took on its own]}
 const BORDER_EVERY := 6             # months between two provinces lost (or won back) by a front's own course
 const DRIFT_BY := "Cephenin kendi seyri"
+const YEAR_BY := "Yıllık kural"
+var rng := RandomNumberGenerator.new()
+var rng_seed := 0
+var value_log: Dictionary = {}      # resource id -> [{y, m, d, by}]: every change to a value and its cause
+var _branches: Array = []           # roll/tier branches picked while applying the current answer ({label, text})
 
 
 func load_data(path := DATA_PATH) -> bool:
@@ -132,8 +137,12 @@ func load_data(path := DATA_PATH) -> bool:
 	return true
 
 
-func new_game(game_mode := "serbest", game_pace := "ayrintili", start_year := START.x) -> void:
+func new_game(game_mode := "serbest", game_pace := "ayrintili", start_year := START.x, seed := 0) -> void:
 	mode = game_mode
+	rng_seed = seed if seed != 0 else int(randi())
+	rng.seed = rng_seed
+	value_log.clear()
+	_branches.clear()
 	pace = "ayrintili"
 	world.clear()
 	for id in world_order:
@@ -216,6 +225,19 @@ func province_holder(id: String, layer := "ctl") -> String:
 
 func historical() -> bool:
 	return mode == "tarihi"
+
+
+## A dice throw on the game's own generator. Tarihî mode throws nothing: the likelier side happens.
+func chance(p: float) -> bool:
+	if historical():
+		return p >= 0.5
+	return rng.randf() < p
+
+
+func roll_range(a: float, b: float) -> float:
+	if historical():
+		return (a + b) / 2.0
+	return rng.randf_range(a, b)
 
 
 func fast() -> bool:
@@ -324,13 +346,16 @@ func _due(id: String) -> int:
 func _in_window(ev: Dictionary, key: int) -> bool:
 	var d: Dictionary = ev["date"]
 	var start := Logic.date_key(int(d["y"]), int(d["m"]))
-	var chain: bool = ev["tags"].has("zincir")
+	var trig: bool = ev["kind"] == "tetik"
+	var chain: bool = ev["tags"].has("zincir") or trig
 	if chain and not queued.has(ev["id"]):
 		return false
 	var due := _due(ev["id"]) if chain else -1
 	start = maxi(start, due)
 	if key < start:
 		return false
+	if trig:
+		return true  # a triggered paper waits on the desk until it is answered
 	if ev.get("until") != null:
 		var u: Dictionary = ev["until"]
 		return key <= Logic.date_key(int(u["y"]), int(u["m"]))
@@ -438,7 +463,7 @@ func forced_option(ev: Dictionary) -> int:
 	for i in vis:
 		if option_enabled(ev["options"][i]):
 			return -1
-	return vis[randi() % vis.size()]
+	return vis[rng.randi_range(0, vis.size() - 1)]
 
 
 func cabinet() -> Dictionary:
@@ -510,19 +535,36 @@ func choose(ev_id: String, index: int) -> Dictionary:
 	if ev.get("slot") != null:
 		slot_done[ev["slot"]] = true
 	_acting = ev["title"]
+	_branches.clear()
 	_apply(opt["effects"])
 	_acting = ""
 	_debt_ok = false
+	var labels: PackedStringArray = []
+	var texts: PackedStringArray = []
+	for b in _branches:
+		labels.append(str(b["label"]))
+		if str(b["text"]) != "":
+			texts.append(str(b["text"]))
+	_branches.clear()
+	var outcome := Logic.txt(opt.get("outcome", ""), self)
+	if not texts.is_empty():
+		outcome = (outcome + " " + " ".join(texts)).strip_edges()
 	var rec := {"id": ev_id, "title": ev["title"], "nation": ev["nation"], "y": year, "m": month,
-		"option": opt["label"], "outcome": Logic.txt(opt.get("outcome", ""), self), "place": event_place(ev),
+		"option": opt["label"], "outcome": outcome, "place": event_place(ev),
 		"thread": ev.get("thread"), "auto": _auto_answering}
+	if not labels.is_empty():
+		rec["branch"] = ", ".join(labels)
+		rec["branch_text"] = " ".join(texts)
 	history.append(rec)
 	year_log.append(rec)
 	settle()
 	changed.emit()
 	if ending_id != "":
 		ended.emit(ending_id)
-	return {"outcome": rec["outcome"], "remembered": Logic.remembers(opt["effects"])}
+	var res := {"outcome": rec["outcome"], "remembered": Logic.remembers(opt["effects"])}
+	if rec.has("branch"):
+		res["branch"] = rec["branch"]
+	return res
 
 
 func _apply(effects: Array) -> void:
@@ -532,7 +574,14 @@ func _apply(effects: Array) -> void:
 			"res":
 				_add(e["id"], int(e["d"]))
 			"set":
+				var was := int(values.get(e["id"], 0))
 				values[e["id"]] = int(e["v"])
+				_log_value(str(e["id"]), int(e["v"]) - was)
+			"roll", "tier":
+				var r := rng.randf() if e["t"] == "roll" else rng.randf_range(-1.0, 1.0)
+				var br: Dictionary = e["branches"][Logic.pick_branch(e, self, r)]
+				_branches.append({"label": br["label"], "text": Logic.txt(br.get("text", ""), self)})
+				_apply(br["effects"])
 			"flag":
 				if e["on"]:
 					flags[e["name"]] = true
@@ -598,8 +647,23 @@ func _add(id: String, d: int) -> void:
 	var lo := -50 if (id == "para" and _debt_ok) else 0
 	var before := int(values.get(id, 0))
 	values[id] = clampi(before + d, lo, 100)
+	_log_value(id, int(values[id]) - before)
 	if _front_by_value.has(id) and values[id] != before:
 		_log_front(_front_by_value[id], values[id] - before)
+
+
+## The value ledger (REWORK §5): what changed a value, by whom; the same cause in the same month is summed.
+func _log_value(id: String, d: int) -> void:
+	if d == 0:
+		return
+	if not value_log.has(id):
+		value_log[id] = []
+	var log: Array = value_log[id]
+	var by := _acting if _acting != "" else DRIFT_BY
+	if not log.is_empty() and log[-1]["by"] == by and int(log[-1]["y"]) == year and int(log[-1]["m"]) == month:
+		log[-1]["d"] = int(log[-1]["d"]) + d
+		return
+	log.append({"y": year, "m": month, "d": d, "by": by})
 
 
 ## Remember what moved a front's balance: the event, or the front's own monthly course (summed per year).
@@ -720,6 +784,7 @@ func advance(until_key := -1) -> bool:
 		else:
 			month += 1
 		_front_tick()
+		_trigger_tick()
 		settle()
 		if ending_id != "" or (until_key >= 0 and now_key() >= until_key):
 			changed.emit()
@@ -730,6 +795,34 @@ func advance(until_key := -1) -> bool:
 				return true
 	changed.emit()
 	return true
+
+
+## Tetik events (MTTH): each month an unanswered one whose window is open and whose condition holds may come due.
+## Tarihî mode: alternatif ones never, the others in the month of their date.
+func _trigger_tick() -> void:
+	var key := now_key()
+	for ev in event_order:
+		var id: String = ev["id"]
+		if ev["kind"] != "tetik" or answered.has(id) or queued.has(id) or dropped.has(id) or event_hidden(ev):
+			continue
+		var slot = ev.get("slot")
+		if slot != null and slot_done.has(slot):
+			continue
+		var d: Dictionary = ev["date"]
+		var start := Logic.date_key(int(d["y"]), int(d["m"]))
+		if key < start:
+			continue
+		if ev.get("until") != null:
+			var u: Dictionary = ev["until"]
+			if key > Logic.date_key(int(u["y"]), int(u["m"])):
+				continue
+		if not Logic.eval_cond(ev.get("cond"), self):
+			continue
+		if historical():
+			if key == start:
+				queued[id] = true
+		elif rng.randf() < 1.0 - pow(0.5, 1.0 / maxf(1.0, float(ev.get("mtth", 12)))):
+			queued[id] = true
 
 
 func _year_turn() -> void:
@@ -744,6 +837,7 @@ func _year_turn() -> void:
 			for opt in r["options"]:
 				_apply(opt["effects"])
 			_acting = ""
+			_branches.clear()
 	var lines: Array = []
 	for h in headlines:
 		if int(h["date"]["y"]) <= finished and Logic.eval_cond(h.get("cond"), self):
@@ -968,7 +1062,7 @@ func save_game() -> void:
 		"history": history, "year_log": year_log, "ending": ending_id, "world": world, "owner": prov_owner, "ctl": prov_ctl,
 		"chronicle": chronicle, "slot_done": slot_done, "mode": mode, "pace": pace, "front_log": front_log,
 		"population": population, "front_taken": front_taken,
-		"deaths": deaths}))
+		"deaths": deaths, "rng_seed": rng_seed, "rng_state": str(rng.state), "value_log": value_log}))
 
 
 func has_save() -> bool:
@@ -1017,6 +1111,11 @@ func load_game() -> bool:
 	front_log = s.get("front_log", {})
 	front_taken = s.get("front_taken", {})
 	deaths = s.get("deaths", [])
+	value_log = s.get("value_log", {})
+	rng_seed = int(s.get("rng_seed", 0))
+	rng.seed = rng_seed
+	if s.has("rng_state"):
+		rng.state = int(str(s["rng_state"]))
 	population = pop_start.duplicate(true)
 	population.merge(s.get("population", {}), true)
 	changed.emit()
