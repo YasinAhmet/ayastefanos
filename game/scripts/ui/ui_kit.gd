@@ -266,7 +266,9 @@ void fragment() {
 
 ## A dimmed full-screen layer with a centred panel `width` pixels wide (at most `max_h` of the screen height).
 ## `left`: the panel sits at the left edge with no dimming and lets the map behind it stay visible and live.
-static func modal(parent: Control, frac := Vector2(0.4, 0.8), width := 0, left := false) -> Dictionary:
+## `corner_close`: a ✕ in a fixed strip above the scrolling body, so the panel closes without touching the scrollbar.
+## A caller may put its own Callable in the returned dict under "closer" to run instead of just freeing the layer.
+static func modal(parent: Control, frac := Vector2(0.4, 0.8), width := 0, left := false, corner_close := true) -> Dictionary:
 	var layer := Control.new()
 	layer.set_anchors_preset(Control.PRESET_FULL_RECT)
 	layer.mouse_filter = Control.MOUSE_FILTER_IGNORE if left else Control.MOUSE_FILTER_STOP
@@ -296,15 +298,36 @@ static func modal(parent: Control, frac := Vector2(0.4, 0.8), width := 0, left :
 	layer.add_child(p)
 	var scroll := ScrollContainer.new()
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
-	p.add_child(scroll)
 	var body := vbox(7)
 	body.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.add_child(body)
+	var m := {"layer": layer, "body": body, "scroll": scroll, "panel": p}
+	if corner_close:
+		var v := vbox(2)
+		p.add_child(v)
+		var strip := hbox(0)
+		var gap := Control.new()
+		gap.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		strip.add_child(gap)
+		var x := button("✕", PANEL_2, 12)
+		x.tooltip_text = "Kapat"
+		x.pressed.connect(func():
+			var cb = m.get("closer")
+			if cb is Callable and cb.is_valid():
+				cb.call()
+			else:
+				layer.queue_free())
+		strip.add_child(x)
+		v.add_child(strip)
+		scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
+		v.add_child(scroll)
+	else:
+		p.add_child(scroll)
 	parent.add_child(layer)
 	dim.gui_input.connect(func(ev):
 		if ev is InputEventMouseButton and ev.pressed and ev.button_index == MOUSE_BUTTON_RIGHT:
 			layer.queue_free())
-	return {"layer": layer, "body": body, "scroll": scroll, "panel": p}
+	return m
 
 
 static func bar(value: int, color := GOLD, width := 48) -> ProgressBar:

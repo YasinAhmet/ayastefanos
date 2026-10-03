@@ -27,7 +27,7 @@ static func open(parent: Control, en_title: String, shown: String) -> void:
 func _build(parent: Control, en_title: String, shown: String) -> void:
 	_en_title = en_title
 	_titles["en"] = en_title
-	var m := UIKit.modal(parent, Vector2(0.62, 0.88))
+	var m := UIKit.modal(parent, Vector2(0.62, 0.88), 0, false, false)
 	_layer = m["layer"]
 	_scroll = m["scroll"]
 	_body = m["body"]

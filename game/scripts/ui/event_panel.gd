@@ -28,6 +28,7 @@ func open(ev: Dictionary) -> void:
 	ev_id = str(ev["id"])
 	m = UIKit.modal(parent, Vector2(0.0, 0.86), WIDTH, true)
 	var body: VBoxContainer = m["body"]
+	m["closer"] = _dismiss  # the corner ✕ leaves the paper on the desk
 	var nation: Dictionary = state.nations.get(ev["nation"], {})
 	var head := UIKit.hbox(8)
 	var when := Logic.date_text(state.year, state.month) if ev["kind"] == "karar" \
@@ -42,10 +43,6 @@ func open(ev: Dictionary) -> void:
 		head.add_child(UIKit.label("ALTERNATİF TARİH", 10, UIKit.ALT))
 	if ev["kind"] in GameState.MANDATORY:
 		head.add_child(UIKit.label("ZORUNLU", 10, UIKit.RED))
-	var later := UIKit.button("✕", UIKit.PANEL_2, 11)
-	later.tooltip_text = "Evrakı masada bırak"
-	later.pressed.connect(_dismiss)
-	head.add_child(later)
 	body.add_child(head)
 	body.add_child(UIKit.label(ev["title"], 20, UIKit.GOLD, true))
 	var img := UIKit.image(ev.get("image"), 150)
