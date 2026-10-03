@@ -120,9 +120,9 @@ Abdülhamid tahtını korudu. Ordusunu ve donanmasını korumadı. Harp geldiği
 | Doğuda güvenlik: aşiretlere yetki | `asiret_alaylari` (1914-08) | `asiret_alaylari` | Para −3 · Kürtler +10 · Ermeniler +8 · avrupa_baskisi +5 · dogu_hazirligi +3 | [[Hamidiye Regiments]] |
 | Doğuda güvenlik: nizamiye ve jandarma | `asiret_alaylari` (1914-08) | `dogu_jandarma` | Para −18 · Harbiye −5 · Ermeniler −5 · dogu_hazirligi +8 | Hamidiye'nin ihtiyat süvarisine çevrilmesi (1914 ıslahat planı): [[The Armenian File (Kâmuran Gürün)#p. 256]] |
 
-**Sonuç kuralları** (`sarikamis_karar`, Aralık 1914):
-1. *Enver'in planı: hemen taarruz* → `▶ sarikamis_zafer · ▶ sarikamis_felaket`. `sarikamis_zafer` koşulu `dogu_hazirligi >= 65 & Harbiye >= 40`; `sarikamis_felaket` koşulu tersi.
-2. *Taarruzu bahara ertele* `[koşul: enver_iliskisi >= 40]` → `enver_iliskisi -15 · +⚑sarikamis_ertelendi · ▶ kafkas_bahar`. Nisan 1915'te `kafkas_bahar`: `dogu_hazirligi >= 50 & Harbiye >= 35` ise `▶ kafkas_bahar_zafer` (o da `+⚑sarikamis_zafer` koyar), değilse `▶ kafkas_cikmaz`.
+**Sonuç kuralları** (`sarikamis_karar`, Aralık 1914): sonucu artık sabit bir eşik değil, `kademe: Harbiye*0.5 + dogu_hazirligi*0.5 - 50 ± 15` belirler; eski `dogu_hazirligi >= 65 & Harbiye >= 40` koşulu kalktı.
+1. *Enver'in planı: hemen taarruz* (tarihî) → kademe dalları: ezici ve zafer `▶ sarikamis_zafer`; çıkmaz ve yenilgi `+⚑kafkas_savunma · ▶ kafkas_cikmaz` (yenilgi daha ağır kayıpla); bozgun (tarihî dal) `▶ sarikamis_felaket`. Felaket artık yalnız en düşük kademede gelir; hazırlık ve ordu gücü arttıkça zafere kayar.
+2. *Taarruzu bahara ertele* `[koşul: enver_iliskisi >= 40]` → `enver_iliskisi -15 · +⚑sarikamis_ertelendi · ▶ kafkas_bahar`. Nisan 1915'te `kafkas_bahar` yine bir kademe (`Harbiye*0.5 + dogu_hazirligi*0.5 - 42 ± 12`): zafer dalı `▶ kafkas_bahar_zafer` (o da `+⚑sarikamis_zafer` koyar), bozgun dalı `▶ kafkas_cikmaz`.
 3. *Sadece savun* `[koşul: enver_iliskisi >= 60]` → `+⚑kafkas_savunma · ▶ kafkas_cikmaz`. Felaket önlenir ama cephe kazanılmaz.
 
 ## İkinci son: Kafkas Zaferi
