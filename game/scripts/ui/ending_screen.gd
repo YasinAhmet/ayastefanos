@@ -50,7 +50,15 @@ func _ready() -> void:
 			Logic.date_text(int(d["y"]), int(d["m"])), d["title"], EventPanel._plain(str(d["chose"])),
 			EventPanel._plain(str(d["history"]))], 12))
 	body.add_child(alt)
-	for card in state.epilog_cards():
+	body.add_child(UIKit.section("Yol haritası"))
+	_roadmap(body, div)
+	_near_misses(body)
+	# the ending's own cards first, then the composite axes (ax_*: Rejim, Toprak, Harp, Topluluklar, Maliye), any ending
+	var cards: Array = state.epilog_cards().filter(func(ev): return not str(ev["id"]).begins_with("ax_"))
+	for ev in state.epilogs:
+		if str(ev["id"]).begins_with("ax_") and Logic.eval_cond(ev.get("cond"), state):
+			cards.append(ev)
+	for card in cards:
 		var c := UIKit.panel(UIKit.PANEL_2)
 		var v := UIKit.vbox(6)
 		c.add_child(v)
@@ -112,3 +120,109 @@ func _ready() -> void:
 	var b := UIKit.button("Ana menü", UIKit.PANEL_2, 18)
 	b.pressed.connect(func(): main.show_menu())
 	body.add_child(b)
+
+
+## Decisions that shaped the game, in time order: the big forks plus every decision that left history.
+const MAJOR := ["ihtilal_1908", "baskin_karari", "balkan_esik", "harp_kapida", "sarikamis_karar"]
+const NEAR_MISS_SHOWN := 3
+const NEAR_FLAG_PENALTY := 25.0
+
+
+func _roadmap(body: VBoxContainer, div: Array) -> void:
+	var off := {}
+	for d in div:
+		off["%d-%d-%s" % [int(d["y"]), int(d["m"]), str(d["title"])]] = true
+	var rows: Array = []
+	for h in state.history:
+		var key := "%d-%d-%s" % [int(h["y"]), int(h["m"]), str(h["title"])]
+		if MAJOR.has(str(h["id"])) or off.has(key):
+			rows.append({"h": h, "alt": off.has(key)})
+	if rows.is_empty():
+		body.add_child(UIKit.label("Kayda geçen büyük bir ayrım yok.", 13, UIKit.MUTED))
+		return
+	var line := UIKit.vbox(0)
+	for r in rows:
+		var h: Dictionary = r["h"]
+		var row := UIKit.hbox(10)
+		row.add_child(UIKit.label("●", 13, UIKit.ALT if r["alt"] else UIKit.GOLD))
+		var txt := UIKit.vbox(1)
+		txt.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		var head := UIKit.hbox(8)
+		head.add_child(UIKit.label("%s · %s" % [Logic.date_text(int(h["y"]), int(h["m"])), str(h["title"])], 13, UIKit.INK))
+		if str(h.get("branch", "")) != "":
+			head.add_child(_badge(str(h["branch"])))
+		txt.add_child(head)
+		txt.add_child(UIKit.label(EventPanel._plain(str(h.get("option", ""))), 12, UIKit.MUTED, true))
+		row.add_child(txt)
+		line.add_child(row)
+	body.add_child(line)
+
+
+func _badge(label: String) -> Control:
+	var good := ["zafer", "ezici", "başarı"]
+	var bad := ["bozgun", "yenilgi", "başarısız"]
+	var col := UIKit.GREEN if good.has(label) else (UIKit.RED if bad.has(label) else UIKit.SEAL_2)
+	var p := UIKit.panel(col)
+	p.add_child(UIKit.label(label, 11, UIKit.INK))
+	return p
+
+
+## Distance of the current state to a condition tree: {"d": total, "gaps": {resource name: shortfall}, "closed": doors shut}.
+## cmp nodes cost their numeric shortfall; flag/world/province nodes that do not hold cost NEAR_FLAG_PENALTY.
+func _cond_distance(node) -> Dictionary:
+	var zero := {"d": 0.0, "gaps": {}, "closed": 0}
+	if node == null or Logic.eval_cond(node, state):
+		return zero
+	match node["op"]:
+		"and":
+			var out := {"d": 0.0, "gaps": {}, "closed": 0}
+			for a in node["args"]:
+				var r := _cond_distance(a)
+				out["d"] += r["d"]
+				out["closed"] += r["closed"]
+				for k in r["gaps"]:
+					out["gaps"][k] = float(out["gaps"].get(k, 0.0)) + float(r["gaps"][k])
+			return out
+		"or":
+			var best := {}
+			for a in node["args"]:
+				var r := _cond_distance(a)
+				if best.is_empty() or r["d"] < best["d"]:
+					best = r
+			return best
+		"cmp":
+			var total := 0
+			var names: Array = []
+			for term in node["left"]:
+				total += int(term[0]) * state.value_of(term[1])
+				names.append(str(state.resources[term[1]]["name"]) if state.resources.has(term[1]) else str(term[1]))
+			var gap := absf(float(total - int(node["right"])))
+			if node["cmp"] in [">", "<"]:
+				gap += 1.0
+			return {"d": gap, "gaps": {" + ".join(names): gap}, "closed": 0}
+	return {"d": NEAR_FLAG_PENALTY, "gaps": {}, "closed": 1}
+
+
+## "Closest escaped endings": the endings whose conditions were nearest to holding.
+func _near_misses(body: VBoxContainer) -> void:
+	var rows: Array = []
+	for e in state.endings.values():
+		if str(e["id"]) == state.ending_id or e.get("cond") == null:
+			continue
+		var r := _cond_distance(e["cond"])
+		r["e"] = e
+		rows.append(r)
+	rows.sort_custom(func(a, b): return a["d"] < b["d"])
+	if rows.is_empty():
+		return
+	body.add_child(UIKit.section("En yakın kaçan sonlar"))
+	for i in mini(NEAR_MISS_SHOWN, rows.size()):
+		var r: Dictionary = rows[i]
+		var parts: Array = []
+		var gaps: Dictionary = r["gaps"]
+		for k in gaps:
+			parts.append("%d %s" % [int(round(float(gaps[k]))), k])
+		if int(r["closed"]) > 0:
+			parts.append("%d kapalı kapı (yol ya da bayrak)" % int(r["closed"]))
+		var how := ", ".join(parts) if not parts.is_empty() else "bir adım"
+		body.add_child(UIKit.label("%s — %s uzaktaydınız" % [str(r["e"]["title"]), how], 13, UIKit.INK, true))

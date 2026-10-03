@@ -469,3 +469,151 @@ Boğazlar harp boyunca kapalı kaldı. Rusya'nın dört yıl boyunca bir türlü
 ### 1918 · Yola çıkmayan kervanlar
 `id: e8_ermeni` · `tür: epilog` · `son: son_tarafsiz`
 Büyük Harp'e girilmedi; 1915'te doğu vilayetlerinden Suriye çöllerine kervan yola çıkmadı, Sarıkamış'ın karında bir ordu donmadı. (Alternatif tarih)
+
+## Bileşik son kartları
+
+Son ekranında, hangi son gelirse gelsin, aşağıdaki eksenlerden her biri için koşulu tutan kartlar (`ax_` ile başlar) gösterilir: Rejim, Toprak (Edirne, Kars ve Bağdat'tan kaçı 1919'da Osmanlı'da), Harp, Topluluklar (Ermeni, Arap, Kürt) ve Maliye. Koşullar her eksende bir bölümleme kurar; her oyunda her eksenden en az bir kart çıkar. Kartlar bir sona bağlı değildir; `son: son1` yalnız derleyicinin gerektirdiği alandır.
+
+### 1919 · Rejim: Yıldız'ın düzeni
+`id: ax_rejim_hamid` · `tür: epilog` · `son: son1`
+`koşul: ⚑yol_hamid`
+Meşrutiyet 1908'de bastırıldı; son güne kadar yöneten saray oldu. Mabeyn, jurnal ve ferman devletin dilini belirledi; vilayetler Yıldız'dan okundu. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Rejim: Hürriyet ve İtilaf'ın paşaları
+`id: ax_rejim_ahrar` · `tür: epilog` · `son: son1`
+`koşul: ⚑yol_ahrar`
+Babıâli basılmadı; meşrutiyet kabineleri sırayla geldi, sırayla gitti. Devleti paşalar ve meclis yönetti, ordu kışlasında kaldı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Rejim: İttihat ve Terakki
+`id: ax_rejim_ittihat` · `tür: epilog` · `son: son1`
+`koşul: !⚑yol_hamid & !⚑yol_ahrar`
+Devleti 1913'ten sonra bir komite ve onun subayları yönetti. Karar Babıâli'de değil, Merkez-i Umumi'de verildi. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Toprak: Sınırlar geniş kaldı
+`id: ax_toprak_genis` · `tür: epilog` · `son: son1`
+`koşul: il:edirne = OS & il:kars = OS & il:bagdat = OS`
+Edirne, Kars ve Bağdat 1919'da hâlâ Osmanlı'ydı. Rumeli'nin kapısı, Doğu'nun kalesi ve Irak'ın ovası aynı bayrağın altındaydı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Toprak: Bir sınır tutuldu, biri verildi
+`id: ax_toprak_orta` · `tür: epilog` · `son: son1`
+`koşul: (il:edirne = OS & il:kars = OS & il:bagdat != OS) | (il:edirne = OS & il:kars != OS & il:bagdat = OS) | (il:edirne != OS & il:kars = OS & il:bagdat = OS)`
+Edirne, Kars ve Bağdat'tan ikisi 1919'da Osmanlı'daydı; üçüncüsü haritadan silindi. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Toprak: Tek kale
+`id: ax_toprak_dar` · `tür: epilog` · `son: son1`
+`koşul: (il:edirne = OS & il:kars != OS & il:bagdat != OS) | (il:edirne != OS & il:kars = OS & il:bagdat != OS) | (il:edirne != OS & il:kars != OS & il:bagdat = OS)`
+Edirne, Kars ve Bağdat'tan yalnız biri 1919'da Osmanlı'da kaldı. Öteki iki sınır, galiplerin cetvelinin çizdiği yerden geçti. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Toprak: Anadolu'ya çekilen devlet
+`id: ax_toprak_yok` · `tür: epilog` · `son: son1`
+`koşul: il:edirne != OS & il:kars != OS & il:bagdat != OS`
+Edirne, Kars ve Bağdat 1919'da Osmanlı'nın elinde değildi. Devlet, haritanın ortasına, Anadolu'ya sıkışmıştı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Harp: Girilmeyen harp
+`id: ax_harp_girmedi` · `tür: epilog` · `son: son1`
+`koşul: ⚑tarafsiz_1914`
+Osmanlı Büyük Harp'e girmedi. Silahlı tarafsızlık yıllarca sürdü; cepheler başkalarının cepheleriydi. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Harp: Galiplerin safı
+`id: ax_harp_kazandi` · `tür: epilog` · `son: son1`
+`koşul: !⚑tarafsiz_1914 & (⚑itilaf_yolu | (⚑sarikamis_zafer & ⚑kafkas_ileri) | (⚑hamid_kafkas_zafer & ⚑hamid_bogaz_tutuldu))`
+Harp bittiğinde Osmanlı murahhasları kaybedenlerin değil, kazananların masasındaydı. Bedeli ağırdı, ama masa kuruluydu. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Harp: Kaybedilen harp
+`id: ax_harp_kaybetti` · `tür: epilog` · `son: son1`
+`koşul: !⚑tarafsiz_1914 & !⚑itilaf_yolu & !(⚑sarikamis_zafer & ⚑kafkas_ileri) & !(⚑hamid_kafkas_zafer & ⚑hamid_bogaz_tutuldu) & (cokus >= 100 | ⚑sarikamis_felaket | ⚑talat_gitti)`
+Harp kaybedildi. Cepheler çöktü, mütareke şartları dayatıldı; imparatorluk masaya mağlup olarak oturdu. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Harp: Dondurulan cepheler
+`id: ax_harp_cikmaz` · `tür: epilog` · `son: son1`
+`koşul: !⚑tarafsiz_1914 & !⚑itilaf_yolu & !(⚑sarikamis_zafer & ⚑kafkas_ileri) & !(⚑hamid_kafkas_zafer & ⚑hamid_bogaz_tutuldu) & cokus < 100 & !⚑sarikamis_felaket & !⚑talat_gitti`
+Harp ne kazanıldı ne kaybedildi; cepheler donup kaldı. Mütareke, kimsenin tam galip sayılmadığı bir masada imzalandı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Topluluklar: Ermeniler: tehcir
+`id: ax_halk_ermeni_tehcir` · `tür: epilog` · `son: son1`
+`koşul: ⚑tehcir`
+1915'te Ermeniler doğu vilayetlerinden sürüldü. Kasada Ermeni yazarlı kaynak ve kesin bir ölü sayısı yoktur; sayılar tartışmalıdır. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Topluluklar: Ermeniler: sınırlı tedbir
+`id: ax_halk_ermeni_tedbir` · `tür: epilog` · `son: son1`
+`koşul: !⚑tehcir & (⚑dogu_guvenlik_1915 | ⚑yerinde_tedbir)`
+Ermenilere karşı yalnız yerel güvenlik tedbirleri alındı; tehcir kervanları yola çıkmadı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Topluluklar: Ermeniler: karar masaya gelmedi
+`id: ax_halk_ermeni_sukun` · `tür: epilog` · `son: son1`
+`koşul: !⚑tehcir & !⚑dogu_guvenlik_1915 & !⚑yerinde_tedbir`
+Ermeni meselesinde 1915'te bir tehcir ya da güvenlik kararı verilmedi; doğu vilayetlerinde cemaat yerinde kaldı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Topluluklar: Araplar: isyan
+`id: ax_halk_arap_isyan` · `tür: epilog` · `son: son1`
+`koşul: ⚑arap_isyani`
+Arap vilayetlerinde 1916'da isyan çıktı; Hicaz'da Şerif'in bayrağı açıldı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Topluluklar: Araplar: özerklik
+`id: ax_halk_arap_ozerk` · `tür: epilog` · `son: son1`
+`koşul: !⚑arap_isyani & arap = ozerk`
+Arap vilayetleri özerk bir statüyle İstanbul'a bağlı kaldı; isyan çıkmadı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Topluluklar: Araplar: rahatlama
+`id: ax_halk_arap_rahat` · `tür: epilog` · `son: son1`
+`koşul: !⚑arap_isyani & arap = rahat`
+Arapça mahkeme ve mektep, yerli memur geldi; Arap vilayetlerinde isyan çıkmadı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Topluluklar: Araplar: merkeziyet
+`id: ax_halk_arap_merkez` · `tür: epilog` · `son: son1`
+`koşul: !⚑arap_isyani & arap = merkez`
+Arap vilayetleri harp boyunca İstanbul'dan yönetildi; isyan çıkmadı, ama memnuniyet de doğmadı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Topluluklar: Kürtler: aşiret alayları
+`id: ax_halk_kurt_hamidiye` · `tür: epilog` · `son: son1`
+`koşul: ⚑hamidiye_kuruldu`
+Doğuda aşiretlere alay kuruldu; yetki ve silah onlara bırakıldı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Topluluklar: Kürtler: güçlü aşiretler
+`id: ax_halk_kurt_guclu` · `tür: epilog` · `son: son1`
+`koşul: !⚑hamidiye_kuruldu & Kürtler >= 50`
+Kürt aşiretleri alay kurulmadan da doğuda sözü geçen bir güç olarak kaldı. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Topluluklar: Kürtler: sessiz doğu
+`id: ax_halk_kurt_sakin` · `tür: epilog` · `son: son1`
+`koşul: !⚑hamidiye_kuruldu & Kürtler < 50`
+Doğuda aşiretler devletin etrafında dağınık kaldı; Kürt meselesi harp boyunca masaya gelmedi. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Maliye: Boş hazine
+`id: ax_maliye_bos` · `tür: epilog` · `son: son1`
+`koşul: Para < 10`
+Hazine harbin sonunda boştu. Maaşlar gecikti, borç vadeleri geçti; devlet kredisini yitirmişti. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Maliye: Dar bütçe
+`id: ax_maliye_dar` · `tür: epilog` · `son: son1`
+`koşul: Para >= 10 & Para < 30`
+Hazine harbi çıkardı ama nefesi daraldı; her kalem için ayrı bir pazarlık gerekti. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
+
+### 1919 · Maliye: Hazine ayakta
+`id: ax_maliye_saglam` · `tür: epilog` · `son: son1`
+`koşul: Para >= 30`
+Hazinede para vardı. Harp ve barış kararları kasanın boşluğundan değil, siyasetin kendisinden doğdu. (Alternatif tarih)
+> Kaynak: Alternatif tarih.
