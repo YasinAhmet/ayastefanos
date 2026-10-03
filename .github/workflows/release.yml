@@ -4,11 +4,17 @@ on:
   push:
     tags:
       - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to create (e.g. v0.1.0)"
+        required: true
 
 permissions:
   contents: write
 
 env:
+  RELEASE_TAG: ${{ github.event.inputs.tag || github.ref_name }}
   GODOT_VERSION: "4.7-stable"
   TEMPLATE_DIR: 4.7.stable
 
@@ -52,8 +58,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "${GITHUB_REF_NAME}" \
+          gh release create "${RELEASE_TAG}" \
+            --target "${GITHUB_SHA}" \
             build/AyastefanosUtanci-windows-x64.zip \
             build/AyastefanosUtanci-linux-x64.zip \
-            --title "${GITHUB_REF_NAME}" \
+            --title "${RELEASE_TAG}" \
             --generate-notes
