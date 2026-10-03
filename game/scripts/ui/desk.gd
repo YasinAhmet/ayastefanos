@@ -292,6 +292,12 @@ func _inspector() -> Control:
 func _layout_left() -> void:
 	var h := HEAD_H + 12 if _collapsed else PANEL_H
 	inspector.offset_top = -8 - h
+	# with a letter open on the left, the detail panel sits beside it, in the middle of the screen
+	var x := 8.0 + (EventPanel.WIDTH + 16.0 if _letter != null and _letter.is_open() else 0.0)
+	inspector.offset_left = x
+	inspector.offset_right = x + PANEL_W
+	if x > 8.0:
+		move_child(inspector, get_child_count() - 1)
 	inspector_tabs.visible = not _collapsed
 	inspector_scroll.visible = not _collapsed
 	collapse_btn.text = "▸" if _collapsed else "▾"
@@ -1273,6 +1279,7 @@ func _open_event(ev: Dictionary) -> EventPanel:
 	_letter = p
 	if not _auto_running:
 		map.frame_wide(EventPanel.WIDTH + 28)  # the whole map in the space right of the letter
+	_layout_left()
 	return p
 
 
