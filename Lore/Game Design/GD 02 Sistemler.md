@@ -677,7 +677,7 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 ### 1880 · Düşman başkentler Avrupa baskısını artırır
 `id: k_iliski_baski_artar` · `tür: kural`
 `koşul: iliski_in < 30 | iliski_fr < 30`
-1. **Uygula.** `avrupa_baskisi +2`
+1. **Uygula.** `avrupa_baskisi +1`
 
 ### 1880 · Dost başkentler Avrupa baskısını hafifletir
 `id: k_iliski_baski_azalir` · `tür: kural`
@@ -723,6 +723,96 @@ Oyuncunun görmediği, her yıl dönümünde işleyen kurallar.
 `id: k_muhalefet_gevsek` · `tür: kural`
 `koşul: hakimiyet <= 30`
 1. **Uygula.** `muhalefet +3`
+
+### 1880 · Avrupa'nın dikkati başka yöne kayar
+`id: k_baski_yatisir` · `tür: kural`
+`koşul: avrupa_baskisi >= 35`
+1. **Uygula.** `avrupa_baskisi -3`
+
+### 1880 · Büyük notalar unutulur, elçiler çekilir
+`id: k_baski_yatisir_siddetli` · `tür: kural`
+`koşul: avrupa_baskisi >= 50`
+1. **Uygula.** `avrupa_baskisi -3`
+
+### 1880 · Konferanslar dağılır, notalar rafa kalkar
+`id: k_baski_yatisir_uc` · `tür: kural`
+`koşul: avrupa_baskisi >= 65`
+1. **Uygula.** `avrupa_baskisi -3`
+
+### 1880 · Avrupa'nın gündemi başka meselelerle dolar
+`id: k_baski_yatisir_dort` · `tür: kural`
+`koşul: avrupa_baskisi >= 80`
+1. **Uygula.** `avrupa_baskisi -3`
+
+### 1880 · Avrupa'nın gözü yeniden üzerimizde
+`id: k_baski_toparlar` · `tür: kural`
+`koşul: avrupa_baskisi <= 25`
+1. **Uygula.** `avrupa_baskisi +2`
+
+### 1880 · Petersburg'la soğukluk biraz çözülür
+`id: k_ilis_ru_toparlar` · `tür: kural`
+`koşul: iliski_ru <= 30`
+1. **Uygula.** `iliski_ru +2`
+
+### 1880 · Londra'yla ilişkiler toparlanır
+`id: k_ilis_in_toparlar` · `tür: kural`
+`koşul: iliski_in <= 30`
+1. **Uygula.** `iliski_in +2`
+
+### 1880 · Paris'le ilişkiler toparlanır
+`id: k_ilis_fr_toparlar` · `tür: kural`
+`koşul: iliski_fr <= 30`
+1. **Uygula.** `iliski_fr +2`
+
+### 1880 · Viyana'yla ilişkiler toparlanır
+`id: k_ilis_av_toparlar` · `tür: kural`
+`koşul: iliski_av <= 30`
+1. **Uygula.** `iliski_av +2`
+
+### 1880 · Roma'yla ilişkiler toparlanır
+`id: k_ilis_it_toparlar` · `tür: kural`
+`koşul: iliski_it <= 30`
+1. **Uygula.** `iliski_it +2`
+
+### 1880 · Sofya'yla ilişkiler toparlanır
+`id: k_ilis_bu_toparlar` · `tür: kural`
+`koşul: iliski_bu <= 25`
+1. **Uygula.** `iliski_bu +2`
+
+### 1880 · Atina'yla ilişkiler toparlanır
+`id: k_ilis_yu_toparlar` · `tür: kural`
+`koşul: iliski_yu <= 25`
+1. **Uygula.** `iliski_yu +2`
+
+### 1880 · Londra'nın sıcaklığı geçici kalır
+`id: k_ilis_in_soner` · `tür: kural`
+`koşul: iliski_in >= 80`
+1. **Uygula.** `iliski_in -3`
+
+### 1880 · Paris'in sıcaklığı geçici kalır
+`id: k_ilis_fr_soner` · `tür: kural`
+`koşul: iliski_fr >= 80`
+1. **Uygula.** `iliski_fr -3`
+
+### 1880 · Subaylar yine de sancağın altında
+`id: k_ordu_sadakat_toparlar` · `tür: kural`
+`koşul: ordu_sadakati <= 45`
+1. **Uygula.** `ordu_sadakati +3`
+
+### 1880 · Sadakat da bir gün sorgulanır
+`id: k_ordu_sadakat_soner` · `tür: kural`
+`koşul: ordu_sadakati >= 85`
+1. **Uygula.** `ordu_sadakati -3`
+
+### 1880 · Medrese tepkisi yatışır
+`id: k_ulema_soner` · `tür: kural`
+`koşul: ulema >= 80`
+1. **Uygula.** `ulema -3`
+
+### 1880 · Muhalefet kendi içinde bölünür
+`id: k_muhalefet_soner` · `tür: kural`
+`koşul: muhalefet >= 80`
+1. **Uygula.** `muhalefet -3`
 
 ### 1915 · Bulgaristan Merkez Devletleri safında
 `id: k_saf_bu_ittifak` · `tür: kural` · `bitiş: 1919`

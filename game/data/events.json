@@ -6373,7 +6373,7 @@
   {
    "id": "dis_borc",
    "file": "GD 02 Sistemler",
-   "line": 774,
+   "line": 864,
    "date": {
     "y": 1873,
     "m": 1,
@@ -6589,7 +6589,7 @@
   {
    "id": "m_para",
    "file": "GD 02 Sistemler",
-   "line": 810,
+   "line": 900,
    "date": {
     "y": 1873,
     "m": 1,
@@ -6628,7 +6628,7 @@
   {
    "id": "m_avrupa",
    "file": "GD 02 Sistemler",
-   "line": 815,
+   "line": 905,
    "date": {
     "y": 1873,
     "m": 1,
@@ -11891,7 +11891,7 @@
   {
    "id": "k_harp_93_onlendi",
    "file": "GD 02 Sistemler",
-   "line": 767,
+   "line": 857,
    "date": {
     "y": 1878,
     "m": 1,
@@ -11946,7 +11946,7 @@
   {
    "id": "m_hakimiyet",
    "file": "GD 02 Sistemler",
-   "line": 793,
+   "line": 883,
    "date": {
     "y": 1878,
     "m": 1,
@@ -12006,7 +12006,7 @@
   {
    "id": "m_jon_turk",
    "file": "GD 02 Sistemler",
-   "line": 799,
+   "line": 889,
    "date": {
     "y": 1878,
     "m": 1,
@@ -12064,7 +12064,7 @@
   {
    "id": "m_halic",
    "file": "GD 02 Sistemler",
-   "line": 804,
+   "line": 894,
    "date": {
     "y": 1878,
     "m": 1,
@@ -16123,7 +16123,7 @@
       {
        "t": "res",
        "id": "avrupa_baskisi",
-       "d": 2
+       "d": 1
       }
      ],
      "outcome": "",
@@ -16661,9 +16661,981 @@
    ]
   },
   {
+   "id": "k_baski_yatisir",
+   "file": "GD 02 Sistemler",
+   "line": 727,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Avrupa'nın dikkati başka yöne kayar",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": ">=",
+    "left": [
+     [
+      1,
+      "avrupa_baskisi"
+     ]
+    ],
+    "right": 35
+   },
+   "cond_src": "avrupa_baskisi >= 35",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -3
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_baski_yatisir_siddetli",
+   "file": "GD 02 Sistemler",
+   "line": 732,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Büyük notalar unutulur, elçiler çekilir",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": ">=",
+    "left": [
+     [
+      1,
+      "avrupa_baskisi"
+     ]
+    ],
+    "right": 50
+   },
+   "cond_src": "avrupa_baskisi >= 50",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -3
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_baski_yatisir_uc",
+   "file": "GD 02 Sistemler",
+   "line": 737,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Konferanslar dağılır, notalar rafa kalkar",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": ">=",
+    "left": [
+     [
+      1,
+      "avrupa_baskisi"
+     ]
+    ],
+    "right": 65
+   },
+   "cond_src": "avrupa_baskisi >= 65",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -3
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_baski_yatisir_dort",
+   "file": "GD 02 Sistemler",
+   "line": 742,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Avrupa'nın gündemi başka meselelerle dolar",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": ">=",
+    "left": [
+     [
+      1,
+      "avrupa_baskisi"
+     ]
+    ],
+    "right": 80
+   },
+   "cond_src": "avrupa_baskisi >= 80",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": -3
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_baski_toparlar",
+   "file": "GD 02 Sistemler",
+   "line": 747,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Avrupa'nın gözü yeniden üzerimizde",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": "<=",
+    "left": [
+     [
+      1,
+      "avrupa_baskisi"
+     ]
+    ],
+    "right": 25
+   },
+   "cond_src": "avrupa_baskisi <= 25",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "avrupa_baskisi",
+       "d": 2
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ilis_ru_toparlar",
+   "file": "GD 02 Sistemler",
+   "line": 752,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Petersburg'la soğukluk biraz çözülür",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": "<=",
+    "left": [
+     [
+      1,
+      "iliski_ru"
+     ]
+    ],
+    "right": 30
+   },
+   "cond_src": "iliski_ru <= 30",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "iliski_ru",
+       "d": 2
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ilis_in_toparlar",
+   "file": "GD 02 Sistemler",
+   "line": 757,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Londra'yla ilişkiler toparlanır",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": "<=",
+    "left": [
+     [
+      1,
+      "iliski_in"
+     ]
+    ],
+    "right": 30
+   },
+   "cond_src": "iliski_in <= 30",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "iliski_in",
+       "d": 2
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ilis_fr_toparlar",
+   "file": "GD 02 Sistemler",
+   "line": 762,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Paris'le ilişkiler toparlanır",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": "<=",
+    "left": [
+     [
+      1,
+      "iliski_fr"
+     ]
+    ],
+    "right": 30
+   },
+   "cond_src": "iliski_fr <= 30",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "iliski_fr",
+       "d": 2
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ilis_av_toparlar",
+   "file": "GD 02 Sistemler",
+   "line": 767,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Viyana'yla ilişkiler toparlanır",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": "<=",
+    "left": [
+     [
+      1,
+      "iliski_av"
+     ]
+    ],
+    "right": 30
+   },
+   "cond_src": "iliski_av <= 30",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "iliski_av",
+       "d": 2
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ilis_it_toparlar",
+   "file": "GD 02 Sistemler",
+   "line": 772,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Roma'yla ilişkiler toparlanır",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": "<=",
+    "left": [
+     [
+      1,
+      "iliski_it"
+     ]
+    ],
+    "right": 30
+   },
+   "cond_src": "iliski_it <= 30",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "iliski_it",
+       "d": 2
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ilis_bu_toparlar",
+   "file": "GD 02 Sistemler",
+   "line": 777,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Sofya'yla ilişkiler toparlanır",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": "<=",
+    "left": [
+     [
+      1,
+      "iliski_bu"
+     ]
+    ],
+    "right": 25
+   },
+   "cond_src": "iliski_bu <= 25",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "iliski_bu",
+       "d": 2
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ilis_yu_toparlar",
+   "file": "GD 02 Sistemler",
+   "line": 782,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Atina'yla ilişkiler toparlanır",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": "<=",
+    "left": [
+     [
+      1,
+      "iliski_yu"
+     ]
+    ],
+    "right": 25
+   },
+   "cond_src": "iliski_yu <= 25",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "iliski_yu",
+       "d": 2
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ilis_in_soner",
+   "file": "GD 02 Sistemler",
+   "line": 787,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Londra'nın sıcaklığı geçici kalır",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": ">=",
+    "left": [
+     [
+      1,
+      "iliski_in"
+     ]
+    ],
+    "right": 80
+   },
+   "cond_src": "iliski_in >= 80",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "iliski_in",
+       "d": -3
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ilis_fr_soner",
+   "file": "GD 02 Sistemler",
+   "line": 792,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Paris'in sıcaklığı geçici kalır",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": ">=",
+    "left": [
+     [
+      1,
+      "iliski_fr"
+     ]
+    ],
+    "right": 80
+   },
+   "cond_src": "iliski_fr >= 80",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "iliski_fr",
+       "d": -3
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ordu_sadakat_toparlar",
+   "file": "GD 02 Sistemler",
+   "line": 797,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Subaylar yine de sancağın altında",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": "<=",
+    "left": [
+     [
+      1,
+      "ordu_sadakati"
+     ]
+    ],
+    "right": 45
+   },
+   "cond_src": "ordu_sadakati <= 45",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "ordu_sadakati",
+       "d": 3
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ordu_sadakat_soner",
+   "file": "GD 02 Sistemler",
+   "line": 802,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Sadakat da bir gün sorgulanır",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": ">=",
+    "left": [
+     [
+      1,
+      "ordu_sadakati"
+     ]
+    ],
+    "right": 85
+   },
+   "cond_src": "ordu_sadakati >= 85",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "ordu_sadakati",
+       "d": -3
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_ulema_soner",
+   "file": "GD 02 Sistemler",
+   "line": 807,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Medrese tepkisi yatışır",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": ">=",
+    "left": [
+     [
+      1,
+      "ulema"
+     ]
+    ],
+    "right": 80
+   },
+   "cond_src": "ulema >= 80",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "ulema",
+       "d": -3
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
+   "id": "k_muhalefet_soner",
+   "file": "GD 02 Sistemler",
+   "line": 812,
+   "date": {
+    "y": 1880,
+    "m": 1,
+    "d": 1
+   },
+   "title": "Muhalefet kendi içinde bölünür",
+   "kind": "kural",
+   "tags": [],
+   "nation": "OS",
+   "image": null,
+   "rank": null,
+   "until": null,
+   "ending": null,
+   "cond": {
+    "op": "cmp",
+    "cmp": ">=",
+    "left": [
+     [
+      1,
+      "muhalefet"
+     ]
+    ],
+    "right": 80
+   },
+   "cond_src": "muhalefet >= 80",
+   "slot": null,
+   "thread": null,
+   "place": null,
+   "text": [],
+   "advice": [],
+   "sources": [],
+   "options": [
+    {
+     "label": "Uygula.",
+     "cond": null,
+     "lock": null,
+     "hint": null,
+     "effects": [
+      {
+       "t": "res",
+       "id": "muhalefet",
+       "d": -3
+      }
+     ],
+     "outcome": "",
+     "alt": false,
+     "hist": null
+    }
+   ]
+  },
+  {
    "id": "m_alman",
    "file": "GD 02 Sistemler",
-   "line": 820,
+   "line": 910,
    "date": {
     "y": 1880,
     "m": 1,
@@ -16702,7 +17674,7 @@
   {
    "id": "m_ermeni",
    "file": "GD 02 Sistemler",
-   "line": 825,
+   "line": 915,
    "date": {
     "y": 1880,
     "m": 1,
@@ -16741,7 +17713,7 @@
   {
    "id": "m_arap",
    "file": "GD 02 Sistemler",
-   "line": 830,
+   "line": 920,
    "date": {
     "y": 1880,
     "m": 1,
@@ -20030,7 +21002,7 @@
   {
    "id": "m_misir",
    "file": "GD 02 Sistemler",
-   "line": 856,
+   "line": 946,
    "date": {
     "y": 1883,
     "m": 1,
@@ -21720,7 +22692,7 @@
   {
    "id": "m_reji",
    "file": "GD 02 Sistemler",
-   "line": 845,
+   "line": 935,
    "date": {
     "y": 1885,
     "m": 1,
@@ -21767,7 +22739,7 @@
   {
    "id": "m_reji_milli",
    "file": "GD 02 Sistemler",
-   "line": 851,
+   "line": 941,
    "date": {
     "y": 1885,
     "m": 1,
@@ -24844,7 +25816,7 @@
   {
    "id": "m_kurt",
    "file": "GD 02 Sistemler",
-   "line": 835,
+   "line": 925,
    "date": {
     "y": 1891,
     "m": 1,
@@ -34197,7 +35169,7 @@
         "avrupa_baskisi"
        ]
       ],
-      "right": 90
+      "right": 50
      },
      {
       "op": "state",
@@ -34207,7 +35179,7 @@
      }
     ]
    },
-   "cond_src": "Harbiye >= 60 & avrupa_baskisi <= 90 & dogu_rumeli = bulgar",
+   "cond_src": "Harbiye >= 60 & avrupa_baskisi <= 50 & dogu_rumeli = bulgar",
    "slot": null,
    "thread": null,
    "place": "filibe",
@@ -36503,7 +37475,7 @@
   {
    "id": "m_dogu",
    "file": "GD 02 Sistemler",
-   "line": 840,
+   "line": 930,
    "date": {
     "y": 1910,
     "m": 1,
@@ -47380,7 +48352,7 @@
   {
    "id": "m_cokus",
    "file": "GD 02 Sistemler",
-   "line": 861,
+   "line": 951,
    "date": {
     "y": 1914,
     "m": 1,
@@ -53077,7 +54049,7 @@
   {
    "id": "k_saf_bu_ittifak",
    "file": "GD 02 Sistemler",
-   "line": 727,
+   "line": 817,
    "date": {
     "y": 1915,
     "m": 1,
@@ -53134,7 +54106,7 @@
   {
    "id": "k_saf_bu_tarafsiz",
    "file": "GD 02 Sistemler",
-   "line": 732,
+   "line": 822,
    "date": {
     "y": 1915,
     "m": 1,
@@ -53186,7 +54158,7 @@
   {
    "id": "k_saf_it_itilaf",
    "file": "GD 02 Sistemler",
-   "line": 737,
+   "line": 827,
    "date": {
     "y": 1915,
     "m": 1,
@@ -53248,7 +54220,7 @@
   {
    "id": "k_saf_it_ittifak",
    "file": "GD 02 Sistemler",
-   "line": 742,
+   "line": 832,
    "date": {
     "y": 1915,
     "m": 1,
@@ -53305,7 +54277,7 @@
   {
    "id": "k_saf_ro_itilaf",
    "file": "GD 02 Sistemler",
-   "line": 747,
+   "line": 837,
    "date": {
     "y": 1915,
     "m": 1,
@@ -53357,7 +54329,7 @@
   {
    "id": "k_saf_ro_ittifak",
    "file": "GD 02 Sistemler",
-   "line": 752,
+   "line": 842,
    "date": {
     "y": 1915,
     "m": 1,
@@ -53409,7 +54381,7 @@
   {
    "id": "k_saf_yu_itilaf",
    "file": "GD 02 Sistemler",
-   "line": 757,
+   "line": 847,
    "date": {
     "y": 1915,
     "m": 1,
@@ -53466,7 +54438,7 @@
   {
    "id": "k_saf_yu_tarafsiz",
    "file": "GD 02 Sistemler",
-   "line": 762,
+   "line": 852,
    "date": {
     "y": 1915,
     "m": 1,
@@ -73618,6 +74590,11 @@
   "res:avrupa_baskisi": [
    "m_avrupa",
    "harp_93",
+   "k_baski_yatisir",
+   "k_baski_yatisir_siddetli",
+   "k_baski_yatisir_uc",
+   "k_baski_yatisir_dort",
+   "k_baski_toparlar",
    "misir_geri_donus",
    "girit_1896",
    "teselya_1897",
@@ -73761,9 +74738,11 @@
    "tetik_baris_hizbi"
   ],
   "res:iliski_av": [
+   "k_ilis_av_toparlar",
    "romanya_1916"
   ],
   "res:iliski_bu": [
+   "k_ilis_bu_toparlar",
    "karar_bulgar_anlasma",
    "balkan_harbi",
    "bulgar_ittifak_1915",
@@ -73772,14 +74751,19 @@
   "res:iliski_fr": [
    "k_iliski_baski_artar",
    "k_iliski_baski_azalir",
+   "k_ilis_fr_toparlar",
+   "k_ilis_fr_soner",
    "karar_fransa_borc"
   ],
   "res:iliski_in": [
    "k_iliski_baski_artar",
    "k_iliski_baski_azalir",
+   "k_ilis_in_toparlar",
+   "k_ilis_in_soner",
    "karar_ingiliz_yakin"
   ],
   "res:iliski_it": [
+   "k_ilis_it_toparlar",
    "karar_italya_trablus",
    "trablus_1911",
    "londra_1915"
@@ -73787,9 +74771,11 @@
   "res:iliski_ru": [
    "harp_93",
    "k_iliski_ru_balkan",
+   "k_ilis_ru_toparlar",
    "karar_bogazlar_ru"
   ],
   "res:iliski_yu": [
+   "k_ilis_yu_toparlar",
    "girit_1896",
    "yunan_1917"
   ],
@@ -73828,10 +74814,13 @@
    "ax_halk_kurt_sakin"
   ],
   "res:muhalefet": [
+   "k_muhalefet_soner",
    "tetik_karsi_darbe",
    "tetik_babiali_benzeri"
   ],
   "res:ordu_sadakati": [
+   "k_ordu_sadakat_toparlar",
+   "k_ordu_sadakat_soner",
    "tetik_softa_isyani",
    "tetik_saray_darbesi",
    "tetik_subay_darbesi",
@@ -73879,6 +74868,7 @@
    "berlin_bosna"
   ],
   "res:ulema": [
+   "k_ulema_soner",
    "tetik_softa_isyani"
   ],
   "world:arap": [

@@ -9,7 +9,7 @@ extends SceneTree
 const GameState := preload("res://game/scripts/game_state.gd")
 const Autoplay := preload("res://game/scripts/autoplay.gd")
 const Logic := preload("res://game/scripts/logic.gd")
-const RANDOM_RUNS := 400
+var RANDOM_RUNS := 400   # `-- runs=N` overrides
 const MAX_STEPS := 20000
 # the provinces whose holder tells two worlds apart in the divergence report
 const WATCHED := ["kars", "batum", "kibris", "misir", "dogu_rumeli", "teselya", "girit"]
@@ -80,7 +80,11 @@ var managed := {}       # front id -> true once the sim chose its stance in this
 var kars_held := 0
 var kars_bad := 0
 var kars_probe := ""    # who held Kars in 1917-06, filled by play()
+var hv_cur := {}        # year -> {hidden resource id -> value} on January of that year, filled by play()
+var hv_runs: Array = [] # hv_cur of every random run
+var hv_hist := {}       # hv_cur of the Tarihî path
 var figure_log := {}    # "YYYY-MM" -> ["person@label"], filled on the Tarihî path
+const HV_YEARS := [1885, 1900, 1910, 1914]
 const FIGURE_DATES := [Vector2i(1877, 9), Vector2i(1908, 7), Vector2i(1912, 3), Vector2i(1915, 5), Vector2i(1919, 6)]
 
 
@@ -90,6 +94,9 @@ func _initialize() -> void:
 	if not gs.load_data():
 		quit(2)
 		return
+	for a in OS.get_cmdline_user_args():
+		if a.begins_with("runs="):
+			RANDOM_RUNS = int(a.substr(5))
 	var ok := true
 	print("== scripted strategies")
 	var strat_seed := 0
@@ -117,6 +124,7 @@ func _initialize() -> void:
 	var hmark := "OK " if h["ending"] == "son3" and many.is_empty() else "FAIL"
 	if hmark != "OK ":
 		ok = false
+	hv_hist = hv_cur.duplicate(true)
 	print("%s tarihî yol    → %s (wanted son3) at %s · steps %d · %s" % [hmark, h["ending"], h["date"], h["steps"], h["summary"]])
 	for m in many:
 		print("  more than one option shown in Tarihî mode: ", m)
@@ -160,6 +168,7 @@ func _initialize() -> void:
 		for i in runs:
 			var r := play(null, rng, mode, null, i + 1)
 			dist[r["ending"]] = int(dist.get(r["ending"], 0)) + 1
+			hv_runs.append(hv_cur.duplicate(true))
 			if r["ending"] == "stuck":
 				ok = false
 				if failures.size() < 5:
@@ -194,6 +203,7 @@ func _initialize() -> void:
 			ok = false
 	for f in failures:
 		print("  STUCK at %s: %s" % [f["date"], f["summary"]])
+	_hidden_values_report()
 	print("\n== how the threads ended (random runs, serbest)")
 	for k in outcomes:
 		var parts: PackedStringArray = []
@@ -228,8 +238,12 @@ func play(strategy, rng, mode := "serbest", many = null, seed := 0) -> Dictionar
 	var fo := RandomNumberGenerator.new()   # and so do the Gündem draws
 	fo.seed = seed * 104729 + 7
 	managed.clear()
+	hv_cur = {}
 	while gs.ending_id == "" and steps < MAX_STEPS:
 		steps += 1
+		for y in HV_YEARS:
+			if not hv_cur.has(y) and gs.year >= y:
+				hv_cur[y] = _hidden_now()
 		if snapshot == "" and gs.year >= 1900:
 			snapshot = _signature()
 		if kars_probe == "" and gs.year * 12 + gs.month >= 1917 * 12 + 6:
@@ -387,6 +401,45 @@ func _power_tests() -> bool:
 	var d_ok: bool = held.has("bagdat_tutuldu") and held.has("kudus_tutuldu")
 	print("  %s (d) harbiye 90, savunma, 8 tümen: 8 tohumda Bağdat tutuldu %d · Kudüs tutuldu %d" % ["OK  " if d_ok else "FAIL", int(held.get("bagdat_tutuldu", 0)), int(held.get("kudus_tutuldu", 0))])
 	return a_ok and b_ok and c_ok and d_ok
+
+
+func _hidden_ids() -> Array:
+	var ids: Array = []
+	for id in gs.resources:
+		if not bool(gs.resources[id].get("visible", true)) and not gs.fronts.has(id):
+			ids.append(id)
+	return ids
+
+
+func _hidden_now() -> Dictionary:
+	var d := {}
+	for id in _hidden_ids():
+		d[id] = gs.value_of(id)
+	return d
+
+
+## "== hidden values": hidden sources must not stick to 0 or 100 (min / median / max, % of runs at an end).
+func _hidden_values_report() -> void:
+	print("\n== hidden values (random runs, January of each year; min/median/max, %% of runs at 0 or 100; hist = Tarihî path)")
+	if hv_runs.is_empty():
+		return
+	for id in _hidden_ids():
+		var parts: PackedStringArray = []
+		for y in HV_YEARS:
+			var vals: Array = []
+			for r in hv_runs:
+				if r.has(y):
+					vals.append(r[y][id])
+			if vals.is_empty():
+				continue
+			vals.sort()
+			var stuck := 0
+			for v in vals:
+				if v <= 0 or v >= 100:
+					stuck += 1
+			var hv = hv_hist.get(y, {}).get(id, "-")
+			parts.append("%d: %d/%d/%d %d%% h%s" % [y, vals[0], vals[vals.size() / 2], vals[-1], int(round(100.0 * stuck / vals.size())), str(hv)])
+		print("  %-15s %s" % [id, " · ".join(parts)])
 
 
 func _signature() -> String:
