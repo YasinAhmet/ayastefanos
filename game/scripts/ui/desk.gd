@@ -539,9 +539,12 @@ func toast(text: String, seconds := 4.0) -> void:
 	while toasts.get_child_count() > 3:
 		toasts.get_child(0).free()
 	_layout_left.call_deferred()
+	# a weakref, not a capture: the toast may be freed by the three-toast limit before its timer fires
+	var ref: WeakRef = weakref(p)
 	get_tree().create_timer(seconds).timeout.connect(func():
-		if is_instance_valid(p):
-			p.queue_free())
+		var node: Node = ref.get_ref()
+		if node != null:
+			node.queue_free())
 
 
 # ---------------------------------------------------------------- map markers

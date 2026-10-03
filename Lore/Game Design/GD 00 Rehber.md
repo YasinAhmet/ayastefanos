@@ -15,6 +15,7 @@ tags: [game-design]
 | [[GD 03 Sonlar ve Yollar]] | Sekiz son ve yol × sonuç matrisi, yol ayrımları, kaldıraçlar, bayrak (flag) kaydı, akış şeması, son kartları |
 | [[GD 04 Dünya Durumu ve İplikler]] | Yarı doğrusal yapı: hikâye iplikleri, dünya durumu anahtarları ve değerleri, haritadaki kararlar |
 | [[GD 05 Harita ve Harpler]] | İller (sahip ve tutan), haritadaki yerler, harpler ve cepheler |
+| [[GD 07 Gündem]] | Gündem ağacı: devirlere göre uzun soluklu devlet işleri, önkoşulları, dışlamaları ve etkileri |
 | `GD 1873` … `GD 1919` | Her yılın olayları. Olay olmayan yılların dosyası yoktur |
 | [[GD 99 Açık Sorular]] | İncelemen için açık bıraktığım tasarım soruları |
 

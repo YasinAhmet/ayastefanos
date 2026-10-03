@@ -1024,8 +1024,8 @@ def main():
         if ev["nation"] not in nations:
             err(where, f"unknown bayrak '{ev['nation']}'")
         if ev["kind"] == "epilog":
-            if not ev["ending"] or ev["ending"] not in endings:
-                err(where, f"epilog needs a valid son: '{ev['ending']}'")
+            if not ev["ending"] or (ev["ending"] != "*" and ev["ending"] not in endings):
+                err(where, f"epilog needs a valid son (an ending id, or * for every ending): '{ev['ending']}'")
         for opt in ev["options"]:
             for eff in flat_effects(opt["effects"]):
                 if eff["t"] == "queue" and eff["id"] not in ids:

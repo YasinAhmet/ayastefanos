@@ -53,10 +53,10 @@ func _ready() -> void:
 	body.add_child(UIKit.section("Yol haritası"))
 	_roadmap(body, div)
 	_near_misses(body)
-	# the ending's own cards first, then the composite axes (ax_*: Rejim, Toprak, Harp, Topluluklar, Maliye), any ending
-	var cards: Array = state.epilog_cards().filter(func(ev): return not str(ev["id"]).begins_with("ax_"))
+	# the ending's own cards first, then the `son: *` cards (the composite axes ax_*), whatever the ending
+	var cards: Array = state.epilog_cards()
 	for ev in state.epilogs:
-		if str(ev["id"]).begins_with("ax_") and Logic.eval_cond(ev.get("cond"), state):
+		if ev.get("ending") == "*" and Logic.eval_cond(ev.get("cond"), state):
 			cards.append(ev)
 	for card in cards:
 		var c := UIKit.panel(UIKit.PANEL_2)
