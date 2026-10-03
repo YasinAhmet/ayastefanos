@@ -51,8 +51,6 @@ var inspector_scroll: ScrollContainer
 var inspector_body: VBoxContainer
 var collapse_btn: Button
 var status_label: Label
-var advance_btn: Button
-var auto_years: CheckBox      # advance time by itself whenever the desk is clear
 var _letter: EventPanel = null
 var _skipped := {}            # papers the player left on the desk with ✕: not opened again by themselves
 var _inspecting := {}          # {kind, id} of what the panel shows, refreshed with the desk
@@ -105,6 +103,8 @@ func _ready() -> void:
 	if autoplay_on_start:
 		auto_bar.visible = true
 		_auto_start()
+	else:
+		_continue.call_deferred()  # open the first paper, or let time run to the first one
 
 
 func _unhandled_key_input(event: InputEvent) -> void:
@@ -176,6 +176,8 @@ func jump_to(y: int, mo: int) -> void:
 	toast("Debug: %s tarihine gelindi (tarihî seçimlerle)." % Logic.date_text(state.year, state.month), 4.0)
 	if state.ending_id != "":
 		main.show_ending()
+	else:
+		_continue.call_deferred()
 
 
 # ---------------------------------------------------------------- layout
@@ -304,27 +306,11 @@ func _bottom_right() -> Control:
 	p.anchor_bottom = 1.0
 	p.offset_left = -330
 	p.offset_right = -8
-	p.offset_top = -86
+	p.offset_top = -56
 	p.offset_bottom = -8
-	var col := UIKit.vbox(4)
-	p.add_child(col)
-	auto_years = CheckBox.new()
-	auto_years.text = "Yılları otomatik ilerlet"
-	auto_years.tooltip_text = "Açıkken masada cevap bekleyen evrak kalmayınca zaman kendiliğinden ilerler ve sıradaki evrak açılır."
-	auto_years.add_theme_font_size_override("font_size", 12)
-	auto_years.button_pressed = true
-	auto_years.toggled.connect(func(on):
-		if on and (_letter == null or not _letter.is_open()):
-			_continue.call_deferred())
-	col.add_child(auto_years)
-	var h := UIKit.hbox(8)
-	col.add_child(h)
 	status_label = UIKit.label("", 11, UIKit.MUTED, true)
 	status_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	h.add_child(status_label)
-	advance_btn = UIKit.button("Zamanı ilerlet ▸", UIKit.PANEL_2, 14)
-	advance_btn.pressed.connect(_advance)
-	h.add_child(advance_btn)
+	p.add_child(status_label)
 	return p
 
 
@@ -362,15 +348,14 @@ func refresh() -> void:
 	if not _inspecting.is_empty():
 		_reinspect()
 	var must := state.mandatory_open().size()
-	advance_btn.disabled = not state.can_advance() or _auto_running
 	if _auto_running:
 		status_label.text = "Otomatik oynatılıyor…"
 	elif must > 0:
 		status_label.text = "Cevap bekleyen %d zorunlu evrak var." % must
 	elif not open.is_empty():
-		status_label.text = "%d evrak masada. Zaman ilerletilebilir." % open.size()
+		status_label.text = "%d evrak masada; zaman kendiliğinden ilerler." % open.size()
 	else:
-		status_label.text = "Zaman ilerletilebilir."
+		status_label.text = "Zaman kendiliğinden ilerler."
 
 
 # ---------------------------------------------------------------- paper cards (left)
@@ -380,7 +365,7 @@ func _refresh_cards(open: Array) -> void:
 	var must := open.filter(func(ev): return ev["kind"] in GameState.MANDATORY)
 	cards.add_child(UIKit.section("Masadaki evrak · %d" % open.size() + (" (%d zorunlu)" % must.size() if not must.is_empty() else "")))
 	if open.is_empty():
-		cards.add_child(UIKit.label("Masada bekleyen evrak yok. Zamanı ilerletin.", 11, UIKit.MUTED, true))
+		cards.add_child(UIKit.label("Masada bekleyen evrak yok; zaman kendiliğinden ilerliyor.", 11, UIKit.MUTED, true))
 	var sorted := must + open.filter(func(ev): return not (ev["kind"] in GameState.MANDATORY))
 	for ev in sorted:
 		cards.add_child(_card(ev))
@@ -1242,7 +1227,7 @@ func _open_event(ev: Dictionary) -> EventPanel:
 
 
 ## After a paper is answered: open the next one on the desk (mandatory first); with nothing left, and
-## "Yılları otomatik ilerlet" on, move time forward and open what that brings.
+## time moves forward by itself and opens what that brings.
 func _continue() -> void:
 	if not is_inside_tree() or _auto_running or _jumping or state.ending_id != "":
 		return
@@ -1257,7 +1242,7 @@ func _continue() -> void:
 	if not next.is_empty():
 		_open_event(next)
 		return
-	if not auto_years.button_pressed or not state.can_advance():
+	if not state.can_advance():
 		return
 	var layers := get_child_count()
 	_advance()
@@ -1303,8 +1288,8 @@ func _auto_bar() -> Control:
 	auto_bar.anchor_bottom = 1.0
 	auto_bar.offset_left = -330
 	auto_bar.offset_right = -8
-	auto_bar.offset_top = -182
-	auto_bar.offset_bottom = -94
+	auto_bar.offset_top = -152
+	auto_bar.offset_bottom = -64
 	auto_bar.visible = false
 	var v := UIKit.vbox(4)
 	auto_bar.add_child(v)

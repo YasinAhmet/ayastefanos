@@ -55,7 +55,7 @@ Natural Earth'ün kamu malı 1:10m idari sınırlarını (ilk çalıştırmada `
 | `scripts/autoplay.gd` | Oyuncu yerine seçim: Tarihî, Rastgele, Alternatif öncelikli politikaları; masadaki otomatik oynatma ve `sim.gd` kullanır |
 | `scripts/logic.gd` | Koşul değerlendirme, metin varyantları, maliyet etiketleri, tarih metni, görsel yükleme |
 | `scripts/ui/map_view.gd` | Harita: iller tutanın renginde (sahip başkaysa taralı), kaydırma ve yakınlaştırma, haritaya iğnelenen işaretler, öncelikli çakışma geçişi (işaretler ve il adları üst üste binmez) |
-| `scripts/ui/desk.gd` | Masa: ince üst çubuk, solda evrak kartları, haritada mühürler, yerler, Babıâli'de hükümdar madalyonu, kişi madalyonları, cephe işaretleri, sol altta yer / il ve nüfus / devlet / cephe / kişi paneli, "Zamanı ilerlet", otomatik oynatma çubuğu |
+| `scripts/ui/desk.gd` | Masa: ince üst çubuk, solda evrak kartları, haritada mühürler, yerler, Babıâli'de hükümdar madalyonu, kişi madalyonları, cephe işaretleri, sol altta yer / il ve nüfus / devlet / cephe / kişi paneli, zaman kendiliğinden ilerler (buton yok), otomatik oynatma çubuğu |
 | `scripts/ui/event_panel.gd` | Olay mektubu (580 px): metin, görsel, nazır görüşleri, seçenekler (kilitli olanlar nedeniyle), sonuç, kaynakça; kararlar da burada açılır |
 | `scripts/ui/panels.gd` | Payitaht (hükümdar + üç nazır), devlet dosyası, Defter (iplikler ve toprak defteri), kaynakça/sözlük, yıl sonu gazetesi |
 | `scripts/ui/ui_kit.gd` | Ortak görünüm: Viktorya atlası paleti, paneller, mühürler, madalyon |
