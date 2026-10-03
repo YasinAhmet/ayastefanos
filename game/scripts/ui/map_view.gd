@@ -119,6 +119,33 @@ func fit() -> void:
 	_place_markers()
 
 
+## While a letter is open on the left: frame the whole Ottoman lands in the space to its right, so the
+## player sees the map change under their decisions. restore_view() puts the player's own view back.
+var _saved_view := {}
+
+func frame_wide(inset: float) -> void:
+	if size.x < 10:
+		return
+	if _saved_view.is_empty():
+		_saved_view = {"zoom": zoom, "offset": offset, "moved": _user_moved, "inset": left_inset, "fit": fit_zoom}
+	left_inset = inset
+	fit()
+
+
+func restore_view() -> void:
+	if _saved_view.is_empty():
+		return
+	left_inset = _saved_view["inset"]
+	zoom = _saved_view["zoom"]
+	offset = _saved_view["offset"]
+	fit_zoom = _saved_view["fit"]
+	_user_moved = _saved_view["moved"]
+	_saved_view = {}
+	_clamp()
+	queue_redraw()
+	_place_markers()
+
+
 func center_on(lonlat: Vector2) -> void:
 	offset = size / 2.0 - _world(lonlat) * zoom
 	_clamp()

@@ -265,16 +265,25 @@ void fragment() {
 
 
 ## A dimmed full-screen layer with a centred panel `width` pixels wide (at most `max_h` of the screen height).
-static func modal(parent: Control, frac := Vector2(0.4, 0.8), width := 0) -> Dictionary:
+## `left`: the panel sits at the left edge with no dimming and lets the map behind it stay visible and live.
+static func modal(parent: Control, frac := Vector2(0.4, 0.8), width := 0, left := false) -> Dictionary:
 	var layer := Control.new()
 	layer.set_anchors_preset(Control.PRESET_FULL_RECT)
-	layer.mouse_filter = Control.MOUSE_FILTER_STOP
+	layer.mouse_filter = Control.MOUSE_FILTER_IGNORE if left else Control.MOUSE_FILTER_STOP
 	var dim := ColorRect.new()
 	dim.color = Color(0.05, 0.03, 0.02, 0.45)
 	dim.set_anchors_preset(Control.PRESET_FULL_RECT)
+	if left:
+		dim.visible = false
+		dim.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	layer.add_child(dim)
 	var p := panel(PANEL)
-	if width > 0:
+	if left:
+		p.anchor_left = 0.0
+		p.anchor_right = 0.0
+		p.offset_left = 8
+		p.offset_right = 8 + width
+	elif width > 0:
 		p.anchor_left = 0.5
 		p.anchor_right = 0.5
 		p.offset_left = -width / 2.0

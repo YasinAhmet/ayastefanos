@@ -26,7 +26,7 @@ var ev_id := ""
 
 func open(ev: Dictionary) -> void:
 	ev_id = str(ev["id"])
-	m = UIKit.modal(parent, Vector2(0.0, 0.86), WIDTH)
+	m = UIKit.modal(parent, Vector2(0.0, 0.86), WIDTH, true)
 	var body: VBoxContainer = m["body"]
 	var nation: Dictionary = state.nations.get(ev["nation"], {})
 	var head := UIKit.hbox(8)

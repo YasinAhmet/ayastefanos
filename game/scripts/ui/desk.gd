@@ -1217,6 +1217,8 @@ func _history_section(body: VBoxContainer, pred: Callable) -> void:
 # ---------------------------------------------------------------- actions
 
 func _open_event(ev: Dictionary) -> EventPanel:
+	if _letter != null and _letter.is_open() and not _auto_running:
+		return _letter  # one letter at a time: the one on the left stays
 	var p := EventPanel.new()
 	p.state = state
 	p.parent = self
@@ -1226,6 +1228,7 @@ func _open_event(ev: Dictionary) -> EventPanel:
 			_auto_stop()
 			main.show_ending()
 			return
+		map.restore_view()
 		refresh()
 		if p.chosen:
 			_continue.call_deferred()
@@ -1233,6 +1236,8 @@ func _open_event(ev: Dictionary) -> EventPanel:
 			_skipped[p.ev_id] = true
 	p.open(ev)
 	_letter = p
+	if not _auto_running:
+		map.frame_wide(EventPanel.WIDTH + 28)  # the whole map in the space right of the letter
 	return p
 
 
