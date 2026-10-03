@@ -1,0 +1,59 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+env:
+  GODOT_VERSION: "4.7-stable"
+  TEMPLATE_DIR: 4.7.stable
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download Godot and export templates
+        run: |
+          base="https://github.com/godotengine/godot-builds/releases/download/${GODOT_VERSION}"
+          curl -fsSL -o editor.zip "$base/Godot_v${GODOT_VERSION}_linux.x86_64.zip"
+          curl -fsSL -o templates.tpz "$base/Godot_v${GODOT_VERSION}_export_templates.tpz"
+          unzip -q editor.zip
+          mkdir -p "$HOME/.local/share/godot/export_templates/${TEMPLATE_DIR}"
+          unzip -q -j templates.tpz \
+            'templates/windows_release_x86_64.exe' \
+            'templates/linux_release.x86_64' \
+            'templates/version.txt' \
+            -d "$HOME/.local/share/godot/export_templates/${TEMPLATE_DIR}"
+          chmod +x "Godot_v${GODOT_VERSION}_linux.x86_64"
+
+      - name: Import assets
+        run: ./Godot_v${GODOT_VERSION}_linux.x86_64 --headless --import
+
+      - name: Export Windows and Linux
+        run: |
+          mkdir -p build/windows build/linux
+          ./Godot_v${GODOT_VERSION}_linux.x86_64 --headless --export-release "Windows Desktop"
+          ./Godot_v${GODOT_VERSION}_linux.x86_64 --headless --export-release "Linux"
+          test -s build/windows/AyastefanosUtanci.exe
+          test -s build/linux/AyastefanosUtanci.x86_64
+
+      - name: Zip
+        run: |
+          (cd build/windows && zip -q ../AyastefanosUtanci-windows-x64.zip AyastefanosUtanci.exe)
+          (cd build/linux && zip -q ../AyastefanosUtanci-linux-x64.zip AyastefanosUtanci.x86_64)
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            build/AyastefanosUtanci-windows-x64.zip \
+            build/AyastefanosUtanci-linux-x64.zip \
+            --title "${GITHUB_REF_NAME}" \
+            --generate-notes
