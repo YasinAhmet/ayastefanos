@@ -106,17 +106,17 @@ Ulusal havuz: `army_total() = roundi(value_of("harbiye") * 0.6)`; `army_reserve(
 ### Aylık hesap (`_front_tick`, aktif her cephe)
 
 ```
-nitelik   q = 0.6 + harbiye/125 (+ komutanın "nitelik" puanı/100)
+nitelik   q = 0.4 + harbiye/75 (+ komutanın "nitelik" puanı/100)
 kapasite  cap = max(1, eval(ikmal) - 2*depth  (+ komutanın "ikmal"/10))
 etkin     eff = div if div <= cap else cap + (div-cap)*0.25
 moral     m = 0.5 + morale/200
 mevsim    dağ: Ara–Mar 0.6 · çöl: Haz–Ağu 0.75 · diğer 1.0   (yalnız taarruz ve geri çekilmede; savunmada 1.0)
-duruş     taarruz 1.15 · savunma 1.0 · geri 0.8
+duruş     taarruz 1.3 · savunma 1.0 · geri 0.8
 komutan   1 + (taarruz|savunma puanı duruşa göre)/100
 bizim     ours = eff * q * m * mevsim * duruş * komutan
 düşman    enemy = max(1, eval(düşman_güç)) * (arazi=="kale" ve depth>0 ise 1.2) * (savunma duruşunda arazi dağ/kale ise 0.85)
 oran      r = ours / enemy
-kayma     d = clamp(roundi(10*ln(r)) + noise, -6, 6); noise = roundi(roll_range(-1.5, 1.5))
+kayma     d = clamp(roundi(14*ln(r)) + noise, -6, 6); noise = roundi(roll_range(-1.5, 1.5))
           taarruz: d>0 ise d = roundi(d*1.5)+1 · savunma: d = roundi(d*0.6) · geri: d = min(d, 0) - 1
 zayiat    L = div*0.01 * clamp(1/r, 0.3, 3) * duruşK(taarruz 2.0, savunma 0.7, geri 0.5)
           * (1.8 eğer mevsim<1) * exp(0.45*depth) * (1 + max(0, div-cap)*0.08) * (1 + komutanın "aşırı"/100 eğer taarruz)
@@ -153,3 +153,35 @@ Gizli kaynak `harp_yorgunlugu` (GD 02 tablosu, başlangıç 0). Ayda Σ L*1.5 ka
 - `roll`/`tier` için dağılım: "Başarı %62" ya da "ezici %10 · zafer %35 · çıkmaz %30 · yenilgi %20 · bozgun %5";
 - dünya/il değişiklikleri ve `▶` zincir ("bir evrak açar");
 - ters dizinden: "İleride N evrakı etkiler" (seçeneğin koyduğu bayrak ve dünya değerlerinin `reverse` listelerinin birleşimi, kendisi hariç).
+
+## 8. Devlet ilişkileri (veri ile, motor değişmeden)
+
+Her büyük devlet için GD 02 kaynak tablosunda **gizli** bir kaynak: `iliski_ru` (İlişki: Rusya), `iliski_in` (İngiltere), `iliski_fr` (Fransa), `iliski_av` (Avusturya-Macaristan), `iliski_it` (İtalya), `iliski_bu` (Bulgaristan), `iliski_yu` (Yunanistan). 0 düşmanlık, 50 soğuk tarafsızlık, 100 dostluk. Almanya için mevcut `alman_nufuzu` kullanılır. Başlangıçlar tasarım: RU 25, IN 55, FR 50, AV 40, IT 45, BU 30 (1878'den önce Bulgaristan yok, yine de değer tutulur), YU 30.
+
+- **Kayma** yıllık kurallarla (`tür: kural`): ör. Rusya Balkan'da ilerledikçe −, Girit/Ermeni meselesi Avrupa ile ilişkileri bozar; ilişki değeri `avrupa_baskisi`'ni etkiler.
+- **Elçilik kararları** (`tür: karar`, `yer:` mevcut landmark — Galata, Babıâli ya da devletin konumu): yaklaşma, imtiyaz, borç, askerî heyet. Bedel Para ya da başka bir ilişki.
+- **Harpler koşula bağlanır**: tarihî harplerin başlangıç olaylarına alternatif bir "harbi önle" seçeneği `şans:` ile eklenir (ilişki, Harbiye ve avrupa_baskisi formülde); tarihî seçenek harbi başlatır. Ayrıca alternatif harp tetikleri (`tetik · alternatif`): ilişki çok düşük ve Harbiye zayıfsa erken harp; ilişki yüksekse ittifak teklifleri.
+- **Büyük Harp safları**: dünya anahtarları (GD 04) `saf_bu`, `saf_it`, `saf_yu`, `saf_ro` (değerler `tarafsiz`, `ittifak`, `itilaf`; tarihî: BU ittifak 1915, IT itilaf 1915, YU itilaf 1917, RO itilaf 1916). 1914–1916'daki ilgili olaylar ilişki değerlerine göre `≡` koyar (şans ile). Cephe `düşman_güç` ifadeleri ve `koşul`ları bu değerleri okuyabilir (ör. Bulgaristan ittifakta değilse Trakya cephesi açılır).
+
+## 9. Hizipler (veri ile)
+
+GD 02'ye gizli kaynaklar: `ordu_sadakati` (ordunun hükümete bağlılığı, 60), `ulema` (ulema ve medrese tabanının gücü, 45), `muhalefet` (Ahrar/İtilaf ve Hürriyet; saray yolunda Jön Türk dışı muhalefet, 20). `hakimiyet` ve `jon_turk` kalır. Darbeler, karşı darbeler ve isyanlar bu değerlerin eşiklerinde **tetik** olaylarla gelir; sonuçları `şans`/`kademe` ile güce bağlıdır (ör. 31 Mart benzeri: `ulema >= 60 & ordu_sadakati <= 40`; Babıâli baskını benzeri: `jon_turk >= 70 & muhalefet >= 50`). Tarihî olaylar bu değerleri tarihî yönde kaydırır ki tarihî yol tutarlı kalsın.
+
+## 10. Gündem ağacı (motor + derleyici + UI)
+
+GD dosyası: `Lore/Game Design/GD 07 Gündem.md`. Blok:
+
+```
+### Gündem · Alman usulü ordu
+`gündem: g_alman_ordu` · `devir: 1880-1908` · `süre: 18ay` · `önce: g_harbiye_islahat` · `dışlar: g_ingiliz_bahriye, g_milis` · `tarihî` · `bayrak: AL`
+`koşul: !⚑yol_ittihat`
+Bir paragraf açıklama.
+> Kaynak: …
+`etki: Harbiye +10 · alman_nufuzu +10 · jon_turk +5 · +⚑goltz_serbest`
+```
+
+Alanlar: `gündem` (id, `g_` önekli), `devir: YYYY-YYYY` (başlatılabileceği yıllar), `süre: Nay|Nyıl`, `önce` (hepsi bitmiş olmalı; isteğe bağlı), `dışlar` (biri bitmiş/başlamışsa bu kilitli; karşılıklı yazılmalı, derleyici simetriyi denetler), `tarihî` (tarihte izlenen yol; Tarihî mod bunları sırayla otomatik yürütür), `bayrak`, `koşul`, `etki` (normal etki sözdizimi; şans/kademe yok). Derleyici JSON: `"focuses": {id: {id, name, text, from, to, months, requires, excludes, hist, cond, effects, sources, nation}}`; bilinmeyen id error; `önce` döngüsü error.
+
+Motor (`game_state.gd`): `focus_current := ""`, `focus_progress := 0`, `focus_done := {}` (id → month_key), kayda girer. `focus_state(id) -> "done"|"active"|"available"|"locked"` ve `focus_lock_reason(id)`. `start_focus(id)` (yalnız available; aktif varsa önce iptal — ilerleme kaybolur), `cancel_focus()`. `advance` içinde her ay aktif gündem `focus_progress += 1`; `>= months` olunca `_acting = name` ile etkiler uygulanır, `focus_done`, `history`'ye `{"id": id, "title": name, "option": "Gündem tamamlandı", "focus": true, …}` ve `year_log`'a kayıt. Tarihî modda: aktif yoksa `hist` olan ilk available gündem otomatik başlar; oyuncu başlatamaz. Fantezi'de oyuncu seçer; sim/autoplay rastgele seçer.
+
+UI: üst çubukta "Gündem" düğmesi (Payitaht'ın yanında) → `panels.gd`'de pencere: devirlere göre sütunlar, her gündem kartı durumuna göre renkli (bitti/aktif + ilerleme çubuğu/açık/kilitli + neden), kartta açıklama, süre ve etki önizlemesi (`event_panel` önizleme mantığıyla aynı metin), "Başlat" düğmesi.
