@@ -171,6 +171,7 @@ func _preview(effects: Array, ev: Dictionary) -> Dictionary:
 	var flat: Array = []
 	_flatten(effects, flat)
 	var hist := state.historical()
+	var groups := {}  # grup anahtarı → {"name": devlet, "provs": [il adları]}
 	for e in flat:
 		match str(e["t"]):
 			"res":
@@ -188,13 +189,29 @@ func _preview(effects: Array, ev: Dictionary) -> Dictionary:
 				var wn := str(state.world_defs.get(e["id"], {}).get("name", e["id"]))
 				parts.append("%s → %s" % [wn, state.world_label(str(e["id"]), str(e["v"]))])
 			"prov":
+				var own: bool = bool(e.get("own", true))
+				var unchanged: bool = state.province_holder(e["id"], "ctl") == e["v"]
+				if own:
+					unchanged = unchanged and state.province_holder(e["id"], "own") == e["v"]
+				if unchanged:
+					continue
 				var pn := str(state.provinces.get(e["id"], {}).get("name", e["id"]))
 				var nn := str(state.nations.get(e["v"], {}).get("name", e["v"]))
-				parts.append("%s → %s" % [pn, nn])
+				var gk := str(e["v"]) + ("" if own else "|işgal")
+				if not groups.has(gk):
+					groups[gk] = {"name": nn if own else nn + " (işgal)", "provs": []}
+				groups[gk]["provs"].append(pn)
 			"queue":
 				parts.append("Yeni bir evrak açar")
 			"end":
 				parts.append("Oyunu bitirir")
+	var prov_parts: PackedStringArray = []
+	for gk in groups:
+		prov_parts.append("%s: %s" % [groups[gk]["name"], ", ".join(groups[gk]["provs"])])
+	if not prov_parts.is_empty():
+		prov_parts[0] = "🗺 " + prov_parts[0]
+		prov_parts.append_array(parts)
+		parts = prov_parts
 	var tip := " · ".join(parts)
 	var line := tip
 	if not hist:
